@@ -1,0 +1,450 @@
+fileFormatVersion: 2
+guid: 8f5f6848a1293422a8c9456436e5e6e6
+timeCreated: 1443537341
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_preGame_bg
+    21300002: UI_preGame_topTitle
+    21300004: UI_preGame_starbg
+    21300006: UI_preGame_StarComplete
+    21300008: UI_preGame_bottomTab
+    21300010: UI_preGame_greenBtn
+    21300012: UI_preGame_leaf1
+    21300014: UI_preGame_leaf2
+    21300016: UI_preGame_leaf3
+    21300018: UI_preGame_btnPlus
+    21300020: UI_preGame_btnExit
+    21300022: UI_preGame_bgExit
+    21300024: UI_preGame_Coin
+    21300026: UI_preGame_checkmark
+    21300028: UI_preGame_debris
+    21300030: UI_preGame_debris2
+    21300032: UI_preGame_debris3
+    21300034: UI_preGame_debris4
+    21300036: UI_preGame_btnPower
+    21300038: SPRITE_GreenTab_Left
+    21300040: SPRITE_GreenTab_Mid
+    21300042: SPRITE_GreenTab_Right
+    21300044: SPRITE_BrownTab_Right
+    21300046: SPRITE_BrownTab_Mid
+    21300048: SPRITE_BrownTab_Left
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 2
+    aniso: 4
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_preGame_bg
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 119
+        width: 31
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_topTitle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_starbg
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 185
+        width: 109
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_StarComplete
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 185
+        width: 110
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_bottomTab
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427
+        width: 223
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_greenBtn
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 119
+        width: 201
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_leaf1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 300
+        width: 183
+        height: 66
+      alignment: 9
+      pivot: {x: 0.12296583, y: 0.6332388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_leaf2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 241
+        height: 130
+      alignment: 9
+      pivot: {x: 0.18844308, y: 0.87984914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_leaf3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 175
+        height: 115
+      alignment: 9
+      pivot: {x: 0.07867222, y: 0.47058958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_btnPlus
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 370
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_btnExit
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 439
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_bgExit
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 428
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_Coin
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 372
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_checkmark
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 437
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_debris
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 370
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_debris2
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 72
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_debris3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 47
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_debris4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UI_preGame_btnPower
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 174
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 58, z: 50, w: 38}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SPRITE_GreenTab_Left
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 118
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 11, z: 0, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SPRITE_GreenTab_Mid
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 118
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 11, z: 0, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SPRITE_GreenTab_Right
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 118
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 11, z: 9, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SPRITE_BrownTab_Right
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 253
+        width: 67
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 31, z: 38, w: 26}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SPRITE_BrownTab_Mid
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 253
+        width: 46
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 31, z: 0, w: 26}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SPRITE_BrownTab_Left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 63
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 31, z: 0, w: 26}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

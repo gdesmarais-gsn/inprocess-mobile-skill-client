@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff72bfd5645477ca2dac66db59fb73, type: 3}
+  m_Name: Results
+  m_EditorClassIdentifier: 
+  Name: Results
+  Steps:
+  - Id: Score2
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Score2
+      _fullPath: Gameplay/Score2
+      prefab: {fileID: 110832, guid: 0121f2824969f0644ac0240561e98b7b, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Final
+    BlocksInput: 1
+    AutoLaunchNextStep: 0
+    CompleteOnHide: 0
+    Prefab:
+      Name: Final
+      _fullPath: Gameplay/Final
+      prefab: {fileID: 110832, guid: fb0e0a801d9eb6344aae64a5174c8212, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0

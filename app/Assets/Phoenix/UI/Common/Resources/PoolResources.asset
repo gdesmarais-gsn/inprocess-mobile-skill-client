@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839916a8015bf444bb101c7319f667b4, type: 3}
+  m_Name: PoolResources
+  m_EditorClassIdentifier: 
+  poolList:
+  - resourceName: catch21html5
+    poolSize: 0
+  - resourceName: plinkohtml5
+    poolSize: 0
+  - resourceName: scrabblecubeshtml5
+    poolSize: 0
+  - resourceName: solitairerushhtml5
+    poolSize: 0
+  - resourceName: wheeloffortunehtml5
+    poolSize: 0
+  - resourceName: tripeakssolitaire
+    poolSize: 0
+  - resourceName: POPUP_TourneyDetails
+    poolSize: 1
+  - resourceName: PANEL_PlayerStanding
+    poolSize: 1
+  - resourceName: POPUP_TourneyResults
+    poolSize: 1
+  - resourceName: PANEL_TournamentTile
+    poolSize: 15
+  - resourceName: PANEL_PrizePoolItem
+    poolSize: 5
+  - resourceName: PANEL_GameHistory_Completed
+    poolSize: 10
+  - resourceName: PANEL_GameHistory_NotStarted
+    poolSize: 4
+  - resourceName: PANEL_GameHistory_Open
+    poolSize: 5
+  - resourceName: PANEL_GameHistoryBanner
+    poolSize: 3
+  - resourceName: POPUP_Login
+    poolSize: 1
+  - resourceName: POPUP_Registration
+    poolSize: 1
+  - resourceName: POPUP_Password
+    poolSize: 1
+  - resourceName: POPUP_Error
+    poolSize: 1
+  - resourceName: POPUP_Deposit
+    poolSize: 1
+  - resourceName: BTN_DepositAmountTile
+    poolSize: 6
+  - resourceName: PANEL_AddNewCard
+    poolSize: 1
+  - resourceName: PANEL_CreditCard
+    poolSize: 6
+  - resourceName: POPUP_Profile
+    poolSize: 1
+  - resourceName: PANEL_OtherPlayerStanding
+    poolSize: 6
+  - resourceName: PANEL_WaitingForPlayer
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Limited
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Premium
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Progressive
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_ProgressiveRush
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_SuperRewards
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Unlimited
+    poolSize: 3
+  - resourceName: POPUP_GeoNoPermissions
+    poolSize: 0
+  - resourceName: POPUP_GeoPrePermissions
+    poolSize: 0
+  - resourceName: PANEL_Username
+    poolSize: 0
+  - resourceName: POPUP_ForgotPassword
+    poolSize: 0
+  - resourceName: POPUP_Rewards
+    poolSize: 1
+  - resourceName: BTN_RewardStore_Item
+    poolSize: 3
+  - resourceName: PANEL_CreditCard_Saved
+    poolSize: 1
+  - resourceName: GameTile_ComingSoon
+    poolSize: 6
+  - resourceName: PANEL_TournamentFlavor_Warmup
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Limited_Dark
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Premium_Dark
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Progressive_Dark
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_ProgressiveRush_Dark
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_SuperRewards_Dark
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Warmup_Dark
+    poolSize: 3
+  - resourceName: PANEL_TournamentFlavor_Unlimited_Dark
+    poolSize: 3

@@ -1,0 +1,204 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'
+-r:'Assets/Common/ThirdPartyLibraries/Json.NET.dll'
+-r:'Assets/Games/GameSDK/Common/Client/Unity.IO.Compression.dll'
+-r:'Assets/Games/GameSDK/Common/Libraries/MsgPack.dll'
+-r:'Assets/Phoenix/Plugins/Kochava/JsonFx.Json.dll'
+-r:'Assets/Phoenix/Plugins/Kochava/Android/KochavaUnity.dll'
+-r:'Assets/Phoenix/QA/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll'
+-r:'/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_2
+-define:UNITY_5_5
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_WEBGL
+-define:UNITY_WEBGL_API
+-define:UNITY_DISABLE_WEB_VERIFICATION
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_IL2CPP
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_DUCK_TYPING
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/Property Drawers/DropdownOptionListDrawer.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/Property Drawers/GlyphInfoDrawer.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/Property Drawers/KerningPairDrawer.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/Property Drawers/SpriteInfoDrawer.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_BaseShaderGUI.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_BitmapShaderGUI.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_ColorGradientAssetMenu.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_ColorGradientEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_DropdownEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_EditorPanel.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_EditorUtility.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_FontAssetEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_InputFieldEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_MeshRendererEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_PostBuildProcessHandler.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_ResourcesLoader.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_SDFShaderGUI.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_SettingsEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_SpriteAssetEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_SpriteAssetImporter.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_SpriteAssetMenu.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_StyleAssetMenu.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_StyleSheetEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_SubMeshUI_Editor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_SubMesh_Editor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_UIStyleManager.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMP_UiEditorPanel.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_ContextMenus.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_CreateObjectMenu.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_EditorShaderUtilities.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_FontAssetCreatorWindow.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_FontPlugin.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_SDFMaterialEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_SortingLayerHelper.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_TextContainerEditor.cs'
+'Assets/Common/ThirdPartyLibraries/TextMesh Pro/Editor/TMPro_TexturePostProcessor.cs'
+'Assets/Games/GameSDK/ArenaDev/Editor/ArenaDebugPresetEditor.cs'
+'Assets/Games/GameSDK/Common/Editor/CreateTip.cs'
+'Assets/Games/GameSDK/Common/Editor/GameBuild/BuildGame.cs'
+'Assets/Games/GameSDK/Common/Editor/GameBuild/BuildHelpers.cs'
+'Assets/Games/GameSDK/Common/Editor/GameBuild/BuildUnityGame.cs'
+'Assets/Games/GameSDK/Common/Editor/GameBuild/PerformBuild.cs'
+'Assets/Games/GameSDK/Common/Editor/GameBuild/UnityBuild.cs'
+'Assets/Games/GameSDK/Common/Editor/Utils/AudioMapperEditor.cs'
+'Assets/Games/GameSDK/Common/Editor/Utils/CreateAnimCurve.cs'
+'Assets/Games/GameSDK/Common/Editor/Utils/CreateAssetBundles.cs'
+'Assets/Games/GameSDK/Common/Editor/Utils/CustomAssetUtil.cs'
+'Assets/Games/GameSDK/Common/Editor/Utils/EnumeratedArrayDrawer.cs'
+'Assets/Games/GameSDK/Common/Editor/Utils/StringBindEditorBase.cs'
+'Assets/Games/GameSDK/Common/Editor/Utils/TipEditor.cs'
+'Assets/Games/GameSDK/Tutorial/Editor/TutorialActiveAreasController_Inspector.cs'
+'Assets/Games/GameSDK/Tutorial/Editor/TutorialBlackoutController_Inspector.cs'
+'Assets/Games/GameSDK/Tutorial/Editor/TutorialStorage.cs'
+'Assets/Games/GameSDK/Tutorial/Editor/Tutorial_EditorWindow.cs'
+'Assets/Games/Tripeaks/Editor/AddLevelsToDB.cs'
+'Assets/Games/Tripeaks/Editor/BuildLevelData.cs'
+'Assets/Games/Tripeaks/Editor/CreateDeckData.cs'
+'Assets/Games/Tripeaks/Editor/LoadStringTable.cs'
+'Assets/Games/Tripeaks/Editor/UIInfoDrawer.cs'
+'Assets/Phoenix/Code/Build/Editor/BuildScript.cs'
+'Assets/Phoenix/Code/Editor/AnimationOverrideEditor.cs'
+'Assets/Phoenix/Code/Editor/CreateGameResource.cs'
+'Assets/Phoenix/Code/Editor/CreatePoolResource.cs'
+'Assets/Phoenix/Code/Editor/PostProcessBuildScripts/UpdateIOSProject.cs'
+'Assets/Phoenix/Code/Strings/Editor/LoadStringTable.cs'
+'Assets/Phoenix/Code/Strings/Editor/TextMeshProStringBindEditor.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/AssertionComponentEditor.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/AssertionExplorerWindow.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/AssertionListRenderer.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/AssertionStripper.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/DropDownControl.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/GroupByComparerRenderer.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/GroupByExecutionMethodRenderer.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/GroupByGORenderer.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/GroupByNothingRenderer.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/GroupByTestsRenderer.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/PropertyPathSelector.cs'
+'Assets/Phoenix/QA/UnityTestTools/Assertions/Editor/PropertyResolver.cs'
+'Assets/Phoenix/QA/UnityTestTools/Common/Editor/Icons.cs'
+'Assets/Phoenix/QA/UnityTestTools/Common/Editor/ProjectSettingsBase.cs'
+'Assets/Phoenix/QA/UnityTestTools/Common/Editor/ResultWriter/ResultSummarizer.cs'
+'Assets/Phoenix/QA/UnityTestTools/Common/Editor/ResultWriter/StackTraceFilter.cs'
+'Assets/Phoenix/QA/UnityTestTools/Common/Editor/ResultWriter/XmlResultWriter.cs'
+'Assets/Phoenix/QA/UnityTestTools/Common/Editor/Styles.cs'
+'Assets/Phoenix/QA/UnityTestTools/Common/Editor/TestFilterSettings.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/Batch.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/EditorReferencesUtil.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/GuiHelper.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/IntegrationTestsHierarchyAnnotation.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/IntegrationTestsRunnerSettings.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/IntegrationTestsRunnerWindow.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/PlatformRunner/NetworkResultsReceiver.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/PlatformRunner/PlatformRunner.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/PlatformRunner/PlatformRunnerConfiguration.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/PlatformRunner/PlatformRunnerSettings.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/PlatformRunner/PlatformRunnerSettingsWindow.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/PlatformRunner/PlayerSettingConfigurator.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/Renderer/IntegrationTestGroupLine.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/Renderer/IntegrationTestLine.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/Renderer/IntegrationTestRendererBase.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/Renderer/RenderingOptions.cs'
+'Assets/Phoenix/QA/UnityTestTools/IntegrationTestsFramework/TestRunner/Editor/TestComponentEditor.cs'
+'Assets/Phoenix/ThirdPartyLibraries/Reporter/Editor/ReporterEditor.cs'
+'Assets/Phoenix/ThirdPartyLibraries/gree_unity-webview/Android/Editor/UnityWebViewPostprocessBuild.cs'
+'Assets/Phoenix/ThirdPartyLibraries/gree_unity-webview/iOS/Editor/UnityWebViewPostprocessBuild.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll'
+-sdk:2.0

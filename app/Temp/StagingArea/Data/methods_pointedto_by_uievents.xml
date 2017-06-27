@@ -1,0 +1,46 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GSN.Skill.Games.Tripeaks.UIAbortDialog">
+			<method name="onConfirmClick"/>
+			<method name="onCancelClick"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.UIHud">
+			<method name="onCloseClicked"/>
+			<method name="SpeedUpTimeUp"/>
+			<method name="SpeedUpTimeDown"/>
+			<method name="animateTimerIn"/>
+			<method name="animateStreakMeterIn"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.View">
+			<method name="StartTutorialClock"/>
+			<method name="OnReshuffleButton"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.UIStartScreen">
+			<method name="onCloseClick"/>
+			<method name="playButtonClickSound"/>
+			<method name="onStartButton"/>
+			<method name="playButtonClickSound"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController">
+			<method name="Advance"/>
+			<method name="Advance"/>
+			<method name="Advance"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.UIResults">
+			<method name="ContinueButtonEnabled"/>
+			<method name="onContinueClick"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.UISettings">
+			<method name="toggleMusic"/>
+			<method name="toggleSoundFX"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.UIToggleSlider">
+			<method name="isOn"/>
+			<method name="isOn"/>
+		</type>
+		<type fullname="GSN.Skill.Games.Tripeaks.Board">
+			<method name="DealOneShotWild"/>
+			<method name="DisableWildButton"/>
+		</type>
+	</assembly>
+</linker>

@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SceneryChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.9929276, y: .00837886333, z: -20.4149742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f0841a6ff6fbb49b8bc564505c5a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneCategories:
+  - name: location
+    scenes:
+    - name: tiki_beach
+      parentSceneName: day
+      bgmID: 
+      ID: 0
+      objectsToShow: []
+      objectsToHide:
+      - {fileID: 0}
+      - {fileID: 0}
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: aloha_harbor
+      parentSceneName: sunset
+      bgmID: 
+      ID: 1
+      objectsToShow:
+      - {fileID: 0}
+      - {fileID: 0}
+      objectsToHide: []
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: paradise_pier
+      parentSceneName: night
+      bgmID: 
+      ID: 8
+      objectsToShow: []
+      objectsToHide:
+      - {fileID: 0}
+      - {fileID: 0}
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: coconut_grove
+      parentSceneName: day
+      bgmID: 
+      ID: 3
+      objectsToShow: []
+      objectsToHide: []
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: flower_lagoon
+      parentSceneName: day
+      bgmID: 
+      ID: 2
+      objectsToShow:
+      - {fileID: 0}
+      objectsToHide: []
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: hibiscus_harbor
+      parentSceneName: night
+      bgmID: 
+      ID: 6
+      objectsToShow:
+      - {fileID: 0}
+      objectsToHide:
+      - {fileID: 0}
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: limestone
+      parentSceneName: day
+      bgmID: 
+      ID: 7
+      objectsToShow: []
+      objectsToHide: []
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: tiki_torch_corner
+      parentSceneName: night
+      bgmID: 
+      ID: 4
+      objectsToShow: []
+      objectsToHide:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: turtle_beach
+      parentSceneName: sunset
+      bgmID: 
+      ID: 5
+      objectsToShow:
+      - {fileID: 0}
+      objectsToHide: []
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: volcano
+      parentSceneName: sunset
+      bgmID: 
+      ID: 9
+      objectsToShow:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      objectsToHide: []
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 0
+        fogEnable: 0
+        fogColor: {r: 0, g: 0, b: 0, a: 0}
+        fogMode: 0
+        fogDensity: 0
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+  - name: time
+    scenes:
+    - name: day
+      parentSceneName: 
+      bgmID: 
+      ID: 0
+      objectsToShow:
+      - {fileID: 0}
+      objectsToHide:
+      - {fileID: 0}
+      objectsToChange: []
+      materialChanges: []
+      fog:
+        fogSettingsEnabled: 1
+        fogEnable: 1
+        fogColor: {r: .662745118, g: .839215696, b: .886274517, a: 1}
+        fogMode: 3
+        fogDensity: .00200000009
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: sunset
+      parentSceneName: 
+      bgmID: 
+      ID: 0
+      objectsToShow:
+      - {fileID: 0}
+      objectsToHide:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      objectsToChange:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      materialChanges:
+      - fromMaterial: {fileID: 2100000, guid: c2cb1585e05714b49bd4c49a2d4a1794, type: 2}
+        toMaterial: {fileID: 2100000, guid: 6e7fc8ca7402f8a42a4da34f085b5710, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 5572f6ff5efdb3a4b958aa09050d7028, type: 2}
+        toMaterial: {fileID: 2100000, guid: 8bbd6dd5da933774dbe7c4924313e068, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 59f14468545477d4c94a9bdad2d91eb2, type: 2}
+        toMaterial: {fileID: 2100000, guid: 869974a1fe7564f48a78a7eee8f9befe, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 8a3de20abb295434cb99d08da1c2ad7b, type: 2}
+        toMaterial: {fileID: 2100000, guid: 2f9ef72b13eaaee4dbe214469c60b4b1, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 36b90b7f92c05344e986d03327a3a5ac, type: 2}
+        toMaterial: {fileID: 2100000, guid: c833bb286e599d34f88c1a6337f23eb2, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: d0c786b1cf0a779439bb7a632c48c00b, type: 2}
+        toMaterial: {fileID: 2100000, guid: 86ff89fd635aa6b4d87a2c2aff2579c4, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: d9ae286b73c272f4594d8467678766e1, type: 2}
+        toMaterial: {fileID: 2100000, guid: 0905a4c31104fbf4a90eab48b1dbe417, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 36898c1030a8c714f95a2f3f5e0a17db, type: 2}
+        toMaterial: {fileID: 2100000, guid: dcceb0664018cd34a83e57059fb5d422, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 7631dca6047304b4a91a1d32365ec084, type: 2}
+        toMaterial: {fileID: 2100000, guid: 00cee9040ce7db04498646ddfbe988c0, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 7d4f21045b526f04bb421397f8dce590, type: 2}
+        toMaterial: {fileID: 2100000, guid: cef996dceef19514885e477f206a038f, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 86a149de6c65a36429c0e8dc5b82d23a, type: 2}
+        toMaterial: {fileID: 2100000, guid: 79a1416412ebf364eb264bf0203c66aa, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: c7ad05006b3e1bf4fa9d4359445b237f, type: 2}
+        toMaterial: {fileID: 2100000, guid: af83c6538f24748478bb64fd63bcadbd, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 993bc5733ef8bde48a85646df248884a, type: 2}
+        toMaterial: {fileID: 2100000, guid: 7c71d96f5f63883458ce01bdd6d5e63d, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 1c4d4a8ccf9dd2948b3014a8f12ffded, type: 2}
+        toMaterial: {fileID: 2100000, guid: 5691d721352f7b540950926235c24709, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 2a2c6e2f1d2f96d40a09b42d0eb7f14d, type: 2}
+        toMaterial: {fileID: 2100000, guid: b1ed9609a2c1a014687bb4e7b104efae, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: a04cbdcf62e24c14a8f536c0a2770c0c, type: 2}
+        toMaterial: {fileID: 2100000, guid: f1f052a0ca882014992294d289eec819, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: f531d871c538fc7438dfe0f794fae892, type: 2}
+        toMaterial: {fileID: 2100000, guid: dd589a3466d872142a444d3fb714c5b9, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 0cea628a7affcf64ab7999afa7e3c4bd, type: 2}
+        toMaterial: {fileID: 2100000, guid: c2dedb3b3fde3ea4eb43e2830d4ddf7e, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 6c960ec23bbeccb448275c856a7beed5, type: 2}
+        toMaterial: {fileID: 2100000, guid: eddaa64e379af984a81ea076e4d249c6, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 7587644aeb8aa0f4f9d213c0f2b8cb72, type: 2}
+        toMaterial: {fileID: 2100000, guid: daa57a0d3ec3a844a907a61677773b28, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 75899b4bc8b94bc4186e45bef5851da1, type: 2}
+        toMaterial: {fileID: 2100000, guid: 78ad864b66599894cb81cd66011fca21, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 40bb836617edd1b42bc74b1bcfe0c0a4, type: 2}
+        toMaterial: {fileID: 2100000, guid: 954116f3072b01047bd21a6b943489e0, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: a9e6a131e1016a64d8a7dd0e7cfb51af, type: 2}
+        toMaterial: {fileID: 2100000, guid: 58346ee1efb8a564ca4c1e44801e29be, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 4195f42a8cc41674a8a6bd38ecd37b7b, type: 2}
+        toMaterial: {fileID: 2100000, guid: 3346a4e237dc94f4398b83be4a0ec04a, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: d0c786b1cf0a779439bb7a632c48c00b, type: 2}
+        toMaterial: {fileID: 2100000, guid: 86ff89fd635aa6b4d87a2c2aff2579c4, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 4010f1e04a802ae4690e077a6c53e734, type: 2}
+        toMaterial: {fileID: 2100000, guid: 4d6e3238c2ac78c4285bb0b936f3b5e7, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 74502d738b3cec64aaaf5284e33168e0, type: 2}
+        toMaterial: {fileID: 2100000, guid: ca18688d66b6fbd489bccd4fdadcb01a, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: b47e68388029e7645bc10ba24299fd2f, type: 2}
+        toMaterial: {fileID: 2100000, guid: 9cb39edd6b71e8d43989829f4e421983, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 86b50bb51b6a16947b41f2315ceba414, type: 2}
+        toMaterial: {fileID: 2100000, guid: cd1785183ea01264fbcbede66d3a337c, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: c6e70438d9d5e1c4b9c30a3504534d00, type: 2}
+        toMaterial: {fileID: 2100000, guid: 2bae370789aeff84cb493ae4a0a94b9f, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 631db746405030d4da466c66bdb9fbcd, type: 2}
+        toMaterial: {fileID: 2100000, guid: 59d8c731d236c5f4281a7672ecf91ea1, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 71cf143fa6618b14da117749fe2fe654, type: 2}
+        toMaterial: {fileID: 2100000, guid: 4ab5b0cb454e375409e5092c18c4985f, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 9b0ff87e28bf149438f3e28da0ba7ba6, type: 2}
+        toMaterial: {fileID: 2100000, guid: 0c9402f6cdc3b7940bbe79919a462c3a, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 8fb3ecc618c1d6a418d4c64e2ecd4899, type: 2}
+        toMaterial: {fileID: 2100000, guid: b4d60cf247f00a5448cc246b0be47d3c, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 53976d5e7618cda4c8998658d60e9ccd, type: 2}
+        toMaterial: {fileID: 2100000, guid: 956b77ac02506534c9ac1d0955b013e6, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 3e7a42acef0b4fc4088171cd276d127d, type: 2}
+        toMaterial: {fileID: 2100000, guid: 1d4048ec9c1c33f4ca5b69a9ccda78e3, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 4545f7b87fbdcb947aebe17434ee7c08, type: 2}
+        toMaterial: {fileID: 2100000, guid: 6560dd4f4bcc0ae4ebd5539e1c9f3e92, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 1557e45e84c0b6f4197bceb5ac2b02b1, type: 2}
+        toMaterial: {fileID: 2100000, guid: a8382a1ea6f38ed4b811fdfdb1db5692, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 127415f9ae78ddc4aa20e78e08d691a2, type: 2}
+        toMaterial: {fileID: 2100000, guid: 3848bbf18ba4dd842bf38e82675f646c, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 7a7f22b981d8ba547accc67600d69dfa, type: 2}
+        toMaterial: {fileID: 2100000, guid: b889dde3cd1246b4c9973d0197094c7b, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 87e6b144078032548b9972f6ee77456f, type: 2}
+        toMaterial: {fileID: 2100000, guid: 016a4ee9505feee4cb5298383cf2a899, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 358de1cece5380343a28ebfdc02e49da, type: 2}
+        toMaterial: {fileID: 2100000, guid: dfe3e3c5290e55440b940d45f6c8db19, type: 2}
+      fog:
+        fogSettingsEnabled: 1
+        fogEnable: 1
+        fogColor: {r: .886274517, g: .68235296, b: .525490224, a: 1}
+        fogMode: 3
+        fogDensity: .00200000009
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+    - name: night
+      parentSceneName: 
+      bgmID: 
+      ID: 0
+      objectsToShow:
+      - {fileID: 0}
+      objectsToHide:
+      - {fileID: 0}
+      objectsToChange:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      materialChanges:
+      - fromMaterial: {fileID: 2100000, guid: c2cb1585e05714b49bd4c49a2d4a1794, type: 2}
+        toMaterial: {fileID: 2100000, guid: ea48641ad08dbaa4fa01e2b84330d618, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 5572f6ff5efdb3a4b958aa09050d7028, type: 2}
+        toMaterial: {fileID: 2100000, guid: f6fe17797d201d34fa935a474aa16201, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 59f14468545477d4c94a9bdad2d91eb2, type: 2}
+        toMaterial: {fileID: 2100000, guid: 07de6c97fd47d9a409067149b7626d79, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 8a3de20abb295434cb99d08da1c2ad7b, type: 2}
+        toMaterial: {fileID: 2100000, guid: d112446bdedf4da4d9b225abdf51328f, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 36b90b7f92c05344e986d03327a3a5ac, type: 2}
+        toMaterial: {fileID: 2100000, guid: 7f62026bf8b7d9248b49367ef6a93e7b, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: d0c786b1cf0a779439bb7a632c48c00b, type: 2}
+        toMaterial: {fileID: 2100000, guid: 99e1a72d9ab9173459eca0c91598b755, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: d9ae286b73c272f4594d8467678766e1, type: 2}
+        toMaterial: {fileID: 2100000, guid: f5ae8bce4a839ca4d8defa4073e4c4aa, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 36898c1030a8c714f95a2f3f5e0a17db, type: 2}
+        toMaterial: {fileID: 2100000, guid: ab24bc9209b488c4facdc95ae7ef13e4, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 7631dca6047304b4a91a1d32365ec084, type: 2}
+        toMaterial: {fileID: 2100000, guid: 125c6dc4db5582b46be2fbac074c7f4c, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 7d4f21045b526f04bb421397f8dce590, type: 2}
+        toMaterial: {fileID: 2100000, guid: 27448372f0054d648bdcc8740c86fe40, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 86a149de6c65a36429c0e8dc5b82d23a, type: 2}
+        toMaterial: {fileID: 2100000, guid: a7b496fcae56ac848aa9999e22d3bebb, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: c7ad05006b3e1bf4fa9d4359445b237f, type: 2}
+        toMaterial: {fileID: 2100000, guid: f836bf00597558e46920b2bc27b5f589, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 993bc5733ef8bde48a85646df248884a, type: 2}
+        toMaterial: {fileID: 2100000, guid: a8ae25f6a0c11d44abf75953f77c5df2, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 1c4d4a8ccf9dd2948b3014a8f12ffded, type: 2}
+        toMaterial: {fileID: 2100000, guid: 22ee3d228915d9c4dbc5d2a069200ce4, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 2a2c6e2f1d2f96d40a09b42d0eb7f14d, type: 2}
+        toMaterial: {fileID: 2100000, guid: 9e862e72a396a694f8cd9a52e4c0ce54, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: a04cbdcf62e24c14a8f536c0a2770c0c, type: 2}
+        toMaterial: {fileID: 2100000, guid: d9df1a51e7a37584b826d88df2c52740, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: f531d871c538fc7438dfe0f794fae892, type: 2}
+        toMaterial: {fileID: 2100000, guid: ef15d403bcda05d4c9a0f33538ea9eb5, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 0cea628a7affcf64ab7999afa7e3c4bd, type: 2}
+        toMaterial: {fileID: 2100000, guid: 4dcbfa34f96ae3f48898da501b8b9371, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 6c960ec23bbeccb448275c856a7beed5, type: 2}
+        toMaterial: {fileID: 2100000, guid: 0133f59f825d16a49877c2e70f39f75a, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 75899b4bc8b94bc4186e45bef5851da1, type: 2}
+        toMaterial: {fileID: 2100000, guid: 4e12b1cb28a2cca48bb33efb8f264dff, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 40bb836617edd1b42bc74b1bcfe0c0a4, type: 2}
+        toMaterial: {fileID: 2100000, guid: 3405ed400627a6e41ae368e07ab61b97, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: a9e6a131e1016a64d8a7dd0e7cfb51af, type: 2}
+        toMaterial: {fileID: 2100000, guid: e7aba06dee5dbd443aea9ed36d5c8c64, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 4195f42a8cc41674a8a6bd38ecd37b7b, type: 2}
+        toMaterial: {fileID: 2100000, guid: 1422fbbc443121f42a10342b0a23e2b1, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 9a02233130cc42c47976b254007e8eec, type: 2}
+        toMaterial: {fileID: 2100000, guid: ef5089e4640c0104c897a5afa5b19c0d, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 05f078009b730f1459810814d0b9d3b9, type: 2}
+        toMaterial: {fileID: 2100000, guid: 3111342b4241f8545a6dfe7d9ef669ff, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 48a43b24a703a7a4694068930eca0e28, type: 2}
+        toMaterial: {fileID: 2100000, guid: 9c43babe481e396458ff8ffb8071f946, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 74502d738b3cec64aaaf5284e33168e0, type: 2}
+        toMaterial: {fileID: 2100000, guid: 00b52e2a9cd6c444aa191c5f445e106f, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 4010f1e04a802ae4690e077a6c53e734, type: 2}
+        toMaterial: {fileID: 2100000, guid: b61e29150cc928144901e38b5aa8923a, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: b47e68388029e7645bc10ba24299fd2f, type: 2}
+        toMaterial: {fileID: 2100000, guid: e906d21a82f291645a8cc8b1af2537e4, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 86b50bb51b6a16947b41f2315ceba414, type: 2}
+        toMaterial: {fileID: 2100000, guid: 0cbfaf8531d2fd645a50d1d75e635e08, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: c6e70438d9d5e1c4b9c30a3504534d00, type: 2}
+        toMaterial: {fileID: 2100000, guid: 22a0198c6ded72b48bb4bd3d08875b82, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 631db746405030d4da466c66bdb9fbcd, type: 2}
+        toMaterial: {fileID: 2100000, guid: 53993762cc1286944a2864e84e801f3c, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 71cf143fa6618b14da117749fe2fe654, type: 2}
+        toMaterial: {fileID: 2100000, guid: d1fb76ec5fc44794398e8eaa325d55ab, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 9b0ff87e28bf149438f3e28da0ba7ba6, type: 2}
+        toMaterial: {fileID: 2100000, guid: 607f9cc7c2bdc3d4bb5b8e13b29c9cf4, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 8fb3ecc618c1d6a418d4c64e2ecd4899, type: 2}
+        toMaterial: {fileID: 2100000, guid: 106660a84e254f049b4d7aad153d7636, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 53976d5e7618cda4c8998658d60e9ccd, type: 2}
+        toMaterial: {fileID: 2100000, guid: 4e4509562e034f744a315e12091736e5, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 3e7a42acef0b4fc4088171cd276d127d, type: 2}
+        toMaterial: {fileID: 2100000, guid: a69d04719da3f28489b90db3d71d7275, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 4545f7b87fbdcb947aebe17434ee7c08, type: 2}
+        toMaterial: {fileID: 2100000, guid: b40f2748dd8735442abbb67f15bdafc8, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 1557e45e84c0b6f4197bceb5ac2b02b1, type: 2}
+        toMaterial: {fileID: 2100000, guid: d74bf200f9a7bfb449cb4dd91694dcbb, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 127415f9ae78ddc4aa20e78e08d691a2, type: 2}
+        toMaterial: {fileID: 2100000, guid: 52398849f530ba044abe5792a5eadc47, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 7a7f22b981d8ba547accc67600d69dfa, type: 2}
+        toMaterial: {fileID: 2100000, guid: fff6622773825c4409f5fcab6a9dc0ef, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 87e6b144078032548b9972f6ee77456f, type: 2}
+        toMaterial: {fileID: 2100000, guid: e621a24e15a93aa47919c66c8dbde2d1, type: 2}
+      - fromMaterial: {fileID: 2100000, guid: 358de1cece5380343a28ebfdc02e49da, type: 2}
+        toMaterial: {fileID: 2100000, guid: dab16d4698320004294ea833fbeeb46a, type: 2}
+      fog:
+        fogSettingsEnabled: 1
+        fogEnable: 1
+        fogColor: {r: .278431386, g: .41568628, b: .694117665, a: 1}
+        fogMode: 3
+        fogDensity: .00200000009
+        linearFogStart: 0
+        linearFogEnd: 0
+      camera: {fileID: 0}
+  initialSceneName: day
+  initialUnapplySceneNames:
+  - sunset
+  - night
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

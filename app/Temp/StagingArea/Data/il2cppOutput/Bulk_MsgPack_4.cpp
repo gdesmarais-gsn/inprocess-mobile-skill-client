@@ -1,0 +1,18526 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// MsgPack.Serialization.AotHelper/System_UIntPtrEqualityComparer
+struct System_UIntPtrEqualityComparer_t599445730;
+// MsgPack.Serialization.CollectionSerializers.UnityCollectionMessagePackSerializer
+struct UnityCollectionMessagePackSerializer_t4230566959;
+// MsgPack.Serialization.SerializationContext
+struct SerializationContext_t1484625559;
+// System.Type
+struct Type_t;
+// MsgPack.Serialization.CollectionTraits
+struct CollectionTraits_t1823801989;
+// MsgPack.Serialization.PolymorphismSchema
+struct PolymorphismSchema_t2690808062;
+// MsgPack.Packer
+struct Packer_t1439452732;
+// System.Object
+struct Il2CppObject;
+// MsgPack.Unpacker
+struct Unpacker_t998931393;
+// MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer
+struct UnityDictionaryMessagePackSerializer_t1516787527;
+// MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializer
+struct UnityEnumerableMessagePackSerializer_t3236157933;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t2981576340;
+// System.Collections.IEnumerable
+struct IEnumerable_t2911409499;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase
+struct UnityEnumerableMessagePackSerializerBase_t4066395016;
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer
+struct IMessagePackSingleObjectSerializer_t659509506;
+// MsgPack.Serialization.CollectionSerializers.UnityNonGenericCollectionMessagePackSerializer
+struct UnityNonGenericCollectionMessagePackSerializer_t3652935795;
+// MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer
+struct UnityNonGenericDictionaryMessagePackSerializer_t3842043703;
+// System.Collections.IDictionary
+struct IDictionary_t596158605;
+// MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializer
+struct UnityNonGenericEnumerableMessagePackSerializer_t186213429;
+// MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase
+struct UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866;
+// MsgPack.Serialization.CollectionSerializers.UnityNonGenericListMessagePackSerializer
+struct UnityNonGenericListMessagePackSerializer_t3141818323;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// MsgPack.Serialization.DataMemberContract
+struct DataMemberContract_t3068833586;
+// System.String
+struct String_t;
+// System.Reflection.MemberInfo
+struct MemberInfo_t;
+// MsgPack.Serialization.MessagePackMemberAttribute
+struct MessagePackMemberAttribute_t1681615454;
+// MsgPack.Serialization.DefaultConcreteTypeRepository
+struct DefaultConcreteTypeRepository_t1959877892;
+// MsgPack.Serialization.DefaultSerializers.AbstractCollectionMessagePackSerializer
+struct AbstractCollectionMessagePackSerializer_t2380864482;
+// MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory
+struct ICollectionInstanceFactory_t3704555280;
+// MsgPack.Serialization.DefaultSerializers.AbstractDictionaryMessagePackSerializer
+struct AbstractDictionaryMessagePackSerializer_t2071025354;
+// MsgPack.Serialization.DefaultSerializers.AbstractEnumerableMessagePackSerializer
+struct AbstractEnumerableMessagePackSerializer_t1115660484;
+// MsgPack.Serialization.DefaultSerializers.AbstractNonGenericCollectionMessagePackSerializer
+struct AbstractNonGenericCollectionMessagePackSerializer_t2880081730;
+// MsgPack.Serialization.DefaultSerializers.AbstractNonGenericDictionaryMessagePackSerializer
+struct AbstractNonGenericDictionaryMessagePackSerializer_t2458143358;
+// MsgPack.Serialization.DefaultSerializers.AbstractNonGenericEnumerableMessagePackSerializer
+struct AbstractNonGenericEnumerableMessagePackSerializer_t410058080;
+// MsgPack.Serialization.DefaultSerializers.AbstractNonGenericListMessagePackSerializer
+struct AbstractNonGenericListMessagePackSerializer_t582739518;
+// System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<MsgPack.Serialization.SerializationContext,System.Object>>
+struct Dictionary_2_t77722262;
+// MsgPack.Serialization.DefaultSerializers.BinaryArraySerializer
+struct BinaryArraySerializer_t687290028;
+// System.Byte[][]
+struct ByteU5BU5DU5BU5D_t717853552;
+// MsgPack.Serialization.DefaultSerializers.BooleanArraySerializer
+struct BooleanArraySerializer_t630780897;
+// System.Boolean[]
+struct BooleanU5BU5D_t3568034315;
+// MsgPack.Serialization.DefaultSerializers.ByteArraySerializer
+struct ByteArraySerializer_t3005340975;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// MsgPack.Serialization.DefaultSerializers.DateTimeMessagePackSerializerProvider
+struct DateTimeMessagePackSerializerProvider_t1113846186;
+// MsgPack.Serialization.DefaultSerializers.DateTimeOffsetMessagePackSerializer
+struct DateTimeOffsetMessagePackSerializer_t4214966254;
+// MsgPack.Serialization.DefaultSerializers.DateTimeOffsetMessagePackSerializerProvider
+struct DateTimeOffsetMessagePackSerializerProvider_t1875481991;
+// MsgPack.Serialization.DefaultSerializers.DoubleArraySerializer
+struct DoubleArraySerializer_t3306240564;
+// System.Double[]
+struct DoubleU5BU5D_t1889952540;
+// MsgPack.Serialization.DefaultSerializers.Int16ArraySerializer
+struct Int16ArraySerializer_t2119299061;
+// System.Int16[]
+struct Int16U5BU5D_t3104283263;
+// MsgPack.Serialization.DefaultSerializers.Int32ArraySerializer
+struct Int32ArraySerializer_t3458876511;
+// System.Int32[]
+struct Int32U5BU5D_t3030399641;
+// MsgPack.Serialization.DefaultSerializers.Int64ArraySerializer
+struct Int64ArraySerializer_t45890286;
+// System.Int64[]
+struct Int64U5BU5D_t717125112;
+// MsgPack.Serialization.DefaultSerializers.MessagePackObjectArraySerializer
+struct MessagePackObjectArraySerializer_t1638335348;
+// MsgPack.MessagePackObject[]
+struct MessagePackObjectU5BU5D_t2140654842;
+// MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer
+struct MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer_t2675704845;
+// MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectDictionaryMessagePackSerializer
+struct MsgPack_MessagePackObjectDictionaryMessagePackSerializer_t4223362754;
+// MsgPack.MessagePackObjectDictionary
+struct MessagePackObjectDictionary_t4175726983;
+// MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectMessagePackSerializer
+struct MsgPack_MessagePackObjectMessagePackSerializer_t1132295234;
+// MsgPack.Serialization.DefaultSerializers.NativeDateTimeMessagePackSerializer
+struct NativeDateTimeMessagePackSerializer_t1710272842;
+// MsgPack.Serialization.DefaultSerializers.NullableBooleanArraySerializer
+struct NullableBooleanArraySerializer_t2148955562;
+// System.Nullable`1<System.Boolean>[]
+struct Nullable_1U5BU5D_t2319110068;
+// MsgPack.Serialization.DefaultSerializers.NullableByteArraySerializer
+struct NullableByteArraySerializer_t1530104442;
+// System.Nullable`1<System.Byte>[]
+struct Nullable_1U5BU5D_t2148409766;
+// MsgPack.Serialization.DefaultSerializers.NullableDoubleArraySerializer
+struct NullableDoubleArraySerializer_t2412601813;
+// System.Nullable`1<System.Double>[]
+struct Nullable_1U5BU5D_t641028293;
+// MsgPack.Serialization.DefaultSerializers.NullableInt16ArraySerializer
+struct NullableInt16ArraySerializer_t336170484;
+// System.Nullable`1<System.Int16>[]
+struct Nullable_1U5BU5D_t1855359016;
+// MsgPack.Serialization.DefaultSerializers.NullableInt32ArraySerializer
+struct NullableInt32ArraySerializer_t3300768650;
+// System.Nullable`1<System.Int32>[]
+struct Nullable_1U5BU5D_t1781475394;
+// MsgPack.Serialization.DefaultSerializers.NullableInt64ArraySerializer
+struct NullableInt64ArraySerializer_t1912970109;
+// System.Nullable`1<System.Int64>[]
+struct Nullable_1U5BU5D_t3763168161;
+// MsgPack.Serialization.DefaultSerializers.NullableMessagePackSerializer
+struct NullableMessagePackSerializer_t1470292499;
+// MsgPack.Serialization.DefaultSerializers.NullableSByteArraySerializer
+struct NullableSByteArraySerializer_t1194933953;
+// System.Nullable`1<System.SByte>[]
+struct Nullable_1U5BU5D_t2223363145;
+// MsgPack.Serialization.DefaultSerializers.NullableSingleArraySerializer
+struct NullableSingleArraySerializer_t316629808;
+// System.Nullable`1<System.Single>[]
+struct Nullable_1U5BU5D_t3623170446;
+// MsgPack.Serialization.DefaultSerializers.NullableUInt16ArraySerializer
+struct NullableUInt16ArraySerializer_t24215337;
+// System.Nullable`1<System.UInt16>[]
+struct Nullable_1U5BU5D_t1278342475;
+// MsgPack.Serialization.DefaultSerializers.NullableUInt32ArraySerializer
+struct NullableUInt32ArraySerializer_t679342319;
+// System.Nullable`1<System.UInt32>[]
+struct Nullable_1U5BU5D_t3105429265;
+// MsgPack.Serialization.DefaultSerializers.NullableUInt64ArraySerializer
+struct NullableUInt64ArraySerializer_t1348238854;
+// System.Nullable`1<System.UInt64>[]
+struct Nullable_1U5BU5D_t419764528;
+// MsgPack.Serialization.DefaultSerializers.SByteArraySerializer
+struct SByteArraySerializer_t2406072874;
+// System.SByte[]
+struct SByteU5BU5D_t3472287392;
+// MsgPack.Serialization.DefaultSerializers.SingleArraySerializer
+struct SingleArraySerializer_t715785947;
+// System.Single[]
+struct SingleU5BU5D_t577127397;
+// MsgPack.Serialization.DefaultSerializers.StringArraySerializer
+struct StringArraySerializer_t2935457984;
+// System.String[]
+struct StringU5BU5D_t1642385972;
+// MsgPack.Serialization.DefaultSerializers.System_ArraySegment_1MessagePackSerializer
+struct System_ArraySegment_1MessagePackSerializer_t1042567044;
+// MsgPack.Serialization.DefaultSerializers.System_BooleanMessagePackSerializer
+struct System_BooleanMessagePackSerializer_t3735524262;
+// MsgPack.Serialization.DefaultSerializers.System_ByteArrayMessagePackSerializer
+struct System_ByteArrayMessagePackSerializer_t2593951123;
+// MsgPack.Serialization.DefaultSerializers.System_ByteMessagePackSerializer
+struct System_ByteMessagePackSerializer_t3331584584;
+// MsgPack.Serialization.DefaultSerializers.System_CharArrayMessagePackSerializer
+struct System_CharArrayMessagePackSerializer_t781533025;
+// System.Char[]
+struct CharU5BU5D_t1328083999;
+// MsgPack.Serialization.DefaultSerializers.System_CharMessagePackSerializer
+struct System_CharMessagePackSerializer_t734474150;
+// MsgPack.Serialization.DefaultSerializers.System_Collections_DictionaryEntryMessagePackSerializer
+struct System_Collections_DictionaryEntryMessagePackSerializer_t74109652;
+// MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_Dictionary_2MessagePackSerializer
+struct System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429;
+// MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_KeyValuePair_2MessagePackSerializer
+struct System_Collections_Generic_KeyValuePair_2MessagePackSerializer_t1860510343;
+// MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer
+struct System_Collections_Generic_List_1MessagePackSerializer_t1522264518;
+// MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer
+struct System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_t831251944;
+// System.Collections.Generic.List`1<MsgPack.MessagePackObject>
+struct List_1_t1407206183;
+// MsgPack.Serialization.DefaultSerializers.System_Collections_QueueMessagePackSerializer
+struct System_Collections_QueueMessagePackSerializer_t4151563775;
+// System.Collections.Queue
+struct Queue_t1288490777;
+// MsgPack.Serialization.DefaultSerializers.System_Collections_StackMessagePackSerializer
+struct System_Collections_StackMessagePackSerializer_t3660834000;
+// System.Collections.Stack
+struct Stack_t1043988394;
+// System.Collections.ICollection
+struct ICollection_t91669223;
+// MsgPack.Serialization.DefaultSerializers.System_DBNullMessagePackSerializer
+struct System_DBNullMessagePackSerializer_t2823375997;
+// System.DBNull
+struct DBNull_t972229383;
+// MsgPack.Serialization.DefaultSerializers.System_DecimalMessagePackSerializer
+struct System_DecimalMessagePackSerializer_t3015390323;
+// MsgPack.Serialization.DefaultSerializers.System_DoubleMessagePackSerializer
+struct System_DoubleMessagePackSerializer_t1731986357;
+// MsgPack.Serialization.DefaultSerializers.System_Globalization_CultureInfoMessagePackSerializer
+struct System_Globalization_CultureInfoMessagePackSerializer_t3635447374;
+// System.Globalization.CultureInfo
+struct CultureInfo_t3500843524;
+// MsgPack.Serialization.DefaultSerializers.System_GuidMessagePackSerializer
+struct System_GuidMessagePackSerializer_t2855993735;
+// MsgPack.Serialization.DefaultSerializers.System_Int16MessagePackSerializer
+struct System_Int16MessagePackSerializer_t1607302192;
+// MsgPack.Serialization.DefaultSerializers.System_Int32MessagePackSerializer
+struct System_Int32MessagePackSerializer_t1553725226;
+// MsgPack.Serialization.DefaultSerializers.System_Int64MessagePackSerializer
+struct System_Int64MessagePackSerializer_t2274926101;
+// MsgPack.Serialization.DefaultSerializers.System_ObjectMessagePackSerializer
+struct System_ObjectMessagePackSerializer_t2407642773;
+// MsgPack.Serialization.DefaultSerializers.System_SByteMessagePackSerializer
+struct System_SByteMessagePackSerializer_t1781368465;
+// MsgPack.Serialization.DefaultSerializers.System_SingleMessagePackSerializer
+struct System_SingleMessagePackSerializer_t490734082;
+// MsgPack.Serialization.DefaultSerializers.System_StringMessagePackSerializer
+struct System_StringMessagePackSerializer_t2683883017;
+// MsgPack.Serialization.DefaultSerializers.System_Text_StringBuilderMessagePackSerializer
+struct System_Text_StringBuilderMessagePackSerializer_t1611551542;
+// System.Text.StringBuilder
+struct StringBuilder_t1221177846;
+// MsgPack.Serialization.DefaultSerializers.System_TimeSpanMessagePackSerializer
+struct System_TimeSpanMessagePackSerializer_t3351620197;
+// MsgPack.Serialization.DefaultSerializers.System_UInt16MessagePackSerializer
+struct System_UInt16MessagePackSerializer_t3814292665;
+// MsgPack.Serialization.DefaultSerializers.System_UInt32MessagePackSerializer
+struct System_UInt32MessagePackSerializer_t964617831;
+// MsgPack.Serialization.DefaultSerializers.System_UInt64MessagePackSerializer
+struct System_UInt64MessagePackSerializer_t241305760;
+// MsgPack.Serialization.DefaultSerializers.System_VersionMessagePackSerializer
+struct System_VersionMessagePackSerializer_t2246559178;
+// System.Version
+struct Version_t1755874712;
+// MsgPack.Serialization.DefaultSerializers.UInt16ArraySerializer
+struct UInt16ArraySerializer_t197758914;
+// System.UInt16[]
+struct UInt16U5BU5D_t2527266722;
+// MsgPack.Serialization.DefaultSerializers.UInt32ArraySerializer
+struct UInt32ArraySerializer_t381839356;
+// System.UInt32[]
+struct UInt32U5BU5D_t59386216;
+// MsgPack.Serialization.DefaultSerializers.UInt64ArraySerializer
+struct UInt64ArraySerializer_t1341192293;
+// System.UInt64[]
+struct UInt64U5BU5D_t1668688775;
+// MsgPack.Serialization.DefaultSerializers.UnityArraySerializer
+struct UnityArraySerializer_t1504552804;
+// System.Collections.IList
+struct IList_t3321498491;
+// MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer
+struct UnityMultidimensionalArraySerializer_t2820227010;
+// System.Array
+struct Il2CppArray;
+// System.Action`1<System.Int32[]>
+struct Action_1_t2832199023;
+// MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass1
+struct U3CU3Ec__DisplayClass1_t397521295;
+// MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass4
+struct U3CU3Ec__DisplayClass4_t4289204064;
+// MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass7
+struct U3CU3Ec__DisplayClass7_t3885919537;
+// MsgPack.Serialization.DefaultSerializers.UnixEpocDateTimeMessagePackSerializer
+struct UnixEpocDateTimeMessagePackSerializer_t2915577328;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "MsgPack_MsgPack_Serialization_AotHelper_System_UInt599445730.h"
+#include "MsgPack_MsgPack_Serialization_AotHelper_System_UInt599445730MethodDeclarations.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Object2689449295MethodDeclarations.h"
+#include "mscorlib_System_UIntPtr1549717846.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "mscorlib_System_UIntPtr1549717846MethodDeclarations.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "MsgPack_MsgPack_Serialization_CollectionDetailedKi2859259456.h"
+#include "MsgPack_MsgPack_Serialization_CollectionDetailedKi2859259456MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionKind2146230264.h"
+#include "MsgPack_MsgPack_Serialization_CollectionKind2146230264MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer4230566959.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer4230566959MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_SerializationContext1484625559.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "MsgPack_MsgPack_Serialization_CollectionTraits1823801989.h"
+#include "MsgPack_MsgPack_Serialization_PolymorphismSchema2690808062.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer4066395016MethodDeclarations.h"
+#include "mscorlib_System_Reflection_MethodInfo3330546337.h"
+#include "MsgPack_MsgPack_Packer1439452732.h"
+#include "MsgPack_MsgPack_Serialization_ReflectionExtensions2981781203MethodDeclarations.h"
+#include "MsgPack_MsgPack_Packer1439452732MethodDeclarations.h"
+#include "mscorlib_ArrayTypes.h"
+#include "MsgPack_MsgPack_Unpacker998931393.h"
+#include "MsgPack_MsgPack_Serialization_SerializationExcepti2110684008MethodDeclarations.h"
+#include "MsgPack_MsgPack_Unpacker998931393MethodDeclarations.h"
+#include "mscorlib_System_Exception1927440687.h"
+#include "MsgPack_MsgPack_Serialization_UnpackHelpers1606708725MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer4066395016.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer1516787527.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer1516787527MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_NonGenericMessagePac1046258720MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_PolymorphismSchema2690808062MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_SerializationContext1484625559MethodDeclarations.h"
+#include "mscorlib_System_Type1303803226MethodDeclarations.h"
+#include "mscorlib_System_Reflection_PropertyInfo2253729065MethodDeclarations.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_Reflection_PropertyInfo2253729065.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3236157933.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3236157933MethodDeclarations.h"
+#include "System_Core_System_Linq_Enumerable2148412300MethodDeclarations.h"
+#include "System_Core_System_Linq_Enumerable2148412300.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3652935795.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3652935795MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer1685890866MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3842043703.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3842043703MethodDeclarations.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "mscorlib_System_Collections_DictionaryEntry3048875398.h"
+#include "mscorlib_System_Collections_DictionaryEntry3048875398MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializers186213429.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializers186213429MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer1685890866.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3141818323.h"
+#include "MsgPack_MsgPack_Serialization_CollectionSerializer3141818323MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_CollectionTraits1823801989MethodDeclarations.h"
+#include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "MsgPack_MsgPack_Serialization_DataMemberContract3068833586.h"
+#include "MsgPack_MsgPack_Serialization_DataMemberContract3068833586MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_NilImplication418432652.h"
+#include "mscorlib_System_Reflection_MemberInfo4043097260.h"
+#include "mscorlib_System_Reflection_MemberInfo4043097260MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen334943763.h"
+#include "mscorlib_System_Globalization_CultureInfo3500843524MethodDeclarations.h"
+#include "mscorlib_System_Runtime_Serialization_Serialization753258759MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen334943763MethodDeclarations.h"
+#include "mscorlib_System_Globalization_CultureInfo3500843524.h"
+#include "mscorlib_System_Runtime_Serialization_Serialization753258759.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackMemberAtt1681615454.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackMemberAtt1681615454MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DateTimeConversionMe3801997378.h"
+#include "MsgPack_MsgPack_Serialization_DateTimeConversionMe3801997378MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DateTimeMemberConver2824791652.h"
+#include "MsgPack_MsgPack_Serialization_DateTimeMemberConver2824791652MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DateTimeMessagePackS2592246720.h"
+#include "MsgPack_MsgPack_Serialization_DateTimeMessagePackS2592246720MethodDeclarations.h"
+#include "mscorlib_System_ArgumentNullException628810857MethodDeclarations.h"
+#include "mscorlib_System_ArgumentNullException628810857.h"
+#include "MsgPack_MsgPack_Serialization_DefaultConcreteTypeR1959877892.h"
+#include "MsgPack_MsgPack_Serialization_DefaultConcreteTypeR1959877892MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge613314382MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_TypeKeyRepository2762167823MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge613314382.h"
+#include "MsgPack_MsgPack_Serialization_TypeKeyRepository2762167823.h"
+#include "MsgPack_MsgPack_ReflectionAbstractions1376794770MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2380864482.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2380864482MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ab158746976MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ab158746976.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2071025354.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2071025354MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A1115660484.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A1115660484MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2880081730.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2880081730MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2458143358.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A2458143358MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ab410058080.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ab410058080MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ab582739518.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ab582739518MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A3329612773.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_A3329612773MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U1504552804MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U2820227010MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U1504552804.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U2820227010.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_gen77722262MethodDeclarations.h"
+#include "System_Core_System_Func_2_gen2435331661MethodDeclarations.h"
+#include "System_Core_System_Func_2_gen2435331661.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_gen77722262.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2406072874MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2406072874.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1194933953MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1194933953.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_I2119299061MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_I2119299061.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nu336170484MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nu336170484.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_I3458876511MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_I3458876511.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N3300768650MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N3300768650.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Int45890286MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Int45890286.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1912970109MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1912970109.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_B3005340975MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_B3005340975.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1530104442MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1530104442.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_UI197758914MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_UI197758914.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nul24215337MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nul24215337.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_UI381839356MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_UI381839356.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nu679342319MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nu679342319.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U1341192293MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U1341192293.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1348238854MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1348238854.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Si715785947MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Si715785947.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nu316629808MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Nu316629808.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D3306240564MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D3306240564.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N2412601813MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N2412601813.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Bo630780897MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Bo630780897.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N2148955562MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N2148955562.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2935457984MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2935457984.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Bi687290028MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Bi687290028.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M1638335348MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M1638335348.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer213297206MethodDeclarations.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3063477969MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2892777667MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D1113846186.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D1113846186MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializerP92845713MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U2915577328MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1470292499MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1710272842MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U2915577328.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1470292499.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_N1710272842.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D4214966254.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D4214966254MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer858432560MethodDeclarations.h"
+#include "mscorlib_System_DateTimeOffset1362988906.h"
+#include "MsgPack_MsgPack_MessagePackConvert4146551185MethodDeclarations.h"
+#include "mscorlib_System_DateTime693205669.h"
+#include "mscorlib_System_TimeSpan3430258949.h"
+#include "mscorlib_System_DateTimeOffset1362988906MethodDeclarations.h"
+#include "mscorlib_System_DateTime693205669MethodDeclarations.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "mscorlib_System_TimeSpan3430258949MethodDeclarations.h"
+#include "mscorlib_System_Int164041245914.h"
+#include "MsgPack_MsgPack_MessagePackObject2038085051.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "MsgPack_MsgPack_MessagePackObject2038085051MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D1875481991.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_D1875481991MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1385396194MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ge175064153.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Ge175064153MethodDeclarations.h"
+#include "mscorlib_System_Nullable1429764613MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1522264518MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1522264518.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1488757429MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1488757429.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2599726917MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2525843295MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer212568766MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1636098496MethodDeclarations.h"
+#include "MsgPack_ArrayTypes.h"
+#include "MsgPack_MsgPack_PackingOptions1268727809.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Me963622269.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Me963622269MethodDeclarations.h"
+#include "mscorlib_System_InvalidOperationException721527559.h"
+#include "mscorlib_System_Exception1927440687MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M2675704845.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M2675704845MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer955250860MethodDeclarations.h"
+#include "MsgPack_MsgPack_MessagePackExtendedTypeObject1459807206.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M4223362754.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M4223362754MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3671170637MethodDeclarations.h"
+#include "MsgPack_MsgPack_MessagePackObjectDictionary4175726983.h"
+#include "MsgPack_MsgPack_MessagePackObjectDictionary4175726983MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_22208478405.h"
+#include "MsgPack_MsgPack_MessagePackObjectDictionary_Enumer3469257882.h"
+#include "MsgPack_MsgPack_MessagePackObjectDictionary_Enumer3469257882MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_22208478405MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M1132295234.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_M1132295234MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1533528705MethodDeclarations.h"
+#include "MsgPack_MsgPack_PackingOptions1268727809MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer188649323MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1814553722MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen2088641033.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1643853420MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen1946170751.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer136471947MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen2341081996.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1350802670MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen2304312229.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1276919048MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3258611815MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen3467111648.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1718806799MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen3012451160.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3118614100MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen339576247.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer773786129MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen3544916222.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2600872919MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen412748336.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize4210175478MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen1172263229.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2967731046MethodDeclarations.h"
+#include "mscorlib_System_SByte454417549.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer_72571051MethodDeclarations.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1137829626MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1042567044.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1042567044MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen3707266295MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen3707266295.h"
+#include "System_Core_System_Func_4_gen1777065393MethodDeclarations.h"
+#include "System_Core_System_Func_4_gen1777065393.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3735524262.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3735524262MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3321018372MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2593951123.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2593951123MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3331584584.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3331584584MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3178548090MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy781533025.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy781533025MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer823527653MethodDeclarations.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy734474150.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy734474150MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2949924992MethodDeclarations.h"
+#include "mscorlib_System_UInt16986882611.h"
+#include "mscorlib_System_ArgumentException3259014390.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sys74109652.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sys74109652MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2544319052MethodDeclarations.h"
+#include "mscorlib_System_Reflection_ConstructorInfo2851816542.h"
+#include "MsgPack_MsgPack_Serialization_AotHelper241912254MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1860510343.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1860510343MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy831251944.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy831251944MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer902649837MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1407206183.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1407206183MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat941935857.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat941935857MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S4151563775.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S4151563775MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer783934431MethodDeclarations.h"
+#include "mscorlib_System_Collections_Queue1288490777.h"
+#include "MsgPack_MsgPack_PackerUnpackerExtensions1610967909MethodDeclarations.h"
+#include "mscorlib_System_Collections_Queue1288490777MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer783934431.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3660834000.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3660834000MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer539432048MethodDeclarations.h"
+#include "mscorlib_System_Collections_Stack1043988394.h"
+#include "mscorlib_System_Collections_Stack1043988394MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2823375997.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2823375997MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer467673037MethodDeclarations.h"
+#include "mscorlib_System_DBNull972229383.h"
+#include "mscorlib_System_DBNull972229383MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3015390323.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3015390323MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer220144731MethodDeclarations.h"
+#include "mscorlib_System_Decimal724701077.h"
+#include "mscorlib_System_Decimal724701077MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1731986357.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1731986357MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3573459335MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3635447374.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3635447374MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2996287178MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2855993735.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2855993735MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2029045247MethodDeclarations.h"
+#include "mscorlib_System_Guid2533601593.h"
+#include "mscorlib_System_Guid2533601593MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1607302192.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1607302192MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3536689568MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1553725226.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1553725226MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1567321102MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2274926101.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2274926101MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer404521691MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2407642773.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2407642773MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2184892949MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1781368465.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1781368465MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize4244828499MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy490734082.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy490734082MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1571953586MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2683883017.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2683883017MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1524663887MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1611551542.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S1611551542MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer716621500MethodDeclarations.h"
+#include "mscorlib_System_Text_StringBuilder1221177846.h"
+#include "mscorlib_System_Text_StringBuilder1221177846MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3351620197.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3351620197MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2925702603MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3814292665.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S3814292665MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerializer482326265MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy964617831.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy964617831MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1645125675MethodDeclarations.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy241305760.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Sy241305760MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2404640568MethodDeclarations.h"
+#include "mscorlib_System_UInt642909196914.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2246559178.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_S2246559178MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1251318366MethodDeclarations.h"
+#include "mscorlib_System_Version1755874712.h"
+#include "mscorlib_System_Version1755874712MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize2022710376MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize3849797166MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_MessagePackSerialize1164132429MethodDeclarations.h"
+#include "mscorlib_System_Array3829468939MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Un397521295MethodDeclarations.h"
+#include "mscorlib_System_IO_MemoryStream743994179MethodDeclarations.h"
+#include "MsgPack_MsgPack_KnownExtTypeName766773889MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_ExtTypeCodeMapping2037435746MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2832199023MethodDeclarations.h"
+#include "mscorlib_System_IO_MemoryStream743994179.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_Un397521295.h"
+#include "mscorlib_System_IO_Stream3255436806.h"
+#include "MsgPack_MsgPack_Serialization_ExtTypeCodeMapping2037435746.h"
+#include "mscorlib_System_Action_1_gen2832199023.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U4289204064MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U3885919537MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U3885919537.h"
+#include "MsgPack_MsgPack_Serialization_DefaultSerializers_U4289204064.h"
+#include "MsgPack_MsgPack_MessagePackExtendedTypeObject1459807206MethodDeclarations.h"
+#include "MsgPack_MsgPack_Serialization_EmitterFlavor3614510380.h"
+#include "MsgPack_MsgPack_Serialization_EmitterFlavor3614510380MethodDeclarations.h"
+
+// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::OfType<System.Object>(System.Collections.IEnumerable)
+extern "C"  Il2CppObject* Enumerable_OfType_TisIl2CppObject_m2855102288_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Enumerable_OfType_TisIl2CppObject_m2855102288(__this /* static, unused */, p0, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Enumerable_OfType_TisIl2CppObject_m2855102288_gshared)(__this /* static, unused */, p0, method)
+// !!0[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  ObjectU5BU5D_t3614634134* Enumerable_ToArray_TisIl2CppObject_m2363354387_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, const MethodInfo* method);
+#define Enumerable_ToArray_TisIl2CppObject_m2363354387(__this /* static, unused */, p0, method) ((  ObjectU5BU5D_t3614634134* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToArray_TisIl2CppObject_m2363354387_gshared)(__this /* static, unused */, p0, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void MsgPack.Serialization.AotHelper/System_UIntPtrEqualityComparer::.ctor()
+extern "C"  void System_UIntPtrEqualityComparer__ctor_m1845414261 (System_UIntPtrEqualityComparer_t599445730 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean MsgPack.Serialization.AotHelper/System_UIntPtrEqualityComparer::Equals(System.UIntPtr,System.UIntPtr)
+extern Il2CppClass* UIntPtr_t_il2cpp_TypeInfo_var;
+extern const uint32_t System_UIntPtrEqualityComparer_Equals_m463624946_MetadataUsageId;
+extern "C"  bool System_UIntPtrEqualityComparer_Equals_m463624946 (System_UIntPtrEqualityComparer_t599445730 * __this, UIntPtr_t  ___left0, UIntPtr_t  ___right1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_UIntPtrEqualityComparer_Equals_m463624946_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UIntPtr_t  L_0 = ___left0;
+		UIntPtr_t  L_1 = ___right1;
+		IL2CPP_RUNTIME_CLASS_INIT(UIntPtr_t_il2cpp_TypeInfo_var);
+		bool L_2 = UIntPtr_op_Equality_m1435732519(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Int32 MsgPack.Serialization.AotHelper/System_UIntPtrEqualityComparer::GetHashCode(System.UIntPtr)
+extern "C"  int32_t System_UIntPtrEqualityComparer_GetHashCode_m1558353201 (System_UIntPtrEqualityComparer_t599445730 * __this, UIntPtr_t  ___obj0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = UIntPtr_GetHashCode_m1914145578((&___obj0), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityCollectionMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern "C"  void UnityCollectionMessagePackSerializer__ctor_m1149205296 (UnityCollectionMessagePackSerializer_t4230566959 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, CollectionTraits_t1823801989 * ___traits2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		CollectionTraits_t1823801989 * L_2 = ___traits2;
+		Type_t * L_3 = L_2->get_ElementType_5();
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		UnityEnumerableMessagePackSerializerBase__ctor_m3699104277(__this, L_0, L_1, L_3, L_4, /*hidden argument*/NULL);
+		CollectionTraits_t1823801989 * L_5 = ___traits2;
+		MethodInfo_t * L_6 = L_5->get_CountPropertyGetter_4();
+		__this->set__getCount_5(L_6);
+		CollectionTraits_t1823801989 * L_7 = ___traits2;
+		MethodInfo_t * L_8 = L_7->get_AddMethod_3();
+		__this->set__add_6(L_8);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityCollectionMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityCollectionMessagePackSerializer_PackToCore_m1653783310_MetadataUsageId;
+extern "C"  void UnityCollectionMessagePackSerializer_PackToCore_m1653783310 (UnityCollectionMessagePackSerializer_t4230566959 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityCollectionMessagePackSerializer_PackToCore_m1653783310_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		MethodInfo_t * L_1 = __this->get__getCount_5();
+		Il2CppObject * L_2 = ___objectTree1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_1, L_2, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		Packer_PackArrayHeader_m2467366488(L_0, ((*(int32_t*)((int32_t*)UnBox (L_3, Int32_t2071877448_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		Il2CppObject * L_4 = UnityEnumerableMessagePackSerializerBase_get_ItemSerializer_m2737676573(__this, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Il2CppObject * L_5 = ___objectTree1;
+		Il2CppObject * L_6 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, ((Il2CppObject *)IsInst(L_5, IEnumerable_t2911409499_il2cpp_TypeInfo_var)));
+		V_2 = L_6;
+	}
+
+IL_0031:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0042;
+		}
+
+IL_0033:
+		{
+			Il2CppObject * L_7 = V_2;
+			Il2CppObject * L_8 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_7);
+			V_1 = L_8;
+			Il2CppObject * L_9 = V_0;
+			Packer_t1439452732 * L_10 = ___packer0;
+			Il2CppObject * L_11 = V_1;
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_9, L_10, L_11);
+		}
+
+IL_0042:
+		{
+			Il2CppObject * L_12 = V_2;
+			bool L_13 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_12);
+			if (L_13)
+			{
+				goto IL_0033;
+			}
+		}
+
+IL_004a:
+		{
+			IL2CPP_LEAVE(0x5D, FINALLY_004c);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_004c;
+	}
+
+FINALLY_004c:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_14 = V_2;
+			V_3 = ((Il2CppObject *)IsInst(L_14, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_15 = V_3;
+			if (!L_15)
+			{
+				goto IL_005c;
+			}
+		}
+
+IL_0056:
+		{
+			Il2CppObject * L_16 = V_3;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_16);
+		}
+
+IL_005c:
+		{
+			IL2CPP_END_FINALLY(76)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(76)
+	{
+		IL2CPP_JUMP_TBL(0x5D, IL_005d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_005d:
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityCollectionMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  Il2CppObject * UnityCollectionMessagePackSerializer_UnpackFromCore_m1298728456 (UnityCollectionMessagePackSerializer_t4230566959 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = VirtFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(13 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityCollectionMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker) */, __this, L_3);
+		return L_4;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityCollectionMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityCollectionMessagePackSerializer_InternalUnpackFromCore_m2608504379_MetadataUsageId;
+extern "C"  Il2CppObject * UnityCollectionMessagePackSerializer_InternalUnpackFromCore_m2608504379 (UnityCollectionMessagePackSerializer_t4230566959 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityCollectionMessagePackSerializer_InternalUnpackFromCore_m2608504379_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_1 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		Il2CppObject * L_3 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(11 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::CreateInstance(System.Int32) */, __this, L_2);
+		V_1 = L_3;
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = V_1;
+		int32_t L_6 = V_0;
+		UnityEnumerableMessagePackSerializerBase_UnpackToCore_m2336865974(__this, L_4, L_5, L_6, /*hidden argument*/NULL);
+		Il2CppObject * L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityCollectionMessagePackSerializer::AddItem(System.Object,System.Object)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern const uint32_t UnityCollectionMessagePackSerializer_AddItem_m2002459549_MetadataUsageId;
+extern "C"  void UnityCollectionMessagePackSerializer_AddItem_m2002459549 (UnityCollectionMessagePackSerializer_t4230566959 * __this, Il2CppObject * ___collection0, Il2CppObject * ___item1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityCollectionMessagePackSerializer_AddItem_m2002459549_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ObjectU5BU5D_t3614634134* V_0 = NULL;
+	{
+		MethodInfo_t * L_0 = __this->get__add_6();
+		Il2CppObject * L_1 = ___collection0;
+		V_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_2 = V_0;
+		Il2CppObject * L_3 = ___item1;
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_0, L_1, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3021629591;
+extern Il2CppCodeGenString* _stringLiteral1803358415;
+extern const uint32_t UnityDictionaryMessagePackSerializer__ctor_m2467969600_MetadataUsageId;
+extern "C"  void UnityDictionaryMessagePackSerializer__ctor_m2467969600 (UnityDictionaryMessagePackSerializer_t1516787527 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, Type_t * ___keyType2, Type_t * ___valueType3, CollectionTraits_t1823801989 * ___traits4, PolymorphismSchema_t2690808062 * ___schema5, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityDictionaryMessagePackSerializer__ctor_m2467969600_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolymorphismSchema_t2690808062 * V_0 = NULL;
+	PolymorphismSchema_t2690808062 * G_B2_0 = NULL;
+	PolymorphismSchema_t2690808062 * G_B1_0 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_2 = ___schema5;
+		PolymorphismSchema_t2690808062 * L_3 = L_2;
+		G_B1_0 = L_3;
+		if (L_3)
+		{
+			G_B2_0 = L_3;
+			goto IL_0013;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var);
+		PolymorphismSchema_t2690808062 * L_4 = ((PolymorphismSchema_t2690808062_StaticFields*)PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var->static_fields)->get_Default_4();
+		G_B2_0 = L_4;
+	}
+
+IL_0013:
+	{
+		V_0 = G_B2_0;
+		SerializationContext_t1484625559 * L_5 = ___ownerContext0;
+		Type_t * L_6 = ___keyType2;
+		PolymorphismSchema_t2690808062 * L_7 = V_0;
+		PolymorphismSchema_t2690808062 * L_8 = PolymorphismSchema_get_KeySchema_m1024482175(L_7, /*hidden argument*/NULL);
+		Il2CppObject * L_9 = SerializationContext_GetSerializer_m328095222(L_5, L_6, L_8, /*hidden argument*/NULL);
+		__this->set__keySerializer_4(L_9);
+		SerializationContext_t1484625559 * L_10 = ___ownerContext0;
+		Type_t * L_11 = ___valueType3;
+		PolymorphismSchema_t2690808062 * L_12 = V_0;
+		PolymorphismSchema_t2690808062 * L_13 = PolymorphismSchema_get_ItemSchema_m577339901(L_12, /*hidden argument*/NULL);
+		Il2CppObject * L_14 = SerializationContext_GetSerializer_m328095222(L_10, L_11, L_13, /*hidden argument*/NULL);
+		__this->set__valueSerializer_5(L_14);
+		CollectionTraits_t1823801989 * L_15 = ___traits4;
+		MethodInfo_t * L_16 = L_15->get_AddMethod_3();
+		__this->set__add_6(L_16);
+		CollectionTraits_t1823801989 * L_17 = ___traits4;
+		MethodInfo_t * L_18 = L_17->get_CountPropertyGetter_4();
+		__this->set__getCount_7(L_18);
+		CollectionTraits_t1823801989 * L_19 = ___traits4;
+		Type_t * L_20 = L_19->get_ElementType_5();
+		PropertyInfo_t * L_21 = Type_GetProperty_m808359402(L_20, _stringLiteral3021629591, /*hidden argument*/NULL);
+		MethodInfo_t * L_22 = PropertyInfo_GetGetMethod_m1759237908(L_21, /*hidden argument*/NULL);
+		__this->set__getKey_8(L_22);
+		CollectionTraits_t1823801989 * L_23 = ___traits4;
+		Type_t * L_24 = L_23->get_ElementType_5();
+		PropertyInfo_t * L_25 = Type_GetProperty_m808359402(L_24, _stringLiteral1803358415, /*hidden argument*/NULL);
+		MethodInfo_t * L_26 = PropertyInfo_GetGetMethod_m1759237908(L_25, /*hidden argument*/NULL);
+		__this->set__getValue_9(L_26);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityDictionaryMessagePackSerializer_PackToCore_m3107139002_MetadataUsageId;
+extern "C"  void UnityDictionaryMessagePackSerializer_PackToCore_m3107139002 (UnityDictionaryMessagePackSerializer_t1516787527 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityDictionaryMessagePackSerializer_PackToCore_m3107139002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		MethodInfo_t * L_1 = __this->get__getCount_7();
+		Il2CppObject * L_2 = ___objectTree1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_1, L_2, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		Packer_PackMapHeader_m2236046007(L_0, ((*(int32_t*)((int32_t*)UnBox (L_3, Int32_t2071877448_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		Il2CppObject * L_4 = ___objectTree1;
+		Il2CppObject * L_5 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, ((Il2CppObject *)IsInst(L_4, IEnumerable_t2911409499_il2cpp_TypeInfo_var)));
+		V_1 = L_5;
+	}
+
+IL_002a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_006f;
+		}
+
+IL_002c:
+		{
+			Il2CppObject * L_6 = V_1;
+			Il2CppObject * L_7 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_6);
+			V_0 = L_7;
+			Il2CppObject * L_8 = __this->get__keySerializer_4();
+			Packer_t1439452732 * L_9 = ___packer0;
+			MethodInfo_t * L_10 = __this->get__getKey_8();
+			Il2CppObject * L_11 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+			Il2CppObject * L_12 = ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_10, L_11, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9, L_12);
+			Il2CppObject * L_13 = __this->get__valueSerializer_5();
+			Packer_t1439452732 * L_14 = ___packer0;
+			MethodInfo_t * L_15 = __this->get__getValue_9();
+			Il2CppObject * L_16 = V_0;
+			Il2CppObject * L_17 = ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_15, L_16, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_13, L_14, L_17);
+		}
+
+IL_006f:
+		{
+			Il2CppObject * L_18 = V_1;
+			bool L_19 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_18);
+			if (L_19)
+			{
+				goto IL_002c;
+			}
+		}
+
+IL_0077:
+		{
+			IL2CPP_LEAVE(0x8A, FINALLY_0079);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0079;
+	}
+
+FINALLY_0079:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_20 = V_1;
+			V_2 = ((Il2CppObject *)IsInst(L_20, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_21 = V_2;
+			if (!L_21)
+			{
+				goto IL_0089;
+			}
+		}
+
+IL_0083:
+		{
+			Il2CppObject * L_22 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_22);
+		}
+
+IL_0089:
+		{
+			IL2CPP_END_FINALLY(121)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(121)
+	{
+		IL2CPP_JUMP_TBL(0x8A, IL_008a)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_008a:
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  Il2CppObject * UnityDictionaryMessagePackSerializer_UnpackFromCore_m3378453292 (UnityDictionaryMessagePackSerializer_t1516787527 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = VirtFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(11 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker) */, __this, L_3);
+		return L_4;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityDictionaryMessagePackSerializer_InternalUnpackFromCore_m1368716269_MetadataUsageId;
+extern "C"  Il2CppObject * UnityDictionaryMessagePackSerializer_InternalUnpackFromCore_m1368716269 (UnityDictionaryMessagePackSerializer_t1516787527 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityDictionaryMessagePackSerializer_InternalUnpackFromCore_m1368716269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_1 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		Il2CppObject * L_3 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(12 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::CreateInstance(System.Int32) */, __this, L_2);
+		V_1 = L_3;
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = V_1;
+		int32_t L_6 = V_0;
+		UnityDictionaryMessagePackSerializer_UnpackToCore_m3844734017(__this, L_4, L_5, L_6, /*hidden argument*/NULL);
+		Il2CppObject * L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory.CreateInstance(System.Int32)
+extern "C"  Il2CppObject * UnityDictionaryMessagePackSerializer_MsgPack_Serialization_CollectionSerializers_ICollectionInstanceFactory_CreateInstance_m569838255 (UnityDictionaryMessagePackSerializer_t1516787527 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___initialCapacity0;
+		Il2CppObject * L_1 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(12 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::CreateInstance(System.Int32) */, __this, L_0);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Object)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityDictionaryMessagePackSerializer_UnpackToCore_m3074543320_MetadataUsageId;
+extern "C"  void UnityDictionaryMessagePackSerializer_UnpackToCore_m3074543320 (UnityDictionaryMessagePackSerializer_t1516787527 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityDictionaryMessagePackSerializer_UnpackToCore_m3074543320_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UnityDictionaryMessagePackSerializer_UnpackToCore_m3844734017(__this, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityDictionaryMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Object,System.Int32)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern const uint32_t UnityDictionaryMessagePackSerializer_UnpackToCore_m3844734017_MetadataUsageId;
+extern "C"  void UnityDictionaryMessagePackSerializer_UnpackToCore_m3844734017 (UnityDictionaryMessagePackSerializer_t1516787527 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, int32_t ___itemsCount2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityDictionaryMessagePackSerializer_UnpackToCore_m3844734017_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Unpacker_t998931393 * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Unpacker_t998931393 * V_4 = NULL;
+	ObjectU5BU5D_t3614634134* V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_00cc;
+	}
+
+IL_0007:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0016:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		bool L_5 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_4);
+		if (L_5)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_6);
+		if (L_7)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Il2CppObject * L_8 = __this->get__keySerializer_4();
+		Unpacker_t998931393 * L_9 = ___unpacker0;
+		Il2CppObject * L_10 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9);
+		V_1 = L_10;
+		goto IL_0055;
+	}
+
+IL_0035:
+	{
+		Unpacker_t998931393 * L_11 = ___unpacker0;
+		Unpacker_t998931393 * L_12 = Unpacker_ReadSubtree_m3430570170(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+	}
+
+IL_003c:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_13 = __this->get__keySerializer_4();
+		Unpacker_t998931393 * L_14 = V_2;
+		Il2CppObject * L_15 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_13, L_14);
+		V_1 = L_15;
+		IL2CPP_LEAVE(0x55, FINALLY_004b);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_004b;
+	}
+
+FINALLY_004b:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_16 = V_2;
+			if (!L_16)
+			{
+				goto IL_0054;
+			}
+		}
+
+IL_004e:
+		{
+			Unpacker_t998931393 * L_17 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_17);
+		}
+
+IL_0054:
+		{
+			IL2CPP_END_FINALLY(75)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(75)
+	{
+		IL2CPP_JUMP_TBL(0x55, IL_0055)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0055:
+	{
+		Unpacker_t998931393 * L_18 = ___unpacker0;
+		bool L_19 = Unpacker_Read_m301469818(L_18, /*hidden argument*/NULL);
+		if (L_19)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_20 = V_0;
+		Exception_t1927440687 * L_21 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_21);
+	}
+
+IL_0064:
+	{
+		Unpacker_t998931393 * L_22 = ___unpacker0;
+		bool L_23 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_22);
+		if (L_23)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_24 = ___unpacker0;
+		bool L_25 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_24);
+		if (L_25)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		Il2CppObject * L_26 = __this->get__valueSerializer_5();
+		Unpacker_t998931393 * L_27 = ___unpacker0;
+		Il2CppObject * L_28 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_26, L_27);
+		V_3 = L_28;
+		goto IL_00a7;
+	}
+
+IL_0083:
+	{
+		Unpacker_t998931393 * L_29 = ___unpacker0;
+		Unpacker_t998931393 * L_30 = Unpacker_ReadSubtree_m3430570170(L_29, /*hidden argument*/NULL);
+		V_4 = L_30;
+	}
+
+IL_008b:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_31 = __this->get__valueSerializer_5();
+		Unpacker_t998931393 * L_32 = V_4;
+		Il2CppObject * L_33 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_31, L_32);
+		V_3 = L_33;
+		IL2CPP_LEAVE(0xA7, FINALLY_009b);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_009b;
+	}
+
+FINALLY_009b:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_34 = V_4;
+			if (!L_34)
+			{
+				goto IL_00a6;
+			}
+		}
+
+IL_009f:
+		{
+			Unpacker_t998931393 * L_35 = V_4;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_35);
+		}
+
+IL_00a6:
+		{
+			IL2CPP_END_FINALLY(155)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(155)
+	{
+		IL2CPP_JUMP_TBL(0xA7, IL_00a7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00a7:
+	{
+		MethodInfo_t * L_36 = __this->get__add_6();
+		Il2CppObject * L_37 = ___collection1;
+		V_5 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_38 = V_5;
+		Il2CppObject * L_39 = V_1;
+		ArrayElementTypeCheck (L_38, L_39);
+		(L_38)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_39);
+		ObjectU5BU5D_t3614634134* L_40 = V_5;
+		Il2CppObject * L_41 = V_3;
+		ArrayElementTypeCheck (L_40, L_41);
+		(L_40)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_41);
+		ObjectU5BU5D_t3614634134* L_42 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_36, L_37, L_42, /*hidden argument*/NULL);
+		int32_t L_43 = V_0;
+		V_0 = ((int32_t)((int32_t)L_43+(int32_t)1));
+	}
+
+IL_00cc:
+	{
+		int32_t L_44 = V_0;
+		int32_t L_45 = ___itemsCount2;
+		if ((((int32_t)L_44) < ((int32_t)L_45)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern "C"  void UnityEnumerableMessagePackSerializer__ctor_m2727882194 (UnityEnumerableMessagePackSerializer_t3236157933 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, CollectionTraits_t1823801989 * ___traits2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		CollectionTraits_t1823801989 * L_2 = ___traits2;
+		Type_t * L_3 = L_2->get_ElementType_5();
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		UnityEnumerableMessagePackSerializerBase__ctor_m3699104277(__this, L_0, L_1, L_3, L_4, /*hidden argument*/NULL);
+		CollectionTraits_t1823801989 * L_5 = ___traits2;
+		MethodInfo_t * L_6 = L_5->get_CountPropertyGetter_4();
+		__this->set__getCount_5(L_6);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const MethodInfo* Enumerable_OfType_TisIl2CppObject_m2855102288_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToArray_TisIl2CppObject_m2363354387_MethodInfo_var;
+extern const uint32_t UnityEnumerableMessagePackSerializer_PackToCore_m3623660940_MetadataUsageId;
+extern "C"  void UnityEnumerableMessagePackSerializer_PackToCore_m3623660940 (UnityEnumerableMessagePackSerializer_t3236157933 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityEnumerableMessagePackSerializer_PackToCore_m3623660940_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	int32_t V_1 = 0;
+	ObjectU5BU5D_t3614634134* V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Il2CppObject * V_4 = NULL;
+	Il2CppObject * V_5 = NULL;
+	Il2CppObject * V_6 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Il2CppObject * L_0 = ___objectTree1;
+		V_0 = ((Il2CppObject *)IsInst(L_0, IEnumerable_t2911409499_il2cpp_TypeInfo_var));
+		MethodInfo_t * L_1 = __this->get__getCount_5();
+		if (L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		Il2CppObject * L_2 = V_0;
+		Il2CppObject* L_3 = Enumerable_OfType_TisIl2CppObject_m2855102288(NULL /*static, unused*/, L_2, /*hidden argument*/Enumerable_OfType_TisIl2CppObject_m2855102288_MethodInfo_var);
+		ObjectU5BU5D_t3614634134* L_4 = Enumerable_ToArray_TisIl2CppObject_m2363354387(NULL /*static, unused*/, L_3, /*hidden argument*/Enumerable_ToArray_TisIl2CppObject_m2363354387_MethodInfo_var);
+		V_2 = L_4;
+		ObjectU5BU5D_t3614634134* L_5 = V_2;
+		V_0 = (Il2CppObject *)L_5;
+		ObjectU5BU5D_t3614634134* L_6 = V_2;
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length))));
+		goto IL_003b;
+	}
+
+IL_0023:
+	{
+		MethodInfo_t * L_7 = __this->get__getCount_5();
+		Il2CppObject * L_8 = ___objectTree1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		Il2CppObject * L_9 = ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_7, L_8, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		V_1 = ((*(int32_t*)((int32_t*)UnBox (L_9, Int32_t2071877448_il2cpp_TypeInfo_var))));
+	}
+
+IL_003b:
+	{
+		Packer_t1439452732 * L_10 = ___packer0;
+		int32_t L_11 = V_1;
+		Packer_PackArrayHeader_m2467366488(L_10, L_11, /*hidden argument*/NULL);
+		Il2CppObject * L_12 = UnityEnumerableMessagePackSerializerBase_get_ItemSerializer_m2737676573(__this, /*hidden argument*/NULL);
+		V_3 = L_12;
+		Il2CppObject * L_13 = V_0;
+		Il2CppObject * L_14 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_13);
+		V_5 = L_14;
+	}
+
+IL_0052:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0066;
+		}
+
+IL_0054:
+		{
+			Il2CppObject * L_15 = V_5;
+			Il2CppObject * L_16 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_15);
+			V_4 = L_16;
+			Il2CppObject * L_17 = V_3;
+			Packer_t1439452732 * L_18 = ___packer0;
+			Il2CppObject * L_19 = V_4;
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_17, L_18, L_19);
+		}
+
+IL_0066:
+		{
+			Il2CppObject * L_20 = V_5;
+			bool L_21 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_20);
+			if (L_21)
+			{
+				goto IL_0054;
+			}
+		}
+
+IL_006f:
+		{
+			IL2CPP_LEAVE(0x86, FINALLY_0071);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0071;
+	}
+
+FINALLY_0071:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_22 = V_5;
+			V_6 = ((Il2CppObject *)IsInst(L_22, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_23 = V_6;
+			if (!L_23)
+			{
+				goto IL_0085;
+			}
+		}
+
+IL_007e:
+		{
+			Il2CppObject * L_24 = V_6;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_24);
+		}
+
+IL_0085:
+		{
+			IL2CPP_END_FINALLY(113)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(113)
+	{
+		IL2CPP_JUMP_TBL(0x86, IL_0086)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0086:
+	{
+		return;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::get_ItemSerializer()
+extern "C"  Il2CppObject * UnityEnumerableMessagePackSerializerBase_get_ItemSerializer_m2737676573 (UnityEnumerableMessagePackSerializerBase_t4066395016 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get__itemSerializer_4();
+		return L_0;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var;
+extern const uint32_t UnityEnumerableMessagePackSerializerBase__ctor_m3699104277_MetadataUsageId;
+extern "C"  void UnityEnumerableMessagePackSerializerBase__ctor_m3699104277 (UnityEnumerableMessagePackSerializerBase_t4066395016 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, Type_t * ___itemType2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityEnumerableMessagePackSerializerBase__ctor_m3699104277_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolymorphismSchema_t2690808062 * G_B2_0 = NULL;
+	Type_t * G_B2_1 = NULL;
+	SerializationContext_t1484625559 * G_B2_2 = NULL;
+	UnityEnumerableMessagePackSerializerBase_t4066395016 * G_B2_3 = NULL;
+	PolymorphismSchema_t2690808062 * G_B1_0 = NULL;
+	Type_t * G_B1_1 = NULL;
+	SerializationContext_t1484625559 * G_B1_2 = NULL;
+	UnityEnumerableMessagePackSerializerBase_t4066395016 * G_B1_3 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_2 = ___ownerContext0;
+		Type_t * L_3 = ___itemType2;
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		PolymorphismSchema_t2690808062 * L_5 = L_4;
+		G_B1_0 = L_5;
+		G_B1_1 = L_3;
+		G_B1_2 = L_2;
+		G_B1_3 = __this;
+		if (L_5)
+		{
+			G_B2_0 = L_5;
+			G_B2_1 = L_3;
+			G_B2_2 = L_2;
+			G_B2_3 = __this;
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var);
+		PolymorphismSchema_t2690808062 * L_6 = ((PolymorphismSchema_t2690808062_StaticFields*)PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var->static_fields)->get_Default_4();
+		G_B2_0 = L_6;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+		G_B2_3 = G_B1_3;
+	}
+
+IL_0016:
+	{
+		PolymorphismSchema_t2690808062 * L_7 = PolymorphismSchema_get_ItemSchema_m577339901(G_B2_0, /*hidden argument*/NULL);
+		Il2CppObject * L_8 = SerializationContext_GetSerializer_m328095222(G_B2_2, G_B2_1, L_7, /*hidden argument*/NULL);
+		G_B2_3->set__itemSerializer_4(L_8);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory.CreateInstance(System.Int32)
+extern "C"  Il2CppObject * UnityEnumerableMessagePackSerializerBase_MsgPack_Serialization_CollectionSerializers_ICollectionInstanceFactory_CreateInstance_m4026211886 (UnityEnumerableMessagePackSerializerBase_t4066395016 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___initialCapacity0;
+		Il2CppObject * L_1 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(11 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::CreateInstance(System.Int32) */, __this, L_0);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::UnpackToCore(MsgPack.Unpacker,System.Object)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityEnumerableMessagePackSerializerBase_UnpackToCore_m1349300443_MetadataUsageId;
+extern "C"  void UnityEnumerableMessagePackSerializerBase_UnpackToCore_m1349300443 (UnityEnumerableMessagePackSerializerBase_t4066395016 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityEnumerableMessagePackSerializerBase_UnpackToCore_m1349300443_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UnityEnumerableMessagePackSerializerBase_UnpackToCore_m2336865974(__this, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::UnpackToCore(MsgPack.Unpacker,System.Object,System.Int32)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityEnumerableMessagePackSerializerBase_UnpackToCore_m2336865974_MetadataUsageId;
+extern "C"  void UnityEnumerableMessagePackSerializerBase_UnpackToCore_m2336865974 (UnityEnumerableMessagePackSerializerBase_t4066395016 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, int32_t ___itemsCount2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityEnumerableMessagePackSerializerBase_UnpackToCore_m2336865974_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Unpacker_t998931393 * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_005e;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0013:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		bool L_5 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_4);
+		if (L_5)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_6);
+		if (L_7)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Il2CppObject * L_8 = __this->get__itemSerializer_4();
+		Unpacker_t998931393 * L_9 = ___unpacker0;
+		Il2CppObject * L_10 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9);
+		V_1 = L_10;
+		goto IL_0052;
+	}
+
+IL_0032:
+	{
+		Unpacker_t998931393 * L_11 = ___unpacker0;
+		Unpacker_t998931393 * L_12 = Unpacker_ReadSubtree_m3430570170(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+	}
+
+IL_0039:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_13 = __this->get__itemSerializer_4();
+		Unpacker_t998931393 * L_14 = V_2;
+		Il2CppObject * L_15 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_13, L_14);
+		V_1 = L_15;
+		IL2CPP_LEAVE(0x52, FINALLY_0048);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0048;
+	}
+
+FINALLY_0048:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_16 = V_2;
+			if (!L_16)
+			{
+				goto IL_0051;
+			}
+		}
+
+IL_004b:
+		{
+			Unpacker_t998931393 * L_17 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_17);
+		}
+
+IL_0051:
+		{
+			IL2CPP_END_FINALLY(72)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(72)
+	{
+		IL2CPP_JUMP_TBL(0x52, IL_0052)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0052:
+	{
+		Il2CppObject * L_18 = ___collection1;
+		Il2CppObject * L_19 = V_1;
+		VirtActionInvoker2< Il2CppObject *, Il2CppObject * >::Invoke(12 /* System.Void MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::AddItem(System.Object,System.Object) */, __this, L_18, L_19);
+		int32_t L_20 = V_0;
+		V_0 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_005e:
+	{
+		int32_t L_21 = V_0;
+		int32_t L_22 = ___itemsCount2;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityEnumerableMessagePackSerializerBase::AddItem(System.Object,System.Object)
+extern "C"  void UnityEnumerableMessagePackSerializerBase_AddItem_m3556121316 (UnityEnumerableMessagePackSerializerBase_t4066395016 * __this, Il2CppObject * ___collection0, Il2CppObject * ___item1, const MethodInfo* method)
+{
+	{
+		Type_t * L_0 = NonGenericMessagePackSerializer_get_TargetType_m1450074029(__this, /*hidden argument*/NULL);
+		Exception_t1927440687 * L_1 = SerializationExceptions_NewUnpackToIsNotSupported_m1163086767(NULL /*static, unused*/, L_0, (Exception_t1927440687 *)NULL, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericCollectionMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern "C"  void UnityNonGenericCollectionMessagePackSerializer__ctor_m1849273737 (UnityNonGenericCollectionMessagePackSerializer_t3652935795 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___schema2, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___schema2;
+		UnityNonGenericEnumerableMessagePackSerializerBase__ctor_m912801098(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericCollectionMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* ICollection_t91669223_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericCollectionMessagePackSerializer_PackToCore_m3700386702_MetadataUsageId;
+extern "C"  void UnityNonGenericCollectionMessagePackSerializer_PackToCore_m3700386702 (UnityNonGenericCollectionMessagePackSerializer_t3652935795 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericCollectionMessagePackSerializer_PackToCore_m3700386702_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Il2CppObject * V_4 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Il2CppObject * L_0 = ___objectTree1;
+		V_0 = ((Il2CppObject *)IsInst(L_0, ICollection_t91669223_il2cpp_TypeInfo_var));
+		Packer_t1439452732 * L_1 = ___packer0;
+		Il2CppObject * L_2 = V_0;
+		int32_t L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t91669223_il2cpp_TypeInfo_var, L_2);
+		Packer_PackArrayHeader_m2467366488(L_1, L_3, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = UnityNonGenericEnumerableMessagePackSerializerBase_get_ItemSerializer_m2005838055(__this, /*hidden argument*/NULL);
+		V_1 = L_4;
+		Il2CppObject * L_5 = V_0;
+		Il2CppObject * L_6 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_5);
+		V_3 = L_6;
+	}
+
+IL_0022:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0033;
+		}
+
+IL_0024:
+		{
+			Il2CppObject * L_7 = V_3;
+			Il2CppObject * L_8 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_7);
+			V_2 = L_8;
+			Il2CppObject * L_9 = V_1;
+			Packer_t1439452732 * L_10 = ___packer0;
+			Il2CppObject * L_11 = V_2;
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_9, L_10, L_11);
+		}
+
+IL_0033:
+		{
+			Il2CppObject * L_12 = V_3;
+			bool L_13 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_12);
+			if (L_13)
+			{
+				goto IL_0024;
+			}
+		}
+
+IL_003b:
+		{
+			IL2CPP_LEAVE(0x51, FINALLY_003d);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_003d;
+	}
+
+FINALLY_003d:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_14 = V_3;
+			V_4 = ((Il2CppObject *)IsInst(L_14, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_15 = V_4;
+			if (!L_15)
+			{
+				goto IL_0050;
+			}
+		}
+
+IL_0049:
+		{
+			Il2CppObject * L_16 = V_4;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_16);
+		}
+
+IL_0050:
+		{
+			IL2CPP_END_FINALLY(61)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(61)
+	{
+		IL2CPP_JUMP_TBL(0x51, IL_0051)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* Il2CppObject_0_0_0_var;
+extern Il2CppClass* PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericDictionaryMessagePackSerializer__ctor_m1673164403_MetadataUsageId;
+extern "C"  void UnityNonGenericDictionaryMessagePackSerializer__ctor_m1673164403 (UnityNonGenericDictionaryMessagePackSerializer_t3842043703 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___schema2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericDictionaryMessagePackSerializer__ctor_m1673164403_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolymorphismSchema_t2690808062 * V_0 = NULL;
+	PolymorphismSchema_t2690808062 * G_B2_0 = NULL;
+	PolymorphismSchema_t2690808062 * G_B1_0 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_2 = ___schema2;
+		PolymorphismSchema_t2690808062 * L_3 = L_2;
+		G_B1_0 = L_3;
+		if (L_3)
+		{
+			G_B2_0 = L_3;
+			goto IL_0012;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var);
+		PolymorphismSchema_t2690808062 * L_4 = ((PolymorphismSchema_t2690808062_StaticFields*)PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var->static_fields)->get_Default_4();
+		G_B2_0 = L_4;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B2_0;
+		SerializationContext_t1484625559 * L_5 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_6 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Il2CppObject_0_0_0_var), /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_7 = V_0;
+		PolymorphismSchema_t2690808062 * L_8 = PolymorphismSchema_get_KeySchema_m1024482175(L_7, /*hidden argument*/NULL);
+		Il2CppObject * L_9 = SerializationContext_GetSerializer_m328095222(L_5, L_6, L_8, /*hidden argument*/NULL);
+		__this->set__keySerializer_4(L_9);
+		SerializationContext_t1484625559 * L_10 = ___ownerContext0;
+		Type_t * L_11 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Il2CppObject_0_0_0_var), /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_12 = V_0;
+		PolymorphismSchema_t2690808062 * L_13 = PolymorphismSchema_get_ItemSchema_m577339901(L_12, /*hidden argument*/NULL);
+		Il2CppObject * L_14 = SerializationContext_GetSerializer_m328095222(L_10, L_11, L_13, /*hidden argument*/NULL);
+		__this->set__valueSerializer_5(L_14);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* IDictionary_t596158605_il2cpp_TypeInfo_var;
+extern Il2CppClass* ICollection_t91669223_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* DictionaryEntry_t3048875398_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericDictionaryMessagePackSerializer_PackToCore_m344732518_MetadataUsageId;
+extern "C"  void UnityNonGenericDictionaryMessagePackSerializer_PackToCore_m344732518 (UnityNonGenericDictionaryMessagePackSerializer_t3842043703 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericDictionaryMessagePackSerializer_PackToCore_m344732518_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	DictionaryEntry_t3048875398  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Il2CppObject * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Il2CppObject * L_0 = ___objectTree1;
+		V_0 = ((Il2CppObject *)IsInst(L_0, IDictionary_t596158605_il2cpp_TypeInfo_var));
+		Packer_t1439452732 * L_1 = ___packer0;
+		Il2CppObject * L_2 = V_0;
+		int32_t L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t91669223_il2cpp_TypeInfo_var, L_2);
+		Packer_PackMapHeader_m2236046007(L_1, L_3, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = V_0;
+		Il2CppObject * L_5 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(9 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t596158605_il2cpp_TypeInfo_var, L_4);
+		V_2 = L_5;
+	}
+
+IL_001b:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_004f;
+		}
+
+IL_001d:
+		{
+			Il2CppObject * L_6 = V_2;
+			Il2CppObject * L_7 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_6);
+			V_1 = ((*(DictionaryEntry_t3048875398 *)((DictionaryEntry_t3048875398 *)UnBox (L_7, DictionaryEntry_t3048875398_il2cpp_TypeInfo_var))));
+			Il2CppObject * L_8 = __this->get__keySerializer_4();
+			Packer_t1439452732 * L_9 = ___packer0;
+			Il2CppObject * L_10 = DictionaryEntry_get_Key_m3623293571((&V_1), /*hidden argument*/NULL);
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9, L_10);
+			Il2CppObject * L_11 = __this->get__valueSerializer_5();
+			Packer_t1439452732 * L_12 = ___packer0;
+			Il2CppObject * L_13 = DictionaryEntry_get_Value_m2812883243((&V_1), /*hidden argument*/NULL);
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_11, L_12, L_13);
+		}
+
+IL_004f:
+		{
+			Il2CppObject * L_14 = V_2;
+			bool L_15 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_14);
+			if (L_15)
+			{
+				goto IL_001d;
+			}
+		}
+
+IL_0057:
+		{
+			IL2CPP_LEAVE(0x6A, FINALLY_0059);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0059;
+	}
+
+FINALLY_0059:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_16 = V_2;
+			V_3 = ((Il2CppObject *)IsInst(L_16, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_17 = V_3;
+			if (!L_17)
+			{
+				goto IL_0069;
+			}
+		}
+
+IL_0063:
+		{
+			Il2CppObject * L_18 = V_3;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_18);
+		}
+
+IL_0069:
+		{
+			IL2CPP_END_FINALLY(89)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(89)
+	{
+		IL2CPP_JUMP_TBL(0x6A, IL_006a)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_006a:
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  Il2CppObject * UnityNonGenericDictionaryMessagePackSerializer_UnpackFromCore_m3405631156 (UnityNonGenericDictionaryMessagePackSerializer_t3842043703 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = VirtFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(11 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker) */, __this, L_3);
+		return L_4;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDictionary_t596158605_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericDictionaryMessagePackSerializer_InternalUnpackFromCore_m56618755_MetadataUsageId;
+extern "C"  Il2CppObject * UnityNonGenericDictionaryMessagePackSerializer_InternalUnpackFromCore_m56618755 (UnityNonGenericDictionaryMessagePackSerializer_t3842043703 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericDictionaryMessagePackSerializer_InternalUnpackFromCore_m56618755_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_1 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		Il2CppObject * L_3 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(12 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::CreateInstance(System.Int32) */, __this, L_2);
+		V_1 = L_3;
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = V_1;
+		int32_t L_6 = V_0;
+		UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m204957380(__this, L_4, ((Il2CppObject *)IsInst(L_5, IDictionary_t596158605_il2cpp_TypeInfo_var)), L_6, /*hidden argument*/NULL);
+		Il2CppObject * L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory.CreateInstance(System.Int32)
+extern "C"  Il2CppObject * UnityNonGenericDictionaryMessagePackSerializer_MsgPack_Serialization_CollectionSerializers_ICollectionInstanceFactory_CreateInstance_m2962922985 (UnityNonGenericDictionaryMessagePackSerializer_t3842043703 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___initialCapacity0;
+		Il2CppObject * L_1 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(12 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::CreateInstance(System.Int32) */, __this, L_0);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Object)
+extern Il2CppClass* IDictionary_t596158605_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m3241306596_MetadataUsageId;
+extern "C"  void UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m3241306596 (UnityNonGenericDictionaryMessagePackSerializer_t3842043703 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m3241306596_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m204957380(__this, L_3, ((Il2CppObject *)IsInst(L_4, IDictionary_t596158605_il2cpp_TypeInfo_var)), L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericDictionaryMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Collections.IDictionary,System.Int32)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDictionary_t596158605_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m204957380_MetadataUsageId;
+extern "C"  void UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m204957380 (UnityNonGenericDictionaryMessagePackSerializer_t3842043703 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, int32_t ___itemsCount2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericDictionaryMessagePackSerializer_UnpackToCore_m204957380_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Unpacker_t998931393 * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Unpacker_t998931393 * V_4 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_00b3;
+	}
+
+IL_0007:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0016:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		bool L_5 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_4);
+		if (L_5)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_6);
+		if (L_7)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Il2CppObject * L_8 = __this->get__keySerializer_4();
+		Unpacker_t998931393 * L_9 = ___unpacker0;
+		Il2CppObject * L_10 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9);
+		V_1 = L_10;
+		goto IL_0055;
+	}
+
+IL_0035:
+	{
+		Unpacker_t998931393 * L_11 = ___unpacker0;
+		Unpacker_t998931393 * L_12 = Unpacker_ReadSubtree_m3430570170(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+	}
+
+IL_003c:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_13 = __this->get__keySerializer_4();
+		Unpacker_t998931393 * L_14 = V_2;
+		Il2CppObject * L_15 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_13, L_14);
+		V_1 = L_15;
+		IL2CPP_LEAVE(0x55, FINALLY_004b);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_004b;
+	}
+
+FINALLY_004b:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_16 = V_2;
+			if (!L_16)
+			{
+				goto IL_0054;
+			}
+		}
+
+IL_004e:
+		{
+			Unpacker_t998931393 * L_17 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_17);
+		}
+
+IL_0054:
+		{
+			IL2CPP_END_FINALLY(75)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(75)
+	{
+		IL2CPP_JUMP_TBL(0x55, IL_0055)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0055:
+	{
+		Unpacker_t998931393 * L_18 = ___unpacker0;
+		bool L_19 = Unpacker_Read_m301469818(L_18, /*hidden argument*/NULL);
+		if (L_19)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_20 = V_0;
+		Exception_t1927440687 * L_21 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_21);
+	}
+
+IL_0064:
+	{
+		Unpacker_t998931393 * L_22 = ___unpacker0;
+		bool L_23 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_22);
+		if (L_23)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_24 = ___unpacker0;
+		bool L_25 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_24);
+		if (L_25)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		Il2CppObject * L_26 = __this->get__valueSerializer_5();
+		Unpacker_t998931393 * L_27 = ___unpacker0;
+		Il2CppObject * L_28 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_26, L_27);
+		V_3 = L_28;
+		goto IL_00a7;
+	}
+
+IL_0083:
+	{
+		Unpacker_t998931393 * L_29 = ___unpacker0;
+		Unpacker_t998931393 * L_30 = Unpacker_ReadSubtree_m3430570170(L_29, /*hidden argument*/NULL);
+		V_4 = L_30;
+	}
+
+IL_008b:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_31 = __this->get__valueSerializer_5();
+		Unpacker_t998931393 * L_32 = V_4;
+		Il2CppObject * L_33 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_31, L_32);
+		V_3 = L_33;
+		IL2CPP_LEAVE(0xA7, FINALLY_009b);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_009b;
+	}
+
+FINALLY_009b:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_34 = V_4;
+			if (!L_34)
+			{
+				goto IL_00a6;
+			}
+		}
+
+IL_009f:
+		{
+			Unpacker_t998931393 * L_35 = V_4;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_35);
+		}
+
+IL_00a6:
+		{
+			IL2CPP_END_FINALLY(155)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(155)
+	{
+		IL2CPP_JUMP_TBL(0xA7, IL_00a7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00a7:
+	{
+		Il2CppObject * L_36 = ___collection1;
+		Il2CppObject * L_37 = V_1;
+		Il2CppObject * L_38 = V_3;
+		InterfaceActionInvoker2< Il2CppObject *, Il2CppObject * >::Invoke(6 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t596158605_il2cpp_TypeInfo_var, L_36, L_37, L_38);
+		int32_t L_39 = V_0;
+		V_0 = ((int32_t)((int32_t)L_39+(int32_t)1));
+	}
+
+IL_00b3:
+	{
+		int32_t L_40 = V_0;
+		int32_t L_41 = ___itemsCount2;
+		if ((((int32_t)L_40) < ((int32_t)L_41)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern "C"  void UnityNonGenericEnumerableMessagePackSerializer__ctor_m3673981445 (UnityNonGenericEnumerableMessagePackSerializer_t186213429 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___schema2, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___schema2;
+		UnityNonGenericEnumerableMessagePackSerializerBase__ctor_m912801098(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* ICollection_t91669223_il2cpp_TypeInfo_var;
+extern const MethodInfo* Enumerable_OfType_TisIl2CppObject_m2855102288_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToArray_TisIl2CppObject_m2363354387_MethodInfo_var;
+extern const uint32_t UnityNonGenericEnumerableMessagePackSerializer_PackToCore_m732339856_MetadataUsageId;
+extern "C"  void UnityNonGenericEnumerableMessagePackSerializer_PackToCore_m732339856 (UnityNonGenericEnumerableMessagePackSerializer_t186213429 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericEnumerableMessagePackSerializer_PackToCore_m732339856_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	int32_t V_1 = 0;
+	Il2CppObject * V_2 = NULL;
+	{
+		Il2CppObject * L_0 = ___objectTree1;
+		V_0 = ((Il2CppObject *)IsInst(L_0, IEnumerable_t2911409499_il2cpp_TypeInfo_var));
+		Il2CppObject * L_1 = ___objectTree1;
+		Il2CppObject * L_2 = ((Il2CppObject *)IsInst(L_1, ICollection_t91669223_il2cpp_TypeInfo_var));
+		V_2 = L_2;
+		if (L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Il2CppObject * L_3 = V_0;
+		Il2CppObject* L_4 = Enumerable_OfType_TisIl2CppObject_m2855102288(NULL /*static, unused*/, L_3, /*hidden argument*/Enumerable_OfType_TisIl2CppObject_m2855102288_MethodInfo_var);
+		ObjectU5BU5D_t3614634134* L_5 = Enumerable_ToArray_TisIl2CppObject_m2363354387(NULL /*static, unused*/, L_4, /*hidden argument*/Enumerable_ToArray_TisIl2CppObject_m2363354387_MethodInfo_var);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length))));
+		goto IL_0028;
+	}
+
+IL_0021:
+	{
+		Il2CppObject * L_6 = V_2;
+		int32_t L_7 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t91669223_il2cpp_TypeInfo_var, L_6);
+		V_1 = L_7;
+	}
+
+IL_0028:
+	{
+		Packer_t1439452732 * L_8 = ___packer0;
+		int32_t L_9 = V_1;
+		Packer_PackArrayHeader_m2467366488(L_8, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::get_ItemSerializer()
+extern "C"  Il2CppObject * UnityNonGenericEnumerableMessagePackSerializerBase_get_ItemSerializer_m2005838055 (UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get__itemSerializer_4();
+		return L_0;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* Il2CppObject_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericEnumerableMessagePackSerializerBase__ctor_m912801098_MetadataUsageId;
+extern "C"  void UnityNonGenericEnumerableMessagePackSerializerBase__ctor_m912801098 (UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___schema2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericEnumerableMessagePackSerializerBase__ctor_m912801098_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolymorphismSchema_t2690808062 * G_B2_0 = NULL;
+	Type_t * G_B2_1 = NULL;
+	SerializationContext_t1484625559 * G_B2_2 = NULL;
+	UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * G_B2_3 = NULL;
+	PolymorphismSchema_t2690808062 * G_B1_0 = NULL;
+	Type_t * G_B1_1 = NULL;
+	SerializationContext_t1484625559 * G_B1_2 = NULL;
+	UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * G_B1_3 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_2 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Il2CppObject_0_0_0_var), /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_4 = ___schema2;
+		PolymorphismSchema_t2690808062 * L_5 = L_4;
+		G_B1_0 = L_5;
+		G_B1_1 = L_3;
+		G_B1_2 = L_2;
+		G_B1_3 = __this;
+		if (L_5)
+		{
+			G_B2_0 = L_5;
+			G_B2_1 = L_3;
+			G_B2_2 = L_2;
+			G_B2_3 = __this;
+			goto IL_001e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var);
+		PolymorphismSchema_t2690808062 * L_6 = ((PolymorphismSchema_t2690808062_StaticFields*)PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var->static_fields)->get_Default_4();
+		G_B2_0 = L_6;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+		G_B2_3 = G_B1_3;
+	}
+
+IL_001e:
+	{
+		PolymorphismSchema_t2690808062 * L_7 = PolymorphismSchema_get_ItemSchema_m577339901(G_B2_0, /*hidden argument*/NULL);
+		Il2CppObject * L_8 = SerializationContext_GetSerializer_m328095222(G_B2_2, G_B2_1, L_7, /*hidden argument*/NULL);
+		G_B2_3->set__itemSerializer_4(L_8);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory.CreateInstance(System.Int32)
+extern "C"  Il2CppObject * UnityNonGenericEnumerableMessagePackSerializerBase_MsgPack_Serialization_CollectionSerializers_ICollectionInstanceFactory_CreateInstance_m2024658766 (UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___initialCapacity0;
+		Il2CppObject * L_1 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(11 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::CreateInstance(System.Int32) */, __this, L_0);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::UnpackToCore(MsgPack.Unpacker,System.Object)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m3813156733_MetadataUsageId;
+extern "C"  void UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m3813156733 (UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m3813156733_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m2823413630(__this, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::UnpackToCore(MsgPack.Unpacker,System.Object,System.Int32)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m2823413630_MetadataUsageId;
+extern "C"  void UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m2823413630 (UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, int32_t ___itemsCount2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m2823413630_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Unpacker_t998931393 * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_005e;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0013:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		bool L_5 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_4);
+		if (L_5)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_6);
+		if (L_7)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Il2CppObject * L_8 = __this->get__itemSerializer_4();
+		Unpacker_t998931393 * L_9 = ___unpacker0;
+		Il2CppObject * L_10 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9);
+		V_1 = L_10;
+		goto IL_0052;
+	}
+
+IL_0032:
+	{
+		Unpacker_t998931393 * L_11 = ___unpacker0;
+		Unpacker_t998931393 * L_12 = Unpacker_ReadSubtree_m3430570170(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+	}
+
+IL_0039:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_13 = __this->get__itemSerializer_4();
+		Unpacker_t998931393 * L_14 = V_2;
+		Il2CppObject * L_15 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_13, L_14);
+		V_1 = L_15;
+		IL2CPP_LEAVE(0x52, FINALLY_0048);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0048;
+	}
+
+FINALLY_0048:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_16 = V_2;
+			if (!L_16)
+			{
+				goto IL_0051;
+			}
+		}
+
+IL_004b:
+		{
+			Unpacker_t998931393 * L_17 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_17);
+		}
+
+IL_0051:
+		{
+			IL2CPP_END_FINALLY(72)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(72)
+	{
+		IL2CPP_JUMP_TBL(0x52, IL_0052)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0052:
+	{
+		Il2CppObject * L_18 = ___collection1;
+		Il2CppObject * L_19 = V_1;
+		VirtActionInvoker2< Il2CppObject *, Il2CppObject * >::Invoke(12 /* System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::AddItem(System.Object,System.Object) */, __this, L_18, L_19);
+		int32_t L_20 = V_0;
+		V_0 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_005e:
+	{
+		int32_t L_21 = V_0;
+		int32_t L_22 = ___itemsCount2;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::AddItem(System.Object,System.Object)
+extern "C"  void UnityNonGenericEnumerableMessagePackSerializerBase_AddItem_m3528258908 (UnityNonGenericEnumerableMessagePackSerializerBase_t1685890866 * __this, Il2CppObject * ___collection0, Il2CppObject * ___item1, const MethodInfo* method)
+{
+	{
+		Type_t * L_0 = NonGenericMessagePackSerializer_get_TargetType_m1450074029(__this, /*hidden argument*/NULL);
+		Exception_t1927440687 * L_1 = SerializationExceptions_NewUnpackToIsNotSupported_m1163086767(NULL /*static, unused*/, L_0, (Exception_t1927440687 *)NULL, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericListMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern "C"  void UnityNonGenericListMessagePackSerializer__ctor_m861926937 (UnityNonGenericListMessagePackSerializer_t3141818323 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___schema2, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___schema2;
+		UnityNonGenericCollectionMessagePackSerializer__ctor_m1849273737(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericListMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  Il2CppObject * UnityNonGenericListMessagePackSerializer_UnpackFromCore_m1976340472 (UnityNonGenericListMessagePackSerializer_t3141818323 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = VirtFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(13 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericListMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker) */, __this, L_3);
+		return L_4;
+	}
+}
+// System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericListMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericListMessagePackSerializer_InternalUnpackFromCore_m1870473401_MetadataUsageId;
+extern "C"  Il2CppObject * UnityNonGenericListMessagePackSerializer_InternalUnpackFromCore_m1870473401 (UnityNonGenericListMessagePackSerializer_t3141818323 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericListMessagePackSerializer_InternalUnpackFromCore_m1870473401_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_1 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		Il2CppObject * L_3 = VirtFuncInvoker1< Il2CppObject *, int32_t >::Invoke(11 /* System.Object MsgPack.Serialization.CollectionSerializers.UnityNonGenericEnumerableMessagePackSerializerBase::CreateInstance(System.Int32) */, __this, L_2);
+		V_1 = L_3;
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = V_1;
+		int32_t L_6 = V_0;
+		UnityNonGenericEnumerableMessagePackSerializerBase_UnpackToCore_m2823413630(__this, L_4, L_5, L_6, /*hidden argument*/NULL);
+		Il2CppObject * L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionSerializers.UnityNonGenericListMessagePackSerializer::AddItem(System.Object,System.Object)
+extern Il2CppClass* IList_t3321498491_il2cpp_TypeInfo_var;
+extern const uint32_t UnityNonGenericListMessagePackSerializer_AddItem_m2720191143_MetadataUsageId;
+extern "C"  void UnityNonGenericListMessagePackSerializer_AddItem_m2720191143 (UnityNonGenericListMessagePackSerializer_t3141818323 * __this, Il2CppObject * ___collection0, Il2CppObject * ___item1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityNonGenericListMessagePackSerializer_AddItem_m2720191143_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___collection0;
+		Il2CppObject * L_1 = ___item1;
+		InterfaceFuncInvoker1< int32_t, Il2CppObject * >::Invoke(4 /* System.Int32 System.Collections.IList::Add(System.Object) */, IList_t3321498491_il2cpp_TypeInfo_var, ((Il2CppObject *)IsInst(L_0, IList_t3321498491_il2cpp_TypeInfo_var)), L_1);
+		return;
+	}
+}
+// MsgPack.Serialization.CollectionKind MsgPack.Serialization.CollectionTraits::get_CollectionType()
+extern Il2CppClass* CollectionDetailedKind_t2859259456_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3126334650;
+extern const uint32_t CollectionTraits_get_CollectionType_m3199413186_MetadataUsageId;
+extern "C"  int32_t CollectionTraits_get_CollectionType_m3199413186 (CollectionTraits_t1823801989 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CollectionTraits_get_CollectionType_m3199413186_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_DetailedCollectionType_6();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_003f;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_003b;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_003b;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_003b;
+		}
+		if (L_1 == 4)
+		{
+			goto IL_003d;
+		}
+		if (L_1 == 5)
+		{
+			goto IL_003d;
+		}
+		if (L_1 == 6)
+		{
+			goto IL_003b;
+		}
+		if (L_1 == 7)
+		{
+			goto IL_003b;
+		}
+		if (L_1 == 8)
+		{
+			goto IL_003b;
+		}
+		if (L_1 == 9)
+		{
+			goto IL_003b;
+		}
+		if (L_1 == 10)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		goto IL_0043;
+	}
+
+IL_003b:
+	{
+		return (int32_t)(1);
+	}
+
+IL_003d:
+	{
+		return (int32_t)(2);
+	}
+
+IL_003f:
+	{
+		return (int32_t)(0);
+	}
+
+IL_0041:
+	{
+		return (int32_t)(3);
+	}
+
+IL_0043:
+	{
+		int32_t L_2 = __this->get_DetailedCollectionType_6();
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(CollectionDetailedKind_t2859259456_il2cpp_TypeInfo_var, &L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3126334650, L_4, /*hidden argument*/NULL);
+		NotSupportedException_t1793819818 * L_6 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_6, L_5, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6);
+	}
+}
+// System.Void MsgPack.Serialization.CollectionTraits::.ctor(MsgPack.Serialization.CollectionDetailedKind,System.Reflection.MethodInfo,System.Reflection.MethodInfo,System.Reflection.MethodInfo,System.Type)
+extern "C"  void CollectionTraits__ctor_m2547335780 (CollectionTraits_t1823801989 * __this, int32_t ___type0, MethodInfo_t * ___addMethod1, MethodInfo_t * ___countPropertyGetter2, MethodInfo_t * ___getEnumeratorMethod3, Type_t * ___elementType4, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___type0;
+		__this->set_DetailedCollectionType_6(L_0);
+		MethodInfo_t * L_1 = ___getEnumeratorMethod3;
+		__this->set_GetEnumeratorMethod_2(L_1);
+		MethodInfo_t * L_2 = ___addMethod1;
+		__this->set_AddMethod_3(L_2);
+		MethodInfo_t * L_3 = ___countPropertyGetter2;
+		__this->set_CountPropertyGetter_4(L_3);
+		Type_t * L_4 = ___elementType4;
+		__this->set_ElementType_5(L_4);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.CollectionTraits::.cctor()
+extern Il2CppClass* CollectionTraits_t1823801989_il2cpp_TypeInfo_var;
+extern const uint32_t CollectionTraits__cctor_m3449491709_MetadataUsageId;
+extern "C"  void CollectionTraits__cctor_m3449491709 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CollectionTraits__cctor_m3449491709_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CollectionTraits_t1823801989 * L_0 = (CollectionTraits_t1823801989 *)il2cpp_codegen_object_new(CollectionTraits_t1823801989_il2cpp_TypeInfo_var);
+		CollectionTraits__ctor_m2547335780(L_0, 0, (MethodInfo_t *)NULL, (MethodInfo_t *)NULL, (MethodInfo_t *)NULL, (Type_t *)NULL, /*hidden argument*/NULL);
+		((CollectionTraits_t1823801989_StaticFields*)CollectionTraits_t1823801989_il2cpp_TypeInfo_var->static_fields)->set_NotCollection_0(L_0);
+		CollectionTraits_t1823801989 * L_1 = (CollectionTraits_t1823801989 *)il2cpp_codegen_object_new(CollectionTraits_t1823801989_il2cpp_TypeInfo_var);
+		CollectionTraits__ctor_m2547335780(L_1, ((int32_t)10), (MethodInfo_t *)NULL, (MethodInfo_t *)NULL, (MethodInfo_t *)NULL, (Type_t *)NULL, /*hidden argument*/NULL);
+		((CollectionTraits_t1823801989_StaticFields*)CollectionTraits_t1823801989_il2cpp_TypeInfo_var->static_fields)->set_Unserializable_1(L_1);
+		return;
+	}
+}
+// System.String MsgPack.Serialization.DataMemberContract::get_Name()
+extern "C"  String_t* DataMemberContract_get_Name_m2282613176 (DataMemberContract_t3068833586 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__name_1();
+		return L_0;
+	}
+}
+// System.Int32 MsgPack.Serialization.DataMemberContract::get_Id()
+extern "C"  int32_t DataMemberContract_get_Id_m1683335049 (DataMemberContract_t3068833586 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__id_2();
+		return L_0;
+	}
+}
+// MsgPack.Serialization.NilImplication MsgPack.Serialization.DataMemberContract::get_NilImplication()
+extern "C"  int32_t DataMemberContract_get_NilImplication_m3442133623 (DataMemberContract_t3068833586 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__nilImplication_3();
+		return L_0;
+	}
+}
+// System.Void MsgPack.Serialization.DataMemberContract::.ctor()
+extern "C"  void DataMemberContract__ctor_m494604511 (DataMemberContract_t3068833586 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set__name_1((String_t*)NULL);
+		__this->set__nilImplication_3(0);
+		__this->set__id_2((-1));
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DataMemberContract::.ctor(System.Reflection.MemberInfo)
+extern "C"  void DataMemberContract__ctor_m3798934075 (DataMemberContract_t3068833586 * __this, MemberInfo_t * ___member0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		MemberInfo_t * L_0 = ___member0;
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_0);
+		__this->set__name_1(L_1);
+		__this->set__nilImplication_3(0);
+		__this->set__id_2((-1));
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DataMemberContract::.ctor(System.Reflection.MemberInfo,System.String,MsgPack.Serialization.NilImplication,System.Nullable`1<System.Int32>)
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1_GetValueOrDefault_m2741736515_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m1848371904_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1850909993;
+extern const uint32_t DataMemberContract__ctor_m2513499955_MetadataUsageId;
+extern "C"  void DataMemberContract__ctor_m2513499955 (DataMemberContract_t3068833586 * __this, MemberInfo_t * ___member0, String_t* ___name1, int32_t ___nilImplication2, Nullable_1_t334943763  ___id3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DataMemberContract__ctor_m2513499955_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Nullable_1_t334943763  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	ObjectU5BU5D_t3614634134* V_1 = NULL;
+	Nullable_1_t334943763  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t G_B3_0 = 0;
+	DataMemberContract_t3068833586 * G_B7_0 = NULL;
+	DataMemberContract_t3068833586 * G_B6_0 = NULL;
+	String_t* G_B8_0 = NULL;
+	DataMemberContract_t3068833586 * G_B8_1 = NULL;
+	DataMemberContract_t3068833586 * G_B10_0 = NULL;
+	DataMemberContract_t3068833586 * G_B9_0 = NULL;
+	int32_t G_B11_0 = 0;
+	DataMemberContract_t3068833586 * G_B11_1 = NULL;
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		Nullable_1_t334943763  L_0 = ___id3;
+		V_0 = L_0;
+		int32_t L_1 = Nullable_1_GetValueOrDefault_m2741736515((&V_0), /*hidden argument*/Nullable_1_GetValueOrDefault_m2741736515_MethodInfo_var);
+		if ((((int32_t)L_1) >= ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		bool L_2 = Nullable_1_get_HasValue_m1848371904((&V_0), /*hidden argument*/Nullable_1_get_HasValue_m1848371904_MethodInfo_var);
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001d:
+	{
+		if (!G_B3_0)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_1;
+		MemberInfo_t * L_5 = ___member0;
+		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
+		ArrayElementTypeCheck (L_4, L_6);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_6);
+		ObjectU5BU5D_t3614634134* L_7 = V_1;
+		MemberInfo_t * L_8 = ___member0;
+		Type_t * L_9 = VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_8);
+		ArrayElementTypeCheck (L_7, L_9);
+		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_9);
+		ObjectU5BU5D_t3614634134* L_10 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1850909993, L_10, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_12 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_12, L_11, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
+	}
+
+IL_004e:
+	{
+		String_t* L_13 = ___name1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_14 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		G_B6_0 = __this;
+		if (L_14)
+		{
+			G_B7_0 = __this;
+			goto IL_005a;
+		}
+	}
+	{
+		String_t* L_15 = ___name1;
+		G_B8_0 = L_15;
+		G_B8_1 = G_B6_0;
+		goto IL_0060;
+	}
+
+IL_005a:
+	{
+		MemberInfo_t * L_16 = ___member0;
+		String_t* L_17 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_16);
+		G_B8_0 = L_17;
+		G_B8_1 = G_B7_0;
+	}
+
+IL_0060:
+	{
+		G_B8_1->set__name_1(G_B8_0);
+		int32_t L_18 = ___nilImplication2;
+		__this->set__nilImplication_3(L_18);
+		Nullable_1_t334943763  L_19 = ___id3;
+		V_2 = L_19;
+		bool L_20 = Nullable_1_get_HasValue_m1848371904((&V_2), /*hidden argument*/Nullable_1_get_HasValue_m1848371904_MethodInfo_var);
+		G_B9_0 = __this;
+		if (L_20)
+		{
+			G_B10_0 = __this;
+			goto IL_007c;
+		}
+	}
+	{
+		G_B11_0 = (-1);
+		G_B11_1 = G_B9_0;
+		goto IL_0083;
+	}
+
+IL_007c:
+	{
+		int32_t L_21 = Nullable_1_GetValueOrDefault_m2741736515((&V_2), /*hidden argument*/Nullable_1_GetValueOrDefault_m2741736515_MethodInfo_var);
+		G_B11_0 = L_21;
+		G_B11_1 = G_B10_0;
+	}
+
+IL_0083:
+	{
+		G_B11_1->set__id_2(G_B11_0);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DataMemberContract::.ctor(System.Reflection.MemberInfo,MsgPack.Serialization.MessagePackMemberAttribute)
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1850909993;
+extern const uint32_t DataMemberContract__ctor_m1777207411_MetadataUsageId;
+extern "C"  void DataMemberContract__ctor_m1777207411 (DataMemberContract_t3068833586 * __this, MemberInfo_t * ___member0, MessagePackMemberAttribute_t1681615454 * ___attribute1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DataMemberContract__ctor_m1777207411_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ObjectU5BU5D_t3614634134* V_0 = NULL;
+	DataMemberContract_t3068833586 * G_B4_0 = NULL;
+	DataMemberContract_t3068833586 * G_B3_0 = NULL;
+	String_t* G_B5_0 = NULL;
+	DataMemberContract_t3068833586 * G_B5_1 = NULL;
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		MessagePackMemberAttribute_t1681615454 * L_0 = ___attribute1;
+		int32_t L_1 = MessagePackMemberAttribute_get_Id_m2592241557(L_0, /*hidden argument*/NULL);
+		if ((((int32_t)L_1) >= ((int32_t)0)))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_2 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_3 = V_0;
+		MemberInfo_t * L_4 = ___member0;
+		String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_4);
+		ArrayElementTypeCheck (L_3, L_5);
+		(L_3)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_0;
+		MemberInfo_t * L_7 = ___member0;
+		Type_t * L_8 = VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_2, _stringLiteral1850909993, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	}
+
+IL_003e:
+	{
+		MessagePackMemberAttribute_t1681615454 * L_12 = ___attribute1;
+		String_t* L_13 = MessagePackMemberAttribute_get_Name_m1019043924(L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_14 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		G_B3_0 = __this;
+		if (L_14)
+		{
+			G_B4_0 = __this;
+			goto IL_0054;
+		}
+	}
+	{
+		MessagePackMemberAttribute_t1681615454 * L_15 = ___attribute1;
+		String_t* L_16 = MessagePackMemberAttribute_get_Name_m1019043924(L_15, /*hidden argument*/NULL);
+		G_B5_0 = L_16;
+		G_B5_1 = G_B3_0;
+		goto IL_005a;
+	}
+
+IL_0054:
+	{
+		MemberInfo_t * L_17 = ___member0;
+		String_t* L_18 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_17);
+		G_B5_0 = L_18;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_005a:
+	{
+		G_B5_1->set__name_1(G_B5_0);
+		MessagePackMemberAttribute_t1681615454 * L_19 = ___attribute1;
+		int32_t L_20 = MessagePackMemberAttribute_get_NilImplication_m4097552419(L_19, /*hidden argument*/NULL);
+		__this->set__nilImplication_3(L_20);
+		MessagePackMemberAttribute_t1681615454 * L_21 = ___attribute1;
+		int32_t L_22 = MessagePackMemberAttribute_get_Id_m2592241557(L_21, /*hidden argument*/NULL);
+		__this->set__id_2(L_22);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DataMemberContract::.cctor()
+extern Il2CppClass* DataMemberContract_t3068833586_il2cpp_TypeInfo_var;
+extern const uint32_t DataMemberContract__cctor_m2336336050_MetadataUsageId;
+extern "C"  void DataMemberContract__cctor_m2336336050 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DataMemberContract__cctor_m2336336050_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DataMemberContract_t3068833586 * L_0 = (DataMemberContract_t3068833586 *)il2cpp_codegen_object_new(DataMemberContract_t3068833586_il2cpp_TypeInfo_var);
+		DataMemberContract__ctor_m494604511(L_0, /*hidden argument*/NULL);
+		((DataMemberContract_t3068833586_StaticFields*)DataMemberContract_t3068833586_il2cpp_TypeInfo_var->static_fields)->set_Null_0(L_0);
+		return;
+	}
+}
+// MsgPack.Serialization.DateTimeConversionMethod MsgPack.Serialization.DateTimeMessagePackSerializerHelpers::DetermineDateTimeConversionMethod(MsgPack.Serialization.SerializationContext,MsgPack.Serialization.DateTimeMemberConversionMethod)
+extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3081000439;
+extern const uint32_t DateTimeMessagePackSerializerHelpers_DetermineDateTimeConversionMethod_m1206151228_MetadataUsageId;
+extern "C"  int32_t DateTimeMessagePackSerializerHelpers_DetermineDateTimeConversionMethod_m1206151228 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, int32_t ___dateTimeMemberConversionMethod1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeMessagePackSerializerHelpers_DetermineDateTimeConversionMethod_m1206151228_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral3081000439, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_000e:
+	{
+		int32_t L_2 = ___dateTimeMemberConversionMethod1;
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 0)
+		{
+			goto IL_0022;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		goto IL_0026;
+	}
+
+IL_0022:
+	{
+		return (int32_t)(0);
+	}
+
+IL_0024:
+	{
+		return (int32_t)(1);
+	}
+
+IL_0026:
+	{
+		SerializationContext_t1484625559 * L_4 = ___context0;
+		int32_t L_5 = SerializationContext_get_DefaultDateTimeConversionMethod_m3602035803(L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Boolean MsgPack.Serialization.DateTimeMessagePackSerializerHelpers::IsDateTime(System.Type)
+extern const Il2CppType* DateTime_t693205669_0_0_0_var;
+extern const Il2CppType* Nullable_1_t3251239280_0_0_0_var;
+extern const Il2CppType* DateTimeOffset_t1362988906_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t DateTimeMessagePackSerializerHelpers_IsDateTime_m2241866975_MetadataUsageId;
+extern "C"  bool DateTimeMessagePackSerializerHelpers_IsDateTime_m2241866975 (Il2CppObject * __this /* static, unused */, Type_t * ___dateTimeType0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeMessagePackSerializerHelpers_IsDateTime_m2241866975_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Type_t * L_0 = ___dateTimeType0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(DateTime_t693205669_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_0) == ((Il2CppObject*)(Type_t *)L_1)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Type_t * L_2 = ___dateTimeType0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1_t3251239280_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_2) == ((Il2CppObject*)(Type_t *)L_3)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Type_t * L_4 = ___dateTimeType0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(DateTimeOffset_t1362988906_0_0_0_var), /*hidden argument*/NULL);
+		return (bool)((((Il2CppObject*)(Type_t *)L_4) == ((Il2CppObject*)(Type_t *)L_5))? 1 : 0);
+	}
+
+IL_0028:
+	{
+		return (bool)1;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultConcreteTypeRepository::.ctor()
+extern const Il2CppType* IEnumerable_1_t4048664256_0_0_0_var;
+extern const Il2CppType* List_1_t1169184319_0_0_0_var;
+extern const Il2CppType* ICollection_1_t1552160836_0_0_0_var;
+extern const Il2CppType* IList_1_t3737699284_0_0_0_var;
+extern const Il2CppType* IDictionary_2_t3502329323_0_0_0_var;
+extern const Il2CppType* Dictionary_2_t2276497324_0_0_0_var;
+extern const Il2CppType* IEnumerable_t2911409499_0_0_0_var;
+extern const Il2CppType* List_1_t1407206183_0_0_0_var;
+extern const Il2CppType* ICollection_t91669223_0_0_0_var;
+extern const Il2CppType* IList_t3321498491_0_0_0_var;
+extern const Il2CppType* IDictionary_t596158605_0_0_0_var;
+extern const Il2CppType* MessagePackObjectDictionary_t4175726983_0_0_0_var;
+extern Il2CppClass* Dictionary_2_t613314382_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* TypeKeyRepository_t2762167823_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3411193934_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m3095230263_MethodInfo_var;
+extern const uint32_t DefaultConcreteTypeRepository__ctor_m1185706267_MetadataUsageId;
+extern "C"  void DefaultConcreteTypeRepository__ctor_m1185706267 (DefaultConcreteTypeRepository_t1959877892 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultConcreteTypeRepository__ctor_m1185706267_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t613314382 * V_0 = NULL;
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		Dictionary_2_t613314382 * L_0 = (Dictionary_2_t613314382 *)il2cpp_codegen_object_new(Dictionary_2_t613314382_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3411193934(L_0, ((int32_t)12), /*hidden argument*/Dictionary_2__ctor_m3411193934_MethodInfo_var);
+		V_0 = L_0;
+		Dictionary_2_t613314382 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IEnumerable_1_t4048664256_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_3 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_2);
+		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(List_1_t1169184319_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_1, L_3, L_4, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_5 = V_0;
+		Type_t * L_6 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ICollection_1_t1552160836_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_7 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_6);
+		Type_t * L_8 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(List_1_t1169184319_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_5, L_7, L_8, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_9 = V_0;
+		Type_t * L_10 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IList_1_t3737699284_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_11 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_10);
+		Type_t * L_12 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(List_1_t1169184319_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_9, L_11, L_12, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_13 = V_0;
+		Type_t * L_14 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IDictionary_2_t3502329323_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_15 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_14);
+		Type_t * L_16 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Dictionary_2_t2276497324_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_13, L_15, L_16, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_17 = V_0;
+		Type_t * L_18 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IEnumerable_t2911409499_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_19 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_18);
+		Type_t * L_20 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(List_1_t1407206183_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_17, L_19, L_20, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_21 = V_0;
+		Type_t * L_22 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ICollection_t91669223_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_23 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_22);
+		Type_t * L_24 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(List_1_t1407206183_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_21, L_23, L_24, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_25 = V_0;
+		Type_t * L_26 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IList_t3321498491_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_27 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_26);
+		Type_t * L_28 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(List_1_t1407206183_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_25, L_27, L_28, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_29 = V_0;
+		Type_t * L_30 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IDictionary_t596158605_0_0_0_var), /*hidden argument*/NULL);
+		RuntimeTypeHandle_t2330101084  L_31 = VirtFuncInvoker0< RuntimeTypeHandle_t2330101084  >::Invoke(37 /* System.RuntimeTypeHandle System.Type::get_TypeHandle() */, L_30);
+		Type_t * L_32 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(MessagePackObjectDictionary_t4175726983_0_0_0_var), /*hidden argument*/NULL);
+		Dictionary_2_Add_m3095230263(L_29, L_31, L_32, /*hidden argument*/Dictionary_2_Add_m3095230263_MethodInfo_var);
+		Dictionary_2_t613314382 * L_33 = V_0;
+		TypeKeyRepository_t2762167823 * L_34 = (TypeKeyRepository_t2762167823 *)il2cpp_codegen_object_new(TypeKeyRepository_t2762167823_il2cpp_TypeInfo_var);
+		TypeKeyRepository__ctor_m3200201880(L_34, L_33, /*hidden argument*/NULL);
+		__this->set__defaultCollectionTypes_0(L_34);
+		return;
+	}
+}
+// System.Type MsgPack.Serialization.DefaultConcreteTypeRepository::Get(System.Type)
+extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3388541124;
+extern const uint32_t DefaultConcreteTypeRepository_Get_m2417344232_MetadataUsageId;
+extern "C"  Type_t * DefaultConcreteTypeRepository_Get_m2417344232 (DefaultConcreteTypeRepository_t1959877892 * __this, Type_t * ___abstractCollectionType0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultConcreteTypeRepository_Get_m2417344232_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Type_t * G_B4_0 = NULL;
+	Type_t * G_B3_0 = NULL;
+	{
+		Type_t * L_0 = ___abstractCollectionType0;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral3388541124, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_000e:
+	{
+		TypeKeyRepository_t2762167823 * L_2 = __this->get__defaultCollectionTypes_0();
+		Type_t * L_3 = ___abstractCollectionType0;
+		TypeKeyRepository_Get_m2466143341(L_2, L_3, (&V_0), (&V_1), /*hidden argument*/NULL);
+		Il2CppObject * L_4 = V_0;
+		Type_t * L_5 = ((Type_t *)IsInstClass(L_4, Type_t_il2cpp_TypeInfo_var));
+		G_B3_0 = L_5;
+		if (L_5)
+		{
+			G_B4_0 = L_5;
+			goto IL_002f;
+		}
+	}
+	{
+		Il2CppObject * L_6 = V_1;
+		G_B4_0 = ((Type_t *)IsInstClass(L_6, Type_t_il2cpp_TypeInfo_var));
+	}
+
+IL_002f:
+	{
+		return G_B4_0;
+	}
+}
+// System.Type MsgPack.Serialization.DefaultConcreteTypeRepository::GetConcreteType(System.Type)
+extern Il2CppClass* ReflectionAbstractions_t1376794770_il2cpp_TypeInfo_var;
+extern const uint32_t DefaultConcreteTypeRepository_GetConcreteType_m2885996277_MetadataUsageId;
+extern "C"  Type_t * DefaultConcreteTypeRepository_GetConcreteType_m2885996277 (DefaultConcreteTypeRepository_t1959877892 * __this, Type_t * ___abstractCollectionType0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultConcreteTypeRepository_GetConcreteType_m2885996277_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Type_t * V_0 = NULL;
+	{
+		Type_t * L_0 = ___abstractCollectionType0;
+		Type_t * L_1 = DefaultConcreteTypeRepository_Get_m2417344232(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Type_t * L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Type_t * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionAbstractions_t1376794770_il2cpp_TypeInfo_var);
+		bool L_4 = ReflectionAbstractions_GetIsGenericTypeDefinition_m2130451688(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Type_t * L_5 = ___abstractCollectionType0;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionAbstractions_t1376794770_il2cpp_TypeInfo_var);
+		bool L_6 = ReflectionAbstractions_GetIsGenericType_m4226608263(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001b:
+	{
+		Type_t * L_7 = V_0;
+		return L_7;
+	}
+
+IL_001d:
+	{
+		Type_t * L_8 = V_0;
+		Type_t * L_9 = ___abstractCollectionType0;
+		TypeU5BU5D_t1664964607* L_10 = VirtFuncInvoker0< TypeU5BU5D_t1664964607* >::Invoke(91 /* System.Type[] System.Type::GetGenericArguments() */, L_9);
+		Type_t * L_11 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(96 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_8, L_10);
+		return L_11;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractCollectionMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractCollectionMessagePackSerializer__ctor_m946507867_MetadataUsageId;
+extern "C"  void AbstractCollectionMessagePackSerializer__ctor_m946507867 (AbstractCollectionMessagePackSerializer_t2380864482 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___abstractType1, Type_t * ___concreteType2, CollectionTraits_t1823801989 * ___traits3, PolymorphismSchema_t2690808062 * ___schema4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractCollectionMessagePackSerializer__ctor_m946507867_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___abstractType1;
+		CollectionTraits_t1823801989 * L_2 = ___traits3;
+		PolymorphismSchema_t2690808062 * L_3 = ___schema4;
+		UnityCollectionMessagePackSerializer__ctor_m1149205296(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_4 = ___ownerContext0;
+		PolymorphismSchema_t2690808062 * L_5 = ___schema4;
+		Type_t * L_6 = ___abstractType1;
+		Type_t * L_7 = ___concreteType2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_8 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var), /*hidden argument*/NULL);
+		Il2CppObject ** L_9 = __this->get_address_of__concreteCollectionInstanceFactory_7();
+		AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601(NULL /*static, unused*/, L_4, L_5, L_6, L_7, L_8, L_9, (&V_0), /*hidden argument*/NULL);
+		Il2CppObject * L_10 = V_0;
+		__this->set__polymorphicDeserializer_8(((Il2CppObject *)IsInst(L_10, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractCollectionMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractCollectionMessagePackSerializer_InternalUnpackFromCore_m3469255649_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractCollectionMessagePackSerializer_InternalUnpackFromCore_m3469255649 (AbstractCollectionMessagePackSerializer_t2380864482 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractCollectionMessagePackSerializer_InternalUnpackFromCore_m3469255649_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__polymorphicDeserializer_8();
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Il2CppObject * L_1 = __this->get__polymorphicDeserializer_8();
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		Il2CppObject * L_3 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(0 /* System.Object MsgPack.Serialization.Polymorphic.IPolymorphicDeserializer::PolymorphicUnpackFrom(MsgPack.Unpacker) */, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var, L_1, L_2);
+		return L_3;
+	}
+
+IL_0015:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = UnityCollectionMessagePackSerializer_InternalUnpackFromCore_m2608504379(__this, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractCollectionMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractCollectionMessagePackSerializer_CreateInstance_m113230914_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractCollectionMessagePackSerializer_CreateInstance_m113230914 (AbstractCollectionMessagePackSerializer_t2380864482 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractCollectionMessagePackSerializer_CreateInstance_m113230914_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__concreteCollectionInstanceFactory_7();
+		int32_t L_1 = ___initialCapacity0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, int32_t >::Invoke(0 /* System.Object MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory::CreateInstance(System.Int32) */, ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractCollectionSerializerHelper::GetConcreteSerializer(MsgPack.Serialization.SerializationContext,MsgPack.Serialization.PolymorphismSchema,System.Type,System.Type,System.Type,MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory&,MsgPack.Serialization.IMessagePackSingleObjectSerializer&)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601_MetadataUsageId;
+extern "C"  void AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, PolymorphismSchema_t2690808062 * ___schema1, Type_t * ___abstractType2, Type_t * ___targetType3, Type_t * ___exampleType4, Il2CppObject ** ___factory5, Il2CppObject ** ___serializer6, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Type_t * L_0 = ___abstractType2;
+		Type_t * L_1 = ___targetType3;
+		if ((!(((Il2CppObject*)(Type_t *)L_0) == ((Il2CppObject*)(Type_t *)L_1))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		Type_t * L_2 = ___abstractType2;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewNotSupportedBecauseCannotInstanciateAbstractType_m2139252626(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_000b:
+	{
+		Il2CppObject ** L_4 = ___serializer6;
+		SerializationContext_t1484625559 * L_5 = ___context0;
+		Type_t * L_6 = ___targetType3;
+		PolymorphismSchema_t2690808062 * L_7 = ___schema1;
+		Il2CppObject * L_8 = SerializationContext_GetSerializer_m328095222(L_5, L_6, L_7, /*hidden argument*/NULL);
+		*((Il2CppObject **)(L_4)) = (Il2CppObject *)L_8;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_4), (Il2CppObject *)L_8);
+		Il2CppObject ** L_9 = ___factory5;
+		Il2CppObject ** L_10 = ___serializer6;
+		*((Il2CppObject **)(L_9)) = (Il2CppObject *)((Il2CppObject *)IsInst((*((Il2CppObject **)L_10)), ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_9), (Il2CppObject *)((Il2CppObject *)IsInst((*((Il2CppObject **)L_10)), ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var)));
+		Il2CppObject ** L_11 = ___factory5;
+		if ((*((Il2CppObject **)L_11)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Il2CppObject ** L_12 = ___serializer6;
+		if (((Il2CppObject *)IsInst((*((Il2CppObject **)L_12)), IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Type_t * L_13 = ___abstractType2;
+		Il2CppObject ** L_14 = ___serializer6;
+		Type_t * L_15 = Object_GetType_m191970594((*((Il2CppObject **)L_14)), /*hidden argument*/NULL);
+		Type_t * L_16 = ___exampleType4;
+		Exception_t1927440687 * L_17 = SerializationExceptions_NewIncompatibleCollectionSerializer_m3421280960(NULL /*static, unused*/, L_13, L_15, L_16, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17);
+	}
+
+IL_0041:
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractDictionaryMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,System.Type,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* DictionaryMessagePackSerializer_3_t393707835_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractDictionaryMessagePackSerializer__ctor_m10822373_MetadataUsageId;
+extern "C"  void AbstractDictionaryMessagePackSerializer__ctor_m10822373 (AbstractDictionaryMessagePackSerializer_t2071025354 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___abstractType1, Type_t * ___concreteType2, Type_t * ___keyType3, Type_t * ___valueType4, CollectionTraits_t1823801989 * ___traits5, PolymorphismSchema_t2690808062 * ___schema6, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractDictionaryMessagePackSerializer__ctor_m10822373_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___abstractType1;
+		Type_t * L_2 = ___keyType3;
+		Type_t * L_3 = ___valueType4;
+		CollectionTraits_t1823801989 * L_4 = ___traits5;
+		PolymorphismSchema_t2690808062 * L_5 = ___schema6;
+		UnityDictionaryMessagePackSerializer__ctor_m2467969600(__this, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_6 = ___ownerContext0;
+		PolymorphismSchema_t2690808062 * L_7 = ___schema6;
+		Type_t * L_8 = ___abstractType1;
+		Type_t * L_9 = ___concreteType2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_10 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(DictionaryMessagePackSerializer_3_t393707835_0_0_0_var), /*hidden argument*/NULL);
+		Il2CppObject ** L_11 = __this->get_address_of__concreteCollectionInstanceFactory_10();
+		AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601(NULL /*static, unused*/, L_6, L_7, L_8, L_9, L_10, L_11, (&V_0), /*hidden argument*/NULL);
+		Il2CppObject * L_12 = V_0;
+		__this->set__polymorphicDeserializer_11(((Il2CppObject *)IsInst(L_12, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractDictionaryMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractDictionaryMessagePackSerializer_InternalUnpackFromCore_m2144846127_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractDictionaryMessagePackSerializer_InternalUnpackFromCore_m2144846127 (AbstractDictionaryMessagePackSerializer_t2071025354 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractDictionaryMessagePackSerializer_InternalUnpackFromCore_m2144846127_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__polymorphicDeserializer_11();
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Il2CppObject * L_1 = __this->get__polymorphicDeserializer_11();
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		Il2CppObject * L_3 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(0 /* System.Object MsgPack.Serialization.Polymorphic.IPolymorphicDeserializer::PolymorphicUnpackFrom(MsgPack.Unpacker) */, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var, L_1, L_2);
+		return L_3;
+	}
+
+IL_0015:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = UnityDictionaryMessagePackSerializer_InternalUnpackFromCore_m1368716269(__this, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractDictionaryMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractDictionaryMessagePackSerializer_CreateInstance_m1404160318_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractDictionaryMessagePackSerializer_CreateInstance_m1404160318 (AbstractDictionaryMessagePackSerializer_t2071025354 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractDictionaryMessagePackSerializer_CreateInstance_m1404160318_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__concreteCollectionInstanceFactory_10();
+		int32_t L_1 = ___initialCapacity0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, int32_t >::Invoke(0 /* System.Object MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory::CreateInstance(System.Int32) */, ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractEnumerableMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractEnumerableMessagePackSerializer__ctor_m3451374031_MetadataUsageId;
+extern "C"  void AbstractEnumerableMessagePackSerializer__ctor_m3451374031 (AbstractEnumerableMessagePackSerializer_t1115660484 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___abstractType1, Type_t * ___concreteType2, CollectionTraits_t1823801989 * ___traits3, PolymorphismSchema_t2690808062 * ___schema4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractEnumerableMessagePackSerializer__ctor_m3451374031_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___abstractType1;
+		CollectionTraits_t1823801989 * L_2 = ___traits3;
+		PolymorphismSchema_t2690808062 * L_3 = ___schema4;
+		UnityEnumerableMessagePackSerializer__ctor_m2727882194(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_4 = ___ownerContext0;
+		PolymorphismSchema_t2690808062 * L_5 = ___schema4;
+		Type_t * L_6 = ___abstractType1;
+		Type_t * L_7 = ___concreteType2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_8 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var), /*hidden argument*/NULL);
+		Il2CppObject ** L_9 = __this->get_address_of__concreteCollectionInstanceFactory_6();
+		Il2CppObject ** L_10 = __this->get_address_of__concreteSerializer_7();
+		AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601(NULL /*static, unused*/, L_4, L_5, L_6, L_7, L_8, L_9, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractEnumerableMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractEnumerableMessagePackSerializer_UnpackFromCore_m3812829506_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractEnumerableMessagePackSerializer_UnpackFromCore_m3812829506 (AbstractEnumerableMessagePackSerializer_t1115660484 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractEnumerableMessagePackSerializer_UnpackFromCore_m3812829506_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get__concreteSerializer_7();
+		V_0 = ((Il2CppObject *)IsInst(L_0, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var));
+		Il2CppObject * L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Il2CppObject * L_2 = V_0;
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(0 /* System.Object MsgPack.Serialization.Polymorphic.IPolymorphicDeserializer::PolymorphicUnpackFrom(MsgPack.Unpacker) */, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var, L_2, L_3);
+		return L_4;
+	}
+
+IL_0017:
+	{
+		Il2CppObject * L_5 = __this->get__concreteSerializer_7();
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Il2CppObject * L_7 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_5, L_6);
+		return L_7;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractEnumerableMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractEnumerableMessagePackSerializer_CreateInstance_m1062153728_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractEnumerableMessagePackSerializer_CreateInstance_m1062153728 (AbstractEnumerableMessagePackSerializer_t1115660484 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractEnumerableMessagePackSerializer_CreateInstance_m1062153728_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__concreteCollectionInstanceFactory_6();
+		int32_t L_1 = ___initialCapacity0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, int32_t >::Invoke(0 /* System.Object MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory::CreateInstance(System.Int32) */, ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractNonGenericCollectionMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericCollectionMessagePackSerializer__ctor_m1296886180_MetadataUsageId;
+extern "C"  void AbstractNonGenericCollectionMessagePackSerializer__ctor_m1296886180 (AbstractNonGenericCollectionMessagePackSerializer_t2880081730 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___abstractType1, Type_t * ___concreteType2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericCollectionMessagePackSerializer__ctor_m1296886180_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___abstractType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___schema3;
+		UnityNonGenericCollectionMessagePackSerializer__ctor_m1849273737(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___ownerContext0;
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		Type_t * L_5 = ___abstractType1;
+		Type_t * L_6 = ___concreteType2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_7 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var), /*hidden argument*/NULL);
+		Il2CppObject ** L_8 = __this->get_address_of__concreteCollectionInstanceFactory_5();
+		Il2CppObject ** L_9 = __this->get_address_of__concreteSerializer_6();
+		AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601(NULL /*static, unused*/, L_3, L_4, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericCollectionMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericCollectionMessagePackSerializer_UnpackFromCore_m639165992_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericCollectionMessagePackSerializer_UnpackFromCore_m639165992 (AbstractNonGenericCollectionMessagePackSerializer_t2880081730 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericCollectionMessagePackSerializer_UnpackFromCore_m639165992_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get__concreteSerializer_6();
+		V_0 = ((Il2CppObject *)IsInst(L_0, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var));
+		Il2CppObject * L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Il2CppObject * L_2 = V_0;
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(0 /* System.Object MsgPack.Serialization.Polymorphic.IPolymorphicDeserializer::PolymorphicUnpackFrom(MsgPack.Unpacker) */, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var, L_2, L_3);
+		return L_4;
+	}
+
+IL_0017:
+	{
+		Il2CppObject * L_5 = __this->get__concreteSerializer_6();
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Il2CppObject * L_7 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_5, L_6);
+		return L_7;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericCollectionMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericCollectionMessagePackSerializer_CreateInstance_m3805205538_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericCollectionMessagePackSerializer_CreateInstance_m3805205538 (AbstractNonGenericCollectionMessagePackSerializer_t2880081730 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericCollectionMessagePackSerializer_CreateInstance_m3805205538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__concreteCollectionInstanceFactory_5();
+		int32_t L_1 = ___initialCapacity0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, int32_t >::Invoke(0 /* System.Object MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory::CreateInstance(System.Int32) */, ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractNonGenericDictionaryMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* DictionaryMessagePackSerializer_3_t393707835_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericDictionaryMessagePackSerializer__ctor_m3047878408_MetadataUsageId;
+extern "C"  void AbstractNonGenericDictionaryMessagePackSerializer__ctor_m3047878408 (AbstractNonGenericDictionaryMessagePackSerializer_t2458143358 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___abstractType1, Type_t * ___concreteType2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericDictionaryMessagePackSerializer__ctor_m3047878408_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___abstractType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___schema3;
+		UnityNonGenericDictionaryMessagePackSerializer__ctor_m1673164403(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___ownerContext0;
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		Type_t * L_5 = ___abstractType1;
+		Type_t * L_6 = ___concreteType2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_7 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(DictionaryMessagePackSerializer_3_t393707835_0_0_0_var), /*hidden argument*/NULL);
+		Il2CppObject ** L_8 = __this->get_address_of__concreteCollectionInstanceFactory_6();
+		AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601(NULL /*static, unused*/, L_3, L_4, L_5, L_6, L_7, L_8, (&V_0), /*hidden argument*/NULL);
+		Il2CppObject * L_9 = V_0;
+		__this->set__polymorphicDeserializer_7(((Il2CppObject *)IsInst(L_9, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericDictionaryMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericDictionaryMessagePackSerializer_InternalUnpackFromCore_m323753973_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericDictionaryMessagePackSerializer_InternalUnpackFromCore_m323753973 (AbstractNonGenericDictionaryMessagePackSerializer_t2458143358 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericDictionaryMessagePackSerializer_InternalUnpackFromCore_m323753973_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__polymorphicDeserializer_7();
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Il2CppObject * L_1 = __this->get__polymorphicDeserializer_7();
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		Il2CppObject * L_3 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(0 /* System.Object MsgPack.Serialization.Polymorphic.IPolymorphicDeserializer::PolymorphicUnpackFrom(MsgPack.Unpacker) */, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var, L_1, L_2);
+		return L_3;
+	}
+
+IL_0015:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = UnityNonGenericDictionaryMessagePackSerializer_InternalUnpackFromCore_m56618755(__this, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericDictionaryMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericDictionaryMessagePackSerializer_CreateInstance_m3080487370_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericDictionaryMessagePackSerializer_CreateInstance_m3080487370 (AbstractNonGenericDictionaryMessagePackSerializer_t2458143358 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericDictionaryMessagePackSerializer_CreateInstance_m3080487370_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__concreteCollectionInstanceFactory_6();
+		int32_t L_1 = ___initialCapacity0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, int32_t >::Invoke(0 /* System.Object MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory::CreateInstance(System.Int32) */, ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractNonGenericEnumerableMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericEnumerableMessagePackSerializer__ctor_m2460860114_MetadataUsageId;
+extern "C"  void AbstractNonGenericEnumerableMessagePackSerializer__ctor_m2460860114 (AbstractNonGenericEnumerableMessagePackSerializer_t410058080 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___abstractType1, Type_t * ___concreteType2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericEnumerableMessagePackSerializer__ctor_m2460860114_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___abstractType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___schema3;
+		UnityNonGenericEnumerableMessagePackSerializer__ctor_m3673981445(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___ownerContext0;
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		Type_t * L_5 = ___abstractType1;
+		Type_t * L_6 = ___concreteType2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_7 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var), /*hidden argument*/NULL);
+		Il2CppObject ** L_8 = __this->get_address_of__concreteCollectionInstanceFactory_5();
+		Il2CppObject ** L_9 = __this->get_address_of__concreteSerializer_6();
+		AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601(NULL /*static, unused*/, L_3, L_4, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericEnumerableMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericEnumerableMessagePackSerializer_UnpackFromCore_m54163766_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericEnumerableMessagePackSerializer_UnpackFromCore_m54163766 (AbstractNonGenericEnumerableMessagePackSerializer_t410058080 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericEnumerableMessagePackSerializer_UnpackFromCore_m54163766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get__concreteSerializer_6();
+		V_0 = ((Il2CppObject *)IsInst(L_0, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var));
+		Il2CppObject * L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Il2CppObject * L_2 = V_0;
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(0 /* System.Object MsgPack.Serialization.Polymorphic.IPolymorphicDeserializer::PolymorphicUnpackFrom(MsgPack.Unpacker) */, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var, L_2, L_3);
+		return L_4;
+	}
+
+IL_0017:
+	{
+		Il2CppObject * L_5 = __this->get__concreteSerializer_6();
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Il2CppObject * L_7 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_5, L_6);
+		return L_7;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericEnumerableMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericEnumerableMessagePackSerializer_CreateInstance_m484005092_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericEnumerableMessagePackSerializer_CreateInstance_m484005092 (AbstractNonGenericEnumerableMessagePackSerializer_t410058080 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericEnumerableMessagePackSerializer_CreateInstance_m484005092_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__concreteCollectionInstanceFactory_5();
+		int32_t L_1 = ___initialCapacity0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, int32_t >::Invoke(0 /* System.Object MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory::CreateInstance(System.Int32) */, ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.AbstractNonGenericListMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericListMessagePackSerializer__ctor_m1276940516_MetadataUsageId;
+extern "C"  void AbstractNonGenericListMessagePackSerializer__ctor_m1276940516 (AbstractNonGenericListMessagePackSerializer_t582739518 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___abstractType1, Type_t * ___concreteType2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericListMessagePackSerializer__ctor_m1276940516_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___abstractType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___schema3;
+		UnityNonGenericListMessagePackSerializer__ctor_m861926937(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___ownerContext0;
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		Type_t * L_5 = ___abstractType1;
+		Type_t * L_6 = ___concreteType2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_7 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(EnumerableMessagePackSerializerBase_2_t2785053895_0_0_0_var), /*hidden argument*/NULL);
+		Il2CppObject ** L_8 = __this->get_address_of__concreteCollectionInstanceFactory_5();
+		AbstractCollectionSerializerHelper_GetConcreteSerializer_m2458290601(NULL /*static, unused*/, L_3, L_4, L_5, L_6, L_7, L_8, (&V_0), /*hidden argument*/NULL);
+		Il2CppObject * L_9 = V_0;
+		__this->set__polymorphicDeserializer_6(((Il2CppObject *)IsInst(L_9, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericListMessagePackSerializer::InternalUnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericListMessagePackSerializer_InternalUnpackFromCore_m1388054115_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericListMessagePackSerializer_InternalUnpackFromCore_m1388054115 (AbstractNonGenericListMessagePackSerializer_t582739518 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericListMessagePackSerializer_InternalUnpackFromCore_m1388054115_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__polymorphicDeserializer_6();
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Il2CppObject * L_1 = __this->get__polymorphicDeserializer_6();
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		Il2CppObject * L_3 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(0 /* System.Object MsgPack.Serialization.Polymorphic.IPolymorphicDeserializer::PolymorphicUnpackFrom(MsgPack.Unpacker) */, IPolymorphicDeserializer_t3222652928_il2cpp_TypeInfo_var, L_1, L_2);
+		return L_3;
+	}
+
+IL_0015:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		Il2CppObject * L_5 = UnityNonGenericListMessagePackSerializer_InternalUnpackFromCore_m1870473401(__this, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.AbstractNonGenericListMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var;
+extern const uint32_t AbstractNonGenericListMessagePackSerializer_CreateInstance_m4270647858_MetadataUsageId;
+extern "C"  Il2CppObject * AbstractNonGenericListMessagePackSerializer_CreateInstance_m4270647858 (AbstractNonGenericListMessagePackSerializer_t582739518 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AbstractNonGenericListMessagePackSerializer_CreateInstance_m4270647858_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__concreteCollectionInstanceFactory_5();
+		int32_t L_1 = ___initialCapacity0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, int32_t >::Invoke(0 /* System.Object MsgPack.Serialization.CollectionSerializers.ICollectionInstanceFactory::CreateInstance(System.Int32) */, ICollectionInstanceFactory_t3704555280_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.ArraySerializer::Create(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* ArraySerializer_t3329612773_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityArraySerializer_t1504552804_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSingleObjectSerializer_t659509506_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityMultidimensionalArraySerializer_t2820227010_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_Create_m2972063569_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_Create_m2972063569 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___itemsSchema2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_Create_m2972063569_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * G_B3_0 = NULL;
+	Il2CppObject * G_B2_0 = NULL;
+	{
+		Type_t * L_0 = ___targetType1;
+		Type_t * L_1 = VirtFuncInvoker0< Type_t * >::Invoke(48 /* System.Type System.Type::GetElementType() */, L_0);
+		Type_t * L_2 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::MakeArrayType() */, L_1);
+		Type_t * L_3 = ___targetType1;
+		bool L_4 = VirtFuncInvoker1< bool, Type_t * >::Invoke(45 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_2, L_3);
+		if (!L_4)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		SerializationContext_t1484625559 * L_5 = ___context0;
+		Type_t * L_6 = ___targetType1;
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Il2CppObject * L_7 = ArraySerializer_GetPrimitiveArraySerializer_m886376765(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		Il2CppObject * L_8 = L_7;
+		G_B2_0 = L_8;
+		if (L_8)
+		{
+			G_B3_0 = L_8;
+			goto IL_002b;
+		}
+	}
+	{
+		SerializationContext_t1484625559 * L_9 = ___context0;
+		Type_t * L_10 = ___targetType1;
+		Type_t * L_11 = VirtFuncInvoker0< Type_t * >::Invoke(48 /* System.Type System.Type::GetElementType() */, L_10);
+		PolymorphismSchema_t2690808062 * L_12 = ___itemsSchema2;
+		UnityArraySerializer_t1504552804 * L_13 = (UnityArraySerializer_t1504552804 *)il2cpp_codegen_object_new(UnityArraySerializer_t1504552804_il2cpp_TypeInfo_var);
+		UnityArraySerializer__ctor_m2707137291(L_13, L_9, L_11, L_12, /*hidden argument*/NULL);
+		G_B3_0 = ((Il2CppObject *)(L_13));
+	}
+
+IL_002b:
+	{
+		return ((Il2CppObject *)IsInst(G_B3_0, IMessagePackSingleObjectSerializer_t659509506_il2cpp_TypeInfo_var));
+	}
+
+IL_0031:
+	{
+		SerializationContext_t1484625559 * L_14 = ___context0;
+		Type_t * L_15 = ___targetType1;
+		Type_t * L_16 = VirtFuncInvoker0< Type_t * >::Invoke(48 /* System.Type System.Type::GetElementType() */, L_15);
+		PolymorphismSchema_t2690808062 * L_17 = ___itemsSchema2;
+		UnityMultidimensionalArraySerializer_t2820227010 * L_18 = (UnityMultidimensionalArraySerializer_t2820227010 *)il2cpp_codegen_object_new(UnityMultidimensionalArraySerializer_t2820227010_il2cpp_TypeInfo_var);
+		UnityMultidimensionalArraySerializer__ctor_m805364467(L_18, L_14, L_16, L_17, /*hidden argument*/NULL);
+		return L_18;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::GetPrimitiveArraySerializer(MsgPack.Serialization.SerializationContext,System.Type)
+extern Il2CppClass* ArraySerializer_t3329612773_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m735380266_MethodInfo_var;
+extern const MethodInfo* Func_2_Invoke_m1052612013_MethodInfo_var;
+extern const uint32_t ArraySerializer_GetPrimitiveArraySerializer_m886376765_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_GetPrimitiveArraySerializer_m886376765 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___targetType1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_GetPrimitiveArraySerializer_m886376765_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_t2435331661 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Dictionary_2_t77722262 * L_0 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get__arraySerializerFactories_0();
+		Type_t * L_1 = ___targetType1;
+		bool L_2 = Dictionary_2_TryGetValue_m735380266(L_0, L_1, (&V_0), /*hidden argument*/Dictionary_2_TryGetValue_m735380266_MethodInfo_var);
+		if (L_2)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return NULL;
+	}
+
+IL_0011:
+	{
+		Func_2_t2435331661 * L_3 = V_0;
+		SerializationContext_t1484625559 * L_4 = ___context0;
+		Il2CppObject * L_5 = Func_2_Invoke_m1052612013(L_3, L_4, /*hidden argument*/Func_2_Invoke_m1052612013_MethodInfo_var);
+		return L_5;
+	}
+}
+// System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<MsgPack.Serialization.SerializationContext,System.Object>> MsgPack.Serialization.DefaultSerializers.ArraySerializer::InitializeArraySerializerFactories()
+extern const Il2CppType* SByteU5BU5D_t3472287392_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t2223363145_0_0_0_var;
+extern const Il2CppType* Int16U5BU5D_t3104283263_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t1855359016_0_0_0_var;
+extern const Il2CppType* Int32U5BU5D_t3030399641_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t1781475394_0_0_0_var;
+extern const Il2CppType* Int64U5BU5D_t717125112_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t3763168161_0_0_0_var;
+extern const Il2CppType* ByteU5BU5D_t3397334013_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t2148409766_0_0_0_var;
+extern const Il2CppType* UInt16U5BU5D_t2527266722_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t1278342475_0_0_0_var;
+extern const Il2CppType* UInt32U5BU5D_t59386216_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t3105429265_0_0_0_var;
+extern const Il2CppType* UInt64U5BU5D_t1668688775_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t419764528_0_0_0_var;
+extern const Il2CppType* SingleU5BU5D_t577127397_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t3623170446_0_0_0_var;
+extern const Il2CppType* DoubleU5BU5D_t1889952540_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t641028293_0_0_0_var;
+extern const Il2CppType* BooleanU5BU5D_t3568034315_0_0_0_var;
+extern const Il2CppType* Nullable_1U5BU5D_t2319110068_0_0_0_var;
+extern const Il2CppType* StringU5BU5D_t1642385972_0_0_0_var;
+extern const Il2CppType* ByteU5BU5DU5BU5D_t717853552_0_0_0_var;
+extern const Il2CppType* MessagePackObjectU5BU5D_t2140654842_0_0_0_var;
+extern Il2CppClass* Dictionary_2_t77722262_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ArraySerializer_t3329612773_il2cpp_TypeInfo_var;
+extern Il2CppClass* Func_2_t2435331661_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3800861190_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__1_m1101672992_MethodInfo_var;
+extern const MethodInfo* Func_2__ctor_m3451116451_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m845129667_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__2_m2046051973_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__3_m2499247082_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__4_m3975980583_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__5_m1894214284_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__6_m2838593265_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__7_m3291788374_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__8_m2690642659_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__9_m608876360_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__a_m1281491216_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__b_m4007763829_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__c_m316414426_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__d_m3230420503_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__e_m2074032508_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__f_m505337825_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__10_m948381680_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__11_m1659652079_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__12_m3363373554_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__13_m4212408049_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__14_m3310664180_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__15_m4021934579_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__16_m1430688758_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__17_m2279723253_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__18_m2940028392_MethodInfo_var;
+extern const MethodInfo* ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__19_m3651298791_MethodInfo_var;
+extern const uint32_t ArraySerializer_InitializeArraySerializerFactories_m1859259194_MetadataUsageId;
+extern "C"  Dictionary_2_t77722262 * ArraySerializer_InitializeArraySerializerFactories_m1859259194 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_InitializeArraySerializerFactories_m1859259194_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t77722262 * V_0 = NULL;
+	Type_t * G_B2_0 = NULL;
+	Dictionary_2_t77722262 * G_B2_1 = NULL;
+	Type_t * G_B1_0 = NULL;
+	Dictionary_2_t77722262 * G_B1_1 = NULL;
+	Type_t * G_B4_0 = NULL;
+	Dictionary_2_t77722262 * G_B4_1 = NULL;
+	Type_t * G_B3_0 = NULL;
+	Dictionary_2_t77722262 * G_B3_1 = NULL;
+	Type_t * G_B6_0 = NULL;
+	Dictionary_2_t77722262 * G_B6_1 = NULL;
+	Type_t * G_B5_0 = NULL;
+	Dictionary_2_t77722262 * G_B5_1 = NULL;
+	Type_t * G_B8_0 = NULL;
+	Dictionary_2_t77722262 * G_B8_1 = NULL;
+	Type_t * G_B7_0 = NULL;
+	Dictionary_2_t77722262 * G_B7_1 = NULL;
+	Type_t * G_B10_0 = NULL;
+	Dictionary_2_t77722262 * G_B10_1 = NULL;
+	Type_t * G_B9_0 = NULL;
+	Dictionary_2_t77722262 * G_B9_1 = NULL;
+	Type_t * G_B12_0 = NULL;
+	Dictionary_2_t77722262 * G_B12_1 = NULL;
+	Type_t * G_B11_0 = NULL;
+	Dictionary_2_t77722262 * G_B11_1 = NULL;
+	Type_t * G_B14_0 = NULL;
+	Dictionary_2_t77722262 * G_B14_1 = NULL;
+	Type_t * G_B13_0 = NULL;
+	Dictionary_2_t77722262 * G_B13_1 = NULL;
+	Type_t * G_B16_0 = NULL;
+	Dictionary_2_t77722262 * G_B16_1 = NULL;
+	Type_t * G_B15_0 = NULL;
+	Dictionary_2_t77722262 * G_B15_1 = NULL;
+	Type_t * G_B18_0 = NULL;
+	Dictionary_2_t77722262 * G_B18_1 = NULL;
+	Type_t * G_B17_0 = NULL;
+	Dictionary_2_t77722262 * G_B17_1 = NULL;
+	Type_t * G_B20_0 = NULL;
+	Dictionary_2_t77722262 * G_B20_1 = NULL;
+	Type_t * G_B19_0 = NULL;
+	Dictionary_2_t77722262 * G_B19_1 = NULL;
+	Type_t * G_B22_0 = NULL;
+	Dictionary_2_t77722262 * G_B22_1 = NULL;
+	Type_t * G_B21_0 = NULL;
+	Dictionary_2_t77722262 * G_B21_1 = NULL;
+	Type_t * G_B24_0 = NULL;
+	Dictionary_2_t77722262 * G_B24_1 = NULL;
+	Type_t * G_B23_0 = NULL;
+	Dictionary_2_t77722262 * G_B23_1 = NULL;
+	Type_t * G_B26_0 = NULL;
+	Dictionary_2_t77722262 * G_B26_1 = NULL;
+	Type_t * G_B25_0 = NULL;
+	Dictionary_2_t77722262 * G_B25_1 = NULL;
+	Type_t * G_B28_0 = NULL;
+	Dictionary_2_t77722262 * G_B28_1 = NULL;
+	Type_t * G_B27_0 = NULL;
+	Dictionary_2_t77722262 * G_B27_1 = NULL;
+	Type_t * G_B30_0 = NULL;
+	Dictionary_2_t77722262 * G_B30_1 = NULL;
+	Type_t * G_B29_0 = NULL;
+	Dictionary_2_t77722262 * G_B29_1 = NULL;
+	Type_t * G_B32_0 = NULL;
+	Dictionary_2_t77722262 * G_B32_1 = NULL;
+	Type_t * G_B31_0 = NULL;
+	Dictionary_2_t77722262 * G_B31_1 = NULL;
+	Type_t * G_B34_0 = NULL;
+	Dictionary_2_t77722262 * G_B34_1 = NULL;
+	Type_t * G_B33_0 = NULL;
+	Dictionary_2_t77722262 * G_B33_1 = NULL;
+	Type_t * G_B36_0 = NULL;
+	Dictionary_2_t77722262 * G_B36_1 = NULL;
+	Type_t * G_B35_0 = NULL;
+	Dictionary_2_t77722262 * G_B35_1 = NULL;
+	Type_t * G_B38_0 = NULL;
+	Dictionary_2_t77722262 * G_B38_1 = NULL;
+	Type_t * G_B37_0 = NULL;
+	Dictionary_2_t77722262 * G_B37_1 = NULL;
+	Type_t * G_B40_0 = NULL;
+	Dictionary_2_t77722262 * G_B40_1 = NULL;
+	Type_t * G_B39_0 = NULL;
+	Dictionary_2_t77722262 * G_B39_1 = NULL;
+	Type_t * G_B42_0 = NULL;
+	Dictionary_2_t77722262 * G_B42_1 = NULL;
+	Type_t * G_B41_0 = NULL;
+	Dictionary_2_t77722262 * G_B41_1 = NULL;
+	Type_t * G_B44_0 = NULL;
+	Dictionary_2_t77722262 * G_B44_1 = NULL;
+	Type_t * G_B43_0 = NULL;
+	Dictionary_2_t77722262 * G_B43_1 = NULL;
+	Type_t * G_B46_0 = NULL;
+	Dictionary_2_t77722262 * G_B46_1 = NULL;
+	Type_t * G_B45_0 = NULL;
+	Dictionary_2_t77722262 * G_B45_1 = NULL;
+	Type_t * G_B48_0 = NULL;
+	Dictionary_2_t77722262 * G_B48_1 = NULL;
+	Type_t * G_B47_0 = NULL;
+	Dictionary_2_t77722262 * G_B47_1 = NULL;
+	Type_t * G_B50_0 = NULL;
+	Dictionary_2_t77722262 * G_B50_1 = NULL;
+	Type_t * G_B49_0 = NULL;
+	Dictionary_2_t77722262 * G_B49_1 = NULL;
+	{
+		Dictionary_2_t77722262 * L_0 = (Dictionary_2_t77722262 *)il2cpp_codegen_object_new(Dictionary_2_t77722262_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3800861190(L_0, ((int32_t)25), /*hidden argument*/Dictionary_2__ctor_m3800861190_MethodInfo_var);
+		V_0 = L_0;
+		Dictionary_2_t77722262 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(SByteU5BU5D_t3472287392_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_3 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1a_1();
+		G_B1_0 = L_2;
+		G_B1_1 = L_1;
+		if (L_3)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_1;
+			goto IL_002b;
+		}
+	}
+	{
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__1_m1101672992_MethodInfo_var);
+		Func_2_t2435331661 * L_5 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_5, NULL, L_4, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate1a_1(L_5);
+		G_B2_0 = G_B1_0;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_002b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_6 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1a_1();
+		Dictionary_2_Add_m845129667(G_B2_1, G_B2_0, L_6, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_8 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t2223363145_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_9 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1b_2();
+		G_B3_0 = L_8;
+		G_B3_1 = L_7;
+		if (L_9)
+		{
+			G_B4_0 = L_8;
+			G_B4_1 = L_7;
+			goto IL_0058;
+		}
+	}
+	{
+		IntPtr_t L_10;
+		L_10.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__2_m2046051973_MethodInfo_var);
+		Func_2_t2435331661 * L_11 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_11, NULL, L_10, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate1b_2(L_11);
+		G_B4_0 = G_B3_0;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0058:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_12 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1b_2();
+		Dictionary_2_Add_m845129667(G_B4_1, G_B4_0, L_12, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_13 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_14 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int16U5BU5D_t3104283263_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_15 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1c_3();
+		G_B5_0 = L_14;
+		G_B5_1 = L_13;
+		if (L_15)
+		{
+			G_B6_0 = L_14;
+			G_B6_1 = L_13;
+			goto IL_0085;
+		}
+	}
+	{
+		IntPtr_t L_16;
+		L_16.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__3_m2499247082_MethodInfo_var);
+		Func_2_t2435331661 * L_17 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_17, NULL, L_16, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate1c_3(L_17);
+		G_B6_0 = G_B5_0;
+		G_B6_1 = G_B5_1;
+	}
+
+IL_0085:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_18 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1c_3();
+		Dictionary_2_Add_m845129667(G_B6_1, G_B6_0, L_18, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_19 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_20 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t1855359016_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_21 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1d_4();
+		G_B7_0 = L_20;
+		G_B7_1 = L_19;
+		if (L_21)
+		{
+			G_B8_0 = L_20;
+			G_B8_1 = L_19;
+			goto IL_00b2;
+		}
+	}
+	{
+		IntPtr_t L_22;
+		L_22.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__4_m3975980583_MethodInfo_var);
+		Func_2_t2435331661 * L_23 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_23, NULL, L_22, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate1d_4(L_23);
+		G_B8_0 = G_B7_0;
+		G_B8_1 = G_B7_1;
+	}
+
+IL_00b2:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_24 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1d_4();
+		Dictionary_2_Add_m845129667(G_B8_1, G_B8_0, L_24, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_25 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_26 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32U5BU5D_t3030399641_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_27 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1e_5();
+		G_B9_0 = L_26;
+		G_B9_1 = L_25;
+		if (L_27)
+		{
+			G_B10_0 = L_26;
+			G_B10_1 = L_25;
+			goto IL_00df;
+		}
+	}
+	{
+		IntPtr_t L_28;
+		L_28.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__5_m1894214284_MethodInfo_var);
+		Func_2_t2435331661 * L_29 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_29, NULL, L_28, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate1e_5(L_29);
+		G_B10_0 = G_B9_0;
+		G_B10_1 = G_B9_1;
+	}
+
+IL_00df:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_30 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1e_5();
+		Dictionary_2_Add_m845129667(G_B10_1, G_B10_0, L_30, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_31 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_32 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t1781475394_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_33 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1f_6();
+		G_B11_0 = L_32;
+		G_B11_1 = L_31;
+		if (L_33)
+		{
+			G_B12_0 = L_32;
+			G_B12_1 = L_31;
+			goto IL_010c;
+		}
+	}
+	{
+		IntPtr_t L_34;
+		L_34.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__6_m2838593265_MethodInfo_var);
+		Func_2_t2435331661 * L_35 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_35, NULL, L_34, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate1f_6(L_35);
+		G_B12_0 = G_B11_0;
+		G_B12_1 = G_B11_1;
+	}
+
+IL_010c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_36 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate1f_6();
+		Dictionary_2_Add_m845129667(G_B12_1, G_B12_0, L_36, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_37 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_38 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int64U5BU5D_t717125112_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_39 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate20_7();
+		G_B13_0 = L_38;
+		G_B13_1 = L_37;
+		if (L_39)
+		{
+			G_B14_0 = L_38;
+			G_B14_1 = L_37;
+			goto IL_0139;
+		}
+	}
+	{
+		IntPtr_t L_40;
+		L_40.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__7_m3291788374_MethodInfo_var);
+		Func_2_t2435331661 * L_41 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_41, NULL, L_40, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate20_7(L_41);
+		G_B14_0 = G_B13_0;
+		G_B14_1 = G_B13_1;
+	}
+
+IL_0139:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_42 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate20_7();
+		Dictionary_2_Add_m845129667(G_B14_1, G_B14_0, L_42, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_43 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_44 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t3763168161_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_45 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate21_8();
+		G_B15_0 = L_44;
+		G_B15_1 = L_43;
+		if (L_45)
+		{
+			G_B16_0 = L_44;
+			G_B16_1 = L_43;
+			goto IL_0166;
+		}
+	}
+	{
+		IntPtr_t L_46;
+		L_46.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__8_m2690642659_MethodInfo_var);
+		Func_2_t2435331661 * L_47 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_47, NULL, L_46, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate21_8(L_47);
+		G_B16_0 = G_B15_0;
+		G_B16_1 = G_B15_1;
+	}
+
+IL_0166:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_48 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate21_8();
+		Dictionary_2_Add_m845129667(G_B16_1, G_B16_0, L_48, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_49 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_50 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ByteU5BU5D_t3397334013_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_51 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate22_9();
+		G_B17_0 = L_50;
+		G_B17_1 = L_49;
+		if (L_51)
+		{
+			G_B18_0 = L_50;
+			G_B18_1 = L_49;
+			goto IL_0193;
+		}
+	}
+	{
+		IntPtr_t L_52;
+		L_52.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__9_m608876360_MethodInfo_var);
+		Func_2_t2435331661 * L_53 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_53, NULL, L_52, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate22_9(L_53);
+		G_B18_0 = G_B17_0;
+		G_B18_1 = G_B17_1;
+	}
+
+IL_0193:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_54 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate22_9();
+		Dictionary_2_Add_m845129667(G_B18_1, G_B18_0, L_54, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_55 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_56 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t2148409766_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_57 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate23_10();
+		G_B19_0 = L_56;
+		G_B19_1 = L_55;
+		if (L_57)
+		{
+			G_B20_0 = L_56;
+			G_B20_1 = L_55;
+			goto IL_01c0;
+		}
+	}
+	{
+		IntPtr_t L_58;
+		L_58.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__a_m1281491216_MethodInfo_var);
+		Func_2_t2435331661 * L_59 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_59, NULL, L_58, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate23_10(L_59);
+		G_B20_0 = G_B19_0;
+		G_B20_1 = G_B19_1;
+	}
+
+IL_01c0:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_60 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate23_10();
+		Dictionary_2_Add_m845129667(G_B20_1, G_B20_0, L_60, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_61 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_62 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UInt16U5BU5D_t2527266722_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_63 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate24_11();
+		G_B21_0 = L_62;
+		G_B21_1 = L_61;
+		if (L_63)
+		{
+			G_B22_0 = L_62;
+			G_B22_1 = L_61;
+			goto IL_01ed;
+		}
+	}
+	{
+		IntPtr_t L_64;
+		L_64.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__b_m4007763829_MethodInfo_var);
+		Func_2_t2435331661 * L_65 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_65, NULL, L_64, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate24_11(L_65);
+		G_B22_0 = G_B21_0;
+		G_B22_1 = G_B21_1;
+	}
+
+IL_01ed:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_66 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate24_11();
+		Dictionary_2_Add_m845129667(G_B22_1, G_B22_0, L_66, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_67 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_68 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t1278342475_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_69 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate25_12();
+		G_B23_0 = L_68;
+		G_B23_1 = L_67;
+		if (L_69)
+		{
+			G_B24_0 = L_68;
+			G_B24_1 = L_67;
+			goto IL_021a;
+		}
+	}
+	{
+		IntPtr_t L_70;
+		L_70.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__c_m316414426_MethodInfo_var);
+		Func_2_t2435331661 * L_71 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_71, NULL, L_70, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate25_12(L_71);
+		G_B24_0 = G_B23_0;
+		G_B24_1 = G_B23_1;
+	}
+
+IL_021a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_72 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate25_12();
+		Dictionary_2_Add_m845129667(G_B24_1, G_B24_0, L_72, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_73 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_74 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UInt32U5BU5D_t59386216_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_75 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate26_13();
+		G_B25_0 = L_74;
+		G_B25_1 = L_73;
+		if (L_75)
+		{
+			G_B26_0 = L_74;
+			G_B26_1 = L_73;
+			goto IL_0247;
+		}
+	}
+	{
+		IntPtr_t L_76;
+		L_76.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__d_m3230420503_MethodInfo_var);
+		Func_2_t2435331661 * L_77 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_77, NULL, L_76, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate26_13(L_77);
+		G_B26_0 = G_B25_0;
+		G_B26_1 = G_B25_1;
+	}
+
+IL_0247:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_78 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate26_13();
+		Dictionary_2_Add_m845129667(G_B26_1, G_B26_0, L_78, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_79 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_80 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t3105429265_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_81 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate27_14();
+		G_B27_0 = L_80;
+		G_B27_1 = L_79;
+		if (L_81)
+		{
+			G_B28_0 = L_80;
+			G_B28_1 = L_79;
+			goto IL_0274;
+		}
+	}
+	{
+		IntPtr_t L_82;
+		L_82.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__e_m2074032508_MethodInfo_var);
+		Func_2_t2435331661 * L_83 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_83, NULL, L_82, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate27_14(L_83);
+		G_B28_0 = G_B27_0;
+		G_B28_1 = G_B27_1;
+	}
+
+IL_0274:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_84 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate27_14();
+		Dictionary_2_Add_m845129667(G_B28_1, G_B28_0, L_84, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_85 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_86 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UInt64U5BU5D_t1668688775_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_87 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate28_15();
+		G_B29_0 = L_86;
+		G_B29_1 = L_85;
+		if (L_87)
+		{
+			G_B30_0 = L_86;
+			G_B30_1 = L_85;
+			goto IL_02a1;
+		}
+	}
+	{
+		IntPtr_t L_88;
+		L_88.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__f_m505337825_MethodInfo_var);
+		Func_2_t2435331661 * L_89 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_89, NULL, L_88, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate28_15(L_89);
+		G_B30_0 = G_B29_0;
+		G_B30_1 = G_B29_1;
+	}
+
+IL_02a1:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_90 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate28_15();
+		Dictionary_2_Add_m845129667(G_B30_1, G_B30_0, L_90, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_91 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_92 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t419764528_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_93 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate29_16();
+		G_B31_0 = L_92;
+		G_B31_1 = L_91;
+		if (L_93)
+		{
+			G_B32_0 = L_92;
+			G_B32_1 = L_91;
+			goto IL_02ce;
+		}
+	}
+	{
+		IntPtr_t L_94;
+		L_94.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__10_m948381680_MethodInfo_var);
+		Func_2_t2435331661 * L_95 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_95, NULL, L_94, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate29_16(L_95);
+		G_B32_0 = G_B31_0;
+		G_B32_1 = G_B31_1;
+	}
+
+IL_02ce:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_96 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate29_16();
+		Dictionary_2_Add_m845129667(G_B32_1, G_B32_0, L_96, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_97 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_98 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(SingleU5BU5D_t577127397_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_99 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2a_17();
+		G_B33_0 = L_98;
+		G_B33_1 = L_97;
+		if (L_99)
+		{
+			G_B34_0 = L_98;
+			G_B34_1 = L_97;
+			goto IL_02fb;
+		}
+	}
+	{
+		IntPtr_t L_100;
+		L_100.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__11_m1659652079_MethodInfo_var);
+		Func_2_t2435331661 * L_101 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_101, NULL, L_100, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate2a_17(L_101);
+		G_B34_0 = G_B33_0;
+		G_B34_1 = G_B33_1;
+	}
+
+IL_02fb:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_102 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2a_17();
+		Dictionary_2_Add_m845129667(G_B34_1, G_B34_0, L_102, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_103 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_104 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t3623170446_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_105 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2b_18();
+		G_B35_0 = L_104;
+		G_B35_1 = L_103;
+		if (L_105)
+		{
+			G_B36_0 = L_104;
+			G_B36_1 = L_103;
+			goto IL_0328;
+		}
+	}
+	{
+		IntPtr_t L_106;
+		L_106.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__12_m3363373554_MethodInfo_var);
+		Func_2_t2435331661 * L_107 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_107, NULL, L_106, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate2b_18(L_107);
+		G_B36_0 = G_B35_0;
+		G_B36_1 = G_B35_1;
+	}
+
+IL_0328:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_108 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2b_18();
+		Dictionary_2_Add_m845129667(G_B36_1, G_B36_0, L_108, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_109 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_110 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(DoubleU5BU5D_t1889952540_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_111 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2c_19();
+		G_B37_0 = L_110;
+		G_B37_1 = L_109;
+		if (L_111)
+		{
+			G_B38_0 = L_110;
+			G_B38_1 = L_109;
+			goto IL_0355;
+		}
+	}
+	{
+		IntPtr_t L_112;
+		L_112.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__13_m4212408049_MethodInfo_var);
+		Func_2_t2435331661 * L_113 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_113, NULL, L_112, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate2c_19(L_113);
+		G_B38_0 = G_B37_0;
+		G_B38_1 = G_B37_1;
+	}
+
+IL_0355:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_114 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2c_19();
+		Dictionary_2_Add_m845129667(G_B38_1, G_B38_0, L_114, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_115 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_116 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t641028293_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_117 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2d_20();
+		G_B39_0 = L_116;
+		G_B39_1 = L_115;
+		if (L_117)
+		{
+			G_B40_0 = L_116;
+			G_B40_1 = L_115;
+			goto IL_0382;
+		}
+	}
+	{
+		IntPtr_t L_118;
+		L_118.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__14_m3310664180_MethodInfo_var);
+		Func_2_t2435331661 * L_119 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_119, NULL, L_118, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate2d_20(L_119);
+		G_B40_0 = G_B39_0;
+		G_B40_1 = G_B39_1;
+	}
+
+IL_0382:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_120 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2d_20();
+		Dictionary_2_Add_m845129667(G_B40_1, G_B40_0, L_120, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_121 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_122 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(BooleanU5BU5D_t3568034315_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_123 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2e_21();
+		G_B41_0 = L_122;
+		G_B41_1 = L_121;
+		if (L_123)
+		{
+			G_B42_0 = L_122;
+			G_B42_1 = L_121;
+			goto IL_03af;
+		}
+	}
+	{
+		IntPtr_t L_124;
+		L_124.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__15_m4021934579_MethodInfo_var);
+		Func_2_t2435331661 * L_125 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_125, NULL, L_124, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate2e_21(L_125);
+		G_B42_0 = G_B41_0;
+		G_B42_1 = G_B41_1;
+	}
+
+IL_03af:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_126 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2e_21();
+		Dictionary_2_Add_m845129667(G_B42_1, G_B42_0, L_126, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_127 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_128 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1U5BU5D_t2319110068_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_129 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2f_22();
+		G_B43_0 = L_128;
+		G_B43_1 = L_127;
+		if (L_129)
+		{
+			G_B44_0 = L_128;
+			G_B44_1 = L_127;
+			goto IL_03dc;
+		}
+	}
+	{
+		IntPtr_t L_130;
+		L_130.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__16_m1430688758_MethodInfo_var);
+		Func_2_t2435331661 * L_131 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_131, NULL, L_130, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate2f_22(L_131);
+		G_B44_0 = G_B43_0;
+		G_B44_1 = G_B43_1;
+	}
+
+IL_03dc:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_132 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate2f_22();
+		Dictionary_2_Add_m845129667(G_B44_1, G_B44_0, L_132, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_133 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_134 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(StringU5BU5D_t1642385972_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_135 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate30_23();
+		G_B45_0 = L_134;
+		G_B45_1 = L_133;
+		if (L_135)
+		{
+			G_B46_0 = L_134;
+			G_B46_1 = L_133;
+			goto IL_0409;
+		}
+	}
+	{
+		IntPtr_t L_136;
+		L_136.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__17_m2279723253_MethodInfo_var);
+		Func_2_t2435331661 * L_137 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_137, NULL, L_136, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate30_23(L_137);
+		G_B46_0 = G_B45_0;
+		G_B46_1 = G_B45_1;
+	}
+
+IL_0409:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_138 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate30_23();
+		Dictionary_2_Add_m845129667(G_B46_1, G_B46_0, L_138, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_139 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_140 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ByteU5BU5DU5BU5D_t717853552_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_141 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate31_24();
+		G_B47_0 = L_140;
+		G_B47_1 = L_139;
+		if (L_141)
+		{
+			G_B48_0 = L_140;
+			G_B48_1 = L_139;
+			goto IL_0436;
+		}
+	}
+	{
+		IntPtr_t L_142;
+		L_142.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__18_m2940028392_MethodInfo_var);
+		Func_2_t2435331661 * L_143 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_143, NULL, L_142, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate31_24(L_143);
+		G_B48_0 = G_B47_0;
+		G_B48_1 = G_B47_1;
+	}
+
+IL_0436:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_144 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate31_24();
+		Dictionary_2_Add_m845129667(G_B48_1, G_B48_0, L_144, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_145 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_146 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(MessagePackObjectU5BU5D_t2140654842_0_0_0_var), /*hidden argument*/NULL);
+		Func_2_t2435331661 * L_147 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate32_25();
+		G_B49_0 = L_146;
+		G_B49_1 = L_145;
+		if (L_147)
+		{
+			G_B50_0 = L_146;
+			G_B50_1 = L_145;
+			goto IL_0463;
+		}
+	}
+	{
+		IntPtr_t L_148;
+		L_148.set_m_value_0((void*)(void*)ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__19_m3651298791_MethodInfo_var);
+		Func_2_t2435331661 * L_149 = (Func_2_t2435331661 *)il2cpp_codegen_object_new(Func_2_t2435331661_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3451116451(L_149, NULL, L_148, /*hidden argument*/Func_2__ctor_m3451116451_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set_CSU24U3CU3E9__CachedAnonymousMethodDelegate32_25(L_149);
+		G_B50_0 = G_B49_0;
+		G_B50_1 = G_B49_1;
+	}
+
+IL_0463:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Func_2_t2435331661 * L_150 = ((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->get_CSU24U3CU3E9__CachedAnonymousMethodDelegate32_25();
+		Dictionary_2_Add_m845129667(G_B50_1, G_B50_0, L_150, /*hidden argument*/Dictionary_2_Add_m845129667_MethodInfo_var);
+		Dictionary_2_t77722262 * L_151 = V_0;
+		return L_151;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__1(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* SByteArraySerializer_t2406072874_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__1_m1101672992_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__1_m1101672992 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__1_m1101672992_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		SByteArraySerializer_t2406072874 * L_1 = (SByteArraySerializer_t2406072874 *)il2cpp_codegen_object_new(SByteArraySerializer_t2406072874_il2cpp_TypeInfo_var);
+		SByteArraySerializer__ctor_m2704748750(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__2(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableSByteArraySerializer_t1194933953_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__2_m2046051973_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__2_m2046051973 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__2_m2046051973_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableSByteArraySerializer_t1194933953 * L_1 = (NullableSByteArraySerializer_t1194933953 *)il2cpp_codegen_object_new(NullableSByteArraySerializer_t1194933953_il2cpp_TypeInfo_var);
+		NullableSByteArraySerializer__ctor_m2932030269(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__3(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* Int16ArraySerializer_t2119299061_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__3_m2499247082_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__3_m2499247082 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__3_m2499247082_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		Int16ArraySerializer_t2119299061 * L_1 = (Int16ArraySerializer_t2119299061 *)il2cpp_codegen_object_new(Int16ArraySerializer_t2119299061_il2cpp_TypeInfo_var);
+		Int16ArraySerializer__ctor_m1751819657(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__4(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableInt16ArraySerializer_t336170484_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__4_m3975980583_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__4_m3975980583 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__4_m3975980583_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableInt16ArraySerializer_t336170484 * L_1 = (NullableInt16ArraySerializer_t336170484 *)il2cpp_codegen_object_new(NullableInt16ArraySerializer_t336170484_il2cpp_TypeInfo_var);
+		NullableInt16ArraySerializer__ctor_m222412224(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__5(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* Int32ArraySerializer_t3458876511_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__5_m1894214284_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__5_m1894214284 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__5_m1894214284_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		Int32ArraySerializer_t3458876511 * L_1 = (Int32ArraySerializer_t3458876511 *)il2cpp_codegen_object_new(Int32ArraySerializer_t3458876511_il2cpp_TypeInfo_var);
+		Int32ArraySerializer__ctor_m723175863(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__6(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableInt32ArraySerializer_t3300768650_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__6_m2838593265_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__6_m2838593265 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__6_m2838593265_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableInt32ArraySerializer_t3300768650 * L_1 = (NullableInt32ArraySerializer_t3300768650 *)il2cpp_codegen_object_new(NullableInt32ArraySerializer_t3300768650_il2cpp_TypeInfo_var);
+		NullableInt32ArraySerializer__ctor_m3768424594(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__7(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* Int64ArraySerializer_t45890286_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__7_m3291788374_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__7_m3291788374 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__7_m3291788374_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		Int64ArraySerializer_t45890286 * L_1 = (Int64ArraySerializer_t45890286 *)il2cpp_codegen_object_new(Int64ArraySerializer_t45890286_il2cpp_TypeInfo_var);
+		Int64ArraySerializer__ctor_m2799620154(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__8(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableInt64ArraySerializer_t1912970109_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__8_m2690642659_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__8_m2690642659 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__8_m2690642659_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableInt64ArraySerializer_t1912970109 * L_1 = (NullableInt64ArraySerializer_t1912970109 *)il2cpp_codegen_object_new(NullableInt64ArraySerializer_t1912970109_il2cpp_TypeInfo_var);
+		NullableInt64ArraySerializer__ctor_m466674001(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__9(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* ByteArraySerializer_t3005340975_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__9_m608876360_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__9_m608876360 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__9_m608876360_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		ByteArraySerializer_t3005340975 * L_1 = (ByteArraySerializer_t3005340975 *)il2cpp_codegen_object_new(ByteArraySerializer_t3005340975_il2cpp_TypeInfo_var);
+		ByteArraySerializer__ctor_m3755583103(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__a(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableByteArraySerializer_t1530104442_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__a_m1281491216_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__a_m1281491216 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__a_m1281491216_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableByteArraySerializer_t1530104442 * L_1 = (NullableByteArraySerializer_t1530104442 *)il2cpp_codegen_object_new(NullableByteArraySerializer_t1530104442_il2cpp_TypeInfo_var);
+		NullableByteArraySerializer__ctor_m7229002(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__b(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* UInt16ArraySerializer_t197758914_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__b_m4007763829_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__b_m4007763829 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__b_m4007763829_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		UInt16ArraySerializer_t197758914 * L_1 = (UInt16ArraySerializer_t197758914 *)il2cpp_codegen_object_new(UInt16ArraySerializer_t197758914_il2cpp_TypeInfo_var);
+		UInt16ArraySerializer__ctor_m752734194(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__c(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableUInt16ArraySerializer_t24215337_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__c_m316414426_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__c_m316414426 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__c_m316414426_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableUInt16ArraySerializer_t24215337 * L_1 = (NullableUInt16ArraySerializer_t24215337 *)il2cpp_codegen_object_new(NullableUInt16ArraySerializer_t24215337_il2cpp_TypeInfo_var);
+		NullableUInt16ArraySerializer__ctor_m4133737945(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__d(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* UInt32ArraySerializer_t381839356_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__d_m3230420503_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__d_m3230420503 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__d_m3230420503_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		UInt32ArraySerializer_t381839356 * L_1 = (UInt32ArraySerializer_t381839356 *)il2cpp_codegen_object_new(UInt32ArraySerializer_t381839356_il2cpp_TypeInfo_var);
+		UInt32ArraySerializer__ctor_m1733356396(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__e(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableUInt32ArraySerializer_t679342319_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__e_m2074032508_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__e_m2074032508 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__e_m2074032508_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableUInt32ArraySerializer_t679342319 * L_1 = (NullableUInt32ArraySerializer_t679342319 *)il2cpp_codegen_object_new(NullableUInt32ArraySerializer_t679342319_il2cpp_TypeInfo_var);
+		NullableUInt32ArraySerializer__ctor_m1570816351(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__f(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* UInt64ArraySerializer_t1341192293_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__f_m505337825_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__f_m505337825 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__f_m505337825_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		UInt64ArraySerializer_t1341192293 * L_1 = (UInt64ArraySerializer_t1341192293 *)il2cpp_codegen_object_new(UInt64ArraySerializer_t1341192293_il2cpp_TypeInfo_var);
+		UInt64ArraySerializer__ctor_m3239017717(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__10(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableUInt64ArraySerializer_t1348238854_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__10_m948381680_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__10_m948381680 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__10_m948381680_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableUInt64ArraySerializer_t1348238854 * L_1 = (NullableUInt64ArraySerializer_t1348238854 *)il2cpp_codegen_object_new(NullableUInt64ArraySerializer_t1348238854_il2cpp_TypeInfo_var);
+		NullableUInt64ArraySerializer__ctor_m2326646102(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__11(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* SingleArraySerializer_t715785947_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__11_m1659652079_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__11_m1659652079 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__11_m1659652079_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		SingleArraySerializer_t715785947 * L_1 = (SingleArraySerializer_t715785947 *)il2cpp_codegen_object_new(SingleArraySerializer_t715785947_il2cpp_TypeInfo_var);
+		SingleArraySerializer__ctor_m1954243499(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__12(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableSingleArraySerializer_t316629808_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__12_m3363373554_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__12_m3363373554 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__12_m3363373554_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableSingleArraySerializer_t316629808 * L_1 = (NullableSingleArraySerializer_t316629808 *)il2cpp_codegen_object_new(NullableSingleArraySerializer_t316629808_il2cpp_TypeInfo_var);
+		NullableSingleArraySerializer__ctor_m1318738752(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__13(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* DoubleArraySerializer_t3306240564_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__13_m4212408049_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__13_m4212408049 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__13_m4212408049_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		DoubleArraySerializer_t3306240564 * L_1 = (DoubleArraySerializer_t3306240564 *)il2cpp_codegen_object_new(DoubleArraySerializer_t3306240564_il2cpp_TypeInfo_var);
+		DoubleArraySerializer__ctor_m266798020(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__14(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableDoubleArraySerializer_t2412601813_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__14_m3310664180_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__14_m3310664180 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__14_m3310664180_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableDoubleArraySerializer_t2412601813 * L_1 = (NullableDoubleArraySerializer_t2412601813 *)il2cpp_codegen_object_new(NullableDoubleArraySerializer_t2412601813_il2cpp_TypeInfo_var);
+		NullableDoubleArraySerializer__ctor_m1841745317(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__15(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* BooleanArraySerializer_t630780897_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__15_m4021934579_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__15_m4021934579 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__15_m4021934579_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		BooleanArraySerializer_t630780897 * L_1 = (BooleanArraySerializer_t630780897 *)il2cpp_codegen_object_new(BooleanArraySerializer_t630780897_il2cpp_TypeInfo_var);
+		BooleanArraySerializer__ctor_m3830298229(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__16(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* NullableBooleanArraySerializer_t2148955562_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__16_m1430688758_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__16_m1430688758 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__16_m1430688758_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		NullableBooleanArraySerializer_t2148955562 * L_1 = (NullableBooleanArraySerializer_t2148955562 *)il2cpp_codegen_object_new(NullableBooleanArraySerializer_t2148955562_il2cpp_TypeInfo_var);
+		NullableBooleanArraySerializer__ctor_m2547316214(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__17(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* StringArraySerializer_t2935457984_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__17_m2279723253_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__17_m2279723253 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__17_m2279723253_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		StringArraySerializer_t2935457984 * L_1 = (StringArraySerializer_t2935457984 *)il2cpp_codegen_object_new(StringArraySerializer_t2935457984_il2cpp_TypeInfo_var);
+		StringArraySerializer__ctor_m2987465264(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__18(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* BinaryArraySerializer_t687290028_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__18_m2940028392_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__18_m2940028392 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__18_m2940028392_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		BinaryArraySerializer_t687290028 * L_1 = (BinaryArraySerializer_t687290028 *)il2cpp_codegen_object_new(BinaryArraySerializer_t687290028_il2cpp_TypeInfo_var);
+		BinaryArraySerializer__ctor_m2253539772(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.ArraySerializer::<InitializeArraySerializerFactories>b__19(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackObjectArraySerializer_t1638335348_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__19_m3651298791_MetadataUsageId;
+extern "C"  Il2CppObject * ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__19_m3651298791 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer_U3CInitializeArraySerializerFactoriesU3Eb__19_m3651298791_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		MessagePackObjectArraySerializer_t1638335348 * L_1 = (MessagePackObjectArraySerializer_t1638335348 *)il2cpp_codegen_object_new(MessagePackObjectArraySerializer_t1638335348_il2cpp_TypeInfo_var);
+		MessagePackObjectArraySerializer__ctor_m2073472908(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.ArraySerializer::.cctor()
+extern Il2CppClass* ArraySerializer_t3329612773_il2cpp_TypeInfo_var;
+extern const uint32_t ArraySerializer__cctor_m209449313_MetadataUsageId;
+extern "C"  void ArraySerializer__cctor_m209449313 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ArraySerializer__cctor_m209449313_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t77722262 * L_0 = ArraySerializer_InitializeArraySerializerFactories_m1859259194(NULL /*static, unused*/, /*hidden argument*/NULL);
+		((ArraySerializer_t3329612773_StaticFields*)ArraySerializer_t3329612773_il2cpp_TypeInfo_var->static_fields)->set__arraySerializerFactories_0(L_0);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BinaryArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t213297206_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2618266010_MethodInfo_var;
+extern const uint32_t BinaryArraySerializer__ctor_m2253539772_MetadataUsageId;
+extern "C"  void BinaryArraySerializer__ctor_m2253539772 (BinaryArraySerializer_t687290028 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BinaryArraySerializer__ctor_m2253539772_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t213297206_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2618266010(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2618266010_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BinaryArraySerializer::PackToCore(MsgPack.Packer,System.Byte[][])
+extern "C"  void BinaryArraySerializer_PackToCore_m2382688573 (BinaryArraySerializer_t687290028 * __this, Packer_t1439452732 * ___packer0, ByteU5BU5DU5BU5D_t717853552* ___objectTree1, const MethodInfo* method)
+{
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	ByteU5BU5DU5BU5D_t717853552* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		ByteU5BU5DU5BU5D_t717853552* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		ByteU5BU5DU5BU5D_t717853552* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		ByteU5BU5DU5BU5D_t717853552* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		ByteU5BU5D_t3397334013* L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		ByteU5BU5D_t3397334013* L_8 = V_0;
+		Packer_PackBinary_m3128186997(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		ByteU5BU5DU5BU5D_t717853552* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Byte[][] MsgPack.Serialization.DefaultSerializers.BinaryArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* ByteU5BU5DU5BU5D_t717853552_il2cpp_TypeInfo_var;
+extern const uint32_t BinaryArraySerializer_UnpackFromCore_m2948328643_MetadataUsageId;
+extern "C"  ByteU5BU5DU5BU5D_t717853552* BinaryArraySerializer_UnpackFromCore_m2948328643 (BinaryArraySerializer_t687290028 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BinaryArraySerializer_UnpackFromCore_m2948328643_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ByteU5BU5DU5BU5D_t717853552* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((ByteU5BU5DU5BU5D_t717853552*)SZArrayNew(ByteU5BU5DU5BU5D_t717853552_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		ByteU5BU5DU5BU5D_t717853552* L_7 = V_1;
+		int32_t L_8 = V_0;
+		BinaryArraySerializer_UnpackToCore_m3839760420(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		ByteU5BU5DU5BU5D_t717853552* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BinaryArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Byte[][])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t BinaryArraySerializer_UnpackToCore_m907747861_MetadataUsageId;
+extern "C"  void BinaryArraySerializer_UnpackToCore_m907747861 (BinaryArraySerializer_t687290028 * __this, Unpacker_t998931393 * ___unpacker0, ByteU5BU5DU5BU5D_t717853552* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BinaryArraySerializer_UnpackToCore_m907747861_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		ByteU5BU5DU5BU5D_t717853552* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		BinaryArraySerializer_UnpackToCore_m3839760420(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BinaryArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Byte[][],System.Int32)
+extern "C"  void BinaryArraySerializer_UnpackToCore_m3839760420 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, ByteU5BU5DU5BU5D_t717853552* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, ByteU5BU5D_t3397334013** >::Invoke(43 /* System.Boolean MsgPack.Unpacker::ReadBinary(System.Byte[]&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		ByteU5BU5DU5BU5D_t717853552* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		ByteU5BU5D_t3397334013* L_6 = V_1;
+		ArrayElementTypeCheck (L_4, L_6);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (ByteU5BU5D_t3397334013*)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BooleanArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3063477969_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m670219384_MethodInfo_var;
+extern const uint32_t BooleanArraySerializer__ctor_m3830298229_MetadataUsageId;
+extern "C"  void BooleanArraySerializer__ctor_m3830298229 (BooleanArraySerializer_t630780897 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BooleanArraySerializer__ctor_m3830298229_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3063477969_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m670219384(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m670219384_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BooleanArraySerializer::PackToCore(MsgPack.Packer,System.Boolean[])
+extern "C"  void BooleanArraySerializer_PackToCore_m1024770040 (BooleanArraySerializer_t630780897 * __this, Packer_t1439452732 * ___packer0, BooleanU5BU5D_t3568034315* ___objectTree1, const MethodInfo* method)
+{
+	bool V_0 = false;
+	BooleanU5BU5D_t3568034315* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		BooleanU5BU5D_t3568034315* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		BooleanU5BU5D_t3568034315* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		BooleanU5BU5D_t3568034315* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		int8_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = (bool)L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		bool L_8 = V_0;
+		Packer_Pack_m2455739064(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		BooleanU5BU5D_t3568034315* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Boolean[] MsgPack.Serialization.DefaultSerializers.BooleanArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* BooleanU5BU5D_t3568034315_il2cpp_TypeInfo_var;
+extern const uint32_t BooleanArraySerializer_UnpackFromCore_m2615787500_MetadataUsageId;
+extern "C"  BooleanU5BU5D_t3568034315* BooleanArraySerializer_UnpackFromCore_m2615787500 (BooleanArraySerializer_t630780897 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BooleanArraySerializer_UnpackFromCore_m2615787500_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	BooleanU5BU5D_t3568034315* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((BooleanU5BU5D_t3568034315*)SZArrayNew(BooleanU5BU5D_t3568034315_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		BooleanU5BU5D_t3568034315* L_7 = V_1;
+		int32_t L_8 = V_0;
+		BooleanArraySerializer_UnpackToCore_m2118930951(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		BooleanU5BU5D_t3568034315* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BooleanArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Boolean[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t BooleanArraySerializer_UnpackToCore_m3096242890_MetadataUsageId;
+extern "C"  void BooleanArraySerializer_UnpackToCore_m3096242890 (BooleanArraySerializer_t630780897 * __this, Unpacker_t998931393 * ___unpacker0, BooleanU5BU5D_t3568034315* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BooleanArraySerializer_UnpackToCore_m3096242890_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		BooleanU5BU5D_t3568034315* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		BooleanArraySerializer_UnpackToCore_m2118930951(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.BooleanArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Boolean[],System.Int32)
+extern "C"  void BooleanArraySerializer_UnpackToCore_m2118930951 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, BooleanU5BU5D_t3568034315* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, bool* >::Invoke(21 /* System.Boolean MsgPack.Unpacker::ReadBoolean(System.Boolean&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		BooleanU5BU5D_t3568034315* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		bool L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (bool)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.ByteArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2892777667_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3007877842_MethodInfo_var;
+extern const uint32_t ByteArraySerializer__ctor_m3755583103_MetadataUsageId;
+extern "C"  void ByteArraySerializer__ctor_m3755583103 (ByteArraySerializer_t3005340975 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ByteArraySerializer__ctor_m3755583103_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2892777667_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3007877842(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3007877842_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.ByteArraySerializer::PackToCore(MsgPack.Packer,System.Byte[])
+extern "C"  void ByteArraySerializer_PackToCore_m3431699074 (ByteArraySerializer_t3005340975 * __this, Packer_t1439452732 * ___packer0, ByteU5BU5D_t3397334013* ___objectTree1, const MethodInfo* method)
+{
+	uint8_t V_0 = 0x0;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		ByteU5BU5D_t3397334013* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		ByteU5BU5D_t3397334013* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		uint8_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		uint8_t L_8 = V_0;
+		Packer_Pack_m3637760392(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		ByteU5BU5D_t3397334013* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Byte[] MsgPack.Serialization.DefaultSerializers.ByteArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
+extern const uint32_t ByteArraySerializer_UnpackFromCore_m3409479080_MetadataUsageId;
+extern "C"  ByteU5BU5D_t3397334013* ByteArraySerializer_UnpackFromCore_m3409479080 (ByteArraySerializer_t3005340975 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ByteArraySerializer_UnpackFromCore_m3409479080_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ByteU5BU5D_t3397334013* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		ByteU5BU5D_t3397334013* L_7 = V_1;
+		int32_t L_8 = V_0;
+		ByteArraySerializer_UnpackToCore_m529039443(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.ByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Byte[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t ByteArraySerializer_UnpackToCore_m2053772880_MetadataUsageId;
+extern "C"  void ByteArraySerializer_UnpackToCore_m2053772880 (ByteArraySerializer_t3005340975 * __this, Unpacker_t998931393 * ___unpacker0, ByteU5BU5D_t3397334013* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ByteArraySerializer_UnpackToCore_m2053772880_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		ByteU5BU5D_t3397334013* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		ByteArraySerializer_UnpackToCore_m529039443(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.ByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Byte[],System.Int32)
+extern "C"  void ByteArraySerializer_UnpackToCore_m529039443 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, ByteU5BU5D_t3397334013* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	uint8_t V_1 = 0x0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, uint8_t* >::Invoke(23 /* System.Boolean MsgPack.Unpacker::ReadByte(System.Byte&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		ByteU5BU5D_t3397334013* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		uint8_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (uint8_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DateTimeMessagePackSerializerProvider::.ctor(MsgPack.Serialization.SerializationContext,System.Boolean)
+extern const Il2CppType* Nullable_1_t3251239280_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnixEpocDateTimeMessagePackSerializer_t2915577328_il2cpp_TypeInfo_var;
+extern Il2CppClass* NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var;
+extern Il2CppClass* NativeDateTimeMessagePackSerializer_t1710272842_il2cpp_TypeInfo_var;
+extern const uint32_t DateTimeMessagePackSerializerProvider__ctor_m2716896857_MetadataUsageId;
+extern "C"  void DateTimeMessagePackSerializerProvider__ctor_m2716896857 (DateTimeMessagePackSerializerProvider_t1113846186 * __this, SerializationContext_t1484625559 * ___context0, bool ___isNullable1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeMessagePackSerializerProvider__ctor_m2716896857_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MessagePackSerializerProvider__ctor_m3834078966(__this, /*hidden argument*/NULL);
+		bool L_0 = ___isNullable1;
+		if (!L_0)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		SerializationContext_t1484625559 * L_1 = ___context0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1_t3251239280_0_0_0_var), /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___context0;
+		UnixEpocDateTimeMessagePackSerializer_t2915577328 * L_4 = (UnixEpocDateTimeMessagePackSerializer_t2915577328 *)il2cpp_codegen_object_new(UnixEpocDateTimeMessagePackSerializer_t2915577328_il2cpp_TypeInfo_var);
+		UnixEpocDateTimeMessagePackSerializer__ctor_m1695551904(L_4, L_3, /*hidden argument*/NULL);
+		NullableMessagePackSerializer_t1470292499 * L_5 = (NullableMessagePackSerializer_t1470292499 *)il2cpp_codegen_object_new(NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var);
+		NullableMessagePackSerializer__ctor_m1322787260(L_5, L_1, L_2, L_4, /*hidden argument*/NULL);
+		__this->set__unixEpoc_0(L_5);
+		SerializationContext_t1484625559 * L_6 = ___context0;
+		Type_t * L_7 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1_t3251239280_0_0_0_var), /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_8 = ___context0;
+		NativeDateTimeMessagePackSerializer_t1710272842 * L_9 = (NativeDateTimeMessagePackSerializer_t1710272842 *)il2cpp_codegen_object_new(NativeDateTimeMessagePackSerializer_t1710272842_il2cpp_TypeInfo_var);
+		NativeDateTimeMessagePackSerializer__ctor_m484270778(L_9, L_8, /*hidden argument*/NULL);
+		NullableMessagePackSerializer_t1470292499 * L_10 = (NullableMessagePackSerializer_t1470292499 *)il2cpp_codegen_object_new(NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var);
+		NullableMessagePackSerializer__ctor_m1322787260(L_10, L_6, L_7, L_9, /*hidden argument*/NULL);
+		__this->set__native_1(L_10);
+		return;
+	}
+
+IL_0042:
+	{
+		SerializationContext_t1484625559 * L_11 = ___context0;
+		UnixEpocDateTimeMessagePackSerializer_t2915577328 * L_12 = (UnixEpocDateTimeMessagePackSerializer_t2915577328 *)il2cpp_codegen_object_new(UnixEpocDateTimeMessagePackSerializer_t2915577328_il2cpp_TypeInfo_var);
+		UnixEpocDateTimeMessagePackSerializer__ctor_m1695551904(L_12, L_11, /*hidden argument*/NULL);
+		__this->set__unixEpoc_0(L_12);
+		SerializationContext_t1484625559 * L_13 = ___context0;
+		NativeDateTimeMessagePackSerializer_t1710272842 * L_14 = (NativeDateTimeMessagePackSerializer_t1710272842 *)il2cpp_codegen_object_new(NativeDateTimeMessagePackSerializer_t1710272842_il2cpp_TypeInfo_var);
+		NativeDateTimeMessagePackSerializer__ctor_m484270778(L_14, L_13, /*hidden argument*/NULL);
+		__this->set__native_1(L_14);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.DateTimeMessagePackSerializerProvider::Get(MsgPack.Serialization.SerializationContext,System.Object)
+extern const Il2CppType* DateTimeConversionMethod_t3801997378_0_0_0_var;
+extern Il2CppClass* DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3446529535;
+extern const uint32_t DateTimeMessagePackSerializerProvider_Get_m838031675_MetadataUsageId;
+extern "C"  Il2CppObject * DateTimeMessagePackSerializerProvider_Get_m838031675 (DateTimeMessagePackSerializerProvider_t1113846186 * __this, SerializationContext_t1484625559 * ___context0, Il2CppObject * ___providerParameter1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeMessagePackSerializerProvider_Get_m838031675_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	ObjectU5BU5D_t3614634134* V_2 = NULL;
+	{
+		Il2CppObject * L_0 = ___providerParameter1;
+		if (!((Il2CppObject *)IsInstSealed(L_0, DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Il2CppObject * L_1 = ___providerParameter1;
+		V_0 = ((*(int32_t*)((int32_t*)UnBox (L_1, DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var))));
+		int32_t L_2 = V_0;
+		if (L_2 == 0)
+		{
+			goto IL_001f;
+		}
+		if (L_2 == 1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		goto IL_002d;
+	}
+
+IL_001f:
+	{
+		Il2CppObject * L_3 = __this->get__native_1();
+		return L_3;
+	}
+
+IL_0026:
+	{
+		Il2CppObject * L_4 = __this->get__unixEpoc_0();
+		return L_4;
+	}
+
+IL_002d:
+	{
+		SerializationContext_t1484625559 * L_5 = ___context0;
+		int32_t L_6 = SerializationContext_get_DefaultDateTimeConversionMethod_m3602035803(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if (L_7 == 0)
+		{
+			goto IL_0044;
+		}
+		if (L_7 == 1)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		goto IL_0052;
+	}
+
+IL_0044:
+	{
+		Il2CppObject * L_8 = __this->get__native_1();
+		return L_8;
+	}
+
+IL_004b:
+	{
+		Il2CppObject * L_9 = __this->get__unixEpoc_0();
+		return L_9;
+	}
+
+IL_0052:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_10 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_11 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_12 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(DateTimeConversionMethod_t3801997378_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_11, L_12);
+		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_12);
+		ObjectU5BU5D_t3614634134* L_13 = V_2;
+		SerializationContext_t1484625559 * L_14 = ___context0;
+		int32_t L_15 = SerializationContext_get_DefaultDateTimeConversionMethod_m3602035803(L_14, /*hidden argument*/NULL);
+		int32_t L_16 = L_15;
+		Il2CppObject * L_17 = Box(DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var, &L_16);
+		ArrayElementTypeCheck (L_13, L_17);
+		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_17);
+		ObjectU5BU5D_t3614634134* L_18 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_19 = String_Format_m876527052(NULL /*static, unused*/, L_10, _stringLiteral3446529535, L_18, /*hidden argument*/NULL);
+		NotSupportedException_t1793819818 * L_20 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_20, L_19, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20);
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DateTimeOffsetMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,MsgPack.Serialization.DateTimeConversionMethod)
+extern Il2CppClass* MessagePackSerializer_1_t858432560_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2852348626_MethodInfo_var;
+extern const uint32_t DateTimeOffsetMessagePackSerializer__ctor_m4154080224_MetadataUsageId;
+extern "C"  void DateTimeOffsetMessagePackSerializer__ctor_m4154080224 (DateTimeOffsetMessagePackSerializer_t4214966254 * __this, SerializationContext_t1484625559 * ___ownerContext0, int32_t ___conversion1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeOffsetMessagePackSerializer__ctor_m4154080224_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t858432560_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2852348626(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2852348626_MethodInfo_var);
+		int32_t L_1 = ___conversion1;
+		__this->set__conversion_3(L_1);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DateTimeOffsetMessagePackSerializer::PackToCore(MsgPack.Packer,System.DateTimeOffset)
+extern Il2CppClass* MessagePackConvert_t4146551185_il2cpp_TypeInfo_var;
+extern const uint32_t DateTimeOffsetMessagePackSerializer_PackToCore_m3796443995_MetadataUsageId;
+extern "C"  void DateTimeOffsetMessagePackSerializer_PackToCore_m3796443995 (DateTimeOffsetMessagePackSerializer_t4214966254 * __this, Packer_t1439452732 * ___packer0, DateTimeOffset_t1362988906  ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeOffsetMessagePackSerializer_PackToCore_m3796443995_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DateTime_t693205669  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	TimeSpan_t3430258949  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	TimeSpan_t3430258949  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		int32_t L_0 = __this->get__conversion_3();
+		if (L_0)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Packer_t1439452732 * L_1 = ___packer0;
+		Packer_PackArrayHeader_m2467366488(L_1, 2, /*hidden argument*/NULL);
+		Packer_t1439452732 * L_2 = ___packer0;
+		DateTime_t693205669  L_3 = DateTimeOffset_get_DateTime_m229084964((&___objectTree1), /*hidden argument*/NULL);
+		V_0 = L_3;
+		int64_t L_4 = DateTime_ToBinary_m2497023899((&V_0), /*hidden argument*/NULL);
+		Packer_Pack_m3003456375(L_2, L_4, /*hidden argument*/NULL);
+		Packer_t1439452732 * L_5 = ___packer0;
+		TimeSpan_t3430258949  L_6 = DateTimeOffset_get_Offset_m2335492074((&___objectTree1), /*hidden argument*/NULL);
+		V_1 = L_6;
+		int32_t L_7 = TimeSpan_get_Hours_m3804628138((&V_1), /*hidden argument*/NULL);
+		TimeSpan_t3430258949  L_8 = DateTimeOffset_get_Offset_m2335492074((&___objectTree1), /*hidden argument*/NULL);
+		V_2 = L_8;
+		int32_t L_9 = TimeSpan_get_Minutes_m2575030536((&V_2), /*hidden argument*/NULL);
+		Packer_Pack_m1840656730(L_5, (((int16_t)((int16_t)((int32_t)((int32_t)((int32_t)((int32_t)L_7*(int32_t)((int32_t)60)))+(int32_t)L_9))))), /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0051:
+	{
+		Packer_t1439452732 * L_10 = ___packer0;
+		DateTimeOffset_t1362988906  L_11 = ___objectTree1;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackConvert_t4146551185_il2cpp_TypeInfo_var);
+		int64_t L_12 = MessagePackConvert_FromDateTimeOffset_m1647084952(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		Packer_Pack_m3003456375(L_10, L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.DateTimeOffset MsgPack.Serialization.DefaultSerializers.DateTimeOffsetMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* TimeSpan_t3430258949_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackConvert_t4146551185_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral246993745;
+extern const uint32_t DateTimeOffsetMessagePackSerializer_UnpackFromCore_m3650423177_MetadataUsageId;
+extern "C"  DateTimeOffset_t1362988906  DateTimeOffsetMessagePackSerializer_UnpackFromCore_m3650423177 (DateTimeOffsetMessagePackSerializer_t4214966254 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeOffsetMessagePackSerializer_UnpackFromCore_m3650423177_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	int16_t V_1 = 0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (!L_1)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_3 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		if ((((int32_t)L_3) == ((int32_t)2)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		SerializationException_t753258759 * L_4 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_4, _stringLiteral246993745, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4);
+	}
+
+IL_001c:
+	{
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		bool L_6 = VirtFuncInvoker1< bool, int64_t* >::Invoke(35 /* System.Boolean MsgPack.Unpacker::ReadInt64(System.Int64&) */, L_5, (&V_0));
+		if (L_6)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		Exception_t1927440687 * L_7 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7);
+	}
+
+IL_002c:
+	{
+		Unpacker_t998931393 * L_8 = ___unpacker0;
+		bool L_9 = VirtFuncInvoker1< bool, int16_t* >::Invoke(27 /* System.Boolean MsgPack.Unpacker::ReadInt16(System.Int16&) */, L_8, (&V_1));
+		if (L_9)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		Exception_t1927440687 * L_10 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10);
+	}
+
+IL_003c:
+	{
+		int64_t L_11 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_12 = DateTime_FromBinary_m2672557910(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		int16_t L_13 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t3430258949_il2cpp_TypeInfo_var);
+		TimeSpan_t3430258949  L_14 = TimeSpan_FromMinutes_m1997633268(NULL /*static, unused*/, (((double)((double)L_13))), /*hidden argument*/NULL);
+		DateTimeOffset_t1362988906  L_15;
+		memset(&L_15, 0, sizeof(L_15));
+		DateTimeOffset__ctor_m2870721395(&L_15, L_12, L_14, /*hidden argument*/NULL);
+		return L_15;
+	}
+
+IL_004f:
+	{
+		Unpacker_t998931393 * L_16 = ___unpacker0;
+		MessagePackObject_t2038085051  L_17 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_16);
+		V_2 = L_17;
+		int64_t L_18 = MessagePackObject_AsInt64_m2116700102((&V_2), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackConvert_t4146551185_il2cpp_TypeInfo_var);
+		DateTimeOffset_t1362988906  L_19 = MessagePackConvert_ToDateTimeOffset_m1080289141(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		return L_19;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DateTimeOffsetMessagePackSerializerProvider::.ctor(MsgPack.Serialization.SerializationContext,System.Boolean)
+extern const Il2CppType* Nullable_1_t3921022517_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTimeOffsetMessagePackSerializer_t4214966254_il2cpp_TypeInfo_var;
+extern Il2CppClass* NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var;
+extern const uint32_t DateTimeOffsetMessagePackSerializerProvider__ctor_m1448289364_MetadataUsageId;
+extern "C"  void DateTimeOffsetMessagePackSerializerProvider__ctor_m1448289364 (DateTimeOffsetMessagePackSerializerProvider_t1875481991 * __this, SerializationContext_t1484625559 * ___context0, bool ___isNullable1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeOffsetMessagePackSerializerProvider__ctor_m1448289364_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MessagePackSerializerProvider__ctor_m3834078966(__this, /*hidden argument*/NULL);
+		bool L_0 = ___isNullable1;
+		if (!L_0)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		SerializationContext_t1484625559 * L_1 = ___context0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1_t3921022517_0_0_0_var), /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___context0;
+		DateTimeOffsetMessagePackSerializer_t4214966254 * L_4 = (DateTimeOffsetMessagePackSerializer_t4214966254 *)il2cpp_codegen_object_new(DateTimeOffsetMessagePackSerializer_t4214966254_il2cpp_TypeInfo_var);
+		DateTimeOffsetMessagePackSerializer__ctor_m4154080224(L_4, L_3, 1, /*hidden argument*/NULL);
+		NullableMessagePackSerializer_t1470292499 * L_5 = (NullableMessagePackSerializer_t1470292499 *)il2cpp_codegen_object_new(NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var);
+		NullableMessagePackSerializer__ctor_m1322787260(L_5, L_1, L_2, L_4, /*hidden argument*/NULL);
+		__this->set__unixEpoc_0(L_5);
+		SerializationContext_t1484625559 * L_6 = ___context0;
+		Type_t * L_7 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Nullable_1_t3921022517_0_0_0_var), /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_8 = ___context0;
+		DateTimeOffsetMessagePackSerializer_t4214966254 * L_9 = (DateTimeOffsetMessagePackSerializer_t4214966254 *)il2cpp_codegen_object_new(DateTimeOffsetMessagePackSerializer_t4214966254_il2cpp_TypeInfo_var);
+		DateTimeOffsetMessagePackSerializer__ctor_m4154080224(L_9, L_8, 0, /*hidden argument*/NULL);
+		NullableMessagePackSerializer_t1470292499 * L_10 = (NullableMessagePackSerializer_t1470292499 *)il2cpp_codegen_object_new(NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var);
+		NullableMessagePackSerializer__ctor_m1322787260(L_10, L_6, L_7, L_9, /*hidden argument*/NULL);
+		__this->set__native_1(L_10);
+		return;
+	}
+
+IL_0044:
+	{
+		SerializationContext_t1484625559 * L_11 = ___context0;
+		DateTimeOffsetMessagePackSerializer_t4214966254 * L_12 = (DateTimeOffsetMessagePackSerializer_t4214966254 *)il2cpp_codegen_object_new(DateTimeOffsetMessagePackSerializer_t4214966254_il2cpp_TypeInfo_var);
+		DateTimeOffsetMessagePackSerializer__ctor_m4154080224(L_12, L_11, 1, /*hidden argument*/NULL);
+		__this->set__unixEpoc_0(L_12);
+		SerializationContext_t1484625559 * L_13 = ___context0;
+		DateTimeOffsetMessagePackSerializer_t4214966254 * L_14 = (DateTimeOffsetMessagePackSerializer_t4214966254 *)il2cpp_codegen_object_new(DateTimeOffsetMessagePackSerializer_t4214966254_il2cpp_TypeInfo_var);
+		DateTimeOffsetMessagePackSerializer__ctor_m4154080224(L_14, L_13, 0, /*hidden argument*/NULL);
+		__this->set__native_1(L_14);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.DateTimeOffsetMessagePackSerializerProvider::Get(MsgPack.Serialization.SerializationContext,System.Object)
+extern const Il2CppType* DateTimeConversionMethod_t3801997378_0_0_0_var;
+extern Il2CppClass* DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3446529535;
+extern const uint32_t DateTimeOffsetMessagePackSerializerProvider_Get_m3084377638_MetadataUsageId;
+extern "C"  Il2CppObject * DateTimeOffsetMessagePackSerializerProvider_Get_m3084377638 (DateTimeOffsetMessagePackSerializerProvider_t1875481991 * __this, SerializationContext_t1484625559 * ___context0, Il2CppObject * ___providerParameter1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTimeOffsetMessagePackSerializerProvider_Get_m3084377638_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	ObjectU5BU5D_t3614634134* V_2 = NULL;
+	{
+		Il2CppObject * L_0 = ___providerParameter1;
+		if (!((Il2CppObject *)IsInstSealed(L_0, DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Il2CppObject * L_1 = ___providerParameter1;
+		V_0 = ((*(int32_t*)((int32_t*)UnBox (L_1, DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var))));
+		int32_t L_2 = V_0;
+		if (L_2 == 0)
+		{
+			goto IL_001f;
+		}
+		if (L_2 == 1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		goto IL_002d;
+	}
+
+IL_001f:
+	{
+		Il2CppObject * L_3 = __this->get__native_1();
+		return L_3;
+	}
+
+IL_0026:
+	{
+		Il2CppObject * L_4 = __this->get__unixEpoc_0();
+		return L_4;
+	}
+
+IL_002d:
+	{
+		SerializationContext_t1484625559 * L_5 = ___context0;
+		int32_t L_6 = SerializationContext_get_DefaultDateTimeConversionMethod_m3602035803(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		int32_t L_7 = V_1;
+		if (L_7 == 0)
+		{
+			goto IL_0044;
+		}
+		if (L_7 == 1)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		goto IL_0052;
+	}
+
+IL_0044:
+	{
+		Il2CppObject * L_8 = __this->get__native_1();
+		return L_8;
+	}
+
+IL_004b:
+	{
+		Il2CppObject * L_9 = __this->get__unixEpoc_0();
+		return L_9;
+	}
+
+IL_0052:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_10 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_11 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_12 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(DateTimeConversionMethod_t3801997378_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_11, L_12);
+		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_12);
+		ObjectU5BU5D_t3614634134* L_13 = V_2;
+		SerializationContext_t1484625559 * L_14 = ___context0;
+		int32_t L_15 = SerializationContext_get_DefaultDateTimeConversionMethod_m3602035803(L_14, /*hidden argument*/NULL);
+		int32_t L_16 = L_15;
+		Il2CppObject * L_17 = Box(DateTimeConversionMethod_t3801997378_il2cpp_TypeInfo_var, &L_16);
+		ArrayElementTypeCheck (L_13, L_17);
+		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_17);
+		ObjectU5BU5D_t3614634134* L_18 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_19 = String_Format_m876527052(NULL /*static, unused*/, L_10, _stringLiteral3446529535, L_18, /*hidden argument*/NULL);
+		NotSupportedException_t1793819818 * L_20 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_20, L_19, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20);
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DoubleArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1385396194_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m771296115_MethodInfo_var;
+extern const uint32_t DoubleArraySerializer__ctor_m266798020_MetadataUsageId;
+extern "C"  void DoubleArraySerializer__ctor_m266798020 (DoubleArraySerializer_t3306240564 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DoubleArraySerializer__ctor_m266798020_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1385396194_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m771296115(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m771296115_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DoubleArraySerializer::PackToCore(MsgPack.Packer,System.Double[])
+extern "C"  void DoubleArraySerializer_PackToCore_m1163811042 (DoubleArraySerializer_t3306240564 * __this, Packer_t1439452732 * ___packer0, DoubleU5BU5D_t1889952540* ___objectTree1, const MethodInfo* method)
+{
+	double V_0 = 0.0;
+	DoubleU5BU5D_t1889952540* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		DoubleU5BU5D_t1889952540* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		DoubleU5BU5D_t1889952540* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0021;
+	}
+
+IL_0010:
+	{
+		DoubleU5BU5D_t1889952540* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		double L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = (((double)((double)L_6)));
+		Packer_t1439452732 * L_7 = ___packer0;
+		double L_8 = V_0;
+		Packer_Pack_m3985284383(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0021:
+	{
+		int32_t L_10 = V_2;
+		DoubleU5BU5D_t1889952540* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Double[] MsgPack.Serialization.DefaultSerializers.DoubleArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var;
+extern const uint32_t DoubleArraySerializer_UnpackFromCore_m302191496_MetadataUsageId;
+extern "C"  DoubleU5BU5D_t1889952540* DoubleArraySerializer_UnpackFromCore_m302191496 (DoubleArraySerializer_t3306240564 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DoubleArraySerializer_UnpackFromCore_m302191496_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DoubleU5BU5D_t1889952540* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((DoubleU5BU5D_t1889952540*)SZArrayNew(DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		DoubleU5BU5D_t1889952540* L_7 = V_1;
+		int32_t L_8 = V_0;
+		DoubleArraySerializer_UnpackToCore_m1609276723(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		DoubleU5BU5D_t1889952540* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DoubleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Double[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t DoubleArraySerializer_UnpackToCore_m2478042544_MetadataUsageId;
+extern "C"  void DoubleArraySerializer_UnpackToCore_m2478042544 (DoubleArraySerializer_t3306240564 * __this, Unpacker_t998931393 * ___unpacker0, DoubleU5BU5D_t1889952540* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DoubleArraySerializer_UnpackToCore_m2478042544_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		DoubleU5BU5D_t1889952540* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		DoubleArraySerializer_UnpackToCore_m1609276723(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.DoubleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Double[],System.Int32)
+extern "C"  void DoubleArraySerializer_UnpackToCore_m1609276723 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, DoubleU5BU5D_t1889952540* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	double V_1 = 0.0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, double* >::Invoke(41 /* System.Boolean MsgPack.Unpacker::ReadDouble(System.Double&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		DoubleU5BU5D_t1889952540* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		double L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (double)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.GenericSerializer::Create(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* List_1_t1169184319_0_0_0_var;
+extern const Il2CppType* Dictionary_2_t2276497324_0_0_0_var;
+extern Il2CppClass* PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionAbstractions_t1376794770_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern const uint32_t GenericSerializer_Create_m2087876189_MetadataUsageId;
+extern "C"  Il2CppObject * GenericSerializer_Create_m2087876189 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___schema2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GenericSerializer_Create_m2087876189_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Type_t * V_0 = NULL;
+	Type_t * V_1 = NULL;
+	TypeU5BU5D_t1664964607* V_2 = NULL;
+	PolymorphismSchema_t2690808062 * G_B3_0 = NULL;
+	Type_t * G_B3_1 = NULL;
+	SerializationContext_t1484625559 * G_B3_2 = NULL;
+	PolymorphismSchema_t2690808062 * G_B2_0 = NULL;
+	Type_t * G_B2_1 = NULL;
+	SerializationContext_t1484625559 * G_B2_2 = NULL;
+	{
+		Type_t * L_0 = ___targetType1;
+		bool L_1 = Type_get_IsArray_m811277129(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		SerializationContext_t1484625559 * L_2 = ___context0;
+		Type_t * L_3 = ___targetType1;
+		PolymorphismSchema_t2690808062 * L_4 = ___schema2;
+		PolymorphismSchema_t2690808062 * L_5 = L_4;
+		G_B2_0 = L_5;
+		G_B2_1 = L_3;
+		G_B2_2 = L_2;
+		if (L_5)
+		{
+			G_B3_0 = L_5;
+			G_B3_1 = L_3;
+			G_B3_2 = L_2;
+			goto IL_0014;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var);
+		PolymorphismSchema_t2690808062 * L_6 = ((PolymorphismSchema_t2690808062_StaticFields*)PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var->static_fields)->get_Default_4();
+		G_B3_0 = L_6;
+		G_B3_1 = G_B2_1;
+		G_B3_2 = G_B2_2;
+	}
+
+IL_0014:
+	{
+		PolymorphismSchema_t2690808062 * L_7 = PolymorphismSchema_get_ItemSchema_m577339901(G_B3_0, /*hidden argument*/NULL);
+		Il2CppObject * L_8 = GenericSerializer_CreateArraySerializer_m181581372(NULL /*static, unused*/, G_B3_2, G_B3_1, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_001f:
+	{
+		Type_t * L_9 = ___targetType1;
+		Type_t * L_10 = Nullable_GetUnderlyingType_m4057508352(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		Type_t * L_11 = L_10;
+		V_0 = L_11;
+		if (!L_11)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		SerializationContext_t1484625559 * L_12 = ___context0;
+		Type_t * L_13 = ___targetType1;
+		Type_t * L_14 = V_0;
+		Il2CppObject * L_15 = GenericSerializer_CreateNullableSerializer_m3565279697(NULL /*static, unused*/, L_12, L_13, L_14, /*hidden argument*/NULL);
+		return L_15;
+	}
+
+IL_0032:
+	{
+		Type_t * L_16 = ___targetType1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionAbstractions_t1376794770_il2cpp_TypeInfo_var);
+		bool L_17 = ReflectionAbstractions_GetIsGenericType_m4226608263(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		Type_t * L_18 = ___targetType1;
+		Type_t * L_19 = VirtFuncInvoker0< Type_t * >::Invoke(94 /* System.Type System.Type::GetGenericTypeDefinition() */, L_18);
+		V_1 = L_19;
+		Type_t * L_20 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_21 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(List_1_t1169184319_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_20) == ((Il2CppObject*)(Type_t *)L_21))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		SerializationContext_t1484625559 * L_22 = ___context0;
+		Type_t * L_23 = ___targetType1;
+		Type_t * L_24 = ___targetType1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		CollectionTraits_t1823801989 * L_25 = ReflectionExtensions_GetCollectionTraits_m1994552872(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_26 = ___schema2;
+		Il2CppObject * L_27 = GenericSerializer_CreateListSerializer_m971972282(NULL /*static, unused*/, L_22, L_23, L_25, L_26, /*hidden argument*/NULL);
+		return L_27;
+	}
+
+IL_005d:
+	{
+		Type_t * L_28 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_29 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Dictionary_2_t2276497324_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_28) == ((Il2CppObject*)(Type_t *)L_29))))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		Type_t * L_30 = ___targetType1;
+		TypeU5BU5D_t1664964607* L_31 = VirtFuncInvoker0< TypeU5BU5D_t1664964607* >::Invoke(91 /* System.Type[] System.Type::GetGenericArguments() */, L_30);
+		V_2 = L_31;
+		SerializationContext_t1484625559 * L_32 = ___context0;
+		Type_t * L_33 = ___targetType1;
+		Type_t * L_34 = ___targetType1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		CollectionTraits_t1823801989 * L_35 = ReflectionExtensions_GetCollectionTraits_m1994552872(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_36 = V_2;
+		int32_t L_37 = 0;
+		Type_t * L_38 = (L_36)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_37));
+		TypeU5BU5D_t1664964607* L_39 = V_2;
+		int32_t L_40 = 1;
+		Type_t * L_41 = (L_39)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_40));
+		PolymorphismSchema_t2690808062 * L_42 = ___schema2;
+		Il2CppObject * L_43 = GenericSerializer_CreateDictionarySerializer_m3540123362(NULL /*static, unused*/, L_32, L_33, L_35, L_38, L_41, L_42, /*hidden argument*/NULL);
+		return L_43;
+	}
+
+IL_0086:
+	{
+		return (Il2CppObject *)NULL;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.GenericSerializer::CreateArraySerializer(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* ArraySerializer_t3329612773_il2cpp_TypeInfo_var;
+extern const uint32_t GenericSerializer_CreateArraySerializer_m181581372_MetadataUsageId;
+extern "C"  Il2CppObject * GenericSerializer_CreateArraySerializer_m181581372 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___targetType1, PolymorphismSchema_t2690808062 * ___itemsSchema2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GenericSerializer_CreateArraySerializer_m181581372_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		Type_t * L_1 = ___targetType1;
+		PolymorphismSchema_t2690808062 * L_2 = ___itemsSchema2;
+		IL2CPP_RUNTIME_CLASS_INIT(ArraySerializer_t3329612773_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = ArraySerializer_Create_m2972063569(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.GenericSerializer::CreateNullableSerializer(MsgPack.Serialization.SerializationContext,System.Type,System.Type)
+extern Il2CppClass* NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var;
+extern const uint32_t GenericSerializer_CreateNullableSerializer_m3565279697_MetadataUsageId;
+extern "C"  Il2CppObject * GenericSerializer_CreateNullableSerializer_m3565279697 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___nullableType1, Type_t * ___underlyingType2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GenericSerializer_CreateNullableSerializer_m3565279697_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		Type_t * L_1 = ___nullableType1;
+		Type_t * L_2 = ___underlyingType2;
+		NullableMessagePackSerializer_t1470292499 * L_3 = (NullableMessagePackSerializer_t1470292499 *)il2cpp_codegen_object_new(NullableMessagePackSerializer_t1470292499_il2cpp_TypeInfo_var);
+		NullableMessagePackSerializer__ctor_m2681428835(L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.GenericSerializer::CreateListSerializer(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var;
+extern Il2CppClass* System_Collections_Generic_List_1MessagePackSerializer_t1522264518_il2cpp_TypeInfo_var;
+extern const uint32_t GenericSerializer_CreateListSerializer_m971972282_MetadataUsageId;
+extern "C"  Il2CppObject * GenericSerializer_CreateListSerializer_m971972282 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___targetType1, CollectionTraits_t1823801989 * ___traits2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GenericSerializer_CreateListSerializer_m971972282_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolymorphismSchema_t2690808062 * G_B2_0 = NULL;
+	CollectionTraits_t1823801989 * G_B2_1 = NULL;
+	Type_t * G_B2_2 = NULL;
+	SerializationContext_t1484625559 * G_B2_3 = NULL;
+	PolymorphismSchema_t2690808062 * G_B1_0 = NULL;
+	CollectionTraits_t1823801989 * G_B1_1 = NULL;
+	Type_t * G_B1_2 = NULL;
+	SerializationContext_t1484625559 * G_B1_3 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___context0;
+		Type_t * L_1 = ___targetType1;
+		CollectionTraits_t1823801989 * L_2 = ___traits2;
+		PolymorphismSchema_t2690808062 * L_3 = ___schema3;
+		PolymorphismSchema_t2690808062 * L_4 = L_3;
+		G_B1_0 = L_4;
+		G_B1_1 = L_2;
+		G_B1_2 = L_1;
+		G_B1_3 = L_0;
+		if (L_4)
+		{
+			G_B2_0 = L_4;
+			G_B2_1 = L_2;
+			G_B2_2 = L_1;
+			G_B2_3 = L_0;
+			goto IL_000d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var);
+		PolymorphismSchema_t2690808062 * L_5 = ((PolymorphismSchema_t2690808062_StaticFields*)PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var->static_fields)->get_Default_4();
+		G_B2_0 = L_5;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+		G_B2_3 = G_B1_3;
+	}
+
+IL_000d:
+	{
+		PolymorphismSchema_t2690808062 * L_6 = PolymorphismSchema_get_ItemSchema_m577339901(G_B2_0, /*hidden argument*/NULL);
+		System_Collections_Generic_List_1MessagePackSerializer_t1522264518 * L_7 = (System_Collections_Generic_List_1MessagePackSerializer_t1522264518 *)il2cpp_codegen_object_new(System_Collections_Generic_List_1MessagePackSerializer_t1522264518_il2cpp_TypeInfo_var);
+		System_Collections_Generic_List_1MessagePackSerializer__ctor_m3830795756(L_7, G_B2_3, G_B2_2, G_B2_1, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.GenericSerializer::CreateDictionarySerializer(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.CollectionTraits,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var;
+extern Il2CppClass* System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429_il2cpp_TypeInfo_var;
+extern const uint32_t GenericSerializer_CreateDictionarySerializer_m3540123362_MetadataUsageId;
+extern "C"  Il2CppObject * GenericSerializer_CreateDictionarySerializer_m3540123362 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___targetType1, CollectionTraits_t1823801989 * ___traits2, Type_t * ___keyType3, Type_t * ___valueType4, PolymorphismSchema_t2690808062 * ___schema5, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GenericSerializer_CreateDictionarySerializer_m3540123362_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PolymorphismSchema_t2690808062 * V_0 = NULL;
+	PolymorphismSchema_t2690808062 * G_B2_0 = NULL;
+	PolymorphismSchema_t2690808062 * G_B1_0 = NULL;
+	{
+		PolymorphismSchema_t2690808062 * L_0 = ___schema5;
+		PolymorphismSchema_t2690808062 * L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var);
+		PolymorphismSchema_t2690808062 * L_2 = ((PolymorphismSchema_t2690808062_StaticFields*)PolymorphismSchema_t2690808062_il2cpp_TypeInfo_var->static_fields)->get_Default_4();
+		G_B2_0 = L_2;
+	}
+
+IL_000b:
+	{
+		V_0 = G_B2_0;
+		SerializationContext_t1484625559 * L_3 = ___context0;
+		Type_t * L_4 = ___targetType1;
+		CollectionTraits_t1823801989 * L_5 = ___traits2;
+		Type_t * L_6 = ___keyType3;
+		Type_t * L_7 = ___valueType4;
+		PolymorphismSchema_t2690808062 * L_8 = V_0;
+		PolymorphismSchema_t2690808062 * L_9 = PolymorphismSchema_get_KeySchema_m1024482175(L_8, /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_10 = V_0;
+		PolymorphismSchema_t2690808062 * L_11 = PolymorphismSchema_get_ItemSchema_m577339901(L_10, /*hidden argument*/NULL);
+		System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 * L_12 = (System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 *)il2cpp_codegen_object_new(System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429_il2cpp_TypeInfo_var);
+		System_Collections_Generic_Dictionary_2MessagePackSerializer__ctor_m791806323(L_12, L_3, L_4, L_5, L_6, L_7, L_9, L_11, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.GenericSerializer::TryCreateAbstractCollectionSerializer(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern const uint32_t GenericSerializer_TryCreateAbstractCollectionSerializer_m1439608103_MetadataUsageId;
+extern "C"  Il2CppObject * GenericSerializer_TryCreateAbstractCollectionSerializer_m1439608103 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___abstractType1, Type_t * ___concreteType2, PolymorphismSchema_t2690808062 * ___schema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GenericSerializer_TryCreateAbstractCollectionSerializer_m1439608103_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Type_t * L_0 = ___concreteType2;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return (Il2CppObject *)NULL;
+	}
+
+IL_0005:
+	{
+		SerializationContext_t1484625559 * L_1 = ___context0;
+		Type_t * L_2 = ___abstractType1;
+		Type_t * L_3 = ___concreteType2;
+		PolymorphismSchema_t2690808062 * L_4 = ___schema3;
+		Type_t * L_5 = ___abstractType1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		CollectionTraits_t1823801989 * L_6 = ReflectionExtensions_GetCollectionTraits_m1994552872(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Il2CppObject * L_7 = GenericSerializer_TryCreateAbstractCollectionSerializer_m3578198164(NULL /*static, unused*/, L_1, L_2, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// MsgPack.Serialization.IMessagePackSingleObjectSerializer MsgPack.Serialization.DefaultSerializers.GenericSerializer::TryCreateAbstractCollectionSerializer(MsgPack.Serialization.SerializationContext,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema,MsgPack.Serialization.CollectionTraits)
+extern Il2CppClass* AbstractCollectionMessagePackSerializer_t2380864482_il2cpp_TypeInfo_var;
+extern Il2CppClass* AbstractEnumerableMessagePackSerializer_t1115660484_il2cpp_TypeInfo_var;
+extern Il2CppClass* AbstractDictionaryMessagePackSerializer_t2071025354_il2cpp_TypeInfo_var;
+extern Il2CppClass* AbstractNonGenericListMessagePackSerializer_t582739518_il2cpp_TypeInfo_var;
+extern Il2CppClass* AbstractNonGenericCollectionMessagePackSerializer_t2880081730_il2cpp_TypeInfo_var;
+extern Il2CppClass* AbstractNonGenericEnumerableMessagePackSerializer_t410058080_il2cpp_TypeInfo_var;
+extern Il2CppClass* AbstractNonGenericDictionaryMessagePackSerializer_t2458143358_il2cpp_TypeInfo_var;
+extern const uint32_t GenericSerializer_TryCreateAbstractCollectionSerializer_m3578198164_MetadataUsageId;
+extern "C"  Il2CppObject * GenericSerializer_TryCreateAbstractCollectionSerializer_m3578198164 (Il2CppObject * __this /* static, unused */, SerializationContext_t1484625559 * ___context0, Type_t * ___abstractType1, Type_t * ___concreteType2, PolymorphismSchema_t2690808062 * ___schema3, CollectionTraits_t1823801989 * ___traits4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GenericSerializer_TryCreateAbstractCollectionSerializer_m3578198164_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TypeU5BU5D_t1664964607* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		CollectionTraits_t1823801989 * L_0 = ___traits4;
+		int32_t L_1 = L_0->get_DetailedCollectionType_6();
+		V_1 = L_1;
+		int32_t L_2 = V_1;
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 0)
+		{
+			goto IL_0032;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 1)
+		{
+			goto IL_0069;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 2)
+		{
+			goto IL_004a;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 3)
+		{
+			goto IL_0087;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 4)
+		{
+			goto IL_0032;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 5)
+		{
+			goto IL_0073;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 6)
+		{
+			goto IL_003e;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)2)) == 7)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		goto IL_0091;
+	}
+
+IL_0032:
+	{
+		SerializationContext_t1484625559 * L_3 = ___context0;
+		Type_t * L_4 = ___abstractType1;
+		Type_t * L_5 = ___concreteType2;
+		CollectionTraits_t1823801989 * L_6 = ___traits4;
+		PolymorphismSchema_t2690808062 * L_7 = ___schema3;
+		AbstractCollectionMessagePackSerializer_t2380864482 * L_8 = (AbstractCollectionMessagePackSerializer_t2380864482 *)il2cpp_codegen_object_new(AbstractCollectionMessagePackSerializer_t2380864482_il2cpp_TypeInfo_var);
+		AbstractCollectionMessagePackSerializer__ctor_m946507867(L_8, L_3, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_003e:
+	{
+		SerializationContext_t1484625559 * L_9 = ___context0;
+		Type_t * L_10 = ___abstractType1;
+		Type_t * L_11 = ___concreteType2;
+		CollectionTraits_t1823801989 * L_12 = ___traits4;
+		PolymorphismSchema_t2690808062 * L_13 = ___schema3;
+		AbstractEnumerableMessagePackSerializer_t1115660484 * L_14 = (AbstractEnumerableMessagePackSerializer_t1115660484 *)il2cpp_codegen_object_new(AbstractEnumerableMessagePackSerializer_t1115660484_il2cpp_TypeInfo_var);
+		AbstractEnumerableMessagePackSerializer__ctor_m3451374031(L_14, L_9, L_10, L_11, L_12, L_13, /*hidden argument*/NULL);
+		return L_14;
+	}
+
+IL_004a:
+	{
+		CollectionTraits_t1823801989 * L_15 = ___traits4;
+		Type_t * L_16 = L_15->get_ElementType_5();
+		TypeU5BU5D_t1664964607* L_17 = VirtFuncInvoker0< TypeU5BU5D_t1664964607* >::Invoke(91 /* System.Type[] System.Type::GetGenericArguments() */, L_16);
+		V_0 = L_17;
+		SerializationContext_t1484625559 * L_18 = ___context0;
+		Type_t * L_19 = ___abstractType1;
+		Type_t * L_20 = ___concreteType2;
+		TypeU5BU5D_t1664964607* L_21 = V_0;
+		int32_t L_22 = 0;
+		Type_t * L_23 = (L_21)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_22));
+		TypeU5BU5D_t1664964607* L_24 = V_0;
+		int32_t L_25 = 1;
+		Type_t * L_26 = (L_24)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_25));
+		CollectionTraits_t1823801989 * L_27 = ___traits4;
+		PolymorphismSchema_t2690808062 * L_28 = ___schema3;
+		AbstractDictionaryMessagePackSerializer_t2071025354 * L_29 = (AbstractDictionaryMessagePackSerializer_t2071025354 *)il2cpp_codegen_object_new(AbstractDictionaryMessagePackSerializer_t2071025354_il2cpp_TypeInfo_var);
+		AbstractDictionaryMessagePackSerializer__ctor_m10822373(L_29, L_18, L_19, L_20, L_23, L_26, L_27, L_28, /*hidden argument*/NULL);
+		return L_29;
+	}
+
+IL_0069:
+	{
+		SerializationContext_t1484625559 * L_30 = ___context0;
+		Type_t * L_31 = ___abstractType1;
+		Type_t * L_32 = ___concreteType2;
+		PolymorphismSchema_t2690808062 * L_33 = ___schema3;
+		AbstractNonGenericListMessagePackSerializer_t582739518 * L_34 = (AbstractNonGenericListMessagePackSerializer_t582739518 *)il2cpp_codegen_object_new(AbstractNonGenericListMessagePackSerializer_t582739518_il2cpp_TypeInfo_var);
+		AbstractNonGenericListMessagePackSerializer__ctor_m1276940516(L_34, L_30, L_31, L_32, L_33, /*hidden argument*/NULL);
+		return L_34;
+	}
+
+IL_0073:
+	{
+		SerializationContext_t1484625559 * L_35 = ___context0;
+		Type_t * L_36 = ___abstractType1;
+		Type_t * L_37 = ___concreteType2;
+		PolymorphismSchema_t2690808062 * L_38 = ___schema3;
+		AbstractNonGenericCollectionMessagePackSerializer_t2880081730 * L_39 = (AbstractNonGenericCollectionMessagePackSerializer_t2880081730 *)il2cpp_codegen_object_new(AbstractNonGenericCollectionMessagePackSerializer_t2880081730_il2cpp_TypeInfo_var);
+		AbstractNonGenericCollectionMessagePackSerializer__ctor_m1296886180(L_39, L_35, L_36, L_37, L_38, /*hidden argument*/NULL);
+		return L_39;
+	}
+
+IL_007d:
+	{
+		SerializationContext_t1484625559 * L_40 = ___context0;
+		Type_t * L_41 = ___abstractType1;
+		Type_t * L_42 = ___concreteType2;
+		PolymorphismSchema_t2690808062 * L_43 = ___schema3;
+		AbstractNonGenericEnumerableMessagePackSerializer_t410058080 * L_44 = (AbstractNonGenericEnumerableMessagePackSerializer_t410058080 *)il2cpp_codegen_object_new(AbstractNonGenericEnumerableMessagePackSerializer_t410058080_il2cpp_TypeInfo_var);
+		AbstractNonGenericEnumerableMessagePackSerializer__ctor_m2460860114(L_44, L_40, L_41, L_42, L_43, /*hidden argument*/NULL);
+		return L_44;
+	}
+
+IL_0087:
+	{
+		SerializationContext_t1484625559 * L_45 = ___context0;
+		Type_t * L_46 = ___abstractType1;
+		Type_t * L_47 = ___concreteType2;
+		PolymorphismSchema_t2690808062 * L_48 = ___schema3;
+		AbstractNonGenericDictionaryMessagePackSerializer_t2458143358 * L_49 = (AbstractNonGenericDictionaryMessagePackSerializer_t2458143358 *)il2cpp_codegen_object_new(AbstractNonGenericDictionaryMessagePackSerializer_t2458143358_il2cpp_TypeInfo_var);
+		AbstractNonGenericDictionaryMessagePackSerializer__ctor_m3047878408(L_49, L_45, L_46, L_47, L_48, /*hidden argument*/NULL);
+		return L_49;
+	}
+
+IL_0091:
+	{
+		return (Il2CppObject *)NULL;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int16ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2599726917_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3373622938_MethodInfo_var;
+extern const uint32_t Int16ArraySerializer__ctor_m1751819657_MetadataUsageId;
+extern "C"  void Int16ArraySerializer__ctor_m1751819657 (Int16ArraySerializer_t2119299061 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int16ArraySerializer__ctor_m1751819657_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2599726917_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3373622938(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3373622938_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int16ArraySerializer::PackToCore(MsgPack.Packer,System.Int16[])
+extern "C"  void Int16ArraySerializer_PackToCore_m854469240 (Int16ArraySerializer_t2119299061 * __this, Packer_t1439452732 * ___packer0, Int16U5BU5D_t3104283263* ___objectTree1, const MethodInfo* method)
+{
+	int16_t V_0 = 0;
+	Int16U5BU5D_t3104283263* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Int16U5BU5D_t3104283263* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Int16U5BU5D_t3104283263* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		Int16U5BU5D_t3104283263* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		int16_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		int16_t L_8 = V_0;
+		Packer_Pack_m1840656730(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		Int16U5BU5D_t3104283263* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Int16[] MsgPack.Serialization.DefaultSerializers.Int16ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int16U5BU5D_t3104283263_il2cpp_TypeInfo_var;
+extern const uint32_t Int16ArraySerializer_UnpackFromCore_m2497796076_MetadataUsageId;
+extern "C"  Int16U5BU5D_t3104283263* Int16ArraySerializer_UnpackFromCore_m2497796076 (Int16ArraySerializer_t2119299061 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int16ArraySerializer_UnpackFromCore_m2497796076_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Int16U5BU5D_t3104283263* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Int16U5BU5D_t3104283263*)SZArrayNew(Int16U5BU5D_t3104283263_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Int16U5BU5D_t3104283263* L_7 = V_1;
+		int32_t L_8 = V_0;
+		Int16ArraySerializer_UnpackToCore_m1975763303(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Int16U5BU5D_t3104283263* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Int16[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t Int16ArraySerializer_UnpackToCore_m135330442_MetadataUsageId;
+extern "C"  void Int16ArraySerializer_UnpackToCore_m135330442 (Int16ArraySerializer_t2119299061 * __this, Unpacker_t998931393 * ___unpacker0, Int16U5BU5D_t3104283263* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int16ArraySerializer_UnpackToCore_m135330442_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Int16U5BU5D_t3104283263* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Int16ArraySerializer_UnpackToCore_m1975763303(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Int16[],System.Int32)
+extern "C"  void Int16ArraySerializer_UnpackToCore_m1975763303 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Int16U5BU5D_t3104283263* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int16_t V_1 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, int16_t* >::Invoke(27 /* System.Boolean MsgPack.Unpacker::ReadInt16(System.Int16&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Int16U5BU5D_t3104283263* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		int16_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (int16_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int32ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2525843295_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3432479216_MethodInfo_var;
+extern const uint32_t Int32ArraySerializer__ctor_m723175863_MetadataUsageId;
+extern "C"  void Int32ArraySerializer__ctor_m723175863 (Int32ArraySerializer_t3458876511 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int32ArraySerializer__ctor_m723175863_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2525843295_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3432479216(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3432479216_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int32ArraySerializer::PackToCore(MsgPack.Packer,System.Int32[])
+extern "C"  void Int32ArraySerializer_PackToCore_m3477207064 (Int32ArraySerializer_t3458876511 * __this, Packer_t1439452732 * ___packer0, Int32U5BU5D_t3030399641* ___objectTree1, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Int32U5BU5D_t3030399641* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Int32U5BU5D_t3030399641* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Int32U5BU5D_t3030399641* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		Int32U5BU5D_t3030399641* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		int32_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		int32_t L_8 = V_0;
+		Packer_Pack_m3810025264(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		Int32U5BU5D_t3030399641* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Int32[] MsgPack.Serialization.DefaultSerializers.Int32ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern const uint32_t Int32ArraySerializer_UnpackFromCore_m2914399560_MetadataUsageId;
+extern "C"  Int32U5BU5D_t3030399641* Int32ArraySerializer_UnpackFromCore_m2914399560 (Int32ArraySerializer_t3458876511 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int32ArraySerializer_UnpackFromCore_m2914399560_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Int32U5BU5D_t3030399641* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Int32U5BU5D_t3030399641* L_7 = V_1;
+		int32_t L_8 = V_0;
+		Int32ArraySerializer_UnpackToCore_m3412439871(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Int32U5BU5D_t3030399641* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Int32[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t Int32ArraySerializer_UnpackToCore_m4102171546_MetadataUsageId;
+extern "C"  void Int32ArraySerializer_UnpackToCore_m4102171546 (Int32ArraySerializer_t3458876511 * __this, Unpacker_t998931393 * ___unpacker0, Int32U5BU5D_t3030399641* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int32ArraySerializer_UnpackToCore_m4102171546_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Int32U5BU5D_t3030399641* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Int32ArraySerializer_UnpackToCore_m3412439871(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Int32[],System.Int32)
+extern "C"  void Int32ArraySerializer_UnpackToCore_m3412439871 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Int32U5BU5D_t3030399641* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, int32_t* >::Invoke(31 /* System.Boolean MsgPack.Unpacker::ReadInt32(System.Int32&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Int32U5BU5D_t3030399641* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		int32_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (int32_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int64ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t212568766_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m470887223_MethodInfo_var;
+extern const uint32_t Int64ArraySerializer__ctor_m2799620154_MetadataUsageId;
+extern "C"  void Int64ArraySerializer__ctor_m2799620154 (Int64ArraySerializer_t45890286 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int64ArraySerializer__ctor_m2799620154_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t212568766_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m470887223(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m470887223_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int64ArraySerializer::PackToCore(MsgPack.Packer,System.Int64[])
+extern "C"  void Int64ArraySerializer_PackToCore_m2230978250 (Int64ArraySerializer_t45890286 * __this, Packer_t1439452732 * ___packer0, Int64U5BU5D_t717125112* ___objectTree1, const MethodInfo* method)
+{
+	int64_t V_0 = 0;
+	Int64U5BU5D_t717125112* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Int64U5BU5D_t717125112* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Int64U5BU5D_t717125112* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		Int64U5BU5D_t717125112* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		int64_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		int64_t L_8 = V_0;
+		Packer_Pack_m3003456375(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		Int64U5BU5D_t717125112* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Int64[] MsgPack.Serialization.DefaultSerializers.Int64ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int64U5BU5D_t717125112_il2cpp_TypeInfo_var;
+extern const uint32_t Int64ArraySerializer_UnpackFromCore_m2323890658_MetadataUsageId;
+extern "C"  Int64U5BU5D_t717125112* Int64ArraySerializer_UnpackFromCore_m2323890658 (Int64ArraySerializer_t45890286 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int64ArraySerializer_UnpackFromCore_m2323890658_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Int64U5BU5D_t717125112* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Int64U5BU5D_t717125112*)SZArrayNew(Int64U5BU5D_t717125112_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Int64U5BU5D_t717125112* L_7 = V_1;
+		int32_t L_8 = V_0;
+		Int64ArraySerializer_UnpackToCore_m2252242331(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Int64U5BU5D_t717125112* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Int64[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t Int64ArraySerializer_UnpackToCore_m1205983784_MetadataUsageId;
+extern "C"  void Int64ArraySerializer_UnpackToCore_m1205983784 (Int64ArraySerializer_t45890286 * __this, Unpacker_t998931393 * ___unpacker0, Int64U5BU5D_t717125112* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Int64ArraySerializer_UnpackToCore_m1205983784_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Int64U5BU5D_t717125112* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Int64ArraySerializer_UnpackToCore_m2252242331(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.Int64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Int64[],System.Int32)
+extern "C"  void Int64ArraySerializer_UnpackToCore_m2252242331 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Int64U5BU5D_t717125112* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int64_t V_1 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, int64_t* >::Invoke(35 /* System.Boolean MsgPack.Unpacker::ReadInt64(System.Int64&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Int64U5BU5D_t717125112* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		int64_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (int64_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MessagePackObjectArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1636098496_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3772087146_MethodInfo_var;
+extern const uint32_t MessagePackObjectArraySerializer__ctor_m2073472908_MetadataUsageId;
+extern "C"  void MessagePackObjectArraySerializer__ctor_m2073472908 (MessagePackObjectArraySerializer_t1638335348 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MessagePackObjectArraySerializer__ctor_m2073472908_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1636098496_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3772087146(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3772087146_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MessagePackObjectArraySerializer::PackToCore(MsgPack.Packer,MsgPack.MessagePackObject[])
+extern "C"  void MessagePackObjectArraySerializer_PackToCore_m2365096795 (MessagePackObjectArraySerializer_t1638335348 * __this, Packer_t1439452732 * ___packer0, MessagePackObjectU5BU5D_t2140654842* ___objectTree1, const MethodInfo* method)
+{
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	MessagePackObjectU5BU5D_t2140654842* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		MessagePackObjectU5BU5D_t2140654842* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		MessagePackObjectU5BU5D_t2140654842* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_002a;
+	}
+
+IL_0010:
+	{
+		MessagePackObjectU5BU5D_t2140654842* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(MessagePackObject_t2038085051 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		MessagePackObject_PackToMessage_m2384093678((&V_0), L_5, (PackingOptions_t1268727809 *)NULL, /*hidden argument*/NULL);
+		int32_t L_6 = V_2;
+		V_2 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_002a:
+	{
+		int32_t L_7 = V_2;
+		MessagePackObjectU5BU5D_t2140654842* L_8 = V_1;
+		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// MsgPack.MessagePackObject[] MsgPack.Serialization.DefaultSerializers.MessagePackObjectArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackObjectU5BU5D_t2140654842_il2cpp_TypeInfo_var;
+extern const uint32_t MessagePackObjectArraySerializer_UnpackFromCore_m2194637265_MetadataUsageId;
+extern "C"  MessagePackObjectU5BU5D_t2140654842* MessagePackObjectArraySerializer_UnpackFromCore_m2194637265 (MessagePackObjectArraySerializer_t1638335348 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MessagePackObjectArraySerializer_UnpackFromCore_m2194637265_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MessagePackObjectU5BU5D_t2140654842* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((MessagePackObjectU5BU5D_t2140654842*)SZArrayNew(MessagePackObjectU5BU5D_t2140654842_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		MessagePackObjectU5BU5D_t2140654842* L_7 = V_1;
+		int32_t L_8 = V_0;
+		MessagePackObjectArraySerializer_UnpackToCore_m380224992(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		MessagePackObjectU5BU5D_t2140654842* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MessagePackObjectArraySerializer::UnpackToCore(MsgPack.Unpacker,MsgPack.MessagePackObject[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t MessagePackObjectArraySerializer_UnpackToCore_m2402469327_MetadataUsageId;
+extern "C"  void MessagePackObjectArraySerializer_UnpackToCore_m2402469327 (MessagePackObjectArraySerializer_t1638335348 * __this, Unpacker_t998931393 * ___unpacker0, MessagePackObjectU5BU5D_t2140654842* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MessagePackObjectArraySerializer_UnpackToCore_m2402469327_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		MessagePackObjectU5BU5D_t2140654842* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		MessagePackObjectArraySerializer_UnpackToCore_m380224992(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MessagePackObjectArraySerializer::UnpackToCore(MsgPack.Unpacker,MsgPack.MessagePackObject[],System.Int32)
+extern "C"  void MessagePackObjectArraySerializer_UnpackToCore_m380224992 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, MessagePackObjectU5BU5D_t2140654842* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	MessagePackObject_t2038085051  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		MessagePackObjectU5BU5D_t2140654842* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		MessagePackObject_t2038085051  L_6 = V_1;
+		(*(MessagePackObject_t2038085051 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.String MsgPack.Serialization.DefaultSerializers.MessagePackObjectExtensions::DeserializeAsString(MsgPack.MessagePackObject)
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1525278462;
+extern const uint32_t MessagePackObjectExtensions_DeserializeAsString_m3015284930_MetadataUsageId;
+extern "C"  String_t* MessagePackObjectExtensions_DeserializeAsString_m3015284930 (Il2CppObject * __this /* static, unused */, MessagePackObject_t2038085051  ___source0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MessagePackObjectExtensions_DeserializeAsString_m3015284930_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	ObjectU5BU5D_t3614634134* V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		String_t* L_0 = MessagePackObject_AsString_m2410857322((&___source0), /*hidden argument*/NULL);
+		V_1 = L_0;
+		goto IL_0032;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_000a;
+		throw e;
+	}
+
+CATCH_000a:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_1 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_2 = V_2;
+		InvalidOperationException_t721527559 * L_3 = V_0;
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_3);
+		ArrayElementTypeCheck (L_2, L_4);
+		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_4);
+		ObjectU5BU5D_t3614634134* L_5 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Format_m876527052(NULL /*static, unused*/, L_1, _stringLiteral1525278462, L_5, /*hidden argument*/NULL);
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		SerializationException_t753258759 * L_8 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m3898253276(L_8, L_6, L_7, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
+	} // end catch (depth: 1)
+
+IL_0032:
+	{
+		String_t* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t955250860_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3297259389_MethodInfo_var;
+extern const uint32_t MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer__ctor_m3623777905_MetadataUsageId;
+extern "C"  void MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer__ctor_m3623777905 (MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer_t2675704845 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer__ctor_m3623777905_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t955250860_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3297259389(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3297259389_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer::PackToCore(MsgPack.Packer,MsgPack.MessagePackExtendedTypeObject)
+extern "C"  void MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer_PackToCore_m1870514025 (MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer_t2675704845 * __this, Packer_t1439452732 * ___packer0, MessagePackExtendedTypeObject_t1459807206  ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		MessagePackExtendedTypeObject_t1459807206  L_1 = ___value1;
+		Packer_PackExtendedTypeValue_m3793858999(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// MsgPack.MessagePackExtendedTypeObject MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  MessagePackExtendedTypeObject_t1459807206  MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer_UnpackFromCore_m276159459 (MsgPack_MessagePackExtendedTypeObjectMessagePackSerializer_t2675704845 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		MessagePackExtendedTypeObject_t1459807206  L_2 = MessagePackObject_AsMessagePackExtendedTypeObject_m2115778085((&V_0), /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectDictionaryMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3671170637_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m489937226_MethodInfo_var;
+extern const uint32_t MsgPack_MessagePackObjectDictionaryMessagePackSerializer__ctor_m3731512378_MetadataUsageId;
+extern "C"  void MsgPack_MessagePackObjectDictionaryMessagePackSerializer__ctor_m3731512378 (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_t4223362754 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackObjectDictionaryMessagePackSerializer__ctor_m3731512378_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3671170637_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m489937226(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m489937226_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectDictionaryMessagePackSerializer::PackToCore(MsgPack.Packer,MsgPack.MessagePackObjectDictionary)
+extern const MethodInfo* KeyValuePair_2_get_Key_m458399038_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3162421283_MethodInfo_var;
+extern const uint32_t MsgPack_MessagePackObjectDictionaryMessagePackSerializer_PackToCore_m3475884233_MetadataUsageId;
+extern "C"  void MsgPack_MessagePackObjectDictionaryMessagePackSerializer_PackToCore_m3475884233 (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_t4223362754 * __this, Packer_t1439452732 * ___packer0, MessagePackObjectDictionary_t4175726983 * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_PackToCore_m3475884233_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	KeyValuePair_2_t2208478405  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Enumerator_t3469257882  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	MessagePackObject_t2038085051  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		MessagePackObjectDictionary_t4175726983 * L_1 = ___objectTree1;
+		int32_t L_2 = MessagePackObjectDictionary_get_Count_m2547606164(L_1, /*hidden argument*/NULL);
+		Packer_PackMapHeader_m2236046007(L_0, L_2, /*hidden argument*/NULL);
+		MessagePackObjectDictionary_t4175726983 * L_3 = ___objectTree1;
+		Enumerator_t3469257882  L_4 = MessagePackObjectDictionary_GetEnumerator_m2887330689(L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+	}
+
+IL_0014:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0040;
+		}
+
+IL_0016:
+		{
+			KeyValuePair_2_t2208478405  L_5 = Enumerator_get_Current_m212756695((&V_1), /*hidden argument*/NULL);
+			V_0 = L_5;
+			MessagePackObject_t2038085051  L_6 = KeyValuePair_2_get_Key_m458399038((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m458399038_MethodInfo_var);
+			V_2 = L_6;
+			Packer_t1439452732 * L_7 = ___packer0;
+			MessagePackObject_PackToMessage_m2384093678((&V_2), L_7, (PackingOptions_t1268727809 *)NULL, /*hidden argument*/NULL);
+			MessagePackObject_t2038085051  L_8 = KeyValuePair_2_get_Value_m3162421283((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3162421283_MethodInfo_var);
+			V_3 = L_8;
+			Packer_t1439452732 * L_9 = ___packer0;
+			MessagePackObject_PackToMessage_m2384093678((&V_3), L_9, (PackingOptions_t1268727809 *)NULL, /*hidden argument*/NULL);
+		}
+
+IL_0040:
+		{
+			bool L_10 = Enumerator_MoveNext_m2549831435((&V_1), /*hidden argument*/NULL);
+			if (L_10)
+			{
+				goto IL_0016;
+			}
+		}
+
+IL_0049:
+		{
+			IL2CPP_LEAVE(0x59, FINALLY_004b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_004b;
+	}
+
+FINALLY_004b:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m2539356940((&V_1), /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(75)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(75)
+	{
+		IL2CPP_JUMP_TBL(0x59, IL_0059)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0059:
+	{
+		return;
+	}
+}
+// MsgPack.MessagePackObjectDictionary MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectDictionaryMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackObjectDictionary_t4175726983_il2cpp_TypeInfo_var;
+extern const uint32_t MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackFromCore_m257525207_MetadataUsageId;
+extern "C"  MessagePackObjectDictionary_t4175726983 * MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackFromCore_m257525207 (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_t4223362754 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackFromCore_m257525207_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MessagePackObjectDictionary_t4175726983 * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotMapHeader_m2397891378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		MessagePackObjectDictionary_t4175726983 * L_6 = (MessagePackObjectDictionary_t4175726983 *)il2cpp_codegen_object_new(MessagePackObjectDictionary_t4175726983_il2cpp_TypeInfo_var);
+		MessagePackObjectDictionary__ctor_m481545455(L_6, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		Unpacker_t998931393 * L_7 = ___unpacker0;
+		int32_t L_8 = V_0;
+		MessagePackObjectDictionary_t4175726983 * L_9 = V_1;
+		MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackToCore_m3438698984(NULL /*static, unused*/, L_7, L_8, L_9, /*hidden argument*/NULL);
+		MessagePackObjectDictionary_t4175726983 * L_10 = V_1;
+		return L_10;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectDictionaryMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,MsgPack.MessagePackObjectDictionary)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackToCore_m1437458369_MetadataUsageId;
+extern "C"  void MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackToCore_m1437458369 (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_t4223362754 * __this, Unpacker_t998931393 * ___unpacker0, MessagePackObjectDictionary_t4175726983 * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackToCore_m1437458369_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		Unpacker_t998931393 * L_1 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_2 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		MessagePackObjectDictionary_t4175726983 * L_3 = ___collection1;
+		MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackToCore_m3438698984(NULL /*static, unused*/, L_0, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectDictionaryMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Int32,MsgPack.MessagePackObjectDictionary)
+extern "C"  void MsgPack_MessagePackObjectDictionaryMessagePackSerializer_UnpackToCore_m3438698984 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, int32_t ___count1, MessagePackObjectDictionary_t4175726983 * ___collection2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	MessagePackObject_t2038085051  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		V_0 = 0;
+		goto IL_005a;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0012:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		MessagePackObject_t2038085051  L_4 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_3);
+		V_1 = L_4;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		bool L_6 = Unpacker_Read_m301469818(L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Exception_t1927440687 * L_7 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7);
+	}
+
+IL_0027:
+	{
+		Unpacker_t998931393 * L_8 = ___unpacker0;
+		bool L_9 = VirtFuncInvoker0< bool >::Invoke(13 /* System.Boolean MsgPack.Unpacker::get_IsCollectionHeader() */, L_8);
+		if (!L_9)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_10 = ___unpacker0;
+		bool L_11 = Unpacker_UnpackSubtreeDataCore_m2408479302(L_10, (&V_2), /*hidden argument*/NULL);
+		if (L_11)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		Exception_t1927440687 * L_12 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
+	}
+
+IL_003f:
+	{
+		MessagePackObjectDictionary_t4175726983 * L_13 = ___collection2;
+		MessagePackObject_t2038085051  L_14 = V_1;
+		MessagePackObject_t2038085051  L_15 = V_2;
+		MessagePackObjectDictionary_Add_m2798179831(L_13, L_14, L_15, /*hidden argument*/NULL);
+		goto IL_0056;
+	}
+
+IL_0049:
+	{
+		MessagePackObjectDictionary_t4175726983 * L_16 = ___collection2;
+		MessagePackObject_t2038085051  L_17 = V_1;
+		Unpacker_t998931393 * L_18 = ___unpacker0;
+		MessagePackObject_t2038085051  L_19 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_18);
+		MessagePackObjectDictionary_Add_m2798179831(L_16, L_17, L_19, /*hidden argument*/NULL);
+	}
+
+IL_0056:
+	{
+		int32_t L_20 = V_0;
+		V_0 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_005a:
+	{
+		int32_t L_21 = V_0;
+		int32_t L_22 = ___count1;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectDictionaryMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* MessagePackObjectDictionary_t4175726983_il2cpp_TypeInfo_var;
+extern const uint32_t MsgPack_MessagePackObjectDictionaryMessagePackSerializer_CreateInstance_m2710998468_MetadataUsageId;
+extern "C"  Il2CppObject * MsgPack_MessagePackObjectDictionaryMessagePackSerializer_CreateInstance_m2710998468 (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_t4223362754 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackObjectDictionaryMessagePackSerializer_CreateInstance_m2710998468_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___initialCapacity0;
+		MessagePackObjectDictionary_t4175726983 * L_1 = (MessagePackObjectDictionary_t4175726983 *)il2cpp_codegen_object_new(MessagePackObjectDictionary_t4175726983_il2cpp_TypeInfo_var);
+		MessagePackObjectDictionary__ctor_m481545455(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1533528705_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1864083226_MethodInfo_var;
+extern const uint32_t MsgPack_MessagePackObjectMessagePackSerializer__ctor_m1191984922_MetadataUsageId;
+extern "C"  void MsgPack_MessagePackObjectMessagePackSerializer__ctor_m1191984922 (MsgPack_MessagePackObjectMessagePackSerializer_t1132295234 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackObjectMessagePackSerializer__ctor_m1191984922_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1533528705_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1864083226(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1864083226_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectMessagePackSerializer::PackToCore(MsgPack.Packer,MsgPack.MessagePackObject)
+extern Il2CppClass* PackingOptions_t1268727809_il2cpp_TypeInfo_var;
+extern const uint32_t MsgPack_MessagePackObjectMessagePackSerializer_PackToCore_m3146317513_MetadataUsageId;
+extern "C"  void MsgPack_MessagePackObjectMessagePackSerializer_PackToCore_m3146317513 (MsgPack_MessagePackObjectMessagePackSerializer_t1132295234 * __this, Packer_t1439452732 * ___packer0, MessagePackObject_t2038085051  ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MsgPack_MessagePackObjectMessagePackSerializer_PackToCore_m3146317513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		PackingOptions_t1268727809 * L_1 = (PackingOptions_t1268727809 *)il2cpp_codegen_object_new(PackingOptions_t1268727809_il2cpp_TypeInfo_var);
+		PackingOptions__ctor_m3290529216(L_1, /*hidden argument*/NULL);
+		MessagePackObject_PackToMessage_m2384093678((&___value1), L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// MsgPack.MessagePackObject MsgPack.Serialization.DefaultSerializers.MsgPack_MessagePackObjectMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  MessagePackObject_t2038085051  MsgPack_MessagePackObjectMessagePackSerializer_UnpackFromCore_m1591897975 (MsgPack_MessagePackObjectMessagePackSerializer_t1132295234 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		bool L_3 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_2);
+		if (!L_3)
+		{
+			goto IL_0017;
+		}
+	}
+
+IL_0010:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		MessagePackObject_t2038085051  L_5 = Unpacker_UnpackSubtreeData_m1148315142(L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_0017:
+	{
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		MessagePackObject_t2038085051  L_7 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_6);
+		return L_7;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NativeDateTimeMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t188649323_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3136838709_MethodInfo_var;
+extern const uint32_t NativeDateTimeMessagePackSerializer__ctor_m484270778_MetadataUsageId;
+extern "C"  void NativeDateTimeMessagePackSerializer__ctor_m484270778 (NativeDateTimeMessagePackSerializer_t1710272842 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NativeDateTimeMessagePackSerializer__ctor_m484270778_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t188649323_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3136838709(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3136838709_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NativeDateTimeMessagePackSerializer::PackToCore(MsgPack.Packer,System.DateTime)
+extern "C"  void NativeDateTimeMessagePackSerializer_PackToCore_m4177230956 (NativeDateTimeMessagePackSerializer_t1710272842 * __this, Packer_t1439452732 * ___packer0, DateTime_t693205669  ___objectTree1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		int64_t L_1 = DateTime_ToBinary_m2497023899((&___objectTree1), /*hidden argument*/NULL);
+		Packer_Pack_m3003456375(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.DateTime MsgPack.Serialization.DefaultSerializers.NativeDateTimeMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern const uint32_t NativeDateTimeMessagePackSerializer_UnpackFromCore_m3703486402_MetadataUsageId;
+extern "C"  DateTime_t693205669  NativeDateTimeMessagePackSerializer_UnpackFromCore_m3703486402 (NativeDateTimeMessagePackSerializer_t1710272842 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NativeDateTimeMessagePackSerializer_UnpackFromCore_m3703486402_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		int64_t L_2 = MessagePackObject_AsInt64_m2116700102((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_3 = DateTime_FromBinary_m2672557910(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableBooleanArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1814553722_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1320693307_MethodInfo_var;
+extern const uint32_t NullableBooleanArraySerializer__ctor_m2547316214_MetadataUsageId;
+extern "C"  void NullableBooleanArraySerializer__ctor_m2547316214 (NullableBooleanArraySerializer_t2148955562 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableBooleanArraySerializer__ctor_m2547316214_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1814553722_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1320693307(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1320693307_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableBooleanArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.Boolean>[])
+extern "C"  void NullableBooleanArraySerializer_PackToCore_m448895576 (NullableBooleanArraySerializer_t2148955562 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t2319110068* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t2088641033  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t2319110068* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t2319110068* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t2319110068* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t2319110068* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t2088641033 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t2088641033  L_6 = V_0;
+		Packer_Pack_m1269191559(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t2319110068* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.Boolean>[] MsgPack.Serialization.DefaultSerializers.NullableBooleanArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t2319110068_il2cpp_TypeInfo_var;
+extern const uint32_t NullableBooleanArraySerializer_UnpackFromCore_m1383341568_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t2319110068* NullableBooleanArraySerializer_UnpackFromCore_m1383341568 (NullableBooleanArraySerializer_t2148955562 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableBooleanArraySerializer_UnpackFromCore_m1383341568_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t2319110068* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t2319110068*)SZArrayNew(Nullable_1U5BU5D_t2319110068_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t2319110068* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableBooleanArraySerializer_UnpackToCore_m3967533595(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t2319110068* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableBooleanArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Boolean>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableBooleanArraySerializer_UnpackToCore_m1202493578_MetadataUsageId;
+extern "C"  void NullableBooleanArraySerializer_UnpackToCore_m1202493578 (NullableBooleanArraySerializer_t2148955562 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t2319110068* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableBooleanArraySerializer_UnpackToCore_m1202493578_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t2319110068* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableBooleanArraySerializer_UnpackToCore_m3967533595(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableBooleanArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Boolean>[],System.Int32)
+extern "C"  void NullableBooleanArraySerializer_UnpackToCore_m3967533595 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t2319110068* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t2088641033  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t2088641033 * >::Invoke(22 /* System.Boolean MsgPack.Unpacker::ReadNullableBoolean(System.Nullable`1<System.Boolean>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t2319110068* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t2088641033  L_6 = V_1;
+		(*(Nullable_1_t2088641033 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableByteArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1643853420_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1273511505_MethodInfo_var;
+extern const uint32_t NullableByteArraySerializer__ctor_m7229002_MetadataUsageId;
+extern "C"  void NullableByteArraySerializer__ctor_m7229002 (NullableByteArraySerializer_t1530104442 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableByteArraySerializer__ctor_m7229002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1643853420_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1273511505(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1273511505_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableByteArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.Byte>[])
+extern "C"  void NullableByteArraySerializer_PackToCore_m3105666360 (NullableByteArraySerializer_t1530104442 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t2148409766* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t1946170751  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t2148409766* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t2148409766* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t2148409766* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t2148409766* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t1946170751 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t1946170751  L_6 = V_0;
+		Packer_Pack_m2307443377(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t2148409766* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.Byte>[] MsgPack.Serialization.DefaultSerializers.NullableByteArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t2148409766_il2cpp_TypeInfo_var;
+extern const uint32_t NullableByteArraySerializer_UnpackFromCore_m3681012154_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t2148409766* NullableByteArraySerializer_UnpackFromCore_m3681012154 (NullableByteArraySerializer_t1530104442 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableByteArraySerializer_UnpackFromCore_m3681012154_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t2148409766* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t2148409766*)SZArrayNew(Nullable_1U5BU5D_t2148409766_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t2148409766* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableByteArraySerializer_UnpackToCore_m431044091(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t2148409766* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Byte>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableByteArraySerializer_UnpackToCore_m441018762_MetadataUsageId;
+extern "C"  void NullableByteArraySerializer_UnpackToCore_m441018762 (NullableByteArraySerializer_t1530104442 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t2148409766* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableByteArraySerializer_UnpackToCore_m441018762_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t2148409766* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableByteArraySerializer_UnpackToCore_m431044091(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Byte>[],System.Int32)
+extern "C"  void NullableByteArraySerializer_UnpackToCore_m431044091 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t2148409766* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t1946170751  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t1946170751 * >::Invoke(24 /* System.Boolean MsgPack.Unpacker::ReadNullableByte(System.Nullable`1<System.Byte>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t2148409766* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t1946170751  L_6 = V_1;
+		(*(Nullable_1_t1946170751 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableDoubleArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t136471947_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m4149353616_MethodInfo_var;
+extern const uint32_t NullableDoubleArraySerializer__ctor_m1841745317_MetadataUsageId;
+extern "C"  void NullableDoubleArraySerializer__ctor_m1841745317 (NullableDoubleArraySerializer_t2412601813 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableDoubleArraySerializer__ctor_m1841745317_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t136471947_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m4149353616(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m4149353616_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableDoubleArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.Double>[])
+extern "C"  void NullableDoubleArraySerializer_PackToCore_m889961752 (NullableDoubleArraySerializer_t2412601813 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t641028293* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t2341081996  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t641028293* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t641028293* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t641028293* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t641028293* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t2341081996 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t2341081996  L_6 = V_0;
+		Packer_Pack_m2375031648(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t641028293* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.Double>[] MsgPack.Serialization.DefaultSerializers.NullableDoubleArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t641028293_il2cpp_TypeInfo_var;
+extern const uint32_t NullableDoubleArraySerializer_UnpackFromCore_m1813947680_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t641028293* NullableDoubleArraySerializer_UnpackFromCore_m1813947680 (NullableDoubleArraySerializer_t2412601813 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableDoubleArraySerializer_UnpackFromCore_m1813947680_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t641028293* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t641028293*)SZArrayNew(Nullable_1U5BU5D_t641028293_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t641028293* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableDoubleArraySerializer_UnpackToCore_m3128113563(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t641028293* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableDoubleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Double>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableDoubleArraySerializer_UnpackToCore_m1380609898_MetadataUsageId;
+extern "C"  void NullableDoubleArraySerializer_UnpackToCore_m1380609898 (NullableDoubleArraySerializer_t2412601813 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t641028293* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableDoubleArraySerializer_UnpackToCore_m1380609898_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t641028293* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableDoubleArraySerializer_UnpackToCore_m3128113563(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableDoubleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Double>[],System.Int32)
+extern "C"  void NullableDoubleArraySerializer_UnpackToCore_m3128113563 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t641028293* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t2341081996  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t2341081996 * >::Invoke(42 /* System.Boolean MsgPack.Unpacker::ReadNullableDouble(System.Nullable`1<System.Double>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t641028293* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t2341081996  L_6 = V_1;
+		(*(Nullable_1_t2341081996 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt16ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1350802670_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3290042871_MethodInfo_var;
+extern const uint32_t NullableInt16ArraySerializer__ctor_m222412224_MetadataUsageId;
+extern "C"  void NullableInt16ArraySerializer__ctor_m222412224 (NullableInt16ArraySerializer_t336170484 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt16ArraySerializer__ctor_m222412224_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1350802670_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3290042871(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3290042871_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt16ArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.Int16>[])
+extern "C"  void NullableInt16ArraySerializer_PackToCore_m1021348760 (NullableInt16ArraySerializer_t336170484 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t1855359016* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t2304312229  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t1855359016* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t1855359016* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t1855359016* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t1855359016* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t2304312229 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t2304312229  L_6 = V_0;
+		Packer_Pack_m2810677019(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t1855359016* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.Int16>[] MsgPack.Serialization.DefaultSerializers.NullableInt16ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t1855359016_il2cpp_TypeInfo_var;
+extern const uint32_t NullableInt16ArraySerializer_UnpackFromCore_m1165572768_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t1855359016* NullableInt16ArraySerializer_UnpackFromCore_m1165572768 (NullableInt16ArraySerializer_t336170484 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt16ArraySerializer_UnpackFromCore_m1165572768_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t1855359016* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t1855359016*)SZArrayNew(Nullable_1U5BU5D_t1855359016_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t1855359016* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableInt16ArraySerializer_UnpackToCore_m1896963003(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t1855359016* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Int16>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableInt16ArraySerializer_UnpackToCore_m3328682762_MetadataUsageId;
+extern "C"  void NullableInt16ArraySerializer_UnpackToCore_m3328682762 (NullableInt16ArraySerializer_t336170484 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t1855359016* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt16ArraySerializer_UnpackToCore_m3328682762_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t1855359016* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableInt16ArraySerializer_UnpackToCore_m1896963003(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Int16>[],System.Int32)
+extern "C"  void NullableInt16ArraySerializer_UnpackToCore_m1896963003 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t1855359016* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t2304312229  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t2304312229 * >::Invoke(28 /* System.Boolean MsgPack.Unpacker::ReadNullableInt16(System.Nullable`1<System.Int16>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t1855359016* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t2304312229  L_6 = V_1;
+		(*(Nullable_1_t2304312229 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt32ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1276919048_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m433538061_MethodInfo_var;
+extern const uint32_t NullableInt32ArraySerializer__ctor_m3768424594_MetadataUsageId;
+extern "C"  void NullableInt32ArraySerializer__ctor_m3768424594 (NullableInt32ArraySerializer_t3300768650 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt32ArraySerializer__ctor_m3768424594_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1276919048_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m433538061(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m433538061_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt32ArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.Int32>[])
+extern "C"  void NullableInt32ArraySerializer_PackToCore_m4181468840 (NullableInt32ArraySerializer_t3300768650 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t1781475394* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t334943763  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t1781475394* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t1781475394* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t1781475394* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t1781475394* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t334943763 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t334943763  L_6 = V_0;
+		Packer_Pack_m3375327085(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t1781475394* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.Int32>[] MsgPack.Serialization.DefaultSerializers.NullableInt32ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t1781475394_il2cpp_TypeInfo_var;
+extern const uint32_t NullableInt32ArraySerializer_UnpackFromCore_m2127081952_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t1781475394* NullableInt32ArraySerializer_UnpackFromCore_m2127081952 (NullableInt32ArraySerializer_t3300768650 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt32ArraySerializer_UnpackFromCore_m2127081952_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t1781475394* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t1781475394*)SZArrayNew(Nullable_1U5BU5D_t1781475394_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t1781475394* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableInt32ArraySerializer_UnpackToCore_m1546010211(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t1781475394* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Int32>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableInt32ArraySerializer_UnpackToCore_m3207449258_MetadataUsageId;
+extern "C"  void NullableInt32ArraySerializer_UnpackToCore_m3207449258 (NullableInt32ArraySerializer_t3300768650 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t1781475394* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt32ArraySerializer_UnpackToCore_m3207449258_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t1781475394* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableInt32ArraySerializer_UnpackToCore_m1546010211(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Int32>[],System.Int32)
+extern "C"  void NullableInt32ArraySerializer_UnpackToCore_m1546010211 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t1781475394* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t334943763  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t334943763 * >::Invoke(32 /* System.Boolean MsgPack.Unpacker::ReadNullableInt32(System.Nullable`1<System.Int32>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t1781475394* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t334943763  L_6 = V_1;
+		(*(Nullable_1_t334943763 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt64ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3258611815_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2988568692_MethodInfo_var;
+extern const uint32_t NullableInt64ArraySerializer__ctor_m466674001_MetadataUsageId;
+extern "C"  void NullableInt64ArraySerializer__ctor_m466674001 (NullableInt64ArraySerializer_t1912970109 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt64ArraySerializer__ctor_m466674001_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3258611815_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2988568692(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2988568692_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt64ArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.Int64>[])
+extern "C"  void NullableInt64ArraySerializer_PackToCore_m548146986 (NullableInt64ArraySerializer_t1912970109 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t3763168161* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t3467111648  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t3763168161* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t3763168161* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t3763168161* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t3763168161* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t3467111648 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t3467111648  L_6 = V_0;
+		Packer_Pack_m3093001862(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t3763168161* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.Int64>[] MsgPack.Serialization.DefaultSerializers.NullableInt64ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t3763168161_il2cpp_TypeInfo_var;
+extern const uint32_t NullableInt64ArraySerializer_UnpackFromCore_m1316691520_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t3763168161* NullableInt64ArraySerializer_UnpackFromCore_m1316691520 (NullableInt64ArraySerializer_t1912970109 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt64ArraySerializer_UnpackFromCore_m1316691520_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t3763168161* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t3763168161*)SZArrayNew(Nullable_1U5BU5D_t3763168161_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t3763168161* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableInt64ArraySerializer_UnpackToCore_m3551202823(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t3763168161* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Int64>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableInt64ArraySerializer_UnpackToCore_m2448313192_MetadataUsageId;
+extern "C"  void NullableInt64ArraySerializer_UnpackToCore_m2448313192 (NullableInt64ArraySerializer_t1912970109 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t3763168161* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableInt64ArraySerializer_UnpackToCore_m2448313192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t3763168161* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableInt64ArraySerializer_UnpackToCore_m3551202823(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableInt64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Int64>[],System.Int32)
+extern "C"  void NullableInt64ArraySerializer_UnpackToCore_m3551202823 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t3763168161* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t3467111648  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t3467111648 * >::Invoke(36 /* System.Boolean MsgPack.Unpacker::ReadNullableInt64(System.Nullable`1<System.Int64>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t3763168161* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t3467111648  L_6 = V_1;
+		(*(Nullable_1_t3467111648 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,System.Type)
+extern "C"  void NullableMessagePackSerializer__ctor_m2681428835 (NullableMessagePackSerializer_t1470292499 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___nullableType1, Type_t * ___underlyingType2, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___nullableType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_2 = ___ownerContext0;
+		Type_t * L_3 = ___underlyingType2;
+		Il2CppObject * L_4 = SerializationContext_GetSerializer_m3481133108(L_2, L_3, /*hidden argument*/NULL);
+		__this->set__valueSerializer_4(L_4);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.IMessagePackSingleObjectSerializer)
+extern "C"  void NullableMessagePackSerializer__ctor_m1322787260 (NullableMessagePackSerializer_t1470292499 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___nullableType1, Il2CppObject * ___valueSerializer2, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___nullableType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		Il2CppObject * L_2 = ___valueSerializer2;
+		__this->set__valueSerializer_4(L_2);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t NullableMessagePackSerializer_PackToCore_m2301166907_MetadataUsageId;
+extern "C"  void NullableMessagePackSerializer_PackToCore_m2301166907 (NullableMessagePackSerializer_t1470292499 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableMessagePackSerializer_PackToCore_m2301166907_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__valueSerializer_4();
+		Packer_t1439452732 * L_1 = ___packer0;
+		Il2CppObject * L_2 = ___objectTree1;
+		InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.NullableMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t NullableMessagePackSerializer_UnpackFromCore_m826485617_MetadataUsageId;
+extern "C"  Il2CppObject * NullableMessagePackSerializer_UnpackFromCore_m826485617 (NullableMessagePackSerializer_t1470292499 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableMessagePackSerializer_UnpackFromCore_m826485617_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__valueSerializer_4();
+		Unpacker_t998931393 * L_1 = ___unpacker0;
+		Il2CppObject * L_2 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSByteArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1718806799_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1436293908_MethodInfo_var;
+extern const uint32_t NullableSByteArraySerializer__ctor_m2932030269_MetadataUsageId;
+extern "C"  void NullableSByteArraySerializer__ctor_m2932030269 (NullableSByteArraySerializer_t1194933953 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableSByteArraySerializer__ctor_m2932030269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1718806799_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1436293908(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1436293908_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSByteArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.SByte>[])
+extern "C"  void NullableSByteArraySerializer_PackToCore_m3985775946 (NullableSByteArraySerializer_t1194933953 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t2223363145* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t3012451160  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t2223363145* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t2223363145* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t2223363145* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t2223363145* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t3012451160 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t3012451160  L_6 = V_0;
+		Packer_Pack_m1406242646(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t2223363145* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.SByte>[] MsgPack.Serialization.DefaultSerializers.NullableSByteArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t2223363145_il2cpp_TypeInfo_var;
+extern const uint32_t NullableSByteArraySerializer_UnpackFromCore_m3661865856_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t2223363145* NullableSByteArraySerializer_UnpackFromCore_m3661865856 (NullableSByteArraySerializer_t1194933953 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableSByteArraySerializer_UnpackFromCore_m3661865856_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t2223363145* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t2223363145*)SZArrayNew(Nullable_1U5BU5D_t2223363145_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t2223363145* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableSByteArraySerializer_UnpackToCore_m1425036263(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t2223363145* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.SByte>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableSByteArraySerializer_UnpackToCore_m520940680_MetadataUsageId;
+extern "C"  void NullableSByteArraySerializer_UnpackToCore_m520940680 (NullableSByteArraySerializer_t1194933953 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t2223363145* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableSByteArraySerializer_UnpackToCore_m520940680_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t2223363145* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableSByteArraySerializer_UnpackToCore_m1425036263(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.SByte>[],System.Int32)
+extern "C"  void NullableSByteArraySerializer_UnpackToCore_m1425036263 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t2223363145* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t3012451160  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t3012451160 * >::Invoke(26 /* System.Boolean MsgPack.Unpacker::ReadNullableSByte(System.Nullable`1<System.SByte>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t2223363145* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t3012451160  L_6 = V_1;
+		(*(Nullable_1_t3012451160 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSingleArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3118614100_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1040652777_MethodInfo_var;
+extern const uint32_t NullableSingleArraySerializer__ctor_m1318738752_MetadataUsageId;
+extern "C"  void NullableSingleArraySerializer__ctor_m1318738752 (NullableSingleArraySerializer_t316629808 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableSingleArraySerializer__ctor_m1318738752_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3118614100_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1040652777(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1040652777_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSingleArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.Single>[])
+extern "C"  void NullableSingleArraySerializer_PackToCore_m1895193656 (NullableSingleArraySerializer_t316629808 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t3623170446* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t339576247  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t3623170446* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t3623170446* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t3623170446* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t3623170446* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t339576247 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t339576247  L_6 = V_0;
+		Packer_Pack_m1366023017(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t3623170446* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.Single>[] MsgPack.Serialization.DefaultSerializers.NullableSingleArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t3623170446_il2cpp_TypeInfo_var;
+extern const uint32_t NullableSingleArraySerializer_UnpackFromCore_m2367416058_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t3623170446* NullableSingleArraySerializer_UnpackFromCore_m2367416058 (NullableSingleArraySerializer_t316629808 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableSingleArraySerializer_UnpackFromCore_m2367416058_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t3623170446* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t3623170446*)SZArrayNew(Nullable_1U5BU5D_t3623170446_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t3623170446* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableSingleArraySerializer_UnpackToCore_m3164627515(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t3623170446* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSingleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Single>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableSingleArraySerializer_UnpackToCore_m3674854986_MetadataUsageId;
+extern "C"  void NullableSingleArraySerializer_UnpackToCore_m3674854986 (NullableSingleArraySerializer_t316629808 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t3623170446* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableSingleArraySerializer_UnpackToCore_m3674854986_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t3623170446* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableSingleArraySerializer_UnpackToCore_m3164627515(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableSingleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.Single>[],System.Int32)
+extern "C"  void NullableSingleArraySerializer_UnpackToCore_m3164627515 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t3623170446* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t339576247  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t339576247 * >::Invoke(40 /* System.Boolean MsgPack.Unpacker::ReadNullableSingle(System.Nullable`1<System.Single>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t3623170446* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t339576247  L_6 = V_1;
+		(*(Nullable_1_t339576247 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt16ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t773786129_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1785315574_MethodInfo_var;
+extern const uint32_t NullableUInt16ArraySerializer__ctor_m4133737945_MetadataUsageId;
+extern "C"  void NullableUInt16ArraySerializer__ctor_m4133737945 (NullableUInt16ArraySerializer_t24215337 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt16ArraySerializer__ctor_m4133737945_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t773786129_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1785315574(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1785315574_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt16ArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.UInt16>[])
+extern "C"  void NullableUInt16ArraySerializer_PackToCore_m3619553240 (NullableUInt16ArraySerializer_t24215337 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t1278342475* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t3544916222  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t1278342475* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t1278342475* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t1278342475* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t1278342475* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t3544916222 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t3544916222  L_6 = V_0;
+		Packer_Pack_m3132378982(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t1278342475* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.UInt16>[] MsgPack.Serialization.DefaultSerializers.NullableUInt16ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t1278342475_il2cpp_TypeInfo_var;
+extern const uint32_t NullableUInt16ArraySerializer_UnpackFromCore_m3245066128_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t1278342475* NullableUInt16ArraySerializer_UnpackFromCore_m3245066128 (NullableUInt16ArraySerializer_t24215337 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt16ArraySerializer_UnpackFromCore_m3245066128_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t1278342475* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t1278342475*)SZArrayNew(Nullable_1U5BU5D_t1278342475_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t1278342475* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableUInt16ArraySerializer_UnpackToCore_m1075360795(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t1278342475* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.UInt16>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableUInt16ArraySerializer_UnpackToCore_m4174618282_MetadataUsageId;
+extern "C"  void NullableUInt16ArraySerializer_UnpackToCore_m4174618282 (NullableUInt16ArraySerializer_t24215337 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t1278342475* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt16ArraySerializer_UnpackToCore_m4174618282_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t1278342475* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableUInt16ArraySerializer_UnpackToCore_m1075360795(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.UInt16>[],System.Int32)
+extern "C"  void NullableUInt16ArraySerializer_UnpackToCore_m1075360795 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t1278342475* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t3544916222  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t3544916222 * >::Invoke(30 /* System.Boolean MsgPack.Unpacker::ReadNullableUInt16(System.Nullable`1<System.UInt16>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t1278342475* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t3544916222  L_6 = V_1;
+		(*(Nullable_1_t3544916222 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt32ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2600872919_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1423699120_MethodInfo_var;
+extern const uint32_t NullableUInt32ArraySerializer__ctor_m1570816351_MetadataUsageId;
+extern "C"  void NullableUInt32ArraySerializer__ctor_m1570816351 (NullableUInt32ArraySerializer_t679342319 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt32ArraySerializer__ctor_m1570816351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2600872919_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1423699120(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1423699120_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt32ArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.UInt32>[])
+extern "C"  void NullableUInt32ArraySerializer_PackToCore_m2269451544 (NullableUInt32ArraySerializer_t679342319 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t3105429265* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t412748336  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t3105429265* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t3105429265* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t3105429265* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t3105429265* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t412748336 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t412748336  L_6 = V_0;
+		Packer_Pack_m1445335648(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t3105429265* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.UInt32>[] MsgPack.Serialization.DefaultSerializers.NullableUInt32ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t3105429265_il2cpp_TypeInfo_var;
+extern const uint32_t NullableUInt32ArraySerializer_UnpackFromCore_m3549983860_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t3105429265* NullableUInt32ArraySerializer_UnpackFromCore_m3549983860 (NullableUInt32ArraySerializer_t679342319 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt32ArraySerializer_UnpackFromCore_m3549983860_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t3105429265* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t3105429265*)SZArrayNew(Nullable_1U5BU5D_t3105429265_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t3105429265* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableUInt32ArraySerializer_UnpackToCore_m2330458715(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t3105429265* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.UInt32>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableUInt32ArraySerializer_UnpackToCore_m1225190634_MetadataUsageId;
+extern "C"  void NullableUInt32ArraySerializer_UnpackToCore_m1225190634 (NullableUInt32ArraySerializer_t679342319 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t3105429265* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt32ArraySerializer_UnpackToCore_m1225190634_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t3105429265* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableUInt32ArraySerializer_UnpackToCore_m2330458715(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.UInt32>[],System.Int32)
+extern "C"  void NullableUInt32ArraySerializer_UnpackToCore_m2330458715 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t3105429265* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t412748336  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t412748336 * >::Invoke(34 /* System.Boolean MsgPack.Unpacker::ReadNullableUInt32(System.Nullable`1<System.UInt32>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t3105429265* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t412748336  L_6 = V_1;
+		(*(Nullable_1_t412748336 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt64ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t4210175478_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3708784063_MethodInfo_var;
+extern const uint32_t NullableUInt64ArraySerializer__ctor_m2326646102_MetadataUsageId;
+extern "C"  void NullableUInt64ArraySerializer__ctor_m2326646102 (NullableUInt64ArraySerializer_t1348238854 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt64ArraySerializer__ctor_m2326646102_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t4210175478_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3708784063(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3708784063_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt64ArraySerializer::PackToCore(MsgPack.Packer,System.Nullable`1<System.UInt64>[])
+extern "C"  void NullableUInt64ArraySerializer_PackToCore_m1970768632 (NullableUInt64ArraySerializer_t1348238854 * __this, Packer_t1439452732 * ___packer0, Nullable_1U5BU5D_t419764528* ___objectTree1, const MethodInfo* method)
+{
+	Nullable_1_t1172263229  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Nullable_1U5BU5D_t419764528* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Nullable_1U5BU5D_t419764528* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t419764528* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		Nullable_1U5BU5D_t419764528* L_3 = V_1;
+		int32_t L_4 = V_2;
+		V_0 = (*(Nullable_1_t1172263229 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4))));
+		Packer_t1439452732 * L_5 = ___packer0;
+		Nullable_1_t1172263229  L_6 = V_0;
+		Packer_Pack_m1062254031(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_2;
+		V_2 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_2;
+		Nullable_1U5BU5D_t419764528* L_9 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Nullable`1<System.UInt64>[] MsgPack.Serialization.DefaultSerializers.NullableUInt64ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Nullable_1U5BU5D_t419764528_il2cpp_TypeInfo_var;
+extern const uint32_t NullableUInt64ArraySerializer_UnpackFromCore_m597929414_MetadataUsageId;
+extern "C"  Nullable_1U5BU5D_t419764528* NullableUInt64ArraySerializer_UnpackFromCore_m597929414 (NullableUInt64ArraySerializer_t1348238854 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt64ArraySerializer_UnpackFromCore_m597929414_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1U5BU5D_t419764528* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((Nullable_1U5BU5D_t419764528*)SZArrayNew(Nullable_1U5BU5D_t419764528_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Nullable_1U5BU5D_t419764528* L_7 = V_1;
+		int32_t L_8 = V_0;
+		NullableUInt64ArraySerializer_UnpackToCore_m548647611(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Nullable_1U5BU5D_t419764528* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.UInt64>[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t NullableUInt64ArraySerializer_UnpackToCore_m201967306_MetadataUsageId;
+extern "C"  void NullableUInt64ArraySerializer_UnpackToCore_m201967306 (NullableUInt64ArraySerializer_t1348238854 * __this, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t419764528* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (NullableUInt64ArraySerializer_UnpackToCore_m201967306_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Nullable_1U5BU5D_t419764528* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		NullableUInt64ArraySerializer_UnpackToCore_m548647611(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.NullableUInt64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Nullable`1<System.UInt64>[],System.Int32)
+extern "C"  void NullableUInt64ArraySerializer_UnpackToCore_m548647611 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, Nullable_1U5BU5D_t419764528* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Nullable_1_t1172263229  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, Nullable_1_t1172263229 * >::Invoke(38 /* System.Boolean MsgPack.Unpacker::ReadNullableUInt64(System.Nullable`1<System.UInt64>&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		Nullable_1U5BU5D_t419764528* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		Nullable_1_t1172263229  L_6 = V_1;
+		(*(Nullable_1_t1172263229 *)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))) = L_6;
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SByteArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2967731046_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1452320839_MethodInfo_var;
+extern const uint32_t SByteArraySerializer__ctor_m2704748750_MetadataUsageId;
+extern "C"  void SByteArraySerializer__ctor_m2704748750 (SByteArraySerializer_t2406072874 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SByteArraySerializer__ctor_m2704748750_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2967731046_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1452320839(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1452320839_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SByteArraySerializer::PackToCore(MsgPack.Packer,System.SByte[])
+extern "C"  void SByteArraySerializer_PackToCore_m996165178 (SByteArraySerializer_t2406072874 * __this, Packer_t1439452732 * ___packer0, SByteU5BU5D_t3472287392* ___objectTree1, const MethodInfo* method)
+{
+	int8_t V_0 = 0x0;
+	SByteU5BU5D_t3472287392* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		SByteU5BU5D_t3472287392* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		SByteU5BU5D_t3472287392* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		SByteU5BU5D_t3472287392* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		int8_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		int8_t L_8 = V_0;
+		Packer_Pack_m3466535255(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		SByteU5BU5D_t3472287392* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.SByte[] MsgPack.Serialization.DefaultSerializers.SByteArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* SByteU5BU5D_t3472287392_il2cpp_TypeInfo_var;
+extern const uint32_t SByteArraySerializer_UnpackFromCore_m3860910658_MetadataUsageId;
+extern "C"  SByteU5BU5D_t3472287392* SByteArraySerializer_UnpackFromCore_m3860910658 (SByteArraySerializer_t2406072874 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SByteArraySerializer_UnpackFromCore_m3860910658_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	SByteU5BU5D_t3472287392* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((SByteU5BU5D_t3472287392*)SZArrayNew(SByteU5BU5D_t3472287392_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		SByteU5BU5D_t3472287392* L_7 = V_1;
+		int32_t L_8 = V_0;
+		SByteArraySerializer_UnpackToCore_m3921522571(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		SByteU5BU5D_t3472287392* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.SByte[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t SByteArraySerializer_UnpackToCore_m2859162296_MetadataUsageId;
+extern "C"  void SByteArraySerializer_UnpackToCore_m2859162296 (SByteArraySerializer_t2406072874 * __this, Unpacker_t998931393 * ___unpacker0, SByteU5BU5D_t3472287392* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SByteArraySerializer_UnpackToCore_m2859162296_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		SByteU5BU5D_t3472287392* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		SByteArraySerializer_UnpackToCore_m3921522571(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SByteArraySerializer::UnpackToCore(MsgPack.Unpacker,System.SByte[],System.Int32)
+extern "C"  void SByteArraySerializer_UnpackToCore_m3921522571 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, SByteU5BU5D_t3472287392* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int8_t V_1 = 0x0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, int8_t* >::Invoke(25 /* System.Boolean MsgPack.Unpacker::ReadSByte(System.SByte&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		SByteU5BU5D_t3472287392* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		int8_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (int8_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SingleArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t72571051_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3862933016_MethodInfo_var;
+extern const uint32_t SingleArraySerializer__ctor_m1954243499_MetadataUsageId;
+extern "C"  void SingleArraySerializer__ctor_m1954243499 (SingleArraySerializer_t715785947 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SingleArraySerializer__ctor_m1954243499_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t72571051_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3862933016(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3862933016_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SingleArraySerializer::PackToCore(MsgPack.Packer,System.Single[])
+extern "C"  void SingleArraySerializer_PackToCore_m3708675362 (SingleArraySerializer_t715785947 * __this, Packer_t1439452732 * ___packer0, SingleU5BU5D_t577127397* ___objectTree1, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	SingleU5BU5D_t577127397* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		SingleU5BU5D_t577127397* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0021;
+	}
+
+IL_0010:
+	{
+		SingleU5BU5D_t577127397* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		float L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = (((float)((float)L_6)));
+		Packer_t1439452732 * L_7 = ___packer0;
+		float L_8 = V_0;
+		Packer_Pack_m3636631010(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0021:
+	{
+		int32_t L_10 = V_2;
+		SingleU5BU5D_t577127397* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Single[] MsgPack.Serialization.DefaultSerializers.SingleArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern const uint32_t SingleArraySerializer_UnpackFromCore_m1494635496_MetadataUsageId;
+extern "C"  SingleU5BU5D_t577127397* SingleArraySerializer_UnpackFromCore_m1494635496 (SingleArraySerializer_t715785947 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SingleArraySerializer_UnpackFromCore_m1494635496_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	SingleU5BU5D_t577127397* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		SingleU5BU5D_t577127397* L_7 = V_1;
+		int32_t L_8 = V_0;
+		SingleArraySerializer_UnpackToCore_m3662890227(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SingleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Single[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t SingleArraySerializer_UnpackToCore_m4557936_MetadataUsageId;
+extern "C"  void SingleArraySerializer_UnpackToCore_m4557936 (SingleArraySerializer_t715785947 * __this, Unpacker_t998931393 * ___unpacker0, SingleU5BU5D_t577127397* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SingleArraySerializer_UnpackToCore_m4557936_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		SingleU5BU5D_t577127397* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		SingleArraySerializer_UnpackToCore_m3662890227(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.SingleArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Single[],System.Int32)
+extern "C"  void SingleArraySerializer_UnpackToCore_m3662890227 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, SingleU5BU5D_t577127397* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, float* >::Invoke(39 /* System.Boolean MsgPack.Unpacker::ReadSingle(System.Single&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		SingleU5BU5D_t577127397* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		float L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (float)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.StringArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1137829626_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m235697739_MethodInfo_var;
+extern const uint32_t StringArraySerializer__ctor_m2987465264_MetadataUsageId;
+extern "C"  void StringArraySerializer__ctor_m2987465264 (StringArraySerializer_t2935457984 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (StringArraySerializer__ctor_m2987465264_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1137829626_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m235697739(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m235697739_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.StringArraySerializer::PackToCore(MsgPack.Packer,System.String[])
+extern "C"  void StringArraySerializer_PackToCore_m3260018658 (StringArraySerializer_t2935457984 * __this, Packer_t1439452732 * ___packer0, StringU5BU5D_t1642385972* ___objectTree1, const MethodInfo* method)
+{
+	String_t* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		StringU5BU5D_t1642385972* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		StringU5BU5D_t1642385972* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		StringU5BU5D_t1642385972* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		String_t* L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		String_t* L_8 = V_0;
+		Packer_PackString_m1580487238(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		StringU5BU5D_t1642385972* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.String[] MsgPack.Serialization.DefaultSerializers.StringArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern const uint32_t StringArraySerializer_UnpackFromCore_m2212441544_MetadataUsageId;
+extern "C"  StringU5BU5D_t1642385972* StringArraySerializer_UnpackFromCore_m2212441544 (StringArraySerializer_t2935457984 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (StringArraySerializer_UnpackFromCore_m2212441544_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		StringU5BU5D_t1642385972* L_7 = V_1;
+		int32_t L_8 = V_0;
+		StringArraySerializer_UnpackToCore_m2250047155(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		StringU5BU5D_t1642385972* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.StringArraySerializer::UnpackToCore(MsgPack.Unpacker,System.String[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t StringArraySerializer_UnpackToCore_m3886956336_MetadataUsageId;
+extern "C"  void StringArraySerializer_UnpackToCore_m3886956336 (StringArraySerializer_t2935457984 * __this, Unpacker_t998931393 * ___unpacker0, StringU5BU5D_t1642385972* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (StringArraySerializer_UnpackToCore_m3886956336_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		StringU5BU5D_t1642385972* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		StringArraySerializer_UnpackToCore_m2250047155(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.StringArraySerializer::UnpackToCore(MsgPack.Unpacker,System.String[],System.Int32)
+extern "C"  void StringArraySerializer_UnpackToCore_m2250047155 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, StringU5BU5D_t1642385972* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, String_t** >::Invoke(44 /* System.Boolean MsgPack.Unpacker::ReadString(System.String&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		StringU5BU5D_t1642385972* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		String_t* L_6 = V_1;
+		ArrayElementTypeCheck (L_4, L_6);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (String_t*)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_ArraySegment_1MessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern const MethodInfo* Action_3_Invoke_m1391363901_MethodInfo_var;
+extern const uint32_t System_ArraySegment_1MessagePackSerializer_PackToCore_m3932861044_MetadataUsageId;
+extern "C"  void System_ArraySegment_1MessagePackSerializer_PackToCore_m3932861044 (System_ArraySegment_1MessagePackSerializer_t1042567044 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ArraySegment_1MessagePackSerializer_PackToCore_m3932861044_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Action_3_t3707266295 * L_0 = __this->get__packing_6();
+		Packer_t1439452732 * L_1 = ___packer0;
+		Il2CppObject * L_2 = ___objectTree1;
+		Il2CppObject * L_3 = __this->get__itemSerializer_5();
+		Action_3_Invoke_m1391363901(L_0, L_1, L_2, L_3, /*hidden argument*/Action_3_Invoke_m1391363901_MethodInfo_var);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_ArraySegment_1MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const MethodInfo* Func_4_Invoke_m317895871_MethodInfo_var;
+extern const uint32_t System_ArraySegment_1MessagePackSerializer_UnpackFromCore_m404003904_MetadataUsageId;
+extern "C"  Il2CppObject * System_ArraySegment_1MessagePackSerializer_UnpackFromCore_m404003904 (System_ArraySegment_1MessagePackSerializer_t1042567044 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ArraySegment_1MessagePackSerializer_UnpackFromCore_m404003904_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Func_4_t1777065393 * L_0 = __this->get__unpacking_7();
+		Unpacker_t998931393 * L_1 = ___unpacker0;
+		Type_t * L_2 = __this->get__elementType_4();
+		Il2CppObject * L_3 = __this->get__itemSerializer_5();
+		Il2CppObject * L_4 = Func_4_Invoke_m317895871(L_0, L_1, L_2, L_3, /*hidden argument*/Func_4_Invoke_m317895871_MethodInfo_var);
+		return L_4;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_BooleanMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3321018372_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3639557744_MethodInfo_var;
+extern const uint32_t System_BooleanMessagePackSerializer__ctor_m3726077558_MetadataUsageId;
+extern "C"  void System_BooleanMessagePackSerializer__ctor_m3726077558 (System_BooleanMessagePackSerializer_t3735524262 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_BooleanMessagePackSerializer__ctor_m3726077558_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3321018372_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3639557744(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3639557744_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_BooleanMessagePackSerializer::PackToCore(MsgPack.Packer,System.Boolean)
+extern "C"  void System_BooleanMessagePackSerializer_PackToCore_m3911491733 (System_BooleanMessagePackSerializer_t3735524262 * __this, Packer_t1439452732 * ___packer0, bool ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		bool L_1 = ___value1;
+		Packer_Pack_m2455739064(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean MsgPack.Serialization.DefaultSerializers.System_BooleanMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Boolean_t3825574718_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_BooleanMessagePackSerializer_UnpackFromCore_m2847279547_MetadataUsageId;
+extern "C"  bool System_BooleanMessagePackSerializer_UnpackFromCore_m2847279547 (System_BooleanMessagePackSerializer_t3735524262 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_BooleanMessagePackSerializer_UnpackFromCore_m2847279547_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	bool V_1 = false;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		bool L_2 = MessagePackObject_AsBoolean_m3936155088((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Boolean_t3825574718_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		bool L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_ByteArrayMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2892777667_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3007877842_MethodInfo_var;
+extern const uint32_t System_ByteArrayMessagePackSerializer__ctor_m2522096291_MetadataUsageId;
+extern "C"  void System_ByteArrayMessagePackSerializer__ctor_m2522096291 (System_ByteArrayMessagePackSerializer_t2593951123 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ByteArrayMessagePackSerializer__ctor_m2522096291_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2892777667_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3007877842(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3007877842_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_ByteArrayMessagePackSerializer::PackToCore(MsgPack.Packer,System.Byte[])
+extern "C"  void System_ByteArrayMessagePackSerializer_PackToCore_m133284736 (System_ByteArrayMessagePackSerializer_t2593951123 * __this, Packer_t1439452732 * ___packer0, ByteU5BU5D_t3397334013* ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		ByteU5BU5D_t3397334013* L_1 = ___value1;
+		Packer_PackBinary_m3128186997(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Byte[] MsgPack.Serialization.DefaultSerializers.System_ByteArrayMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  ByteU5BU5D_t3397334013* System_ByteArrayMessagePackSerializer_UnpackFromCore_m2348083990 (System_ByteArrayMessagePackSerializer_t2593951123 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		bool L_2 = MessagePackObject_get_IsNil_m3458955312((&V_0), /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_3 = MessagePackObject_AsBinary_m554072015((&V_0), /*hidden argument*/NULL);
+		return L_3;
+	}
+
+IL_0018:
+	{
+		return (ByteU5BU5D_t3397334013*)NULL;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_ByteMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3178548090_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2966648538_MethodInfo_var;
+extern const uint32_t System_ByteMessagePackSerializer__ctor_m349107664_MetadataUsageId;
+extern "C"  void System_ByteMessagePackSerializer__ctor_m349107664 (System_ByteMessagePackSerializer_t3331584584 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ByteMessagePackSerializer__ctor_m349107664_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3178548090_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2966648538(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2966648538_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_ByteMessagePackSerializer::PackToCore(MsgPack.Packer,System.Byte)
+extern "C"  void System_ByteMessagePackSerializer_PackToCore_m1700639045 (System_ByteMessagePackSerializer_t3331584584 * __this, Packer_t1439452732 * ___packer0, uint8_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		uint8_t L_1 = ___value1;
+		Packer_Pack_m3637760392(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Byte MsgPack.Serialization.DefaultSerializers.System_ByteMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Byte_t3683104436_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_ByteMessagePackSerializer_UnpackFromCore_m2373282419_MetadataUsageId;
+extern "C"  uint8_t System_ByteMessagePackSerializer_UnpackFromCore_m2373282419 (System_ByteMessagePackSerializer_t3331584584 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ByteMessagePackSerializer_UnpackFromCore_m2373282419_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	uint8_t V_1 = 0x0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		uint8_t L_2 = MessagePackObject_AsByte_m1670061898((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Byte_t3683104436_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		uint8_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_CharArrayMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t823527653_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1882722324_MethodInfo_var;
+extern const uint32_t System_CharArrayMessagePackSerializer__ctor_m3386193489_MetadataUsageId;
+extern "C"  void System_CharArrayMessagePackSerializer__ctor_m3386193489 (System_CharArrayMessagePackSerializer_t781533025 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_CharArrayMessagePackSerializer__ctor_m3386193489_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t823527653_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1882722324(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1882722324_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_CharArrayMessagePackSerializer::PackToCore(MsgPack.Packer,System.Char[])
+extern "C"  void System_CharArrayMessagePackSerializer_PackToCore_m4180714168 (System_CharArrayMessagePackSerializer_t781533025 * __this, Packer_t1439452732 * ___packer0, CharU5BU5D_t1328083999* ___value1, const MethodInfo* method)
+{
+	{
+		CharU5BU5D_t1328083999* L_0 = ___value1;
+		if (L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		Packer_t1439452732 * L_1 = ___packer0;
+		Packer_PackNull_m2263564820(L_1, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_000b:
+	{
+		Packer_t1439452732 * L_2 = ___packer0;
+		CharU5BU5D_t1328083999* L_3 = ___value1;
+		Packer_PackString_m3822887932(L_2, (Il2CppObject*)(Il2CppObject*)L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Char[] MsgPack.Serialization.DefaultSerializers.System_CharArrayMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  CharU5BU5D_t1328083999* System_CharArrayMessagePackSerializer_UnpackFromCore_m2541640106 (System_CharArrayMessagePackSerializer_t781533025 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		bool L_2 = MessagePackObject_get_IsNil_m3458955312((&V_0), /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		CharU5BU5D_t1328083999* L_3 = MessagePackObject_AsCharArray_m2603505919((&V_0), /*hidden argument*/NULL);
+		return L_3;
+	}
+
+IL_0018:
+	{
+		return (CharU5BU5D_t1328083999*)NULL;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_CharMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2949924992_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1905618228_MethodInfo_var;
+extern const uint32_t System_CharMessagePackSerializer__ctor_m397365570_MetadataUsageId;
+extern "C"  void System_CharMessagePackSerializer__ctor_m397365570 (System_CharMessagePackSerializer_t734474150 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_CharMessagePackSerializer__ctor_m397365570_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2949924992_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1905618228(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1905618228_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_CharMessagePackSerializer::PackToCore(MsgPack.Packer,System.Char)
+extern "C"  void System_CharMessagePackSerializer_PackToCore_m1575135749 (System_CharMessagePackSerializer_t734474150 * __this, Packer_t1439452732 * ___packer0, Il2CppChar ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Il2CppChar L_1 = ___value1;
+		Packer_Pack_m2412140895(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Char MsgPack.Serialization.DefaultSerializers.System_CharMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* ArgumentException_t3259014390_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1525278462;
+extern const uint32_t System_CharMessagePackSerializer_UnpackFromCore_m208888059_MetadataUsageId;
+extern "C"  Il2CppChar System_CharMessagePackSerializer_UnpackFromCore_m208888059 (System_CharMessagePackSerializer_t734474150 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_CharMessagePackSerializer_UnpackFromCore_m208888059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArgumentException_t3259014390 * V_0 = NULL;
+	InvalidOperationException_t721527559 * V_1 = NULL;
+	Il2CppChar V_2 = 0x0;
+	MessagePackObject_t2038085051  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	ObjectU5BU5D_t3614634134* V_4 = NULL;
+	ObjectU5BU5D_t3614634134* V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_3 = L_1;
+		uint16_t L_2 = MessagePackObject_AsUInt16_m2462230698((&V_3), /*hidden argument*/NULL);
+		V_2 = L_2;
+		goto IL_0067;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (ArgumentException_t3259014390_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_003c;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.ArgumentException)
+		V_0 = ((ArgumentException_t3259014390 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_4 = V_4;
+		ArgumentException_t3259014390 * L_5 = V_0;
+		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_5);
+		ArrayElementTypeCheck (L_4, L_6);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_6);
+		ObjectU5BU5D_t3614634134* L_7 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1525278462, L_7, /*hidden argument*/NULL);
+		ArgumentException_t3259014390 * L_9 = V_0;
+		SerializationException_t753258759 * L_10 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m3898253276(L_10, L_8, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10);
+	} // end catch (depth: 1)
+
+CATCH_003c:
+	{ // begin catch(System.InvalidOperationException)
+		V_1 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_11 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_5 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_12 = V_5;
+		InvalidOperationException_t721527559 * L_13 = V_1;
+		String_t* L_14 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_13);
+		ArrayElementTypeCheck (L_12, L_14);
+		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_14);
+		ObjectU5BU5D_t3614634134* L_15 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_16 = String_Format_m876527052(NULL /*static, unused*/, L_11, _stringLiteral1525278462, L_15, /*hidden argument*/NULL);
+		InvalidOperationException_t721527559 * L_17 = V_1;
+		SerializationException_t753258759 * L_18 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m3898253276(L_18, L_16, L_17, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_18);
+	} // end catch (depth: 1)
+
+IL_0067:
+	{
+		Il2CppChar L_19 = V_2;
+		return L_19;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_DictionaryEntryMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2544319052_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3065703_MethodInfo_var;
+extern const uint32_t System_Collections_DictionaryEntryMessagePackSerializer__ctor_m2967361604_MetadataUsageId;
+extern "C"  void System_Collections_DictionaryEntryMessagePackSerializer__ctor_m2967361604 (System_Collections_DictionaryEntryMessagePackSerializer_t74109652 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_DictionaryEntryMessagePackSerializer__ctor_m2967361604_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2544319052_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3065703(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3065703_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_DictionaryEntryMessagePackSerializer::PackToCore(MsgPack.Packer,System.Collections.DictionaryEntry)
+extern "C"  void System_Collections_DictionaryEntryMessagePackSerializer_PackToCore_m4167800048 (System_Collections_DictionaryEntryMessagePackSerializer_t74109652 * __this, Packer_t1439452732 * ___packer0, DictionaryEntry_t3048875398  ___objectTree1, const MethodInfo* method)
+{
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	MessagePackObject_t2038085051  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Packer_PackArrayHeader_m2467366488(L_0, 2, /*hidden argument*/NULL);
+		Il2CppObject * L_1 = DictionaryEntry_get_Key_m3623293571((&___objectTree1), /*hidden argument*/NULL);
+		MessagePackObject_t2038085051  L_2 = System_Collections_DictionaryEntryMessagePackSerializer_EnsureMessagePackObject_m2104097154(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Packer_t1439452732 * L_3 = ___packer0;
+		MessagePackObject_PackToMessage_m2384093678((&V_0), L_3, (PackingOptions_t1268727809 *)NULL, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = DictionaryEntry_get_Value_m2812883243((&___objectTree1), /*hidden argument*/NULL);
+		MessagePackObject_t2038085051  L_5 = System_Collections_DictionaryEntryMessagePackSerializer_EnsureMessagePackObject_m2104097154(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		Packer_t1439452732 * L_6 = ___packer0;
+		MessagePackObject_PackToMessage_m2384093678((&V_1), L_6, (PackingOptions_t1268727809 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// MsgPack.MessagePackObject MsgPack.Serialization.DefaultSerializers.System_Collections_DictionaryEntryMessagePackSerializer::EnsureMessagePackObject(System.Object)
+extern Il2CppClass* MessagePackObject_t2038085051_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1377609696;
+extern const uint32_t System_Collections_DictionaryEntryMessagePackSerializer_EnsureMessagePackObject_m2104097154_MetadataUsageId;
+extern "C"  MessagePackObject_t2038085051  System_Collections_DictionaryEntryMessagePackSerializer_EnsureMessagePackObject_m2104097154 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_DictionaryEntryMessagePackSerializer_EnsureMessagePackObject_m2104097154_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackObject_t2038085051_il2cpp_TypeInfo_var);
+		MessagePackObject_t2038085051  L_1 = ((MessagePackObject_t2038085051_StaticFields*)MessagePackObject_t2038085051_il2cpp_TypeInfo_var->static_fields)->get_Nil_11();
+		return L_1;
+	}
+
+IL_0009:
+	{
+		Il2CppObject * L_2 = ___obj0;
+		if (((Il2CppObject *)IsInstSealed(L_2, MessagePackObject_t2038085051_il2cpp_TypeInfo_var)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_3 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_3, _stringLiteral1377609696, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_001c:
+	{
+		Il2CppObject * L_4 = ___obj0;
+		return ((*(MessagePackObject_t2038085051 *)((MessagePackObject_t2038085051 *)UnBox (L_4, MessagePackObject_t2038085051_il2cpp_TypeInfo_var))));
+	}
+}
+// System.Collections.DictionaryEntry MsgPack.Serialization.DefaultSerializers.System_Collections_DictionaryEntryMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* MessagePackObject_t2038085051_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3021629591;
+extern Il2CppCodeGenString* _stringLiteral1803358415;
+extern const uint32_t System_Collections_DictionaryEntryMessagePackSerializer_UnpackFromCore_m2227564970_MetadataUsageId;
+extern "C"  DictionaryEntry_t3048875398  System_Collections_DictionaryEntryMessagePackSerializer_UnpackFromCore_m2227564970 (System_Collections_DictionaryEntryMessagePackSerializer_t74109652 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_DictionaryEntryMessagePackSerializer_UnpackFromCore_m2227564970_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	MessagePackObject_t2038085051  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	MessagePackObject_t2038085051  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	String_t* V_6 = NULL;
+	String_t* V_7 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (!L_1)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		bool L_3 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_2, (&V_0));
+		if (L_3)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Exception_t1927440687 * L_4 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4);
+	}
+
+IL_0018:
+	{
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		bool L_6 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_5, (&V_1));
+		if (L_6)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Exception_t1927440687 * L_7 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7);
+	}
+
+IL_0028:
+	{
+		MessagePackObject_t2038085051  L_8 = V_0;
+		MessagePackObject_t2038085051  L_9 = L_8;
+		Il2CppObject * L_10 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_9);
+		MessagePackObject_t2038085051  L_11 = V_1;
+		MessagePackObject_t2038085051  L_12 = L_11;
+		Il2CppObject * L_13 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_12);
+		DictionaryEntry_t3048875398  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		DictionaryEntry__ctor_m2901884110(&L_14, L_10, L_13, /*hidden argument*/NULL);
+		return L_14;
+	}
+
+IL_003a:
+	{
+		Initobj (MessagePackObject_t2038085051_il2cpp_TypeInfo_var, (&V_2));
+		Initobj (MessagePackObject_t2038085051_il2cpp_TypeInfo_var, (&V_3));
+		V_4 = (bool)0;
+		V_5 = (bool)0;
+		goto IL_009f;
+	}
+
+IL_0052:
+	{
+		String_t* L_15 = V_6;
+		String_t* L_16 = L_15;
+		V_7 = L_16;
+		if (!L_16)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		String_t* L_17 = V_7;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_18 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_17, _stringLiteral3021629591, /*hidden argument*/NULL);
+		if (L_18)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		String_t* L_19 = V_7;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_20 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_19, _stringLiteral1803358415, /*hidden argument*/NULL);
+		if (L_20)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		goto IL_009f;
+	}
+
+IL_0077:
+	{
+		Unpacker_t998931393 * L_21 = ___unpacker0;
+		bool L_22 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_21, (&V_2));
+		if (L_22)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		Exception_t1927440687 * L_23 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_23);
+	}
+
+IL_0087:
+	{
+		V_4 = (bool)1;
+		goto IL_009f;
+	}
+
+IL_008c:
+	{
+		Unpacker_t998931393 * L_24 = ___unpacker0;
+		bool L_25 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_24, (&V_3));
+		if (L_25)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		Exception_t1927440687 * L_26 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_26);
+	}
+
+IL_009c:
+	{
+		V_5 = (bool)1;
+	}
+
+IL_009f:
+	{
+		bool L_27 = V_4;
+		if (!L_27)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		bool L_28 = V_5;
+		if (L_28)
+		{
+			goto IL_00b1;
+		}
+	}
+
+IL_00a7:
+	{
+		Unpacker_t998931393 * L_29 = ___unpacker0;
+		bool L_30 = VirtFuncInvoker1< bool, String_t** >::Invoke(44 /* System.Boolean MsgPack.Unpacker::ReadString(System.String&) */, L_29, (&V_6));
+		if (L_30)
+		{
+			goto IL_0052;
+		}
+	}
+
+IL_00b1:
+	{
+		bool L_31 = V_4;
+		if (L_31)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		Exception_t1927440687 * L_32 = SerializationExceptions_NewMissingProperty_m1234582205(NULL /*static, unused*/, _stringLiteral3021629591, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_32);
+	}
+
+IL_00c0:
+	{
+		bool L_33 = V_5;
+		if (L_33)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		Exception_t1927440687 * L_34 = SerializationExceptions_NewMissingProperty_m1234582205(NULL /*static, unused*/, _stringLiteral1803358415, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_34);
+	}
+
+IL_00cf:
+	{
+		MessagePackObject_t2038085051  L_35 = V_2;
+		MessagePackObject_t2038085051  L_36 = L_35;
+		Il2CppObject * L_37 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_36);
+		MessagePackObject_t2038085051  L_38 = V_3;
+		MessagePackObject_t2038085051  L_39 = L_38;
+		Il2CppObject * L_40 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_39);
+		DictionaryEntry_t3048875398  L_41;
+		memset(&L_41, 0, sizeof(L_41));
+		DictionaryEntry__ctor_m2901884110(&L_41, L_37, L_40, /*hidden argument*/NULL);
+		return L_41;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_Dictionary_2MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.CollectionTraits,System.Type,System.Type,MsgPack.Serialization.PolymorphismSchema,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* Int32_t2071877448_0_0_0_var;
+extern const Il2CppType* IEqualityComparer_1_t241418445_0_0_0_var;
+extern Il2CppClass* TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_Dictionary_2MessagePackSerializer__ctor_m791806323_MetadataUsageId;
+extern "C"  void System_Collections_Generic_Dictionary_2MessagePackSerializer__ctor_m791806323 (System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, CollectionTraits_t1823801989 * ___traits2, Type_t * ___keyType3, Type_t * ___valueType4, PolymorphismSchema_t2690808062 * ___keysSchema5, PolymorphismSchema_t2690808062 * ___valuesSchema6, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_Dictionary_2MessagePackSerializer__ctor_m791806323_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TypeU5BU5D_t1664964607* V_0 = NULL;
+	TypeU5BU5D_t1664964607* V_1 = NULL;
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_2 = ___ownerContext0;
+		Type_t * L_3 = ___keyType3;
+		PolymorphismSchema_t2690808062 * L_4 = ___keysSchema5;
+		Il2CppObject * L_5 = SerializationContext_GetSerializer_m328095222(L_2, L_3, L_4, /*hidden argument*/NULL);
+		__this->set__keySerializer_4(L_5);
+		SerializationContext_t1484625559 * L_6 = ___ownerContext0;
+		Type_t * L_7 = ___valueType4;
+		PolymorphismSchema_t2690808062 * L_8 = ___valuesSchema6;
+		Il2CppObject * L_9 = SerializationContext_GetSerializer_m328095222(L_6, L_7, L_8, /*hidden argument*/NULL);
+		__this->set__valueSerializer_5(L_9);
+		Type_t * L_10 = ___keyType3;
+		__this->set__keyType_6(L_10);
+		Type_t * L_11 = ___targetType1;
+		V_0 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)2));
+		TypeU5BU5D_t1664964607* L_12 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32_t2071877448_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_12, L_13);
+		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_13);
+		TypeU5BU5D_t1664964607* L_14 = V_0;
+		Type_t * L_15 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IEqualityComparer_1_t241418445_0_0_0_var), /*hidden argument*/NULL);
+		V_1 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		TypeU5BU5D_t1664964607* L_16 = V_1;
+		Type_t * L_17 = ___keyType3;
+		ArrayElementTypeCheck (L_16, L_17);
+		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_17);
+		TypeU5BU5D_t1664964607* L_18 = V_1;
+		Type_t * L_19 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(96 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_15, L_18);
+		ArrayElementTypeCheck (L_14, L_19);
+		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_19);
+		TypeU5BU5D_t1664964607* L_20 = V_0;
+		ConstructorInfo_t2851816542 * L_21 = Type_GetConstructor_m132234455(L_11, L_20, /*hidden argument*/NULL);
+		__this->set__constructor_7(L_21);
+		CollectionTraits_t1823801989 * L_22 = ___traits2;
+		MethodInfo_t * L_23 = L_22->get_AddMethod_3();
+		__this->set__add_8(L_23);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_Dictionary_2MessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* IDictionary_t596158605_il2cpp_TypeInfo_var;
+extern Il2CppClass* ICollection_t91669223_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* DictionaryEntry_t3048875398_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_Dictionary_2MessagePackSerializer_PackToCore_m3205298437_MetadataUsageId;
+extern "C"  void System_Collections_Generic_Dictionary_2MessagePackSerializer_PackToCore_m3205298437 (System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_Dictionary_2MessagePackSerializer_PackToCore_m3205298437_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	DictionaryEntry_t3048875398  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Il2CppObject * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Il2CppObject * L_0 = ___objectTree1;
+		V_0 = ((Il2CppObject *)IsInst(L_0, IDictionary_t596158605_il2cpp_TypeInfo_var));
+		Il2CppObject * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Packer_t1439452732 * L_2 = ___packer0;
+		Packer_PackNull_m2263564820(L_2, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0012:
+	{
+		Packer_t1439452732 * L_3 = ___packer0;
+		Il2CppObject * L_4 = V_0;
+		int32_t L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t91669223_il2cpp_TypeInfo_var, L_4);
+		Packer_PackMapHeader_m2236046007(L_3, L_5, /*hidden argument*/NULL);
+		Il2CppObject * L_6 = V_0;
+		Il2CppObject * L_7 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(9 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t596158605_il2cpp_TypeInfo_var, L_6);
+		V_2 = L_7;
+	}
+
+IL_0026:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_005a;
+		}
+
+IL_0028:
+		{
+			Il2CppObject * L_8 = V_2;
+			Il2CppObject * L_9 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_8);
+			V_1 = ((*(DictionaryEntry_t3048875398 *)((DictionaryEntry_t3048875398 *)UnBox (L_9, DictionaryEntry_t3048875398_il2cpp_TypeInfo_var))));
+			Il2CppObject * L_10 = __this->get__keySerializer_4();
+			Packer_t1439452732 * L_11 = ___packer0;
+			Il2CppObject * L_12 = DictionaryEntry_get_Key_m3623293571((&V_1), /*hidden argument*/NULL);
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_10, L_11, L_12);
+			Il2CppObject * L_13 = __this->get__valueSerializer_5();
+			Packer_t1439452732 * L_14 = ___packer0;
+			Il2CppObject * L_15 = DictionaryEntry_get_Value_m2812883243((&V_1), /*hidden argument*/NULL);
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_13, L_14, L_15);
+		}
+
+IL_005a:
+		{
+			Il2CppObject * L_16 = V_2;
+			bool L_17 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_16);
+			if (L_17)
+			{
+				goto IL_0028;
+			}
+		}
+
+IL_0062:
+		{
+			IL2CPP_LEAVE(0x75, FINALLY_0064);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0064;
+	}
+
+FINALLY_0064:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_18 = V_2;
+			V_3 = ((Il2CppObject *)IsInst(L_18, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_19 = V_3;
+			if (!L_19)
+			{
+				goto IL_0074;
+			}
+		}
+
+IL_006e:
+		{
+			Il2CppObject * L_20 = V_3;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_20);
+		}
+
+IL_0074:
+		{
+			IL2CPP_END_FINALLY(100)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(100)
+	{
+		IL2CPP_JUMP_TBL(0x75, IL_0075)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0075:
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_Dictionary_2MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackFromCore_m4184761191_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackFromCore_m4184761191 (System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackFromCore_m4184761191_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotMapHeader_m2397891378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		Il2CppObject * L_6 = System_Collections_Generic_Dictionary_2MessagePackSerializer_CreateInstance_m3873293475(__this, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		Unpacker_t998931393 * L_7 = ___unpacker0;
+		Il2CppObject * L_8 = V_1;
+		int32_t L_9 = V_0;
+		System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m1423011818(__this, L_7, L_8, L_9, /*hidden argument*/NULL);
+		Il2CppObject * L_10 = V_1;
+		return L_10;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_Dictionary_2MessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Object)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m3920212445_MetadataUsageId;
+extern "C"  void System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m3920212445 (System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m3920212445_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotMapHeader_m2397891378(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m1423011818(__this, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_Dictionary_2MessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Object,System.Int32)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m1423011818_MetadataUsageId;
+extern "C"  void System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m1423011818 (System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_Dictionary_2MessagePackSerializer_UnpackToCore_m1423011818_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Unpacker_t998931393 * V_2 = NULL;
+	Unpacker_t998931393 * V_3 = NULL;
+	ObjectU5BU5D_t3614634134* V_4 = NULL;
+	ObjectU5BU5D_t3614634134* V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_00cf;
+	}
+
+IL_0007:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0015:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		bool L_4 = VirtFuncInvoker0< bool >::Invoke(13 /* System.Boolean MsgPack.Unpacker::get_IsCollectionHeader() */, L_3);
+		if (!L_4)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		Unpacker_t998931393 * L_6 = Unpacker_ReadSubtree_m3430570170(L_5, /*hidden argument*/NULL);
+		V_2 = L_6;
+	}
+
+IL_0024:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_7 = __this->get__keySerializer_4();
+		Unpacker_t998931393 * L_8 = V_2;
+		Il2CppObject * L_9 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_7, L_8);
+		V_1 = L_9;
+		IL2CPP_LEAVE(0x4A, FINALLY_0033);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0033;
+	}
+
+FINALLY_0033:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_10 = V_2;
+			if (!L_10)
+			{
+				goto IL_003c;
+			}
+		}
+
+IL_0036:
+		{
+			Unpacker_t998931393 * L_11 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_11);
+		}
+
+IL_003c:
+		{
+			IL2CPP_END_FINALLY(51)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(51)
+	{
+		IL2CPP_JUMP_TBL(0x4A, IL_004a)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_003d:
+	{
+		Il2CppObject * L_12 = __this->get__keySerializer_4();
+		Unpacker_t998931393 * L_13 = ___unpacker0;
+		Il2CppObject * L_14 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_12, L_13);
+		V_1 = L_14;
+	}
+
+IL_004a:
+	{
+		Unpacker_t998931393 * L_15 = ___unpacker0;
+		bool L_16 = Unpacker_Read_m301469818(L_15, /*hidden argument*/NULL);
+		if (L_16)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		Exception_t1927440687 * L_17 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17);
+	}
+
+IL_0058:
+	{
+		Unpacker_t998931393 * L_18 = ___unpacker0;
+		bool L_19 = VirtFuncInvoker0< bool >::Invoke(13 /* System.Boolean MsgPack.Unpacker::get_IsCollectionHeader() */, L_18);
+		if (!L_19)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_20 = ___unpacker0;
+		Unpacker_t998931393 * L_21 = Unpacker_ReadSubtree_m3430570170(L_20, /*hidden argument*/NULL);
+		V_3 = L_21;
+	}
+
+IL_0067:
+	try
+	{ // begin try (depth: 1)
+		MethodInfo_t * L_22 = __this->get__add_8();
+		Il2CppObject * L_23 = ___collection1;
+		V_4 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_24 = V_4;
+		Il2CppObject * L_25 = V_1;
+		ArrayElementTypeCheck (L_24, L_25);
+		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_25);
+		ObjectU5BU5D_t3614634134* L_26 = V_4;
+		Il2CppObject * L_27 = __this->get__valueSerializer_5();
+		Unpacker_t998931393 * L_28 = V_3;
+		Il2CppObject * L_29 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_27, L_28);
+		ArrayElementTypeCheck (L_26, L_29);
+		(L_26)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_29);
+		ObjectU5BU5D_t3614634134* L_30 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_22, L_23, L_30, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0xCB, FINALLY_0095);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0095;
+	}
+
+FINALLY_0095:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_31 = V_3;
+			if (!L_31)
+			{
+				goto IL_009e;
+			}
+		}
+
+IL_0098:
+		{
+			Unpacker_t998931393 * L_32 = V_3;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_32);
+		}
+
+IL_009e:
+		{
+			IL2CPP_END_FINALLY(149)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(149)
+	{
+		IL2CPP_JUMP_TBL(0xCB, IL_00cb)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_009f:
+	{
+		MethodInfo_t * L_33 = __this->get__add_8();
+		Il2CppObject * L_34 = ___collection1;
+		V_5 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_35 = V_5;
+		Il2CppObject * L_36 = V_1;
+		ArrayElementTypeCheck (L_35, L_36);
+		(L_35)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_36);
+		ObjectU5BU5D_t3614634134* L_37 = V_5;
+		Il2CppObject * L_38 = __this->get__valueSerializer_5();
+		Unpacker_t998931393 * L_39 = ___unpacker0;
+		Il2CppObject * L_40 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_38, L_39);
+		ArrayElementTypeCheck (L_37, L_40);
+		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_40);
+		ObjectU5BU5D_t3614634134* L_41 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_33, L_34, L_41, /*hidden argument*/NULL);
+	}
+
+IL_00cb:
+	{
+		int32_t L_42 = V_0;
+		V_0 = ((int32_t)((int32_t)L_42+(int32_t)1));
+	}
+
+IL_00cf:
+	{
+		int32_t L_43 = V_0;
+		int32_t L_44 = ___count2;
+		if ((((int32_t)L_43) < ((int32_t)L_44)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_Dictionary_2MessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* AotHelper_t241912254_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_Dictionary_2MessagePackSerializer_CreateInstance_m3873293475_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_Generic_Dictionary_2MessagePackSerializer_CreateInstance_m3873293475 (System_Collections_Generic_Dictionary_2MessagePackSerializer_t1488757429 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_Dictionary_2MessagePackSerializer_CreateInstance_m3873293475_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ConstructorInfo_t2851816542 * L_0 = __this->get__constructor_7();
+		Type_t * L_1 = __this->get__keyType_6();
+		int32_t L_2 = ___initialCapacity0;
+		IL2CPP_RUNTIME_CLASS_INIT(AotHelper_t241912254_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = AotHelper_CreateSystemCollectionsGenericDictionary_m3831598047(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_KeyValuePair_2MessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_KeyValuePair_2MessagePackSerializer_PackToCore_m2983245639_MetadataUsageId;
+extern "C"  void System_Collections_Generic_KeyValuePair_2MessagePackSerializer_PackToCore_m2983245639 (System_Collections_Generic_KeyValuePair_2MessagePackSerializer_t1860510343 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_KeyValuePair_2MessagePackSerializer_PackToCore_m2983245639_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Packer_PackArrayHeader_m2467366488(L_0, 2, /*hidden argument*/NULL);
+		Il2CppObject * L_1 = __this->get__keySerializer_4();
+		Packer_t1439452732 * L_2 = ___packer0;
+		MethodInfo_t * L_3 = __this->get__getKey_6();
+		Il2CppObject * L_4 = ___objectTree1;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		Il2CppObject * L_5 = ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_3, L_4, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_1, L_2, L_5);
+		Il2CppObject * L_6 = __this->get__valueSerializer_5();
+		Packer_t1439452732 * L_7 = ___packer0;
+		MethodInfo_t * L_8 = __this->get__getValue_7();
+		Il2CppObject * L_9 = ___objectTree1;
+		Il2CppObject * L_10 = ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_8, L_9, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_6, L_7, L_10);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_KeyValuePair_2MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_KeyValuePair_2MessagePackSerializer_UnpackFromCore_m3242501261_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_Generic_KeyValuePair_2MessagePackSerializer_UnpackFromCore_m3242501261 (System_Collections_Generic_KeyValuePair_2MessagePackSerializer_t1860510343 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_KeyValuePair_2MessagePackSerializer_UnpackFromCore_m3242501261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	MessagePackObject_t2038085051  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	ObjectU5BU5D_t3614634134* V_4 = NULL;
+	Il2CppObject * G_B5_0 = NULL;
+	Il2CppObject * G_B10_0 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		MessagePackObject_t2038085051  L_4 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_3);
+		V_2 = L_4;
+		bool L_5 = MessagePackObject_get_IsNil_m3458955312((&V_2), /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		Il2CppObject * L_6 = __this->get__keySerializer_4();
+		Unpacker_t998931393 * L_7 = ___unpacker0;
+		Il2CppObject * L_8 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_6, L_7);
+		G_B5_0 = L_8;
+		goto IL_002d;
+	}
+
+IL_002c:
+	{
+		G_B5_0 = NULL;
+	}
+
+IL_002d:
+	{
+		V_0 = G_B5_0;
+		Unpacker_t998931393 * L_9 = ___unpacker0;
+		bool L_10 = Unpacker_Read_m301469818(L_9, /*hidden argument*/NULL);
+		if (L_10)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		Exception_t1927440687 * L_11 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	}
+
+IL_003c:
+	{
+		Unpacker_t998931393 * L_12 = ___unpacker0;
+		MessagePackObject_t2038085051  L_13 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_12);
+		V_3 = L_13;
+		bool L_14 = MessagePackObject_get_IsNil_m3458955312((&V_3), /*hidden argument*/NULL);
+		if (L_14)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		Il2CppObject * L_15 = __this->get__valueSerializer_5();
+		Unpacker_t998931393 * L_16 = ___unpacker0;
+		Il2CppObject * L_17 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_15, L_16);
+		G_B10_0 = L_17;
+		goto IL_005b;
+	}
+
+IL_005a:
+	{
+		G_B10_0 = NULL;
+	}
+
+IL_005b:
+	{
+		V_1 = G_B10_0;
+		Type_t * L_18 = NonGenericMessagePackSerializer_get_TargetType_m1450074029(__this, /*hidden argument*/NULL);
+		V_4 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_19 = V_4;
+		Il2CppObject * L_20 = V_0;
+		ArrayElementTypeCheck (L_19, L_20);
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_20);
+		ObjectU5BU5D_t3614634134* L_21 = V_4;
+		Il2CppObject * L_22 = V_1;
+		ArrayElementTypeCheck (L_21, L_22);
+		(L_21)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_22);
+		ObjectU5BU5D_t3614634134* L_23 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		Il2CppObject * L_24 = ReflectionExtensions_CreateInstancePreservingExceptionType_m248963869(NULL /*static, unused*/, L_18, L_23, /*hidden argument*/NULL);
+		return L_24;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.CollectionTraits,MsgPack.Serialization.PolymorphismSchema)
+extern Il2CppClass* System_Collections_Generic_List_1MessagePackSerializer_t1522264518_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_List_1MessagePackSerializer__ctor_m3830795756_MetadataUsageId;
+extern "C"  void System_Collections_Generic_List_1MessagePackSerializer__ctor_m3830795756 (System_Collections_Generic_List_1MessagePackSerializer_t1522264518 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___targetType1, CollectionTraits_t1823801989 * ___traits2, PolymorphismSchema_t2690808062 * ___itemsSchema3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_List_1MessagePackSerializer__ctor_m3830795756_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___targetType1;
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_2 = ___ownerContext0;
+		CollectionTraits_t1823801989 * L_3 = ___traits2;
+		Type_t * L_4 = L_3->get_ElementType_5();
+		PolymorphismSchema_t2690808062 * L_5 = ___itemsSchema3;
+		Il2CppObject * L_6 = SerializationContext_GetSerializer_m328095222(L_2, L_4, L_5, /*hidden argument*/NULL);
+		__this->set__itemSerializer_5(L_6);
+		Type_t * L_7 = ___targetType1;
+		IL2CPP_RUNTIME_CLASS_INIT(System_Collections_Generic_List_1MessagePackSerializer_t1522264518_il2cpp_TypeInfo_var);
+		TypeU5BU5D_t1664964607* L_8 = ((System_Collections_Generic_List_1MessagePackSerializer_t1522264518_StaticFields*)System_Collections_Generic_List_1MessagePackSerializer_t1522264518_il2cpp_TypeInfo_var->static_fields)->get_ConstructorWithCapacityParameterTypes_4();
+		ConstructorInfo_t2851816542 * L_9 = Type_GetConstructor_m132234455(L_7, L_8, /*hidden argument*/NULL);
+		__this->set__constructor_6(L_9);
+		CollectionTraits_t1823801989 * L_10 = ___traits2;
+		MethodInfo_t * L_11 = L_10->get_AddMethod_3();
+		__this->set__add_7(L_11);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* ICollection_t91669223_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_List_1MessagePackSerializer_PackToCore_m2904126694_MetadataUsageId;
+extern "C"  void System_Collections_Generic_List_1MessagePackSerializer_PackToCore_m2904126694 (System_Collections_Generic_List_1MessagePackSerializer_t1522264518 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_List_1MessagePackSerializer_PackToCore_m2904126694_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Il2CppObject * L_0 = ___objectTree1;
+		V_0 = ((Il2CppObject *)IsInst(L_0, ICollection_t91669223_il2cpp_TypeInfo_var));
+		Il2CppObject * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Packer_t1439452732 * L_2 = ___packer0;
+		Packer_PackNull_m2263564820(L_2, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0012:
+	{
+		Packer_t1439452732 * L_3 = ___packer0;
+		Il2CppObject * L_4 = V_0;
+		int32_t L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t91669223_il2cpp_TypeInfo_var, L_4);
+		Packer_PackArrayHeader_m2467366488(L_3, L_5, /*hidden argument*/NULL);
+		Il2CppObject * L_6 = V_0;
+		Il2CppObject * L_7 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_6);
+		V_2 = L_7;
+	}
+
+IL_0026:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_003c;
+		}
+
+IL_0028:
+		{
+			Il2CppObject * L_8 = V_2;
+			Il2CppObject * L_9 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_8);
+			V_1 = L_9;
+			Il2CppObject * L_10 = __this->get__itemSerializer_5();
+			Packer_t1439452732 * L_11 = ___packer0;
+			Il2CppObject * L_12 = V_1;
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_10, L_11, L_12);
+		}
+
+IL_003c:
+		{
+			Il2CppObject * L_13 = V_2;
+			bool L_14 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_13);
+			if (L_14)
+			{
+				goto IL_0028;
+			}
+		}
+
+IL_0044:
+		{
+			IL2CPP_LEAVE(0x57, FINALLY_0046);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0046;
+	}
+
+FINALLY_0046:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_15 = V_2;
+			V_3 = ((Il2CppObject *)IsInst(L_15, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_16 = V_3;
+			if (!L_16)
+			{
+				goto IL_0056;
+			}
+		}
+
+IL_0050:
+		{
+			Il2CppObject * L_17 = V_3;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_17);
+		}
+
+IL_0056:
+		{
+			IL2CPP_END_FINALLY(70)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(70)
+	{
+		IL2CPP_JUMP_TBL(0x57, IL_0057)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0057:
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_List_1MessagePackSerializer_UnpackFromCore_m51420942_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_Generic_List_1MessagePackSerializer_UnpackFromCore_m51420942 (System_Collections_Generic_List_1MessagePackSerializer_t1522264518 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_List_1MessagePackSerializer_UnpackFromCore_m51420942_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		Il2CppObject * L_6 = System_Collections_Generic_List_1MessagePackSerializer_CreateInstance_m2418770252(__this, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		Unpacker_t998931393 * L_7 = ___unpacker0;
+		Il2CppObject * L_8 = V_1;
+		int32_t L_9 = V_0;
+		System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1149036705(__this, L_7, L_8, L_9, /*hidden argument*/NULL);
+		Il2CppObject * L_10 = V_1;
+		return L_10;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Object)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1364474732_MetadataUsageId;
+extern "C"  void System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1364474732 (System_Collections_Generic_List_1MessagePackSerializer_t1522264518 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1364474732_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1149036705(__this, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Object,System.Int32)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1149036705_MetadataUsageId;
+extern "C"  void System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1149036705 (System_Collections_Generic_List_1MessagePackSerializer_t1522264518 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_List_1MessagePackSerializer_UnpackToCore_m1149036705_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Unpacker_t998931393 * V_1 = NULL;
+	ObjectU5BU5D_t3614634134* V_2 = NULL;
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_0079;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0012:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		bool L_4 = VirtFuncInvoker0< bool >::Invoke(13 /* System.Boolean MsgPack.Unpacker::get_IsCollectionHeader() */, L_3);
+		if (!L_4)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		Unpacker_t998931393 * L_6 = Unpacker_ReadSubtree_m3430570170(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+	}
+
+IL_0021:
+	try
+	{ // begin try (depth: 1)
+		MethodInfo_t * L_7 = __this->get__add_7();
+		Il2CppObject * L_8 = ___collection1;
+		V_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_9 = V_2;
+		Il2CppObject * L_10 = __this->get__itemSerializer_5();
+		Unpacker_t998931393 * L_11 = V_1;
+		Il2CppObject * L_12 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_10, L_11);
+		ArrayElementTypeCheck (L_9, L_12);
+		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_12);
+		ObjectU5BU5D_t3614634134* L_13 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_7, L_8, L_13, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x75, FINALLY_0047);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0047;
+	}
+
+FINALLY_0047:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_14 = V_1;
+			if (!L_14)
+			{
+				goto IL_0050;
+			}
+		}
+
+IL_004a:
+		{
+			Unpacker_t998931393 * L_15 = V_1;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_15);
+		}
+
+IL_0050:
+		{
+			IL2CPP_END_FINALLY(71)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(71)
+	{
+		IL2CPP_JUMP_TBL(0x75, IL_0075)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0051:
+	{
+		MethodInfo_t * L_16 = __this->get__add_7();
+		Il2CppObject * L_17 = ___collection1;
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_18 = V_3;
+		Il2CppObject * L_19 = __this->get__itemSerializer_5();
+		Unpacker_t998931393 * L_20 = ___unpacker0;
+		Il2CppObject * L_21 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_19, L_20);
+		ArrayElementTypeCheck (L_18, L_21);
+		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_21);
+		ObjectU5BU5D_t3614634134* L_22 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		ReflectionExtensions_InvokePreservingExceptionType_m513786982(NULL /*static, unused*/, L_16, L_17, L_22, /*hidden argument*/NULL);
+	}
+
+IL_0075:
+	{
+		int32_t L_23 = V_0;
+		V_0 = ((int32_t)((int32_t)L_23+(int32_t)1));
+	}
+
+IL_0079:
+	{
+		int32_t L_24 = V_0;
+		int32_t L_25 = ___count2;
+		if ((((int32_t)L_24) < ((int32_t)L_25)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_List_1MessagePackSerializer_CreateInstance_m2418770252_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_Generic_List_1MessagePackSerializer_CreateInstance_m2418770252 (System_Collections_Generic_List_1MessagePackSerializer_t1522264518 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_List_1MessagePackSerializer_CreateInstance_m2418770252_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ObjectU5BU5D_t3614634134* V_0 = NULL;
+	{
+		ConstructorInfo_t2851816542 * L_0 = __this->get__constructor_6();
+		V_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_1 = V_0;
+		int32_t L_2 = ___initialCapacity0;
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		ArrayElementTypeCheck (L_1, L_4);
+		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_4);
+		ObjectU5BU5D_t3614634134* L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionExtensions_t2981781203_il2cpp_TypeInfo_var);
+		Il2CppObject * L_6 = ReflectionExtensions_InvokePreservingExceptionType_m2944369123(NULL /*static, unused*/, L_0, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_List_1MessagePackSerializer::.cctor()
+extern const Il2CppType* Int32_t2071877448_0_0_0_var;
+extern Il2CppClass* TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* System_Collections_Generic_List_1MessagePackSerializer_t1522264518_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_List_1MessagePackSerializer__cctor_m3013716934_MetadataUsageId;
+extern "C"  void System_Collections_Generic_List_1MessagePackSerializer__cctor_m3013716934 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_List_1MessagePackSerializer__cctor_m3013716934_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TypeU5BU5D_t1664964607* V_0 = NULL;
+	{
+		V_0 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		TypeU5BU5D_t1664964607* L_0 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32_t2071877448_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_1);
+		TypeU5BU5D_t1664964607* L_2 = V_0;
+		((System_Collections_Generic_List_1MessagePackSerializer_t1522264518_StaticFields*)System_Collections_Generic_List_1MessagePackSerializer_t1522264518_il2cpp_TypeInfo_var->static_fields)->set_ConstructorWithCapacityParameterTypes_4(L_2);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t902649837_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m716453282_MethodInfo_var;
+extern const uint32_t System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer__ctor_m539266200_MetadataUsageId;
+extern "C"  void System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer__ctor_m539266200 (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_t831251944 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer__ctor_m539266200_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t902649837_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m716453282(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m716453282_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer::PackToCore(MsgPack.Packer,System.Collections.Generic.List`1<MsgPack.MessagePackObject>)
+extern const MethodInfo* List_1_get_Count_m2889338298_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3456424149_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m403018001_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2820211201_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m3375026323_MethodInfo_var;
+extern const uint32_t System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_PackToCore_m3754782545_MetadataUsageId;
+extern "C"  void System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_PackToCore_m3754782545 (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_t831251944 * __this, Packer_t1439452732 * ___packer0, List_1_t1407206183 * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_PackToCore_m3754782545_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Enumerator_t941935857  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		List_1_t1407206183 * L_1 = ___objectTree1;
+		int32_t L_2 = List_1_get_Count_m2889338298(L_1, /*hidden argument*/List_1_get_Count_m2889338298_MethodInfo_var);
+		Packer_PackArrayHeader_m2467366488(L_0, L_2, /*hidden argument*/NULL);
+		List_1_t1407206183 * L_3 = ___objectTree1;
+		Enumerator_t941935857  L_4 = List_1_GetEnumerator_m3456424149(L_3, /*hidden argument*/List_1_GetEnumerator_m3456424149_MethodInfo_var);
+		V_1 = L_4;
+	}
+
+IL_0014:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0027;
+		}
+
+IL_0016:
+		{
+			MessagePackObject_t2038085051  L_5 = Enumerator_get_Current_m403018001((&V_1), /*hidden argument*/Enumerator_get_Current_m403018001_MethodInfo_var);
+			V_0 = L_5;
+			Packer_t1439452732 * L_6 = ___packer0;
+			MessagePackObject_PackToMessage_m2384093678((&V_0), L_6, (PackingOptions_t1268727809 *)NULL, /*hidden argument*/NULL);
+		}
+
+IL_0027:
+		{
+			bool L_7 = Enumerator_MoveNext_m2820211201((&V_1), /*hidden argument*/Enumerator_MoveNext_m2820211201_MethodInfo_var);
+			if (L_7)
+			{
+				goto IL_0016;
+			}
+		}
+
+IL_0030:
+		{
+			IL2CPP_LEAVE(0x40, FINALLY_0032);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0032;
+	}
+
+FINALLY_0032:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m3375026323((&V_1), /*hidden argument*/Enumerator_Dispose_m3375026323_MethodInfo_var);
+		IL2CPP_END_FINALLY(50)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(50)
+	{
+		IL2CPP_JUMP_TBL(0x40, IL_0040)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<MsgPack.MessagePackObject> MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1407206183_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m527997969_MethodInfo_var;
+extern const uint32_t System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackFromCore_m2365623135_MetadataUsageId;
+extern "C"  List_1_t1407206183 * System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackFromCore_m2365623135 (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_t831251944 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackFromCore_m2365623135_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	List_1_t1407206183 * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		List_1_t1407206183 * L_6 = (List_1_t1407206183 *)il2cpp_codegen_object_new(List_1_t1407206183_il2cpp_TypeInfo_var);
+		List_1__ctor_m527997969(L_6, L_5, /*hidden argument*/List_1__ctor_m527997969_MethodInfo_var);
+		V_1 = L_6;
+		Unpacker_t998931393 * L_7 = ___unpacker0;
+		List_1_t1407206183 * L_8 = V_1;
+		int32_t L_9 = V_0;
+		System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m1778158676(NULL /*static, unused*/, L_7, L_8, L_9, /*hidden argument*/NULL);
+		List_1_t1407206183 * L_10 = V_1;
+		return L_10;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Collections.Generic.List`1<MsgPack.MessagePackObject>)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m3995194289_MetadataUsageId;
+extern "C"  void System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m3995194289 (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_t831251944 * __this, Unpacker_t998931393 * ___unpacker0, List_1_t1407206183 * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m3995194289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		List_1_t1407206183 * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m1778158676(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Collections.Generic.List`1<MsgPack.MessagePackObject>,System.Int32)
+extern const MethodInfo* List_1_Add_m3165575596_MethodInfo_var;
+extern const uint32_t System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m1778158676_MetadataUsageId;
+extern "C"  void System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m1778158676 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, List_1_t1407206183 * ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_UnpackToCore_m1778158676_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0022;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0012:
+	{
+		List_1_t1407206183 * L_3 = ___collection1;
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		MessagePackObject_t2038085051  L_5 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_4);
+		List_1_Add_m3165575596(L_3, L_5, /*hidden argument*/List_1_Add_m3165575596_MethodInfo_var);
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_0022:
+	{
+		int32_t L_7 = V_0;
+		int32_t L_8 = ___count2;
+		if ((((int32_t)L_7) < ((int32_t)L_8)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* List_1_t1407206183_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m527997969_MethodInfo_var;
+extern const uint32_t System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_CreateInstance_m1520166860_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_CreateInstance_m1520166860 (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_t831251944 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_Generic_ListOfMessagePackObjectMessagePackSerializer_CreateInstance_m1520166860_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___initialCapacity0;
+		List_1_t1407206183 * L_1 = (List_1_t1407206183 *)il2cpp_codegen_object_new(List_1_t1407206183_il2cpp_TypeInfo_var);
+		List_1__ctor_m527997969(L_1, L_0, /*hidden argument*/List_1__ctor_m527997969_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_QueueMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t783934431_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m361892624_MethodInfo_var;
+extern const uint32_t System_Collections_QueueMessagePackSerializer__ctor_m1221857327_MetadataUsageId;
+extern "C"  void System_Collections_QueueMessagePackSerializer__ctor_m1221857327 (System_Collections_QueueMessagePackSerializer_t4151563775 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_QueueMessagePackSerializer__ctor_m1221857327_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t783934431_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m361892624(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m361892624_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_QueueMessagePackSerializer::PackToCore(MsgPack.Packer,System.Collections.Queue)
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_QueueMessagePackSerializer_PackToCore_m3791552758_MetadataUsageId;
+extern "C"  void System_Collections_QueueMessagePackSerializer_PackToCore_m3791552758 (System_Collections_QueueMessagePackSerializer_t4151563775 * __this, Packer_t1439452732 * ___packer0, Queue_t1288490777 * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_QueueMessagePackSerializer_PackToCore_m3791552758_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Queue_t1288490777 * L_1 = ___objectTree1;
+		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Queue::get_Count() */, L_1);
+		Packer_PackArrayHeader_m2467366488(L_0, L_2, /*hidden argument*/NULL);
+		Queue_t1288490777 * L_3 = ___objectTree1;
+		Il2CppObject * L_4 = VirtFuncInvoker0< Il2CppObject * >::Invoke(14 /* System.Collections.IEnumerator System.Collections.Queue::GetEnumerator() */, L_3);
+		V_1 = L_4;
+	}
+
+IL_0014:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0025;
+		}
+
+IL_0016:
+		{
+			Il2CppObject * L_5 = V_1;
+			Il2CppObject * L_6 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_5);
+			V_0 = L_6;
+			Packer_t1439452732 * L_7 = ___packer0;
+			Il2CppObject * L_8 = V_0;
+			PackerUnpackerExtensions_PackObject_m1205497009(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		}
+
+IL_0025:
+		{
+			Il2CppObject * L_9 = V_1;
+			bool L_10 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_9);
+			if (L_10)
+			{
+				goto IL_0016;
+			}
+		}
+
+IL_002d:
+		{
+			IL2CPP_LEAVE(0x40, FINALLY_002f);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_002f;
+	}
+
+FINALLY_002f:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_11 = V_1;
+			V_2 = ((Il2CppObject *)IsInst(L_11, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_12 = V_2;
+			if (!L_12)
+			{
+				goto IL_003f;
+			}
+		}
+
+IL_0039:
+		{
+			Il2CppObject * L_13 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_13);
+		}
+
+IL_003f:
+		{
+			IL2CPP_END_FINALLY(47)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(47)
+	{
+		IL2CPP_JUMP_TBL(0x40, IL_0040)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Collections.Queue MsgPack.Serialization.DefaultSerializers.System_Collections_QueueMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Queue_t1288490777_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_QueueMessagePackSerializer_UnpackFromCore_m1353092618_MetadataUsageId;
+extern "C"  Queue_t1288490777 * System_Collections_QueueMessagePackSerializer_UnpackFromCore_m1353092618 (System_Collections_QueueMessagePackSerializer_t4151563775 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_QueueMessagePackSerializer_UnpackFromCore_m1353092618_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Queue_t1288490777 * V_0 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Queue_t1288490777 * L_5 = (Queue_t1288490777 *)il2cpp_codegen_object_new(Queue_t1288490777_il2cpp_TypeInfo_var);
+		Queue__ctor_m3550832384(L_5, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Queue_t1288490777 * L_7 = V_0;
+		VirtActionInvoker2< Unpacker_t998931393 *, Queue_t1288490777 * >::Invoke(10 /* System.Void MsgPack.Serialization.MessagePackSerializer`1<System.Collections.Queue>::UnpackToCore(MsgPack.Unpacker,T) */, __this, L_6, L_7);
+		Queue_t1288490777 * L_8 = V_0;
+		return L_8;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_QueueMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Collections.Queue)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackObject_t2038085051_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_QueueMessagePackSerializer_UnpackToCore_m2706239412_MetadataUsageId;
+extern "C"  void System_Collections_QueueMessagePackSerializer_UnpackToCore_m2706239412 (System_Collections_QueueMessagePackSerializer_t4151563775 * __this, Unpacker_t998931393 * ___unpacker0, Queue_t1288490777 * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_QueueMessagePackSerializer_UnpackToCore_m2706239412_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_1 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_002f;
+	}
+
+IL_000b:
+	{
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		bool L_3 = Unpacker_Read_m301469818(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_4 = V_1;
+		Exception_t1927440687 * L_5 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
+	}
+
+IL_001a:
+	{
+		Queue_t1288490777 * L_6 = ___collection1;
+		Unpacker_t998931393 * L_7 = ___unpacker0;
+		MessagePackObject_t2038085051  L_8 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_7);
+		MessagePackObject_t2038085051  L_9 = L_8;
+		Il2CppObject * L_10 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_9);
+		VirtActionInvoker1< Il2CppObject * >::Invoke(18 /* System.Void System.Collections.Queue::Enqueue(System.Object) */, L_6, L_10);
+		int32_t L_11 = V_1;
+		V_1 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_002f:
+	{
+		int32_t L_12 = V_1;
+		int32_t L_13 = V_0;
+		if ((((int32_t)L_12) < ((int32_t)L_13)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_QueueMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* Queue_t1288490777_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_QueueMessagePackSerializer_CreateInstance_m394455621_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_QueueMessagePackSerializer_CreateInstance_m394455621 (System_Collections_QueueMessagePackSerializer_t4151563775 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_QueueMessagePackSerializer_CreateInstance_m394455621_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___initialCapacity0;
+		Queue_t1288490777 * L_1 = (Queue_t1288490777 *)il2cpp_codegen_object_new(Queue_t1288490777_il2cpp_TypeInfo_var);
+		Queue__ctor_m3550832384(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_StackMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t539432048_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m736523957_MethodInfo_var;
+extern const uint32_t System_Collections_StackMessagePackSerializer__ctor_m2578007520_MetadataUsageId;
+extern "C"  void System_Collections_StackMessagePackSerializer__ctor_m2578007520 (System_Collections_StackMessagePackSerializer_t3660834000 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_StackMessagePackSerializer__ctor_m2578007520_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t539432048_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m736523957(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m736523957_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_StackMessagePackSerializer::PackToCore(MsgPack.Packer,System.Collections.Stack)
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_StackMessagePackSerializer_PackToCore_m2892886116_MetadataUsageId;
+extern "C"  void System_Collections_StackMessagePackSerializer_PackToCore_m2892886116 (System_Collections_StackMessagePackSerializer_t3660834000 * __this, Packer_t1439452732 * ___packer0, Stack_t1043988394 * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_StackMessagePackSerializer_PackToCore_m2892886116_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Stack_t1043988394 * L_1 = ___objectTree1;
+		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Stack::get_Count() */, L_1);
+		Packer_PackArrayHeader_m2467366488(L_0, L_2, /*hidden argument*/NULL);
+		Stack_t1043988394 * L_3 = ___objectTree1;
+		Il2CppObject * L_4 = VirtFuncInvoker0< Il2CppObject * >::Invoke(16 /* System.Collections.IEnumerator System.Collections.Stack::GetEnumerator() */, L_3);
+		V_1 = L_4;
+	}
+
+IL_0014:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0025;
+		}
+
+IL_0016:
+		{
+			Il2CppObject * L_5 = V_1;
+			Il2CppObject * L_6 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_5);
+			V_0 = L_6;
+			Packer_t1439452732 * L_7 = ___packer0;
+			Il2CppObject * L_8 = V_0;
+			PackerUnpackerExtensions_PackObject_m1205497009(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		}
+
+IL_0025:
+		{
+			Il2CppObject * L_9 = V_1;
+			bool L_10 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_9);
+			if (L_10)
+			{
+				goto IL_0016;
+			}
+		}
+
+IL_002d:
+		{
+			IL2CPP_LEAVE(0x40, FINALLY_002f);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_002f;
+	}
+
+FINALLY_002f:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_11 = V_1;
+			V_2 = ((Il2CppObject *)IsInst(L_11, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_12 = V_2;
+			if (!L_12)
+			{
+				goto IL_003f;
+			}
+		}
+
+IL_0039:
+		{
+			Il2CppObject * L_13 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_13);
+		}
+
+IL_003f:
+		{
+			IL2CPP_END_FINALLY(47)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(47)
+	{
+		IL2CPP_JUMP_TBL(0x40, IL_0040)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Collections.Stack MsgPack.Serialization.DefaultSerializers.System_Collections_StackMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* Stack_t1043988394_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_StackMessagePackSerializer_UnpackFromCore_m2804444266_MetadataUsageId;
+extern "C"  Stack_t1043988394 * System_Collections_StackMessagePackSerializer_UnpackFromCore_m2804444266 (System_Collections_StackMessagePackSerializer_t3660834000 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_StackMessagePackSerializer_UnpackFromCore_m2804444266_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_5 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Il2CppObject * L_6 = System_Collections_StackMessagePackSerializer_UnpackItemsInReverseOrder_m729834492(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		Stack_t1043988394 * L_7 = (Stack_t1043988394 *)il2cpp_codegen_object_new(Stack_t1043988394_il2cpp_TypeInfo_var);
+		Stack__ctor_m2410583781(L_7, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Collections_StackMessagePackSerializer::UnpackToCore(MsgPack.Unpacker,System.Collections.Stack)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_StackMessagePackSerializer_UnpackToCore_m2249610470_MetadataUsageId;
+extern "C"  void System_Collections_StackMessagePackSerializer_UnpackToCore_m2249610470 (System_Collections_StackMessagePackSerializer_t3660834000 * __this, Unpacker_t998931393 * ___unpacker0, Stack_t1043988394 * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_StackMessagePackSerializer_UnpackToCore_m2249610470_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_5 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Il2CppObject * L_6 = System_Collections_StackMessagePackSerializer_UnpackItemsInReverseOrder_m729834492(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		Il2CppObject * L_7 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_6);
+		V_1 = L_7;
+	}
+
+IL_0020:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0030;
+		}
+
+IL_0022:
+		{
+			Il2CppObject * L_8 = V_1;
+			Il2CppObject * L_9 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_8);
+			V_0 = L_9;
+			Stack_t1043988394 * L_10 = ___collection1;
+			Il2CppObject * L_11 = V_0;
+			VirtActionInvoker1< Il2CppObject * >::Invoke(19 /* System.Void System.Collections.Stack::Push(System.Object) */, L_10, L_11);
+		}
+
+IL_0030:
+		{
+			Il2CppObject * L_12 = V_1;
+			bool L_13 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_12);
+			if (L_13)
+			{
+				goto IL_0022;
+			}
+		}
+
+IL_0038:
+		{
+			IL2CPP_LEAVE(0x4B, FINALLY_003a);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_003a;
+	}
+
+FINALLY_003a:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_14 = V_1;
+			V_2 = ((Il2CppObject *)IsInst(L_14, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_15 = V_2;
+			if (!L_15)
+			{
+				goto IL_004a;
+			}
+		}
+
+IL_0044:
+		{
+			Il2CppObject * L_16 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_16);
+		}
+
+IL_004a:
+		{
+			IL2CPP_END_FINALLY(58)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(58)
+	{
+		IL2CPP_JUMP_TBL(0x4B, IL_004b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_004b:
+	{
+		return;
+	}
+}
+// System.Collections.ICollection MsgPack.Serialization.DefaultSerializers.System_Collections_StackMessagePackSerializer::UnpackItemsInReverseOrder(MsgPack.Unpacker,System.Int32)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackObject_t2038085051_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_StackMessagePackSerializer_UnpackItemsInReverseOrder_m729834492_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_StackMessagePackSerializer_UnpackItemsInReverseOrder_m729834492 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, int32_t ___count1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_StackMessagePackSerializer_UnpackItemsInReverseOrder_m729834492_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ObjectU5BU5D_t3614634134* V_0 = NULL;
+	Unpacker_t998931393 * V_1 = NULL;
+	int32_t V_2 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = ___count1;
+		V_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)L_0));
+		Unpacker_t998931393 * L_1 = ___unpacker0;
+		Unpacker_t998931393 * L_2 = Unpacker_ReadSubtree_m3430570170(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			ObjectU5BU5D_t3614634134* L_3 = V_0;
+			V_2 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length))))-(int32_t)1));
+			goto IL_0036;
+		}
+
+IL_0016:
+		{
+			Unpacker_t998931393 * L_4 = V_1;
+			bool L_5 = Unpacker_Read_m301469818(L_4, /*hidden argument*/NULL);
+			if (L_5)
+			{
+				goto IL_0024;
+			}
+		}
+
+IL_001e:
+		{
+			Exception_t1927440687 * L_6 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_6);
+		}
+
+IL_0024:
+		{
+			ObjectU5BU5D_t3614634134* L_7 = V_0;
+			int32_t L_8 = V_2;
+			Unpacker_t998931393 * L_9 = V_1;
+			MessagePackObject_t2038085051  L_10 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_9);
+			MessagePackObject_t2038085051  L_11 = L_10;
+			Il2CppObject * L_12 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_11);
+			ArrayElementTypeCheck (L_7, L_12);
+			(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8), (Il2CppObject *)L_12);
+			int32_t L_13 = V_2;
+			V_2 = ((int32_t)((int32_t)L_13-(int32_t)1));
+		}
+
+IL_0036:
+		{
+			int32_t L_14 = V_2;
+			if ((((int32_t)L_14) >= ((int32_t)0)))
+			{
+				goto IL_0016;
+			}
+		}
+
+IL_003a:
+		{
+			IL2CPP_LEAVE(0x46, FINALLY_003c);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_003c;
+	}
+
+FINALLY_003c:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_15 = V_1;
+			if (!L_15)
+			{
+				goto IL_0045;
+			}
+		}
+
+IL_003f:
+		{
+			Unpacker_t998931393 * L_16 = V_1;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_16);
+		}
+
+IL_0045:
+		{
+			IL2CPP_END_FINALLY(60)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(60)
+	{
+		IL2CPP_JUMP_TBL(0x46, IL_0046)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0046:
+	{
+		ObjectU5BU5D_t3614634134* L_17 = V_0;
+		return (Il2CppObject *)L_17;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_Collections_StackMessagePackSerializer::CreateInstance(System.Int32)
+extern Il2CppClass* Stack_t1043988394_il2cpp_TypeInfo_var;
+extern const uint32_t System_Collections_StackMessagePackSerializer_CreateInstance_m3466363552_MetadataUsageId;
+extern "C"  Il2CppObject * System_Collections_StackMessagePackSerializer_CreateInstance_m3466363552 (System_Collections_StackMessagePackSerializer_t3660834000 * __this, int32_t ___initialCapacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Collections_StackMessagePackSerializer_CreateInstance_m3466363552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___initialCapacity0;
+		Stack_t1043988394 * L_1 = (Stack_t1043988394 *)il2cpp_codegen_object_new(Stack_t1043988394_il2cpp_TypeInfo_var);
+		Stack__ctor_m1075268731(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_DBNullMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t467673037_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m319474825_MethodInfo_var;
+extern const uint32_t System_DBNullMessagePackSerializer__ctor_m3535387225_MetadataUsageId;
+extern "C"  void System_DBNullMessagePackSerializer__ctor_m3535387225 (System_DBNullMessagePackSerializer_t2823375997 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DBNullMessagePackSerializer__ctor_m3535387225_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t467673037_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m319474825(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m319474825_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_DBNullMessagePackSerializer::PackToCore(MsgPack.Packer,System.DBNull)
+extern "C"  void System_DBNullMessagePackSerializer_PackToCore_m3665711397 (System_DBNullMessagePackSerializer_t2823375997 * __this, Packer_t1439452732 * ___packer0, DBNull_t972229383 * ___objectTree1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Packer_PackNull_m2263564820(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.DBNull MsgPack.Serialization.DefaultSerializers.System_DBNullMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2984010265;
+extern const uint32_t System_DBNullMessagePackSerializer_UnpackFromCore_m146155783_MetadataUsageId;
+extern "C"  DBNull_t972229383 * System_DBNullMessagePackSerializer_UnpackFromCore_m146155783 (System_DBNullMessagePackSerializer_t2823375997 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DBNullMessagePackSerializer_UnpackFromCore_m146155783_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationException_t753258759 * L_0 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_0, _stringLiteral2984010265, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.DBNull MsgPack.Serialization.DefaultSerializers.System_DBNullMessagePackSerializer::UnpackNil()
+extern Il2CppClass* DBNull_t972229383_il2cpp_TypeInfo_var;
+extern const uint32_t System_DBNullMessagePackSerializer_UnpackNil_m2892369702_MetadataUsageId;
+extern "C"  DBNull_t972229383 * System_DBNullMessagePackSerializer_UnpackNil_m2892369702 (System_DBNullMessagePackSerializer_t2823375997 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DBNullMessagePackSerializer_UnpackNil_m2892369702_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DBNull_t972229383_il2cpp_TypeInfo_var);
+		DBNull_t972229383 * L_0 = ((DBNull_t972229383_StaticFields*)DBNull_t972229383_il2cpp_TypeInfo_var->static_fields)->get_Value_0();
+		return L_0;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_DecimalMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t220144731_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m69797571_MethodInfo_var;
+extern const uint32_t System_DecimalMessagePackSerializer__ctor_m2121420067_MetadataUsageId;
+extern "C"  void System_DecimalMessagePackSerializer__ctor_m2121420067 (System_DecimalMessagePackSerializer_t3015390323 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DecimalMessagePackSerializer__ctor_m2121420067_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t220144731_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m69797571(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m69797571_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_DecimalMessagePackSerializer::PackToCore(MsgPack.Packer,System.Decimal)
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029403;
+extern const uint32_t System_DecimalMessagePackSerializer_PackToCore_m874348741_MetadataUsageId;
+extern "C"  void System_DecimalMessagePackSerializer_PackToCore_m874348741 (System_DecimalMessagePackSerializer_t3015390323 * __this, Packer_t1439452732 * ___packer0, Decimal_t724701077  ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DecimalMessagePackSerializer_PackToCore_m874348741_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_1 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_2 = Decimal_ToString_m541380585((&___value1), _stringLiteral372029403, L_1, /*hidden argument*/NULL);
+		Packer_PackString_m1580487238(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Decimal MsgPack.Serialization.DefaultSerializers.System_DecimalMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* Decimal_t724701077_il2cpp_TypeInfo_var;
+extern Il2CppClass* ArgumentException_t3259014390_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1525278462;
+extern const uint32_t System_DecimalMessagePackSerializer_UnpackFromCore_m2128400123_MetadataUsageId;
+extern "C"  Decimal_t724701077  System_DecimalMessagePackSerializer_UnpackFromCore_m2128400123 (System_DecimalMessagePackSerializer_t3015390323 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DecimalMessagePackSerializer_UnpackFromCore_m2128400123_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArgumentException_t3259014390 * V_0 = NULL;
+	InvalidOperationException_t721527559 * V_1 = NULL;
+	Decimal_t724701077  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	MessagePackObject_t2038085051  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	ObjectU5BU5D_t3614634134* V_4 = NULL;
+	ObjectU5BU5D_t3614634134* V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_3 = L_1;
+		String_t* L_2 = MessagePackObject_AsString_m2410857322((&V_3), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Decimal_t724701077_il2cpp_TypeInfo_var);
+		Decimal_t724701077  L_4 = Decimal_Parse_m2662862650(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		V_2 = L_4;
+		goto IL_0071;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (ArgumentException_t3259014390_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_001b;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0046;
+		throw e;
+	}
+
+CATCH_001b:
+	{ // begin catch(System.ArgumentException)
+		V_0 = ((ArgumentException_t3259014390 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_5 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_6 = V_4;
+		ArgumentException_t3259014390 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_5, _stringLiteral1525278462, L_9, /*hidden argument*/NULL);
+		ArgumentException_t3259014390 * L_11 = V_0;
+		SerializationException_t753258759 * L_12 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m3898253276(L_12, L_10, L_11, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
+	} // end catch (depth: 1)
+
+CATCH_0046:
+	{ // begin catch(System.InvalidOperationException)
+		V_1 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_13 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_5 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_14 = V_5;
+		InvalidOperationException_t721527559 * L_15 = V_1;
+		String_t* L_16 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_15);
+		ArrayElementTypeCheck (L_14, L_16);
+		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_16);
+		ObjectU5BU5D_t3614634134* L_17 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_18 = String_Format_m876527052(NULL /*static, unused*/, L_13, _stringLiteral1525278462, L_17, /*hidden argument*/NULL);
+		InvalidOperationException_t721527559 * L_19 = V_1;
+		SerializationException_t753258759 * L_20 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m3898253276(L_20, L_18, L_19, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20);
+	} // end catch (depth: 1)
+
+IL_0071:
+	{
+		Decimal_t724701077  L_21 = V_2;
+		return L_21;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_DoubleMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3573459335_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2054437273_MethodInfo_var;
+extern const uint32_t System_DoubleMessagePackSerializer__ctor_m3833521769_MetadataUsageId;
+extern "C"  void System_DoubleMessagePackSerializer__ctor_m3833521769 (System_DoubleMessagePackSerializer_t1731986357 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DoubleMessagePackSerializer__ctor_m3833521769_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3573459335_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2054437273(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2054437273_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_DoubleMessagePackSerializer::PackToCore(MsgPack.Packer,System.Double)
+extern "C"  void System_DoubleMessagePackSerializer_PackToCore_m992822053 (System_DoubleMessagePackSerializer_t1731986357 * __this, Packer_t1439452732 * ___packer0, double ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		double L_1 = ___value1;
+		Packer_Pack_m3985284383(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Double MsgPack.Serialization.DefaultSerializers.System_DoubleMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Double_t4078015681_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_DoubleMessagePackSerializer_UnpackFromCore_m2057143303_MetadataUsageId;
+extern "C"  double System_DoubleMessagePackSerializer_UnpackFromCore_m2057143303 (System_DoubleMessagePackSerializer_t1731986357 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_DoubleMessagePackSerializer_UnpackFromCore_m2057143303_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	double V_1 = 0.0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		double L_2 = MessagePackObject_AsDouble_m117126698((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Double_t4078015681_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		double L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Globalization_CultureInfoMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2996287178_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1832747825_MethodInfo_var;
+extern const uint32_t System_Globalization_CultureInfoMessagePackSerializer__ctor_m2380871614_MetadataUsageId;
+extern "C"  void System_Globalization_CultureInfoMessagePackSerializer__ctor_m2380871614 (System_Globalization_CultureInfoMessagePackSerializer_t3635447374 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Globalization_CultureInfoMessagePackSerializer__ctor_m2380871614_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2996287178_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1832747825(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1832747825_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Globalization_CultureInfoMessagePackSerializer::PackToCore(MsgPack.Packer,System.Globalization.CultureInfo)
+extern "C"  void System_Globalization_CultureInfoMessagePackSerializer_PackToCore_m4222018436 (System_Globalization_CultureInfoMessagePackSerializer_t3635447374 * __this, Packer_t1439452732 * ___packer0, CultureInfo_t3500843524 * ___objectTree1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		CultureInfo_t3500843524 * L_1 = ___objectTree1;
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Globalization.CultureInfo::get_Name() */, L_1);
+		Packer_PackString_m1580487238(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Globalization.CultureInfo MsgPack.Serialization.DefaultSerializers.System_Globalization_CultureInfoMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern const uint32_t System_Globalization_CultureInfoMessagePackSerializer_UnpackFromCore_m3025585930_MetadataUsageId;
+extern "C"  CultureInfo_t3500843524 * System_Globalization_CultureInfoMessagePackSerializer_UnpackFromCore_m3025585930 (System_Globalization_CultureInfoMessagePackSerializer_t3635447374 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Globalization_CultureInfoMessagePackSerializer_UnpackFromCore_m3025585930_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		String_t* L_2 = MessagePackObject_AsString_m2410857322((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_GetCultureInfo_m3713227509(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_GuidMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2029045247_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2012703303_MethodInfo_var;
+extern const uint32_t System_GuidMessagePackSerializer__ctor_m3792745231_MetadataUsageId;
+extern "C"  void System_GuidMessagePackSerializer__ctor_m3792745231 (System_GuidMessagePackSerializer_t2855993735 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_GuidMessagePackSerializer__ctor_m3792745231_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2029045247_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2012703303(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2012703303_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_GuidMessagePackSerializer::PackToCore(MsgPack.Packer,System.Guid)
+extern "C"  void System_GuidMessagePackSerializer_PackToCore_m492905349 (System_GuidMessagePackSerializer_t2855993735 * __this, Packer_t1439452732 * ___packer0, Guid_t2533601593  ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		ByteU5BU5D_t3397334013* L_1 = Guid_ToByteArray_m1495052102((&___value1), /*hidden argument*/NULL);
+		Packer_PackRaw_m3094368454(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Guid MsgPack.Serialization.DefaultSerializers.System_GuidMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* ArgumentException_t3259014390_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1525278462;
+extern const uint32_t System_GuidMessagePackSerializer_UnpackFromCore_m3123005151_MetadataUsageId;
+extern "C"  Guid_t2533601593  System_GuidMessagePackSerializer_UnpackFromCore_m3123005151 (System_GuidMessagePackSerializer_t2855993735 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_GuidMessagePackSerializer_UnpackFromCore_m3123005151_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArgumentException_t3259014390 * V_0 = NULL;
+	InvalidOperationException_t721527559 * V_1 = NULL;
+	Guid_t2533601593  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	MessagePackObject_t2038085051  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	ObjectU5BU5D_t3614634134* V_4 = NULL;
+	ObjectU5BU5D_t3614634134* V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_3 = L_1;
+		ByteU5BU5D_t3397334013* L_2 = MessagePackObject_AsBinary_m554072015((&V_3), /*hidden argument*/NULL);
+		Guid_t2533601593  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Guid__ctor_m2958090239(&L_3, L_2, /*hidden argument*/NULL);
+		V_2 = L_3;
+		goto IL_006c;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (ArgumentException_t3259014390_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0016;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0041;
+		throw e;
+	}
+
+CATCH_0016:
+	{ // begin catch(System.ArgumentException)
+		V_0 = ((ArgumentException_t3259014390 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_4 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_5 = V_4;
+		ArgumentException_t3259014390 * L_6 = V_0;
+		String_t* L_7 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_6);
+		ArrayElementTypeCheck (L_5, L_7);
+		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_7);
+		ObjectU5BU5D_t3614634134* L_8 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Format_m876527052(NULL /*static, unused*/, L_4, _stringLiteral1525278462, L_8, /*hidden argument*/NULL);
+		ArgumentException_t3259014390 * L_10 = V_0;
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m3898253276(L_11, L_9, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+CATCH_0041:
+	{ // begin catch(System.InvalidOperationException)
+		V_1 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_12 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_5 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_13 = V_5;
+		InvalidOperationException_t721527559 * L_14 = V_1;
+		String_t* L_15 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_14);
+		ArrayElementTypeCheck (L_13, L_15);
+		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_15);
+		ObjectU5BU5D_t3614634134* L_16 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_17 = String_Format_m876527052(NULL /*static, unused*/, L_12, _stringLiteral1525278462, L_16, /*hidden argument*/NULL);
+		InvalidOperationException_t721527559 * L_18 = V_1;
+		SerializationException_t753258759 * L_19 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m3898253276(L_19, L_17, L_18, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19);
+	} // end catch (depth: 1)
+
+IL_006c:
+	{
+		Guid_t2533601593  L_20 = V_2;
+		return L_20;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Int16MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3536689568_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2056135046_MethodInfo_var;
+extern const uint32_t System_Int16MessagePackSerializer__ctor_m3092668704_MetadataUsageId;
+extern "C"  void System_Int16MessagePackSerializer__ctor_m3092668704 (System_Int16MessagePackSerializer_t1607302192 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Int16MessagePackSerializer__ctor_m3092668704_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3536689568_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2056135046(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2056135046_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Int16MessagePackSerializer::PackToCore(MsgPack.Packer,System.Int16)
+extern "C"  void System_Int16MessagePackSerializer_PackToCore_m1715817109 (System_Int16MessagePackSerializer_t1607302192 * __this, Packer_t1439452732 * ___packer0, int16_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		int16_t L_1 = ___value1;
+		Packer_Pack_m1840656730(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int16 MsgPack.Serialization.DefaultSerializers.System_Int16MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Int16_t4041245914_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_Int16MessagePackSerializer_UnpackFromCore_m2410694971_MetadataUsageId;
+extern "C"  int16_t System_Int16MessagePackSerializer_UnpackFromCore_m2410694971 (System_Int16MessagePackSerializer_t1607302192 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Int16MessagePackSerializer_UnpackFromCore_m2410694971_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	int16_t V_1 = 0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		int16_t L_2 = MessagePackObject_AsInt16_m4235069744((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int16_t4041245914_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		int16_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Int32MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1567321102_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2800873072_MethodInfo_var;
+extern const uint32_t System_Int32MessagePackSerializer__ctor_m1053251162_MetadataUsageId;
+extern "C"  void System_Int32MessagePackSerializer__ctor_m1053251162 (System_Int32MessagePackSerializer_t1553725226 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Int32MessagePackSerializer__ctor_m1053251162_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1567321102_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2800873072(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2800873072_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Int32MessagePackSerializer::PackToCore(MsgPack.Packer,System.Int32)
+extern "C"  void System_Int32MessagePackSerializer_PackToCore_m2099997809 (System_Int32MessagePackSerializer_t1553725226 * __this, Packer_t1439452732 * ___packer0, int32_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		int32_t L_1 = ___value1;
+		Packer_Pack_m3810025264(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 MsgPack.Serialization.DefaultSerializers.System_Int32MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Int32_t2071877448_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_Int32MessagePackSerializer_UnpackFromCore_m3364545787_MetadataUsageId;
+extern "C"  int32_t System_Int32MessagePackSerializer_UnpackFromCore_m3364545787 (System_Int32MessagePackSerializer_t1553725226 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Int32MessagePackSerializer_UnpackFromCore_m3364545787_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	int32_t V_1 = 0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		int32_t L_2 = MessagePackObject_AsInt32_m1546251732((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32_t2071877448_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		int32_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Int64MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t404521691_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m4217799357_MethodInfo_var;
+extern const uint32_t System_Int64MessagePackSerializer__ctor_m2528153573_MetadataUsageId;
+extern "C"  void System_Int64MessagePackSerializer__ctor_m2528153573 (System_Int64MessagePackSerializer_t2274926101 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Int64MessagePackSerializer__ctor_m2528153573_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t404521691_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m4217799357(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m4217799357_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Int64MessagePackSerializer::PackToCore(MsgPack.Packer,System.Int64)
+extern "C"  void System_Int64MessagePackSerializer_PackToCore_m3682358729 (System_Int64MessagePackSerializer_t2274926101 * __this, Packer_t1439452732 * ___packer0, int64_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		int64_t L_1 = ___value1;
+		Packer_Pack_m3003456375(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int64 MsgPack.Serialization.DefaultSerializers.System_Int64MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Int64_t909078037_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_Int64MessagePackSerializer_UnpackFromCore_m363503067_MetadataUsageId;
+extern "C"  int64_t System_Int64MessagePackSerializer_UnpackFromCore_m363503067 (System_Int64MessagePackSerializer_t2274926101 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Int64MessagePackSerializer_UnpackFromCore_m363503067_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	int64_t V_1 = 0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		int64_t L_2 = MessagePackObject_AsInt64_m2116700102((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int64_t909078037_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		int64_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_ObjectMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2184892949_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m4195132817_MethodInfo_var;
+extern const uint32_t System_ObjectMessagePackSerializer__ctor_m1478239361_MetadataUsageId;
+extern "C"  void System_ObjectMessagePackSerializer__ctor_m1478239361 (System_ObjectMessagePackSerializer_t2407642773 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ObjectMessagePackSerializer__ctor_m1478239361_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2184892949_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m4195132817(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m4195132817_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_ObjectMessagePackSerializer::PackToCore(MsgPack.Packer,System.Object)
+extern const Il2CppType* Il2CppObject_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1_get_OwnerContext_m965249081_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral669230028;
+extern const uint32_t System_ObjectMessagePackSerializer_PackToCore_m1150542373_MetadataUsageId;
+extern "C"  void System_ObjectMessagePackSerializer_PackToCore_m1150542373 (System_ObjectMessagePackSerializer_t2407642773 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ObjectMessagePackSerializer_PackToCore_m1150542373_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___value1;
+		Type_t * L_1 = Object_GetType_m191970594(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Il2CppObject_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_1) == ((Il2CppObject*)(Type_t *)L_2))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		SerializationException_t753258759 * L_3 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_3, _stringLiteral669230028, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_001d:
+	{
+		Packer_t1439452732 * L_4 = ___packer0;
+		Il2CppObject * L_5 = ___value1;
+		SerializationContext_t1484625559 * L_6 = MessagePackSerializer_1_get_OwnerContext_m965249081(__this, /*hidden argument*/MessagePackSerializer_1_get_OwnerContext_m965249081_MethodInfo_var);
+		PackerUnpackerExtensions_PackObject_m3784705094(NULL /*static, unused*/, L_4, L_5, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.System_ObjectMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackObjectU5BU5D_t2140654842_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackObject_t2038085051_il2cpp_TypeInfo_var;
+extern Il2CppClass* MessagePackObjectDictionary_t4175726983_il2cpp_TypeInfo_var;
+extern const uint32_t System_ObjectMessagePackSerializer_UnpackFromCore_m4047951399_MetadataUsageId;
+extern "C"  Il2CppObject * System_ObjectMessagePackSerializer_UnpackFromCore_m4047951399 (System_ObjectMessagePackSerializer_t2407642773 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_ObjectMessagePackSerializer_UnpackFromCore_m4047951399_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessagePackObjectU5BU5D_t2140654842* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	MessagePackObjectDictionary_t4175726983 * V_3 = NULL;
+	int32_t V_4 = 0;
+	MessagePackObject_t2038085051  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	MessagePackObject_t2038085051  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	MessagePackObject_t2038085051  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	MessagePackObject_t2038085051  G_B19_0;
+	memset(&G_B19_0, 0, sizeof(G_B19_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_2 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_3 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = ((MessagePackObjectU5BU5D_t2140654842*)SZArrayNew(MessagePackObjectU5BU5D_t2140654842_il2cpp_TypeInfo_var, (uint32_t)L_3));
+		V_1 = 0;
+		goto IL_0031;
+	}
+
+IL_0018:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		MessagePackObjectU5BU5D_t2140654842* L_5 = V_0;
+		int32_t L_6 = V_1;
+		bool L_7 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_4, ((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6))));
+		if (L_7)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Exception_t1927440687 * L_8 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
+	}
+
+IL_002d:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0031:
+	{
+		int32_t L_10 = V_1;
+		MessagePackObjectU5BU5D_t2140654842* L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		MessagePackObjectU5BU5D_t2140654842* L_12 = V_0;
+		MessagePackObject_t2038085051  L_13;
+		memset(&L_13, 0, sizeof(L_13));
+		MessagePackObject__ctor_m1924105190(&L_13, (Il2CppObject*)(Il2CppObject*)L_12, /*hidden argument*/NULL);
+		MessagePackObject_t2038085051  L_14 = L_13;
+		Il2CppObject * L_15 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_14);
+		return L_15;
+	}
+
+IL_0043:
+	{
+		Unpacker_t998931393 * L_16 = ___unpacker0;
+		bool L_17 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_16);
+		if (!L_17)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_18 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_19 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		V_2 = L_19;
+		int32_t L_20 = V_2;
+		MessagePackObjectDictionary_t4175726983 * L_21 = (MessagePackObjectDictionary_t4175726983 *)il2cpp_codegen_object_new(MessagePackObjectDictionary_t4175726983_il2cpp_TypeInfo_var);
+		MessagePackObjectDictionary__ctor_m481545455(L_21, L_20, /*hidden argument*/NULL);
+		V_3 = L_21;
+		V_4 = 0;
+		goto IL_008e;
+	}
+
+IL_005e:
+	{
+		Unpacker_t998931393 * L_22 = ___unpacker0;
+		bool L_23 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_22, (&V_5));
+		if (L_23)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_24 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24);
+	}
+
+IL_006e:
+	{
+		Unpacker_t998931393 * L_25 = ___unpacker0;
+		bool L_26 = VirtFuncInvoker1< bool, MessagePackObject_t2038085051 * >::Invoke(45 /* System.Boolean MsgPack.Unpacker::ReadObject(MsgPack.MessagePackObject&) */, L_25, (&V_6));
+		if (L_26)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_27 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_27);
+	}
+
+IL_007e:
+	{
+		MessagePackObjectDictionary_t4175726983 * L_28 = V_3;
+		MessagePackObject_t2038085051  L_29 = V_5;
+		MessagePackObject_t2038085051  L_30 = V_6;
+		MessagePackObjectDictionary_Add_m2798179831(L_28, L_29, L_30, /*hidden argument*/NULL);
+		int32_t L_31 = V_4;
+		V_4 = ((int32_t)((int32_t)L_31+(int32_t)1));
+	}
+
+IL_008e:
+	{
+		int32_t L_32 = V_4;
+		int32_t L_33 = V_2;
+		if ((((int32_t)L_32) < ((int32_t)L_33)))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		MessagePackObjectDictionary_t4175726983 * L_34 = V_3;
+		MessagePackObject_t2038085051  L_35;
+		memset(&L_35, 0, sizeof(L_35));
+		MessagePackObject__ctor_m2333084719(&L_35, L_34, /*hidden argument*/NULL);
+		MessagePackObject_t2038085051  L_36 = L_35;
+		Il2CppObject * L_37 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_36);
+		return L_37;
+	}
+
+IL_009f:
+	{
+		Unpacker_t998931393 * L_38 = ___unpacker0;
+		MessagePackObject_t2038085051  L_39 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_38);
+		V_7 = L_39;
+		bool L_40 = MessagePackObject_get_IsNil_m3458955312((&V_7), /*hidden argument*/NULL);
+		if (L_40)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		MessagePackObject_t2038085051  L_41 = V_7;
+		G_B19_0 = L_41;
+		goto IL_00b9;
+	}
+
+IL_00b4:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackObject_t2038085051_il2cpp_TypeInfo_var);
+		MessagePackObject_t2038085051  L_42 = ((MessagePackObject_t2038085051_StaticFields*)MessagePackObject_t2038085051_il2cpp_TypeInfo_var->static_fields)->get_Nil_11();
+		G_B19_0 = L_42;
+	}
+
+IL_00b9:
+	{
+		MessagePackObject_t2038085051  L_43 = G_B19_0;
+		Il2CppObject * L_44 = Box(MessagePackObject_t2038085051_il2cpp_TypeInfo_var, &L_43);
+		return L_44;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_SByteMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t4244828499_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2581566393_MethodInfo_var;
+extern const uint32_t System_SByteMessagePackSerializer__ctor_m1630126241_MetadataUsageId;
+extern "C"  void System_SByteMessagePackSerializer__ctor_m1630126241 (System_SByteMessagePackSerializer_t1781368465 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_SByteMessagePackSerializer__ctor_m1630126241_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t4244828499_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2581566393(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2581566393_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_SByteMessagePackSerializer::PackToCore(MsgPack.Packer,System.SByte)
+extern "C"  void System_SByteMessagePackSerializer_PackToCore_m1486427481 (System_SByteMessagePackSerializer_t1781368465 * __this, Packer_t1439452732 * ___packer0, int8_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		int8_t L_1 = ___value1;
+		Packer_Pack_m3466535255(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.SByte MsgPack.Serialization.DefaultSerializers.System_SByteMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* SByte_t454417549_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_SByteMessagePackSerializer_UnpackFromCore_m593651931_MetadataUsageId;
+extern "C"  int8_t System_SByteMessagePackSerializer_UnpackFromCore_m593651931 (System_SByteMessagePackSerializer_t1781368465 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_SByteMessagePackSerializer_UnpackFromCore_m593651931_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	int8_t V_1 = 0x0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		int8_t L_2 = MessagePackObject_AsSByte_m3083685462((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(SByte_t454417549_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		int8_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_SingleMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1571953586_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3812621040_MethodInfo_var;
+extern const uint32_t System_SingleMessagePackSerializer__ctor_m2912795354_MetadataUsageId;
+extern "C"  void System_SingleMessagePackSerializer__ctor_m2912795354 (System_SingleMessagePackSerializer_t490734082 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_SingleMessagePackSerializer__ctor_m2912795354_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1571953586_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3812621040(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3812621040_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_SingleMessagePackSerializer::PackToCore(MsgPack.Packer,System.Single)
+extern "C"  void System_SingleMessagePackSerializer_PackToCore_m2747200645 (System_SingleMessagePackSerializer_t490734082 * __this, Packer_t1439452732 * ___packer0, float ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		float L_1 = ___value1;
+		Packer_Pack_m3636631010(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single MsgPack.Serialization.DefaultSerializers.System_SingleMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Single_t2076509932_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_SingleMessagePackSerializer_UnpackFromCore_m3958865619_MetadataUsageId;
+extern "C"  float System_SingleMessagePackSerializer_UnpackFromCore_m3958865619 (System_SingleMessagePackSerializer_t490734082 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_SingleMessagePackSerializer_UnpackFromCore_m3958865619_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	float V_1 = 0.0f;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		float L_2 = MessagePackObject_AsSingle_m2427749162((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Single_t2076509932_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		float L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_StringMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1524663887_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m2373042373_MethodInfo_var;
+extern const uint32_t System_StringMessagePackSerializer__ctor_m3089836661_MetadataUsageId;
+extern "C"  void System_StringMessagePackSerializer__ctor_m3089836661 (System_StringMessagePackSerializer_t2683883017 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_StringMessagePackSerializer__ctor_m3089836661_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1524663887_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m2373042373(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m2373042373_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_StringMessagePackSerializer::PackToCore(MsgPack.Packer,System.String)
+extern "C"  void System_StringMessagePackSerializer_PackToCore_m2078885157 (System_StringMessagePackSerializer_t2683883017 * __this, Packer_t1439452732 * ___packer0, String_t* ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		String_t* L_1 = ___value1;
+		Packer_PackString_m1580487238(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String MsgPack.Serialization.DefaultSerializers.System_StringMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern "C"  String_t* System_StringMessagePackSerializer_UnpackFromCore_m766443719 (System_StringMessagePackSerializer_t2683883017 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		bool L_2 = MessagePackObject_get_IsNil_m3458955312((&V_0), /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		MessagePackObject_t2038085051  L_3 = V_0;
+		String_t* L_4 = MessagePackObjectExtensions_DeserializeAsString_m3015284930(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+
+IL_0017:
+	{
+		return (String_t*)NULL;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Text_StringBuilderMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t716621500_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m167255447_MethodInfo_var;
+extern const uint32_t System_Text_StringBuilderMessagePackSerializer__ctor_m1855609054_MetadataUsageId;
+extern "C"  void System_Text_StringBuilderMessagePackSerializer__ctor_m1855609054 (System_Text_StringBuilderMessagePackSerializer_t1611551542 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Text_StringBuilderMessagePackSerializer__ctor_m1855609054_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t716621500_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m167255447(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m167255447_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_Text_StringBuilderMessagePackSerializer::PackToCore(MsgPack.Packer,System.Text.StringBuilder)
+extern "C"  void System_Text_StringBuilderMessagePackSerializer_PackToCore_m526461684 (System_Text_StringBuilderMessagePackSerializer_t1611551542 * __this, Packer_t1439452732 * ___packer0, StringBuilder_t1221177846 * ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		StringBuilder_t1221177846 * L_1 = ___value1;
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
+		Packer_PackString_m1580487238(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Text.StringBuilder MsgPack.Serialization.DefaultSerializers.System_Text_StringBuilderMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
+extern const uint32_t System_Text_StringBuilderMessagePackSerializer_UnpackFromCore_m3124560176_MetadataUsageId;
+extern "C"  StringBuilder_t1221177846 * System_Text_StringBuilderMessagePackSerializer_UnpackFromCore_m3124560176 (System_Text_StringBuilderMessagePackSerializer_t1611551542 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_Text_StringBuilderMessagePackSerializer_UnpackFromCore_m3124560176_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		bool L_2 = MessagePackObject_get_IsNil_m3458955312((&V_0), /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		MessagePackObject_t2038085051  L_3 = V_0;
+		String_t* L_4 = MessagePackObjectExtensions_DeserializeAsString_m3015284930(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_5 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m782331808(L_5, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_001c:
+	{
+		return (StringBuilder_t1221177846 *)NULL;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_TimeSpanMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2925702603_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1039570937_MethodInfo_var;
+extern const uint32_t System_TimeSpanMessagePackSerializer__ctor_m2702477025_MetadataUsageId;
+extern "C"  void System_TimeSpanMessagePackSerializer__ctor_m2702477025 (System_TimeSpanMessagePackSerializer_t3351620197 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_TimeSpanMessagePackSerializer__ctor_m2702477025_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2925702603_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1039570937(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1039570937_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_TimeSpanMessagePackSerializer::PackToCore(MsgPack.Packer,System.TimeSpan)
+extern "C"  void System_TimeSpanMessagePackSerializer_PackToCore_m4258652485 (System_TimeSpanMessagePackSerializer_t3351620197 * __this, Packer_t1439452732 * ___packer0, TimeSpan_t3430258949  ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		int64_t L_1 = TimeSpan_get_Ticks_m2285358246((&___value1), /*hidden argument*/NULL);
+		Packer_Pack_m3003456375(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.TimeSpan MsgPack.Serialization.DefaultSerializers.System_TimeSpanMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* Int64_t909078037_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_TimeSpanMessagePackSerializer_UnpackFromCore_m2910992479_MetadataUsageId;
+extern "C"  TimeSpan_t3430258949  System_TimeSpanMessagePackSerializer_UnpackFromCore_m2910992479 (System_TimeSpanMessagePackSerializer_t3351620197 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_TimeSpanMessagePackSerializer_UnpackFromCore_m2910992479_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	InvalidOperationException_t721527559 * V_1 = NULL;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		int64_t L_2 = MessagePackObject_AsInt64_m2116700102((&V_2), /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_1 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int64_t909078037_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_1;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		int64_t L_12 = V_0;
+		TimeSpan_t3430258949  L_13;
+		memset(&L_13, 0, sizeof(L_13));
+		TimeSpan__ctor_m96381766(&L_13, L_12, /*hidden argument*/NULL);
+		return L_13;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_UInt16MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t482326265_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m388515229_MethodInfo_var;
+extern const uint32_t System_UInt16MessagePackSerializer__ctor_m302688869_MetadataUsageId;
+extern "C"  void System_UInt16MessagePackSerializer__ctor_m302688869 (System_UInt16MessagePackSerializer_t3814292665 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_UInt16MessagePackSerializer__ctor_m302688869_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t482326265_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m388515229(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m388515229_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_UInt16MessagePackSerializer::PackToCore(MsgPack.Packer,System.UInt16)
+extern "C"  void System_UInt16MessagePackSerializer_PackToCore_m3416841317 (System_UInt16MessagePackSerializer_t3814292665 * __this, Packer_t1439452732 * ___packer0, uint16_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		uint16_t L_1 = ___value1;
+		Packer_Pack_m2412140895(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.UInt16 MsgPack.Serialization.DefaultSerializers.System_UInt16MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* UInt16_t986882611_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_UInt16MessagePackSerializer_UnpackFromCore_m2447691199_MetadataUsageId;
+extern "C"  uint16_t System_UInt16MessagePackSerializer_UnpackFromCore_m2447691199 (System_UInt16MessagePackSerializer_t3814292665 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_UInt16MessagePackSerializer_UnpackFromCore_m2447691199_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	uint16_t V_1 = 0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		uint16_t L_2 = MessagePackObject_AsUInt16_m2462230698((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UInt16_t986882611_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		uint16_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_UInt32MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1645125675_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3923079511_MethodInfo_var;
+extern const uint32_t System_UInt32MessagePackSerializer__ctor_m1952307407_MetadataUsageId;
+extern "C"  void System_UInt32MessagePackSerializer__ctor_m1952307407 (System_UInt32MessagePackSerializer_t964617831 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_UInt32MessagePackSerializer__ctor_m1952307407_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1645125675_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3923079511(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3923079511_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_UInt32MessagePackSerializer::PackToCore(MsgPack.Packer,System.UInt32)
+extern "C"  void System_UInt32MessagePackSerializer_PackToCore_m330932517 (System_UInt32MessagePackSerializer_t964617831 * __this, Packer_t1439452732 * ___packer0, uint32_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		uint32_t L_1 = ___value1;
+		Packer_Pack_m2129815889(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.UInt32 MsgPack.Serialization.DefaultSerializers.System_UInt32MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* UInt32_t2149682021_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_UInt32MessagePackSerializer_UnpackFromCore_m2523613215_MetadataUsageId;
+extern "C"  uint32_t System_UInt32MessagePackSerializer_UnpackFromCore_m2523613215 (System_UInt32MessagePackSerializer_t964617831 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_UInt32MessagePackSerializer_UnpackFromCore_m2523613215_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	uint32_t V_1 = 0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		uint32_t L_2 = MessagePackObject_AsUInt32_m2723366442((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UInt32_t2149682021_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		uint32_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_UInt64MessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2404640568_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1321843018_MethodInfo_var;
+extern const uint32_t System_UInt64MessagePackSerializer__ctor_m1796606164_MetadataUsageId;
+extern "C"  void System_UInt64MessagePackSerializer__ctor_m1796606164 (System_UInt64MessagePackSerializer_t241305760 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_UInt64MessagePackSerializer__ctor_m1796606164_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2404640568_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1321843018(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1321843018_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_UInt64MessagePackSerializer::PackToCore(MsgPack.Packer,System.UInt64)
+extern "C"  void System_UInt64MessagePackSerializer_PackToCore_m622617221 (System_UInt64MessagePackSerializer_t241305760 * __this, Packer_t1439452732 * ___packer0, uint64_t ___value1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		uint64_t L_1 = ___value1;
+		Packer_Pack_m2835628400(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.UInt64 MsgPack.Serialization.DefaultSerializers.System_UInt64MessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern const Il2CppType* UInt64_t2909196914_0_0_0_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1274575217;
+extern const uint32_t System_UInt64MessagePackSerializer_UnpackFromCore_m2791554403_MetadataUsageId;
+extern "C"  uint64_t System_UInt64MessagePackSerializer_UnpackFromCore_m2791554403 (System_UInt64MessagePackSerializer_t241305760 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_UInt64MessagePackSerializer_UnpackFromCore_m2791554403_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InvalidOperationException_t721527559 * V_0 = NULL;
+	uint64_t V_1 = 0;
+	MessagePackObject_t2038085051  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_2 = L_1;
+		uint64_t L_2 = MessagePackObject_AsUInt64_m2040115370((&V_2), /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0045;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0011;
+		throw e;
+	}
+
+CATCH_0011:
+	{ // begin catch(System.InvalidOperationException)
+		V_0 = ((InvalidOperationException_t721527559 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_3 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		ObjectU5BU5D_t3614634134* L_4 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UInt64_t2909196914_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = V_3;
+		InvalidOperationException_t721527559 * L_7 = V_0;
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t3614634134* L_9 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m876527052(NULL /*static, unused*/, L_3, _stringLiteral1274575217, L_9, /*hidden argument*/NULL);
+		SerializationException_t753258759 * L_11 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	} // end catch (depth: 1)
+
+IL_0045:
+	{
+		uint64_t L_12 = V_1;
+		return L_12;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_VersionMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1251318366_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3774567152_MethodInfo_var;
+extern const uint32_t System_VersionMessagePackSerializer__ctor_m3016991738_MetadataUsageId;
+extern "C"  void System_VersionMessagePackSerializer__ctor_m3016991738 (System_VersionMessagePackSerializer_t2246559178 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_VersionMessagePackSerializer__ctor_m3016991738_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1251318366_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3774567152(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3774567152_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.System_VersionMessagePackSerializer::PackToCore(MsgPack.Packer,System.Version)
+extern "C"  void System_VersionMessagePackSerializer_PackToCore_m3864995201 (System_VersionMessagePackSerializer_t2246559178 * __this, Packer_t1439452732 * ___packer0, Version_t1755874712 * ___objectTree1, const MethodInfo* method)
+{
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Packer_PackArrayHeader_m2467366488(L_0, 4, /*hidden argument*/NULL);
+		Packer_t1439452732 * L_1 = ___packer0;
+		Version_t1755874712 * L_2 = ___objectTree1;
+		int32_t L_3 = Version_get_Major_m3385239713(L_2, /*hidden argument*/NULL);
+		Packer_Pack_m3810025264(L_1, L_3, /*hidden argument*/NULL);
+		Packer_t1439452732 * L_4 = ___packer0;
+		Version_t1755874712 * L_5 = ___objectTree1;
+		int32_t L_6 = Version_get_Minor_m3449134197(L_5, /*hidden argument*/NULL);
+		Packer_Pack_m3810025264(L_4, L_6, /*hidden argument*/NULL);
+		Packer_t1439452732 * L_7 = ___packer0;
+		Version_t1755874712 * L_8 = ___objectTree1;
+		int32_t L_9 = Version_get_Build_m4207539494(L_8, /*hidden argument*/NULL);
+		Packer_Pack_m3810025264(L_7, L_9, /*hidden argument*/NULL);
+		Packer_t1439452732 * L_10 = ___packer0;
+		Version_t1755874712 * L_11 = ___objectTree1;
+		int32_t L_12 = Version_get_Revision_m654005649(L_11, /*hidden argument*/NULL);
+		Packer_Pack_m3810025264(L_10, L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Version MsgPack.Serialization.DefaultSerializers.System_VersionMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern Il2CppClass* Version_t1755874712_il2cpp_TypeInfo_var;
+extern const uint32_t System_VersionMessagePackSerializer_UnpackFromCore_m2909226235_MetadataUsageId;
+extern "C"  Version_t1755874712 * System_VersionMessagePackSerializer_UnpackFromCore_m2909226235 (System_VersionMessagePackSerializer_t2246559178 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (System_VersionMessagePackSerializer_UnpackFromCore_m2909226235_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	Int32U5BU5D_t3030399641* V_1 = NULL;
+	int32_t V_2 = 0;
+	MessagePackObject_t2038085051  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	MessagePackObject_t2038085051  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_3 = L_1;
+		int64_t L_2 = MessagePackObject_AsInt64_m2116700102((&V_3), /*hidden argument*/NULL);
+		V_0 = L_2;
+		V_1 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)4));
+		V_2 = 0;
+		goto IL_003f;
+	}
+
+IL_001a:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		bool L_4 = Unpacker_Read_m301469818(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		int32_t L_5 = V_2;
+		Exception_t1927440687 * L_6 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6);
+	}
+
+IL_0029:
+	{
+		Int32U5BU5D_t3030399641* L_7 = V_1;
+		int32_t L_8 = V_2;
+		Unpacker_t998931393 * L_9 = ___unpacker0;
+		MessagePackObject_t2038085051  L_10 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_9);
+		V_4 = L_10;
+		int32_t L_11 = MessagePackObject_AsInt32_m1546251732((&V_4), /*hidden argument*/NULL);
+		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8), (int32_t)L_11);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_003f:
+	{
+		int32_t L_13 = V_2;
+		int64_t L_14 = V_0;
+		if ((((int64_t)(((int64_t)((int64_t)L_13)))) >= ((int64_t)L_14)))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		int32_t L_15 = V_2;
+		if ((((int32_t)L_15) < ((int32_t)4)))
+		{
+			goto IL_001a;
+		}
+	}
+
+IL_0048:
+	{
+		Int32U5BU5D_t3030399641* L_16 = V_1;
+		int32_t L_17 = 0;
+		int32_t L_18 = (L_16)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_17));
+		Int32U5BU5D_t3030399641* L_19 = V_1;
+		int32_t L_20 = 1;
+		int32_t L_21 = (L_19)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20));
+		Int32U5BU5D_t3030399641* L_22 = V_1;
+		int32_t L_23 = 2;
+		int32_t L_24 = (L_22)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_23));
+		Int32U5BU5D_t3030399641* L_25 = V_1;
+		int32_t L_26 = 3;
+		int32_t L_27 = (L_25)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_26));
+		Version_t1755874712 * L_28 = (Version_t1755874712 *)il2cpp_codegen_object_new(Version_t1755874712_il2cpp_TypeInfo_var);
+		Version__ctor_m85867749(L_28, L_18, L_21, L_24, L_27, /*hidden argument*/NULL);
+		return L_28;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt16ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t2022710376_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3405369227_MethodInfo_var;
+extern const uint32_t UInt16ArraySerializer__ctor_m752734194_MetadataUsageId;
+extern "C"  void UInt16ArraySerializer__ctor_m752734194 (UInt16ArraySerializer_t197758914 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt16ArraySerializer__ctor_m752734194_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t2022710376_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3405369227(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3405369227_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt16ArraySerializer::PackToCore(MsgPack.Packer,System.UInt16[])
+extern "C"  void UInt16ArraySerializer_PackToCore_m256547234 (UInt16ArraySerializer_t197758914 * __this, Packer_t1439452732 * ___packer0, UInt16U5BU5D_t2527266722* ___objectTree1, const MethodInfo* method)
+{
+	uint16_t V_0 = 0;
+	UInt16U5BU5D_t2527266722* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		UInt16U5BU5D_t2527266722* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		UInt16U5BU5D_t2527266722* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		UInt16U5BU5D_t2527266722* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		uint16_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		uint16_t L_8 = V_0;
+		Packer_Pack_m2412140895(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		UInt16U5BU5D_t2527266722* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.UInt16[] MsgPack.Serialization.DefaultSerializers.UInt16ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* UInt16U5BU5D_t2527266722_il2cpp_TypeInfo_var;
+extern const uint32_t UInt16ArraySerializer_UnpackFromCore_m1820420744_MetadataUsageId;
+extern "C"  UInt16U5BU5D_t2527266722* UInt16ArraySerializer_UnpackFromCore_m1820420744 (UInt16ArraySerializer_t197758914 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt16ArraySerializer_UnpackFromCore_m1820420744_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	UInt16U5BU5D_t2527266722* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((UInt16U5BU5D_t2527266722*)SZArrayNew(UInt16U5BU5D_t2527266722_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		UInt16U5BU5D_t2527266722* L_7 = V_1;
+		int32_t L_8 = V_0;
+		UInt16ArraySerializer_UnpackToCore_m2570501171(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		UInt16U5BU5D_t2527266722* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.UInt16[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UInt16ArraySerializer_UnpackToCore_m495234224_MetadataUsageId;
+extern "C"  void UInt16ArraySerializer_UnpackToCore_m495234224 (UInt16ArraySerializer_t197758914 * __this, Unpacker_t998931393 * ___unpacker0, UInt16U5BU5D_t2527266722* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt16ArraySerializer_UnpackToCore_m495234224_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		UInt16U5BU5D_t2527266722* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UInt16ArraySerializer_UnpackToCore_m2570501171(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt16ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.UInt16[],System.Int32)
+extern "C"  void UInt16ArraySerializer_UnpackToCore_m2570501171 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, UInt16U5BU5D_t2527266722* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	uint16_t V_1 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, uint16_t* >::Invoke(29 /* System.Boolean MsgPack.Unpacker::ReadUInt16(System.UInt16&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		UInt16U5BU5D_t2527266722* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		uint16_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (uint16_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt32ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t3849797166_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m1287992849_MethodInfo_var;
+extern const uint32_t UInt32ArraySerializer__ctor_m1733356396_MetadataUsageId;
+extern "C"  void UInt32ArraySerializer__ctor_m1733356396 (UInt32ArraySerializer_t381839356 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt32ArraySerializer__ctor_m1733356396_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t3849797166_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m1287992849(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m1287992849_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt32ArraySerializer::PackToCore(MsgPack.Packer,System.UInt32[])
+extern "C"  void UInt32ArraySerializer_PackToCore_m976245410 (UInt32ArraySerializer_t381839356 * __this, Packer_t1439452732 * ___packer0, UInt32U5BU5D_t59386216* ___objectTree1, const MethodInfo* method)
+{
+	uint32_t V_0 = 0;
+	UInt32U5BU5D_t59386216* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		UInt32U5BU5D_t59386216* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		UInt32U5BU5D_t59386216* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		UInt32U5BU5D_t59386216* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		uint32_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		uint32_t L_8 = V_0;
+		Packer_Pack_m2129815889(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		UInt32U5BU5D_t59386216* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.UInt32[] MsgPack.Serialization.DefaultSerializers.UInt32ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var;
+extern const uint32_t UInt32ArraySerializer_UnpackFromCore_m43457992_MetadataUsageId;
+extern "C"  UInt32U5BU5D_t59386216* UInt32ArraySerializer_UnpackFromCore_m43457992 (UInt32ArraySerializer_t381839356 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt32ArraySerializer_UnpackFromCore_m43457992_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	UInt32U5BU5D_t59386216* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		UInt32U5BU5D_t59386216* L_7 = V_1;
+		int32_t L_8 = V_0;
+		UInt32ArraySerializer_UnpackToCore_m3289927091(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		UInt32U5BU5D_t59386216* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.UInt32[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UInt32ArraySerializer_UnpackToCore_m1564007984_MetadataUsageId;
+extern "C"  void UInt32ArraySerializer_UnpackToCore_m1564007984 (UInt32ArraySerializer_t381839356 * __this, Unpacker_t998931393 * ___unpacker0, UInt32U5BU5D_t59386216* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt32ArraySerializer_UnpackToCore_m1564007984_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		UInt32U5BU5D_t59386216* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UInt32ArraySerializer_UnpackToCore_m3289927091(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt32ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.UInt32[],System.Int32)
+extern "C"  void UInt32ArraySerializer_UnpackToCore_m3289927091 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, UInt32U5BU5D_t59386216* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	uint32_t V_1 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, uint32_t* >::Invoke(33 /* System.Boolean MsgPack.Unpacker::ReadUInt32(System.UInt32&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		UInt32U5BU5D_t59386216* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		uint32_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (uint32_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt64ArraySerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t1164132429_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m104688930_MethodInfo_var;
+extern const uint32_t UInt64ArraySerializer__ctor_m3239017717_MetadataUsageId;
+extern "C"  void UInt64ArraySerializer__ctor_m3239017717 (UInt64ArraySerializer_t1341192293 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt64ArraySerializer__ctor_m3239017717_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t1164132429_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m104688930(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m104688930_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt64ArraySerializer::PackToCore(MsgPack.Packer,System.UInt64[])
+extern "C"  void UInt64ArraySerializer_PackToCore_m3022880738 (UInt64ArraySerializer_t1341192293 * __this, Packer_t1439452732 * ___packer0, UInt64U5BU5D_t1668688775* ___objectTree1, const MethodInfo* method)
+{
+	uint64_t V_0 = 0;
+	UInt64U5BU5D_t1668688775* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		UInt64U5BU5D_t1668688775* L_1 = ___objectTree1;
+		Packer_PackArrayHeader_m2467366488(L_0, (((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))), /*hidden argument*/NULL);
+		UInt64U5BU5D_t1668688775* L_2 = ___objectTree1;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0020;
+	}
+
+IL_0010:
+	{
+		UInt64U5BU5D_t1668688775* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		int64_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Packer_t1439452732 * L_7 = ___packer0;
+		uint64_t L_8 = V_0;
+		Packer_Pack_m2835628400(L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_10 = V_2;
+		UInt64U5BU5D_t1668688775* L_11 = V_1;
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.UInt64[] MsgPack.Serialization.DefaultSerializers.UInt64ArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* UInt64U5BU5D_t1668688775_il2cpp_TypeInfo_var;
+extern const uint32_t UInt64ArraySerializer_UnpackFromCore_m1004592488_MetadataUsageId;
+extern "C"  UInt64U5BU5D_t1668688775* UInt64ArraySerializer_UnpackFromCore_m1004592488 (UInt64ArraySerializer_t1341192293 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt64ArraySerializer_UnpackFromCore_m1004592488_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	UInt64U5BU5D_t1668688775* V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		V_1 = ((UInt64U5BU5D_t1668688775*)SZArrayNew(UInt64U5BU5D_t1668688775_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		UInt64U5BU5D_t1668688775* L_7 = V_1;
+		int32_t L_8 = V_0;
+		UInt64ArraySerializer_UnpackToCore_m3614102707(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		UInt64U5BU5D_t1668688775* L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.UInt64[])
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UInt64ArraySerializer_UnpackToCore_m2230564144_MetadataUsageId;
+extern "C"  void UInt64ArraySerializer_UnpackToCore_m2230564144 (UInt64ArraySerializer_t1341192293 * __this, Unpacker_t998931393 * ___unpacker0, UInt64U5BU5D_t1668688775* ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UInt64ArraySerializer_UnpackToCore_m2230564144_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		UInt64U5BU5D_t1668688775* L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UInt64ArraySerializer_UnpackToCore_m3614102707(NULL /*static, unused*/, L_3, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UInt64ArraySerializer::UnpackToCore(MsgPack.Unpacker,System.UInt64[],System.Int32)
+extern "C"  void UInt64ArraySerializer_UnpackToCore_m3614102707 (Il2CppObject * __this /* static, unused */, Unpacker_t998931393 * ___unpacker0, UInt64U5BU5D_t1668688775* ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	uint64_t V_1 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker1< bool, uint64_t* >::Invoke(37 /* System.Boolean MsgPack.Unpacker::ReadUInt64(System.UInt64&) */, L_0, (&V_1));
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0015:
+	{
+		UInt64U5BU5D_t1668688775* L_4 = ___collection1;
+		int32_t L_5 = V_0;
+		uint64_t L_6 = V_1;
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5), (uint64_t)L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___count2;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityArraySerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern "C"  void UnityArraySerializer__ctor_m2707137291 (UnityArraySerializer_t1504552804 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___itemType1, PolymorphismSchema_t2690808062 * ___itemsSchema2, const MethodInfo* method)
+{
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___itemType1;
+		Type_t * L_2 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::MakeArrayType() */, L_1);
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_2, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___ownerContext0;
+		Type_t * L_4 = ___itemType1;
+		PolymorphismSchema_t2690808062 * L_5 = ___itemsSchema2;
+		Il2CppObject * L_6 = SerializationContext_GetSerializer_m328095222(L_3, L_4, L_5, /*hidden argument*/NULL);
+		__this->set__itemSerializer_4(L_6);
+		Type_t * L_7 = ___itemType1;
+		__this->set__itemType_5(L_7);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityArraySerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* IList_t3321498491_il2cpp_TypeInfo_var;
+extern Il2CppClass* ICollection_t91669223_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityArraySerializer_PackToCore_m600361604_MetadataUsageId;
+extern "C"  void UnityArraySerializer_PackToCore_m600361604 (UnityArraySerializer_t1504552804 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityArraySerializer_PackToCore_m600361604_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Il2CppObject * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Il2CppObject * L_0 = ___objectTree1;
+		V_0 = ((Il2CppObject *)IsInst(L_0, IList_t3321498491_il2cpp_TypeInfo_var));
+		Packer_t1439452732 * L_1 = ___packer0;
+		Il2CppObject * L_2 = V_0;
+		int32_t L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t91669223_il2cpp_TypeInfo_var, L_2);
+		Packer_PackArrayHeader_m2467366488(L_1, L_3, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = V_0;
+		Il2CppObject * L_5 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_4);
+		V_2 = L_5;
+	}
+
+IL_001b:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0031;
+		}
+
+IL_001d:
+		{
+			Il2CppObject * L_6 = V_2;
+			Il2CppObject * L_7 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_6);
+			V_1 = L_7;
+			Il2CppObject * L_8 = __this->get__itemSerializer_4();
+			Packer_t1439452732 * L_9 = ___packer0;
+			Il2CppObject * L_10 = V_1;
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9, L_10);
+		}
+
+IL_0031:
+		{
+			Il2CppObject * L_11 = V_2;
+			bool L_12 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_11);
+			if (L_12)
+			{
+				goto IL_001d;
+			}
+		}
+
+IL_0039:
+		{
+			IL2CPP_LEAVE(0x4C, FINALLY_003b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_003b;
+	}
+
+FINALLY_003b:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_13 = V_2;
+			V_3 = ((Il2CppObject *)IsInst(L_13, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			Il2CppObject * L_14 = V_3;
+			if (!L_14)
+			{
+				goto IL_004b;
+			}
+		}
+
+IL_0045:
+		{
+			Il2CppObject * L_15 = V_3;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_15);
+		}
+
+IL_004b:
+		{
+			IL2CPP_END_FINALLY(59)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(59)
+	{
+		IL2CPP_JUMP_TBL(0x4C, IL_004c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_004c:
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.UnityArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityArraySerializer_UnpackFromCore_m3127576964_MetadataUsageId;
+extern "C"  Il2CppObject * UnityArraySerializer_UnpackFromCore_m3127576964 (UnityArraySerializer_t1504552804 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityArraySerializer_UnpackFromCore_m3127576964_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppArray * V_1 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Type_t * L_5 = __this->get__itemType_5();
+		int32_t L_6 = V_0;
+		Il2CppArray * L_7 = Array_CreateInstance_m138919384(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		Unpacker_t998931393 * L_8 = ___unpacker0;
+		Il2CppArray * L_9 = V_1;
+		int32_t L_10 = V_0;
+		UnityArraySerializer_UnpackToCore_m2879834894(__this, L_8, L_9, L_10, /*hidden argument*/NULL);
+		Il2CppArray * L_11 = V_1;
+		return L_11;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Object)
+extern Il2CppClass* IList_t3321498491_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern const uint32_t UnityArraySerializer_UnpackToCore_m3236568870_MetadataUsageId;
+extern "C"  void UnityArraySerializer_UnpackToCore_m3236568870 (UnityArraySerializer_t1504552804 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityArraySerializer_UnpackToCore_m3236568870_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		Il2CppObject * L_4 = ___collection1;
+		Unpacker_t998931393 * L_5 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_6 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		UnityArraySerializer_UnpackToCore_m2879834894(__this, L_3, ((Il2CppObject *)IsInst(L_4, IList_t3321498491_il2cpp_TypeInfo_var)), L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityArraySerializer::UnpackToCore(MsgPack.Unpacker,System.Collections.IList,System.Int32)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* IList_t3321498491_il2cpp_TypeInfo_var;
+extern const uint32_t UnityArraySerializer_UnpackToCore_m2879834894_MetadataUsageId;
+extern "C"  void UnityArraySerializer_UnpackToCore_m2879834894 (UnityArraySerializer_t1504552804 * __this, Unpacker_t998931393 * ___unpacker0, Il2CppObject * ___collection1, int32_t ___count2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityArraySerializer_UnpackToCore_m2879834894_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Unpacker_t998931393 * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_005e;
+	}
+
+IL_0004:
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewMissingItem_m246644470(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0013:
+	{
+		Unpacker_t998931393 * L_4 = ___unpacker0;
+		bool L_5 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_4);
+		if (L_5)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean MsgPack.Unpacker::get_IsMapHeader() */, L_6);
+		if (L_7)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Il2CppObject * L_8 = __this->get__itemSerializer_4();
+		Unpacker_t998931393 * L_9 = ___unpacker0;
+		Il2CppObject * L_10 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_8, L_9);
+		V_1 = L_10;
+		goto IL_0052;
+	}
+
+IL_0032:
+	{
+		Unpacker_t998931393 * L_11 = ___unpacker0;
+		Unpacker_t998931393 * L_12 = Unpacker_ReadSubtree_m3430570170(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+	}
+
+IL_0039:
+	try
+	{ // begin try (depth: 1)
+		Il2CppObject * L_13 = __this->get__itemSerializer_4();
+		Unpacker_t998931393 * L_14 = V_2;
+		Il2CppObject * L_15 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_13, L_14);
+		V_1 = L_15;
+		IL2CPP_LEAVE(0x52, FINALLY_0048);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0048;
+	}
+
+FINALLY_0048:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_16 = V_2;
+			if (!L_16)
+			{
+				goto IL_0051;
+			}
+		}
+
+IL_004b:
+		{
+			Unpacker_t998931393 * L_17 = V_2;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_17);
+		}
+
+IL_0051:
+		{
+			IL2CPP_END_FINALLY(72)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(72)
+	{
+		IL2CPP_JUMP_TBL(0x52, IL_0052)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0052:
+	{
+		Il2CppObject * L_18 = ___collection1;
+		int32_t L_19 = V_0;
+		Il2CppObject * L_20 = V_1;
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(3 /* System.Void System.Collections.IList::set_Item(System.Int32,System.Object) */, IList_t3321498491_il2cpp_TypeInfo_var, L_18, L_19, L_20);
+		int32_t L_21 = V_0;
+		V_0 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_005e:
+	{
+		int32_t L_22 = V_0;
+		int32_t L_23 = ___count2;
+		if ((((int32_t)L_22) < ((int32_t)L_23)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer::.ctor(MsgPack.Serialization.SerializationContext,System.Type,MsgPack.Serialization.PolymorphismSchema)
+extern const Il2CppType* Int32U5BU5D_t3030399641_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t UnityMultidimensionalArraySerializer__ctor_m805364467_MetadataUsageId;
+extern "C"  void UnityMultidimensionalArraySerializer__ctor_m805364467 (UnityMultidimensionalArraySerializer_t2820227010 * __this, SerializationContext_t1484625559 * ___ownerContext0, Type_t * ___itemType1, PolymorphismSchema_t2690808062 * ___itemsSchema2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityMultidimensionalArraySerializer__ctor_m805364467_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		Type_t * L_1 = ___itemType1;
+		Type_t * L_2 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::MakeArrayType() */, L_1);
+		NonGenericMessagePackSerializer__ctor_m2382890897(__this, L_0, L_2, /*hidden argument*/NULL);
+		SerializationContext_t1484625559 * L_3 = ___ownerContext0;
+		Type_t * L_4 = ___itemType1;
+		PolymorphismSchema_t2690808062 * L_5 = ___itemsSchema2;
+		Il2CppObject * L_6 = SerializationContext_GetSerializer_m328095222(L_3, L_4, L_5, /*hidden argument*/NULL);
+		__this->set__itemSerializer_4(L_6);
+		SerializationContext_t1484625559 * L_7 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_8 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32U5BU5D_t3030399641_0_0_0_var), /*hidden argument*/NULL);
+		PolymorphismSchema_t2690808062 * L_9 = ___itemsSchema2;
+		Il2CppObject * L_10 = SerializationContext_GetSerializer_m328095222(L_7, L_8, L_9, /*hidden argument*/NULL);
+		__this->set__int32ArraySerializer_5(L_10);
+		Type_t * L_11 = ___itemType1;
+		__this->set__itemType_6(L_11);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer::PackToCore(MsgPack.Packer,System.Object)
+extern Il2CppClass* Il2CppArray_il2cpp_TypeInfo_var;
+extern const uint32_t UnityMultidimensionalArraySerializer_PackToCore_m2535775010_MetadataUsageId;
+extern "C"  void UnityMultidimensionalArraySerializer_PackToCore_m2535775010 (UnityMultidimensionalArraySerializer_t2820227010 * __this, Packer_t1439452732 * ___packer0, Il2CppObject * ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityMultidimensionalArraySerializer_PackToCore_m2535775010_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		Il2CppObject * L_1 = ___objectTree1;
+		UnityMultidimensionalArraySerializer_PackArrayCore_m1673116374(__this, L_0, ((Il2CppArray *)CastclassClass(L_1, Il2CppArray_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer::PackArrayCore(MsgPack.Packer,System.Array)
+extern Il2CppClass* U3CU3Ec__DisplayClass1_t397521295_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppClass* MemoryStream_t743994179_il2cpp_TypeInfo_var;
+extern Il2CppClass* Packer_t1439452732_il2cpp_TypeInfo_var;
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2832199023_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CU3Ec__DisplayClass1_U3CPackArrayCoreU3Eb__0_m3365411718_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m4040225514_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral399057562;
+extern const uint32_t UnityMultidimensionalArraySerializer_PackArrayCore_m1673116374_MetadataUsageId;
+extern "C"  void UnityMultidimensionalArraySerializer_PackArrayCore_m1673116374 (UnityMultidimensionalArraySerializer_t2820227010 * __this, Packer_t1439452732 * ___packer0, Il2CppArray * ___array1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityMultidimensionalArraySerializer_PackArrayCore_m1673116374_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	int32_t V_1 = 0;
+	Int32U5BU5D_t3030399641* V_2 = NULL;
+	Int32U5BU5D_t3030399641* V_3 = NULL;
+	MemoryStream_t743994179 * V_4 = NULL;
+	Packer_t1439452732 * V_5 = NULL;
+	U3CU3Ec__DisplayClass1_t397521295 * V_6 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		U3CU3Ec__DisplayClass1_t397521295 * L_0 = (U3CU3Ec__DisplayClass1_t397521295 *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass1_t397521295_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass1__ctor_m3640761654(L_0, /*hidden argument*/NULL);
+		V_6 = L_0;
+		U3CU3Ec__DisplayClass1_t397521295 * L_1 = V_6;
+		Packer_t1439452732 * L_2 = ___packer0;
+		L_1->set_packer_1(L_2);
+		U3CU3Ec__DisplayClass1_t397521295 * L_3 = V_6;
+		Il2CppArray * L_4 = ___array1;
+		L_3->set_array_2(L_4);
+		U3CU3Ec__DisplayClass1_t397521295 * L_5 = V_6;
+		L_5->set_U3CU3E4__this_0(__this);
+		U3CU3Ec__DisplayClass1_t397521295 * L_6 = V_6;
+		Il2CppArray * L_7 = L_6->get_array_2();
+		int64_t L_8 = Array_get_LongLength_m2538298538(L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		int64_t L_9 = V_0;
+		if ((((int64_t)L_9) <= ((int64_t)(((int64_t)((int64_t)((int32_t)2147483647LL)))))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		NotSupportedException_t1793819818 * L_10 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_10, _stringLiteral399057562, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10);
+	}
+
+IL_0040:
+	{
+		int64_t L_11 = V_0;
+		V_1 = (((int32_t)((int32_t)L_11)));
+		U3CU3Ec__DisplayClass1_t397521295 * L_12 = V_6;
+		Il2CppArray * L_13 = L_12->get_array_2();
+		UnityMultidimensionalArraySerializer_GetArrayMetadata_m992807705(NULL /*static, unused*/, L_13, (&V_3), (&V_2), /*hidden argument*/NULL);
+		U3CU3Ec__DisplayClass1_t397521295 * L_14 = V_6;
+		Packer_t1439452732 * L_15 = L_14->get_packer_1();
+		Packer_PackArrayHeader_m2467366488(L_15, 2, /*hidden argument*/NULL);
+		MemoryStream_t743994179 * L_16 = (MemoryStream_t743994179 *)il2cpp_codegen_object_new(MemoryStream_t743994179_il2cpp_TypeInfo_var);
+		MemoryStream__ctor_m1043059966(L_16, /*hidden argument*/NULL);
+		V_4 = L_16;
+	}
+
+IL_0068:
+	try
+	{ // begin try (depth: 1)
+		{
+			MemoryStream_t743994179 * L_17 = V_4;
+			IL2CPP_RUNTIME_CLASS_INIT(Packer_t1439452732_il2cpp_TypeInfo_var);
+			Packer_t1439452732 * L_18 = Packer_Create_m2883584766(NULL /*static, unused*/, L_17, (bool)0, /*hidden argument*/NULL);
+			V_5 = L_18;
+		}
+
+IL_0072:
+		try
+		{ // begin try (depth: 2)
+			Packer_t1439452732 * L_19 = V_5;
+			Packer_PackArrayHeader_m2467366488(L_19, 2, /*hidden argument*/NULL);
+			Il2CppObject * L_20 = __this->get__int32ArraySerializer_5();
+			Packer_t1439452732 * L_21 = V_5;
+			Int32U5BU5D_t3030399641* L_22 = V_3;
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_20, L_21, (Il2CppObject *)(Il2CppObject *)L_22);
+			Il2CppObject * L_23 = __this->get__int32ArraySerializer_5();
+			Packer_t1439452732 * L_24 = V_5;
+			Int32U5BU5D_t3030399641* L_25 = V_2;
+			InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_23, L_24, (Il2CppObject *)(Il2CppObject *)L_25);
+			U3CU3Ec__DisplayClass1_t397521295 * L_26 = V_6;
+			Packer_t1439452732 * L_27 = L_26->get_packer_1();
+			SerializationContext_t1484625559 * L_28 = NonGenericMessagePackSerializer_get_OwnerContext_m3425940696(__this, /*hidden argument*/NULL);
+			ExtTypeCodeMapping_t2037435746 * L_29 = SerializationContext_get_ExtTypeCodeMapping_m1627264542(L_28, /*hidden argument*/NULL);
+			String_t* L_30 = KnownExtTypeName_get_MultidimensionalArray_m3081535477(NULL /*static, unused*/, /*hidden argument*/NULL);
+			uint8_t L_31 = ExtTypeCodeMapping_get_Item_m702548497(L_29, L_30, /*hidden argument*/NULL);
+			MemoryStream_t743994179 * L_32 = V_4;
+			ByteU5BU5D_t3397334013* L_33 = VirtFuncInvoker0< ByteU5BU5D_t3397334013* >::Invoke(28 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_32);
+			Packer_PackExtendedTypeValue_m4178401599(L_27, L_31, L_33, /*hidden argument*/NULL);
+			IL2CPP_LEAVE(0xCE, FINALLY_00c2);
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+			goto FINALLY_00c2;
+		}
+
+FINALLY_00c2:
+		{ // begin finally (depth: 2)
+			{
+				Packer_t1439452732 * L_34 = V_5;
+				if (!L_34)
+				{
+					goto IL_00cd;
+				}
+			}
+
+IL_00c6:
+			{
+				Packer_t1439452732 * L_35 = V_5;
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_35);
+			}
+
+IL_00cd:
+			{
+				IL2CPP_END_FINALLY(194)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(194)
+		{
+			IL2CPP_JUMP_TBL(0xCE, IL_00ce)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+		}
+
+IL_00ce:
+		{
+			IL2CPP_LEAVE(0xDC, FINALLY_00d0);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00d0;
+	}
+
+FINALLY_00d0:
+	{ // begin finally (depth: 1)
+		{
+			MemoryStream_t743994179 * L_36 = V_4;
+			if (!L_36)
+			{
+				goto IL_00db;
+			}
+		}
+
+IL_00d4:
+		{
+			MemoryStream_t743994179 * L_37 = V_4;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_37);
+		}
+
+IL_00db:
+		{
+			IL2CPP_END_FINALLY(208)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(208)
+	{
+		IL2CPP_JUMP_TBL(0xDC, IL_00dc)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00dc:
+	{
+		U3CU3Ec__DisplayClass1_t397521295 * L_38 = V_6;
+		Packer_t1439452732 * L_39 = L_38->get_packer_1();
+		int32_t L_40 = V_1;
+		Packer_PackArrayHeader_m2467366488(L_39, L_40, /*hidden argument*/NULL);
+		U3CU3Ec__DisplayClass1_t397521295 * L_41 = V_6;
+		Il2CppArray * L_42 = L_41->get_array_2();
+		int32_t L_43 = V_1;
+		Int32U5BU5D_t3030399641* L_44 = V_2;
+		Int32U5BU5D_t3030399641* L_45 = V_3;
+		U3CU3Ec__DisplayClass1_t397521295 * L_46 = V_6;
+		IntPtr_t L_47;
+		L_47.set_m_value_0((void*)(void*)U3CU3Ec__DisplayClass1_U3CPackArrayCoreU3Eb__0_m3365411718_MethodInfo_var);
+		Action_1_t2832199023 * L_48 = (Action_1_t2832199023 *)il2cpp_codegen_object_new(Action_1_t2832199023_il2cpp_TypeInfo_var);
+		Action_1__ctor_m4040225514(L_48, L_46, L_47, /*hidden argument*/Action_1__ctor_m4040225514_MethodInfo_var);
+		UnityMultidimensionalArraySerializer_ForEach_m2933084375(NULL /*static, unused*/, L_42, L_43, L_44, L_45, L_48, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer::GetArrayMetadata(System.Array,System.Int32[]&,System.Int32[]&)
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern const uint32_t UnityMultidimensionalArraySerializer_GetArrayMetadata_m992807705_MetadataUsageId;
+extern "C"  void UnityMultidimensionalArraySerializer_GetArrayMetadata_m992807705 (Il2CppObject * __this /* static, unused */, Il2CppArray * ___array0, Int32U5BU5D_t3030399641** ___lengths1, Int32U5BU5D_t3030399641** ___lowerBounds2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityMultidimensionalArraySerializer_GetArrayMetadata_m992807705_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		Int32U5BU5D_t3030399641** L_0 = ___lowerBounds2;
+		Il2CppArray * L_1 = ___array0;
+		int32_t L_2 = Array_get_Rank_m3837250695(L_1, /*hidden argument*/NULL);
+		*((Il2CppObject **)(L_0)) = (Il2CppObject *)((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)L_2));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_0), (Il2CppObject *)((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)L_2)));
+		Int32U5BU5D_t3030399641** L_3 = ___lengths1;
+		Il2CppArray * L_4 = ___array0;
+		int32_t L_5 = Array_get_Rank_m3837250695(L_4, /*hidden argument*/NULL);
+		*((Il2CppObject **)(L_3)) = (Il2CppObject *)((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_3), (Il2CppObject *)((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)L_5)));
+		V_0 = 0;
+		goto IL_0038;
+	}
+
+IL_001e:
+	{
+		Int32U5BU5D_t3030399641** L_6 = ___lowerBounds2;
+		int32_t L_7 = V_0;
+		Il2CppArray * L_8 = ___array0;
+		int32_t L_9 = V_0;
+		int32_t L_10 = Array_GetLowerBound_m3733237204(L_8, L_9, /*hidden argument*/NULL);
+		((*((Int32U5BU5D_t3030399641**)L_6)))->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (int32_t)L_10);
+		Int32U5BU5D_t3030399641** L_11 = ___lengths1;
+		int32_t L_12 = V_0;
+		Il2CppArray * L_13 = ___array0;
+		int32_t L_14 = V_0;
+		int32_t L_15 = Array_GetLength_m2083296647(L_13, L_14, /*hidden argument*/NULL);
+		((*((Int32U5BU5D_t3030399641**)L_11)))->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_12), (int32_t)L_15);
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)((int32_t)L_16+(int32_t)1));
+	}
+
+IL_0038:
+	{
+		int32_t L_17 = V_0;
+		Il2CppArray * L_18 = ___array0;
+		int32_t L_19 = Array_get_Rank_m3837250695(L_18, /*hidden argument*/NULL);
+		if ((((int32_t)L_17) < ((int32_t)L_19)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Object MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* UnpackHelpers_t1606708725_il2cpp_TypeInfo_var;
+extern Il2CppClass* SerializationException_t753258759_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Byte_t3683104436_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* MemoryStream_t743994179_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern Il2CppClass* U3CU3Ec__DisplayClass4_t4289204064_il2cpp_TypeInfo_var;
+extern Il2CppClass* U3CU3Ec__DisplayClass7_t3885919537_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2832199023_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CU3Ec__DisplayClass7_U3CUnpackFromCoreU3Eb__3_m3145369711_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m4040225514_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3423915182;
+extern Il2CppCodeGenString* _stringLiteral3595023330;
+extern Il2CppCodeGenString* _stringLiteral2893983446;
+extern Il2CppCodeGenString* _stringLiteral3034160327;
+extern const uint32_t UnityMultidimensionalArraySerializer_UnpackFromCore_m3189735414_MetadataUsageId;
+extern "C"  Il2CppObject * UnityMultidimensionalArraySerializer_UnpackFromCore_m3189735414 (UnityMultidimensionalArraySerializer_t2820227010 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityMultidimensionalArraySerializer_UnpackFromCore_m3189735414_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Unpacker_t998931393 * V_0 = NULL;
+	MessagePackExtendedTypeObject_t1459807206  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	InvalidOperationException_t721527559 * V_2 = NULL;
+	Int32U5BU5D_t3030399641* V_3 = NULL;
+	Int32U5BU5D_t3030399641* V_4 = NULL;
+	MemoryStream_t743994179 * V_5 = NULL;
+	Unpacker_t998931393 * V_6 = NULL;
+	int32_t V_7 = 0;
+	Action_1_t2832199023 * V_8 = NULL;
+	U3CU3Ec__DisplayClass7_t3885919537 * V_9 = NULL;
+	U3CU3Ec__DisplayClass4_t4289204064 * V_10 = NULL;
+	Il2CppObject * V_11 = NULL;
+	MessagePackObject_t2038085051  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	ObjectU5BU5D_t3614634134* V_13 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	Int32U5BU5D_t3030399641* G_B35_0 = NULL;
+	Int32U5BU5D_t3030399641* G_B35_1 = NULL;
+	int32_t G_B35_2 = 0;
+	Il2CppArray * G_B35_3 = NULL;
+	Int32U5BU5D_t3030399641* G_B34_0 = NULL;
+	Int32U5BU5D_t3030399641* G_B34_1 = NULL;
+	int32_t G_B34_2 = 0;
+	Il2CppArray * G_B34_3 = NULL;
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_0);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___unpacker0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+		int32_t L_4 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if ((((int32_t)L_4) == ((int32_t)2)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		SerializationException_t753258759 * L_5 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+		SerializationException__ctor_m1019897788(L_5, _stringLiteral3423915182, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
+	}
+
+IL_0022:
+	{
+		Unpacker_t998931393 * L_6 = ___unpacker0;
+		Unpacker_t998931393 * L_7 = Unpacker_ReadSubtree_m3430570170(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+	}
+
+IL_0029:
+	try
+	{ // begin try (depth: 1)
+		{
+			Unpacker_t998931393 * L_8 = V_0;
+			bool L_9 = Unpacker_Read_m301469818(L_8, /*hidden argument*/NULL);
+			if (L_9)
+			{
+				goto IL_0037;
+			}
+		}
+
+IL_0031:
+		{
+			Exception_t1927440687 * L_10 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_10);
+		}
+
+IL_0037:
+		try
+		{ // begin try (depth: 2)
+			Unpacker_t998931393 * L_11 = V_0;
+			MessagePackObject_t2038085051  L_12 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_11);
+			V_12 = L_12;
+			MessagePackExtendedTypeObject_t1459807206  L_13 = MessagePackObject_AsMessagePackExtendedTypeObject_m2115778085((&V_12), /*hidden argument*/NULL);
+			V_1 = L_13;
+			goto IL_0056;
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1927440687 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (InvalidOperationException_t721527559_il2cpp_TypeInfo_var, e.ex->object.klass))
+				goto CATCH_0049;
+			throw e;
+		}
+
+CATCH_0049:
+		{ // begin catch(System.InvalidOperationException)
+			V_2 = ((InvalidOperationException_t721527559 *)__exception_local);
+			InvalidOperationException_t721527559 * L_14 = V_2;
+			SerializationException_t753258759 * L_15 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+			SerializationException__ctor_m3898253276(L_15, _stringLiteral3595023330, L_14, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_15);
+		} // end catch (depth: 2)
+
+IL_0056:
+		{
+			uint8_t L_16 = MessagePackExtendedTypeObject_get_TypeCode_m592299647((&V_1), /*hidden argument*/NULL);
+			SerializationContext_t1484625559 * L_17 = NonGenericMessagePackSerializer_get_OwnerContext_m3425940696(__this, /*hidden argument*/NULL);
+			ExtTypeCodeMapping_t2037435746 * L_18 = SerializationContext_get_ExtTypeCodeMapping_m1627264542(L_17, /*hidden argument*/NULL);
+			String_t* L_19 = KnownExtTypeName_get_MultidimensionalArray_m3081535477(NULL /*static, unused*/, /*hidden argument*/NULL);
+			uint8_t L_20 = ExtTypeCodeMapping_get_Item_m702548497(L_18, L_19, /*hidden argument*/NULL);
+			if ((((int32_t)L_16) == ((int32_t)L_20)))
+			{
+				goto IL_00b1;
+			}
+		}
+
+IL_0074:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+			CultureInfo_t3500843524 * L_21 = CultureInfo_get_CurrentCulture_m711066087(NULL /*static, unused*/, /*hidden argument*/NULL);
+			V_13 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+			ObjectU5BU5D_t3614634134* L_22 = V_13;
+			SerializationContext_t1484625559 * L_23 = NonGenericMessagePackSerializer_get_OwnerContext_m3425940696(__this, /*hidden argument*/NULL);
+			ExtTypeCodeMapping_t2037435746 * L_24 = SerializationContext_get_ExtTypeCodeMapping_m1627264542(L_23, /*hidden argument*/NULL);
+			String_t* L_25 = KnownExtTypeName_get_MultidimensionalArray_m3081535477(NULL /*static, unused*/, /*hidden argument*/NULL);
+			uint8_t L_26 = ExtTypeCodeMapping_get_Item_m702548497(L_24, L_25, /*hidden argument*/NULL);
+			uint8_t L_27 = L_26;
+			Il2CppObject * L_28 = Box(Byte_t3683104436_il2cpp_TypeInfo_var, &L_27);
+			ArrayElementTypeCheck (L_22, L_28);
+			(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_28);
+			ObjectU5BU5D_t3614634134* L_29 = V_13;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_30 = String_Format_m876527052(NULL /*static, unused*/, L_21, _stringLiteral2893983446, L_29, /*hidden argument*/NULL);
+			SerializationException_t753258759 * L_31 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+			SerializationException__ctor_m1019897788(L_31, L_30, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_31);
+		}
+
+IL_00b1:
+		{
+			ByteU5BU5D_t3397334013* L_32 = MessagePackExtendedTypeObject_get_Body_m1598062840((&V_1), /*hidden argument*/NULL);
+			MemoryStream_t743994179 * L_33 = (MemoryStream_t743994179 *)il2cpp_codegen_object_new(MemoryStream_t743994179_il2cpp_TypeInfo_var);
+			MemoryStream__ctor_m4073175573(L_33, L_32, /*hidden argument*/NULL);
+			V_5 = L_33;
+		}
+
+IL_00bf:
+		try
+		{ // begin try (depth: 2)
+			{
+				MemoryStream_t743994179 * L_34 = V_5;
+				Unpacker_t998931393 * L_35 = Unpacker_Create_m2006669068(NULL /*static, unused*/, L_34, (bool)0, /*hidden argument*/NULL);
+				V_6 = L_35;
+			}
+
+IL_00c9:
+			try
+			{ // begin try (depth: 3)
+				{
+					Unpacker_t998931393 * L_36 = V_6;
+					bool L_37 = Unpacker_Read_m301469818(L_36, /*hidden argument*/NULL);
+					if (L_37)
+					{
+						goto IL_00d8;
+					}
+				}
+
+IL_00d2:
+				{
+					Exception_t1927440687 * L_38 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+					IL2CPP_RAISE_MANAGED_EXCEPTION(L_38);
+				}
+
+IL_00d8:
+				{
+					Unpacker_t998931393 * L_39 = V_6;
+					bool L_40 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_39);
+					if (L_40)
+					{
+						goto IL_00e7;
+					}
+				}
+
+IL_00e1:
+				{
+					Exception_t1927440687 * L_41 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+					IL2CPP_RAISE_MANAGED_EXCEPTION(L_41);
+				}
+
+IL_00e7:
+				{
+					Unpacker_t998931393 * L_42 = V_6;
+					IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+					int32_t L_43 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+					if ((((int32_t)L_43) == ((int32_t)2)))
+					{
+						goto IL_00fc;
+					}
+				}
+
+IL_00f1:
+				{
+					SerializationException_t753258759 * L_44 = (SerializationException_t753258759 *)il2cpp_codegen_object_new(SerializationException_t753258759_il2cpp_TypeInfo_var);
+					SerializationException__ctor_m1019897788(L_44, _stringLiteral3034160327, /*hidden argument*/NULL);
+					IL2CPP_RAISE_MANAGED_EXCEPTION(L_44);
+				}
+
+IL_00fc:
+				{
+					Unpacker_t998931393 * L_45 = V_6;
+					UnityMultidimensionalArraySerializer_ReadArrayMetadata_m640955758(__this, L_45, (&V_3), (&V_4), /*hidden argument*/NULL);
+					IL2CPP_LEAVE(0x116, FINALLY_010a);
+				}
+			} // end try (depth: 3)
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+				goto FINALLY_010a;
+			}
+
+FINALLY_010a:
+			{ // begin finally (depth: 3)
+				{
+					Unpacker_t998931393 * L_46 = V_6;
+					if (!L_46)
+					{
+						goto IL_0115;
+					}
+				}
+
+IL_010e:
+				{
+					Unpacker_t998931393 * L_47 = V_6;
+					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_47);
+				}
+
+IL_0115:
+				{
+					IL2CPP_END_FINALLY(266)
+				}
+			} // end finally (depth: 3)
+			IL2CPP_CLEANUP(266)
+			{
+				IL2CPP_JUMP_TBL(0x116, IL_0116)
+				IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+			}
+
+IL_0116:
+			{
+				IL2CPP_LEAVE(0x124, FINALLY_0118);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+			goto FINALLY_0118;
+		}
+
+FINALLY_0118:
+		{ // begin finally (depth: 2)
+			{
+				MemoryStream_t743994179 * L_48 = V_5;
+				if (!L_48)
+				{
+					goto IL_0123;
+				}
+			}
+
+IL_011c:
+			{
+				MemoryStream_t743994179 * L_49 = V_5;
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_49);
+			}
+
+IL_0123:
+			{
+				IL2CPP_END_FINALLY(280)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(280)
+		{
+			IL2CPP_JUMP_TBL(0x124, IL_0124)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+		}
+
+IL_0124:
+		{
+			Unpacker_t998931393 * L_50 = V_0;
+			bool L_51 = Unpacker_Read_m301469818(L_50, /*hidden argument*/NULL);
+			if (L_51)
+			{
+				goto IL_0132;
+			}
+		}
+
+IL_012c:
+		{
+			Exception_t1927440687 * L_52 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_52);
+		}
+
+IL_0132:
+		{
+			Unpacker_t998931393 * L_53 = V_0;
+			bool L_54 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_53);
+			if (L_54)
+			{
+				goto IL_0140;
+			}
+		}
+
+IL_013a:
+		{
+			Exception_t1927440687 * L_55 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_55);
+		}
+
+IL_0140:
+		{
+			U3CU3Ec__DisplayClass4_t4289204064 * L_56 = (U3CU3Ec__DisplayClass4_t4289204064 *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass4_t4289204064_il2cpp_TypeInfo_var);
+			U3CU3Ec__DisplayClass4__ctor_m4277201519(L_56, /*hidden argument*/NULL);
+			V_10 = L_56;
+			U3CU3Ec__DisplayClass4_t4289204064 * L_57 = V_10;
+			Unpacker_t998931393 * L_58 = V_0;
+			Unpacker_t998931393 * L_59 = Unpacker_ReadSubtree_m3430570170(L_58, /*hidden argument*/NULL);
+			L_57->set_arrayUnpacker_0(L_59);
+		}
+
+IL_0154:
+		try
+		{ // begin try (depth: 2)
+			{
+				V_8 = (Action_1_t2832199023 *)NULL;
+				U3CU3Ec__DisplayClass7_t3885919537 * L_60 = (U3CU3Ec__DisplayClass7_t3885919537 *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass7_t3885919537_il2cpp_TypeInfo_var);
+				U3CU3Ec__DisplayClass7__ctor_m2845686912(L_60, /*hidden argument*/NULL);
+				V_9 = L_60;
+				U3CU3Ec__DisplayClass7_t3885919537 * L_61 = V_9;
+				U3CU3Ec__DisplayClass4_t4289204064 * L_62 = V_10;
+				L_61->set_CSU24U3CU3E8__locals5_0(L_62);
+				U3CU3Ec__DisplayClass7_t3885919537 * L_63 = V_9;
+				L_63->set_U3CU3E4__this_2(__this);
+				U3CU3Ec__DisplayClass7_t3885919537 * L_64 = V_9;
+				Type_t * L_65 = __this->get__itemType_6();
+				Int32U5BU5D_t3030399641* L_66 = V_3;
+				Int32U5BU5D_t3030399641* L_67 = V_4;
+				Il2CppArray * L_68 = Array_CreateInstance_m1054139389(NULL /*static, unused*/, L_65, L_66, L_67, /*hidden argument*/NULL);
+				L_64->set_result_1(L_68);
+				U3CU3Ec__DisplayClass4_t4289204064 * L_69 = V_10;
+				Unpacker_t998931393 * L_70 = L_69->get_arrayUnpacker_0();
+				IL2CPP_RUNTIME_CLASS_INIT(UnpackHelpers_t1606708725_il2cpp_TypeInfo_var);
+				int32_t L_71 = UnpackHelpers_GetItemsCount_m3227815250(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
+				V_7 = L_71;
+				int32_t L_72 = V_7;
+				if ((((int32_t)L_72) <= ((int32_t)0)))
+				{
+					goto IL_01bd;
+				}
+			}
+
+IL_0197:
+			{
+				U3CU3Ec__DisplayClass7_t3885919537 * L_73 = V_9;
+				Il2CppArray * L_74 = L_73->get_result_1();
+				int32_t L_75 = V_7;
+				Int32U5BU5D_t3030399641* L_76 = V_4;
+				Int32U5BU5D_t3030399641* L_77 = V_3;
+				Action_1_t2832199023 * L_78 = V_8;
+				G_B34_0 = L_77;
+				G_B34_1 = L_76;
+				G_B34_2 = L_75;
+				G_B34_3 = L_74;
+				if (L_78)
+				{
+					G_B35_0 = L_77;
+					G_B35_1 = L_76;
+					G_B35_2 = L_75;
+					G_B35_3 = L_74;
+					goto IL_01b6;
+				}
+			}
+
+IL_01a7:
+			{
+				U3CU3Ec__DisplayClass7_t3885919537 * L_79 = V_9;
+				IntPtr_t L_80;
+				L_80.set_m_value_0((void*)(void*)U3CU3Ec__DisplayClass7_U3CUnpackFromCoreU3Eb__3_m3145369711_MethodInfo_var);
+				Action_1_t2832199023 * L_81 = (Action_1_t2832199023 *)il2cpp_codegen_object_new(Action_1_t2832199023_il2cpp_TypeInfo_var);
+				Action_1__ctor_m4040225514(L_81, L_79, L_80, /*hidden argument*/Action_1__ctor_m4040225514_MethodInfo_var);
+				V_8 = L_81;
+				G_B35_0 = G_B34_0;
+				G_B35_1 = G_B34_1;
+				G_B35_2 = G_B34_2;
+				G_B35_3 = G_B34_3;
+			}
+
+IL_01b6:
+			{
+				Action_1_t2832199023 * L_82 = V_8;
+				UnityMultidimensionalArraySerializer_ForEach_m2933084375(NULL /*static, unused*/, G_B35_3, G_B35_2, G_B35_1, G_B35_0, L_82, /*hidden argument*/NULL);
+			}
+
+IL_01bd:
+			{
+				U3CU3Ec__DisplayClass7_t3885919537 * L_83 = V_9;
+				Il2CppArray * L_84 = L_83->get_result_1();
+				V_11 = L_84;
+				IL2CPP_LEAVE(0x1E8, FINALLY_01c8);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+			goto FINALLY_01c8;
+		}
+
+FINALLY_01c8:
+		{ // begin finally (depth: 2)
+			{
+				U3CU3Ec__DisplayClass4_t4289204064 * L_85 = V_10;
+				Unpacker_t998931393 * L_86 = L_85->get_arrayUnpacker_0();
+				if (!L_86)
+				{
+					goto IL_01dd;
+				}
+			}
+
+IL_01d1:
+			{
+				U3CU3Ec__DisplayClass4_t4289204064 * L_87 = V_10;
+				Unpacker_t998931393 * L_88 = L_87->get_arrayUnpacker_0();
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_88);
+			}
+
+IL_01dd:
+			{
+				IL2CPP_END_FINALLY(456)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(456)
+		{
+			IL2CPP_END_CLEANUP(0x1E8, FINALLY_01de);
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_01de;
+	}
+
+FINALLY_01de:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_89 = V_0;
+			if (!L_89)
+			{
+				goto IL_01e7;
+			}
+		}
+
+IL_01e1:
+		{
+			Unpacker_t998931393 * L_90 = V_0;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_90);
+		}
+
+IL_01e7:
+		{
+			IL2CPP_END_FINALLY(478)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(478)
+	{
+		IL2CPP_JUMP_TBL(0x1E8, IL_01e8)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_01e8:
+	{
+		Il2CppObject * L_91 = V_11;
+		return L_91;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer::ReadArrayMetadata(MsgPack.Unpacker,System.Int32[]&,System.Int32[]&)
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t UnityMultidimensionalArraySerializer_ReadArrayMetadata_m640955758_MetadataUsageId;
+extern "C"  void UnityMultidimensionalArraySerializer_ReadArrayMetadata_m640955758 (UnityMultidimensionalArraySerializer_t2820227010 * __this, Unpacker_t998931393 * ___metadataUnpacker0, Int32U5BU5D_t3030399641** ___lengths1, Int32U5BU5D_t3030399641** ___lowerBounds2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityMultidimensionalArraySerializer_ReadArrayMetadata_m640955758_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Unpacker_t998931393 * V_0 = NULL;
+	Unpacker_t998931393 * V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Unpacker_t998931393 * L_0 = ___metadataUnpacker0;
+		bool L_1 = Unpacker_Read_m301469818(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_000e:
+	{
+		Unpacker_t998931393 * L_3 = ___metadataUnpacker0;
+		bool L_4 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_3);
+		if (L_4)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Exception_t1927440687 * L_5 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
+	}
+
+IL_001c:
+	{
+		Unpacker_t998931393 * L_6 = ___metadataUnpacker0;
+		Unpacker_t998931393 * L_7 = Unpacker_ReadSubtree_m3430570170(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+	}
+
+IL_0023:
+	try
+	{ // begin try (depth: 1)
+		Int32U5BU5D_t3030399641** L_8 = ___lengths1;
+		Il2CppObject * L_9 = __this->get__int32ArraySerializer_5();
+		Unpacker_t998931393 * L_10 = V_0;
+		Il2CppObject * L_11 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_9, L_10);
+		*((Il2CppObject **)(L_8)) = (Il2CppObject *)((Int32U5BU5D_t3030399641*)IsInst(L_11, Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_8), (Il2CppObject *)((Int32U5BU5D_t3030399641*)IsInst(L_11, Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var)));
+		IL2CPP_LEAVE(0x42, FINALLY_0038);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0038;
+	}
+
+FINALLY_0038:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_12 = V_0;
+			if (!L_12)
+			{
+				goto IL_0041;
+			}
+		}
+
+IL_003b:
+		{
+			Unpacker_t998931393 * L_13 = V_0;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_13);
+		}
+
+IL_0041:
+		{
+			IL2CPP_END_FINALLY(56)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(56)
+	{
+		IL2CPP_JUMP_TBL(0x42, IL_0042)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0042:
+	{
+		Unpacker_t998931393 * L_14 = ___metadataUnpacker0;
+		bool L_15 = Unpacker_Read_m301469818(L_14, /*hidden argument*/NULL);
+		if (L_15)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		Exception_t1927440687 * L_16 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_16);
+	}
+
+IL_0050:
+	{
+		Unpacker_t998931393 * L_17 = ___metadataUnpacker0;
+		bool L_18 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean MsgPack.Unpacker::get_IsArrayHeader() */, L_17);
+		if (L_18)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_19 = SerializationExceptions_NewIsNotArrayHeader_m3701408545(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19);
+	}
+
+IL_005e:
+	{
+		Unpacker_t998931393 * L_20 = ___metadataUnpacker0;
+		Unpacker_t998931393 * L_21 = Unpacker_ReadSubtree_m3430570170(L_20, /*hidden argument*/NULL);
+		V_1 = L_21;
+	}
+
+IL_0065:
+	try
+	{ // begin try (depth: 1)
+		Int32U5BU5D_t3030399641** L_22 = ___lowerBounds2;
+		Il2CppObject * L_23 = __this->get__int32ArraySerializer_5();
+		Unpacker_t998931393 * L_24 = V_1;
+		Il2CppObject * L_25 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_23, L_24);
+		*((Il2CppObject **)(L_22)) = (Il2CppObject *)((Int32U5BU5D_t3030399641*)IsInst(L_25, Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_22), (Il2CppObject *)((Int32U5BU5D_t3030399641*)IsInst(L_25, Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var)));
+		IL2CPP_LEAVE(0x84, FINALLY_007a);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_007a;
+	}
+
+FINALLY_007a:
+	{ // begin finally (depth: 1)
+		{
+			Unpacker_t998931393 * L_26 = V_1;
+			if (!L_26)
+			{
+				goto IL_0083;
+			}
+		}
+
+IL_007d:
+		{
+			Unpacker_t998931393 * L_27 = V_1;
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_27);
+		}
+
+IL_0083:
+		{
+			IL2CPP_END_FINALLY(122)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(122)
+	{
+		IL2CPP_JUMP_TBL(0x84, IL_0084)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0084:
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer::ForEach(System.Array,System.Int32,System.Int32[],System.Int32[],System.Action`1<System.Int32[]>)
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m705750319_MethodInfo_var;
+extern const uint32_t UnityMultidimensionalArraySerializer_ForEach_m2933084375_MetadataUsageId;
+extern "C"  void UnityMultidimensionalArraySerializer_ForEach_m2933084375 (Il2CppObject * __this /* static, unused */, Il2CppArray * ___array0, int32_t ___totalLength1, Int32U5BU5D_t3030399641* ___lowerBounds2, Int32U5BU5D_t3030399641* ___lengths3, Action_1_t2832199023 * ___action4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityMultidimensionalArraySerializer_ForEach_m2933084375_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int32U5BU5D_t3030399641* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		Il2CppArray * L_0 = ___array0;
+		int32_t L_1 = Array_get_Rank_m3837250695(L_0, /*hidden argument*/NULL);
+		V_0 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)L_1));
+		V_1 = 0;
+		goto IL_001a;
+	}
+
+IL_0010:
+	{
+		Int32U5BU5D_t3030399641* L_2 = V_0;
+		int32_t L_3 = V_1;
+		Int32U5BU5D_t3030399641* L_4 = ___lowerBounds2;
+		int32_t L_5 = V_1;
+		int32_t L_6 = L_5;
+		int32_t L_7 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_6));
+		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3), (int32_t)L_7);
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_001a:
+	{
+		int32_t L_9 = V_1;
+		Il2CppArray * L_10 = ___array0;
+		int32_t L_11 = Array_get_Rank_m3837250695(L_10, /*hidden argument*/NULL);
+		if ((((int32_t)L_9) < ((int32_t)L_11)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		V_2 = 0;
+		goto IL_006d;
+	}
+
+IL_0027:
+	{
+		Action_1_t2832199023 * L_12 = ___action4;
+		Int32U5BU5D_t3030399641* L_13 = V_0;
+		Action_1_Invoke_m705750319(L_12, L_13, /*hidden argument*/Action_1_Invoke_m705750319_MethodInfo_var);
+		Int32U5BU5D_t3030399641* L_14 = V_0;
+		V_3 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_14)->max_length))))-(int32_t)1));
+		goto IL_0065;
+	}
+
+IL_0037:
+	{
+		Int32U5BU5D_t3030399641* L_15 = V_0;
+		int32_t L_16 = V_3;
+		int32_t L_17 = L_16;
+		int32_t L_18 = (L_15)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_17));
+		Int32U5BU5D_t3030399641* L_19 = ___lengths3;
+		int32_t L_20 = V_3;
+		int32_t L_21 = L_20;
+		int32_t L_22 = (L_19)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_21));
+		Int32U5BU5D_t3030399641* L_23 = ___lowerBounds2;
+		int32_t L_24 = V_3;
+		int32_t L_25 = L_24;
+		int32_t L_26 = (L_23)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_25));
+		if ((((int32_t)((int32_t)((int32_t)L_18+(int32_t)1))) >= ((int32_t)((int32_t)((int32_t)L_22+(int32_t)L_26)))))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		Int32U5BU5D_t3030399641* L_27 = V_0;
+		int32_t L_28 = V_3;
+		int32_t* L_29 = ((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)));
+		(*(int32_t*)L_29) = ((int32_t)((int32_t)(*(int32_t*)L_29)+(int32_t)1));
+		goto IL_0069;
+	}
+
+IL_005b:
+	{
+		Int32U5BU5D_t3030399641* L_30 = V_0;
+		int32_t L_31 = V_3;
+		Int32U5BU5D_t3030399641* L_32 = ___lowerBounds2;
+		int32_t L_33 = V_3;
+		int32_t L_34 = L_33;
+		int32_t L_35 = (L_32)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_34));
+		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)L_35);
+		int32_t L_36 = V_3;
+		V_3 = ((int32_t)((int32_t)L_36-(int32_t)1));
+	}
+
+IL_0065:
+	{
+		int32_t L_37 = V_3;
+		if ((((int32_t)L_37) >= ((int32_t)0)))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_0069:
+	{
+		int32_t L_38 = V_2;
+		V_2 = ((int32_t)((int32_t)L_38+(int32_t)1));
+	}
+
+IL_006d:
+	{
+		int32_t L_39 = V_2;
+		int32_t L_40 = ___totalLength1;
+		if ((((int32_t)L_39) < ((int32_t)L_40)))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass1::.ctor()
+extern "C"  void U3CU3Ec__DisplayClass1__ctor_m3640761654 (U3CU3Ec__DisplayClass1_t397521295 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass1::<PackArrayCore>b__0(System.Int32[])
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t U3CU3Ec__DisplayClass1_U3CPackArrayCoreU3Eb__0_m3365411718_MetadataUsageId;
+extern "C"  void U3CU3Ec__DisplayClass1_U3CPackArrayCoreU3Eb__0_m3365411718 (U3CU3Ec__DisplayClass1_t397521295 * __this, Int32U5BU5D_t3030399641* ___indices0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CU3Ec__DisplayClass1_U3CPackArrayCoreU3Eb__0_m3365411718_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityMultidimensionalArraySerializer_t2820227010 * L_0 = __this->get_U3CU3E4__this_0();
+		Il2CppObject * L_1 = L_0->get__itemSerializer_4();
+		Packer_t1439452732 * L_2 = __this->get_packer_1();
+		Il2CppArray * L_3 = __this->get_array_2();
+		Int32U5BU5D_t3030399641* L_4 = ___indices0;
+		Il2CppObject * L_5 = Array_GetValue_m3550694941(L_3, L_4, /*hidden argument*/NULL);
+		InterfaceActionInvoker2< Packer_t1439452732 *, Il2CppObject * >::Invoke(0 /* System.Void MsgPack.Serialization.IMessagePackSerializer::PackTo(MsgPack.Packer,System.Object) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_1, L_2, L_5);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass4::.ctor()
+extern "C"  void U3CU3Ec__DisplayClass4__ctor_m4277201519 (U3CU3Ec__DisplayClass4_t4289204064 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass7::.ctor()
+extern "C"  void U3CU3Ec__DisplayClass7__ctor_m2845686912 (U3CU3Ec__DisplayClass7_t3885919537 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnityMultidimensionalArraySerializer/<>c__DisplayClass7::<UnpackFromCore>b__3(System.Int32[])
+extern Il2CppClass* IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var;
+extern const uint32_t U3CU3Ec__DisplayClass7_U3CUnpackFromCoreU3Eb__3_m3145369711_MetadataUsageId;
+extern "C"  void U3CU3Ec__DisplayClass7_U3CUnpackFromCoreU3Eb__3_m3145369711 (U3CU3Ec__DisplayClass7_t3885919537 * __this, Int32U5BU5D_t3030399641* ___indices0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CU3Ec__DisplayClass7_U3CUnpackFromCoreU3Eb__3_m3145369711_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec__DisplayClass4_t4289204064 * L_0 = __this->get_CSU24U3CU3E8__locals5_0();
+		Unpacker_t998931393 * L_1 = L_0->get_arrayUnpacker_0();
+		bool L_2 = Unpacker_Read_m301469818(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Exception_t1927440687 * L_3 = SerializationExceptions_NewUnexpectedEndOfStream_m3017929451(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0018:
+	{
+		Il2CppArray * L_4 = __this->get_result_1();
+		UnityMultidimensionalArraySerializer_t2820227010 * L_5 = __this->get_U3CU3E4__this_2();
+		Il2CppObject * L_6 = L_5->get__itemSerializer_4();
+		U3CU3Ec__DisplayClass4_t4289204064 * L_7 = __this->get_CSU24U3CU3E8__locals5_0();
+		Unpacker_t998931393 * L_8 = L_7->get_arrayUnpacker_0();
+		Il2CppObject * L_9 = InterfaceFuncInvoker1< Il2CppObject *, Unpacker_t998931393 * >::Invoke(1 /* System.Object MsgPack.Serialization.IMessagePackSerializer::UnpackFrom(MsgPack.Unpacker) */, IMessagePackSerializer_t814841293_il2cpp_TypeInfo_var, L_6, L_8);
+		Int32U5BU5D_t3030399641* L_10 = ___indices0;
+		Array_SetValue_m2421438042(L_4, L_9, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnixEpocDateTimeMessagePackSerializer::.ctor(MsgPack.Serialization.SerializationContext)
+extern Il2CppClass* MessagePackSerializer_1_t188649323_il2cpp_TypeInfo_var;
+extern const MethodInfo* MessagePackSerializer_1__ctor_m3136838709_MethodInfo_var;
+extern const uint32_t UnixEpocDateTimeMessagePackSerializer__ctor_m1695551904_MetadataUsageId;
+extern "C"  void UnixEpocDateTimeMessagePackSerializer__ctor_m1695551904 (UnixEpocDateTimeMessagePackSerializer_t2915577328 * __this, SerializationContext_t1484625559 * ___ownerContext0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixEpocDateTimeMessagePackSerializer__ctor_m1695551904_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SerializationContext_t1484625559 * L_0 = ___ownerContext0;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackSerializer_1_t188649323_il2cpp_TypeInfo_var);
+		MessagePackSerializer_1__ctor_m3136838709(__this, L_0, /*hidden argument*/MessagePackSerializer_1__ctor_m3136838709_MethodInfo_var);
+		return;
+	}
+}
+// System.Void MsgPack.Serialization.DefaultSerializers.UnixEpocDateTimeMessagePackSerializer::PackToCore(MsgPack.Packer,System.DateTime)
+extern Il2CppClass* MessagePackConvert_t4146551185_il2cpp_TypeInfo_var;
+extern const uint32_t UnixEpocDateTimeMessagePackSerializer_PackToCore_m3191735058_MetadataUsageId;
+extern "C"  void UnixEpocDateTimeMessagePackSerializer_PackToCore_m3191735058 (UnixEpocDateTimeMessagePackSerializer_t2915577328 * __this, Packer_t1439452732 * ___packer0, DateTime_t693205669  ___objectTree1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixEpocDateTimeMessagePackSerializer_PackToCore_m3191735058_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Packer_t1439452732 * L_0 = ___packer0;
+		DateTime_t693205669  L_1 = ___objectTree1;
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackConvert_t4146551185_il2cpp_TypeInfo_var);
+		int64_t L_2 = MessagePackConvert_FromDateTime_m132386872(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Packer_Pack_m3003456375(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.DateTime MsgPack.Serialization.DefaultSerializers.UnixEpocDateTimeMessagePackSerializer::UnpackFromCore(MsgPack.Unpacker)
+extern Il2CppClass* MessagePackConvert_t4146551185_il2cpp_TypeInfo_var;
+extern const uint32_t UnixEpocDateTimeMessagePackSerializer_UnpackFromCore_m2936407256_MetadataUsageId;
+extern "C"  DateTime_t693205669  UnixEpocDateTimeMessagePackSerializer_UnpackFromCore_m2936407256 (UnixEpocDateTimeMessagePackSerializer_t2915577328 * __this, Unpacker_t998931393 * ___unpacker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnixEpocDateTimeMessagePackSerializer_UnpackFromCore_m2936407256_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessagePackObject_t2038085051  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Unpacker_t998931393 * L_0 = ___unpacker0;
+		MessagePackObject_t2038085051  L_1 = VirtFuncInvoker0< MessagePackObject_t2038085051  >::Invoke(9 /* MsgPack.MessagePackObject MsgPack.Unpacker::get_LastReadData() */, L_0);
+		V_0 = L_1;
+		int64_t L_2 = MessagePackObject_AsInt64_m2116700102((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(MessagePackConvert_t4146551185_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_3 = MessagePackConvert_ToDateTime_m2949523089(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

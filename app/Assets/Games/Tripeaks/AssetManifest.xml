@@ -1,0 +1,103 @@
+<Game id="TriPeaks" basePath="TriPeaksBundle" gameMetricPath="tbd" title="TriPeaksBundle" scene="TriPeaks">
+  <AssetSets>
+    <AssetSet name="tripeaks.game.assets">
+      <Asset name="TriPeaksGame" path="/Resources/TriPeaksGame.prefab" type="Prefab" />
+      <Asset name="FX_Fireball" path="/Effects/Resources/FX_Fireball.prefab" type="Prefab" />
+      <Asset name="FX_ScoreFloat" path="/Effects/Resources/FX_ScoreFloat.prefab" type="Prefab" />
+      <Asset name="FaceCard" path="/Cards/Resources/FaceCard.prefab" type="Prefab" />
+      <Asset name="GoldenTikiCard" path="/Cards/Resources/GoldenTikiCard.prefab" type="Prefab" />
+      <Asset name="RedTikiCard" path="/Cards/Resources/RedTikiCard.prefab" type="Prefab" />
+      <Asset name="BlackTikiCard" path="/Cards/Resources/BlackTikiCard.prefab" type="Prefab" />
+      <Asset name="BlossomTikiCard" path="/Cards/Resources/BlossomTikiCard.prefab" type="Prefab" />
+      <Asset name="VolcanoTikiCard" path="/Cards/Resources/VolcanoTikiCard.prefab" type="Prefab" />
+      <Asset name="OneShotWildCard" path="/Cards/Resources/OneShotWildCard.prefab" type="Prefab" />
+      <Asset name="SharkCard" path="/Hazards/Resources/SharkCard.prefab" type="Prefab" />
+      <Asset name="BaitCard" path="/Hazards/Resources/BaitCard.prefab" type="Prefab" />
+      <Asset name="DynamiteHazard" path="/Hazards/Resources/DynamiteHazard.prefab" type="Prefab" />
+      <Asset name="TrapHazard" path="/Hazards/Resources/TrapHazard.prefab" type="Prefab" />
+      <Asset name="BombCutscene" path="/Tutorial/Resources/BombCutscene.prefab" type="Prefab" />
+      <Asset name="SharkCutscene" path="/Tutorial/Resources/SharkCutscene.prefab" type="Prefab" />
+      <Asset name="TrapCutscene" path="/Tutorial/Resources/TrapCutscene.prefab" type="Prefab" />
+      <Asset name="Basics" path="/Tutorial/Resources/Basics.asset" type="Prefab" />
+      <Asset name="ReshuffleComplete" path="/Tutorial/Resources/ReshuffleComplete.asset" type="Prefab" />
+      <Asset name="Results" path="/Tutorial/Resources/Results.asset" type="Prefab" />
+      <Asset name="Gameplay/OrangeTutorialOverlay" path="/Tutorial/Resources/Gameplay/OrangeTutorialOverlay.prefab" type="Prefab" />
+      <Asset name="Gameplay/GreenTutorialOverlay" path="/Tutorial/Resources/Gameplay/GreenTutorialOverlay.prefab" type="Prefab" />
+      <Asset name="GameTips/BombTip1" path="/UI/StartScreen/Resources/GameTips/BombTip1.asset" type="Prefab" />
+      <Asset name="GameTips/BombTip2" path="/UI/StartScreen/Resources/GameTips/BombTip2.asset" type="Prefab" />
+      <Asset name="GameTips/BombTip3" path="/UI/StartScreen/Resources/GameTips/BombTip3.asset" type="Prefab" />
+      <Asset name="GameTips/BombTip4" path="/UI/StartScreen/Resources/GameTips/BombTip4.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip1" path="/UI/StartScreen/Resources/GameTips/GenericTip1.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip2" path="/UI/StartScreen/Resources/GameTips/GenericTip2.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip3" path="/UI/StartScreen/Resources/GameTips/GenericTip3.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip4" path="/UI/StartScreen/Resources/GameTips/GenericTip4.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip5" path="/UI/StartScreen/Resources/GameTips/GenericTip5.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip6" path="/UI/StartScreen/Resources/GameTips/GenericTip6.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip7" path="/UI/StartScreen/Resources/GameTips/GenericTip7.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip8" path="/UI/StartScreen/Resources/GameTips/GenericTip8.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip9" path="/UI/StartScreen/Resources/GameTips/GenericTip9.asset" type="Prefab" />
+      <Asset name="GameTips/GenericTip10" path="/UI/StartScreen/Resources/GameTips/GenericTip10.asset" type="Prefab" />
+      <Asset name="GameTips/HoldTip1" path="/UI/StartScreen/Resources/GameTips/HoldTip1.asset" type="Prefab" />
+      <Asset name="GameTips/SharkTip1" path="/UI/StartScreen/Resources/GameTips/SharkTip1.asset" type="Prefab" />
+      <Asset name="GameTips/SharkTip2" path="/UI/StartScreen/Resources/GameTips/SharkTip2.asset" type="Prefab" />
+      <Asset name="GameTips/SharkTip3" path="/UI/StartScreen/Resources/GameTips/SharkTip3.asset" type="Prefab" />
+      <Asset name="GameTips/ReshuffleTip1" path="/UI/StartScreen/Resources/GameTips/ReshuffleTip1.asset" type="Prefab" />
+      <Asset name="GameTips/ReshuffleTip2" path="/UI/StartScreen/Resources/GameTips/ReshuffleTip2.asset" type="Prefab" />
+      <Asset name="GameTips/TrapTip1" path="/UI/StartScreen/Resources/GameTips/TrapTip1.asset" type="Prefab" />
+      <Asset name="GameTips/TrapTip2" path="/UI/StartScreen/Resources/GameTips/TrapTip2.asset" type="Prefab" />
+      <Asset name="GameTips/WildTip1" path="/UI/StartScreen/Resources/GameTips/WildTip1.asset" type="Prefab" />
+      <Asset name="GameTips/WildTip2" path="/UI/StartScreen/Resources/GameTips/WildTip2.asset" type="Prefab" />
+      <Asset name="GameTips/WildTip3" path="/UI/StartScreen/Resources/GameTips/WildTip3.asset" type="Prefab" />
+      <Asset name="GameTips/WildTip4" path="/UI/StartScreen/Resources/GameTips/WildTip4.asset" type="Prefab" />
+      <Asset name="GameTips/WildTip5" path="/UI/StartScreen/Resources/GameTips/WildTip5.asset" type="Prefab" />
+    </AssetSet>
+    
+    <AssetSet name="tripeaks.deck.assets">
+      <Asset name="DeckData" path="/Decks/Default/DeckData.asset" type="Prefab" />
+    </AssetSet>
+    
+    <AssetSet name="tripeaks.background.scenes.assets">
+        <Asset name="loc_AlohaHarbor" path="/Scenes/Backgrounds/Resources/loc_AlohaHarbor.prefab" type="Prefab" />
+        <Asset name="loc_CaneField" path="/Scenes/Backgrounds/Resources/loc_CaneField.prefab" type="Prefab" />
+        <Asset name="loc_CoconutGrove" path="/Scenes/Backgrounds/Resources/loc_CoconutGrove.prefab" type="Prefab" />
+        <Asset name="loc_FlowerLagoon" path="/Scenes/Backgrounds/Resources/loc_FlowerLagoon.prefab" type="Prefab" />
+        <Asset name="loc_island7_01" path="/Scenes/Backgrounds/Resources/loc_island7_01.prefab" type="Prefab" />
+        <Asset name="loc_island7_02" path="/Scenes/Backgrounds/Resources/loc_island7_02.prefab" type="Prefab" />
+        <Asset name="loc_island8_01" path="/Scenes/Backgrounds/Resources/loc_island8_01.prefab" type="Prefab" />
+        <Asset name="loc_island8_02" path="/Scenes/Backgrounds/Resources/loc_island8_02.prefab" type="Prefab" />
+        <Asset name="loc_island9_01" path="/Scenes/Backgrounds/Resources/loc_island9_01.prefab" type="Prefab" />
+        <Asset name="loc_island9_02" path="/Scenes/Backgrounds/Resources/loc_island9_02.prefab" type="Prefab" />
+        <Asset name="loc_island10_01" path="/Scenes/Backgrounds/Resources/loc_island10_01.prefab" type="Prefab" />
+        <Asset name="loc_island10_02" path="/Scenes/Backgrounds/Resources/loc_island10_02.prefab" type="Prefab" />
+        <Asset name="loc_island11_01" path="/Scenes/Backgrounds/Resources/loc_island11_01.prefab" type="Prefab" />
+        <Asset name="loc_Lanai" path="/Scenes/Backgrounds/Resources/loc_Lanai.prefab" type="Prefab" />
+        <Asset name="loc_LimeStoneHill" path="/Scenes/Backgrounds/Resources/loc_LimeStoneHill.prefab" type="Prefab" />
+        <Asset name="loc_TidePool" path="/Scenes/Backgrounds/Resources/loc_TidePool.prefab" type="Prefab" />
+        <Asset name="loc_TikiBeach" path="/Scenes/Backgrounds/Resources/loc_TikiBeach.prefab" type="Prefab" />
+        <Asset name="loc_TikiTorchCorner" path="/Scenes/Backgrounds/Resources/loc_TikiTorchCorner.prefab" type="Prefab" />
+        <Asset name="loc_TurtleBeach" path="/Scenes/Backgrounds/Resources/loc_TurtleBeach.prefab" type="Prefab" />
+        <Asset name="loc_underwater" path="/Scenes/Backgrounds/Resources/loc_underwater.prefab" type="Prefab" />
+        <Asset name="loc_VolcanoFootForest" path="/Scenes/Backgrounds/Resources/loc_VolcanoFootForest.prefab" type="Prefab" />
+        <Asset name="loc_CutScene" path="/Scenes/Backgrounds/Resources/loc_CutScene.prefab" type="Prefab" />
+    </AssetSet>
+  </AssetSets>
+  <AssetBundles>
+    <AssetBundle name="tripeaks.game.assetbundle" assetSet="tripeaks.game.assets" description="TriPeaks game asset bundle">
+      <Target platform="ios" />
+      <Target platform="android"/>
+    </AssetBundle>
+    
+    <AssetBundle 
+      name="tripeaks.backgrounds.assetbundle" assetSet="tripeaks.background.scenes.assets" description="TriPeaks Background Scenes Asset Bundle">
+        <Target platform="ios"/>
+        <Target platform="android"/>
+    </AssetBundle>
+
+    <AssetBundle
+      name="tripeaks.deck.assetbundle" assetSet="tripeaks.deck.assets" description="TriPeaks Deck Asset Bundle">
+      <Target platform="ios"/>
+      <Target platform="android"/>
+    </AssetBundle>
+
+  </AssetBundles>
+</Game>

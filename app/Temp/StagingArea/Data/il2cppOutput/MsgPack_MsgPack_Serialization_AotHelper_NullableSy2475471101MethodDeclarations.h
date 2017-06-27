@@ -1,0 +1,26 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+// MsgPack.Serialization.AotHelper/NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer
+struct NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer_t2475471101;
+
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Nullable_1_gen3774980484.h"
+
+// System.Void MsgPack.Serialization.AotHelper/NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer::.ctor()
+extern "C"  void NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer__ctor_m136213294 (NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer_t2475471101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean MsgPack.Serialization.AotHelper/NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer::Equals(System.Nullable`1<System.Security.Cryptography.X509Certificates.X509KeyStorageFlags>,System.Nullable`1<System.Security.Cryptography.X509Certificates.X509KeyStorageFlags>)
+extern "C"  bool NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer_Equals_m1022630091 (NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer_t2475471101 * __this, Nullable_1_t3774980484  ___left0, Nullable_1_t3774980484  ___right1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 MsgPack.Serialization.AotHelper/NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer::GetHashCode(System.Nullable`1<System.Security.Cryptography.X509Certificates.X509KeyStorageFlags>)
+extern "C"  int32_t NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer_GetHashCode_m2355051224 (NullableSystem_Security_Cryptography_X509Certificates_X509KeyStorageFlagsEqualityComparer_t2475471101 * __this, Nullable_1_t3774980484  ___obj0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a8cfbf5126dd2024ea9e30f372e155d2
+timeCreated: 1492634529
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DIN Next LT Pro
+  fontNames:
+  - DIN Next LT Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2087aeb41774c4d3e806913beb45bf5d, type: 3}
+  - {fileID: 12800000, guid: 534f23260e5e148a4bbf83862b0c4283, type: 3}
+  - {fileID: 12800000, guid: be262f59230f947a588c3b192929ec52, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Games/GameSDK/ArenaDev/Scenes/DebugArena.unity
+  isLoaded: 1
+  isActive: 1

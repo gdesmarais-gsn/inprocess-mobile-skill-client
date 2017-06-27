@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D80755F-32C1-02E8-E04F-FAEC5ADE3A60}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Json.NET">
+      <HintPath>Assets\Common\ThirdPartyLibraries\Json.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.IO.Compression">
+      <HintPath>Assets\Games\GameSDK\Common\Client\Unity.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="MsgPack">
+      <HintPath>Assets\Games\GameSDK\Common\Libraries\MsgPack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="app.csproj">
+      <Project>{DF69FB1B-1828-2E1E-E55A-9C4013F5F788}</Project>
+      <Name>app</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\Property Drawers\DropdownOptionListDrawer.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\Property Drawers\GlyphInfoDrawer.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\Property Drawers\KerningPairDrawer.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\Property Drawers\SpriteInfoDrawer.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_BaseShaderGUI.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_BitmapShaderGUI.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_ColorGradientAssetMenu.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_ColorGradientEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_DropdownEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_EditorPanel.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_EditorUtility.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_FontAssetEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_InputFieldEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_MeshRendererEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_PostBuildProcessHandler.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_ResourcesLoader.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_SDFShaderGUI.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_SettingsEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_SpriteAssetEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_SpriteAssetImporter.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_SpriteAssetMenu.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_StyleAssetMenu.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_StyleSheetEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_SubMeshUI_Editor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_SubMesh_Editor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_UIStyleManager.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMP_UiEditorPanel.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_ContextMenus.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_CreateObjectMenu.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_EditorShaderUtilities.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_FontAssetCreatorWindow.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_FontPlugin.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_SDFMaterialEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_SortingLayerHelper.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_TextContainerEditor.cs" />
+    <Compile Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Editor\TMPro_TexturePostProcessor.cs" />
+    <Compile Include="Assets\Games\GameSDK\ArenaDev\Editor\ArenaDebugPresetEditor.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\CreateTip.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\GameBuild\BuildGame.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\GameBuild\BuildHelpers.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\GameBuild\BuildUnityGame.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\GameBuild\PerformBuild.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\GameBuild\UnityBuild.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\Utils\AudioMapperEditor.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\Utils\CreateAnimCurve.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\Utils\CreateAssetBundles.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\Utils\CustomAssetUtil.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\Utils\EnumeratedArrayDrawer.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\Utils\StringBindEditorBase.cs" />
+    <Compile Include="Assets\Games\GameSDK\Common\Editor\Utils\TipEditor.cs" />
+    <Compile Include="Assets\Games\GameSDK\Tutorial\Editor\TutorialActiveAreasController_Inspector.cs" />
+    <Compile Include="Assets\Games\GameSDK\Tutorial\Editor\TutorialBlackoutController_Inspector.cs" />
+    <Compile Include="Assets\Games\GameSDK\Tutorial\Editor\TutorialStorage.cs" />
+    <Compile Include="Assets\Games\GameSDK\Tutorial\Editor\Tutorial_EditorWindow.cs" />
+    <Compile Include="Assets\Games\Tripeaks\Editor\AddLevelsToDB.cs" />
+    <Compile Include="Assets\Games\Tripeaks\Editor\BuildLevelData.cs" />
+    <Compile Include="Assets\Games\Tripeaks\Editor\CreateDeckData.cs" />
+    <Compile Include="Assets\Games\Tripeaks\Editor\LoadStringTable.cs" />
+    <Compile Include="Assets\Games\Tripeaks\Editor\UIInfoDrawer.cs" />
+    <Compile Include="Assets\Phoenix\Code\Build\Editor\BuildScript.cs" />
+    <Compile Include="Assets\Phoenix\Code\Editor\AnimationOverrideEditor.cs" />
+    <Compile Include="Assets\Phoenix\Code\Editor\CreateGameResource.cs" />
+    <Compile Include="Assets\Phoenix\Code\Editor\CreatePoolResource.cs" />
+    <Compile Include="Assets\Phoenix\Code\Editor\PostProcessBuildScripts\UpdateIOSInfoPlist.cs" />
+    <Compile Include="Assets\Phoenix\Code\Strings\Editor\LoadStringTable.cs" />
+    <Compile Include="Assets\Phoenix\Code\Strings\Editor\TextMeshProStringBindEditor.cs" />
+    <Compile Include="Assets\Phoenix\ThirdPartyLibraries\Reporter\Editor\ReporterEditor.cs" />
+    <Compile Include="Assets\Phoenix\ThirdPartyLibraries\gree_unity-webview\Android\Editor\UnityWebViewPostprocessBuild.cs" />
+    <Compile Include="Assets\Phoenix\ThirdPartyLibraries\gree_unity-webview\iOS\Editor\UnityWebViewPostprocessBuild.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Common\ThirdPartyLibraries\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Games\GameSDK\Common\Libraries\Versions.txt" />
+    <None Include="Assets\Games\GameSDK\Common\XML\link.xml" />
+    <None Include="Assets\Games\Tripeaks\AssetManifest.xml" />
+    <None Include="Assets\Games\Tripeaks\Backgrounds\Shaders\2d\SpriteWorldSpaceCulledOpaqueDiffuseX2.shader" />
+    <None Include="Assets\Games\Tripeaks\Cards\Materials\SpriteWorldSpaceCulledDiffuseX2.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Additive Blend.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Additive Flicker.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Additive Particle.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Additive Simple Colored.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Additive Simple.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Additive Simpler.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Additive Soft Particle.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\AdditiveTint.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Albedo.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\AlbedoBlend.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\AlbedoNoFog.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\AlbedoUVWithFog.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\AlbedoWorldUV.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Blended Simple.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Confetti.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\DebugSolid.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\DebugSolidNoCull.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\DebugSolidTransparent.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Diffuse Blend.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Diffuse.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\DiffuseWorldUV.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\GradientRadial.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\GradientRadialEmissive.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\GradientY.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Hybrid AutoAlpha Glow.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\HybridUVNoFog.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\HybridUVNoFog2.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\HybridUVWithFog.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Projector Intensify MaskedOntoAlpha.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Projector Intensify MaskedOntoPayline.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Projector Intensify MaskedOntoRGBA.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Projector Intensify MaskedOntoRGBB.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Projector Intensify.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Projector Light.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Projector Shadow.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ProjectorFriendlySprite.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RenderAlbedo.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RenderColor.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RenderNormals.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RenderOverdraw.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RenderOverdrawZ.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RenderUVs.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RimQuadraticCheap.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\RimTextured.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenShot.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpace-Text-NoOutline-ZTest.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpace-Text-NoOutline.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpace-Text-ZTest.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpace-Text.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpace.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpaceInvisibleZ.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpaceRGBB.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ScreenSpaceZTestRGBB.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ShineProjector.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ShinyCard.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ShinyCardOpaque.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceAlbedo.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceAlbedoFlipbookUV.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceAlbedoMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceAlbedoVertexColor.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceAlbedoVertexColorMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceAlbedoZFadeMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceCulledDiffuseX2.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceCulledOpaqueDiffuseX2.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceDiffuse.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceDiffuseFlipbookUV.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceGrayscale.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceNoZ.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceRGBB.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceRGBBMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceRGBBVertexColorMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceRGBBVertexColorNoHint.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceRGBBZFade.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceRGBBZFadeMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\SpriteWorldSpaceZFade.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\TubeInner.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\TubeOuter.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\UnlitWavyTransparent.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Verted Color Blend.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\Vertex Blend2x.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpace-Text-Mask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpace-Text-MaskNoOutline.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpace-Text-NoCull.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpace-Text-NoOutline-UIMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpace-Text-NoOutline.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpace-Text-UIMask.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpace-Text.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpaceFG.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\WorldSpaceFG2.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\ZWrite.shader" />
+    <None Include="Assets\Games\Tripeaks\Shaders\collection.shader" />
+    <None Include="Assets\Games\Tripeaks\link.xml" />
+    <None Include="Assets\Phoenix\UI\Common\Shaders\UIAlphaMask.shader" />
+    <None Include="Assets\StreamingAssets\build_info.txt" />
+    <None Include="Assets\link.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

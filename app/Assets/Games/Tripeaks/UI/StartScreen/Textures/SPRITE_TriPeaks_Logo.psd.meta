@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: c65e28bff39054df8ac532e2407b50f3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: t_prop_title_Tiki
+    21300002: t_prop_title_tripeaks
+    21300004: t_prop_title_leaf1
+    21300006: t_prop_title_leaf2
+    21300008: t_prop_title_leaf3
+    21300010: t_prop_title_backing
+    21300012: t_prop_title_torch_r
+    21300014: t_prop_title_torch_l
+    21300016: t_prop_title_solitaire
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: t_prop_title_Tiki
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 740
+        width: 259
+        height: 282
+      alignment: 9
+      pivot: {x: 0.46865892, y: 0.164177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_tripeaks
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 907
+        width: 235
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_leaf1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 915
+        width: 207
+        height: 67
+      alignment: 9
+      pivot: {x: 0.8333198, y: 0.47980738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_leaf2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 835
+        width: 179
+        height: 59
+      alignment: 9
+      pivot: {x: 0.855227, y: 0.56879073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_leaf3
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 739
+        width: 215
+        height: 71
+      alignment: 9
+      pivot: {x: 0.871257, y: 0.480945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_backing
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 435
+        width: 703
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_torch_r
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 447
+        width: 127
+        height: 171
+      alignment: 9
+      pivot: {x: 0.25498855, y: 0.13606557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_torch_l
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 439
+        width: 119
+        height: 179
+      alignment: 9
+      pivot: {x: 0.78421974, y: 0.1372147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: t_prop_title_solitaire
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 1024
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

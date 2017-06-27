@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d19fbb35a6cc41f6937ece0f5b7e511, type: 3}
+  m_Name: PF_promo_006
+  m_EditorClassIdentifier: 
+  levelName: 
+  entryCost: 1000
+  timeStarRequirement: 180
+  stockCardCount: 17
+  playfieldTutorialState: 4
+  playfieldTutorialTikiState: 0
+  slot1PowerUp: 1
+  slot2PowerUp: 64
+  slot3PowerUp: 4
+  newGetAwayID: 8
+  timdOfDay: 1
+  musicNames:
+  - Music_tikiBeach
+  - Music_limestoneHill
+  - Music_volcanoFoot
+  moreStockCardsCountAdjustment: 0
+  moreStocksBaseMultiOfLevelCost: 1
+  moreStocksAddMultiOfLevelCost: .5
+  smartMoneyPercentage: .00999999978
+  smartMoneyPowerCurve: .987500012
+  undoBaseMultiOfLevelCost: .100000001
+  undoAddMultiOfLevelCost: .100000001
+  wildBaseMultiOfLevelCost: 1
+  wildAddMultiOfLevelCost: .5
+  tikiRedMin: 0
+  tikiRedMax: 0
+  tikiRedChance: 0
+  tikiBlackMin: 0
+  tikiBlackMax: 0
+  tikiBlackChance: 0
+  tikiGoldenMin: 0
+  tikiGoldenMax: 0
+  tikiGoldenChance: 0
+  tikiBlossomMin: 0
+  tikiBlossomMax: 0
+  tikiBlossomChance: 0
+  tikiVolcanoMin: 0
+  tikiVolcanoMax: 0
+  tikiVolcanoChance: 0
+  tikiFireSpawnPosTop: 1
+  tikiFireSpawnPosBot: 3
+  tikiFire: 0
+  bonusCardChance: 10
+  
+  cardData:
+  - cardID: 0
+    cardPos: {x: 1.86001384, y: 1.60998535, z: .312499821}
+    cardRot: {x: 0, y: 0, z: -.342020124, w: .939692616}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 
+    coveredByCards: 02000000
+  - cardID: 1
+    cardPos: {x: .0824984238, y: .724521101, z: .250005573}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 
+    coveredByCards: 06000000050000000400000003000000
+  - cardID: 2
+    cardPos: {x: 1.86279309, y: 1.40151143, z: .250000805}
+    cardRot: {x: 0, y: 0, z: -.342020124, w: .939692616}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 00000000
+    coveredByCards: 17000000
+  - cardID: 3
+    cardPos: {x: .516868174, y: 1.22746646, z: .187501803}
+    cardRot: {x: 0, y: 0, z: 0, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 01000000
+    coveredByCards: 100000000e00000007000000
+  - cardID: 4
+    cardPos: {x: .516342163, y: .166722551, z: .187501803}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 01000000
+    coveredByCards: 110000000f00000008000000
+  - cardID: 5
+    cardPos: {x: -.350818068, y: 1.22744632, z: .187501803}
+    cardRot: {x: 0, y: 0, z: 0, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 01000000
+    coveredByCards: 120000001000000009000000
+  - cardID: 6
+    cardPos: {x: -.351345301, y: .166722551, z: .187501803}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 01000000
+    coveredByCards: 13000000110000000a000000
+  - cardID: 7
+    cardPos: {x: .516864657, y: 1.41339779, z: .125002787}
+    cardRot: {x: 0, y: 0, z: 0, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 03000000
+    coveredByCards: 100000000e000000
+  - cardID: 8
+    cardPos: {x: .516338587, y: -.0192096084, z: .125002787}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 04000000
+    coveredByCards: 110000000f000000
+  - cardID: 9
+    cardPos: {x: -.35081926, y: 1.41337943, z: .125002787}
+    cardRot: {x: 0, y: 0, z: 0, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 05000000
+    coveredByCards: 1200000010000000
+  - cardID: 10
+    cardPos: {x: -.351344109, y: -.0192096084, z: .125002787}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 06000000
+    coveredByCards: 1300000011000000
+  - cardID: 11
+    cardPos: {x: 1.8591603, y: -.194293365, z: .124998018}
+    cardRot: {x: 0, y: 0, z: -.342020124, w: .939692616}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 
+    coveredByCards: 14000000
+  - cardID: 12
+    cardPos: {x: -1.65801513, y: -.200813994, z: .124998018}
+    cardRot: {x: 0, y: 0, z: .342019886, w: .939692736}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 
+    coveredByCards: 16000000
+  - cardID: 13
+    cardPos: {x: -1.65801632, y: 1.59653747, z: .124998018}
+    cardRot: {x: -1.06335817e-12, y: 3.88794899e-13, z: .342019916, w: .939692736}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 
+    coveredByCards: 15000000
+  - cardID: 14
+    cardPos: {x: .826753855, y: 1.59933734, z: .0625037774}
+    cardRot: {x: 0, y: 0, z: 0, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0700000003000000
+    coveredByCards: 
+  - cardID: 15
+    cardPos: {x: .826228976, y: -.205143243, z: .0625037774}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0800000004000000
+    coveredByCards: 
+  - cardID: 16
+    cardPos: {x: .083017379, y: 1.59932196, z: .0625037774}
+    cardRot: {x: 0, y: 0, z: 0, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 09000000070000000500000003000000
+    coveredByCards: 
+  - cardID: 17
+    cardPos: {x: .0824972391, y: -.205143243, z: .0625037774}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0a000000080000000600000004000000
+    coveredByCards: 
+  - cardID: 18
+    cardPos: {x: -.660714388, y: 1.5993036, z: .0625037774}
+    cardRot: {x: 0, y: 0, z: 0, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0900000005000000
+    coveredByCards: 
+  - cardID: 19
+    cardPos: {x: -.661234498, y: -.205142945, z: .0625037774}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0a00000006000000
+    coveredByCards: 
+  - cardID: 20
+    cardPos: {x: 1.85014784, y: .0288297795, z: .0624990091}
+    cardRot: {x: 0, y: 0, z: -.342020124, w: .939692616}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0b000000
+    coveredByCards: 17000000
+  - cardID: 21
+    cardPos: {x: -1.68257391, y: 1.39233756, z: .0624990091}
+    cardRot: {x: -1.06335817e-12, y: 3.88794899e-13, z: .342019916, w: .939692736}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0d000000
+    coveredByCards: 18000000
+  - cardID: 22
+    cardPos: {x: -1.68257511, y: .0288297795, z: .0624990091}
+    cardRot: {x: 0, y: 0, z: .342019886, w: .939692736}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 0c000000
+    coveredByCards: 18000000
+  - cardID: 23
+    cardPos: {x: 1.87985003, y: .724521101, z: 4.76836703e-06}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 1400000002000000
+    coveredByCards: 
+  - cardID: 24
+    cardPos: {x: -1.6528753, y: .724521101, z: 4.76836703e-06}
+    cardRot: {x: -1.13220544e-12, y: 1.65808965e-15, z: 1.47345341e-18, w: 1}
+    cardType: 0
+    cardFaceValue: 0
+    cardSuit: 0
+    coversCards: 1600000015000000
+    coveredByCards: 
+  stockData: []
+  targetWinRate: .400000006
+  simWinRate: .361000001
+  lockStockCardCount: 1
+  targetMargin: 22.9438686
+  simMargin: 19.9438686
+  simMarginNew: 20.7192669
+  dynamicBalancingTiers: []

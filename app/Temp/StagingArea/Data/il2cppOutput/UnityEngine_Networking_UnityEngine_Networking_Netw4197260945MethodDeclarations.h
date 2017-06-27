@@ -1,0 +1,31 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+// UnityEngine.Networking.NetworkSystem.AddPlayerMessage
+struct AddPlayerMessage_t4197260945;
+// UnityEngine.Networking.NetworkReader
+struct NetworkReader_t3187690923;
+// UnityEngine.Networking.NetworkWriter
+struct NetworkWriter_t560143343;
+
+#include "codegen/il2cpp-codegen.h"
+#include "UnityEngine_Networking_UnityEngine_Networking_Netw3187690923.h"
+#include "UnityEngine_Networking_UnityEngine_Networking_Netwo560143343.h"
+
+// System.Void UnityEngine.Networking.NetworkSystem.AddPlayerMessage::.ctor()
+extern "C"  void AddPlayerMessage__ctor_m3137326049 (AddPlayerMessage_t4197260945 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Networking.NetworkSystem.AddPlayerMessage::Deserialize(UnityEngine.Networking.NetworkReader)
+extern "C"  void AddPlayerMessage_Deserialize_m2895270632 (AddPlayerMessage_t4197260945 * __this, NetworkReader_t3187690923 * ___reader0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Networking.NetworkSystem.AddPlayerMessage::Serialize(UnityEngine.Networking.NetworkWriter)
+extern "C"  void AddPlayerMessage_Serialize_m3243479529 (AddPlayerMessage_t4197260945 * __this, NetworkWriter_t560143343 * ___writer0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

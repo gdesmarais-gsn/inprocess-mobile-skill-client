@@ -1,0 +1,18802 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// GSN.Skill.Games.Tripeaks.EndReshuffleTask
+struct EndReshuffleTask_t667447964;
+// GSN.Skill.Games.Tripeaks.GameModel
+struct GameModel_t3841817345;
+// GSN.Skill.Games.Tripeaks.FaceCard
+struct FaceCard_t2291641015;
+// GSN.Skill.Games.Tripeaks.DeckData
+struct DeckData_t2475950745;
+// System.String
+struct String_t;
+// GSN.Skill.Games.Tripeaks.FireballFX
+struct FireballFX_t3277306231;
+// System.Type
+struct Type_t;
+// System.Collections.Generic.List`1<System.Int32>
+struct List_1_t1440998580;
+// GSN.Skill.Games.Tripeaks.FlipCardTask
+struct FlipCardTask_t2449739428;
+// GSN.Skill.Games.Tripeaks.Game
+struct Game_t185433948;
+// GSN.Skill.Games.Common.Model.GameModelBase
+struct GameModelBase_t2215752692;
+// GSN.Skill.Games.Common.Client.Game.ViewBase
+struct ViewBase_t3608972958;
+// GSN.Skill.Games.Tripeaks.View
+struct View_t1946640821;
+// System.Object
+struct Il2CppObject;
+// GSN.Skill.Games.Common.Client.Game.ControllerBase
+struct ControllerBase_t4247623737;
+// GSN.Skill.Games.Tripeaks.Controller
+struct Controller_t3722813314;
+// GSN.Skill.Games.Common.Primitive.Card.GsnCard
+struct GsnCard_t782444760;
+// GSN.Skill.Games.Common.Tasks.GsnScheduler
+struct GsnScheduler_t1299811741;
+// GSN.Skill.Games.Common.Events.IModelEvent
+struct IModelEvent_t642686546;
+// GSN.Skill.Games.Common.Events.IInputMessage
+struct IInputMessage_t3660278550;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t3943999495;
+// System.Int32[]
+struct Int32U5BU5D_t3030399641;
+// System.String[]
+struct StringU5BU5D_t1642385972;
+// System.Converter`2<System.String,System.Int32>
+struct Converter_2_t1811520226;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// System.Converter`2<System.Object,System.Int32>
+struct Converter_2_t3783768388;
+// GSN.Skill.Games.Tripeaks.BaseCardData
+struct BaseCardData_t423020963;
+// GSN.Skill.Games.Tripeaks.Hazard
+struct Hazard_t1547505166;
+// GSN.Skill.Games.Tripeaks.HoldingCard
+struct HoldingCard_t3246184859;
+// GSN.Skill.Games.Tripeaks.LockModelTask
+struct LockModelTask_t2128931019;
+// GSN.Skill.Games.Tripeaks.OverlayBase
+struct OverlayBase_t541437815;
+// GSN.Skill.Games.Tripeaks.PlayfieldData
+struct PlayfieldData_t2127658700;
+// GSN.Skill.Games.Tripeaks.PlayfieldData/CardData
+struct CardData_t1059670474;
+// GSN.Skill.Games.Tripeaks.PlayfieldDataDB
+struct PlayfieldDataDB_t137008370;
+// GSN.Skill.Games.Tripeaks.PlayfieldDataDB/SmartEntryCostConfig
+struct SmartEntryCostConfig_t1863879830;
+// GSN.Skill.Games.Tripeaks.PlayfieldModelData
+struct PlayfieldModelData_t1827511723;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_t1398341365;
+// System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.PlayfieldModelData>
+struct List_1_t1196632855;
+// GSN.Skill.Games.Tripeaks.PoiCharacter
+struct PoiCharacter_t134467383;
+// GSN.Skill.Games.Tripeaks.RemoveCardTask
+struct RemoveCardTask_t1841883743;
+// GSN.Skill.Games.Tripeaks.RemoveTrapTask
+struct RemoveTrapTask_t2105561414;
+// GSN.Skill.Games.Tripeaks.ScoreFloat
+struct ScoreFloat_t1059481002;
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
+// GSN.Skill.Games.Tripeaks.ScoreFloat/<playFireballEffect>c__Iterator0
+struct U3CplayFireballEffectU3Ec__Iterator0_t3428726659;
+// UnityEngine.ParticleSystem
+struct ParticleSystem_t3394631041;
+// GSN.Skill.Games.Tripeaks.SharkTutorial
+struct SharkTutorial_t1460643925;
+// GSN.Skill.Games.Tripeaks.SharkTutorial/<playCutscene>c__Iterator0
+struct U3CplayCutsceneU3Ec__Iterator0_t2937921504;
+// UnityEngine.AudioSource
+struct AudioSource_t1135106623;
+// GSN.Skill.Games.Tripeaks.TextMeshProStringBind
+struct TextMeshProStringBind_t1194233701;
+// TMPro.TextMeshPro
+struct TextMeshPro_t2521834357;
+// TMPro.TextMeshProUGUI
+struct TextMeshProUGUI_t934157183;
+// GSN.Skill.Games.Tripeaks.TikiCard
+struct TikiCard_t4028868529;
+// GSN.Skill.Games.Tripeaks.TikiCardData
+struct TikiCardData_t3556096769;
+// GSN.Skill.Games.Tripeaks.TikiCharacter
+struct TikiCharacter_t3385186228;
+// GSN.Skill.Games.Tripeaks.TrapHazard
+struct TrapHazard_t2246406283;
+// GSN.Skill.Games.Tripeaks.TrapTutorial
+struct TrapTutorial_t2712053025;
+// GSN.Skill.Games.Tripeaks.TrapTutorial/<playCutscene>c__Iterator0
+struct U3CplayCutsceneU3Ec__Iterator0_t1931837820;
+// GSN.Skill.Games.Tripeaks.TriPeaksAnalytics
+struct TriPeaksAnalytics_t1644016319;
+// GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu
+struct TripeaksArenaDebugMenu_t3419621638;
+// UnityEngine.UI.ToggleGroup
+struct ToggleGroup_t1030026315;
+// GSN.Skill.Games.Common.Model.IDataSafePlugin
+struct IDataSafePlugin_t3786836483;
+// GSN.Skill.Games.Tripeaks.TriPeaksAudioMapper
+struct TriPeaksAudioMapper_t3294266492;
+// GSN.Skill.Games.Tripeaks.TriPeaksCard
+struct TriPeaksCard_t214310709;
+// GSN.Skill.Games.Tripeaks.TriPeaksCardCountDebugMenu
+struct TriPeaksCardCountDebugMenu_t3644553040;
+// GSN.Skill.Games.Tripeaks.TriPeaksCardDeck
+struct TriPeaksCardDeck_t1840429032;
+// System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>
+struct List_1_t4087109391;
+// GSN.Skill.Games.Common.Primitive.Card.GsnCardPile
+struct GsnCardPile_t3625903776;
+// GSN.Skill.Games.Common.Utils.GsnRandom
+struct GsnRandom_t3573954395;
+// GSN.Skill.Games.Tripeaks.TriPeaksScheduler
+struct TriPeaksScheduler_t2866304882;
+// GSN.Skill.Games.Tripeaks.TriPeaksStringTable
+struct TriPeaksStringTable_t551140522;
+// GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController
+struct TriPeaksTutorialStepController_t1707295283;
+// GSN.Skill.Games.Common.Tutorial.Unity.TutorialStepPrefabBase
+struct TutorialStepPrefabBase_t3134565035;
+// GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AddOverlayHelper>c__Iterator1
+struct U3CAddOverlayHelperU3Ec__Iterator1_t1701822080;
+// GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialIn>c__Iterator0
+struct U3CAnimateTutorialInU3Ec__Iterator0_t2484811648;
+// GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialOut>c__Iterator2
+struct U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953;
+// GSN.Skill.Games.Tripeaks.Tutorial
+struct Tutorial_t3830978326;
+// GSN.Skill.Games.Tripeaks.TutorialOverlay
+struct TutorialOverlay_t614509732;
+// GSN.Skill.Games.Tripeaks.UIAbortDialog
+struct UIAbortDialog_t1044851848;
+// GSN.Skill.Games.Tripeaks.UIAbortDialog/<animateDialogClose>c__Iterator0
+struct U3CanimateDialogCloseU3Ec__Iterator0_t4072312324;
+// GSN.Skill.Games.Tripeaks.UIGameTip
+struct UIGameTip_t843937479;
+// GSN.Skill.Games.Common.Tip
+struct Tip_t677278875;
+// GSN.Skill.Games.Tripeaks.UIHelp
+struct UIHelp_t1216671393;
+// UnityEngine.RectTransform
+struct RectTransform_t3349966182;
+// GSN.Skill.Games.Tripeaks.UIHelpPage
+struct UIHelpPage_t3687371716;
+// GSN.Skill.Games.Tripeaks.UIHud
+struct UIHud_t3729045721;
+// UnityEngine.Animator
+struct Animator_t69676727;
+// GSN.Skill.Games.Tripeaks.UIHud/<SpeedUpTimeTap>c__Iterator0
+struct U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070;
+// GSN.Skill.Games.Tripeaks.UIHud/<startVolcanoEffect>c__Iterator1
+struct U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552;
+// GSN.Skill.Games.Tripeaks.UIHugeWin
+struct UIHugeWin_t3990307283;
+// GSN.Skill.Games.Tripeaks.UIPrizePoolItem
+struct UIPrizePoolItem_t2852130689;
+// GSN.Skill.Games.Tripeaks.UIResults
+struct UIResults_t3853378288;
+// GSN.Skill.Games.Tripeaks.UIResults/<AnimateResultsIn>c__Iterator1
+struct U3CAnimateResultsInU3Ec__Iterator1_t1519595420;
+// GSN.Skill.Games.Tripeaks.UIResults/<animateResultsOff>c__Iterator0
+struct U3CanimateResultsOffU3Ec__Iterator0_t2278246251;
+// GSN.Skill.Games.Tripeaks.UIResults/<AnimateRollingScore>c__AnonStorey2
+struct U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151;
+// GSN.Skill.Games.Tripeaks.UISettings
+struct UISettings_t1983107723;
+// GSN.Skill.Games.Tripeaks.UIToggleSlider
+struct UIToggleSlider_t3362915155;
+// GSN.Skill.Games.Tripeaks.UIStartScreen
+struct UIStartScreen_t2387721474;
+// GSN.Skill.Games.Tripeaks.UIStartScreen/<bringUpTimerAfterTime>c__Iterator0
+struct U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810;
+// GSN.Skill.Games.Tripeaks.UIStreakCard
+struct UIStreakCard_t3003196368;
+// GSN.Skill.Games.Tripeaks.UITutorialBanner
+struct UITutorialBanner_t4019770918;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_EndReshu667447964.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_EndReshu667447964MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_GameMod3841817345.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tasks_Gsn3376855096MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Model_Gam2215752692MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_GameMod3841817345MethodDeclarations.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_String2029220233.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tasks_Gsn3376855096.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FaceCar2291641015.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FaceCar2291641015MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Card2087545274MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_PileID2297141513.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_CardTyp2845949242.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_DeckDat2475950745.h"
+#include "UnityEngine_UnityEngine_Renderer257310565MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material193706927MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Card2087545274.h"
+#include "UnityEngine_UnityEngine_SkinnedMeshRenderer4220419316.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
+#include "UnityEngine_UnityEngine_MeshRenderer1268241104.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive3294952118.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive1325840931.h"
+#include "mscorlib_System_Int322071877448MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Firebal3277306231.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Firebal3277306231MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Po1962253443MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FirstDe3429209465.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FirstDe3429209465MethodDeclarations.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "mscorlib_System_Type1303803226MethodDeclarations.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FlipCard531222657.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FlipCard531222657MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1440998580.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1440998580MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FlipCar2449739428.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FlipCar2449739428MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Events_Ev3009527247MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FlippedC823793726.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_FlippedC823793726MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_GainDea1345594440.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_GainDea1345594440MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Game185433948.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Game185433948MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ga3011854951MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeaks551140522MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1644016319MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeaks551140522.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1644016319.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ga3011854951.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Model_Gam2215752692.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ga3608972958.h"
+#include "UnityEngine_UnityEngine_Component3819376471MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_View1946640821.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ga4247623737.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Control3722813314.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Game_G405122MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Game_G405122.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1445386684MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4087109391MethodDeclarations.h"
+#include "System_System_Collections_Generic_Stack_1_gen1730414700MethodDeclarations.h"
+#include "mscorlib_System_Runtime_CompilerServices_RuntimeHel266230107MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_LockMod2128931019MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1445386684.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4087109391.h"
+#include "System_System_Collections_Generic_Stack_1_gen1730414700.h"
+#include "mscorlib_ArrayTypes.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3469664276.h"
+#include "mscorlib_System_RuntimeFieldHandle2331729674.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3986656710.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_LockMod2128931019.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive_782444760.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive3625903776MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive3625903776.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tasks_Gsn1299811741.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak2866304882MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak2866304882.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS3654187114MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tasks_Gsn1299811741MethodDeclarations.h"
+#include "Json_NET_Newtonsoft_Json_Linq_JToken2552644013MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS3725099735.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS3725099735MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS3654187114.h"
+#include "Json_NET_Newtonsoft_Json_Linq_JToken2552644013.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1840429032.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive1784400993MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat975728254.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat975728254MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BaseCard423020963.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive2915596887MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive_782444760MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeaks214310709.h"
+#include "mscorlib_System_Math2022911894MethodDeclarations.h"
+#include "mscorlib_System_Exception1927440687MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tasks_Gsn2111061105MethodDeclarations.h"
+#include "mscorlib_System_Exception1927440687.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tasks_Gsn2111061105.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BeginUn4074255339.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BeginUn4074255339MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_InputMes956214965MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Utils_Gsn3573954395MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_InputMe2745275775.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_CardClic157524846.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ShowRes2008462107.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_CardClic864906509.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_CardClic864906509MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_HoldSpo4219400472.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_HoldSpo4219400472MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_DealToWa557574109.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_DealToWa557574109MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_MoveCard830903267.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_MoveCard830903267MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_HoldCar2539933680.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_HoldCar2539933680MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_WasteToD986620231.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_WasteToD986620231MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemovedTo47322973.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemovedTo47322973MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Utils_Gsn3573954395.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BurnRNGU498309376.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BurnRNGU498309376MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Reshuffl614706430.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Reshuffl614706430MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UndoEve3764390952MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeaks214310709MethodDeclarations.h"
+#include "mscorlib_System_ArgumentException3259014390MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UndoEve2965253050.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tableau2195983855.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_AddCardT456571566.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveCa964717432.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Uncovere769399927.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModifyS1352980234.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModifySc483283180.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ChangeT1816012290.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveCar52364908.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveC2713688858.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_OneShot2427321765.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Advance3866957267.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Advance4144436193.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS2125789319.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS2125789319MethodDeclarations.h"
+#include "mscorlib_System_ArgumentException3259014390.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BlockIn1546333643.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BlockIn1546333643MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3943999495.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3943999495MethodDeclarations.h"
+#include "mscorlib_System_Convert2607082565MethodDeclarations.h"
+#include "mscorlib_System_Converter_2_gen1811520226MethodDeclarations.h"
+#include "mscorlib_System_Array3829468939MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie1827511723MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1840429032MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Configu3648600076MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie1827511723.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "mscorlib_System_Converter_2_gen1811520226.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive1784400993.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive2531298357.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive2531298357MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BuildPla380407814.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BuildPla380407814MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Configu3648600076.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModifyS1352980234MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_EndGame3448324057.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_EndGame3448324057MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Utils_Gsn1785824881MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveC1841883743MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveC1841883743.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveC1579643884.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveC1579643884MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveC2713688858MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Advance4144436193MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ChangeT1816012290MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tableau2195983855MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModifySc483283180MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveT2105561414MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveT2105561414.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveCa964717432MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Uncovere769399927MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_AddCardT456571566MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS1956936452MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateS1956936452.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveCar52364908MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ShowBan1981401907.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ShowBan1981401907MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ClickCar593835101MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ClickCar593835101.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Reshuffl992434719.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_OneShot2427321765MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Advance3866957267MethodDeclarations.h"
+#include "mscorlib_System_Text_StringBuilder1221177846MethodDeclarations.h"
+#include "mscorlib_System_Text_StringBuilder1221177846.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_OptionN3712375542.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_GameMode731480654.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_GameMode731480654MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Hazard1547505166.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Hazard1547505166MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_OverlayB541437815MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator69676727MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_OverlayB541437815.h"
+#include "UnityEngine_UnityEngine_Animator69676727.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Holding3246184859.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Holding3246184859MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ga3608972958MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_HoldMes1184526154.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_HoldMes1184526154MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_InputMes956214965.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_InputMe2745275775MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModelEv3002248181.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModelEv3002248181MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModelEve104980243.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ModelEve104980243MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_MultiLo1677448946.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_MultiLo1677448946MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_OptionN3712375542MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_PileID2297141513MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie2127658700.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie2127658700MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ScriptableObject1975622470MethodDeclarations.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie1059670474.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie1059670474MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_BaseCard423020963MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfiel137008370.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfiel137008370MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie1863879830MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Playfie1863879830.h"
+#include "Json_NET_Newtonsoft_Json_JsonConvert3949895659MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365MethodDeclarations.h"
+#include "mscorlib_System_IO_File1930543328MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
+#include "Assembly-CSharp_ArrayTypes.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TikiCar3556096769MethodDeclarations.h"
+#include "Json_NET_Newtonsoft_Json_JsonConvert3949895659.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TikiCar3556096769.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1196632855.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1196632855MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_PoiChara134467383.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_PoiChara134467383MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Renderer257310565.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_DustFX531013926MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_DustFX531013926.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveT1752705367.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_RemoveT1752705367MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Reshuffl992434719MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Reshuff2220023905.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Reshuff2220023905MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ScoreFl1059481002.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ScoreFl1059481002MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "UnityEngine_UnityEngine_Transform3275118058MethodDeclarations.h"
+#include "AssemblyU2DCSharp_TMPro_TMP_Text1920000777MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Sing52774316MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_St1872322127MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector32243707580MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "AssemblyU2DCSharp_TMPro_TextMeshProUGUI934157183.h"
+#include "UnityEngine_UnityEngine_Color32874517518.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_St1872322127.h"
+#include "UnityEngine_UnityEngine_Coroutine2299508840.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ScoreFl3428726659MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ScoreFl3428726659.h"
+#include "UnityEngine_UnityEngine_ParticleSystem3394631041MethodDeclarations.h"
+#include "AssemblyU2DCSharp_LeanTween4120592429MethodDeclarations.h"
+#include "AssemblyU2DCSharp_LTDescr1981209097MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds3839502067MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem3394631041.h"
+#include "AssemblyU2DCSharp_LTDescr1981209097.h"
+#include "AssemblyU2DCSharp_LeanTweenType1294766541.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds3839502067.h"
+#include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_SharkTu1460643925.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_SharkTu1460643925MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_SharkTu2937921504MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_SharkTu2937921504.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Si4244646303MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Au2285776918MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHugeW3990307283MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TikiCha3385186228.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Au2285776918.h"
+#include "UnityEngine_UnityEngine_AudioSource1135106623.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1522499721.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHugeW3990307283.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ShowRes2008462107MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TextMes1194233701.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TextMes1194233701MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_St1109163060MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_St1109163060.h"
+#include "AssemblyU2DCSharp_TMPro_TextMeshPro2521834357.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TikiCar4028868529.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TikiCar4028868529MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TikiCha3385186228MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TrapHaz2246406283.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TrapHaz2246406283MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TrapTut2712053025.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TrapTut2712053025MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TrapTut1931837820MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TrapTut1931837820.h"
+#include "mscorlib_System_Action_1_gen1831019615MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ga2237101310MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1831019615.h"
+#include "UnityEngine_UnityEngine_Debug1368543263.h"
+#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ga2237101310.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge309261261.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tripeak3419621638.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tripeak3419621638MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3345875600MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_De2246245529MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3345875600.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_VersionIn3187840890MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Screen786852042MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_VersionIn3187840890.h"
+#include "UnityEngine_UnityEngine_ScreenOrientation4019489636.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_De2246245529.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen897193173MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen3863924733MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_ToggleGroup1030026315MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Toggle3976754468MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button2872111280MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Toggle3976754468.h"
+#include "UnityEngine_UI_UnityEngine_UI_ToggleGroup1030026315.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button2872111280.h"
+#include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleEvent1896830814.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen897193173.h"
+#include "UnityEngine_UI_UnityEngine_UI_InputField1631627530.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button_ButtonClicked2455055323.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511.h"
+#include "UnityEngine_UnityEngine_PlayerPrefs3325146001MethodDeclarations.h"
+#include "mscorlib_System_Enum2459695545MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1522499721MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak3294266492.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak3294266492MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Aud938670168MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Dynamit3600144113MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Dynamit3600144113.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateD2826823220.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UpdateD2826823220MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak3644553040.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak3644553040MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_De3119797646MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Primitive1823276868MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ClearBo2626500532MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_ClearBo2626500532.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1707295283.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1707295283MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tutorial_2587800018MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak2484811648MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak2484811648.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1701822080MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1701822080.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tutorial_3134565035.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1292674953MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_TriPeak1292674953.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Board4208424732MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Board4208424732.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Sin417789728MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tutorial_2237337539MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tutorial_2237337539.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_View1946640821MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tutorial_2587800018.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutoria3830978326.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutoria3830978326MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutoria4063233487.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutoria4063233487MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutorial553455370.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutorial553455370MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutorial614509732.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_Tutorial614509732MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIAbort1044851848.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIAbort1044851848MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIAbort4072312324MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIAbort4072312324.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIGameTi843937479.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIGameTi843937479MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Tip677278875.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image2042527209MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image2042527209.h"
+#include "UnityEngine_UnityEngine_Sprite309593783.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHelp1216671393.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHelp1216671393MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RectTransform3349966182MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RectTransform3349966182.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "UnityEngine_UI_UnityEngine_UI_ScrollRect1199013257.h"
+#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector22243707579MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHelpP3687371716.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHelpP3687371716MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHud3729045721.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHud3729045721MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIStrea3003196368.h"
+#include "UnityEngine_UnityEngine_RuntimeAnimatorController670468573.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Utils_Str2329495873MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Au1935450831.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIStrea3003196368MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Aud515001514.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Si3570932034MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ti1095512549MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Time31991979MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Ti1095512549.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHud_U3351556070MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHud_U3351556070.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHud_U1945830552MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIHud_U1945830552.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_CameraSha68180435MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_CameraSha68180435.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIPrize2852130689.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIPrize2852130689MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul3853378288.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul3853378288MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Behaviour955675639MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul2278246251MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul2278246251.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul1519595420MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul1519595420.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul3876820151MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1878309314MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIResul3876820151.h"
+#include "mscorlib_System_Action_1_gen1878309314.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Client_Au2708447681MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UISetti1983107723.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UISetti1983107723MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIToggl3362915155MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIToggl3362915155.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIStart2387721474.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIStart2387721474MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_Utils_Game186645125.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Common_ArenaProx2596914437MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIStart2157108810MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UIStart2157108810.h"
+#include "mscorlib_System_DateTime693205669MethodDeclarations.h"
+#include "mscorlib_System_DateTime693205669.h"
+#include "mscorlib_System_TimeSpan3430258949.h"
+#include "mscorlib_System_TimeSpan3430258949MethodDeclarations.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "mscorlib_System_Single2076509932MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UITutor4019770918.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UITutor4019770918MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UndoEve3764390952.h"
+#include "AssemblyU2DCSharp_GSN_Skill_Games_Tripeaks_UndoEve2965253050MethodDeclarations.h"
+
+// !!0 UnityEngine.Component::GetComponentInChildren<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponentInChildren_TisIl2CppObject_m2461586036_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponentInChildren_TisIl2CppObject_m2461586036(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m2461586036_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInChildren<GSN.Skill.Games.Tripeaks.View>()
+#define Component_GetComponentInChildren_TisView_t1946640821_m4077289771(__this, method) ((  View_t1946640821 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m2461586036_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3813873105(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<GSN.Skill.Games.Tripeaks.Controller>()
+#define GameObject_AddComponent_TisController_t3722813314_m1524956097(__this, method) ((  Controller_t3722813314 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!1[] System.Array::ConvertAll<System.Object,System.Int32>(!!0[],System.Converter`2<!!0,!!1>)
+extern "C"  Int32U5BU5D_t3030399641* Array_ConvertAll_TisIl2CppObject_TisInt32_t2071877448_m613686576_gshared (Il2CppObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* p0, Converter_2_t3783768388 * p1, const MethodInfo* method);
+#define Array_ConvertAll_TisIl2CppObject_TisInt32_t2071877448_m613686576(__this /* static, unused */, p0, p1, method) ((  Int32U5BU5D_t3030399641* (*) (Il2CppObject * /* static, unused */, ObjectU5BU5D_t3614634134*, Converter_2_t3783768388 *, const MethodInfo*))Array_ConvertAll_TisIl2CppObject_TisInt32_t2071877448_m613686576_gshared)(__this /* static, unused */, p0, p1, method)
+// !!1[] System.Array::ConvertAll<System.String,System.Int32>(!!0[],System.Converter`2<!!0,!!1>)
+#define Array_ConvertAll_TisString_t_TisInt32_t2071877448_m3844342154(__this /* static, unused */, p0, p1, method) ((  Int32U5BU5D_t3030399641* (*) (Il2CppObject * /* static, unused */, StringU5BU5D_t1642385972*, Converter_2_t1811520226 *, const MethodInfo*))Array_ConvertAll_TisIl2CppObject_TisInt32_t2071877448_m613686576_gshared)(__this /* static, unused */, p0, p1, method)
+// !!0 Newtonsoft.Json.JsonConvert::DeserializeObject<System.Object>(System.String)
+extern "C"  Il2CppObject * JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method);
+#define JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, p0, method)
+// !!0 Newtonsoft.Json.JsonConvert::DeserializeObject<System.Collections.Generic.List`1<System.String>>(System.String)
+#define JsonConvert_DeserializeObject_TisList_1_t1398341365_m2111862778(__this /* static, unused */, p0, method) ((  List_1_t1398341365 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, p0, method)
+// !!0 Newtonsoft.Json.JsonConvert::DeserializeObject<System.String[]>(System.String)
+#define JsonConvert_DeserializeObject_TisStringU5BU5D_t1642385972_m1242734624(__this /* static, unused */, p0, method) ((  StringU5BU5D_t1642385972* (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m2650145732(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.ParticleSystem>()
+#define GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504(__this, method) ((  ParticleSystem_t3394631041 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// UnityEngine.AudioSource GSN.Skill.Games.Common.Client.Audio.AudioFactory::PlaySoundEffect<GSN.Skill.Games.Tripeaks.TriPeaksAudio>(E,System.Boolean)
+extern "C"  AudioSource_t1135106623 * AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_gshared (AudioFactory_t2285776918 * __this, int32_t ___audio0, bool ___random1, const MethodInfo* method);
+#define AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(__this, ___audio0, ___random1, method) ((  AudioSource_t1135106623 * (*) (AudioFactory_t2285776918 *, int32_t, bool, const MethodInfo*))AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_gshared)(__this, ___audio0, ___random1, method)
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m4109961936(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<TMPro.TextMeshPro>()
+#define Component_GetComponent_TisTextMeshPro_t2521834357_m3938001502(__this, method) ((  TextMeshPro_t2521834357 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<TMPro.TextMeshProUGUI>()
+#define Component_GetComponent_TisTextMeshProUGUI_t934157183_m2082539744(__this, method) ((  TextMeshProUGUI_t934157183 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 Newtonsoft.Json.JsonConvert::DeserializeObject<System.Collections.Generic.List`1<System.Int32>>(System.String)
+#define JsonConvert_DeserializeObject_TisList_1_t1440998580_m1883485969(__this /* static, unused */, p0, method) ((  List_1_t1440998580 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.ToggleGroup>()
+#define GameObject_AddComponent_TisToggleGroup_t1030026315_m2684304554(__this, method) ((  ToggleGroup_t1030026315 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
+#define Component_GetComponent_TisRectTransform_t3349966182_m1310250299(__this, method) ((  RectTransform_t3349966182 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.RectTransform>()
+#define GameObject_GetComponent_TisRectTransform_t3349966182_m132995507(__this, method) ((  RectTransform_t3349966182 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<GSN.Skill.Games.Tripeaks.UIHelpPage>()
+#define GameObject_GetComponent_TisUIHelpPage_t3687371716_m3278525244(__this, method) ((  UIHelpPage_t3687371716 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// UnityEngine.AudioSource GSN.Skill.Games.Common.Client.Audio.AudioFactory::PlayMusic<GSN.Skill.Games.Tripeaks.TriPeaksAudio>(E,System.Boolean)
+extern "C"  AudioSource_t1135106623 * AudioFactory_PlayMusic_TisTriPeaksAudio_t1522499721_m4147641095_gshared (AudioFactory_t2285776918 * __this, int32_t ___audio0, bool ___random1, const MethodInfo* method);
+#define AudioFactory_PlayMusic_TisTriPeaksAudio_t1522499721_m4147641095(__this, ___audio0, ___random1, method) ((  AudioSource_t1135106623 * (*) (AudioFactory_t2285776918 *, int32_t, bool, const MethodInfo*))AudioFactory_PlayMusic_TisTriPeaksAudio_t1522499721_m4147641095_gshared)(__this, ___audio0, ___random1, method)
+// UnityEngine.AudioSource GSN.Skill.Games.Common.Client.Audio.AudioFactory::PlaySoundEffect<GSN.Skill.Games.Tripeaks.TriPeaksAudio>(E,GSN.Skill.Games.Common.Client.Audio.AudioOptions,System.Boolean)
+extern "C"  AudioSource_t1135106623 * AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_gshared (AudioFactory_t2285776918 * __this, int32_t ___audio0, AudioOptions_t515001514  ___options1, bool ___random2, const MethodInfo* method);
+#define AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372(__this, ___audio0, ___options1, ___random2, method) ((  AudioSource_t1135106623 * (*) (AudioFactory_t2285776918 *, int32_t, AudioOptions_t515001514 , bool, const MethodInfo*))AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_gshared)(__this, ___audio0, ___options1, ___random2, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Animator>()
+#define Component_GetComponent_TisAnimator_t69676727_m475627522(__this, method) ((  Animator_t69676727 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Animator>()
+#define GameObject_GetComponent_TisAnimator_t69676727_m2717502299(__this, method) ((  Animator_t69676727 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m447919519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m447919519(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Object::Instantiate<GSN.Skill.Games.Tripeaks.UIAbortDialog>(!!0)
+#define Object_Instantiate_TisUIAbortDialog_t1044851848_m3388440905(__this /* static, unused */, p0, method) ((  UIAbortDialog_t1044851848 * (*) (Il2CppObject * /* static, unused */, UIAbortDialog_t1044851848 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponent<GSN.Skill.Games.Tripeaks.UIToggleSlider>()
+#define Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313(__this, method) ((  UIToggleSlider_t3362915155 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GSN.Skill.Games.Tripeaks.EndReshuffleTask::.ctor(GSN.Skill.Games.Tripeaks.GameModel)
+extern Il2CppCodeGenString* _stringLiteral136639744;
+extern const uint32_t EndReshuffleTask__ctor_m2846647072_MetadataUsageId;
+extern "C"  void EndReshuffleTask__ctor_m2846647072 (EndReshuffleTask_t667447964 * __this, GameModel_t3841817345 * ___model0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EndReshuffleTask__ctor_m2846647072_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GsnTaskBase__ctor_m833660190(__this, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_0 = ___model0;
+		__this->set__model_7(L_0);
+		GameModel_t3841817345 * L_1 = ___model0;
+		int32_t L_2 = GameModelBase_GetStateTime_m1319221827(L_1, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_3 = __this->get__model_7();
+		int32_t L_4 = GameModel_GetTweakable_m2311541351(L_3, _stringLiteral136639744, /*hidden argument*/NULL);
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void GSN.Skill.Games.Common.Tasks.GsnTaskBase::set_wakeUpTime(System.Int32) */, __this, ((int32_t)((int32_t)L_2+(int32_t)L_4)));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.EndReshuffleTask::Run()
+extern "C"  void EndReshuffleTask_Run_m1749202525 (EndReshuffleTask_t667447964 * __this, const MethodInfo* method)
+{
+	{
+		GameModel_t3841817345 * L_0 = __this->get__model_7();
+		GameModel_EndReshuffle_m1198729544(L_0, /*hidden argument*/NULL);
+		GsnTaskBase_UnSchedule_m1949516266(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.FaceCard::.ctor()
+extern "C"  void FaceCard__ctor_m209453711 (FaceCard_t2291641015 * __this, const MethodInfo* method)
+{
+	{
+		Card__ctor_m3748902628(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.FaceCard::setCard(System.Int32,System.Int32,GSN.Skill.Games.Tripeaks.PileID,GSN.Skill.Games.Tripeaks.CardType,GSN.Skill.Games.Tripeaks.DeckData)
+extern Il2CppCodeGenString* _stringLiteral4026354833;
+extern const uint32_t FaceCard_setCard_m2193832008_MetadataUsageId;
+extern "C"  void FaceCard_setCard_m2193832008 (FaceCard_t2291641015 * __this, int32_t ___cardId0, int32_t ___index1, int32_t ___pileID2, int32_t ___cardType3, DeckData_t2475950745 * ___deckData4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FaceCard_setCard_m2193832008_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___cardId0;
+		int32_t L_1 = ___index1;
+		int32_t L_2 = ___pileID2;
+		int32_t L_3 = ___cardType3;
+		DeckData_t2475950745 * L_4 = ___deckData4;
+		Card_setCard_m3240097925(__this, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = ((Card_t2087545274 *)__this)->get__value_6();
+		V_0 = ((int32_t)((int32_t)L_5/(int32_t)((int32_t)13)));
+		int32_t L_6 = ((Card_t2087545274 *)__this)->get__value_6();
+		V_1 = ((int32_t)((int32_t)L_6%(int32_t)((int32_t)13)));
+		SkinnedMeshRenderer_t4220419316 * L_7 = __this->get__numberRenderer_48();
+		Material_t193706927 * L_8 = Renderer_get_material_m2553789785(L_7, /*hidden argument*/NULL);
+		DeckData_t2475950745 * L_9 = ___deckData4;
+		TextureU5BU5D_t2474608790* L_10 = L_9->get__blackNumberTextures_4();
+		int32_t L_11 = V_1;
+		int32_t L_12 = L_11;
+		Texture_t2243626319 * L_13 = (L_10)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_12));
+		Material_SetTexture_m141095205(L_8, _stringLiteral4026354833, L_13, /*hidden argument*/NULL);
+		int32_t L_14 = V_0;
+		if ((((int32_t)L_14) == ((int32_t)1)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		int32_t L_15 = V_0;
+		if ((!(((uint32_t)L_15) == ((uint32_t)3))))
+		{
+			goto IL_006b;
+		}
+	}
+
+IL_004d:
+	{
+		SkinnedMeshRenderer_t4220419316 * L_16 = __this->get__numberRenderer_48();
+		Material_t193706927 * L_17 = Renderer_get_material_m2553789785(L_16, /*hidden argument*/NULL);
+		DeckData_t2475950745 * L_18 = ___deckData4;
+		TextureU5BU5D_t2474608790* L_19 = L_18->get__redNumberTextures_3();
+		int32_t L_20 = V_1;
+		int32_t L_21 = L_20;
+		Texture_t2243626319 * L_22 = (L_19)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_21));
+		Material_SetTexture_m141095205(L_17, _stringLiteral4026354833, L_22, /*hidden argument*/NULL);
+	}
+
+IL_006b:
+	{
+		SkinnedMeshRenderer_t4220419316 * L_23 = __this->get__suitRenderer_47();
+		Material_t193706927 * L_24 = Renderer_get_material_m2553789785(L_23, /*hidden argument*/NULL);
+		DeckData_t2475950745 * L_25 = ___deckData4;
+		TextureU5BU5D_t2474608790* L_26 = L_25->get__suitTextures_2();
+		int32_t L_27 = V_0;
+		int32_t L_28 = L_27;
+		Texture_t2243626319 * L_29 = (L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		Material_SetTexture_m141095205(L_24, _stringLiteral4026354833, L_29, /*hidden argument*/NULL);
+		MeshRenderer_t1268241104 * L_30 = ((Card_t2087545274 *)__this)->get__cardBackRenderer_12();
+		Material_t193706927 * L_31 = Renderer_get_material_m2553789785(L_30, /*hidden argument*/NULL);
+		DeckData_t2475950745 * L_32 = ___deckData4;
+		Texture_t2243626319 * L_33 = L_32->get__cardBackTexture_5();
+		Material_SetTexture_m141095205(L_31, _stringLiteral4026354833, L_33, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.FaceCard::setCardTint(System.Int32)
+extern Il2CppCodeGenString* _stringLiteral895546098;
+extern const uint32_t FaceCard_setCardTint_m3733921463_MetadataUsageId;
+extern "C"  void FaceCard_setCardTint_m3733921463 (FaceCard_t2291641015 * __this, int32_t ___timeOfDay0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FaceCard_setCardTint_m3733921463_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___timeOfDay0;
+		Card_setCardTint_m3917244074(__this, L_0, /*hidden argument*/NULL);
+		SkinnedMeshRenderer_t4220419316 * L_1 = __this->get__suitRenderer_47();
+		Material_t193706927 * L_2 = Renderer_get_material_m2553789785(L_1, /*hidden argument*/NULL);
+		ColorU5BU5D_t672350442* L_3 = ((Card_t2087545274 *)__this)->get__timeOfDayTint_42();
+		int32_t L_4 = ___timeOfDay0;
+		Material_SetColor_m650857509(L_2, _stringLiteral895546098, (*(Color_t2020392075 *)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))), /*hidden argument*/NULL);
+		SkinnedMeshRenderer_t4220419316 * L_5 = __this->get__numberRenderer_48();
+		Material_t193706927 * L_6 = Renderer_get_material_m2553789785(L_5, /*hidden argument*/NULL);
+		ColorU5BU5D_t672350442* L_7 = ((Card_t2087545274 *)__this)->get__timeOfDayTint_42();
+		int32_t L_8 = ___timeOfDay0;
+		Material_SetColor_m650857509(L_6, _stringLiteral895546098, (*(Color_t2020392075 *)((L_7)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_8)))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.FaceCard::GetPrettyString()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029416;
+extern Il2CppCodeGenString* _stringLiteral372029421;
+extern Il2CppCodeGenString* _stringLiteral372029415;
+extern Il2CppCodeGenString* _stringLiteral372029405;
+extern Il2CppCodeGenString* _stringLiteral372029407;
+extern Il2CppCodeGenString* _stringLiteral372029414;
+extern Il2CppCodeGenString* _stringLiteral372029402;
+extern Il2CppCodeGenString* _stringLiteral372029423;
+extern const uint32_t FaceCard_GetPrettyString_m1271083311_MetadataUsageId;
+extern "C"  String_t* FaceCard_GetPrettyString_m1271083311 (FaceCard_t2291641015 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FaceCard_GetPrettyString_m1271083311_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_0;
+		int32_t L_1 = ((Card_t2087545274 *)__this)->get__value_6();
+		V_1 = ((int32_t)((int32_t)L_1/(int32_t)((int32_t)13)));
+		int32_t L_2 = ((Card_t2087545274 *)__this)->get__value_6();
+		V_2 = ((int32_t)((int32_t)L_2%(int32_t)((int32_t)13)));
+		int32_t L_3 = V_2;
+		V_2 = ((int32_t)((int32_t)L_3+(int32_t)1));
+		int32_t L_4 = V_2;
+		if (((int32_t)((int32_t)L_4-(int32_t)((int32_t)11))) == 0)
+		{
+			goto IL_003f;
+		}
+		if (((int32_t)((int32_t)L_4-(int32_t)((int32_t)11))) == 1)
+		{
+			goto IL_004a;
+		}
+		if (((int32_t)((int32_t)L_4-(int32_t)((int32_t)11))) == 2)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		int32_t L_5 = V_2;
+		if ((((int32_t)L_5) == ((int32_t)1)))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		goto IL_006b;
+	}
+
+IL_003f:
+	{
+		V_0 = _stringLiteral372029416;
+		goto IL_0080;
+	}
+
+IL_004a:
+	{
+		V_0 = _stringLiteral372029421;
+		goto IL_0080;
+	}
+
+IL_0055:
+	{
+		V_0 = _stringLiteral372029415;
+		goto IL_0080;
+	}
+
+IL_0060:
+	{
+		V_0 = _stringLiteral372029405;
+		goto IL_0080;
+	}
+
+IL_006b:
+	{
+		int32_t L_6 = V_2;
+		V_3 = L_6;
+		String_t* L_7 = Int32_ToString_m2960866144((&V_3), /*hidden argument*/NULL);
+		V_0 = L_7;
+		goto IL_0080;
+	}
+
+IL_0080:
+	{
+		int32_t L_8 = V_1;
+		if (L_8 == 0)
+		{
+			goto IL_009b;
+		}
+		if (L_8 == 1)
+		{
+			goto IL_00bd;
+		}
+		if (L_8 == 2)
+		{
+			goto IL_00ce;
+		}
+		if (L_8 == 3)
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		goto IL_00df;
+	}
+
+IL_009b:
+	{
+		String_t* L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Concat_m2596409543(NULL /*static, unused*/, L_9, _stringLiteral372029407, /*hidden argument*/NULL);
+		V_0 = L_10;
+		goto IL_00df;
+	}
+
+IL_00ac:
+	{
+		String_t* L_11 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_12 = String_Concat_m2596409543(NULL /*static, unused*/, L_11, _stringLiteral372029414, /*hidden argument*/NULL);
+		V_0 = L_12;
+		goto IL_00df;
+	}
+
+IL_00bd:
+	{
+		String_t* L_13 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m2596409543(NULL /*static, unused*/, L_13, _stringLiteral372029402, /*hidden argument*/NULL);
+		V_0 = L_14;
+		goto IL_00df;
+	}
+
+IL_00ce:
+	{
+		String_t* L_15 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_16 = String_Concat_m2596409543(NULL /*static, unused*/, L_15, _stringLiteral372029423, /*hidden argument*/NULL);
+		V_0 = L_16;
+		goto IL_00df;
+	}
+
+IL_00df:
+	{
+		String_t* L_17 = V_0;
+		String_t* L_18 = Card_GetPrettyString_m1696407364(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_19 = String_Concat_m2596409543(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		V_0 = L_19;
+		String_t* L_20 = V_0;
+		return L_20;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.FireballFX::.ctor()
+extern "C"  void FireballFX__ctor_m1621764271 (FireballFX_t3277306231 * __this, const MethodInfo* method)
+{
+	{
+		PooledMonoBehaviour__ctor_m4082200974(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.FirstDealCompleteEvent::get_eventTypeInt()
+extern "C"  int32_t FirstDealCompleteEvent_get_eventTypeInt_m1882595265 (FirstDealCompleteEvent_t3429209465 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483633);
+	}
+}
+extern "C"  int32_t FirstDealCompleteEvent_get_eventTypeInt_m1882595265_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	FirstDealCompleteEvent_t3429209465 * _thisAdjusted = reinterpret_cast<FirstDealCompleteEvent_t3429209465 *>(__this + 1);
+	return FirstDealCompleteEvent_get_eventTypeInt_m1882595265(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.FirstDealCompleteEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t FirstDealCompleteEvent_get_eventTypeEnum_m1761039827_MetadataUsageId;
+extern "C"  Type_t * FirstDealCompleteEvent_get_eventTypeEnum_m1761039827 (FirstDealCompleteEvent_t3429209465 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FirstDealCompleteEvent_get_eventTypeEnum_m1761039827_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * FirstDealCompleteEvent_get_eventTypeEnum_m1761039827_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	FirstDealCompleteEvent_t3429209465 * _thisAdjusted = reinterpret_cast<FirstDealCompleteEvent_t3429209465 *>(__this + 1);
+	return FirstDealCompleteEvent_get_eventTypeEnum_m1761039827(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.FlipCardEvent::.ctor(System.Collections.Generic.List`1<System.Int32>)
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2961219472_MethodInfo_var;
+extern const uint32_t FlipCardEvent__ctor_m3667687046_MetadataUsageId;
+extern "C"  void FlipCardEvent__ctor_m3667687046 (FlipCardEvent_t531222657 * __this, List_1_t1440998580 * ___cardIndices0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FlipCardEvent__ctor_m3667687046_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1440998580 * L_0 = ___cardIndices0;
+		List_1_t1440998580 * L_1 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m2961219472(L_1, L_0, /*hidden argument*/List_1__ctor_m2961219472_MethodInfo_var);
+		__this->set_cardIndices_0(L_1);
+		return;
+	}
+}
+extern "C"  void FlipCardEvent__ctor_m3667687046_AdjustorThunk (Il2CppObject * __this, List_1_t1440998580 * ___cardIndices0, const MethodInfo* method)
+{
+	FlipCardEvent_t531222657 * _thisAdjusted = reinterpret_cast<FlipCardEvent_t531222657 *>(__this + 1);
+	FlipCardEvent__ctor_m3667687046(_thisAdjusted, ___cardIndices0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.FlipCardEvent::get_eventTypeInt()
+extern "C"  int32_t FlipCardEvent_get_eventTypeInt_m13828289 (FlipCardEvent_t531222657 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483645);
+	}
+}
+extern "C"  int32_t FlipCardEvent_get_eventTypeInt_m13828289_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	FlipCardEvent_t531222657 * _thisAdjusted = reinterpret_cast<FlipCardEvent_t531222657 *>(__this + 1);
+	return FlipCardEvent_get_eventTypeInt_m13828289(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.FlipCardEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t FlipCardEvent_get_eventTypeEnum_m2604475839_MetadataUsageId;
+extern "C"  Type_t * FlipCardEvent_get_eventTypeEnum_m2604475839 (FlipCardEvent_t531222657 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FlipCardEvent_get_eventTypeEnum_m2604475839_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * FlipCardEvent_get_eventTypeEnum_m2604475839_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	FlipCardEvent_t531222657 * _thisAdjusted = reinterpret_cast<FlipCardEvent_t531222657 *>(__this + 1);
+	return FlipCardEvent_get_eventTypeEnum_m2604475839(_thisAdjusted, method);
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.FlipCardEvent
+extern "C" void FlipCardEvent_t531222657_marshal_pinvoke(const FlipCardEvent_t531222657& unmarshaled, FlipCardEvent_t531222657_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___cardIndices_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'cardIndices' of type 'FlipCardEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___cardIndices_0Exception);
+}
+extern "C" void FlipCardEvent_t531222657_marshal_pinvoke_back(const FlipCardEvent_t531222657_marshaled_pinvoke& marshaled, FlipCardEvent_t531222657& unmarshaled)
+{
+	Il2CppCodeGenException* ___cardIndices_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'cardIndices' of type 'FlipCardEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___cardIndices_0Exception);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.FlipCardEvent
+extern "C" void FlipCardEvent_t531222657_marshal_pinvoke_cleanup(FlipCardEvent_t531222657_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.FlipCardEvent
+extern "C" void FlipCardEvent_t531222657_marshal_com(const FlipCardEvent_t531222657& unmarshaled, FlipCardEvent_t531222657_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___cardIndices_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'cardIndices' of type 'FlipCardEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___cardIndices_0Exception);
+}
+extern "C" void FlipCardEvent_t531222657_marshal_com_back(const FlipCardEvent_t531222657_marshaled_com& marshaled, FlipCardEvent_t531222657& unmarshaled)
+{
+	Il2CppCodeGenException* ___cardIndices_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'cardIndices' of type 'FlipCardEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___cardIndices_0Exception);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.FlipCardEvent
+extern "C" void FlipCardEvent_t531222657_marshal_com_cleanup(FlipCardEvent_t531222657_marshaled_com& marshaled)
+{
+}
+// System.Void GSN.Skill.Games.Tripeaks.FlipCardTask::.ctor(GSN.Skill.Games.Tripeaks.GameModel,System.Collections.Generic.List`1<System.Int32>,System.Int32)
+extern "C"  void FlipCardTask__ctor_m1301244410 (FlipCardTask_t2449739428 * __this, GameModel_t3841817345 * ___model0, List_1_t1440998580 * ___inFaceUpCards1, int32_t ___inDelay2, const MethodInfo* method)
+{
+	{
+		GsnTaskBase__ctor_m833660190(__this, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_0 = ___model0;
+		__this->set__model_7(L_0);
+		List_1_t1440998580 * L_1 = ___inFaceUpCards1;
+		__this->set__faceUpCards_8(L_1);
+		GameModel_t3841817345 * L_2 = ___model0;
+		int32_t L_3 = GameModelBase_GetStateTime_m1319221827(L_2, /*hidden argument*/NULL);
+		int32_t L_4 = ___inDelay2;
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void GSN.Skill.Games.Common.Tasks.GsnTaskBase::set_wakeUpTime(System.Int32) */, __this, ((int32_t)((int32_t)L_3+(int32_t)L_4)));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.FlipCardTask::Run()
+extern Il2CppClass* FlipCardEvent_t531222657_il2cpp_TypeInfo_var;
+extern const uint32_t FlipCardTask_Run_m4252878805_MetadataUsageId;
+extern "C"  void FlipCardTask_Run_m4252878805 (FlipCardTask_t2449739428 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FlipCardTask_Run_m4252878805_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameModel_t3841817345 * L_0 = __this->get__model_7();
+		List_1_t1440998580 * L_1 = __this->get__faceUpCards_8();
+		FlipCardEvent_t531222657  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		FlipCardEvent__ctor_m3667687046(&L_2, L_1, /*hidden argument*/NULL);
+		FlipCardEvent_t531222657  L_3 = L_2;
+		Il2CppObject * L_4 = Box(FlipCardEvent_t531222657_il2cpp_TypeInfo_var, &L_3);
+		EventDispatcher_DispatchEvent_m4139058996(L_0, (Il2CppObject *)L_4, /*hidden argument*/NULL);
+		GsnTaskBase_UnSchedule_m1949516266(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.FlippedCardUndoStep::.ctor(System.Int32)
+extern "C"  void FlippedCardUndoStep__ctor_m596997947 (FlippedCardUndoStep_t823793726 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardIndex0;
+		__this->set_cardIndex_0(L_0);
+		return;
+	}
+}
+extern "C"  void FlippedCardUndoStep__ctor_m596997947_AdjustorThunk (Il2CppObject * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	FlippedCardUndoStep_t823793726 * _thisAdjusted = reinterpret_cast<FlippedCardUndoStep_t823793726 *>(__this + 1);
+	FlippedCardUndoStep__ctor_m596997947(_thisAdjusted, ___cardIndex0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.FlippedCardUndoStep::get_eventTypeInt()
+extern "C"  int32_t FlippedCardUndoStep_get_eventTypeInt_m1953146410 (FlippedCardUndoStep_t823793726 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483622);
+	}
+}
+extern "C"  int32_t FlippedCardUndoStep_get_eventTypeInt_m1953146410_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	FlippedCardUndoStep_t823793726 * _thisAdjusted = reinterpret_cast<FlippedCardUndoStep_t823793726 *>(__this + 1);
+	return FlippedCardUndoStep_get_eventTypeInt_m1953146410(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.FlippedCardUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t FlippedCardUndoStep_get_eventTypeEnum_m1648160534_MetadataUsageId;
+extern "C"  Type_t * FlippedCardUndoStep_get_eventTypeEnum_m1648160534 (FlippedCardUndoStep_t823793726 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FlippedCardUndoStep_get_eventTypeEnum_m1648160534_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * FlippedCardUndoStep_get_eventTypeEnum_m1648160534_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	FlippedCardUndoStep_t823793726 * _thisAdjusted = reinterpret_cast<FlippedCardUndoStep_t823793726 *>(__this + 1);
+	return FlippedCardUndoStep_get_eventTypeEnum_m1648160534(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.GainDealCardsEvent::.ctor(System.Collections.Generic.List`1<System.Int32>)
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2961219472_MethodInfo_var;
+extern const uint32_t GainDealCardsEvent__ctor_m39324119_MetadataUsageId;
+extern "C"  void GainDealCardsEvent__ctor_m39324119 (GainDealCardsEvent_t1345594440 * __this, List_1_t1440998580 * ___newDealCards0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GainDealCardsEvent__ctor_m39324119_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1440998580 * L_0 = ___newDealCards0;
+		List_1_t1440998580 * L_1 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m2961219472(L_1, L_0, /*hidden argument*/List_1__ctor_m2961219472_MethodInfo_var);
+		__this->set_newDealCards_0(L_1);
+		return;
+	}
+}
+extern "C"  void GainDealCardsEvent__ctor_m39324119_AdjustorThunk (Il2CppObject * __this, List_1_t1440998580 * ___newDealCards0, const MethodInfo* method)
+{
+	GainDealCardsEvent_t1345594440 * _thisAdjusted = reinterpret_cast<GainDealCardsEvent_t1345594440 *>(__this + 1);
+	GainDealCardsEvent__ctor_m39324119(_thisAdjusted, ___newDealCards0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GainDealCardsEvent::get_eventTypeInt()
+extern "C"  int32_t GainDealCardsEvent_get_eventTypeInt_m1930193858 (GainDealCardsEvent_t1345594440 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483644);
+	}
+}
+extern "C"  int32_t GainDealCardsEvent_get_eventTypeInt_m1930193858_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	GainDealCardsEvent_t1345594440 * _thisAdjusted = reinterpret_cast<GainDealCardsEvent_t1345594440 *>(__this + 1);
+	return GainDealCardsEvent_get_eventTypeInt_m1930193858(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.GainDealCardsEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t GainDealCardsEvent_get_eventTypeEnum_m307313498_MetadataUsageId;
+extern "C"  Type_t * GainDealCardsEvent_get_eventTypeEnum_m307313498 (GainDealCardsEvent_t1345594440 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GainDealCardsEvent_get_eventTypeEnum_m307313498_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * GainDealCardsEvent_get_eventTypeEnum_m307313498_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	GainDealCardsEvent_t1345594440 * _thisAdjusted = reinterpret_cast<GainDealCardsEvent_t1345594440 *>(__this + 1);
+	return GainDealCardsEvent_get_eventTypeEnum_m307313498(_thisAdjusted, method);
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.GainDealCardsEvent
+extern "C" void GainDealCardsEvent_t1345594440_marshal_pinvoke(const GainDealCardsEvent_t1345594440& unmarshaled, GainDealCardsEvent_t1345594440_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___newDealCards_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'newDealCards' of type 'GainDealCardsEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___newDealCards_0Exception);
+}
+extern "C" void GainDealCardsEvent_t1345594440_marshal_pinvoke_back(const GainDealCardsEvent_t1345594440_marshaled_pinvoke& marshaled, GainDealCardsEvent_t1345594440& unmarshaled)
+{
+	Il2CppCodeGenException* ___newDealCards_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'newDealCards' of type 'GainDealCardsEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___newDealCards_0Exception);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.GainDealCardsEvent
+extern "C" void GainDealCardsEvent_t1345594440_marshal_pinvoke_cleanup(GainDealCardsEvent_t1345594440_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.GainDealCardsEvent
+extern "C" void GainDealCardsEvent_t1345594440_marshal_com(const GainDealCardsEvent_t1345594440& unmarshaled, GainDealCardsEvent_t1345594440_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___newDealCards_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'newDealCards' of type 'GainDealCardsEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___newDealCards_0Exception);
+}
+extern "C" void GainDealCardsEvent_t1345594440_marshal_com_back(const GainDealCardsEvent_t1345594440_marshaled_com& marshaled, GainDealCardsEvent_t1345594440& unmarshaled)
+{
+	Il2CppCodeGenException* ___newDealCards_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'newDealCards' of type 'GainDealCardsEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___newDealCards_0Exception);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.GainDealCardsEvent
+extern "C" void GainDealCardsEvent_t1345594440_marshal_com_cleanup(GainDealCardsEvent_t1345594440_marshaled_com& marshaled)
+{
+}
+// System.Void GSN.Skill.Games.Tripeaks.Game::.ctor()
+extern "C"  void Game__ctor_m616942188 (Game_t185433948 * __this, const MethodInfo* method)
+{
+	{
+		GameBase__ctor_m1857336554(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Game::Awake()
+extern Il2CppClass* TriPeaksStringTable_t551140522_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var;
+extern const uint32_t Game_Awake_m724561573_MetadataUsageId;
+extern "C"  void Game_Awake_m724561573 (Game_t185433948 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Game_Awake_m724561573_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TriPeaksStringTable_t551140522 * L_0 = (TriPeaksStringTable_t551140522 *)il2cpp_codegen_object_new(TriPeaksStringTable_t551140522_il2cpp_TypeInfo_var);
+		TriPeaksStringTable__ctor_m527710546(L_0, /*hidden argument*/NULL);
+		TriPeaksAnalytics_t1644016319 * L_1 = (TriPeaksAnalytics_t1644016319 *)il2cpp_codegen_object_new(TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var);
+		TriPeaksAnalytics__ctor_m3381616019(L_1, /*hidden argument*/NULL);
+		GameBase_Awake_m1812372185(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.Game::GetGameName()
+extern Il2CppCodeGenString* _stringLiteral3346587679;
+extern const uint32_t Game_GetGameName_m1096039972_MetadataUsageId;
+extern "C"  String_t* Game_GetGameName_m1096039972 (Game_t185433948 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Game_GetGameName_m1096039972_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		return _stringLiteral3346587679;
+	}
+}
+// GSN.Skill.Games.Common.Model.GameModelBase GSN.Skill.Games.Tripeaks.Game::CreateModel(System.String)
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t Game_CreateModel_m3569831038_MetadataUsageId;
+extern "C"  GameModelBase_t2215752692 * Game_CreateModel_m3569831038 (Game_t185433948 * __this, String_t* ___dataPath0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Game_CreateModel_m3569831038_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___dataPath0;
+		GameModel_t3841817345 * L_1 = (GameModel_t3841817345 *)il2cpp_codegen_object_new(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		GameModel__ctor_m3609687545(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// GSN.Skill.Games.Common.Client.Game.ViewBase GSN.Skill.Games.Tripeaks.Game::CreateView()
+extern const MethodInfo* Component_GetComponentInChildren_TisView_t1946640821_m4077289771_MethodInfo_var;
+extern const uint32_t Game_CreateView_m883855384_MetadataUsageId;
+extern "C"  ViewBase_t3608972958 * Game_CreateView_m883855384 (Game_t185433948 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Game_CreateView_m883855384_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		View_t1946640821 * L_0 = Component_GetComponentInChildren_TisView_t1946640821_m4077289771(__this, /*hidden argument*/Component_GetComponentInChildren_TisView_t1946640821_m4077289771_MethodInfo_var);
+		return L_0;
+	}
+}
+// GSN.Skill.Games.Common.Client.Game.ControllerBase GSN.Skill.Games.Tripeaks.Game::CreateController()
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisController_t3722813314_m1524956097_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2665277406;
+extern const uint32_t Game_CreateController_m3859249656_MetadataUsageId;
+extern "C"  ControllerBase_t4247623737 * Game_CreateController_m3859249656 (Game_t185433948 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Game_CreateController_m3859249656_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	ControllerBase_t4247623737 * V_1 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_0, _stringLiteral2665277406, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GameObject_t1756533147 * L_1 = V_0;
+		Controller_t3722813314 * L_2 = GameObject_AddComponent_TisController_t3722813314_m1524956097(L_1, /*hidden argument*/GameObject_AddComponent_TisController_t3722813314_m1524956097_MethodInfo_var);
+		V_1 = L_2;
+		ControllerBase_t4247623737 * L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Game::CreateAnalyticsSender()
+extern "C"  void Game_CreateAnalyticsSender_m3916266469 (Game_t185433948 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Game::CreateGameModelProxy()
+extern Il2CppClass* GameModelProxyBase_t405122_il2cpp_TypeInfo_var;
+extern const uint32_t Game_CreateGameModelProxy_m2278845245_MetadataUsageId;
+extern "C"  void Game_CreateGameModelProxy_m2278845245 (Game_t185433948 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Game_CreateGameModelProxy_m2278845245_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameModelProxyBase_t405122 * L_0 = (GameModelProxyBase_t405122 *)il2cpp_codegen_object_new(GameModelProxyBase_t405122_il2cpp_TypeInfo_var);
+		GameModelProxyBase__ctor_m982927699(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::.ctor(System.String)
+extern Il2CppClass* Dictionary_2_t1445386684_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t4087109391_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* Stack_1_t1730414700_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameModelBase_t2215752692_il2cpp_TypeInfo_var;
+extern Il2CppClass* LockModelTask_t2128931019_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3212347825_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3277172829_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const MethodInfo* Stack_1__ctor_m3572936533_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m1463220107_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m2391707293_MethodInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305144____U24fieldU2D122CE4A097744319C1E3C672359DA4828D775529_3_FieldInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029325;
+extern Il2CppCodeGenString* _stringLiteral3146846179;
+extern Il2CppCodeGenString* _stringLiteral1334736064;
+extern Il2CppCodeGenString* _stringLiteral691482740;
+extern Il2CppCodeGenString* _stringLiteral2330286749;
+extern Il2CppCodeGenString* _stringLiteral136639744;
+extern Il2CppCodeGenString* _stringLiteral4167279095;
+extern Il2CppCodeGenString* _stringLiteral4071392635;
+extern Il2CppCodeGenString* _stringLiteral1853035628;
+extern Il2CppCodeGenString* _stringLiteral1130187425;
+extern Il2CppCodeGenString* _stringLiteral1345946323;
+extern Il2CppCodeGenString* _stringLiteral4285155620;
+extern Il2CppCodeGenString* _stringLiteral389492954;
+extern Il2CppCodeGenString* _stringLiteral3989469868;
+extern Il2CppCodeGenString* _stringLiteral1436888009;
+extern Il2CppCodeGenString* _stringLiteral4126225328;
+extern const uint32_t GameModel__ctor_m3609687545_MetadataUsageId;
+extern "C"  void GameModel__ctor_m3609687545 (GameModel_t3841817345 * __this, String_t* ___dataPath0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel__ctor_m3609687545_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t1445386684 * L_0 = (Dictionary_2_t1445386684 *)il2cpp_codegen_object_new(Dictionary_2_t1445386684_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3212347825(L_0, /*hidden argument*/Dictionary_2__ctor_m3212347825_MethodInfo_var);
+		__this->set__optionToggles_139(L_0);
+		List_1_t4087109391 * L_1 = (List_1_t4087109391 *)il2cpp_codegen_object_new(List_1_t4087109391_il2cpp_TypeInfo_var);
+		List_1__ctor_m3277172829(L_1, /*hidden argument*/List_1__ctor_m3277172829_MethodInfo_var);
+		__this->set__cards_140(L_1);
+		__this->set__numOneTimeWildsLeft_150(1);
+		List_1_t1440998580 * L_2 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_2, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		__this->set__faceUpCards_158(L_2);
+		Stack_1_t1730414700 * L_3 = (Stack_1_t1730414700 *)il2cpp_codegen_object_new(Stack_1_t1730414700_il2cpp_TypeInfo_var);
+		Stack_1__ctor_m3572936533(L_3, /*hidden argument*/Stack_1__ctor_m3572936533_MethodInfo_var);
+		__this->set__undoSteps_159(L_3);
+		Int32U5BU5D_t3030399641* L_4 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)52)));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305144____U24fieldU2D122CE4A097744319C1E3C672359DA4828D775529_3_FieldInfo_var), /*hidden argument*/NULL);
+		__this->set__IntroTutorialCardOrder_163(L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		TypeU5BU5D_t1664964607* L_5 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_inputEnumTypes_164();
+		TypeU5BU5D_t1664964607* L_6 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_eventEnumTypes_165();
+		String_t* L_7 = ___dataPath0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModelBase_t2215752692_il2cpp_TypeInfo_var);
+		GameModelBase__ctor_m1598787893(__this, L_5, L_6, _stringLiteral372029325, L_7, /*hidden argument*/NULL);
+		Dictionary_2_t3986656710 * L_8 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_8, _stringLiteral3146846179, ((int32_t)100), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_9 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_9, _stringLiteral1334736064, ((int32_t)25), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_10 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_10, _stringLiteral691482740, ((int32_t)3000), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_11 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_11, _stringLiteral2330286749, 5, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_12 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_12, _stringLiteral136639744, ((int32_t)5000), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_13 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_13, _stringLiteral4167279095, 5, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_14 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_14, _stringLiteral4071392635, 5, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_15 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_15, _stringLiteral1853035628, 5, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_16 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_16, _stringLiteral1130187425, 1, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_17 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_17, _stringLiteral1345946323, ((int32_t)10), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_18 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_18, _stringLiteral4285155620, ((int32_t)30), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_19 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_19, _stringLiteral389492954, ((int32_t)500), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_20 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_20, _stringLiteral3989469868, ((int32_t)250), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_21 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_21, _stringLiteral1436888009, ((int32_t)1250), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_22 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_set_Item_m1463220107(L_22, _stringLiteral4126225328, ((int32_t)250), /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_23 = __this->get__optionToggles_139();
+		String_t* L_24 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RED_TIKI_ID_32();
+		Dictionary_2_set_Item_m2391707293(L_23, L_24, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_25 = __this->get__optionToggles_139();
+		String_t* L_26 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLACK_TIKI_ID_33();
+		Dictionary_2_set_Item_m2391707293(L_25, L_26, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_27 = __this->get__optionToggles_139();
+		String_t* L_28 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_VOLCANO_TIKI_ID_34();
+		Dictionary_2_set_Item_m2391707293(L_27, L_28, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_29 = __this->get__optionToggles_139();
+		String_t* L_30 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLOSSOM_TIKI_ID_35();
+		Dictionary_2_set_Item_m2391707293(L_29, L_30, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_31 = __this->get__optionToggles_139();
+		String_t* L_32 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_GOLDEN_TIKI_ID_36();
+		Dictionary_2_set_Item_m2391707293(L_31, L_32, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_33 = __this->get__optionToggles_139();
+		String_t* L_34 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TRAP_HAZARD_ID_40();
+		Dictionary_2_set_Item_m2391707293(L_33, L_34, (bool)1, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_35 = __this->get__optionToggles_139();
+		String_t* L_36 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_SHARK_HAZARD_ID_41();
+		Dictionary_2_set_Item_m2391707293(L_35, L_36, (bool)1, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_37 = __this->get__optionToggles_139();
+		String_t* L_38 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_HAZARD_ID_42();
+		Dictionary_2_set_Item_m2391707293(L_37, L_38, (bool)1, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_39 = __this->get__optionToggles_139();
+		String_t* L_40 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RESHUFFLE_ID_46();
+		Dictionary_2_set_Item_m2391707293(L_39, L_40, (bool)1, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_41 = __this->get__optionToggles_139();
+		String_t* L_42 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_HOLD_ID_47();
+		Dictionary_2_set_Item_m2391707293(L_41, L_42, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_43 = __this->get__optionToggles_139();
+		String_t* L_44 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_ONE_SHOT_WILD_ID_48();
+		Dictionary_2_set_Item_m2391707293(L_43, L_44, (bool)1, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_45 = __this->get__optionToggles_139();
+		String_t* L_46 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_SPAWN_ALL_TIKIS_DEBUG_ID_51();
+		Dictionary_2_set_Item_m2391707293(L_45, L_46, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_47 = __this->get__optionToggles_139();
+		String_t* L_48 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TIKI_SPAWN_CHANCE_100_DEBUG_ID_52();
+		Dictionary_2_set_Item_m2391707293(L_47, L_48, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_49 = __this->get__optionToggles_139();
+		String_t* L_50 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_ID_134();
+		Dictionary_2_set_Item_m2391707293(L_49, L_50, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_51 = __this->get__optionToggles_139();
+		String_t* L_52 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_TRAP_ID_136();
+		Dictionary_2_set_Item_m2391707293(L_51, L_52, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_53 = __this->get__optionToggles_139();
+		String_t* L_54 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_SHARK_ID_137();
+		Dictionary_2_set_Item_m2391707293(L_53, L_54, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		Dictionary_2_t1445386684 * L_55 = __this->get__optionToggles_139();
+		String_t* L_56 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_DYNAMITE_ID_138();
+		Dictionary_2_set_Item_m2391707293(L_55, L_56, (bool)0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+		LockModelTask_t2128931019 * L_57 = (LockModelTask_t2128931019 *)il2cpp_codegen_object_new(LockModelTask_t2128931019_il2cpp_TypeInfo_var);
+		LockModelTask__ctor_m2046071447(L_57, __this, /*hidden argument*/NULL);
+		__this->set__lockTask_157(L_57);
+		return;
+	}
+}
+// GSN.Skill.Games.Common.Primitive.Card.GsnCard GSN.Skill.Games.Tripeaks.GameModel::get_wasteCard()
+extern "C"  GsnCard_t782444760 * GameModel_get_wasteCard_m1388114253 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		GsnCardPile_t3625903776 * L_0 = __this->get__wastePile_143();
+		bool L_1 = GsnCardPile_get_isEmpty_m367156421(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return (GsnCard_t782444760 *)NULL;
+	}
+
+IL_0012:
+	{
+		GsnCardPile_t3625903776 * L_2 = __this->get__wastePile_143();
+		GsnCard_t782444760 * L_3 = GsnCardPile_GetTopCard_m2436423477(L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// GSN.Skill.Games.Common.Primitive.Card.GsnCard GSN.Skill.Games.Tripeaks.GameModel::get_holdCard()
+extern "C"  GsnCard_t782444760 * GameModel_get_holdCard_m1148106720 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		GsnCard_t782444760 * L_0 = __this->get_U3CholdCardU3Ek__BackingField_145();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::set_holdCard(GSN.Skill.Games.Common.Primitive.Card.GsnCard)
+extern "C"  void GameModel_set_holdCard_m3938096873 (GameModel_t3841817345 * __this, GsnCard_t782444760 * ___value0, const MethodInfo* method)
+{
+	{
+		GsnCard_t782444760 * L_0 = ___value0;
+		__this->set_U3CholdCardU3Ek__BackingField_145(L_0);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::get_score()
+extern "C"  int32_t GameModel_get_score_m595755914 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_U3CscoreU3Ek__BackingField_147();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::set_score(System.Int32)
+extern "C"  void GameModel_set_score_m1596379571 (GameModel_t3841817345 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_U3CscoreU3Ek__BackingField_147(L_0);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::get_timeBonus()
+extern "C"  int32_t GameModel_get_timeBonus_m515456936 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_U3CtimeBonusU3Ek__BackingField_148();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::set_timeBonus(System.Int32)
+extern "C"  void GameModel_set_timeBonus_m2674326831 (GameModel_t3841817345 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_U3CtimeBonusU3Ek__BackingField_148(L_0);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::get_streakBonus()
+extern "C"  int32_t GameModel_get_streakBonus_m4243244027 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_U3CstreakBonusU3Ek__BackingField_149();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::set_streakBonus(System.Int32)
+extern "C"  void GameModel_set_streakBonus_m292904962 (GameModel_t3841817345 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_U3CstreakBonusU3Ek__BackingField_149(L_0);
+		return;
+	}
+}
+// GSN.Skill.Games.Common.Tasks.GsnScheduler GSN.Skill.Games.Tripeaks.GameModel::CreateScheduler()
+extern Il2CppClass* TriPeaksScheduler_t2866304882_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_CreateScheduler_m3733652665_MetadataUsageId;
+extern "C"  GsnScheduler_t1299811741 * GameModel_CreateScheduler_m3733652665 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_CreateScheduler_m3733652665_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TriPeaksScheduler_t2866304882 * L_0 = (TriPeaksScheduler_t2866304882 *)il2cpp_codegen_object_new(TriPeaksScheduler_t2866304882_il2cpp_TypeInfo_var);
+		TriPeaksScheduler__ctor_m3870177650(L_0, __this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::GetTweakable(System.String)
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern const uint32_t GameModel_GetTweakable_m2311541351_MetadataUsageId;
+extern "C"  int32_t GameModel_GetTweakable_m2311541351 (GameModel_t3841817345 * __this, String_t* ___tweakable0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_GetTweakable_m2311541351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t3986656710 * L_0 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		String_t* L_1 = ___tweakable0;
+		int32_t L_2 = Dictionary_2_get_Item_m1316665190(L_0, L_1, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::modifyScore(System.Int32,System.Int32,System.Int32,System.Int32)
+extern Il2CppClass* UpdateScoreEvent_t3725099735_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateScoreTask_t3654187114_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3894209184;
+extern const uint32_t GameModel_modifyScore_m2737766079_MetadataUsageId;
+extern "C"  void GameModel_modifyScore_m2737766079 (GameModel_t3841817345 * __this, int32_t ___points0, int32_t ___streak1, int32_t ___cardID2, int32_t ___delayTime3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_modifyScore_m2737766079_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GSN.Skill.Games.Common.Model.GameModelBase::GetScore() */, __this);
+		V_0 = L_0;
+		int32_t L_1 = GameModel_get_score_m595755914(__this, /*hidden argument*/NULL);
+		int32_t L_2 = ___points0;
+		GameModel_set_score_m1596379571(__this, ((int32_t)((int32_t)L_1+(int32_t)L_2)), /*hidden argument*/NULL);
+		int32_t L_3 = GameModel_get_streakBonus_m4243244027(__this, /*hidden argument*/NULL);
+		int32_t L_4 = ___streak1;
+		GameModel_set_streakBonus_m292904962(__this, ((int32_t)((int32_t)L_3+(int32_t)L_4)), /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GSN.Skill.Games.Common.Model.GameModelBase::GetScore() */, __this);
+		if ((((int32_t)L_5) == ((int32_t)L_6)))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		int32_t L_7 = ___delayTime3;
+		if (L_7)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_8 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GSN.Skill.Games.Common.Model.GameModelBase::GetScore() */, __this);
+		int32_t L_9 = ___points0;
+		int32_t L_10 = ___streak1;
+		int32_t L_11 = __this->get__streakCount_151();
+		int32_t L_12 = ___cardID2;
+		UpdateScoreEvent_t3725099735  L_13;
+		memset(&L_13, 0, sizeof(L_13));
+		UpdateScoreEvent__ctor_m4184865847(&L_13, L_8, ((int32_t)((int32_t)L_9+(int32_t)L_10)), L_11, L_12, /*hidden argument*/NULL);
+		UpdateScoreEvent_t3725099735  L_14 = L_13;
+		Il2CppObject * L_15 = Box(UpdateScoreEvent_t3725099735_il2cpp_TypeInfo_var, &L_14);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_15, /*hidden argument*/NULL);
+		goto IL_0083;
+	}
+
+IL_005b:
+	{
+		GsnScheduler_t1299811741 * L_16 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_17 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GSN.Skill.Games.Common.Model.GameModelBase::GetScore() */, __this);
+		int32_t L_18 = ___points0;
+		int32_t L_19 = ___streak1;
+		int32_t L_20 = __this->get__streakCount_151();
+		int32_t L_21 = ___cardID2;
+		UpdateScoreEvent_t3725099735  L_22;
+		memset(&L_22, 0, sizeof(L_22));
+		UpdateScoreEvent__ctor_m4184865847(&L_22, L_17, ((int32_t)((int32_t)L_18+(int32_t)L_19)), L_20, L_21, /*hidden argument*/NULL);
+		int32_t L_23 = ___delayTime3;
+		UpdateScoreTask_t3654187114 * L_24 = (UpdateScoreTask_t3654187114 *)il2cpp_codegen_object_new(UpdateScoreTask_t3654187114_il2cpp_TypeInfo_var);
+		UpdateScoreTask__ctor_m3977668463(L_24, __this, L_22, L_23, /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_16, L_24, /*hidden argument*/NULL);
+	}
+
+IL_0083:
+	{
+		int32_t L_25 = GameModel_get_score_m595755914(__this, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_26 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral3894209184, L_26, /*hidden argument*/NULL);
+	}
+
+IL_0099:
+	{
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::noMoreMoves()
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const uint32_t GameModel_noMoreMoves_m3224978189_MetadataUsageId;
+extern "C"  bool GameModel_noMoreMoves_m3224978189 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_noMoreMoves_m3224978189_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1440998580 * V_0 = NULL;
+	List_1_t1440998580 * V_1 = NULL;
+	{
+		bool L_0 = GameModel_get_isGameStarted_m3761597211(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000d:
+	{
+		int32_t L_1 = GameModel_get_cardsRemaining_m3329321799(__this, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RESHUFFLE_ID_46();
+		bool L_3 = GameModel_HasOption_m2153457552(__this, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_002c:
+	{
+		bool L_4 = GameModel_get_canClickWild_m2742475456(__this, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0039:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_HOLD_ID_47();
+		bool L_6 = GameModel_HasOption_m2153457552(__this, L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_7 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_8 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_9 = GameModel_findAllMoves_m3150485129(__this, L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+		List_1_t1440998580 * L_10 = V_0;
+		int32_t L_11 = List_1_get_Count_m852068579(L_10, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if (!L_11)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_006e:
+	{
+		GsnCardPile_t3625903776 * L_12 = __this->get__dealPile_142();
+		bool L_13 = GsnCardPile_get_isEmpty_m367156421(L_12, /*hidden argument*/NULL);
+		if (L_13)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0080:
+	{
+		GsnCard_t782444760 * L_14 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_15 = GameModel_findAllMoves_m3150485129(__this, L_14, /*hidden argument*/NULL);
+		V_1 = L_15;
+		List_1_t1440998580 * L_16 = V_1;
+		int32_t L_17 = List_1_get_Count_m852068579(L_16, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if (!L_17)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_009a:
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::get_isGameOver()
+extern "C"  bool GameModel_get_isGameOver_m3204426262 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = GameModelBase_get_isGameOver_m2317325294(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_000d:
+	{
+		bool L_1 = GameModel_noMoreMoves_m3224978189(__this, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_001a:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::get_isGameStarted()
+extern "C"  bool GameModel_get_isGameStarted_m3761597211 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		TriPeaksCardDeck_t1840429032 * L_0 = __this->get__deck_141();
+		if (!L_0)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_1 = __this->get__wastePile_143();
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_2 = __this->get__removedPile_144();
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_3 = __this->get__dealPile_142();
+		if (L_3)
+		{
+			goto IL_002e;
+		}
+	}
+
+IL_002c:
+	{
+		return (bool)0;
+	}
+
+IL_002e:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::get_cardsRemaining()
+extern "C"  int32_t GameModel_get_cardsRemaining_m3329321799 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	int32_t G_B2_0 = 0;
+	int32_t G_B1_0 = 0;
+	int32_t G_B3_0 = 0;
+	int32_t G_B3_1 = 0;
+	{
+		TriPeaksCardDeck_t1840429032 * L_0 = __this->get__deck_141();
+		int32_t L_1 = GsnCardDeck_get_count_m3383929316(L_0, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_2 = __this->get__wastePile_143();
+		int32_t L_3 = GsnCardPile_get_count_m669804915(L_2, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_4 = __this->get__removedPile_144();
+		int32_t L_5 = GsnCardPile_get_count_m669804915(L_4, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_6 = __this->get__dealPile_142();
+		int32_t L_7 = GsnCardPile_get_count_m669804915(L_6, /*hidden argument*/NULL);
+		int32_t L_8 = __this->get__numOneTimeWildsLeft_150();
+		GsnCard_t782444760 * L_9 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		G_B1_0 = ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_1-(int32_t)L_3))-(int32_t)L_5))-(int32_t)L_7))-(int32_t)L_8));
+		if (!L_9)
+		{
+			G_B2_0 = ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_1-(int32_t)L_3))-(int32_t)L_5))-(int32_t)L_7))-(int32_t)L_8));
+			goto IL_0047;
+		}
+	}
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B1_0;
+		goto IL_0048;
+	}
+
+IL_0047:
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0048:
+	{
+		return ((int32_t)((int32_t)G_B3_1-(int32_t)G_B3_0));
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::checkForEndGame()
+extern Il2CppCodeGenString* _stringLiteral1127754634;
+extern Il2CppCodeGenString* _stringLiteral3009707026;
+extern const uint32_t GameModel_checkForEndGame_m609064695_MetadataUsageId;
+extern "C"  void GameModel_checkForEndGame_m609064695 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_checkForEndGame_m609064695_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(17 /* System.Boolean GSN.Skill.Games.Common.Model.GameModelBase::get_isGameOver() */, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_1 = GameModel_get_isGameStarted_m3761597211(__this, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0017;
+		}
+	}
+
+IL_0016:
+	{
+		return;
+	}
+
+IL_0017:
+	{
+		int32_t L_2 = GameModel_get_cardsRemaining_m3329321799(__this, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameModelBase_NormalEndGame_m2471369851(__this, /*hidden argument*/NULL);
+		int32_t L_3 = GameModelBase_GetStateTime_m1319221827(__this, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get__lengthOfGameInMS_152();
+		if ((((int32_t)L_3) <= ((int32_t)((int32_t)((int32_t)L_4>>(int32_t)2)))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JToken_t2552644013 * L_5 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1127754634, L_5, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		bool L_6 = __this->get__hasReshuffled_162();
+		if (L_6)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		JToken_t2552644013 * L_7 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral3009707026, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0068:
+	{
+		goto IL_0073;
+	}
+
+IL_006d:
+	{
+		GameModel_earlyFailNoMoreMoves_m1223549276(__this, /*hidden argument*/NULL);
+	}
+
+IL_0073:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.Int32> GSN.Skill.Games.Tripeaks.GameModel::findAllMoves(GSN.Skill.Games.Common.Primitive.Card.GsnCard)
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern const MethodInfo* List_1_Sort_m1054776742_MethodInfo_var;
+extern const uint32_t GameModel_findAllMoves_m3150485129_MetadataUsageId;
+extern "C"  List_1_t1440998580 * GameModel_findAllMoves_m3150485129 (GameModel_t3841817345 * __this, GsnCard_t782444760 * ___card10, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_findAllMoves_m3150485129_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1440998580 * V_0 = NULL;
+	int32_t V_1 = 0;
+	Enumerator_t975728254  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	GsnCard_t782444760 * V_4 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t1440998580 * L_0 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_0, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t1440998580 * L_1 = __this->get__faceUpCards_158();
+		Enumerator_t975728254  L_2 = List_1_GetEnumerator_m2527786909(L_1, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0054;
+		}
+
+IL_0017:
+		{
+			int32_t L_3 = Enumerator_get_Current_m1062633493((&V_2), /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			V_1 = L_3;
+			List_1_t4087109391 * L_4 = __this->get__cards_140();
+			int32_t L_5 = V_1;
+			BaseCardData_t423020963 * L_6 = List_1_get_Item_m1588982064(L_4, L_5, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+			int32_t L_7 = L_6->get_cardID_0();
+			V_3 = L_7;
+			TriPeaksCardDeck_t1840429032 * L_8 = __this->get__deck_141();
+			int32_t L_9 = V_3;
+			GsnCard_t782444760 * L_10 = GsnCardDeck_GetCard_m1861553550(L_8, L_9, /*hidden argument*/NULL);
+			V_4 = L_10;
+			GsnCard_t782444760 * L_11 = ___card10;
+			GsnCard_t782444760 * L_12 = V_4;
+			bool L_13 = GameModel_isCardOneUpOrDown_m3321384995(__this, L_11, L_12, /*hidden argument*/NULL);
+			if (!L_13)
+			{
+				goto IL_0054;
+			}
+		}
+
+IL_004d:
+		{
+			List_1_t1440998580 * L_14 = V_0;
+			int32_t L_15 = V_1;
+			List_1_Add_m688682013(L_14, L_15, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		}
+
+IL_0054:
+		{
+			bool L_16 = Enumerator_MoveNext_m4282865897((&V_2), /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_0017;
+			}
+		}
+
+IL_0060:
+		{
+			IL2CPP_LEAVE(0x73, FINALLY_0065);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0065;
+	}
+
+FINALLY_0065:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1274756239((&V_2), /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(101)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(101)
+	{
+		IL2CPP_JUMP_TBL(0x73, IL_0073)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0073:
+	{
+		List_1_t1440998580 * L_17 = V_0;
+		List_1_Sort_m1054776742(L_17, /*hidden argument*/List_1_Sort_m1054776742_MethodInfo_var);
+		List_1_t1440998580 * L_18 = V_0;
+		return L_18;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::isCardOneUpOrDown(GSN.Skill.Games.Common.Primitive.Card.GsnCard,GSN.Skill.Games.Common.Primitive.Card.GsnCard)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_isCardOneUpOrDown_m3321384995_MetadataUsageId;
+extern "C"  bool GameModel_isCardOneUpOrDown_m3321384995 (GameModel_t3841817345 * __this, GsnCard_t782444760 * ___c10, GsnCard_t782444760 * ___c21, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_isCardOneUpOrDown_m3321384995_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TriPeaksCard_t214310709 * V_0 = NULL;
+	TriPeaksCard_t214310709 * V_1 = NULL;
+	int32_t V_2 = 0;
+	TriPeaksCard_t214310709 * V_3 = NULL;
+	TriPeaksCard_t214310709 * V_4 = NULL;
+	TriPeaksCard_t214310709 * V_5 = NULL;
+	TriPeaksCard_t214310709 * V_6 = NULL;
+	int32_t G_B5_0 = 0;
+	{
+		GsnCard_t782444760 * L_0 = ___c10;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_0, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_1 = ___c21;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_1, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_2 = ___c10;
+		V_0 = ((TriPeaksCard_t214310709 *)CastclassClass(L_2, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		GsnCard_t782444760 * L_3 = ___c21;
+		V_1 = ((TriPeaksCard_t214310709 *)CastclassClass(L_3, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_4 = V_0;
+		int32_t L_5 = GsnStandardCard_get_rank_m191026465(L_4, /*hidden argument*/NULL);
+		TriPeaksCard_t214310709 * L_6 = V_1;
+		int32_t L_7 = GsnStandardCard_get_rank_m191026465(L_6, /*hidden argument*/NULL);
+		int32_t L_8 = il2cpp_codegen_abs(((int32_t)((int32_t)L_5-(int32_t)L_7)));
+		V_2 = L_8;
+		int32_t L_9 = V_2;
+		if ((((int32_t)L_9) == ((int32_t)1)))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		int32_t L_10 = V_2;
+		G_B5_0 = ((((int32_t)L_10) == ((int32_t)((int32_t)12)))? 1 : 0);
+		goto IL_0046;
+	}
+
+IL_0045:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0046:
+	{
+		return (bool)G_B5_0;
+	}
+
+IL_0047:
+	{
+		GsnCard_t782444760 * L_11 = ___c10;
+		bool L_12 = GsnCard_HasFlag_m545784328(L_11, ((int32_t)64), /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_13 = ___c21;
+		bool L_14 = GsnCard_HasFlag_m545784328(L_13, ((int32_t)64), /*hidden argument*/NULL);
+		if (L_14)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_15 = ___c10;
+		bool L_16 = GsnCard_HasFlag_m545784328(L_15, ((int32_t)128), /*hidden argument*/NULL);
+		if (L_16)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_17 = ___c21;
+		bool L_18 = GsnCard_HasFlag_m545784328(L_17, ((int32_t)128), /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_00a5;
+		}
+	}
+
+IL_0081:
+	{
+		GsnCard_t782444760 * L_19 = ___c10;
+		bool L_20 = GsnCard_HasFlag_m545784328(L_19, ((int32_t)128), /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_21 = ___c21;
+		bool L_22 = GsnCard_HasFlag_m545784328(L_21, ((int32_t)64), /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_00a0:
+	{
+		goto IL_01a1;
+	}
+
+IL_00a5:
+	{
+		GsnCard_t782444760 * L_23 = ___c10;
+		bool L_24 = GsnCard_HasFlag_m545784328(L_23, 2, /*hidden argument*/NULL);
+		if (L_24)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_25 = ___c21;
+		bool L_26 = GsnCard_HasFlag_m545784328(L_25, 2, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_00bf;
+		}
+	}
+
+IL_00bd:
+	{
+		return (bool)1;
+	}
+
+IL_00bf:
+	{
+		GsnCard_t782444760 * L_27 = ___c10;
+		bool L_28 = GsnCard_HasFlag_m545784328(L_27, 4, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_00ef;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_29 = ___c21;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_29, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_00ef;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_30 = ___c21;
+		V_3 = ((TriPeaksCard_t214310709 *)CastclassClass(L_30, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_31 = V_3;
+		bool L_32 = GsnStandardCard_get_isRed_m2938952584(L_31, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_00ea;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_00ea:
+	{
+		goto IL_01a1;
+	}
+
+IL_00ef:
+	{
+		GsnCard_t782444760 * L_33 = ___c21;
+		bool L_34 = GsnCard_HasFlag_m545784328(L_33, 4, /*hidden argument*/NULL);
+		if (!L_34)
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_35 = ___c10;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_35, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_36 = ___c10;
+		V_4 = ((TriPeaksCard_t214310709 *)CastclassClass(L_36, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_37 = V_4;
+		bool L_38 = GsnStandardCard_get_isRed_m2938952584(L_37, /*hidden argument*/NULL);
+		if (!L_38)
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_011c:
+	{
+		goto IL_01a1;
+	}
+
+IL_0121:
+	{
+		GsnCard_t782444760 * L_39 = ___c10;
+		bool L_40 = GsnCard_HasFlag_m545784328(L_39, 8, /*hidden argument*/NULL);
+		if (!L_40)
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_41 = ___c21;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_41, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_42 = ___c21;
+		V_5 = ((TriPeaksCard_t214310709 *)CastclassClass(L_42, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_43 = V_5;
+		bool L_44 = GsnStandardCard_get_isRed_m2938952584(L_43, /*hidden argument*/NULL);
+		if (L_44)
+		{
+			goto IL_014e;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_014e:
+	{
+		goto IL_01a1;
+	}
+
+IL_0153:
+	{
+		GsnCard_t782444760 * L_45 = ___c21;
+		bool L_46 = GsnCard_HasFlag_m545784328(L_45, 8, /*hidden argument*/NULL);
+		if (!L_46)
+		{
+			goto IL_0185;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_47 = ___c10;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_47, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0185;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_48 = ___c10;
+		V_6 = ((TriPeaksCard_t214310709 *)CastclassClass(L_48, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_49 = V_6;
+		bool L_50 = GsnStandardCard_get_isRed_m2938952584(L_49, /*hidden argument*/NULL);
+		if (L_50)
+		{
+			goto IL_0180;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0180:
+	{
+		goto IL_01a1;
+	}
+
+IL_0185:
+	{
+		GsnCard_t782444760 * L_51 = ___c10;
+		bool L_52 = GsnCard_HasFlag_m545784328(L_51, ((int32_t)32), /*hidden argument*/NULL);
+		if (L_52)
+		{
+			goto IL_019f;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_53 = ___c21;
+		bool L_54 = GsnCard_HasFlag_m545784328(L_53, ((int32_t)32), /*hidden argument*/NULL);
+		if (!L_54)
+		{
+			goto IL_01a1;
+		}
+	}
+
+IL_019f:
+	{
+		return (bool)1;
+	}
+
+IL_01a1:
+	{
+		return (bool)0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::beginUndo()
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppClass* BeginUndoStep_t4074255339_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2842745564;
+extern const uint32_t GameModel_beginUndo_m1168552270_MetadataUsageId;
+extern "C"  void GameModel_beginUndo_m1168552270 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_beginUndo_m1168552270_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__okToAddUndo_160();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Exception_t1927440687 * L_1 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_1, _stringLiteral2842745564, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		__this->set__okToAddUndo_160((bool)1);
+		int32_t L_2 = GameModelBase_GetStateTime_m1319221827(__this, /*hidden argument*/NULL);
+		GsnGameClockTask_t2111061105 * L_3 = ((GameModelBase_t2215752692 *)__this)->get__clockTask_15();
+		int32_t L_4 = GsnGameClockTask_get_accumulatedPauseTime_m1143728341(L_3, /*hidden argument*/NULL);
+		BeginUndoStep_t4074255339  L_5;
+		memset(&L_5, 0, sizeof(L_5));
+		BeginUndoStep__ctor_m2485701943(&L_5, L_2, L_4, /*hidden argument*/NULL);
+		BeginUndoStep_t4074255339  L_6 = L_5;
+		Il2CppObject * L_7 = Box(BeginUndoStep_t4074255339_il2cpp_TypeInfo_var, &L_6);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::endUndo()
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3489832603;
+extern const uint32_t GameModel_endUndo_m3773902322_MetadataUsageId;
+extern "C"  void GameModel_endUndo_m3773902322 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_endUndo_m3773902322_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__okToAddUndo_160();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Exception_t1927440687 * L_1 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_1, _stringLiteral3489832603, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0016:
+	{
+		__this->set__okToAddUndo_160((bool)0);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::addUndoStep(GSN.Skill.Games.Common.Events.IModelEvent)
+extern const MethodInfo* Stack_1_Push_m488251236_MethodInfo_var;
+extern const uint32_t GameModel_addUndoStep_m3299740742_MetadataUsageId;
+extern "C"  void GameModel_addUndoStep_m3299740742 (GameModel_t3841817345 * __this, Il2CppObject * ___step0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_addUndoStep_m3299740742_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__okToAddUndo_160();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Stack_1_t1730414700 * L_1 = __this->get__undoSteps_159();
+		Il2CppObject * L_2 = ___step0;
+		Stack_1_Push_m488251236(L_1, L_2, /*hidden argument*/Stack_1_Push_m488251236_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::HandleInputMessage(GSN.Skill.Games.Common.Events.IInputMessage)
+extern Il2CppClass* CardClickedMessage_t157524846_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* CardClickResultEvent_t864906509_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern Il2CppClass* HoldSpotClickedUndoStep_t4219400472_il2cpp_TypeInfo_var;
+extern Il2CppClass* DealToWasteUndoStep_t557574109_il2cpp_TypeInfo_var;
+extern Il2CppClass* MoveCardToHoldEvent_t830903267_il2cpp_TypeInfo_var;
+extern Il2CppClass* ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var;
+extern Il2CppClass* HoldCardClickedUndoStep_t2539933680_il2cpp_TypeInfo_var;
+extern Il2CppClass* WasteToDealUndoStep_t986620231_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemovedToDealUndoStep_t47322973_il2cpp_TypeInfo_var;
+extern Il2CppClass* BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReshuffleEvent_t614706430_il2cpp_TypeInfo_var;
+extern Il2CppClass* EndReshuffleTask_t667447964_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1858509303;
+extern Il2CppCodeGenString* _stringLiteral1858509302;
+extern Il2CppCodeGenString* _stringLiteral1858509301;
+extern Il2CppCodeGenString* _stringLiteral1858509300;
+extern Il2CppCodeGenString* _stringLiteral1858509307;
+extern Il2CppCodeGenString* _stringLiteral1858509306;
+extern Il2CppCodeGenString* _stringLiteral389492954;
+extern Il2CppCodeGenString* _stringLiteral4272038111;
+extern Il2CppCodeGenString* _stringLiteral136639744;
+extern Il2CppCodeGenString* _stringLiteral2392177020;
+extern const uint32_t GameModel_HandleInputMessage_m3904270892_MetadataUsageId;
+extern "C"  void GameModel_HandleInputMessage_m3904270892 (GameModel_t3841817345 * __this, Il2CppObject * ___msg0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_HandleInputMessage_m3904270892_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	CardClickedMessage_t157524846  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	BaseCardData_t423020963 * V_4 = NULL;
+	int32_t V_5 = 0;
+	GsnCard_t782444760 * V_6 = NULL;
+	bool V_7 = false;
+	List_1_t1440998580 * V_8 = NULL;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	ShowReshuffleButtonEvent_t2008462107  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	int32_t V_13 = 0;
+	List_1_t1440998580 * V_14 = NULL;
+	List_1_t1440998580 * V_15 = NULL;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	GsnCard_t782444760 * V_19 = NULL;
+	List_1_t1440998580 * G_B26_0 = NULL;
+	int32_t G_B26_1 = 0;
+	bool G_B26_2 = false;
+	GameModel_t3841817345 * G_B26_3 = NULL;
+	List_1_t1440998580 * G_B25_0 = NULL;
+	int32_t G_B25_1 = 0;
+	bool G_B25_2 = false;
+	GameModel_t3841817345 * G_B25_3 = NULL;
+	int32_t G_B27_0 = 0;
+	List_1_t1440998580 * G_B27_1 = NULL;
+	int32_t G_B27_2 = 0;
+	bool G_B27_3 = false;
+	GameModel_t3841817345 * G_B27_4 = NULL;
+	{
+		bool L_0 = GameModel_get_isGameStarted_m3761597211(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(17 /* System.Boolean GSN.Skill.Games.Common.Model.GameModelBase::get_isGameOver() */, __this);
+		if (L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		bool L_2 = __this->get_inputBlocked_155();
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+
+IL_0021:
+	{
+		return;
+	}
+
+IL_0022:
+	{
+		Il2CppObject * L_3 = ___msg0;
+		int32_t L_4 = InputMessageExtensions_msgType_m963166261(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if (((int32_t)((int32_t)L_5+(int32_t)((int32_t)-2147483648LL))) == 0)
+		{
+			goto IL_004e;
+		}
+		if (((int32_t)((int32_t)L_5+(int32_t)((int32_t)-2147483648LL))) == 1)
+		{
+			goto IL_0209;
+		}
+		if (((int32_t)((int32_t)L_5+(int32_t)((int32_t)-2147483648LL))) == 2)
+		{
+			goto IL_0220;
+		}
+		if (((int32_t)((int32_t)L_5+(int32_t)((int32_t)-2147483648LL))) == 3)
+		{
+			goto IL_03c7;
+		}
+		if (((int32_t)((int32_t)L_5+(int32_t)((int32_t)-2147483648LL))) == 4)
+		{
+			goto IL_0579;
+		}
+	}
+	{
+		goto IL_05a1;
+	}
+
+IL_004e:
+	{
+		GameModel_beginUndo_m1168552270(__this, /*hidden argument*/NULL);
+		V_1 = (bool)1;
+		Il2CppObject * L_6 = ___msg0;
+		V_3 = ((*(CardClickedMessage_t157524846 *)((CardClickedMessage_t157524846 *)UnBox (L_6, CardClickedMessage_t157524846_il2cpp_TypeInfo_var))));
+		int32_t L_7 = (&V_3)->get_cardIndex_0();
+		V_2 = L_7;
+		List_1_t4087109391 * L_8 = __this->get__cards_140();
+		int32_t L_9 = V_2;
+		BaseCardData_t423020963 * L_10 = List_1_get_Item_m1588982064(L_8, L_9, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_4 = L_10;
+		BaseCardData_t423020963 * L_11 = V_4;
+		int32_t L_12 = L_11->get_cardID_0();
+		V_5 = L_12;
+		TriPeaksCardDeck_t1840429032 * L_13 = __this->get__deck_141();
+		int32_t L_14 = V_5;
+		GsnCard_t782444760 * L_15 = GsnCardDeck_GetCard_m1861553550(L_13, L_14, /*hidden argument*/NULL);
+		V_6 = L_15;
+		V_7 = (bool)0;
+		V_8 = (List_1_t1440998580 *)NULL;
+		GsnCard_t782444760 * L_16 = V_6;
+		bool L_17 = GsnCard_get_faceUp_m1886863502(L_16, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_01c2;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_18 = V_6;
+		bool L_19 = GsnCard_HasFlag_m545784328(L_18, ((int32_t)128), /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		GameModel_PlayBaitCard_m2579075238(__this, L_20, /*hidden argument*/NULL);
+		V_1 = (bool)0;
+		V_7 = (bool)1;
+		goto IL_01c2;
+	}
+
+IL_00c0:
+	{
+		GsnCard_t782444760 * L_21 = V_6;
+		GsnCard_t782444760 * L_22 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		bool L_23 = GameModel_isCardOneUpOrDown_m3321384995(__this, L_21, L_22, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_01b3;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_24 = V_6;
+		bool L_25 = GsnCard_HasFlag_m545784328(L_24, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_25)
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		int32_t L_26 = V_2;
+		GameModel_ClearDynamite_m339421654(__this, L_26, /*hidden argument*/NULL);
+		V_1 = (bool)0;
+		goto IL_00fb;
+	}
+
+IL_00f2:
+	{
+		int32_t L_27 = V_2;
+		GameModel_ProcessClickActions_m2903177287(__this, L_27, (&V_1), /*hidden argument*/NULL);
+	}
+
+IL_00fb:
+	{
+		V_7 = (bool)1;
+		int32_t L_28 = __this->get__streakCount_151();
+		V_9 = L_28;
+		int32_t L_29 = V_9;
+		if (L_29 == 0)
+		{
+			goto IL_012a;
+		}
+		if (L_29 == 1)
+		{
+			goto IL_0140;
+		}
+		if (L_29 == 2)
+		{
+			goto IL_0156;
+		}
+		if (L_29 == 3)
+		{
+			goto IL_016c;
+		}
+		if (L_29 == 4)
+		{
+			goto IL_0182;
+		}
+		if (L_29 == 5)
+		{
+			goto IL_0198;
+		}
+	}
+	{
+		goto IL_01ae;
+	}
+
+IL_012a:
+	{
+		JToken_t2552644013 * L_30 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1858509303, L_30, /*hidden argument*/NULL);
+		goto IL_01ae;
+	}
+
+IL_0140:
+	{
+		JToken_t2552644013 * L_31 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1858509302, L_31, /*hidden argument*/NULL);
+		goto IL_01ae;
+	}
+
+IL_0156:
+	{
+		JToken_t2552644013 * L_32 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1858509301, L_32, /*hidden argument*/NULL);
+		goto IL_01ae;
+	}
+
+IL_016c:
+	{
+		JToken_t2552644013 * L_33 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1858509300, L_33, /*hidden argument*/NULL);
+		goto IL_01ae;
+	}
+
+IL_0182:
+	{
+		JToken_t2552644013 * L_34 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1858509307, L_34, /*hidden argument*/NULL);
+		goto IL_01ae;
+	}
+
+IL_0198:
+	{
+		JToken_t2552644013 * L_35 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1858509306, L_35, /*hidden argument*/NULL);
+		goto IL_01ae;
+	}
+
+IL_01ae:
+	{
+		goto IL_01c2;
+	}
+
+IL_01b3:
+	{
+		List_1_t1440998580 * L_36 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_36, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		V_8 = L_36;
+		List_1_t1440998580 * L_37 = V_8;
+		int32_t L_38 = V_2;
+		List_1_Add_m688682013(L_37, L_38, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+	}
+
+IL_01c2:
+	{
+		bool L_39 = V_1;
+		if (!L_39)
+		{
+			goto IL_01f1;
+		}
+	}
+	{
+		bool L_40 = V_7;
+		int32_t L_41 = V_5;
+		List_1_t1440998580 * L_42 = V_8;
+		bool L_43 = V_7;
+		G_B25_0 = L_42;
+		G_B25_1 = L_41;
+		G_B25_2 = L_40;
+		G_B25_3 = __this;
+		if (!L_43)
+		{
+			G_B26_0 = L_42;
+			G_B26_1 = L_41;
+			G_B26_2 = L_40;
+			G_B26_3 = __this;
+			goto IL_01e1;
+		}
+	}
+	{
+		int32_t L_44 = __this->get__streakCount_151();
+		G_B27_0 = L_44;
+		G_B27_1 = G_B25_0;
+		G_B27_2 = G_B25_1;
+		G_B27_3 = G_B25_2;
+		G_B27_4 = G_B25_3;
+		goto IL_01e2;
+	}
+
+IL_01e1:
+	{
+		G_B27_0 = (-1);
+		G_B27_1 = G_B26_0;
+		G_B27_2 = G_B26_1;
+		G_B27_3 = G_B26_2;
+		G_B27_4 = G_B26_3;
+	}
+
+IL_01e2:
+	{
+		CardClickResultEvent_t864906509  L_45;
+		memset(&L_45, 0, sizeof(L_45));
+		CardClickResultEvent__ctor_m1087406625(&L_45, G_B27_3, G_B27_2, G_B27_1, G_B27_0, /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_46 = L_45;
+		Il2CppObject * L_47 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_46);
+		EventDispatcher_DispatchEvent_m4139058996(G_B27_4, (Il2CppObject *)L_47, /*hidden argument*/NULL);
+	}
+
+IL_01f1:
+	{
+		bool L_48 = V_7;
+		if (!L_48)
+		{
+			goto IL_01fe;
+		}
+	}
+	{
+		GameModel_AdvanceTurn_m2689795504(__this, /*hidden argument*/NULL);
+	}
+
+IL_01fe:
+	{
+		GameModel_endUndo_m3773902322(__this, /*hidden argument*/NULL);
+		goto IL_05a1;
+	}
+
+IL_0209:
+	{
+		GameModel_beginUndo_m1168552270(__this, /*hidden argument*/NULL);
+		GameModel_OnDealClicked_m440089945(__this, /*hidden argument*/NULL);
+		GameModel_endUndo_m3773902322(__this, /*hidden argument*/NULL);
+		goto IL_05a1;
+	}
+
+IL_0220:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_49 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_HOLD_ID_47();
+		bool L_50 = GameModel_HasOption_m2153457552(__this, L_49, /*hidden argument*/NULL);
+		if (L_50)
+		{
+			goto IL_0231;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0231:
+	{
+		GameModel_beginUndo_m1168552270(__this, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_51 = __this->get__dealPile_142();
+		bool L_52 = GsnCardPile_get_isEmpty_m367156421(L_51, /*hidden argument*/NULL);
+		if (L_52)
+		{
+			goto IL_0332;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_53 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		if (L_53)
+		{
+			goto IL_0332;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_54 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		GameModel_set_holdCard_m3938096873(__this, L_54, /*hidden argument*/NULL);
+		TriPeaksCardDeck_t1840429032 * L_55 = __this->get__deck_141();
+		GsnCard_t782444760 * L_56 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		int32_t L_57 = GsnCardDeck_GetCardID_m3774805247(L_55, L_56, /*hidden argument*/NULL);
+		V_10 = L_57;
+		int32_t L_58 = V_10;
+		HoldSpotClickedUndoStep_t4219400472  L_59;
+		memset(&L_59, 0, sizeof(L_59));
+		HoldSpotClickedUndoStep__ctor_m183067209(&L_59, L_58, /*hidden argument*/NULL);
+		HoldSpotClickedUndoStep_t4219400472  L_60 = L_59;
+		Il2CppObject * L_61 = Box(HoldSpotClickedUndoStep_t4219400472_il2cpp_TypeInfo_var, &L_60);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_61, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_62 = __this->get__wastePile_143();
+		int32_t L_63 = V_10;
+		GsnCardPile_RemoveCard_m2603321118(L_62, L_63, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_64 = __this->get__dealPile_142();
+		int32_t L_65 = GsnCardPile_GetTopCardID_m3102030089(L_64, /*hidden argument*/NULL);
+		V_11 = L_65;
+		GsnCardPile_t3625903776 * L_66 = __this->get__dealPile_142();
+		GsnCardPile_RemoveTopCard_m3272141710(L_66, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_67 = __this->get__wastePile_143();
+		int32_t L_68 = V_11;
+		GsnCardPile_AddCard_m1029854019(L_67, L_68, /*hidden argument*/NULL);
+		int32_t L_69 = V_11;
+		DealToWasteUndoStep_t557574109  L_70;
+		memset(&L_70, 0, sizeof(L_70));
+		DealToWasteUndoStep__ctor_m4072864848(&L_70, L_69, /*hidden argument*/NULL);
+		DealToWasteUndoStep_t557574109  L_71 = L_70;
+		Il2CppObject * L_72 = Box(DealToWasteUndoStep_t557574109_il2cpp_TypeInfo_var, &L_71);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_72, /*hidden argument*/NULL);
+		GameModel_resetStreak_m2251120952(__this, /*hidden argument*/NULL);
+		int32_t L_73 = V_10;
+		MoveCardToHoldEvent_t830903267  L_74;
+		memset(&L_74, 0, sizeof(L_74));
+		MoveCardToHoldEvent__ctor_m4115684286(&L_74, L_73, /*hidden argument*/NULL);
+		MoveCardToHoldEvent_t830903267  L_75 = L_74;
+		Il2CppObject * L_76 = Box(MoveCardToHoldEvent_t830903267_il2cpp_TypeInfo_var, &L_75);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_76, /*hidden argument*/NULL);
+		GameModel_CheckWasteForTikiAbilities_m673939973(__this, /*hidden argument*/NULL);
+		Dictionary_2_t3986656710 * L_77 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_78 = Dictionary_2_get_Item_m1316665190(L_77, _stringLiteral389492954, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		GameModel_blockInput_m1721148109(__this, L_78, /*hidden argument*/NULL);
+		bool L_79 = GameModel_get_canReshuffle_m3082953866(__this, /*hidden argument*/NULL);
+		if (!L_79)
+		{
+			goto IL_031c;
+		}
+	}
+	{
+		Initobj (ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var, (&V_12));
+		ShowReshuffleButtonEvent_t2008462107  L_80 = V_12;
+		ShowReshuffleButtonEvent_t2008462107  L_81 = L_80;
+		Il2CppObject * L_82 = Box(ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var, &L_81);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_82, /*hidden argument*/NULL);
+	}
+
+IL_031c:
+	{
+		JToken_t2552644013 * L_83 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral4272038111, L_83, /*hidden argument*/NULL);
+		goto IL_03b6;
+	}
+
+IL_0332:
+	{
+		GsnCard_t782444760 * L_84 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		if (!L_84)
+		{
+			goto IL_03b6;
+		}
+	}
+	{
+		TriPeaksCardDeck_t1840429032 * L_85 = __this->get__deck_141();
+		GsnCard_t782444760 * L_86 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		int32_t L_87 = GsnCardDeck_GetCardID_m3774805247(L_85, L_86, /*hidden argument*/NULL);
+		V_13 = L_87;
+		GsnCard_t782444760 * L_88 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_89 = GameModel_findAllMoves_m3150485129(__this, L_88, /*hidden argument*/NULL);
+		V_14 = L_89;
+		GameModel_checkCurrentWasteForRemoval_m4183424925(__this, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_90 = __this->get__wastePile_143();
+		int32_t L_91 = V_13;
+		GsnCardPile_AddCard_m1029854019(L_90, L_91, /*hidden argument*/NULL);
+		GameModel_set_holdCard_m3938096873(__this, (GsnCard_t782444760 *)NULL, /*hidden argument*/NULL);
+		int32_t L_92 = V_13;
+		List_1_t1440998580 * L_93 = V_14;
+		CardClickResultEvent_t864906509  L_94;
+		memset(&L_94, 0, sizeof(L_94));
+		CardClickResultEvent__ctor_m1087406625(&L_94, (bool)1, L_92, L_93, (-1), /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_95 = L_94;
+		Il2CppObject * L_96 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_95);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_96, /*hidden argument*/NULL);
+		int32_t L_97 = V_13;
+		HoldCardClickedUndoStep_t2539933680  L_98;
+		memset(&L_98, 0, sizeof(L_98));
+		HoldCardClickedUndoStep__ctor_m3220468641(&L_98, L_97, /*hidden argument*/NULL);
+		HoldCardClickedUndoStep_t2539933680  L_99 = L_98;
+		Il2CppObject * L_100 = Box(HoldCardClickedUndoStep_t2539933680_il2cpp_TypeInfo_var, &L_99);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_100, /*hidden argument*/NULL);
+		Dictionary_2_t3986656710 * L_101 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_102 = Dictionary_2_get_Item_m1316665190(L_101, _stringLiteral389492954, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		GameModel_blockInput_m1721148109(__this, L_102, /*hidden argument*/NULL);
+	}
+
+IL_03b6:
+	{
+		GameModel_AdvanceTurn_m2689795504(__this, /*hidden argument*/NULL);
+		GameModel_endUndo_m3773902322(__this, /*hidden argument*/NULL);
+		goto IL_05a1;
+	}
+
+IL_03c7:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_103 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RESHUFFLE_ID_46();
+		bool L_104 = GameModel_HasOption_m2153457552(__this, L_103, /*hidden argument*/NULL);
+		if (L_104)
+		{
+			goto IL_03d8;
+		}
+	}
+	{
+		return;
+	}
+
+IL_03d8:
+	{
+		GsnCardPile_t3625903776 * L_105 = __this->get__dealPile_142();
+		bool L_106 = GsnCardPile_get_isEmpty_m367156421(L_105, /*hidden argument*/NULL);
+		if (L_106)
+		{
+			goto IL_03e9;
+		}
+	}
+	{
+		return;
+	}
+
+IL_03e9:
+	{
+		GameModel_beginUndo_m1168552270(__this, /*hidden argument*/NULL);
+		GsnCard_t782444760 * L_107 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_108 = GameModel_findAllMoves_m3150485129(__this, L_107, /*hidden argument*/NULL);
+		V_15 = L_108;
+		goto IL_043a;
+	}
+
+IL_0402:
+	{
+		GsnCardPile_t3625903776 * L_109 = __this->get__wastePile_143();
+		int32_t L_110 = GsnCardPile_GetTopCardID_m3102030089(L_109, /*hidden argument*/NULL);
+		V_16 = L_110;
+		int32_t L_111 = V_16;
+		WasteToDealUndoStep_t986620231  L_112;
+		memset(&L_112, 0, sizeof(L_112));
+		WasteToDealUndoStep__ctor_m1721614634(&L_112, L_111, /*hidden argument*/NULL);
+		WasteToDealUndoStep_t986620231  L_113 = L_112;
+		Il2CppObject * L_114 = Box(WasteToDealUndoStep_t986620231_il2cpp_TypeInfo_var, &L_113);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_114, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_115 = __this->get__wastePile_143();
+		GsnCardPile_RemoveTopCard_m3272141710(L_115, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_116 = __this->get__dealPile_142();
+		int32_t L_117 = V_16;
+		GsnCardPile_AddCard_m1029854019(L_116, L_117, /*hidden argument*/NULL);
+	}
+
+IL_043a:
+	{
+		GsnCardPile_t3625903776 * L_118 = __this->get__wastePile_143();
+		bool L_119 = GsnCardPile_get_isEmpty_m367156421(L_118, /*hidden argument*/NULL);
+		if (!L_119)
+		{
+			goto IL_0402;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_120 = __this->get__removedPile_144();
+		int32_t L_121 = GsnCardPile_get_count_m669804915(L_120, /*hidden argument*/NULL);
+		V_17 = ((int32_t)((int32_t)L_121-(int32_t)1));
+		goto IL_04c0;
+	}
+
+IL_045e:
+	{
+		GsnCardPile_t3625903776 * L_122 = __this->get__removedPile_144();
+		int32_t L_123 = V_17;
+		int32_t L_124 = GsnCardPile_GetCardIDAt_m599953468(L_122, L_123, /*hidden argument*/NULL);
+		V_18 = L_124;
+		TriPeaksCardDeck_t1840429032 * L_125 = __this->get__deck_141();
+		int32_t L_126 = V_18;
+		GsnCard_t782444760 * L_127 = GsnCardDeck_GetCard_m1861553550(L_125, L_126, /*hidden argument*/NULL);
+		V_19 = L_127;
+		GsnCard_t782444760 * L_128 = V_19;
+		bool L_129 = GsnCard_HasFlag_m545784328(L_128, ((int32_t)254), /*hidden argument*/NULL);
+		if (L_129)
+		{
+			goto IL_04ba;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_130 = __this->get__removedPile_144();
+		int32_t L_131 = V_17;
+		GsnCardPile_RemoveCardAt_m1061423375(L_130, L_131, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_132 = __this->get__dealPile_142();
+		int32_t L_133 = V_18;
+		GsnCardPile_AddCard_m1029854019(L_132, L_133, /*hidden argument*/NULL);
+		int32_t L_134 = V_18;
+		RemovedToDealUndoStep_t47322973  L_135;
+		memset(&L_135, 0, sizeof(L_135));
+		RemovedToDealUndoStep__ctor_m1596948872(&L_135, L_134, /*hidden argument*/NULL);
+		RemovedToDealUndoStep_t47322973  L_136 = L_135;
+		Il2CppObject * L_137 = Box(RemovedToDealUndoStep_t47322973_il2cpp_TypeInfo_var, &L_136);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_137, /*hidden argument*/NULL);
+	}
+
+IL_04ba:
+	{
+		int32_t L_138 = V_17;
+		V_17 = ((int32_t)((int32_t)L_138-(int32_t)1));
+	}
+
+IL_04c0:
+	{
+		int32_t L_139 = V_17;
+		if ((((int32_t)L_139) >= ((int32_t)0)))
+		{
+			goto IL_045e;
+		}
+	}
+	{
+		List_1_t1440998580 * L_140 = V_15;
+		CardClickResultEvent_t864906509  L_141;
+		memset(&L_141, 0, sizeof(L_141));
+		CardClickResultEvent__ctor_m1087406625(&L_141, (bool)0, (-1), L_140, (-1), /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_142 = L_141;
+		Il2CppObject * L_143 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_142);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_143, /*hidden argument*/NULL);
+		GsnRandom_t3573954395 * L_144 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		uint32_t L_145 = GsnRandom_GetBurnCount_m733612573(L_144, /*hidden argument*/NULL);
+		BurnRNGUndoStep_t498309376  L_146;
+		memset(&L_146, 0, sizeof(L_146));
+		BurnRNGUndoStep__ctor_m1066099928(&L_146, L_145, /*hidden argument*/NULL);
+		BurnRNGUndoStep_t498309376  L_147 = L_146;
+		Il2CppObject * L_148 = Box(BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var, &L_147);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_148, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_149 = __this->get__dealPile_142();
+		GsnRandom_t3573954395 * L_150 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		GsnCardPile_Shuffle_m2099784971(L_149, L_150, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_151 = __this->get__dealPile_142();
+		String_t* L_152 = GsnCardPile_GetString_m1657591612(L_151, (bool)1, /*hidden argument*/NULL);
+		Dictionary_2_t3986656710 * L_153 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_154 = Dictionary_2_get_Item_m1316665190(L_153, _stringLiteral136639744, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		ReshuffleEvent_t614706430  L_155;
+		memset(&L_155, 0, sizeof(L_155));
+		ReshuffleEvent__ctor_m348665201(&L_155, L_152, L_154, /*hidden argument*/NULL);
+		ReshuffleEvent_t614706430  L_156 = L_155;
+		Il2CppObject * L_157 = Box(ReshuffleEvent_t614706430_il2cpp_TypeInfo_var, &L_156);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_157, /*hidden argument*/NULL);
+		Dictionary_2_t3986656710 * L_158 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_159 = Dictionary_2_get_Item_m1316665190(L_158, _stringLiteral136639744, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		GameModel_blockInput_m1721148109(__this, L_159, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_160 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		EndReshuffleTask_t667447964 * L_161 = (EndReshuffleTask_t667447964 *)il2cpp_codegen_object_new(EndReshuffleTask_t667447964_il2cpp_TypeInfo_var);
+		EndReshuffleTask__ctor_m2846647072(L_161, __this, /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_160, L_161, /*hidden argument*/NULL);
+		__this->set__hasReshuffled_162((bool)1);
+		JToken_t2552644013 * L_162 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral2392177020, L_162, /*hidden argument*/NULL);
+		goto IL_05a1;
+	}
+
+IL_0579:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_163 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_ONE_SHOT_WILD_ID_48();
+		bool L_164 = GameModel_HasOption_m2153457552(__this, L_163, /*hidden argument*/NULL);
+		if (L_164)
+		{
+			goto IL_058a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_058a:
+	{
+		GameModel_beginUndo_m1168552270(__this, /*hidden argument*/NULL);
+		GameModel_OnWildOnTimeClicked_m3653623655(__this, /*hidden argument*/NULL);
+		GameModel_endUndo_m3773902322(__this, /*hidden argument*/NULL);
+		goto IL_05a1;
+	}
+
+IL_05a1:
+	{
+		GameModel_checkForEndGame_m609064695(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::performUndoAction()
+extern Il2CppClass* BeginUndoStep_t4074255339_il2cpp_TypeInfo_var;
+extern Il2CppClass* TableauToWasteUndoStep_t2195983855_il2cpp_TypeInfo_var;
+extern Il2CppClass* DealToWasteUndoStep_t557574109_il2cpp_TypeInfo_var;
+extern Il2CppClass* WasteToDealUndoStep_t986620231_il2cpp_TypeInfo_var;
+extern Il2CppClass* ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemovedToDealUndoStep_t47322973_il2cpp_TypeInfo_var;
+extern Il2CppClass* AddCardToFaceupUndoStep_t456571566_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromFaceupUndoStep_t964717432_il2cpp_TypeInfo_var;
+extern Il2CppClass* UncoveredCardUndoStep_t769399927_il2cpp_TypeInfo_var;
+extern Il2CppClass* ModifyStreakUndoStep_t1352980234_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateStreakEvent_t2125789319_il2cpp_TypeInfo_var;
+extern Il2CppClass* FlippedCardUndoStep_t823793726_il2cpp_TypeInfo_var;
+extern Il2CppClass* ModifyScoreUndoStep_t483283180_il2cpp_TypeInfo_var;
+extern Il2CppClass* ChangeTypeUndoStep_t1816012290_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromTableauUndoStep_t2713688858_il2cpp_TypeInfo_var;
+extern Il2CppClass* OneShotWildClickedUndoStep_t2427321765_il2cpp_TypeInfo_var;
+extern Il2CppClass* BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var;
+extern Il2CppClass* AdvanceTurnCounterUndoStep_t3866957267_il2cpp_TypeInfo_var;
+extern Il2CppClass* AdvanceTurnCardUndoStep_t4144436193_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ArgumentException_t3259014390_il2cpp_TypeInfo_var;
+extern const MethodInfo* Stack_1_get_Count_m3029880077_MethodInfo_var;
+extern const MethodInfo* Stack_1_Pop_m3280642200_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_Remove_m3494432915_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3146846179;
+extern Il2CppCodeGenString* _stringLiteral956355594;
+extern const uint32_t GameModel_performUndoAction_m2434460884_MetadataUsageId;
+extern "C"  void GameModel_performUndoAction_m2434460884 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_performUndoAction_m2434460884_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	int32_t V_1 = 0;
+	BeginUndoStep_t4074255339  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	TableauToWasteUndoStep_t2195983855  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	DealToWasteUndoStep_t557574109  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	WasteToDealUndoStep_t986620231  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	ShowReshuffleButtonEvent_t2008462107  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	RemovedToDealUndoStep_t47322973  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	AddCardToFaceupUndoStep_t456571566  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	RemoveCardFromFaceupUndoStep_t964717432  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	UncoveredCardUndoStep_t769399927  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	ModifyStreakUndoStep_t1352980234  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	FlippedCardUndoStep_t823793726  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	int32_t V_14 = 0;
+	GsnCard_t782444760 * V_15 = NULL;
+	ModifyScoreUndoStep_t483283180  V_16;
+	memset(&V_16, 0, sizeof(V_16));
+	ChangeTypeUndoStep_t1816012290  V_17;
+	memset(&V_17, 0, sizeof(V_17));
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	GsnCard_t782444760 * V_20 = NULL;
+	RemoveCardFromWasteUndoStep_t52364908  V_21;
+	memset(&V_21, 0, sizeof(V_21));
+	int32_t V_22 = 0;
+	RemoveCardFromTableauUndoStep_t2713688858  V_23;
+	memset(&V_23, 0, sizeof(V_23));
+	int32_t V_24 = 0;
+	int32_t V_25 = 0;
+	OneShotWildClickedUndoStep_t2427321765  V_26;
+	memset(&V_26, 0, sizeof(V_26));
+	int32_t V_27 = 0;
+	int32_t V_28 = 0;
+	BurnRNGUndoStep_t498309376  V_29;
+	memset(&V_29, 0, sizeof(V_29));
+	AdvanceTurnCounterUndoStep_t3866957267  V_30;
+	memset(&V_30, 0, sizeof(V_30));
+	AdvanceTurnCardUndoStep_t4144436193  V_31;
+	memset(&V_31, 0, sizeof(V_31));
+	TriPeaksCard_t214310709 * V_32 = NULL;
+	{
+		Stack_1_t1730414700 * L_0 = __this->get__undoSteps_159();
+		int32_t L_1 = Stack_1_get_Count_m3029880077(L_0, /*hidden argument*/Stack_1_get_Count_m3029880077_MethodInfo_var);
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		Stack_1_t1730414700 * L_2 = __this->get__undoSteps_159();
+		Il2CppObject * L_3 = Stack_1_Pop_m3280642200(L_2, /*hidden argument*/Stack_1_Pop_m3280642200_MethodInfo_var);
+		V_0 = L_3;
+		Il2CppObject * L_4 = V_0;
+		int32_t L_5 = UndoEventExtensions_undoEventType_m3520247504(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 0)
+		{
+			goto IL_0085;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 1)
+		{
+			goto IL_00a5;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 2)
+		{
+			goto IL_00d3;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 3)
+		{
+			goto IL_0103;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 4)
+		{
+			goto IL_0154;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 5)
+		{
+			goto IL_0185;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 6)
+		{
+			goto IL_01a5;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 7)
+		{
+			goto IL_01c4;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 8)
+		{
+			goto IL_0217;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 9)
+		{
+			goto IL_0247;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 10)
+		{
+			goto IL_0284;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 11)
+		{
+			goto IL_02b8;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 12)
+		{
+			goto IL_0330;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 13)
+		{
+			goto IL_0373;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 14)
+		{
+			goto IL_03cb;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 15)
+		{
+			goto IL_03f6;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 16)
+		{
+			goto IL_0422;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 17)
+		{
+			goto IL_0453;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 18)
+		{
+			goto IL_047d;
+		}
+		if (((int32_t)((int32_t)L_6+(int32_t)((int32_t)2147483631))) == 19)
+		{
+			goto IL_0497;
+		}
+	}
+	{
+		goto IL_04cc;
+	}
+
+IL_0085:
+	{
+		Il2CppObject * L_7 = V_0;
+		V_2 = ((*(BeginUndoStep_t4074255339 *)((BeginUndoStep_t4074255339 *)UnBox (L_7, BeginUndoStep_t4074255339_il2cpp_TypeInfo_var))));
+		int32_t L_8 = (&V_2)->get_stateTimeMS_0();
+		int32_t L_9 = (&V_2)->get_accumulatedPauseTime_1();
+		VirtActionInvoker2< int32_t, int32_t >::Invoke(15 /* System.Void GSN.Skill.Games.Common.Model.GameModelBase::RewindTasks(System.Int32,System.Int32) */, __this, L_8, L_9);
+		goto IL_04dd;
+	}
+
+IL_00a5:
+	{
+		Il2CppObject * L_10 = V_0;
+		V_3 = ((*(TableauToWasteUndoStep_t2195983855 *)((TableauToWasteUndoStep_t2195983855 *)UnBox (L_10, TableauToWasteUndoStep_t2195983855_il2cpp_TypeInfo_var))));
+		GsnCardPile_t3625903776 * L_11 = __this->get__wastePile_143();
+		List_1_t4087109391 * L_12 = __this->get__cards_140();
+		int32_t L_13 = (&V_3)->get_cardIndex_0();
+		BaseCardData_t423020963 * L_14 = List_1_get_Item_m1588982064(L_12, L_13, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_15 = L_14->get_cardID_0();
+		GsnCardPile_RemoveCard_m2603321118(L_11, L_15, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_00d3:
+	{
+		Il2CppObject * L_16 = V_0;
+		V_4 = ((*(DealToWasteUndoStep_t557574109 *)((DealToWasteUndoStep_t557574109 *)UnBox (L_16, DealToWasteUndoStep_t557574109_il2cpp_TypeInfo_var))));
+		int32_t L_17 = (&V_4)->get_cardID_0();
+		V_5 = L_17;
+		GsnCardPile_t3625903776 * L_18 = __this->get__wastePile_143();
+		int32_t L_19 = V_5;
+		GsnCardPile_RemoveCard_m2603321118(L_18, L_19, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_20 = __this->get__dealPile_142();
+		int32_t L_21 = V_5;
+		GsnCardPile_AddCard_m1029854019(L_20, L_21, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_0103:
+	{
+		Il2CppObject * L_22 = V_0;
+		V_6 = ((*(WasteToDealUndoStep_t986620231 *)((WasteToDealUndoStep_t986620231 *)UnBox (L_22, WasteToDealUndoStep_t986620231_il2cpp_TypeInfo_var))));
+		GsnCardPile_t3625903776 * L_23 = __this->get__dealPile_142();
+		int32_t L_24 = (&V_6)->get_cardID_0();
+		GsnCardPile_RemoveCard_m2603321118(L_23, L_24, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_25 = __this->get__wastePile_143();
+		int32_t L_26 = (&V_6)->get_cardID_0();
+		GsnCardPile_AddCard_m1029854019(L_25, L_26, /*hidden argument*/NULL);
+		bool L_27 = GameModel_get_canReshuffle_m3082953866(__this, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_014f;
+		}
+	}
+	{
+		Initobj (ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var, (&V_7));
+		ShowReshuffleButtonEvent_t2008462107  L_28 = V_7;
+		ShowReshuffleButtonEvent_t2008462107  L_29 = L_28;
+		Il2CppObject * L_30 = Box(ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var, &L_29);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_30, /*hidden argument*/NULL);
+	}
+
+IL_014f:
+	{
+		goto IL_04dd;
+	}
+
+IL_0154:
+	{
+		Il2CppObject * L_31 = V_0;
+		V_8 = ((*(RemovedToDealUndoStep_t47322973 *)((RemovedToDealUndoStep_t47322973 *)UnBox (L_31, RemovedToDealUndoStep_t47322973_il2cpp_TypeInfo_var))));
+		GsnCardPile_t3625903776 * L_32 = __this->get__dealPile_142();
+		int32_t L_33 = (&V_8)->get_cardID_0();
+		GsnCardPile_RemoveCard_m2603321118(L_32, L_33, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_34 = __this->get__removedPile_144();
+		int32_t L_35 = (&V_8)->get_cardID_0();
+		GsnCardPile_AddCard_m1029854019(L_34, L_35, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_0185:
+	{
+		Il2CppObject * L_36 = V_0;
+		V_9 = ((*(AddCardToFaceupUndoStep_t456571566 *)((AddCardToFaceupUndoStep_t456571566 *)UnBox (L_36, AddCardToFaceupUndoStep_t456571566_il2cpp_TypeInfo_var))));
+		List_1_t1440998580 * L_37 = __this->get__faceUpCards_158();
+		int32_t L_38 = (&V_9)->get_cardIndex_0();
+		List_1_Remove_m3494432915(L_37, L_38, /*hidden argument*/List_1_Remove_m3494432915_MethodInfo_var);
+		goto IL_04dd;
+	}
+
+IL_01a5:
+	{
+		Il2CppObject * L_39 = V_0;
+		V_10 = ((*(RemoveCardFromFaceupUndoStep_t964717432 *)((RemoveCardFromFaceupUndoStep_t964717432 *)UnBox (L_39, RemoveCardFromFaceupUndoStep_t964717432_il2cpp_TypeInfo_var))));
+		List_1_t1440998580 * L_40 = __this->get__faceUpCards_158();
+		int32_t L_41 = (&V_10)->get_cardIndex_0();
+		List_1_Add_m688682013(L_40, L_41, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		goto IL_04dd;
+	}
+
+IL_01c4:
+	{
+		Il2CppObject * L_42 = V_0;
+		V_11 = ((*(UncoveredCardUndoStep_t769399927 *)((UncoveredCardUndoStep_t769399927 *)UnBox (L_42, UncoveredCardUndoStep_t769399927_il2cpp_TypeInfo_var))));
+		List_1_t4087109391 * L_43 = __this->get__cards_140();
+		int32_t L_44 = (&V_11)->get_cardCovered_1();
+		BaseCardData_t423020963 * L_45 = List_1_get_Item_m1588982064(L_43, L_44, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		List_1_t1440998580 * L_46 = L_45->get_coveredByCards_2();
+		int32_t L_47 = (&V_11)->get_cardIndex_0();
+		List_1_Add_m688682013(L_46, L_47, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_t4087109391 * L_48 = __this->get__cards_140();
+		int32_t L_49 = (&V_11)->get_cardIndex_0();
+		BaseCardData_t423020963 * L_50 = List_1_get_Item_m1588982064(L_48, L_49, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		List_1_t1440998580 * L_51 = L_50->get_coversCards_1();
+		int32_t L_52 = (&V_11)->get_cardCovered_1();
+		List_1_Add_m688682013(L_51, L_52, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		goto IL_04dd;
+	}
+
+IL_0217:
+	{
+		Il2CppObject * L_53 = V_0;
+		V_12 = ((*(ModifyStreakUndoStep_t1352980234 *)((ModifyStreakUndoStep_t1352980234 *)UnBox (L_53, ModifyStreakUndoStep_t1352980234_il2cpp_TypeInfo_var))));
+		int32_t L_54 = (&V_12)->get_streakCount_0();
+		__this->set__streakCount_151(L_54);
+		int32_t L_55 = __this->get__streakCount_151();
+		UpdateStreakEvent_t2125789319  L_56;
+		memset(&L_56, 0, sizeof(L_56));
+		UpdateStreakEvent__ctor_m1017131554(&L_56, L_55, /*hidden argument*/NULL);
+		UpdateStreakEvent_t2125789319  L_57 = L_56;
+		Il2CppObject * L_58 = Box(UpdateStreakEvent_t2125789319_il2cpp_TypeInfo_var, &L_57);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_58, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_0247:
+	{
+		Il2CppObject * L_59 = V_0;
+		V_13 = ((*(FlippedCardUndoStep_t823793726 *)((FlippedCardUndoStep_t823793726 *)UnBox (L_59, FlippedCardUndoStep_t823793726_il2cpp_TypeInfo_var))));
+		List_1_t4087109391 * L_60 = __this->get__cards_140();
+		int32_t L_61 = (&V_13)->get_cardIndex_0();
+		BaseCardData_t423020963 * L_62 = List_1_get_Item_m1588982064(L_60, L_61, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_63 = L_62->get_cardID_0();
+		V_14 = L_63;
+		TriPeaksCardDeck_t1840429032 * L_64 = __this->get__deck_141();
+		int32_t L_65 = V_14;
+		GsnCard_t782444760 * L_66 = GsnCardDeck_GetCard_m1861553550(L_64, L_65, /*hidden argument*/NULL);
+		V_15 = L_66;
+		GsnCard_t782444760 * L_67 = V_15;
+		GsnCard_set_faceUp_m3645161989(L_67, (bool)0, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_0284:
+	{
+		Il2CppObject * L_68 = V_0;
+		V_16 = ((*(ModifyScoreUndoStep_t483283180 *)((ModifyScoreUndoStep_t483283180 *)UnBox (L_68, ModifyScoreUndoStep_t483283180_il2cpp_TypeInfo_var))));
+		Dictionary_2_t3986656710 * L_69 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_70 = Dictionary_2_get_Item_m1316665190(L_69, _stringLiteral3146846179, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		int32_t L_71 = (&V_16)->get_streakPoints_0();
+		int32_t L_72 = (&V_16)->get_cardID_1();
+		GameModel_modifyScore_m2737766079(__this, ((-L_70)), ((-L_71)), L_72, 0, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_02b8:
+	{
+		Il2CppObject * L_73 = V_0;
+		V_17 = ((*(ChangeTypeUndoStep_t1816012290 *)((ChangeTypeUndoStep_t1816012290 *)UnBox (L_73, ChangeTypeUndoStep_t1816012290_il2cpp_TypeInfo_var))));
+		int32_t L_74 = (&V_17)->get_cardIndex_0();
+		V_18 = L_74;
+		List_1_t4087109391 * L_75 = __this->get__cards_140();
+		int32_t L_76 = V_18;
+		BaseCardData_t423020963 * L_77 = List_1_get_Item_m1588982064(L_75, L_76, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_78 = (&V_17)->get_cardType_1();
+		L_77->set_cardType_3(L_78);
+		List_1_t4087109391 * L_79 = __this->get__cards_140();
+		int32_t L_80 = V_18;
+		BaseCardData_t423020963 * L_81 = List_1_get_Item_m1588982064(L_79, L_80, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_82 = L_81->get_cardID_0();
+		V_19 = L_82;
+		TriPeaksCardDeck_t1840429032 * L_83 = __this->get__deck_141();
+		int32_t L_84 = V_19;
+		GsnCard_t782444760 * L_85 = GsnCardDeck_GetCard_m1861553550(L_83, L_84, /*hidden argument*/NULL);
+		V_20 = L_85;
+		GsnCard_t782444760 * L_86 = V_20;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_86, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_032b;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_87 = V_20;
+		List_1_t4087109391 * L_88 = __this->get__cards_140();
+		int32_t L_89 = V_18;
+		BaseCardData_t423020963 * L_90 = List_1_get_Item_m1588982064(L_88, L_89, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		TriPeaksCard_ApplyFlagsFromData_m1125726104(((TriPeaksCard_t214310709 *)CastclassClass(L_87, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)), __this, L_90, /*hidden argument*/NULL);
+	}
+
+IL_032b:
+	{
+		goto IL_04dd;
+	}
+
+IL_0330:
+	{
+		Il2CppObject * L_91 = V_0;
+		V_21 = ((*(RemoveCardFromWasteUndoStep_t52364908 *)((RemoveCardFromWasteUndoStep_t52364908 *)UnBox (L_91, RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var))));
+		int32_t L_92 = (&V_21)->get_cardID_0();
+		V_22 = L_92;
+		GsnCardPile_t3625903776 * L_93 = __this->get__removedPile_144();
+		int32_t L_94 = V_22;
+		int32_t L_95 = GsnCardPile_GetCardSlot_m1067634896(L_93, L_94, /*hidden argument*/NULL);
+		if ((((int32_t)L_95) == ((int32_t)(-1))))
+		{
+			goto IL_0361;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_96 = __this->get__removedPile_144();
+		int32_t L_97 = V_22;
+		GsnCardPile_RemoveCard_m2603321118(L_96, L_97, /*hidden argument*/NULL);
+	}
+
+IL_0361:
+	{
+		GsnCardPile_t3625903776 * L_98 = __this->get__wastePile_143();
+		int32_t L_99 = V_22;
+		GsnCardPile_AddCard_m1029854019(L_98, L_99, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_0373:
+	{
+		Il2CppObject * L_100 = V_0;
+		V_23 = ((*(RemoveCardFromTableauUndoStep_t2713688858 *)((RemoveCardFromTableauUndoStep_t2713688858 *)UnBox (L_100, RemoveCardFromTableauUndoStep_t2713688858_il2cpp_TypeInfo_var))));
+		int32_t L_101 = (&V_23)->get_cardIndex_0();
+		V_24 = L_101;
+		List_1_t4087109391 * L_102 = __this->get__cards_140();
+		int32_t L_103 = V_24;
+		BaseCardData_t423020963 * L_104 = List_1_get_Item_m1588982064(L_102, L_103, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_105 = L_104->get_cardID_0();
+		V_25 = L_105;
+		GsnCardPile_t3625903776 * L_106 = __this->get__removedPile_144();
+		int32_t L_107 = V_25;
+		int32_t L_108 = GsnCardPile_GetCardSlot_m1067634896(L_106, L_107, /*hidden argument*/NULL);
+		if ((((int32_t)L_108) == ((int32_t)(-1))))
+		{
+			goto IL_03b8;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_109 = __this->get__removedPile_144();
+		int32_t L_110 = V_25;
+		GsnCardPile_RemoveCard_m2603321118(L_109, L_110, /*hidden argument*/NULL);
+	}
+
+IL_03b8:
+	{
+		TriPeaksCardDeck_t1840429032 * L_111 = __this->get__deck_141();
+		int32_t L_112 = V_25;
+		GsnCardDeck_SetPileOfCard_m906999350(L_111, L_112, (GsnCardPile_t3625903776 *)NULL, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_03cb:
+	{
+		Il2CppObject * L_113 = V_0;
+		V_26 = ((*(OneShotWildClickedUndoStep_t2427321765 *)((OneShotWildClickedUndoStep_t2427321765 *)UnBox (L_113, OneShotWildClickedUndoStep_t2427321765_il2cpp_TypeInfo_var))));
+		int32_t L_114 = (&V_26)->get_numOneTimeWildsLeft_0();
+		__this->set__numOneTimeWildsLeft_150(L_114);
+		GsnCardPile_t3625903776 * L_115 = __this->get__wastePile_143();
+		int32_t L_116 = __this->get__wildID_153();
+		GsnCardPile_RemoveCard_m2603321118(L_115, L_116, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_03f6:
+	{
+		TriPeaksCardDeck_t1840429032 * L_117 = __this->get__deck_141();
+		GsnCard_t782444760 * L_118 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		int32_t L_119 = GsnCardDeck_GetCardID_m3774805247(L_117, L_118, /*hidden argument*/NULL);
+		V_27 = L_119;
+		GameModel_set_holdCard_m3938096873(__this, (GsnCard_t782444760 *)NULL, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_120 = __this->get__wastePile_143();
+		int32_t L_121 = V_27;
+		GsnCardPile_AddCard_m1029854019(L_120, L_121, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_0422:
+	{
+		GsnCardPile_t3625903776 * L_122 = __this->get__wastePile_143();
+		int32_t L_123 = GsnCardPile_GetTopCardID_m3102030089(L_122, /*hidden argument*/NULL);
+		V_28 = L_123;
+		GsnCardPile_t3625903776 * L_124 = __this->get__wastePile_143();
+		GsnCardPile_RemoveTopCard_m3272141710(L_124, /*hidden argument*/NULL);
+		TriPeaksCardDeck_t1840429032 * L_125 = __this->get__deck_141();
+		int32_t L_126 = V_28;
+		GsnCard_t782444760 * L_127 = GsnCardDeck_GetCard_m1861553550(L_125, L_126, /*hidden argument*/NULL);
+		GameModel_set_holdCard_m3938096873(__this, L_127, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_0453:
+	{
+		Il2CppObject * L_128 = V_0;
+		V_29 = ((*(BurnRNGUndoStep_t498309376 *)((BurnRNGUndoStep_t498309376 *)UnBox (L_128, BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var))));
+		GsnRandom_t3573954395 * L_129 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		GsnRandom_t3573954395 * L_130 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		uint32_t L_131 = GsnRandom_GetSeed_m466194632(L_130, /*hidden argument*/NULL);
+		uint32_t L_132 = (&V_29)->get_burnCount_0();
+		GsnRandom_SetSeed_m3491644489(L_129, L_131, L_132, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_047d:
+	{
+		Il2CppObject * L_133 = V_0;
+		V_30 = ((*(AdvanceTurnCounterUndoStep_t3866957267 *)((AdvanceTurnCounterUndoStep_t3866957267 *)UnBox (L_133, AdvanceTurnCounterUndoStep_t3866957267_il2cpp_TypeInfo_var))));
+		int32_t L_134 = (&V_30)->get_turnCounter_0();
+		__this->set__turnCounter_154(L_134);
+		goto IL_04dd;
+	}
+
+IL_0497:
+	{
+		Il2CppObject * L_135 = V_0;
+		V_31 = ((*(AdvanceTurnCardUndoStep_t4144436193 *)((AdvanceTurnCardUndoStep_t4144436193 *)UnBox (L_135, AdvanceTurnCardUndoStep_t4144436193_il2cpp_TypeInfo_var))));
+		TriPeaksCardDeck_t1840429032 * L_136 = __this->get__deck_141();
+		int32_t L_137 = (&V_31)->get_cardID_0();
+		GsnCard_t782444760 * L_138 = GsnCardDeck_GetCard_m1861553550(L_136, L_137, /*hidden argument*/NULL);
+		V_32 = ((TriPeaksCard_t214310709 *)CastclassClass(L_138, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_139 = V_32;
+		int32_t L_140 = (&V_31)->get_activationCounter_1();
+		TriPeaksCard_SetActivationCounter_m70938698(L_139, __this, L_140, /*hidden argument*/NULL);
+		goto IL_04dd;
+	}
+
+IL_04cc:
+	{
+		Il2CppObject * L_141 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_142 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral956355594, L_141, /*hidden argument*/NULL);
+		ArgumentException_t3259014390 * L_143 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3739475201(L_143, L_142, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_143);
+	}
+
+IL_04dd:
+	{
+		Il2CppObject * L_144 = V_0;
+		EventDispatcher_DispatchEvent_m4139058996(__this, L_144, /*hidden argument*/NULL);
+		Stack_1_t1730414700 * L_145 = __this->get__undoSteps_159();
+		int32_t L_146 = Stack_1_get_Count_m3029880077(L_145, /*hidden argument*/Stack_1_get_Count_m3029880077_MethodInfo_var);
+		if ((((int32_t)L_146) <= ((int32_t)0)))
+		{
+			goto IL_0505;
+		}
+	}
+	{
+		Il2CppObject * L_147 = V_0;
+		int32_t L_148 = UndoEventExtensions_undoEventType_m3520247504(NULL /*static, unused*/, L_147, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_148) == ((uint32_t)((int32_t)-2147483631)))))
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0505:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::CancelEndGame()
+extern "C"  void GameModel_CancelEndGame_m830466604 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		GameModelBase_CancelEndGame_m2921604528(__this, /*hidden argument*/NULL);
+		int32_t L_0 = GameModelBase_GetStateTime_m1319221827(__this, /*hidden argument*/NULL);
+		VirtActionInvoker1< int32_t >::Invoke(11 /* System.Void GSN.Skill.Games.Common.Model.GameModelBase::ResumeClock(System.Int32) */, __this, L_0);
+		GameModel_set_timeBonus_m2674326831(__this, 0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::blockInput(System.Int32)
+extern Il2CppClass* BlockInputEvent_t1546333643_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_blockInput_m1721148109_MetadataUsageId;
+extern "C"  void GameModel_blockInput_m1721148109 (GameModel_t3841817345 * __this, int32_t ___blockTime0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_blockInput_m1721148109_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_inputBlocked_155();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		__this->set_inputBlocked_155((bool)1);
+		LockModelTask_t2128931019 * L_1 = __this->get__lockTask_157();
+		int32_t L_2 = GameModelBase_GetStateTime_m1319221827(__this, /*hidden argument*/NULL);
+		int32_t L_3 = ___blockTime0;
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void GSN.Skill.Games.Common.Tasks.GsnTaskBase::set_wakeUpTime(System.Int32) */, L_1, ((int32_t)((int32_t)L_2+(int32_t)L_3)));
+		GsnScheduler_t1299811741 * L_4 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		LockModelTask_t2128931019 * L_5 = __this->get__lockTask_157();
+		GsnScheduler_Add_m2031362013(L_4, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = ___blockTime0;
+		BlockInputEvent_t1546333643  L_7;
+		memset(&L_7, 0, sizeof(L_7));
+		BlockInputEvent__ctor_m2082268150(&L_7, L_6, /*hidden argument*/NULL);
+		BlockInputEvent_t1546333643  L_8 = L_7;
+		Il2CppObject * L_9 = Box(BlockInputEvent_t1546333643_il2cpp_TypeInfo_var, &L_8);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::ConfigureGame(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern Il2CppClass* GameModelBase_t2215752692_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* Converter_2_t1811520226_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t4087109391_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksCardDeck_t1840429032_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnCardPile_t3625903776_il2cpp_TypeInfo_var;
+extern Il2CppClass* DealCardsEvent_t2531298357_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnCard_t782444760_il2cpp_TypeInfo_var;
+extern Il2CppClass* BuildPlayfieldEvent_t380407814_il2cpp_TypeInfo_var;
+extern Il2CppClass* ConfigureGameBeginGameTask_t3648600076_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m1170681985_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m499153720_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m1463220107_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m3512790671_MethodInfo_var;
+extern const MethodInfo* Int32_Parse_m3683414232_MethodInfo_var;
+extern const MethodInfo* Converter_2__ctor_m591561939_MethodInfo_var;
+extern const MethodInfo* Array_ConvertAll_TisString_t_TisInt32_t2071877448_m3844342154_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m429261091_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1558845905_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4071392635;
+extern Il2CppCodeGenString* _stringLiteral4167279095;
+extern Il2CppCodeGenString* _stringLiteral1853035628;
+extern Il2CppCodeGenString* _stringLiteral1130187425;
+extern Il2CppCodeGenString* _stringLiteral1345946323;
+extern Il2CppCodeGenString* _stringLiteral4285155620;
+extern Il2CppCodeGenString* _stringLiteral2116786729;
+extern const uint32_t GameModel_ConfigureGame_m4039810829_MetadataUsageId;
+extern "C"  void GameModel_ConfigureGame_m4039810829 (GameModel_t3841817345 * __this, Dictionary_2_t3943999495 * ___startRecord0, Dictionary_2_t3943999495 * ___joinRecord1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_ConfigureGame_m4039810829_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	PlayfieldModelData_t1827511723 * V_2 = NULL;
+	int32_t V_3 = 0;
+	GsnCard_t782444760 * V_4 = NULL;
+	int32_t V_5 = 0;
+	StringU5BU5D_t1642385972* G_B21_0 = NULL;
+	GameModel_t3841817345 * G_B21_1 = NULL;
+	StringU5BU5D_t1642385972* G_B20_0 = NULL;
+	GameModel_t3841817345 * G_B20_1 = NULL;
+	{
+		V_0 = ((int32_t)120);
+		Dictionary_2_t3943999495 * L_0 = ___joinRecord1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModelBase_t2215752692_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((GameModelBase_t2215752692_StaticFields*)GameModelBase_t2215752692_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_GAME_TIME_10();
+		bool L_2 = Dictionary_2_ContainsKey_m1170681985(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_3 = ___joinRecord1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModelBase_t2215752692_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((GameModelBase_t2215752692_StaticFields*)GameModelBase_t2215752692_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_GAME_TIME_10();
+		String_t* L_5 = Dictionary_2_get_Item_m499153720(L_3, L_4, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_6 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+	}
+
+IL_0024:
+	{
+		__this->set__boardID_146(0);
+		Dictionary_2_t3943999495 * L_7 = ___joinRecord1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_8 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BOARD_ID_31();
+		bool L_9 = Dictionary_2_ContainsKey_m1170681985(L_7, L_8, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_9)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_10 = ___joinRecord1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_11 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BOARD_ID_31();
+		String_t* L_12 = Dictionary_2_get_Item_m499153720(L_10, L_11, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_13 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		__this->set__boardID_146(((int32_t)((int32_t)L_13-(int32_t)1)));
+		int32_t L_14 = __this->get__boardID_146();
+		if ((((int32_t)L_14) >= ((int32_t)0)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		__this->set__boardID_146(0);
+	}
+
+IL_0066:
+	{
+		int32_t L_15 = V_0;
+		GameModelBase_SetupClock_m4169654380(__this, L_15, ((int32_t)1000), /*hidden argument*/NULL);
+		int32_t L_16 = V_0;
+		__this->set__lengthOfGameInMS_152(((int32_t)((int32_t)L_16*(int32_t)((int32_t)1000))));
+		Dictionary_2_t3943999495 * L_17 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_18 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_REDBLACK_MAX_CARD_ID_37();
+		bool L_19 = Dictionary_2_ContainsKey_m1170681985(L_17, L_18, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_19)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_20 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_t3943999495 * L_21 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_22 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_REDBLACK_MAX_CARD_ID_37();
+		String_t* L_23 = Dictionary_2_get_Item_m499153720(L_21, L_22, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_24 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		Dictionary_2_set_Item_m1463220107(L_20, _stringLiteral4071392635, L_24, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+	}
+
+IL_00af:
+	{
+		Dictionary_2_t3943999495 * L_25 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_26 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_VOLCANO_MAX_CARD_ID_38();
+		bool L_27 = Dictionary_2_ContainsKey_m1170681985(L_25, L_26, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_27)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_28 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_t3943999495 * L_29 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_30 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_VOLCANO_MAX_CARD_ID_38();
+		String_t* L_31 = Dictionary_2_get_Item_m499153720(L_29, L_30, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_32 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		Dictionary_2_set_Item_m1463220107(L_28, _stringLiteral4167279095, L_32, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+	}
+
+IL_00df:
+	{
+		Dictionary_2_t3943999495 * L_33 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_34 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLOSSOM_MAX_CARD_ID_39();
+		bool L_35 = Dictionary_2_ContainsKey_m1170681985(L_33, L_34, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_35)
+		{
+			goto IL_010f;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_36 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_t3943999495 * L_37 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_38 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLOSSOM_MAX_CARD_ID_39();
+		String_t* L_39 = Dictionary_2_get_Item_m499153720(L_37, L_38, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_40 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		Dictionary_2_set_Item_m1463220107(L_36, _stringLiteral1853035628, L_40, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+	}
+
+IL_010f:
+	{
+		Dictionary_2_t3943999495 * L_41 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_42 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_USE_TIME_ID_43();
+		bool L_43 = Dictionary_2_ContainsKey_m1170681985(L_41, L_42, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_43)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_44 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_t3943999495 * L_45 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_46 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_USE_TIME_ID_43();
+		String_t* L_47 = Dictionary_2_get_Item_m499153720(L_45, L_46, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_48 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
+		Dictionary_2_set_Item_m1463220107(L_44, _stringLiteral1130187425, L_48, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+	}
+
+IL_013f:
+	{
+		Dictionary_2_t3943999495 * L_49 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_50 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_TURN_MAX_ID_45();
+		bool L_51 = Dictionary_2_ContainsKey_m1170681985(L_49, L_50, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_51)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_52 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_t3943999495 * L_53 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_54 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_TURN_MAX_ID_45();
+		String_t* L_55 = Dictionary_2_get_Item_m499153720(L_53, L_54, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_56 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
+		Dictionary_2_set_Item_m1463220107(L_52, _stringLiteral1345946323, L_56, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+	}
+
+IL_016f:
+	{
+		Dictionary_2_t3943999495 * L_57 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_58 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_TIME_MAX_ID_44();
+		bool L_59 = Dictionary_2_ContainsKey_m1170681985(L_57, L_58, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_59)
+		{
+			goto IL_019f;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_60 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		Dictionary_2_t3943999495 * L_61 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_62 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_TIME_MAX_ID_44();
+		String_t* L_63 = Dictionary_2_get_Item_m499153720(L_61, L_62, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_64 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_63, /*hidden argument*/NULL);
+		Dictionary_2_set_Item_m1463220107(L_60, _stringLiteral4285155620, L_64, /*hidden argument*/Dictionary_2_set_Item_m1463220107_MethodInfo_var);
+	}
+
+IL_019f:
+	{
+		Dictionary_2_t3943999495 * L_65 = ___startRecord0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_66 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RED_TIKI_ID_32();
+		GameModel_SetOptionToggle_m219371825(__this, L_65, L_66, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_67 = ___startRecord0;
+		String_t* L_68 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLACK_TIKI_ID_33();
+		GameModel_SetOptionToggle_m219371825(__this, L_67, L_68, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_69 = ___startRecord0;
+		String_t* L_70 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_VOLCANO_TIKI_ID_34();
+		GameModel_SetOptionToggle_m219371825(__this, L_69, L_70, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_71 = ___startRecord0;
+		String_t* L_72 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLOSSOM_TIKI_ID_35();
+		GameModel_SetOptionToggle_m219371825(__this, L_71, L_72, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_73 = ___startRecord0;
+		String_t* L_74 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_GOLDEN_TIKI_ID_36();
+		GameModel_SetOptionToggle_m219371825(__this, L_73, L_74, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_75 = ___startRecord0;
+		String_t* L_76 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TRAP_HAZARD_ID_40();
+		GameModel_SetOptionToggle_m219371825(__this, L_75, L_76, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_77 = ___startRecord0;
+		String_t* L_78 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_SHARK_HAZARD_ID_41();
+		GameModel_SetOptionToggle_m219371825(__this, L_77, L_78, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_79 = ___startRecord0;
+		String_t* L_80 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_HAZARD_ID_42();
+		GameModel_SetOptionToggle_m219371825(__this, L_79, L_80, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_81 = ___joinRecord1;
+		String_t* L_82 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RESHUFFLE_ID_46();
+		GameModel_SetOptionToggle_m219371825(__this, L_81, L_82, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_83 = ___joinRecord1;
+		String_t* L_84 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_HOLD_ID_47();
+		GameModel_SetOptionToggle_m219371825(__this, L_83, L_84, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_85 = ___joinRecord1;
+		String_t* L_86 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_ONE_SHOT_WILD_ID_48();
+		GameModel_SetOptionToggle_m219371825(__this, L_85, L_86, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_87 = ___startRecord0;
+		String_t* L_88 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_SPAWN_ALL_TIKIS_DEBUG_ID_51();
+		GameModel_SetOptionToggle_m219371825(__this, L_87, L_88, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_89 = ___startRecord0;
+		String_t* L_90 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TIKI_SPAWN_CHANCE_100_DEBUG_ID_52();
+		GameModel_SetOptionToggle_m219371825(__this, L_89, L_90, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_91 = ___joinRecord1;
+		String_t* L_92 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_ID_134();
+		GameModel_SetOptionToggle_m219371825(__this, L_91, L_92, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_93 = ___joinRecord1;
+		String_t* L_94 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_TRAP_ID_136();
+		GameModel_SetOptionToggle_m219371825(__this, L_93, L_94, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_95 = ___joinRecord1;
+		String_t* L_96 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_SHARK_ID_137();
+		GameModel_SetOptionToggle_m219371825(__this, L_95, L_96, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_97 = ___joinRecord1;
+		String_t* L_98 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_DYNAMITE_ID_138();
+		GameModel_SetOptionToggle_m219371825(__this, L_97, L_98, /*hidden argument*/NULL);
+		Dictionary_2_t1445386684 * L_99 = __this->get__optionToggles_139();
+		String_t* L_100 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_ID_134();
+		bool L_101 = Dictionary_2_get_Item_m3512790671(L_99, L_100, /*hidden argument*/Dictionary_2_get_Item_m3512790671_MethodInfo_var);
+		if (!L_101)
+		{
+			goto IL_02d5;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_102 = ___joinRecord1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_103 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_CARD_ORDER_ID_135();
+		bool L_104 = Dictionary_2_ContainsKey_m1170681985(L_102, L_103, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_104)
+		{
+			goto IL_02d5;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_105 = ___joinRecord1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_106 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_CARD_ORDER_ID_135();
+		String_t* L_107 = Dictionary_2_get_Item_m499153720(L_105, L_106, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		CharU5BU5D_t1328083999* L_108 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		(L_108)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)44));
+		StringU5BU5D_t1642385972* L_109 = String_Split_m3326265864(L_107, L_108, /*hidden argument*/NULL);
+		V_1 = L_109;
+		StringU5BU5D_t1642385972* L_110 = V_1;
+		Converter_2_t1811520226 * L_111 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_166();
+		G_B20_0 = L_110;
+		G_B20_1 = __this;
+		if (L_111)
+		{
+			G_B21_0 = L_110;
+			G_B21_1 = __this;
+			goto IL_02c6;
+		}
+	}
+	{
+		IntPtr_t L_112;
+		L_112.set_m_value_0((void*)(void*)Int32_Parse_m3683414232_MethodInfo_var);
+		Converter_2_t1811520226 * L_113 = (Converter_2_t1811520226 *)il2cpp_codegen_object_new(Converter_2_t1811520226_il2cpp_TypeInfo_var);
+		Converter_2__ctor_m591561939(L_113, NULL, L_112, /*hidden argument*/Converter_2__ctor_m591561939_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache0_166(L_113);
+		G_B21_0 = G_B20_0;
+		G_B21_1 = G_B20_1;
+	}
+
+IL_02c6:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		Converter_2_t1811520226 * L_114 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_166();
+		Int32U5BU5D_t3030399641* L_115 = Array_ConvertAll_TisString_t_TisInt32_t2071877448_m3844342154(NULL /*static, unused*/, G_B21_0, L_114, /*hidden argument*/Array_ConvertAll_TisString_t_TisInt32_t2071877448_m3844342154_MethodInfo_var);
+		G_B21_1->set__IntroTutorialCardOrder_163(L_115);
+	}
+
+IL_02d5:
+	{
+		int32_t L_116 = __this->get__boardID_146();
+		PlayfieldModelData_t1827511723 * L_117 = PlayfieldModelData_Deserialize_m4271524568(NULL /*static, unused*/, L_116, /*hidden argument*/NULL);
+		V_2 = L_117;
+		PlayfieldModelData_t1827511723 * L_118 = V_2;
+		List_1_t4087109391 * L_119 = L_118->get_cards_0();
+		List_1_t4087109391 * L_120 = (List_1_t4087109391 *)il2cpp_codegen_object_new(List_1_t4087109391_il2cpp_TypeInfo_var);
+		List_1__ctor_m429261091(L_120, L_119, /*hidden argument*/List_1__ctor_m429261091_MethodInfo_var);
+		__this->set__cards_140(L_120);
+		PlayfieldModelData_t1827511723 * L_121 = V_2;
+		TriPeaksCardDeck_t1840429032 * L_122 = (TriPeaksCardDeck_t1840429032 *)il2cpp_codegen_object_new(TriPeaksCardDeck_t1840429032_il2cpp_TypeInfo_var);
+		TriPeaksCardDeck__ctor_m2583704504(L_122, L_121, /*hidden argument*/NULL);
+		__this->set__deck_141(L_122);
+		TriPeaksCardDeck_t1840429032 * L_123 = __this->get__deck_141();
+		GsnCardPile_t3625903776 * L_124 = (GsnCardPile_t3625903776 *)il2cpp_codegen_object_new(GsnCardPile_t3625903776_il2cpp_TypeInfo_var);
+		GsnCardPile__ctor_m4274514595(L_124, L_123, 0, /*hidden argument*/NULL);
+		__this->set__dealPile_142(L_124);
+		TriPeaksCardDeck_t1840429032 * L_125 = __this->get__deck_141();
+		GsnCardPile_t3625903776 * L_126 = (GsnCardPile_t3625903776 *)il2cpp_codegen_object_new(GsnCardPile_t3625903776_il2cpp_TypeInfo_var);
+		GsnCardPile__ctor_m4274514595(L_126, L_125, 1, /*hidden argument*/NULL);
+		__this->set__wastePile_143(L_126);
+		TriPeaksCardDeck_t1840429032 * L_127 = __this->get__deck_141();
+		GsnCardPile_t3625903776 * L_128 = (GsnCardPile_t3625903776 *)il2cpp_codegen_object_new(GsnCardPile_t3625903776_il2cpp_TypeInfo_var);
+		GsnCardPile__ctor_m4274514595(L_128, L_127, 5, /*hidden argument*/NULL);
+		__this->set__removedPile_144(L_128);
+		Dictionary_2_t1445386684 * L_129 = __this->get__optionToggles_139();
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_130 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_ID_134();
+		bool L_131 = Dictionary_2_get_Item_m3512790671(L_129, L_130, /*hidden argument*/Dictionary_2_get_Item_m3512790671_MethodInfo_var);
+		if (!L_131)
+		{
+			goto IL_0372;
+		}
+	}
+	{
+		TriPeaksCardDeck_t1840429032 * L_132 = __this->get__deck_141();
+		List_1_t4087109391 * L_133 = __this->get__cards_140();
+		GsnCardPile_t3625903776 * L_134 = __this->get__dealPile_142();
+		GsnCardPile_t3625903776 * L_135 = __this->get__removedPile_144();
+		Int32U5BU5D_t3030399641* L_136 = __this->get__IntroTutorialCardOrder_163();
+		TriPeaksCardDeck_BuildDeck_m1735462004(L_132, __this, L_133, L_134, L_135, L_136, /*hidden argument*/NULL);
+		goto IL_0390;
+	}
+
+IL_0372:
+	{
+		TriPeaksCardDeck_t1840429032 * L_137 = __this->get__deck_141();
+		List_1_t4087109391 * L_138 = __this->get__cards_140();
+		GsnCardPile_t3625903776 * L_139 = __this->get__dealPile_142();
+		GsnRandom_t3573954395 * L_140 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		TriPeaksCardDeck_BuildDeck_m2395129550(L_137, __this, L_138, L_139, L_140, /*hidden argument*/NULL);
+	}
+
+IL_0390:
+	{
+		GsnCardPile_t3625903776 * L_141 = __this->get__dealPile_142();
+		String_t* L_142 = GsnCardPile_GetString_m1657591612(L_141, (bool)1, /*hidden argument*/NULL);
+		DealCardsEvent_t2531298357  L_143;
+		memset(&L_143, 0, sizeof(L_143));
+		DealCardsEvent__ctor_m4050679004(&L_143, L_142, /*hidden argument*/NULL);
+		DealCardsEvent_t2531298357  L_144 = L_143;
+		Il2CppObject * L_145 = Box(DealCardsEvent_t2531298357_il2cpp_TypeInfo_var, &L_144);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_145, /*hidden argument*/NULL);
+		TriPeaksCardDeck_t1840429032 * L_146 = __this->get__deck_141();
+		GsnCard_t782444760 * L_147 = (GsnCard_t782444760 *)il2cpp_codegen_object_new(GsnCard_t782444760_il2cpp_TypeInfo_var);
+		GsnCard__ctor_m2593301661(L_147, _stringLiteral2116786729, 2, 0, /*hidden argument*/NULL);
+		GsnCardDeck_AddCard_m4135131479(L_146, L_147, /*hidden argument*/NULL);
+		TriPeaksCardDeck_t1840429032 * L_148 = __this->get__deck_141();
+		int32_t L_149 = GsnCardDeck_get_count_m3383929316(L_148, /*hidden argument*/NULL);
+		__this->set__wildID_153(((int32_t)((int32_t)L_149-(int32_t)1)));
+		V_5 = 0;
+		goto IL_0454;
+	}
+
+IL_03de:
+	{
+		GsnCardPile_t3625903776 * L_150 = __this->get__dealPile_142();
+		int32_t L_151 = GsnCardPile_GetTopCardID_m3102030089(L_150, /*hidden argument*/NULL);
+		V_3 = L_151;
+		List_1_t4087109391 * L_152 = __this->get__cards_140();
+		int32_t L_153 = V_5;
+		BaseCardData_t423020963 * L_154 = List_1_get_Item_m1588982064(L_152, L_153, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_155 = V_3;
+		L_154->set_cardID_0(L_155);
+		GsnCardPile_t3625903776 * L_156 = __this->get__dealPile_142();
+		GsnCardPile_RemoveTopCard_m3272141710(L_156, /*hidden argument*/NULL);
+		TriPeaksCardDeck_t1840429032 * L_157 = __this->get__deck_141();
+		int32_t L_158 = V_3;
+		GsnCard_t782444760 * L_159 = GsnCardDeck_GetCard_m1861553550(L_157, L_158, /*hidden argument*/NULL);
+		V_4 = L_159;
+		GsnCard_t782444760 * L_160 = V_4;
+		List_1_t4087109391 * L_161 = __this->get__cards_140();
+		int32_t L_162 = V_5;
+		BaseCardData_t423020963 * L_163 = List_1_get_Item_m1588982064(L_161, L_162, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		List_1_t1440998580 * L_164 = L_163->get_coveredByCards_2();
+		int32_t L_165 = List_1_get_Count_m852068579(L_164, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		GsnCard_set_faceUp_m3645161989(L_160, (bool)((((int32_t)L_165) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
+		GsnCard_t782444760 * L_166 = V_4;
+		bool L_167 = GsnCard_get_faceUp_m1886863502(L_166, /*hidden argument*/NULL);
+		if (!L_167)
+		{
+			goto IL_044e;
+		}
+	}
+	{
+		int32_t L_168 = V_5;
+		GameModel_AddFaceUpCard_m3602906093(__this, L_168, 0, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_044e:
+	{
+		int32_t L_169 = V_5;
+		V_5 = ((int32_t)((int32_t)L_169+(int32_t)1));
+	}
+
+IL_0454:
+	{
+		int32_t L_170 = V_5;
+		List_1_t4087109391 * L_171 = __this->get__cards_140();
+		int32_t L_172 = List_1_get_Count_m1558845905(L_171, /*hidden argument*/List_1_get_Count_m1558845905_MethodInfo_var);
+		if ((((int32_t)L_170) < ((int32_t)L_172)))
+		{
+			goto IL_03de;
+		}
+	}
+	{
+		List_1_t1440998580 * L_173 = __this->get__faceUpCards_158();
+		BuildPlayfieldEvent_t380407814  L_174;
+		memset(&L_174, 0, sizeof(L_174));
+		BuildPlayfieldEvent__ctor_m1095897505(&L_174, L_173, /*hidden argument*/NULL);
+		BuildPlayfieldEvent_t380407814  L_175 = L_174;
+		Il2CppObject * L_176 = Box(BuildPlayfieldEvent_t380407814_il2cpp_TypeInfo_var, &L_175);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_176, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_177 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		ConfigureGameBeginGameTask_t3648600076 * L_178 = (ConfigureGameBeginGameTask_t3648600076 *)il2cpp_codegen_object_new(ConfigureGameBeginGameTask_t3648600076_il2cpp_TypeInfo_var);
+		ConfigureGameBeginGameTask__ctor_m3095964656(L_178, __this, /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_177, L_178, /*hidden argument*/NULL);
+		GameModel_blockInput_m1721148109(__this, ((int32_t)4000), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::ConfigureGameBeginGame()
+extern Il2CppClass* CardClickResultEvent_t864906509_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern Il2CppClass* FirstDealCompleteEvent_t3429209465_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m3512790671_MethodInfo_var;
+extern const uint32_t GameModel_ConfigureGameBeginGame_m3809171320_MetadataUsageId;
+extern "C"  void GameModel_ConfigureGameBeginGame_m3809171320 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_ConfigureGameBeginGame_m3809171320_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Enumerator_t975728254  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	GsnCard_t782444760 * V_4 = NULL;
+	TriPeaksCard_t214310709 * V_5 = NULL;
+	FirstDealCompleteEvent_t3429209465  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		GsnCardPile_t3625903776 * L_0 = __this->get__dealPile_142();
+		int32_t L_1 = GsnCardPile_GetTopCardID_m3102030089(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GameModel_MoveTopDealCardToWaste_m3533810360(__this, /*hidden argument*/NULL);
+		int32_t L_2 = V_0;
+		CardClickResultEvent_t864906509  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		CardClickResultEvent__ctor_m1087406625(&L_3, (bool)1, L_2, (List_1_t1440998580 *)NULL, (-1), /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_4 = L_3;
+		Il2CppObject * L_5 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_4);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_5, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_6 = __this->get__faceUpCards_158();
+		Enumerator_t975728254  L_7 = List_1_GetEnumerator_m2527786909(L_6, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		V_2 = L_7;
+	}
+
+IL_0032:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_007e;
+		}
+
+IL_0037:
+		{
+			int32_t L_8 = Enumerator_get_Current_m1062633493((&V_2), /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			V_1 = L_8;
+			List_1_t4087109391 * L_9 = __this->get__cards_140();
+			int32_t L_10 = V_1;
+			BaseCardData_t423020963 * L_11 = List_1_get_Item_m1588982064(L_9, L_10, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+			int32_t L_12 = L_11->get_cardID_0();
+			V_3 = L_12;
+			TriPeaksCardDeck_t1840429032 * L_13 = __this->get__deck_141();
+			int32_t L_14 = V_3;
+			GsnCard_t782444760 * L_15 = GsnCardDeck_GetCard_m1861553550(L_13, L_14, /*hidden argument*/NULL);
+			V_4 = L_15;
+			GsnCard_t782444760 * L_16 = V_4;
+			if (!((TriPeaksCard_t214310709 *)IsInstClass(L_16, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+			{
+				goto IL_007e;
+			}
+		}
+
+IL_006b:
+		{
+			GsnCard_t782444760 * L_17 = V_4;
+			V_5 = ((TriPeaksCard_t214310709 *)CastclassClass(L_17, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+			TriPeaksCard_t214310709 * L_18 = V_5;
+			int32_t L_19 = V_3;
+			TriPeaksCard_ActivateFaceUpEffects_m8331724(L_18, __this, L_19, 0, /*hidden argument*/NULL);
+		}
+
+IL_007e:
+		{
+			bool L_20 = Enumerator_MoveNext_m4282865897((&V_2), /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_20)
+			{
+				goto IL_0037;
+			}
+		}
+
+IL_008a:
+		{
+			IL2CPP_LEAVE(0x9D, FINALLY_008f);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_008f;
+	}
+
+FINALLY_008f:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1274756239((&V_2), /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(143)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(143)
+	{
+		IL2CPP_JUMP_TBL(0x9D, IL_009d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_009d:
+	{
+		Dictionary_2_t1445386684 * L_21 = __this->get__optionToggles_139();
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_22 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_ID_134();
+		bool L_23 = Dictionary_2_get_Item_m3512790671(L_21, L_22, /*hidden argument*/Dictionary_2_get_Item_m3512790671_MethodInfo_var);
+		if (L_23)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		int32_t L_24 = GameModelBase_GetStateTime_m1319221827(__this, /*hidden argument*/NULL);
+		VirtActionInvoker1< int32_t >::Invoke(11 /* System.Void GSN.Skill.Games.Common.Model.GameModelBase::ResumeClock(System.Int32) */, __this, L_24);
+	}
+
+IL_00be:
+	{
+		Initobj (FirstDealCompleteEvent_t3429209465_il2cpp_TypeInfo_var, (&V_6));
+		FirstDealCompleteEvent_t3429209465  L_25 = V_6;
+		FirstDealCompleteEvent_t3429209465  L_26 = L_25;
+		Il2CppObject * L_27 = Box(FirstDealCompleteEvent_t3429209465_il2cpp_TypeInfo_var, &L_26);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_27, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::SetOptionToggle(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String)
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m1170681985_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m499153720_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m2391707293_MethodInfo_var;
+extern const uint32_t GameModel_SetOptionToggle_m219371825_MetadataUsageId;
+extern "C"  void GameModel_SetOptionToggle_m219371825 (GameModel_t3841817345 * __this, Dictionary_2_t3943999495 * ___att0, String_t* ___optionName1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_SetOptionToggle_m219371825_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	String_t* G_B3_0 = NULL;
+	Dictionary_2_t1445386684 * G_B3_1 = NULL;
+	String_t* G_B2_0 = NULL;
+	Dictionary_2_t1445386684 * G_B2_1 = NULL;
+	int32_t G_B4_0 = 0;
+	String_t* G_B4_1 = NULL;
+	Dictionary_2_t1445386684 * G_B4_2 = NULL;
+	{
+		Dictionary_2_t3943999495 * L_0 = ___att0;
+		String_t* L_1 = ___optionName1;
+		bool L_2 = Dictionary_2_ContainsKey_m1170681985(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_3 = ___att0;
+		String_t* L_4 = ___optionName1;
+		String_t* L_5 = Dictionary_2_get_Item_m499153720(L_3, L_4, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_6 = Convert_ToInt32_m2593311249(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		Dictionary_2_t1445386684 * L_7 = __this->get__optionToggles_139();
+		String_t* L_8 = ___optionName1;
+		int32_t L_9 = V_0;
+		G_B2_0 = L_8;
+		G_B2_1 = L_7;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			G_B3_0 = L_8;
+			G_B3_1 = L_7;
+			goto IL_002d;
+		}
+	}
+	{
+		G_B4_0 = 1;
+		G_B4_1 = G_B2_0;
+		G_B4_2 = G_B2_1;
+		goto IL_002e;
+	}
+
+IL_002d:
+	{
+		G_B4_0 = 0;
+		G_B4_1 = G_B3_0;
+		G_B4_2 = G_B3_1;
+	}
+
+IL_002e:
+	{
+		Dictionary_2_set_Item_m2391707293(G_B4_2, G_B4_1, (bool)G_B4_0, /*hidden argument*/Dictionary_2_set_Item_m2391707293_MethodInfo_var);
+	}
+
+IL_0033:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::resetStreak()
+extern Il2CppClass* ModifyStreakUndoStep_t1352980234_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateStreakEvent_t2125789319_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_resetStreak_m2251120952_MetadataUsageId;
+extern "C"  void GameModel_resetStreak_m2251120952 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_resetStreak_m2251120952_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__streakResetLocked_161();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		int32_t L_1 = __this->get__streakCount_151();
+		ModifyStreakUndoStep_t1352980234  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		ModifyStreakUndoStep__ctor_m2439522835(&L_2, L_1, /*hidden argument*/NULL);
+		ModifyStreakUndoStep_t1352980234  L_3 = L_2;
+		Il2CppObject * L_4 = Box(ModifyStreakUndoStep_t1352980234_il2cpp_TypeInfo_var, &L_3);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_4, /*hidden argument*/NULL);
+		__this->set__streakCount_151(0);
+		int32_t L_5 = __this->get__streakCount_151();
+		UpdateStreakEvent_t2125789319  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		UpdateStreakEvent__ctor_m1017131554(&L_6, L_5, /*hidden argument*/NULL);
+		UpdateStreakEvent_t2125789319  L_7 = L_6;
+		Il2CppObject * L_8 = Box(UpdateStreakEvent_t2125789319_il2cpp_TypeInfo_var, &L_7);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::GetScore()
+extern "C"  int32_t GameModel_GetScore_m2129144999 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = GameModel_get_score_m595755914(__this, /*hidden argument*/NULL);
+		int32_t L_1 = GameModel_get_timeBonus_m515456936(__this, /*hidden argument*/NULL);
+		int32_t L_2 = GameModel_get_streakBonus_m4243244027(__this, /*hidden argument*/NULL);
+		return ((int32_t)((int32_t)((int32_t)((int32_t)L_0+(int32_t)L_1))+(int32_t)L_2));
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::FinalizeScore()
+extern Il2CppClass* EndGameEvent_t3448324057_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3478838471;
+extern const uint32_t GameModel_FinalizeScore_m1830675627_MetadataUsageId;
+extern "C"  int32_t GameModel_FinalizeScore_m1830675627 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_FinalizeScore_m1830675627_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = GameModel_get_score_m595755914(__this, /*hidden argument*/NULL);
+		int32_t L_1 = GameModel_get_streakBonus_m4243244027(__this, /*hidden argument*/NULL);
+		int32_t L_2 = GameModel_get_timeBonus_m515456936(__this, /*hidden argument*/NULL);
+		int32_t L_3 = ((GameModelBase_t2215752692 *)__this)->get__endGameReason_5();
+		EndGameEvent_t3448324057  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		EndGameEvent__ctor_m2232662139(&L_4, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		EndGameEvent_t3448324057  L_5 = L_4;
+		Il2CppObject * L_6 = Box(EndGameEvent_t3448324057_il2cpp_TypeInfo_var, &L_5);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_6, /*hidden argument*/NULL);
+		int32_t L_7 = GameModel_get_score_m595755914(__this, /*hidden argument*/NULL);
+		int32_t L_8 = GameModel_get_timeBonus_m515456936(__this, /*hidden argument*/NULL);
+		int32_t L_9 = GameModel_get_streakBonus_m4243244027(__this, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_10 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, ((int32_t)((int32_t)((int32_t)((int32_t)L_7+(int32_t)L_8))+(int32_t)L_9)), /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral3478838471, L_10, /*hidden argument*/NULL);
+		int32_t L_11 = GameModel_get_score_m595755914(__this, /*hidden argument*/NULL);
+		int32_t L_12 = GameModel_get_timeBonus_m515456936(__this, /*hidden argument*/NULL);
+		int32_t L_13 = GameModel_get_streakBonus_m4243244027(__this, /*hidden argument*/NULL);
+		return ((int32_t)((int32_t)((int32_t)((int32_t)L_11+(int32_t)L_12))+(int32_t)L_13));
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::OnInputComplete()
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1558845905_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1398498215;
+extern Il2CppCodeGenString* _stringLiteral3097371721;
+extern const uint32_t GameModel_OnInputComplete_m390417721_MetadataUsageId;
+extern "C"  void GameModel_OnInputComplete_m390417721 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_OnInputComplete_m390417721_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	GsnCard_t782444760 * V_2 = NULL;
+	{
+		int32_t L_0 = GameModelBase_GetStateTime_m1319221827(__this, /*hidden argument*/NULL);
+		VirtActionInvoker1< int32_t >::Invoke(12 /* System.Void GSN.Skill.Games.Common.Model.GameModelBase::PauseClock(System.Int32) */, __this, L_0);
+		GsnGameClockTask_t2111061105 * L_1 = ((GameModelBase_t2215752692 *)__this)->get__clockTask_15();
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		GsnGameClockTask_t2111061105 * L_2 = ((GameModelBase_t2215752692 *)__this)->get__clockTask_15();
+		GsnTaskBase_UnSchedule_m1949516266(L_2, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		V_0 = 0;
+		goto IL_0053;
+	}
+
+IL_0029:
+	{
+		List_1_t4087109391 * L_3 = __this->get__cards_140();
+		int32_t L_4 = V_0;
+		BaseCardData_t423020963 * L_5 = List_1_get_Item_m1588982064(L_3, L_4, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_6 = L_5->get_cardID_0();
+		V_1 = L_6;
+		TriPeaksCardDeck_t1840429032 * L_7 = __this->get__deck_141();
+		int32_t L_8 = V_1;
+		GsnCard_t782444760 * L_9 = GsnCardDeck_GetCard_m1861553550(L_7, L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
+		GsnCard_t782444760 * L_10 = V_2;
+		GameModel_RemoveEffectTimer_m3931566357(__this, L_10, /*hidden argument*/NULL);
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0053:
+	{
+		int32_t L_12 = V_0;
+		List_1_t4087109391 * L_13 = __this->get__cards_140();
+		int32_t L_14 = List_1_get_Count_m1558845905(L_13, /*hidden argument*/List_1_get_Count_m1558845905_MethodInfo_var);
+		if ((((int32_t)L_12) < ((int32_t)L_14)))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		__this->set_triggerClearBoardEvent_156((bool)1);
+		int32_t L_15 = GameModelBase_get_msLeft_m488099619(__this, /*hidden argument*/NULL);
+		int32_t L_16 = GameModel_getTimeBonus_m4076159526(__this, L_15, /*hidden argument*/NULL);
+		GameModel_set_timeBonus_m2674326831(__this, L_16, /*hidden argument*/NULL);
+		int32_t L_17 = GameModel_get_timeBonus_m515456936(__this, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_18 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1398498215, L_18, /*hidden argument*/NULL);
+		int32_t L_19 = GameModel_get_streakBonus_m4243244027(__this, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_20 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral3097371721, L_20, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_21 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_22 = VirtFuncInvoker0< int32_t >::Invoke(9 /* System.Int32 GSN.Skill.Games.Common.Tasks.GsnTaskBase::get_wakeUpTime() */, L_21);
+		if ((((int32_t)L_22) == ((int32_t)((int32_t)2147483647LL))))
+		{
+			goto IL_00ca;
+		}
+	}
+	{
+		int32_t L_23 = ((GameModelBase_t2215752692 *)__this)->get__endGameReason_5();
+		if ((!(((uint32_t)L_23) == ((uint32_t)3))))
+		{
+			goto IL_00db;
+		}
+	}
+
+IL_00ca:
+	{
+		GsnScheduler_t1299811741 * L_24 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		GsnScheduler_RemoveAll_m2519628272(L_24, /*hidden argument*/NULL);
+		GameModelBase_OnGameSettled_m2453798985(__this, /*hidden argument*/NULL);
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::RemoveEffectTimer(GSN.Skill.Games.Common.Primitive.Card.GsnCard)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_RemoveEffectTimer_m3931566357_MetadataUsageId;
+extern "C"  void GameModel_RemoveEffectTimer_m3931566357 (GameModel_t3841817345 * __this, GsnCard_t782444760 * ___card0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_RemoveEffectTimer_m3931566357_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TriPeaksCard_t214310709 * V_0 = NULL;
+	{
+		GsnCard_t782444760 * L_0 = ___card0;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_0, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_1 = ___card0;
+		V_0 = ((TriPeaksCard_t214310709 *)CastclassClass(L_1, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_2 = V_0;
+		TriPeaksCard_KillFaceUpEffectTimers_m3936163082(L_2, /*hidden argument*/NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::getTimeBonus(System.Int32)
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral691482740;
+extern const uint32_t GameModel_getTimeBonus_m4076159526_MetadataUsageId;
+extern "C"  int32_t GameModel_getTimeBonus_m4076159526 (GameModel_t3841817345 * __this, int32_t ___timeLeft0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_getTimeBonus_m4076159526_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ((GameModelBase_t2215752692 *)__this)->get__endGameReason_5();
+		if ((((int32_t)L_0) == ((int32_t)1)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_1 = ((GameModelBase_t2215752692 *)__this)->get__endGameReason_5();
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0019:
+	{
+		Dictionary_2_t3986656710 * L_2 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_3 = Dictionary_2_get_Item_m1316665190(L_2, _stringLiteral691482740, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		int32_t L_4 = GameModelBase_get_msLeft_m488099619(__this, /*hidden argument*/NULL);
+		int32_t L_5 = __this->get__lengthOfGameInMS_152();
+		return ((int32_t)((int32_t)((int32_t)((int32_t)L_3*(int32_t)L_4))/(int32_t)L_5));
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::OnDealClicked()
+extern Il2CppClass* CardClickResultEvent_t864906509_il2cpp_TypeInfo_var;
+extern Il2CppClass* ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral389492954;
+extern const uint32_t GameModel_OnDealClicked_m440089945_MetadataUsageId;
+extern "C"  void GameModel_OnDealClicked_m440089945 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_OnDealClicked_m440089945_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	List_1_t1440998580 * V_1 = NULL;
+	ShowReshuffleButtonEvent_t2008462107  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		GsnCardPile_t3625903776 * L_0 = __this->get__dealPile_142();
+		int32_t L_1 = GsnCardPile_GetTopCardID_m3102030089(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GsnCard_t782444760 * L_2 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_3 = GameModel_findAllMoves_m3150485129(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		GameModel_MoveTopDealCardToWaste_m3533810360(__this, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		List_1_t1440998580 * L_5 = V_1;
+		CardClickResultEvent_t864906509  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		CardClickResultEvent__ctor_m1087406625(&L_6, (bool)1, L_4, L_5, (-1), /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_7 = L_6;
+		Il2CppObject * L_8 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_7);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_8, /*hidden argument*/NULL);
+		GameModel_CheckWasteForTikiAbilities_m673939973(__this, /*hidden argument*/NULL);
+		GameModel_AdvanceTurn_m2689795504(__this, /*hidden argument*/NULL);
+		Dictionary_2_t3986656710 * L_9 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_10 = Dictionary_2_get_Item_m1316665190(L_9, _stringLiteral389492954, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		GameModel_blockInput_m1721148109(__this, L_10, /*hidden argument*/NULL);
+		bool L_11 = GameModel_get_canReshuffle_m3082953866(__this, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		Initobj (ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var, (&V_2));
+		ShowReshuffleButtonEvent_t2008462107  L_12 = V_2;
+		ShowReshuffleButtonEvent_t2008462107  L_13 = L_12;
+		Il2CppObject * L_14 = Box(ShowReshuffleButtonEvent_t2008462107_il2cpp_TypeInfo_var, &L_13);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_14, /*hidden argument*/NULL);
+	}
+
+IL_0074:
+	{
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::PlayBaitCard(System.Int32)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnDebug_t1785824881_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardTask_t1841883743_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardEvent_t1579643884_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromTableauUndoStep_t2713688858_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1921196075_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3294949987;
+extern Il2CppCodeGenString* _stringLiteral1607312279;
+extern const uint32_t GameModel_PlayBaitCard_m2579075238_MetadataUsageId;
+extern "C"  bool GameModel_PlayBaitCard_m2579075238 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_PlayBaitCard_m2579075238_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	int32_t V_1 = 0;
+	GsnCard_t782444760 * V_2 = NULL;
+	List_1_t1440998580 * V_3 = NULL;
+	int32_t V_4 = 0;
+	BaseCardData_t423020963 * V_5 = NULL;
+	int32_t V_6 = 0;
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		BaseCardData_t423020963 * L_3 = V_0;
+		int32_t L_4 = L_3->get_cardType_3();
+		if ((!(((uint32_t)L_4) == ((uint32_t)7))))
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		BaseCardData_t423020963 * L_5 = V_0;
+		int32_t L_6 = L_5->get_cardID_0();
+		V_1 = L_6;
+		TriPeaksCardDeck_t1840429032 * L_7 = __this->get__deck_141();
+		int32_t L_8 = V_1;
+		GsnCard_t782444760 * L_9 = GsnCardDeck_GetCard_m1861553550(L_7, L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
+		GsnCard_t782444760 * L_10 = V_2;
+		List_1_t1440998580 * L_11 = GameModel_findAllMoves_m3150485129(__this, L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
+		List_1_t1440998580 * L_12 = V_3;
+		int32_t L_13 = List_1_get_Count_m852068579(L_12, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if ((((int32_t)L_13) >= ((int32_t)1)))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_14 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ArrayElementTypeCheck (L_14, _stringLiteral3294949987);
+		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral3294949987);
+		IL2CPP_RUNTIME_CLASS_INIT(GsnDebug_t1785824881_il2cpp_TypeInfo_var);
+		GsnDebug_Log_m3044938852(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0056:
+	{
+		List_1_t1440998580 * L_15 = V_3;
+		int32_t L_16 = List_1_get_Item_m1921196075(L_15, 0, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		V_4 = L_16;
+		List_1_t4087109391 * L_17 = __this->get__cards_140();
+		int32_t L_18 = V_4;
+		BaseCardData_t423020963 * L_19 = List_1_get_Item_m1588982064(L_17, L_18, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_5 = L_19;
+		BaseCardData_t423020963 * L_20 = V_5;
+		int32_t L_21 = L_20->get_cardID_0();
+		V_6 = L_21;
+		int32_t L_22 = V_4;
+		GameModel_RemoveFaceUpCard_m1157902525(__this, L_22, ((int32_t)350), /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_23 = __this->get__removedPile_144();
+		int32_t L_24 = V_6;
+		GsnCardPile_AddCard_m1029854019(L_23, L_24, /*hidden argument*/NULL);
+		int32_t L_25 = ___cardIndex0;
+		GameModel_RemoveFaceUpCard_m1157902525(__this, L_25, ((int32_t)850), /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_26 = __this->get__removedPile_144();
+		int32_t L_27 = V_1;
+		GsnCardPile_AddCard_m1029854019(L_26, L_27, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_28 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_29 = V_1;
+		RemoveCardTask_t1841883743 * L_30 = (RemoveCardTask_t1841883743 *)il2cpp_codegen_object_new(RemoveCardTask_t1841883743_il2cpp_TypeInfo_var);
+		RemoveCardTask__ctor_m2999929181(L_30, __this, L_29, ((int32_t)700), /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_28, L_30, /*hidden argument*/NULL);
+		int32_t L_31 = V_6;
+		int32_t L_32 = V_1;
+		RemoveCardEvent_t1579643884  L_33;
+		memset(&L_33, 0, sizeof(L_33));
+		RemoveCardEvent__ctor_m4099864314(&L_33, L_31, L_32, /*hidden argument*/NULL);
+		RemoveCardEvent_t1579643884  L_34 = L_33;
+		Il2CppObject * L_35 = Box(RemoveCardEvent_t1579643884_il2cpp_TypeInfo_var, &L_34);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_35, /*hidden argument*/NULL);
+		int32_t L_36 = ___cardIndex0;
+		RemoveCardFromTableauUndoStep_t2713688858  L_37;
+		memset(&L_37, 0, sizeof(L_37));
+		RemoveCardFromTableauUndoStep__ctor_m3325805967(&L_37, L_36, /*hidden argument*/NULL);
+		RemoveCardFromTableauUndoStep_t2713688858  L_38 = L_37;
+		Il2CppObject * L_39 = Box(RemoveCardFromTableauUndoStep_t2713688858_il2cpp_TypeInfo_var, &L_38);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_39, /*hidden argument*/NULL);
+		int32_t L_40 = V_4;
+		RemoveCardFromTableauUndoStep_t2713688858  L_41;
+		memset(&L_41, 0, sizeof(L_41));
+		RemoveCardFromTableauUndoStep__ctor_m3325805967(&L_41, L_40, /*hidden argument*/NULL);
+		RemoveCardFromTableauUndoStep_t2713688858  L_42 = L_41;
+		Il2CppObject * L_43 = Box(RemoveCardFromTableauUndoStep_t2713688858_il2cpp_TypeInfo_var, &L_42);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_43, /*hidden argument*/NULL);
+		GameModel_blockInput_m1721148109(__this, ((int32_t)850), /*hidden argument*/NULL);
+		JToken_t2552644013 * L_44 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1607312279, L_44, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+
+IL_0114:
+	{
+		return (bool)0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::ClearDynamite(System.Int32)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern Il2CppClass* AdvanceTurnCardUndoStep_t4144436193_il2cpp_TypeInfo_var;
+extern Il2CppClass* ChangeTypeUndoStep_t1816012290_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromTableauUndoStep_t2713688858_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardTask_t1841883743_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2218644198;
+extern const uint32_t GameModel_ClearDynamite_m339421654_MetadataUsageId;
+extern "C"  void GameModel_ClearDynamite_m339421654 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_ClearDynamite_m339421654_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	TriPeaksCard_t214310709 * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		TriPeaksCardDeck_t1840429032 * L_3 = __this->get__deck_141();
+		BaseCardData_t423020963 * L_4 = V_0;
+		int32_t L_5 = L_4->get_cardID_0();
+		GsnCard_t782444760 * L_6 = GsnCardDeck_GetCard_m1861553550(L_3, L_5, /*hidden argument*/NULL);
+		V_1 = ((TriPeaksCard_t214310709 *)CastclassClass(L_6, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		BaseCardData_t423020963 * L_7 = V_0;
+		int32_t L_8 = L_7->get_cardID_0();
+		TriPeaksCard_t214310709 * L_9 = V_1;
+		int32_t L_10 = TriPeaksCard_get_activationCounter_m3327518404(L_9, /*hidden argument*/NULL);
+		AdvanceTurnCardUndoStep_t4144436193  L_11;
+		memset(&L_11, 0, sizeof(L_11));
+		AdvanceTurnCardUndoStep__ctor_m1065719743(&L_11, L_8, L_10, /*hidden argument*/NULL);
+		AdvanceTurnCardUndoStep_t4144436193  L_12 = L_11;
+		Il2CppObject * L_13 = Box(AdvanceTurnCardUndoStep_t4144436193_il2cpp_TypeInfo_var, &L_12);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_13, /*hidden argument*/NULL);
+		int32_t L_14 = ___cardIndex0;
+		BaseCardData_t423020963 * L_15 = V_0;
+		int32_t L_16 = L_15->get_cardType_3();
+		ChangeTypeUndoStep_t1816012290  L_17;
+		memset(&L_17, 0, sizeof(L_17));
+		ChangeTypeUndoStep__ctor_m2937483048(&L_17, L_14, L_16, /*hidden argument*/NULL);
+		ChangeTypeUndoStep_t1816012290  L_18 = L_17;
+		Il2CppObject * L_19 = Box(ChangeTypeUndoStep_t1816012290_il2cpp_TypeInfo_var, &L_18);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_19, /*hidden argument*/NULL);
+		TriPeaksCard_t214310709 * L_20 = V_1;
+		GameModel_RemoveEffectTimer_m3931566357(__this, L_20, /*hidden argument*/NULL);
+		int32_t L_21 = ___cardIndex0;
+		GameModel_RemoveFaceUpCard_m1157902525(__this, L_21, ((int32_t)350), /*hidden argument*/NULL);
+		BaseCardData_t423020963 * L_22 = V_0;
+		int32_t L_23 = L_22->get_cardID_0();
+		V_2 = L_23;
+		GsnCardPile_t3625903776 * L_24 = __this->get__removedPile_144();
+		int32_t L_25 = V_2;
+		GsnCardPile_AddCard_m1029854019(L_24, L_25, /*hidden argument*/NULL);
+		int32_t L_26 = ___cardIndex0;
+		RemoveCardFromTableauUndoStep_t2713688858  L_27;
+		memset(&L_27, 0, sizeof(L_27));
+		RemoveCardFromTableauUndoStep__ctor_m3325805967(&L_27, L_26, /*hidden argument*/NULL);
+		RemoveCardFromTableauUndoStep_t2713688858  L_28 = L_27;
+		Il2CppObject * L_29 = Box(RemoveCardFromTableauUndoStep_t2713688858_il2cpp_TypeInfo_var, &L_28);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_29, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_30 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_31 = V_2;
+		RemoveCardTask_t1841883743 * L_32 = (RemoveCardTask_t1841883743 *)il2cpp_codegen_object_new(RemoveCardTask_t1841883743_il2cpp_TypeInfo_var);
+		RemoveCardTask__ctor_m2999929181(L_32, __this, L_31, ((int32_t)350), /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_30, L_32, /*hidden argument*/NULL);
+		int32_t L_33 = V_2;
+		GameModel_RemoveWaste_m2240753554(__this, L_33, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_34 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral2218644198, L_34, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::MoveTableauCardToWaste(System.Int32,System.Boolean,System.Int32)
+extern Il2CppClass* TableauToWasteUndoStep_t2195983855_il2cpp_TypeInfo_var;
+extern Il2CppClass* ModifyScoreUndoStep_t483283180_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3635464191;
+extern Il2CppCodeGenString* _stringLiteral3146846179;
+extern const uint32_t GameModel_MoveTableauCardToWaste_m3221281022_MetadataUsageId;
+extern "C"  void GameModel_MoveTableauCardToWaste_m3221281022 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, bool ___playerDriven1, int32_t ___delayTime2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_MoveTableauCardToWaste_m3221281022_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		BaseCardData_t423020963 * L_3 = V_0;
+		int32_t L_4 = L_3->get_cardID_0();
+		V_1 = L_4;
+		int32_t L_5 = ___cardIndex0;
+		TableauToWasteUndoStep_t2195983855  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		TableauToWasteUndoStep__ctor_m2567621598(&L_6, L_5, /*hidden argument*/NULL);
+		TableauToWasteUndoStep_t2195983855  L_7 = L_6;
+		Il2CppObject * L_8 = Box(TableauToWasteUndoStep_t2195983855_il2cpp_TypeInfo_var, &L_7);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_8, /*hidden argument*/NULL);
+		GameModel_checkCurrentWasteForRemoval_m4183424925(__this, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_9 = __this->get__wastePile_143();
+		int32_t L_10 = V_1;
+		GsnCardPile_AddCard_m1029854019(L_9, L_10, /*hidden argument*/NULL);
+		int32_t L_11 = ___cardIndex0;
+		int32_t L_12 = ___delayTime2;
+		GameModel_RemoveFaceUpCard_m1157902525(__this, L_11, L_12, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_13 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral3635464191, L_13, /*hidden argument*/NULL);
+		int32_t L_14 = ___delayTime2;
+		GameModel_IncrementStreak_m2567163765(__this, L_14, /*hidden argument*/NULL);
+		int32_t L_15 = __this->get__streakCount_151();
+		int32_t L_16 = GameModel_PointsForStreak_m4156152918(__this, L_15, /*hidden argument*/NULL);
+		V_2 = L_16;
+		Dictionary_2_t3986656710 * L_17 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_18 = Dictionary_2_get_Item_m1316665190(L_17, _stringLiteral3146846179, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		int32_t L_19 = V_2;
+		int32_t L_20 = V_1;
+		int32_t L_21 = ___delayTime2;
+		GameModel_modifyScore_m2737766079(__this, L_18, L_19, L_20, L_21, /*hidden argument*/NULL);
+		int32_t L_22 = V_2;
+		int32_t L_23 = V_1;
+		ModifyScoreUndoStep_t483283180  L_24;
+		memset(&L_24, 0, sizeof(L_24));
+		ModifyScoreUndoStep__ctor_m1567828388(&L_24, L_22, L_23, /*hidden argument*/NULL);
+		ModifyScoreUndoStep_t483283180  L_25 = L_24;
+		Il2CppObject * L_26 = Box(ModifyScoreUndoStep_t483283180_il2cpp_TypeInfo_var, &L_25);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_26, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::ProcessClickActions(System.Int32,System.Boolean&)
+extern Il2CppClass* ChangeTypeUndoStep_t1816012290_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveTrapTask_t2105561414_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3560713018;
+extern const uint32_t GameModel_ProcessClickActions_m2903177287_MetadataUsageId;
+extern "C"  void GameModel_ProcessClickActions_m2903177287 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, bool* ___sendClickResult1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_ProcessClickActions_m2903177287_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	int32_t V_1 = 0;
+	GsnCard_t782444760 * V_2 = NULL;
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		BaseCardData_t423020963 * L_3 = V_0;
+		int32_t L_4 = L_3->get_cardID_0();
+		V_1 = L_4;
+		TriPeaksCardDeck_t1840429032 * L_5 = __this->get__deck_141();
+		int32_t L_6 = V_1;
+		GsnCard_t782444760 * L_7 = GsnCardDeck_GetCard_m1861553550(L_5, L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+		GsnCard_t782444760 * L_8 = V_2;
+		bool L_9 = GsnCard_HasFlag_m545784328(L_8, ((int32_t)512), /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		int32_t L_10 = ___cardIndex0;
+		BaseCardData_t423020963 * L_11 = V_0;
+		int32_t L_12 = L_11->get_cardType_3();
+		ChangeTypeUndoStep_t1816012290  L_13;
+		memset(&L_13, 0, sizeof(L_13));
+		ChangeTypeUndoStep__ctor_m2937483048(&L_13, L_10, L_12, /*hidden argument*/NULL);
+		ChangeTypeUndoStep_t1816012290  L_14 = L_13;
+		Il2CppObject * L_15 = Box(ChangeTypeUndoStep_t1816012290_il2cpp_TypeInfo_var, &L_14);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_15, /*hidden argument*/NULL);
+		GsnCard_t782444760 * L_16 = V_2;
+		GsnCard_SetFlag_m1203110991(L_16, ((int32_t)512), (bool)0, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_17 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_18 = V_1;
+		RemoveTrapTask_t2105561414 * L_19 = (RemoveTrapTask_t2105561414 *)il2cpp_codegen_object_new(RemoveTrapTask_t2105561414_il2cpp_TypeInfo_var);
+		RemoveTrapTask__ctor_m2934938808(L_19, __this, L_18, ((int32_t)350), /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_17, L_19, /*hidden argument*/NULL);
+		int32_t L_20 = V_1;
+		GameModel_RemoveWaste_m2240753554(__this, L_20, /*hidden argument*/NULL);
+		bool* L_21 = ___sendClickResult1;
+		*((int8_t*)(L_21)) = (int8_t)0;
+		JToken_t2552644013 * L_22 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral3560713018, L_22, /*hidden argument*/NULL);
+		goto IL_0094;
+	}
+
+IL_008b:
+	{
+		int32_t L_23 = ___cardIndex0;
+		GameModel_MoveTableauCardToWaste_m3221281022(__this, L_23, (bool)1, 0, /*hidden argument*/NULL);
+	}
+
+IL_0094:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::RemoveFaceUpCard(System.Int32,System.Int32)
+extern Il2CppClass* RemoveCardFromFaceupUndoStep_t964717432_il2cpp_TypeInfo_var;
+extern Il2CppClass* UncoveredCardUndoStep_t769399927_il2cpp_TypeInfo_var;
+extern Il2CppClass* FlippedCardUndoStep_t823793726_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* FlipCardTask_t2449739428_il2cpp_TypeInfo_var;
+extern Il2CppClass* FlipCardEvent_t531222657_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_Remove_m3494432915_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1921196075_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m3644677550_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2961219472_MethodInfo_var;
+extern const uint32_t GameModel_RemoveFaceUpCard_m1157902525_MetadataUsageId;
+extern "C"  void GameModel_RemoveFaceUpCard_m1157902525 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, int32_t ___timeDelay1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_RemoveFaceUpCard_m1157902525_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	GsnCard_t782444760 * V_4 = NULL;
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		List_1_t1440998580 * L_3 = __this->get__faceUpCards_158();
+		int32_t L_4 = ___cardIndex0;
+		List_1_Remove_m3494432915(L_3, L_4, /*hidden argument*/List_1_Remove_m3494432915_MethodInfo_var);
+		int32_t L_5 = ___cardIndex0;
+		RemoveCardFromFaceupUndoStep_t964717432  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		RemoveCardFromFaceupUndoStep__ctor_m1369848909(&L_6, L_5, /*hidden argument*/NULL);
+		RemoveCardFromFaceupUndoStep_t964717432  L_7 = L_6;
+		Il2CppObject * L_8 = Box(RemoveCardFromFaceupUndoStep_t964717432_il2cpp_TypeInfo_var, &L_7);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_8, /*hidden argument*/NULL);
+		V_1 = 0;
+		goto IL_00ca;
+	}
+
+IL_0032:
+	{
+		BaseCardData_t423020963 * L_9 = V_0;
+		List_1_t1440998580 * L_10 = L_9->get_coversCards_1();
+		int32_t L_11 = V_1;
+		int32_t L_12 = List_1_get_Item_m1921196075(L_10, L_11, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		V_2 = L_12;
+		List_1_t4087109391 * L_13 = __this->get__cards_140();
+		int32_t L_14 = V_2;
+		BaseCardData_t423020963 * L_15 = List_1_get_Item_m1588982064(L_13, L_14, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		List_1_t1440998580 * L_16 = L_15->get_coveredByCards_2();
+		int32_t L_17 = ___cardIndex0;
+		List_1_Remove_m3494432915(L_16, L_17, /*hidden argument*/List_1_Remove_m3494432915_MethodInfo_var);
+		int32_t L_18 = ___cardIndex0;
+		int32_t L_19 = V_2;
+		UncoveredCardUndoStep_t769399927  L_20;
+		memset(&L_20, 0, sizeof(L_20));
+		UncoveredCardUndoStep__ctor_m1208817075(&L_20, L_18, L_19, /*hidden argument*/NULL);
+		UncoveredCardUndoStep_t769399927  L_21 = L_20;
+		Il2CppObject * L_22 = Box(UncoveredCardUndoStep_t769399927_il2cpp_TypeInfo_var, &L_21);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_22, /*hidden argument*/NULL);
+		List_1_t4087109391 * L_23 = __this->get__cards_140();
+		int32_t L_24 = V_2;
+		BaseCardData_t423020963 * L_25 = List_1_get_Item_m1588982064(L_23, L_24, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		List_1_t1440998580 * L_26 = L_25->get_coveredByCards_2();
+		int32_t L_27 = List_1_get_Count_m852068579(L_26, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if (L_27)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		List_1_t4087109391 * L_28 = __this->get__cards_140();
+		int32_t L_29 = V_2;
+		BaseCardData_t423020963 * L_30 = List_1_get_Item_m1588982064(L_28, L_29, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_31 = L_30->get_cardID_0();
+		V_3 = L_31;
+		TriPeaksCardDeck_t1840429032 * L_32 = __this->get__deck_141();
+		int32_t L_33 = V_3;
+		GsnCard_t782444760 * L_34 = GsnCardDeck_GetCard_m1861553550(L_32, L_33, /*hidden argument*/NULL);
+		V_4 = L_34;
+		GsnCard_t782444760 * L_35 = V_4;
+		GsnCard_set_faceUp_m3645161989(L_35, (bool)1, /*hidden argument*/NULL);
+		int32_t L_36 = V_2;
+		FlippedCardUndoStep_t823793726  L_37;
+		memset(&L_37, 0, sizeof(L_37));
+		FlippedCardUndoStep__ctor_m596997947(&L_37, L_36, /*hidden argument*/NULL);
+		FlippedCardUndoStep_t823793726  L_38 = L_37;
+		Il2CppObject * L_39 = Box(FlippedCardUndoStep_t823793726_il2cpp_TypeInfo_var, &L_38);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_39, /*hidden argument*/NULL);
+		int32_t L_40 = V_2;
+		int32_t L_41 = ___timeDelay1;
+		GameModel_AddFaceUpCard_m3602906093(__this, L_40, L_41, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_00c6:
+	{
+		int32_t L_42 = V_1;
+		V_1 = ((int32_t)((int32_t)L_42+(int32_t)1));
+	}
+
+IL_00ca:
+	{
+		int32_t L_43 = V_1;
+		BaseCardData_t423020963 * L_44 = V_0;
+		List_1_t1440998580 * L_45 = L_44->get_coversCards_1();
+		int32_t L_46 = List_1_get_Count_m852068579(L_45, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if ((((int32_t)L_43) < ((int32_t)L_46)))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		List_1_t4087109391 * L_47 = __this->get__cards_140();
+		int32_t L_48 = ___cardIndex0;
+		BaseCardData_t423020963 * L_49 = List_1_get_Item_m1588982064(L_47, L_48, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		List_1_t1440998580 * L_50 = L_49->get_coversCards_1();
+		List_1_Clear_m3644677550(L_50, /*hidden argument*/List_1_Clear_m3644677550_MethodInfo_var);
+		List_1_t1440998580 * L_51 = __this->get__faceUpCards_158();
+		int32_t L_52 = List_1_get_Count_m852068579(L_51, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if ((((int32_t)L_52) <= ((int32_t)0)))
+		{
+			goto IL_0141;
+		}
+	}
+	{
+		int32_t L_53 = ___timeDelay1;
+		if ((((int32_t)L_53) <= ((int32_t)0)))
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		GsnScheduler_t1299811741 * L_54 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		List_1_t1440998580 * L_55 = __this->get__faceUpCards_158();
+		List_1_t1440998580 * L_56 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m2961219472(L_56, L_55, /*hidden argument*/List_1__ctor_m2961219472_MethodInfo_var);
+		int32_t L_57 = ___timeDelay1;
+		FlipCardTask_t2449739428 * L_58 = (FlipCardTask_t2449739428 *)il2cpp_codegen_object_new(FlipCardTask_t2449739428_il2cpp_TypeInfo_var);
+		FlipCardTask__ctor_m1301244410(L_58, __this, L_56, L_57, /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_54, L_58, /*hidden argument*/NULL);
+		goto IL_0141;
+	}
+
+IL_012b:
+	{
+		List_1_t1440998580 * L_59 = __this->get__faceUpCards_158();
+		FlipCardEvent_t531222657  L_60;
+		memset(&L_60, 0, sizeof(L_60));
+		FlipCardEvent__ctor_m3667687046(&L_60, L_59, /*hidden argument*/NULL);
+		FlipCardEvent_t531222657  L_61 = L_60;
+		Il2CppObject * L_62 = Box(FlipCardEvent_t531222657_il2cpp_TypeInfo_var, &L_61);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_62, /*hidden argument*/NULL);
+	}
+
+IL_0141:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::AddFaceUpCard(System.Int32,System.Int32,System.Boolean)
+extern Il2CppClass* AddCardToFaceupUndoStep_t456571566_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const uint32_t GameModel_AddFaceUpCard_m3602906093_MetadataUsageId;
+extern "C"  void GameModel_AddFaceUpCard_m3602906093 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, int32_t ___timeDelay1, bool ___activateFaceUpEffects2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_AddFaceUpCard_m3602906093_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1440998580 * L_0 = __this->get__faceUpCards_158();
+		int32_t L_1 = ___cardIndex0;
+		List_1_Add_m688682013(L_0, L_1, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		int32_t L_2 = ___cardIndex0;
+		AddCardToFaceupUndoStep_t456571566  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		AddCardToFaceupUndoStep__ctor_m481425707(&L_3, L_2, /*hidden argument*/NULL);
+		AddCardToFaceupUndoStep_t456571566  L_4 = L_3;
+		Il2CppObject * L_5 = Box(AddCardToFaceupUndoStep_t456571566_il2cpp_TypeInfo_var, &L_4);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_5, /*hidden argument*/NULL);
+		int32_t L_6 = ___cardIndex0;
+		int32_t L_7 = ___timeDelay1;
+		bool L_8 = ___activateFaceUpEffects2;
+		GameModel_ActivateFaceUpCard_m2452516253(__this, L_6, L_7, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::ActivateFaceUpCard(System.Int32,System.Int32,System.Boolean)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const uint32_t GameModel_ActivateFaceUpCard_m2452516253_MetadataUsageId;
+extern "C"  void GameModel_ActivateFaceUpCard_m2452516253 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, int32_t ___timeDelay1, bool ___activateFaceUpEffects2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_ActivateFaceUpCard_m2452516253_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	GsnCard_t782444760 * V_1 = NULL;
+	TriPeaksCard_t214310709 * V_2 = NULL;
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		TriPeaksCardDeck_t1840429032 * L_3 = __this->get__deck_141();
+		BaseCardData_t423020963 * L_4 = V_0;
+		int32_t L_5 = L_4->get_cardID_0();
+		GsnCard_t782444760 * L_6 = GsnCardDeck_GetCard_m1861553550(L_3, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		GsnCard_t782444760 * L_7 = V_1;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_7, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_8 = V_1;
+		V_2 = ((TriPeaksCard_t214310709 *)CastclassClass(L_8, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		bool L_9 = ___activateFaceUpEffects2;
+		if (!L_9)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		TriPeaksCard_t214310709 * L_10 = V_2;
+		BaseCardData_t423020963 * L_11 = V_0;
+		int32_t L_12 = L_11->get_cardID_0();
+		int32_t L_13 = ___timeDelay1;
+		TriPeaksCard_ActivateFaceUpEffects_m8331724(L_10, __this, L_12, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		int32_t L_14 = ___timeDelay1;
+		if (!L_14)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		TriPeaksCard_t214310709 * L_15 = V_2;
+		BaseCardData_t423020963 * L_16 = V_0;
+		int32_t L_17 = L_16->get_cardID_0();
+		TriPeaksCard_UpdateUI_m2856352989(L_15, __this, L_17, /*hidden argument*/NULL);
+	}
+
+IL_0058:
+	{
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::PointsForStreak(System.Int32)
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1334736064;
+extern const uint32_t GameModel_PointsForStreak_m4156152918_MetadataUsageId;
+extern "C"  int32_t GameModel_PointsForStreak_m4156152918 (GameModel_t3841817345 * __this, int32_t ___streak0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_PointsForStreak_m4156152918_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t3986656710 * L_0 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_1 = Dictionary_2_get_Item_m1316665190(L_0, _stringLiteral1334736064, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		int32_t L_2 = ___streak0;
+		return ((int32_t)((int32_t)L_1*(int32_t)((int32_t)((int32_t)L_2-(int32_t)1))));
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::IncrementStreak(System.Int32)
+extern Il2CppClass* ModifyStreakUndoStep_t1352980234_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateStreakEvent_t2125789319_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateStreakTask_t1956936452_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2330286749;
+extern Il2CppCodeGenString* _stringLiteral1976070173;
+extern const uint32_t GameModel_IncrementStreak_m2567163765_MetadataUsageId;
+extern "C"  void GameModel_IncrementStreak_m2567163765 (GameModel_t3841817345 * __this, int32_t ___delayTime0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_IncrementStreak_m2567163765_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->get__streakCount_151();
+		ModifyStreakUndoStep_t1352980234  L_1;
+		memset(&L_1, 0, sizeof(L_1));
+		ModifyStreakUndoStep__ctor_m2439522835(&L_1, L_0, /*hidden argument*/NULL);
+		ModifyStreakUndoStep_t1352980234  L_2 = L_1;
+		Il2CppObject * L_3 = Box(ModifyStreakUndoStep_t1352980234_il2cpp_TypeInfo_var, &L_2);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_3, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get__streakCount_151();
+		__this->set__streakCount_151(((int32_t)((int32_t)L_4+(int32_t)1)));
+		int32_t L_5 = __this->get__streakCount_151();
+		Dictionary_2_t3986656710 * L_6 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_7 = Dictionary_2_get_Item_m1316665190(L_6, _stringLiteral2330286749, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		if ((((int32_t)L_5) <= ((int32_t)L_7)))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_8 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_9 = Dictionary_2_get_Item_m1316665190(L_8, _stringLiteral2330286749, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		__this->set__streakCount_151(L_9);
+	}
+
+IL_0055:
+	{
+		int32_t L_10 = ___delayTime0;
+		if (L_10)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		int32_t L_11 = __this->get__streakCount_151();
+		UpdateStreakEvent_t2125789319  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		UpdateStreakEvent__ctor_m1017131554(&L_12, L_11, /*hidden argument*/NULL);
+		UpdateStreakEvent_t2125789319  L_13 = L_12;
+		Il2CppObject * L_14 = Box(UpdateStreakEvent_t2125789319_il2cpp_TypeInfo_var, &L_13);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_14, /*hidden argument*/NULL);
+		goto IL_0093;
+	}
+
+IL_0076:
+	{
+		GsnScheduler_t1299811741 * L_15 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_16 = __this->get__streakCount_151();
+		UpdateStreakEvent_t2125789319  L_17;
+		memset(&L_17, 0, sizeof(L_17));
+		UpdateStreakEvent__ctor_m1017131554(&L_17, L_16, /*hidden argument*/NULL);
+		int32_t L_18 = ___delayTime0;
+		UpdateStreakTask_t1956936452 * L_19 = (UpdateStreakTask_t1956936452 *)il2cpp_codegen_object_new(UpdateStreakTask_t1956936452_il2cpp_TypeInfo_var);
+		UpdateStreakTask__ctor_m2121928323(L_19, __this, L_17, L_18, /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_15, L_19, /*hidden argument*/NULL);
+	}
+
+IL_0093:
+	{
+		int32_t L_20 = __this->get__streakCount_151();
+		JToken_t2552644013 * L_21 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1976070173, L_21, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::ToggleStreakResetLock()
+extern "C"  void GameModel_ToggleStreakResetLock_m3099395857 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__streakResetLocked_161();
+		__this->set__streakResetLocked_161((bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::MoveTopDealCardToWaste()
+extern Il2CppClass* DealToWasteUndoStep_t557574109_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_MoveTopDealCardToWaste_m3533810360_MetadataUsageId;
+extern "C"  void GameModel_MoveTopDealCardToWaste_m3533810360 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_MoveTopDealCardToWaste_m3533810360_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		GsnCardPile_t3625903776 * L_0 = __this->get__dealPile_142();
+		int32_t L_1 = GsnCardPile_GetTopCardID_m3102030089(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GameModel_checkCurrentWasteForRemoval_m4183424925(__this, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_2 = __this->get__dealPile_142();
+		GsnCardPile_RemoveTopCard_m3272141710(L_2, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_3 = __this->get__wastePile_143();
+		int32_t L_4 = V_0;
+		GsnCardPile_AddCard_m1029854019(L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		DealToWasteUndoStep_t557574109  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		DealToWasteUndoStep__ctor_m4072864848(&L_6, L_5, /*hidden argument*/NULL);
+		DealToWasteUndoStep_t557574109  L_7 = L_6;
+		Il2CppObject * L_8 = Box(DealToWasteUndoStep_t557574109_il2cpp_TypeInfo_var, &L_7);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_8, /*hidden argument*/NULL);
+		GameModel_resetStreak_m2251120952(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::RemoveWaste(System.Int32)
+extern Il2CppClass* RemoveCardEvent_t1579643884_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var;
+extern Il2CppClass* CardClickResultEvent_t864906509_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_RemoveWaste_m2240753554_MetadataUsageId;
+extern "C"  void GameModel_RemoveWaste_m2240753554 (GameModel_t3841817345 * __this, int32_t ___targetCardId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_RemoveWaste_m2240753554_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		GsnCardPile_t3625903776 * L_0 = __this->get__wastePile_143();
+		int32_t L_1 = GsnCardPile_GetTopCardID_m3102030089(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GsnCardPile_t3625903776 * L_2 = __this->get__wastePile_143();
+		GsnCardPile_RemoveTopCard_m3272141710(L_2, /*hidden argument*/NULL);
+		bool L_3 = GameModel_CanCardStayInPlay_m2484041579(__this, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_4 = __this->get__removedPile_144();
+		int32_t L_5 = V_0;
+		GsnCardPile_AddCard_m1029854019(L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		int32_t L_6 = V_0;
+		int32_t L_7 = ___targetCardId0;
+		RemoveCardEvent_t1579643884  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		RemoveCardEvent__ctor_m4099864314(&L_8, L_6, L_7, /*hidden argument*/NULL);
+		RemoveCardEvent_t1579643884  L_9 = L_8;
+		Il2CppObject * L_10 = Box(RemoveCardEvent_t1579643884_il2cpp_TypeInfo_var, &L_9);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_10, /*hidden argument*/NULL);
+		int32_t L_11 = V_0;
+		RemoveCardFromWasteUndoStep_t52364908  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		RemoveCardFromWasteUndoStep__ctor_m3927182109(&L_12, L_11, /*hidden argument*/NULL);
+		RemoveCardFromWasteUndoStep_t52364908  L_13 = L_12;
+		Il2CppObject * L_14 = Box(RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var, &L_13);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_14, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_15 = __this->get__wastePile_143();
+		int32_t L_16 = GsnCardPile_get_count_m669804915(L_15, /*hidden argument*/NULL);
+		if ((((int32_t)L_16) > ((int32_t)0)))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_17 = __this->get__dealPile_142();
+		int32_t L_18 = GsnCardPile_GetTopCardID_m3102030089(L_17, /*hidden argument*/NULL);
+		V_1 = L_18;
+		GameModel_MoveTopDealCardToWaste_m3533810360(__this, /*hidden argument*/NULL);
+		int32_t L_19 = V_1;
+		CardClickResultEvent_t864906509  L_20;
+		memset(&L_20, 0, sizeof(L_20));
+		CardClickResultEvent__ctor_m1087406625(&L_20, (bool)1, L_19, (List_1_t1440998580 *)NULL, (-1), /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_21 = L_20;
+		Il2CppObject * L_22 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_21);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_22, /*hidden argument*/NULL);
+	}
+
+IL_0089:
+	{
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::CanMoveCardToWaste(System.Int32)
+extern "C"  bool GameModel_CanMoveCardToWaste_m805061636 (Il2CppObject * __this /* static, unused */, int32_t ___cardFlags0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardFlags0;
+		if (!((int32_t)((int32_t)L_0&(int32_t)((int32_t)60))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000b:
+	{
+		return (bool)1;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::CheckWasteForTikiAbilities()
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardTask_t1841883743_il2cpp_TypeInfo_var;
+extern Il2CppClass* ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var;
+extern Il2CppClass* BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* WasteToDealUndoStep_t986620231_il2cpp_TypeInfo_var;
+extern Il2CppClass* GainDealCardsEvent_t1345594440_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4071392635;
+extern Il2CppCodeGenString* _stringLiteral1380426287;
+extern Il2CppCodeGenString* _stringLiteral3456975923;
+extern Il2CppCodeGenString* _stringLiteral4167279095;
+extern Il2CppCodeGenString* _stringLiteral2428873102;
+extern Il2CppCodeGenString* _stringLiteral1853035628;
+extern Il2CppCodeGenString* _stringLiteral246866371;
+extern const uint32_t GameModel_CheckWasteForTikiAbilities_m673939973_MetadataUsageId;
+extern "C"  void GameModel_CheckWasteForTikiAbilities_m673939973 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_CheckWasteForTikiAbilities_m673939973_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GsnCard_t782444760 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	List_1_t1440998580 * V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		GsnCard_t782444760 * L_0 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GsnCard_t782444760 * L_1 = V_0;
+		int32_t L_2 = GsnCard_get_flags_m1061295935(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		bool L_4 = GameModel_CanMoveCardToWaste_m805061636(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		TriPeaksCardDeck_t1840429032 * L_5 = __this->get__deck_141();
+		GsnCard_t782444760 * L_6 = V_0;
+		int32_t L_7 = GsnCardDeck_GetCardID_m3774805247(L_5, L_6, /*hidden argument*/NULL);
+		RemoveCardFromWasteUndoStep_t52364908  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		RemoveCardFromWasteUndoStep__ctor_m3927182109(&L_8, L_7, /*hidden argument*/NULL);
+		RemoveCardFromWasteUndoStep_t52364908  L_9 = L_8;
+		Il2CppObject * L_10 = Box(RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var, &L_9);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_10, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_11 = __this->get__wastePile_143();
+		int32_t L_12 = GsnCardPile_GetTopCardID_m3102030089(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		GsnCardPile_t3625903776 * L_13 = __this->get__wastePile_143();
+		GsnCardPile_RemoveTopCard_m3272141710(L_13, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_14 = __this->get__removedPile_144();
+		int32_t L_15 = V_2;
+		GsnCardPile_AddCard_m1029854019(L_14, L_15, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_16 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_17 = V_2;
+		RemoveCardTask_t1841883743 * L_18 = (RemoveCardTask_t1841883743 *)il2cpp_codegen_object_new(RemoveCardTask_t1841883743_il2cpp_TypeInfo_var);
+		RemoveCardTask__ctor_m2999929181(L_18, __this, L_17, ((int32_t)2500), /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_16, L_18, /*hidden argument*/NULL);
+		GameModel_checkCurrentWasteForRemoval_m4183424925(__this, /*hidden argument*/NULL);
+	}
+
+IL_0076:
+	{
+		GsnCard_t782444760 * L_19 = V_0;
+		bool L_20 = GsnCard_HasFlag_m545784328(L_19, 2, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		ShowBannerEvent_t1981401907  L_21;
+		memset(&L_21, 0, sizeof(L_21));
+		ShowBannerEvent__ctor_m3168281758(&L_21, 2, /*hidden argument*/NULL);
+		ShowBannerEvent_t1981401907  L_22 = L_21;
+		Il2CppObject * L_23 = Box(ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var, &L_22);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_23, /*hidden argument*/NULL);
+		goto IL_025b;
+	}
+
+IL_0098:
+	{
+		GsnCard_t782444760 * L_24 = V_0;
+		bool L_25 = GsnCard_HasFlag_m545784328(L_24, 4, /*hidden argument*/NULL);
+		if (L_25)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_26 = V_0;
+		bool L_27 = GsnCard_HasFlag_m545784328(L_26, 8, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_0122;
+		}
+	}
+
+IL_00b0:
+	{
+		Dictionary_2_t3986656710 * L_28 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_29 = Dictionary_2_get_Item_m1316665190(L_28, _stringLiteral4071392635, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		GsnCard_t782444760 * L_30 = V_0;
+		GameModel_ClearRandomCardsFromList_m1081014606(__this, L_29, L_30, (bool)0, /*hidden argument*/NULL);
+		GsnCard_t782444760 * L_31 = V_0;
+		bool L_32 = GsnCard_HasFlag_m545784328(L_31, 4, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		ShowBannerEvent_t1981401907  L_33;
+		memset(&L_33, 0, sizeof(L_33));
+		ShowBannerEvent__ctor_m3168281758(&L_33, 4, /*hidden argument*/NULL);
+		ShowBannerEvent_t1981401907  L_34 = L_33;
+		Il2CppObject * L_35 = Box(ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var, &L_34);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_35, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_36 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1380426287, L_36, /*hidden argument*/NULL);
+		goto IL_011d;
+	}
+
+IL_00fb:
+	{
+		ShowBannerEvent_t1981401907  L_37;
+		memset(&L_37, 0, sizeof(L_37));
+		ShowBannerEvent__ctor_m3168281758(&L_37, 8, /*hidden argument*/NULL);
+		ShowBannerEvent_t1981401907  L_38 = L_37;
+		Il2CppObject * L_39 = Box(ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var, &L_38);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_39, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_40 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral3456975923, L_40, /*hidden argument*/NULL);
+	}
+
+IL_011d:
+	{
+		goto IL_025b;
+	}
+
+IL_0122:
+	{
+		GsnCard_t782444760 * L_41 = V_0;
+		bool L_42 = GsnCard_HasFlag_m545784328(L_41, ((int32_t)32), /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		Dictionary_2_t3986656710 * L_43 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_44 = Dictionary_2_get_Item_m1316665190(L_43, _stringLiteral4167279095, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		GsnCard_t782444760 * L_45 = V_0;
+		GameModel_ClearRandomCardsFromList_m1081014606(__this, L_44, L_45, (bool)1, /*hidden argument*/NULL);
+		ShowBannerEvent_t1981401907  L_46;
+		memset(&L_46, 0, sizeof(L_46));
+		ShowBannerEvent__ctor_m3168281758(&L_46, ((int32_t)32), /*hidden argument*/NULL);
+		ShowBannerEvent_t1981401907  L_47 = L_46;
+		Il2CppObject * L_48 = Box(ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var, &L_47);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_48, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_49 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral2428873102, L_49, /*hidden argument*/NULL);
+		goto IL_025b;
+	}
+
+IL_016f:
+	{
+		GsnCard_t782444760 * L_50 = V_0;
+		bool L_51 = GsnCard_HasFlag_m545784328(L_50, ((int32_t)16), /*hidden argument*/NULL);
+		if (!L_51)
+		{
+			goto IL_025b;
+		}
+	}
+	{
+		GsnRandom_t3573954395 * L_52 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		uint32_t L_53 = GsnRandom_GetBurnCount_m733612573(L_52, /*hidden argument*/NULL);
+		BurnRNGUndoStep_t498309376  L_54;
+		memset(&L_54, 0, sizeof(L_54));
+		BurnRNGUndoStep__ctor_m1066099928(&L_54, L_53, /*hidden argument*/NULL);
+		BurnRNGUndoStep_t498309376  L_55 = L_54;
+		Il2CppObject * L_56 = Box(BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var, &L_55);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_56, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_57 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_57, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		V_3 = L_57;
+		goto IL_01f0;
+	}
+
+IL_01a2:
+	{
+		GsnCardPile_t3625903776 * L_58 = __this->get__wastePile_143();
+		GsnRandom_t3573954395 * L_59 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		GsnCardPile_t3625903776 * L_60 = __this->get__wastePile_143();
+		int32_t L_61 = GsnCardPile_get_count_m669804915(L_60, /*hidden argument*/NULL);
+		uint32_t L_62 = GsnRandom_GetNextRange_m1830476161(L_59, 0, ((int32_t)((int32_t)L_61-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_63 = GsnCardPile_RemoveCardAt_m1061423375(L_58, L_62, /*hidden argument*/NULL);
+		V_4 = L_63;
+		List_1_t1440998580 * L_64 = V_3;
+		int32_t L_65 = V_4;
+		List_1_Add_m688682013(L_64, L_65, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		GsnCardPile_t3625903776 * L_66 = __this->get__dealPile_142();
+		int32_t L_67 = V_4;
+		GsnCardPile_AddCardAt_m1017993115(L_66, 0, L_67, /*hidden argument*/NULL);
+		int32_t L_68 = V_4;
+		WasteToDealUndoStep_t986620231  L_69;
+		memset(&L_69, 0, sizeof(L_69));
+		WasteToDealUndoStep__ctor_m1721614634(&L_69, L_68, /*hidden argument*/NULL);
+		WasteToDealUndoStep_t986620231  L_70 = L_69;
+		Il2CppObject * L_71 = Box(WasteToDealUndoStep_t986620231_il2cpp_TypeInfo_var, &L_70);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_71, /*hidden argument*/NULL);
+	}
+
+IL_01f0:
+	{
+		GsnCardPile_t3625903776 * L_72 = __this->get__wastePile_143();
+		int32_t L_73 = GsnCardPile_get_count_m669804915(L_72, /*hidden argument*/NULL);
+		if ((((int32_t)L_73) <= ((int32_t)1)))
+		{
+			goto IL_021c;
+		}
+	}
+	{
+		List_1_t1440998580 * L_74 = V_3;
+		int32_t L_75 = List_1_get_Count_m852068579(L_74, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		Dictionary_2_t3986656710 * L_76 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_77 = Dictionary_2_get_Item_m1316665190(L_76, _stringLiteral1853035628, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		if ((((int32_t)L_75) < ((int32_t)L_77)))
+		{
+			goto IL_01a2;
+		}
+	}
+
+IL_021c:
+	{
+		List_1_t1440998580 * L_78 = V_3;
+		GainDealCardsEvent_t1345594440  L_79;
+		memset(&L_79, 0, sizeof(L_79));
+		GainDealCardsEvent__ctor_m39324119(&L_79, L_78, /*hidden argument*/NULL);
+		GainDealCardsEvent_t1345594440  L_80 = L_79;
+		Il2CppObject * L_81 = Box(GainDealCardsEvent_t1345594440_il2cpp_TypeInfo_var, &L_80);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_81, /*hidden argument*/NULL);
+		ShowBannerEvent_t1981401907  L_82;
+		memset(&L_82, 0, sizeof(L_82));
+		ShowBannerEvent__ctor_m3168281758(&L_82, ((int32_t)16), /*hidden argument*/NULL);
+		ShowBannerEvent_t1981401907  L_83 = L_82;
+		Il2CppObject * L_84 = Box(ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var, &L_83);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_84, /*hidden argument*/NULL);
+		GameModel_blockInput_m1721148109(__this, ((int32_t)2500), /*hidden argument*/NULL);
+		JToken_t2552644013 * L_85 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral246866371, L_85, /*hidden argument*/NULL);
+	}
+
+IL_025b:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::ClearRandomCardsFromList(System.Int32,GSN.Skill.Games.Common.Primitive.Card.GsnCard,System.Boolean)
+extern Il2CppClass* BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var;
+extern Il2CppClass* ClickCardTask_t593835101_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1921196075_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveAt_m2710652734_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1436888009;
+extern Il2CppCodeGenString* _stringLiteral3989469868;
+extern const uint32_t GameModel_ClearRandomCardsFromList_m1081014606_MetadataUsageId;
+extern "C"  void GameModel_ClearRandomCardsFromList_m1081014606 (GameModel_t3841817345 * __this, int32_t ___maxNumCards0, GsnCard_t782444760 * ___card1, bool ___rebuildAllMovesEveryPop2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_ClearRandomCardsFromList_m1081014606_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1440998580 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	{
+		GsnCard_t782444760 * L_0 = ___card1;
+		List_1_t1440998580 * L_1 = GameModel_findAllMoves_m3150485129(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Dictionary_2_t3986656710 * L_2 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_3 = Dictionary_2_get_Item_m1316665190(L_2, _stringLiteral1436888009, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		V_1 = L_3;
+		GsnRandom_t3573954395 * L_4 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		uint32_t L_5 = GsnRandom_GetBurnCount_m733612573(L_4, /*hidden argument*/NULL);
+		BurnRNGUndoStep_t498309376  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		BurnRNGUndoStep__ctor_m1066099928(&L_6, L_5, /*hidden argument*/NULL);
+		BurnRNGUndoStep_t498309376  L_7 = L_6;
+		Il2CppObject * L_8 = Box(BurnRNGUndoStep_t498309376_il2cpp_TypeInfo_var, &L_7);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_8, /*hidden argument*/NULL);
+		V_2 = 0;
+		goto IL_00b8;
+	}
+
+IL_003b:
+	{
+		GsnRandom_t3573954395 * L_9 = ((GameModelBase_t2215752692 *)__this)->get__rand_18();
+		List_1_t1440998580 * L_10 = V_0;
+		int32_t L_11 = List_1_get_Count_m852068579(L_10, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		uint32_t L_12 = GsnRandom_GetNextRange_m1830476161(L_9, 0, ((int32_t)((int32_t)L_11-(int32_t)1)), /*hidden argument*/NULL);
+		V_3 = L_12;
+		List_1_t1440998580 * L_13 = V_0;
+		int32_t L_14 = V_3;
+		int32_t L_15 = List_1_get_Item_m1921196075(L_13, L_14, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		V_4 = L_15;
+		int32_t L_16 = V_4;
+		int32_t L_17 = V_1;
+		GameModel_MoveTableauCardToWaste_m3221281022(__this, L_16, (bool)0, L_17, /*hidden argument*/NULL);
+		List_1_t4087109391 * L_18 = __this->get__cards_140();
+		int32_t L_19 = V_4;
+		BaseCardData_t423020963 * L_20 = List_1_get_Item_m1588982064(L_18, L_19, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_21 = L_20->get_cardID_0();
+		V_5 = L_21;
+		List_1_t1440998580 * L_22 = V_0;
+		int32_t L_23 = V_3;
+		List_1_RemoveAt_m2710652734(L_22, L_23, /*hidden argument*/List_1_RemoveAt_m2710652734_MethodInfo_var);
+		int32_t L_24 = V_2;
+		V_2 = ((int32_t)((int32_t)L_24+(int32_t)1));
+		GsnScheduler_t1299811741 * L_25 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_26 = V_5;
+		int32_t L_27 = V_1;
+		ClickCardTask_t593835101 * L_28 = (ClickCardTask_t593835101 *)il2cpp_codegen_object_new(ClickCardTask_t593835101_il2cpp_TypeInfo_var);
+		ClickCardTask__ctor_m2969977512(L_28, __this, (bool)1, L_26, L_27, /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_25, L_28, /*hidden argument*/NULL);
+		int32_t L_29 = V_1;
+		Dictionary_2_t3986656710 * L_30 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_31 = Dictionary_2_get_Item_m1316665190(L_30, _stringLiteral3989469868, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		V_1 = ((int32_t)((int32_t)L_29+(int32_t)L_31));
+		bool L_32 = ___rebuildAllMovesEveryPop2;
+		if (!L_32)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_33 = ___card1;
+		List_1_t1440998580 * L_34 = GameModel_findAllMoves_m3150485129(__this, L_33, /*hidden argument*/NULL);
+		V_0 = L_34;
+	}
+
+IL_00b8:
+	{
+		List_1_t1440998580 * L_35 = V_0;
+		int32_t L_36 = List_1_get_Count_m852068579(L_35, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if ((((int32_t)L_36) <= ((int32_t)0)))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		int32_t L_37 = V_2;
+		int32_t L_38 = ___maxNumCards0;
+		if ((((int32_t)L_37) < ((int32_t)L_38)))
+		{
+			goto IL_003b;
+		}
+	}
+
+IL_00cb:
+	{
+		int32_t L_39 = V_1;
+		GameModel_blockInput_m1721148109(__this, L_39, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::EndReshuffle()
+extern Il2CppClass* CardClickResultEvent_t864906509_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReshuffleCompleteEvent_t992434719_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral389492954;
+extern const uint32_t GameModel_EndReshuffle_m1198729544_MetadataUsageId;
+extern "C"  void GameModel_EndReshuffle_m1198729544 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_EndReshuffle_m1198729544_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ReshuffleCompleteEvent_t992434719  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		GsnCardPile_t3625903776 * L_0 = __this->get__dealPile_142();
+		int32_t L_1 = GsnCardPile_GetTopCardID_m3102030089(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GameModel_MoveTopDealCardToWaste_m3533810360(__this, /*hidden argument*/NULL);
+		Dictionary_2_t3986656710 * L_2 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_3 = Dictionary_2_get_Item_m1316665190(L_2, _stringLiteral389492954, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		GameModel_blockInput_m1721148109(__this, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		CardClickResultEvent_t864906509  L_5;
+		memset(&L_5, 0, sizeof(L_5));
+		CardClickResultEvent__ctor_m1087406625(&L_5, (bool)1, L_4, (List_1_t1440998580 *)NULL, (-1), /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_6 = L_5;
+		Il2CppObject * L_7 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_6);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_7, /*hidden argument*/NULL);
+		Initobj (ReshuffleCompleteEvent_t992434719_il2cpp_TypeInfo_var, (&V_1));
+		ReshuffleCompleteEvent_t992434719  L_8 = V_1;
+		ReshuffleCompleteEvent_t992434719  L_9 = L_8;
+		Il2CppObject * L_10 = Box(ReshuffleCompleteEvent_t992434719_il2cpp_TypeInfo_var, &L_9);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_10, /*hidden argument*/NULL);
+		GameModel_AdvanceTurn_m2689795504(__this, /*hidden argument*/NULL);
+		GameModel_endUndo_m3773902322(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::OnWildOnTimeClicked()
+extern Il2CppClass* OneShotWildClickedUndoStep_t2427321765_il2cpp_TypeInfo_var;
+extern Il2CppClass* CardClickResultEvent_t864906509_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral223996893;
+extern const uint32_t GameModel_OnWildOnTimeClicked_m3653623655_MetadataUsageId;
+extern "C"  void GameModel_OnWildOnTimeClicked_m3653623655 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_OnWildOnTimeClicked_m3653623655_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1440998580 * V_0 = NULL;
+	{
+		int32_t L_0 = __this->get__numOneTimeWildsLeft_150();
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		int32_t L_1 = __this->get__numOneTimeWildsLeft_150();
+		OneShotWildClickedUndoStep_t2427321765  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		OneShotWildClickedUndoStep__ctor_m526331600(&L_2, L_1, /*hidden argument*/NULL);
+		OneShotWildClickedUndoStep_t2427321765  L_3 = L_2;
+		Il2CppObject * L_4 = Box(OneShotWildClickedUndoStep_t2427321765_il2cpp_TypeInfo_var, &L_3);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_4, /*hidden argument*/NULL);
+		int32_t L_5 = __this->get__numOneTimeWildsLeft_150();
+		__this->set__numOneTimeWildsLeft_150(((int32_t)((int32_t)L_5-(int32_t)1)));
+		GsnCard_t782444760 * L_6 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_7 = GameModel_findAllMoves_m3150485129(__this, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		GameModel_checkCurrentWasteForRemoval_m4183424925(__this, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_8 = __this->get__wastePile_143();
+		int32_t L_9 = __this->get__wildID_153();
+		GsnCardPile_AddCard_m1029854019(L_8, L_9, /*hidden argument*/NULL);
+		int32_t L_10 = __this->get__wildID_153();
+		List_1_t1440998580 * L_11 = V_0;
+		CardClickResultEvent_t864906509  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		CardClickResultEvent__ctor_m1087406625(&L_12, (bool)1, L_10, L_11, (-1), /*hidden argument*/NULL);
+		CardClickResultEvent_t864906509  L_13 = L_12;
+		Il2CppObject * L_14 = Box(CardClickResultEvent_t864906509_il2cpp_TypeInfo_var, &L_13);
+		EventDispatcher_DispatchEvent_m4139058996(__this, (Il2CppObject *)L_14, /*hidden argument*/NULL);
+		JToken_t2552644013 * L_15 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral223996893, L_15, /*hidden argument*/NULL);
+		GameModel_AdvanceTurn_m2689795504(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::CalculateScoreUpperBound(System.Int32)
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2330286749;
+extern Il2CppCodeGenString* _stringLiteral3146846179;
+extern const uint32_t GameModel_CalculateScoreUpperBound_m3798335488_MetadataUsageId;
+extern "C"  int32_t GameModel_CalculateScoreUpperBound_m3798335488 (GameModel_t3841817345 * __this, int32_t ___msPerMove0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_CalculateScoreUpperBound_m3798335488_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	{
+		int32_t L_0 = GameModelBase_get_endGameReason_m2089969159(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GSN.Skill.Games.Common.Model.GameModelBase::GetScore() */, __this);
+		return L_1;
+	}
+
+IL_0012:
+	{
+		int32_t L_2 = GameModelBase_get_msLeft_m488099619(__this, /*hidden argument*/NULL);
+		int32_t L_3 = ___msPerMove0;
+		int32_t L_4 = GameModel_get_cardsRemaining_m3329321799(__this, /*hidden argument*/NULL);
+		int32_t L_5 = GameModel_getTimeBonus_m4076159526(__this, ((int32_t)((int32_t)L_2-(int32_t)((int32_t)((int32_t)L_3*(int32_t)L_4)))), /*hidden argument*/NULL);
+		V_0 = L_5;
+		V_1 = 0;
+		Dictionary_2_t3986656710 * L_6 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_7 = Dictionary_2_get_Item_m1316665190(L_6, _stringLiteral2330286749, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		V_2 = L_7;
+		Dictionary_2_t3986656710 * L_8 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_9 = Dictionary_2_get_Item_m1316665190(L_8, _stringLiteral3146846179, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		V_3 = L_9;
+		V_4 = 0;
+		goto IL_007e;
+	}
+
+IL_0054:
+	{
+		int32_t L_10 = V_4;
+		int32_t L_11 = __this->get__streakCount_151();
+		int32_t L_12 = V_2;
+		int32_t L_13 = Math_Min_m4290821911(NULL /*static, unused*/, ((int32_t)((int32_t)((int32_t)((int32_t)L_10+(int32_t)L_11))+(int32_t)1)), L_12, /*hidden argument*/NULL);
+		V_5 = L_13;
+		int32_t L_14 = V_5;
+		int32_t L_15 = GameModel_PointsForStreak_m4156152918(__this, L_14, /*hidden argument*/NULL);
+		V_6 = L_15;
+		int32_t L_16 = V_1;
+		int32_t L_17 = V_3;
+		int32_t L_18 = V_6;
+		V_1 = ((int32_t)((int32_t)L_16+(int32_t)((int32_t)((int32_t)L_17+(int32_t)L_18))));
+		int32_t L_19 = V_4;
+		V_4 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_007e:
+	{
+		int32_t L_20 = V_4;
+		int32_t L_21 = GameModel_get_cardsRemaining_m3329321799(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_20) >= ((int32_t)L_21)))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		int32_t L_22 = V_4;
+		int32_t L_23 = ___msPerMove0;
+		int32_t L_24 = GameModelBase_get_msLeft_m488099619(__this, /*hidden argument*/NULL);
+		if ((((int32_t)((int32_t)((int32_t)L_22*(int32_t)L_23))) <= ((int32_t)L_24)))
+		{
+			goto IL_0054;
+		}
+	}
+
+IL_009a:
+	{
+		int32_t L_25 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GSN.Skill.Games.Common.Model.GameModelBase::GetScore() */, __this);
+		int32_t L_26 = V_1;
+		int32_t L_27 = V_0;
+		return ((int32_t)((int32_t)((int32_t)((int32_t)L_25+(int32_t)L_26))+(int32_t)L_27));
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::AdvanceTurn()
+extern Il2CppClass* AdvanceTurnCounterUndoStep_t3866957267_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern Il2CppClass* AdvanceTurnCardUndoStep_t4144436193_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern const uint32_t GameModel_AdvanceTurn_m2689795504_MetadataUsageId;
+extern "C"  void GameModel_AdvanceTurn_m2689795504 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_AdvanceTurn_m2689795504_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Enumerator_t975728254  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	GsnCard_t782444760 * V_3 = NULL;
+	TriPeaksCard_t214310709 * V_4 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get__turnCounter_154();
+		AdvanceTurnCounterUndoStep_t3866957267  L_1;
+		memset(&L_1, 0, sizeof(L_1));
+		AdvanceTurnCounterUndoStep__ctor_m438295826(&L_1, L_0, /*hidden argument*/NULL);
+		AdvanceTurnCounterUndoStep_t3866957267  L_2 = L_1;
+		Il2CppObject * L_3 = Box(AdvanceTurnCounterUndoStep_t3866957267_il2cpp_TypeInfo_var, &L_2);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_3, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get__turnCounter_154();
+		__this->set__turnCounter_154(((int32_t)((int32_t)L_4+(int32_t)1)));
+		List_1_t1440998580 * L_5 = __this->get__faceUpCards_158();
+		Enumerator_t975728254  L_6 = List_1_GetEnumerator_m2527786909(L_5, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		V_1 = L_6;
+	}
+
+IL_0030:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00ab;
+		}
+
+IL_0035:
+		{
+			int32_t L_7 = Enumerator_get_Current_m1062633493((&V_1), /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			V_0 = L_7;
+			List_1_t4087109391 * L_8 = __this->get__cards_140();
+			int32_t L_9 = V_0;
+			BaseCardData_t423020963 * L_10 = List_1_get_Item_m1588982064(L_8, L_9, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+			int32_t L_11 = L_10->get_cardID_0();
+			V_2 = L_11;
+			TriPeaksCardDeck_t1840429032 * L_12 = __this->get__deck_141();
+			int32_t L_13 = V_2;
+			GsnCard_t782444760 * L_14 = GsnCardDeck_GetCard_m1861553550(L_12, L_13, /*hidden argument*/NULL);
+			V_3 = L_14;
+			GsnCard_t782444760 * L_15 = V_3;
+			if (!((TriPeaksCard_t214310709 *)IsInstClass(L_15, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+			{
+				goto IL_00ab;
+			}
+		}
+
+IL_0067:
+		{
+			GsnCard_t782444760 * L_16 = V_3;
+			V_4 = ((TriPeaksCard_t214310709 *)CastclassClass(L_16, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+			int32_t L_17 = V_2;
+			TriPeaksCard_t214310709 * L_18 = V_4;
+			int32_t L_19 = TriPeaksCard_get_activationCounter_m3327518404(L_18, /*hidden argument*/NULL);
+			AdvanceTurnCardUndoStep_t4144436193  L_20;
+			memset(&L_20, 0, sizeof(L_20));
+			AdvanceTurnCardUndoStep__ctor_m1065719743(&L_20, L_17, L_19, /*hidden argument*/NULL);
+			AdvanceTurnCardUndoStep_t4144436193  L_21 = L_20;
+			Il2CppObject * L_22 = Box(AdvanceTurnCardUndoStep_t4144436193_il2cpp_TypeInfo_var, &L_21);
+			GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_22, /*hidden argument*/NULL);
+			TriPeaksCard_t214310709 * L_23 = V_4;
+			TriPeaksCard_AdvanceTurn_m3794696610(L_23, __this, /*hidden argument*/NULL);
+			TriPeaksCard_t214310709 * L_24 = V_4;
+			bool L_25 = TriPeaksCard_EndsGame_m493810195(L_24, __this, /*hidden argument*/NULL);
+			if (!L_25)
+			{
+				goto IL_00a2;
+			}
+		}
+
+IL_009c:
+		{
+			GameModel_earlyFailBomb_m973120538(__this, /*hidden argument*/NULL);
+		}
+
+IL_00a2:
+		{
+			TriPeaksCard_t214310709 * L_26 = V_4;
+			int32_t L_27 = V_2;
+			TriPeaksCard_UpdateUI_m2856352989(L_26, __this, L_27, /*hidden argument*/NULL);
+		}
+
+IL_00ab:
+		{
+			bool L_28 = Enumerator_MoveNext_m4282865897((&V_1), /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_28)
+			{
+				goto IL_0035;
+			}
+		}
+
+IL_00b7:
+		{
+			IL2CPP_LEAVE(0xCA, FINALLY_00bc);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00bc;
+	}
+
+FINALLY_00bc:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1274756239((&V_1), /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(188)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(188)
+	{
+		IL2CPP_JUMP_TBL(0xCA, IL_00ca)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00ca:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::AdvanceCountdownTimer(System.Int32,System.Int32)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_AdvanceCountdownTimer_m1485873963_MetadataUsageId;
+extern "C"  void GameModel_AdvanceCountdownTimer_m1485873963 (GameModel_t3841817345 * __this, int32_t ___cardID0, int32_t ___timeLeft1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_AdvanceCountdownTimer_m1485873963_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GsnCard_t782444760 * V_0 = NULL;
+	TriPeaksCard_t214310709 * V_1 = NULL;
+	{
+		TriPeaksCardDeck_t1840429032 * L_0 = __this->get__deck_141();
+		int32_t L_1 = ___cardID0;
+		GsnCard_t782444760 * L_2 = GsnCardDeck_GetCard_m1861553550(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GsnCard_t782444760 * L_3 = V_0;
+		GsnCardPile_t3625903776 * L_4 = GsnCard_get_pile_m2749839609(L_3, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_5 = __this->get__wastePile_143();
+		if ((((Il2CppObject*)(GsnCardPile_t3625903776 *)L_4) == ((Il2CppObject*)(GsnCardPile_t3625903776 *)L_5)))
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_6 = V_0;
+		GsnCardPile_t3625903776 * L_7 = GsnCard_get_pile_m2749839609(L_6, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_8 = __this->get__removedPile_144();
+		if ((((Il2CppObject*)(GsnCardPile_t3625903776 *)L_7) == ((Il2CppObject*)(GsnCardPile_t3625903776 *)L_8)))
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_9 = V_0;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_9, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_10 = V_0;
+		V_1 = ((TriPeaksCard_t214310709 *)CastclassClass(L_10, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_11 = V_1;
+		int32_t L_12 = ___timeLeft1;
+		TriPeaksCard_SetActivationCounter_m70938698(L_11, __this, L_12, /*hidden argument*/NULL);
+		TriPeaksCard_t214310709 * L_13 = V_1;
+		bool L_14 = TriPeaksCard_EndsGame_m493810195(L_13, __this, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		GameModel_earlyFailBomb_m973120538(__this, /*hidden argument*/NULL);
+	}
+
+IL_005b:
+	{
+		TriPeaksCard_t214310709 * L_15 = V_1;
+		int32_t L_16 = ___cardID0;
+		TriPeaksCard_UpdateUI_m2856352989(L_15, __this, L_16, /*hidden argument*/NULL);
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::checkCurrentWasteForRemoval()
+extern Il2CppClass* RemoveCardTask_t1841883743_il2cpp_TypeInfo_var;
+extern Il2CppClass* RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1246556343;
+extern const uint32_t GameModel_checkCurrentWasteForRemoval_m4183424925_MetadataUsageId;
+extern "C"  void GameModel_checkCurrentWasteForRemoval_m4183424925 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_checkCurrentWasteForRemoval_m4183424925_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t G_B5_0 = 0;
+	{
+		bool L_0 = GameModel_CanCardStayInPlay_m2484041579(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		TriPeaksCardDeck_t1840429032 * L_1 = __this->get__deck_141();
+		GsnCard_t782444760 * L_2 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		int32_t L_3 = GsnCardDeck_GetCardID_m3774805247(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GsnCard_t782444760 * L_4 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		bool L_5 = GsnCard_HasFlag_m545784328(L_4, 2, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_6 = __this->get__wildID_153();
+		int32_t L_7 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_003e;
+	}
+
+IL_003d:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_003e:
+	{
+		V_1 = (bool)G_B5_0;
+		GsnCardPile_t3625903776 * L_8 = __this->get__wastePile_143();
+		int32_t L_9 = V_0;
+		GsnCardPile_RemoveCard_m2603321118(L_8, L_9, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_10 = __this->get__removedPile_144();
+		int32_t L_11 = V_0;
+		GsnCardPile_AddCard_m1029854019(L_10, L_11, /*hidden argument*/NULL);
+		GsnScheduler_t1299811741 * L_12 = ((GameModelBase_t2215752692 *)__this)->get__scheduler_14();
+		int32_t L_13 = V_0;
+		RemoveCardTask_t1841883743 * L_14 = (RemoveCardTask_t1841883743 *)il2cpp_codegen_object_new(RemoveCardTask_t1841883743_il2cpp_TypeInfo_var);
+		RemoveCardTask__ctor_m2999929181(L_14, __this, L_13, ((int32_t)600), /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(L_12, L_14, /*hidden argument*/NULL);
+		int32_t L_15 = V_0;
+		RemoveCardFromWasteUndoStep_t52364908  L_16;
+		memset(&L_16, 0, sizeof(L_16));
+		RemoveCardFromWasteUndoStep__ctor_m3927182109(&L_16, L_15, /*hidden argument*/NULL);
+		RemoveCardFromWasteUndoStep_t52364908  L_17 = L_16;
+		Il2CppObject * L_18 = Box(RemoveCardFromWasteUndoStep_t52364908_il2cpp_TypeInfo_var, &L_17);
+		GameModel_addUndoStep_m3299740742(__this, (Il2CppObject *)L_18, /*hidden argument*/NULL);
+		bool L_19 = V_1;
+		if (!L_19)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		JToken_t2552644013 * L_20 = JToken_op_Implicit_m4196988267(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		GameModelBase_ReportMetric_m3934837883(__this, _stringLiteral1246556343, L_20, /*hidden argument*/NULL);
+	}
+
+IL_0096:
+	{
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::CanCardStayInPlay()
+extern "C"  bool GameModel_CanCardStayInPlay_m2484041579 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	GsnCard_t782444760 * V_0 = NULL;
+	{
+		GsnCard_t782444760 * L_0 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GsnCard_t782444760 * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_000f:
+	{
+		GsnCard_t782444760 * L_2 = V_0;
+		bool L_3 = GsnCard_HasFlag_m545784328(L_2, 2, /*hidden argument*/NULL);
+		return (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::get_canDealCard()
+extern "C"  bool GameModel_get_canDealCard_m2578979546 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		GsnCardPile_t3625903776 * L_0 = __this->get__dealPile_142();
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_1 = __this->get__dealPile_142();
+		bool L_2 = GsnCardPile_get_isEmpty_m367156421(L_1, /*hidden argument*/NULL);
+		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_001c;
+	}
+
+IL_001b:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001c:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::get_canClickWild()
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_get_canClickWild_m2742475456_MetadataUsageId;
+extern "C"  bool GameModel_get_canClickWild_m2742475456 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_get_canClickWild_m2742475456_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B3_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_ONE_SHOT_WILD_ID_48();
+		bool L_1 = GameModel_HasOption_m2153457552(__this, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_2 = __this->get__numOneTimeWildsLeft_150();
+		G_B3_0 = ((((int32_t)L_2) > ((int32_t)0))? 1 : 0);
+		goto IL_001c;
+	}
+
+IL_001b:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001c:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::get_canReshuffle()
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_get_canReshuffle_m3082953866_MetadataUsageId;
+extern "C"  bool GameModel_get_canReshuffle_m3082953866 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_get_canReshuffle_m3082953866_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B3_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RESHUFFLE_ID_46();
+		bool L_1 = GameModel_HasOption_m2153457552(__this, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_2 = __this->get__dealPile_142();
+		bool L_3 = GsnCardPile_get_isEmpty_m367156421(L_2, /*hidden argument*/NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001e:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::get_canHoldCard()
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel_get_canHoldCard_m574937457_MetadataUsageId;
+extern "C"  bool GameModel_get_canHoldCard_m574937457 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_get_canHoldCard_m574937457_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_HOLD_ID_47();
+		bool L_1 = GameModel_HasOption_m2153457552(__this, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_2 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		bool L_3 = GameModel_get_canDealCard_m2578979546(__this, /*hidden argument*/NULL);
+		G_B4_0 = ((int32_t)(L_3));
+		goto IL_0024;
+	}
+
+IL_0023:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_0024:
+	{
+		G_B6_0 = G_B4_0;
+		goto IL_0027;
+	}
+
+IL_0026:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_0027:
+	{
+		return (bool)G_B6_0;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::isCardChoiceSuboptimal(System.Int32)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern const uint32_t GameModel_isCardChoiceSuboptimal_m1420848589_MetadataUsageId;
+extern "C"  bool GameModel_isCardChoiceSuboptimal_m1420848589 (GameModel_t3841817345 * __this, int32_t ___inputIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_isCardChoiceSuboptimal_m1420848589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	int32_t V_1 = 0;
+	TriPeaksCard_t214310709 * V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Enumerator_t975728254  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	BaseCardData_t423020963 * V_6 = NULL;
+	int32_t V_7 = 0;
+	TriPeaksCard_t214310709 * V_8 = NULL;
+	bool V_9 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___inputIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		BaseCardData_t423020963 * L_3 = V_0;
+		int32_t L_4 = L_3->get_cardID_0();
+		V_1 = L_4;
+		TriPeaksCardDeck_t1840429032 * L_5 = __this->get__deck_141();
+		int32_t L_6 = V_1;
+		GsnCard_t782444760 * L_7 = GsnCardDeck_GetCard_m1861553550(L_5, L_6, /*hidden argument*/NULL);
+		V_2 = ((TriPeaksCard_t214310709 *)IsInstClass(L_7, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_8 = V_2;
+		if (L_8)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_002e:
+	{
+		BaseCardData_t423020963 * L_9 = V_0;
+		int32_t L_10 = GameModel_CountCardsRevealedBy_m2152472994(__this, L_9, /*hidden argument*/NULL);
+		V_3 = L_10;
+		List_1_t1440998580 * L_11 = __this->get__faceUpCards_158();
+		Enumerator_t975728254  L_12 = List_1_GetEnumerator_m2527786909(L_11, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		V_5 = L_12;
+	}
+
+IL_0043:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00b9;
+		}
+
+IL_0048:
+		{
+			int32_t L_13 = Enumerator_get_Current_m1062633493((&V_5), /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			V_4 = L_13;
+			List_1_t4087109391 * L_14 = __this->get__cards_140();
+			int32_t L_15 = V_4;
+			BaseCardData_t423020963 * L_16 = List_1_get_Item_m1588982064(L_14, L_15, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+			V_6 = L_16;
+			BaseCardData_t423020963 * L_17 = V_6;
+			int32_t L_18 = L_17->get_cardID_0();
+			V_7 = L_18;
+			TriPeaksCardDeck_t1840429032 * L_19 = __this->get__deck_141();
+			int32_t L_20 = V_4;
+			GsnCard_t782444760 * L_21 = GsnCardDeck_GetCard_m1861553550(L_19, L_20, /*hidden argument*/NULL);
+			V_8 = ((TriPeaksCard_t214310709 *)IsInstClass(L_21, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+			TriPeaksCard_t214310709 * L_22 = V_8;
+			if (!L_22)
+			{
+				goto IL_008c;
+			}
+		}
+
+IL_0084:
+		{
+			int32_t L_23 = V_1;
+			int32_t L_24 = V_7;
+			if ((!(((uint32_t)L_23) == ((uint32_t)L_24))))
+			{
+				goto IL_0091;
+			}
+		}
+
+IL_008c:
+		{
+			goto IL_00b9;
+		}
+
+IL_0091:
+		{
+			TriPeaksCard_t214310709 * L_25 = V_2;
+			int32_t L_26 = GsnStandardCard_get_rank_m191026465(L_25, /*hidden argument*/NULL);
+			TriPeaksCard_t214310709 * L_27 = V_8;
+			int32_t L_28 = GsnStandardCard_get_rank_m191026465(L_27, /*hidden argument*/NULL);
+			if ((!(((uint32_t)L_26) == ((uint32_t)L_28))))
+			{
+				goto IL_00b9;
+			}
+		}
+
+IL_00a3:
+		{
+			int32_t L_29 = V_3;
+			BaseCardData_t423020963 * L_30 = V_6;
+			int32_t L_31 = GameModel_CountCardsRevealedBy_m2152472994(__this, L_30, /*hidden argument*/NULL);
+			if ((((int32_t)L_29) >= ((int32_t)L_31)))
+			{
+				goto IL_00b9;
+			}
+		}
+
+IL_00b1:
+		{
+			V_9 = (bool)1;
+			IL2CPP_LEAVE(0xDA, FINALLY_00ca);
+		}
+
+IL_00b9:
+		{
+			bool L_32 = Enumerator_MoveNext_m4282865897((&V_5), /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_32)
+			{
+				goto IL_0048;
+			}
+		}
+
+IL_00c5:
+		{
+			IL2CPP_LEAVE(0xD8, FINALLY_00ca);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00ca;
+	}
+
+FINALLY_00ca:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1274756239((&V_5), /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(202)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(202)
+	{
+		IL2CPP_JUMP_TBL(0xDA, IL_00da)
+		IL2CPP_JUMP_TBL(0xD8, IL_00d8)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00d8:
+	{
+		return (bool)0;
+	}
+
+IL_00da:
+	{
+		bool L_33 = V_9;
+		return L_33;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::GetVisibleStreak(System.Int32)
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2961219472_MethodInfo_var;
+extern const uint32_t GameModel_GetVisibleStreak_m4093721506_MetadataUsageId;
+extern "C"  int32_t GameModel_GetVisibleStreak_m4093721506 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_GetVisibleStreak_m4093721506_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_3 = L_2->get_cardID_0();
+		List_1_t1440998580 * L_4 = __this->get__faceUpCards_158();
+		List_1_t1440998580 * L_5 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m2961219472(L_5, L_4, /*hidden argument*/List_1__ctor_m2961219472_MethodInfo_var);
+		int32_t L_6 = GameModel_GetVisibleStreak_m2321530349(__this, L_3, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::GetVisibleStreak(System.Int32,System.Collections.Generic.List`1<System.Int32>)
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2961219472_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1921196075_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_Remove_m3494432915_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const uint32_t GameModel_GetVisibleStreak_m2321530349_MetadataUsageId;
+extern "C"  int32_t GameModel_GetVisibleStreak_m2321530349 (GameModel_t3841817345 * __this, int32_t ___cardID0, List_1_t1440998580 * ___faceUpCards1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_GetVisibleStreak_m2321530349_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TriPeaksCard_t214310709 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	TriPeaksCard_t214310709 * V_5 = NULL;
+	List_1_t1440998580 * V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		List_1_t1440998580 * L_0 = ___faceUpCards1;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		List_1_t1440998580 * L_1 = __this->get__faceUpCards_158();
+		List_1_t1440998580 * L_2 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m2961219472(L_2, L_1, /*hidden argument*/List_1__ctor_m2961219472_MethodInfo_var);
+		___faceUpCards1 = L_2;
+	}
+
+IL_0013:
+	{
+		TriPeaksCardDeck_t1840429032 * L_3 = __this->get__deck_141();
+		int32_t L_4 = ___cardID0;
+		GsnCard_t782444760 * L_5 = GsnCardDeck_GetCard_m1861553550(L_3, L_4, /*hidden argument*/NULL);
+		V_0 = ((TriPeaksCard_t214310709 *)IsInstClass(L_5, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_6 = V_0;
+		if (L_6)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_002d:
+	{
+		V_1 = 0;
+		V_2 = 0;
+		goto IL_00ab;
+	}
+
+IL_0036:
+	{
+		List_1_t1440998580 * L_7 = ___faceUpCards1;
+		int32_t L_8 = V_2;
+		int32_t L_9 = List_1_get_Item_m1921196075(L_7, L_8, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		V_3 = L_9;
+		List_1_t4087109391 * L_10 = __this->get__cards_140();
+		int32_t L_11 = V_3;
+		BaseCardData_t423020963 * L_12 = List_1_get_Item_m1588982064(L_10, L_11, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_13 = L_12->get_cardID_0();
+		V_4 = L_13;
+		TriPeaksCardDeck_t1840429032 * L_14 = __this->get__deck_141();
+		int32_t L_15 = V_4;
+		GsnCard_t782444760 * L_16 = GsnCardDeck_GetCard_m1861553550(L_14, L_15, /*hidden argument*/NULL);
+		V_5 = ((TriPeaksCard_t214310709 *)IsInstClass(L_16, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_17 = V_5;
+		if (L_17)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		goto IL_00a7;
+	}
+
+IL_0071:
+	{
+		TriPeaksCard_t214310709 * L_18 = V_0;
+		TriPeaksCard_t214310709 * L_19 = V_5;
+		bool L_20 = GameModel_isCardOneUpOrDown_m3321384995(__this, L_18, L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		List_1_t1440998580 * L_21 = ___faceUpCards1;
+		List_1_t1440998580 * L_22 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m2961219472(L_22, L_21, /*hidden argument*/List_1__ctor_m2961219472_MethodInfo_var);
+		V_6 = L_22;
+		List_1_t1440998580 * L_23 = V_6;
+		int32_t L_24 = V_3;
+		List_1_Remove_m3494432915(L_23, L_24, /*hidden argument*/List_1_Remove_m3494432915_MethodInfo_var);
+		int32_t L_25 = V_4;
+		List_1_t1440998580 * L_26 = V_6;
+		int32_t L_27 = GameModel_GetVisibleStreak_m2321530349(__this, L_25, L_26, /*hidden argument*/NULL);
+		V_7 = ((int32_t)((int32_t)L_27+(int32_t)1));
+		int32_t L_28 = V_7;
+		int32_t L_29 = V_1;
+		int32_t L_30 = Math_Max_m2671311541(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
+		V_1 = L_30;
+	}
+
+IL_00a7:
+	{
+		int32_t L_31 = V_2;
+		V_2 = ((int32_t)((int32_t)L_31+(int32_t)1));
+	}
+
+IL_00ab:
+	{
+		int32_t L_32 = V_2;
+		List_1_t1440998580 * L_33 = ___faceUpCards1;
+		int32_t L_34 = List_1_get_Count_m852068579(L_33, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+		if ((((int32_t)L_32) < ((int32_t)L_34)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		int32_t L_35 = V_1;
+		return L_35;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::CountCardsRevealedBy(System.Int32)
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const uint32_t GameModel_CountCardsRevealedBy_m4189562423_MetadataUsageId;
+extern "C"  int32_t GameModel_CountCardsRevealedBy_m4189562423 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_CountCardsRevealedBy_m4189562423_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseCardData_t423020963 * V_0 = NULL;
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		V_0 = L_2;
+		BaseCardData_t423020963 * L_3 = V_0;
+		int32_t L_4 = GameModel_CountCardsRevealedBy_m2152472994(__this, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::CountCardsRevealedBy(GSN.Skill.Games.Tripeaks.BaseCardData)
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m852068579_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern const uint32_t GameModel_CountCardsRevealedBy_m2152472994_MetadataUsageId;
+extern "C"  int32_t GameModel_CountCardsRevealedBy_m2152472994 (GameModel_t3841817345 * __this, BaseCardData_t423020963 * ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_CountCardsRevealedBy_m2152472994_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Enumerator_t975728254  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	BaseCardData_t423020963 * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		BaseCardData_t423020963 * L_0 = ___data0;
+		List_1_t1440998580 * L_1 = L_0->get_coversCards_1();
+		Enumerator_t975728254  L_2 = List_1_GetEnumerator_m2527786909(L_1, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_003d;
+		}
+
+IL_0013:
+		{
+			int32_t L_3 = Enumerator_get_Current_m1062633493((&V_2), /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			V_1 = L_3;
+			List_1_t4087109391 * L_4 = __this->get__cards_140();
+			int32_t L_5 = V_1;
+			BaseCardData_t423020963 * L_6 = List_1_get_Item_m1588982064(L_4, L_5, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+			V_3 = L_6;
+			BaseCardData_t423020963 * L_7 = V_3;
+			List_1_t1440998580 * L_8 = L_7->get_coveredByCards_2();
+			int32_t L_9 = List_1_get_Count_m852068579(L_8, /*hidden argument*/List_1_get_Count_m852068579_MethodInfo_var);
+			if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+			{
+				goto IL_003d;
+			}
+		}
+
+IL_0039:
+		{
+			int32_t L_10 = V_0;
+			V_0 = ((int32_t)((int32_t)L_10+(int32_t)1));
+		}
+
+IL_003d:
+		{
+			bool L_11 = Enumerator_MoveNext_m4282865897((&V_2), /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_11)
+			{
+				goto IL_0013;
+			}
+		}
+
+IL_0049:
+		{
+			IL2CPP_LEAVE(0x5C, FINALLY_004e);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_004e;
+	}
+
+FINALLY_004e:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1274756239((&V_2), /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(78)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(78)
+	{
+		IL2CPP_JUMP_TBL(0x5C, IL_005c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_005c:
+	{
+		int32_t L_12 = V_0;
+		return L_12;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.GameModel::HasOption(System.String)
+extern const MethodInfo* Dictionary_2_get_Item_m3512790671_MethodInfo_var;
+extern const uint32_t GameModel_HasOption_m2153457552_MetadataUsageId;
+extern "C"  bool GameModel_HasOption_m2153457552 (GameModel_t3841817345 * __this, String_t* ___optionName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_HasOption_m2153457552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t1445386684 * L_0 = __this->get__optionToggles_139();
+		String_t* L_1 = ___optionName0;
+		bool L_2 = Dictionary_2_get_Item_m3512790671(L_0, L_1, /*hidden argument*/Dictionary_2_get_Item_m3512790671_MethodInfo_var);
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::earlyFailBomb()
+extern "C"  void GameModel_earlyFailBomb_m973120538 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		GameModelBase_set_endGameReason_m869291948(__this, 4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::earlyFailNoMoreMoves()
+extern "C"  void GameModel_earlyFailNoMoreMoves_m1223549276 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	{
+		GameModelBase_set_endGameReason_m869291948(__this, 5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.GameModel::GetReshuffleTime()
+extern const MethodInfo* Dictionary_2_get_Item_m1316665190_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral136639744;
+extern const uint32_t GameModel_GetReshuffleTime_m390482424_MetadataUsageId;
+extern "C"  int32_t GameModel_GetReshuffleTime_m390482424 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_GetReshuffleTime_m390482424_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t3986656710 * L_0 = ((GameModelBase_t2215752692 *)__this)->get__tweakables_24();
+		int32_t L_1 = Dictionary_2_get_Item_m1316665190(L_0, _stringLiteral136639744, /*hidden argument*/Dictionary_2_get_Item_m1316665190_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::RewindTasks(System.Int32,System.Int32)
+extern "C"  void GameModel_RewindTasks_m311459150 (GameModel_t3841817345 * __this, int32_t ___stateTimeMS0, int32_t ___clockTaskAccumulatedPauseTime1, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	GsnCard_t782444760 * V_1 = NULL;
+	{
+		int32_t L_0 = ___stateTimeMS0;
+		int32_t L_1 = ___clockTaskAccumulatedPauseTime1;
+		GameModelBase_RewindTasks_m1876859038(__this, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_0027;
+	}
+
+IL_000f:
+	{
+		TriPeaksCardDeck_t1840429032 * L_2 = __this->get__deck_141();
+		int32_t L_3 = V_0;
+		GsnCard_t782444760 * L_4 = GsnCardDeck_GetCard_m1861553550(L_2, L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		GsnCard_t782444760 * L_5 = V_1;
+		int32_t L_6 = ___stateTimeMS0;
+		VirtActionInvoker1< int32_t >::Invoke(4 /* System.Void GSN.Skill.Games.Common.Primitive.Card.GsnCard::Rewind(System.Int32) */, L_5, L_6);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0027:
+	{
+		int32_t L_8 = V_0;
+		TriPeaksCardDeck_t1840429032 * L_9 = __this->get__deck_141();
+		int32_t L_10 = GsnCardDeck_get_count_m3383929316(L_9, /*hidden argument*/NULL);
+		if ((((int32_t)L_8) < ((int32_t)L_10)))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.GameModel::CardIndexToString(System.Int32)
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const uint32_t GameModel_CardIndexToString_m1483355187_MetadataUsageId;
+extern "C"  String_t* GameModel_CardIndexToString_m1483355187 (GameModel_t3841817345 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_CardIndexToString_m1483355187_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t4087109391 * L_0 = __this->get__cards_140();
+		int32_t L_1 = ___cardIndex0;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_3 = L_2->get_cardID_0();
+		String_t* L_4 = GameModel_CardIDToString_m2204401866(__this, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.GameModel::CardIDToString(System.Int32)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3390779443;
+extern Il2CppCodeGenString* _stringLiteral2935557992;
+extern const uint32_t GameModel_CardIDToString_m2204401866_MetadataUsageId;
+extern "C"  String_t* GameModel_CardIDToString_m2204401866 (GameModel_t3841817345 * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_CardIDToString_m2204401866_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___cardID0;
+		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return _stringLiteral3390779443;
+	}
+
+IL_000d:
+	{
+		TriPeaksCardDeck_t1840429032 * L_1 = __this->get__deck_141();
+		int32_t L_2 = ___cardID0;
+		GsnCard_t782444760 * L_3 = GsnCardDeck_GetCard_m1861553550(L_1, L_2, /*hidden argument*/NULL);
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String GSN.Skill.Games.Common.Primitive.Card.GsnCard::PrettyString() */, L_3);
+		int32_t L_5 = ___cardID0;
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral2935557992, L_4, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.GameModel::ToString()
+extern Il2CppClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3937093209;
+extern Il2CppCodeGenString* _stringLiteral2622034818;
+extern Il2CppCodeGenString* _stringLiteral2596466262;
+extern Il2CppCodeGenString* _stringLiteral223820208;
+extern Il2CppCodeGenString* _stringLiteral372029352;
+extern Il2CppCodeGenString* _stringLiteral2121265944;
+extern Il2CppCodeGenString* _stringLiteral3444707321;
+extern Il2CppCodeGenString* _stringLiteral4279464176;
+extern Il2CppCodeGenString* _stringLiteral1383296998;
+extern Il2CppCodeGenString* _stringLiteral2027759918;
+extern Il2CppCodeGenString* _stringLiteral3796468708;
+extern const uint32_t GameModel_ToString_m796543440_MetadataUsageId;
+extern "C"  String_t* GameModel_ToString_m796543440 (GameModel_t3841817345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_ToString_m796543440_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t1221177846 * V_0 = NULL;
+	int32_t V_1 = 0;
+	Enumerator_t975728254  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		StringBuilder_t1221177846 * L_0 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		StringBuilder_t1221177846 * L_1 = V_0;
+		int32_t L_2 = GameModelBase_GetStateTime_m1319221827(__this, /*hidden argument*/NULL);
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		int32_t L_5 = GameModelBase_get_msLeft_m488099619(__this, /*hidden argument*/NULL);
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		StringBuilder_AppendFormat_m759296786(L_1, _stringLiteral3937093209, L_4, L_7, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_8 = V_0;
+		int32_t L_9 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GSN.Skill.Games.Common.Model.GameModelBase::GetScore() */, __this);
+		int32_t L_10 = L_9;
+		Il2CppObject * L_11 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_10);
+		int32_t L_12 = GameModel_CalculateScoreUpperBound_m3798335488(__this, ((int32_t)1000), /*hidden argument*/NULL);
+		int32_t L_13 = L_12;
+		Il2CppObject * L_14 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_13);
+		StringBuilder_AppendFormat_m759296786(L_8, _stringLiteral2622034818, L_11, L_14, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_15 = V_0;
+		StringBuilder_Append_m3636508479(L_15, _stringLiteral2596466262, /*hidden argument*/NULL);
+		List_1_t1440998580 * L_16 = __this->get__faceUpCards_158();
+		Enumerator_t975728254  L_17 = List_1_GetEnumerator_m2527786909(L_16, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		V_2 = L_17;
+	}
+
+IL_0067:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0099;
+		}
+
+IL_006c:
+		{
+			int32_t L_18 = Enumerator_get_Current_m1062633493((&V_2), /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			V_1 = L_18;
+			List_1_t4087109391 * L_19 = __this->get__cards_140();
+			int32_t L_20 = V_1;
+			BaseCardData_t423020963 * L_21 = List_1_get_Item_m1588982064(L_19, L_20, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+			int32_t L_22 = L_21->get_cardID_0();
+			V_3 = L_22;
+			StringBuilder_t1221177846 * L_23 = V_0;
+			int32_t L_24 = V_3;
+			String_t* L_25 = GameModel_CardIDToString_m2204401866(__this, L_24, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m3265503696(L_23, _stringLiteral223820208, L_25, /*hidden argument*/NULL);
+		}
+
+IL_0099:
+		{
+			bool L_26 = Enumerator_MoveNext_m4282865897((&V_2), /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_26)
+			{
+				goto IL_006c;
+			}
+		}
+
+IL_00a5:
+		{
+			IL2CPP_LEAVE(0xB8, FINALLY_00aa);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00aa;
+	}
+
+FINALLY_00aa:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1274756239((&V_2), /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(170)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(170)
+	{
+		IL2CPP_JUMP_TBL(0xB8, IL_00b8)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00b8:
+	{
+		StringBuilder_t1221177846 * L_27 = V_0;
+		StringBuilder_Append_m3636508479(L_27, _stringLiteral372029352, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_28 = __this->get__dealPile_142();
+		int32_t L_29 = GsnCardPile_get_count_m669804915(L_28, /*hidden argument*/NULL);
+		V_4 = L_29;
+		StringBuilder_t1221177846 * L_30 = V_0;
+		int32_t L_31 = V_4;
+		int32_t L_32 = L_31;
+		Il2CppObject * L_33 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_32);
+		StringBuilder_AppendFormat_m3265503696(L_30, _stringLiteral2121265944, L_33, /*hidden argument*/NULL);
+		TriPeaksCardDeck_t1840429032 * L_34 = __this->get__deck_141();
+		GsnCard_t782444760 * L_35 = GameModel_get_wasteCard_m1388114253(__this, /*hidden argument*/NULL);
+		int32_t L_36 = GsnCardDeck_GetCardID_m3774805247(L_34, L_35, /*hidden argument*/NULL);
+		V_5 = L_36;
+		StringBuilder_t1221177846 * L_37 = V_0;
+		int32_t L_38 = V_5;
+		String_t* L_39 = GameModel_CardIDToString_m2204401866(__this, L_38, /*hidden argument*/NULL);
+		StringBuilder_AppendFormat_m3265503696(L_37, _stringLiteral3444707321, L_39, /*hidden argument*/NULL);
+		GsnCard_t782444760 * L_40 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		if (L_40)
+		{
+			goto IL_0127;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_41 = V_0;
+		StringBuilder_Append_m3636508479(L_41, _stringLiteral4279464176, /*hidden argument*/NULL);
+		goto IL_014a;
+	}
+
+IL_0127:
+	{
+		StringBuilder_t1221177846 * L_42 = V_0;
+		TriPeaksCardDeck_t1840429032 * L_43 = __this->get__deck_141();
+		GsnCard_t782444760 * L_44 = GameModel_get_holdCard_m1148106720(__this, /*hidden argument*/NULL);
+		int32_t L_45 = GsnCardDeck_GetCardID_m3774805247(L_43, L_44, /*hidden argument*/NULL);
+		String_t* L_46 = GameModel_CardIDToString_m2204401866(__this, L_45, /*hidden argument*/NULL);
+		StringBuilder_AppendFormat_m3265503696(L_42, _stringLiteral1383296998, L_46, /*hidden argument*/NULL);
+	}
+
+IL_014a:
+	{
+		int32_t L_47 = __this->get__numOneTimeWildsLeft_150();
+		if ((((int32_t)L_47) <= ((int32_t)0)))
+		{
+			goto IL_0173;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_48 = V_0;
+		int32_t L_49 = __this->get__wildID_153();
+		String_t* L_50 = GameModel_CardIDToString_m2204401866(__this, L_49, /*hidden argument*/NULL);
+		StringBuilder_AppendFormat_m3265503696(L_48, _stringLiteral2027759918, L_50, /*hidden argument*/NULL);
+		goto IL_017f;
+	}
+
+IL_0173:
+	{
+		StringBuilder_t1221177846 * L_51 = V_0;
+		StringBuilder_Append_m3636508479(L_51, _stringLiteral3796468708, /*hidden argument*/NULL);
+	}
+
+IL_017f:
+	{
+		StringBuilder_t1221177846 * L_52 = V_0;
+		String_t* L_53 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_52);
+		return L_53;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.GameModel::getCardStringFromIndex(System.Int32)
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const uint32_t GameModel_getCardStringFromIndex_m3536506032_MetadataUsageId;
+extern "C"  String_t* GameModel_getCardStringFromIndex_m3536506032 (GameModel_t3841817345 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel_getCardStringFromIndex_m3536506032_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TriPeaksCardDeck_t1840429032 * L_0 = __this->get__deck_141();
+		List_1_t4087109391 * L_1 = __this->get__cards_140();
+		int32_t L_2 = ___index0;
+		BaseCardData_t423020963 * L_3 = List_1_get_Item_m1588982064(L_1, L_2, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_4 = L_3->get_cardID_0();
+		GsnCard_t782444760 * L_5 = GsnCardDeck_GetCard_m1861553550(L_0, L_4, /*hidden argument*/NULL);
+		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String GSN.Skill.Games.Common.Primitive.Card.GsnCard::PrettyString() */, L_5);
+		return L_6;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.GameModel::.cctor()
+extern const Il2CppType* CommonInputMessageType_t3167446076_0_0_0_var;
+extern const Il2CppType* InputMessageType_t2745275775_0_0_0_var;
+extern const Il2CppType* CommonModelEventType_t292763200_0_0_0_var;
+extern const Il2CppType* CardModelEventType_t1813813765_0_0_0_var;
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* OptionName_t3712375542_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern Il2CppClass* TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t GameModel__cctor_m2245875880_MetadataUsageId;
+extern "C"  void GameModel__cctor_m2245875880 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameModel__cctor_m2245875880_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	int32_t V_22 = 0;
+	int32_t V_23 = 0;
+	int32_t V_24 = 0;
+	int32_t V_25 = 0;
+	int32_t V_26 = 0;
+	{
+		V_0 = ((int32_t)9);
+		Il2CppObject * L_0 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_0));
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_BOARD_ID_31(L_1);
+		V_1 = ((int32_t)12);
+		Il2CppObject * L_2 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_1));
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_RED_TIKI_ID_32(L_3);
+		V_2 = ((int32_t)13);
+		Il2CppObject * L_4 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_2));
+		String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_4);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_BLACK_TIKI_ID_33(L_5);
+		V_3 = ((int32_t)15);
+		Il2CppObject * L_6 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_3));
+		String_t* L_7 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_6);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_VOLCANO_TIKI_ID_34(L_7);
+		V_4 = ((int32_t)17);
+		Il2CppObject * L_8 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_4));
+		String_t* L_9 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_8);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_BLOSSOM_TIKI_ID_35(L_9);
+		V_5 = ((int32_t)19);
+		Il2CppObject * L_10 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_5));
+		String_t* L_11 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_10);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_GOLDEN_TIKI_ID_36(L_11);
+		V_6 = ((int32_t)14);
+		Il2CppObject * L_12 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_6));
+		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_12);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_REDBLACK_MAX_CARD_ID_37(L_13);
+		V_7 = ((int32_t)16);
+		Il2CppObject * L_14 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_7));
+		String_t* L_15 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_14);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_VOLCANO_MAX_CARD_ID_38(L_15);
+		V_8 = ((int32_t)18);
+		Il2CppObject * L_16 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_8));
+		String_t* L_17 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_16);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_BLOSSOM_MAX_CARD_ID_39(L_17);
+		V_9 = ((int32_t)22);
+		Il2CppObject * L_18 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_9));
+		String_t* L_19 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_18);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_TRAP_HAZARD_ID_40(L_19);
+		V_10 = ((int32_t)23);
+		Il2CppObject * L_20 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_10));
+		String_t* L_21 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_20);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_SHARK_HAZARD_ID_41(L_21);
+		V_11 = ((int32_t)24);
+		Il2CppObject * L_22 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_11));
+		String_t* L_23 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_22);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_DYNAMITE_HAZARD_ID_42(L_23);
+		V_12 = ((int32_t)27);
+		Il2CppObject * L_24 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_12));
+		String_t* L_25 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_24);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_DYNAMITE_USE_TIME_ID_43(L_25);
+		V_13 = ((int32_t)25);
+		Il2CppObject * L_26 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_13));
+		String_t* L_27 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_26);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_DYNAMITE_TIME_MAX_ID_44(L_27);
+		V_14 = ((int32_t)26);
+		Il2CppObject * L_28 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_14));
+		String_t* L_29 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_28);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_DYNAMITE_TURN_MAX_ID_45(L_29);
+		V_15 = 6;
+		Il2CppObject * L_30 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_15));
+		String_t* L_31 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_30);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_RESHUFFLE_ID_46(L_31);
+		V_16 = 7;
+		Il2CppObject * L_32 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_16));
+		String_t* L_33 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_32);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_HOLD_ID_47(L_33);
+		V_17 = 8;
+		Il2CppObject * L_34 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_17));
+		String_t* L_35 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_34);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_ONE_SHOT_WILD_ID_48(L_35);
+		V_18 = ((int32_t)10);
+		Il2CppObject * L_36 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_18));
+		String_t* L_37 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_36);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_BACKGROUND_ID_49(L_37);
+		V_19 = ((int32_t)11);
+		Il2CppObject * L_38 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_19));
+		String_t* L_39 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_38);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_BACKGROUND_DIFFICULTY_ID_50(L_39);
+		V_20 = ((int32_t)20);
+		Il2CppObject * L_40 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_20));
+		String_t* L_41 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_40);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_SPAWN_ALL_TIKIS_DEBUG_ID_51(L_41);
+		V_21 = ((int32_t)21);
+		Il2CppObject * L_42 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_21));
+		String_t* L_43 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_42);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_TIKI_SPAWN_CHANCE_100_DEBUG_ID_52(L_43);
+		V_22 = ((int32_t)28);
+		Il2CppObject * L_44 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_22));
+		String_t* L_45 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_44);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_TUTORIAL_INTRO_ID_134(L_45);
+		V_23 = ((int32_t)32);
+		Il2CppObject * L_46 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_23));
+		String_t* L_47 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_46);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_TUTORIAL_INTRO_CARD_ORDER_ID_135(L_47);
+		V_24 = ((int32_t)29);
+		Il2CppObject * L_48 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_24));
+		String_t* L_49 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_48);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_TUTORIAL_TRAP_ID_136(L_49);
+		V_25 = ((int32_t)30);
+		Il2CppObject * L_50 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_25));
+		String_t* L_51 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_50);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_TUTORIAL_SHARK_ID_137(L_51);
+		V_26 = ((int32_t)31);
+		Il2CppObject * L_52 = Box(OptionName_t3712375542_il2cpp_TypeInfo_var, (&V_26));
+		String_t* L_53 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_52);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_OPTIONS_TUTORIAL_DYNAMITE_ID_138(L_53);
+		TypeU5BU5D_t1664964607* L_54 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)2));
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_55 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(CommonInputMessageType_t3167446076_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_54, L_55);
+		(L_54)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_55);
+		TypeU5BU5D_t1664964607* L_56 = L_54;
+		Type_t * L_57 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(InputMessageType_t2745275775_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_56, L_57);
+		(L_56)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_57);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_inputEnumTypes_164(L_56);
+		TypeU5BU5D_t1664964607* L_58 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)4));
+		Type_t * L_59 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(CommonModelEventType_t292763200_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_58, L_59);
+		(L_58)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_59);
+		TypeU5BU5D_t1664964607* L_60 = L_58;
+		Type_t * L_61 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(CardModelEventType_t1813813765_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_60, L_61);
+		(L_60)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_61);
+		TypeU5BU5D_t1664964607* L_62 = L_60;
+		Type_t * L_63 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_62, L_63);
+		(L_62)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (Type_t *)L_63);
+		TypeU5BU5D_t1664964607* L_64 = L_62;
+		Type_t * L_65 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_64, L_65);
+		(L_64)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (Type_t *)L_65);
+		((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->set_eventEnumTypes_165(L_64);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Hazard::.ctor()
+extern "C"  void Hazard__ctor_m3987620494 (Hazard_t1547505166 * __this, const MethodInfo* method)
+{
+	{
+		OverlayBase__ctor_m2467327805(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Hazard::ShowOverlay()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2852593944;
+extern const uint32_t Hazard_ShowOverlay_m752205255_MetadataUsageId;
+extern "C"  void Hazard_ShowOverlay_m752205255 (Hazard_t1547505166 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Hazard_ShowOverlay_m752205255_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		Animator_Play_m1123842248(L_2, _stringLiteral2852593944, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Hazard::HideOverlay()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3457520150;
+extern const uint32_t Hazard_HideOverlay_m490681446_MetadataUsageId;
+extern "C"  void Hazard_HideOverlay_m490681446 (Hazard_t1547505166 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Hazard_HideOverlay_m490681446_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		Animator_Play_m1123842248(L_2, _stringLiteral3457520150, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Hazard::ClearOverlay()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral613695225;
+extern const uint32_t Hazard_ClearOverlay_m2085024901_MetadataUsageId;
+extern "C"  void Hazard_ClearOverlay_m2085024901 (Hazard_t1547505166 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Hazard_ClearOverlay_m2085024901_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		Animator_Play_m1123842248(L_2, _stringLiteral613695225, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.HoldCardClickedUndoStep::.ctor(System.Int32)
+extern "C"  void HoldCardClickedUndoStep__ctor_m3220468641 (HoldCardClickedUndoStep_t2539933680 * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardID0;
+		__this->set_cardID_0(L_0);
+		return;
+	}
+}
+extern "C"  void HoldCardClickedUndoStep__ctor_m3220468641_AdjustorThunk (Il2CppObject * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	HoldCardClickedUndoStep_t2539933680 * _thisAdjusted = reinterpret_cast<HoldCardClickedUndoStep_t2539933680 *>(__this + 1);
+	HoldCardClickedUndoStep__ctor_m3220468641(_thisAdjusted, ___cardID0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.HoldCardClickedUndoStep::get_eventTypeInt()
+extern "C"  int32_t HoldCardClickedUndoStep_get_eventTypeInt_m597642048 (HoldCardClickedUndoStep_t2539933680 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483615);
+	}
+}
+extern "C"  int32_t HoldCardClickedUndoStep_get_eventTypeInt_m597642048_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	HoldCardClickedUndoStep_t2539933680 * _thisAdjusted = reinterpret_cast<HoldCardClickedUndoStep_t2539933680 *>(__this + 1);
+	return HoldCardClickedUndoStep_get_eventTypeInt_m597642048(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.HoldCardClickedUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t HoldCardClickedUndoStep_get_eventTypeEnum_m1519803112_MetadataUsageId;
+extern "C"  Type_t * HoldCardClickedUndoStep_get_eventTypeEnum_m1519803112 (HoldCardClickedUndoStep_t2539933680 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HoldCardClickedUndoStep_get_eventTypeEnum_m1519803112_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * HoldCardClickedUndoStep_get_eventTypeEnum_m1519803112_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	HoldCardClickedUndoStep_t2539933680 * _thisAdjusted = reinterpret_cast<HoldCardClickedUndoStep_t2539933680 *>(__this + 1);
+	return HoldCardClickedUndoStep_get_eventTypeEnum_m1519803112(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.HoldingCard::.ctor()
+extern "C"  void HoldingCard__ctor_m3082503841 (HoldingCard_t3246184859 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.HoldingCard::OnMouseDown()
+extern Il2CppClass* HoldMessage_t1184526154_il2cpp_TypeInfo_var;
+extern const uint32_t HoldingCard_OnMouseDown_m3633543843_MetadataUsageId;
+extern "C"  void HoldingCard_OnMouseDown_m3633543843 (HoldingCard_t3246184859 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HoldingCard_OnMouseDown_m3633543843_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	HoldMessage_t1184526154  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		ViewBase_t3608972958 * L_0 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Initobj (HoldMessage_t1184526154_il2cpp_TypeInfo_var, (&V_0));
+		HoldMessage_t1184526154  L_1 = V_0;
+		HoldMessage_t1184526154  L_2 = L_1;
+		Il2CppObject * L_3 = Box(HoldMessage_t1184526154_il2cpp_TypeInfo_var, &L_2);
+		ViewBase_Send_m3873562149(L_0, (Il2CppObject *)L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.HoldMessage::get_msgTypeInt()
+extern "C"  int32_t HoldMessage_get_msgTypeInt_m1989067707 (HoldMessage_t1184526154 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483646);
+	}
+}
+extern "C"  int32_t HoldMessage_get_msgTypeInt_m1989067707_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	HoldMessage_t1184526154 * _thisAdjusted = reinterpret_cast<HoldMessage_t1184526154 *>(__this + 1);
+	return HoldMessage_get_msgTypeInt_m1989067707(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.HoldMessage::get_msgTypeEnum()
+extern const Il2CppType* InputMessageType_t2745275775_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t HoldMessage_get_msgTypeEnum_m3125070373_MetadataUsageId;
+extern "C"  Type_t * HoldMessage_get_msgTypeEnum_m3125070373 (HoldMessage_t1184526154 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HoldMessage_get_msgTypeEnum_m3125070373_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(InputMessageType_t2745275775_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * HoldMessage_get_msgTypeEnum_m3125070373_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	HoldMessage_t1184526154 * _thisAdjusted = reinterpret_cast<HoldMessage_t1184526154 *>(__this + 1);
+	return HoldMessage_get_msgTypeEnum_m3125070373(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.HoldSpotClickedUndoStep::.ctor(System.Int32)
+extern "C"  void HoldSpotClickedUndoStep__ctor_m183067209 (HoldSpotClickedUndoStep_t4219400472 * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardID0;
+		__this->set_cardID_0(L_0);
+		return;
+	}
+}
+extern "C"  void HoldSpotClickedUndoStep__ctor_m183067209_AdjustorThunk (Il2CppObject * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	HoldSpotClickedUndoStep_t4219400472 * _thisAdjusted = reinterpret_cast<HoldSpotClickedUndoStep_t4219400472 *>(__this + 1);
+	HoldSpotClickedUndoStep__ctor_m183067209(_thisAdjusted, ___cardID0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.HoldSpotClickedUndoStep::get_eventTypeInt()
+extern "C"  int32_t HoldSpotClickedUndoStep_get_eventTypeInt_m2313727786 (HoldSpotClickedUndoStep_t4219400472 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483616);
+	}
+}
+extern "C"  int32_t HoldSpotClickedUndoStep_get_eventTypeInt_m2313727786_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	HoldSpotClickedUndoStep_t4219400472 * _thisAdjusted = reinterpret_cast<HoldSpotClickedUndoStep_t4219400472 *>(__this + 1);
+	return HoldSpotClickedUndoStep_get_eventTypeInt_m2313727786(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.HoldSpotClickedUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t HoldSpotClickedUndoStep_get_eventTypeEnum_m1172206390_MetadataUsageId;
+extern "C"  Type_t * HoldSpotClickedUndoStep_get_eventTypeEnum_m1172206390 (HoldSpotClickedUndoStep_t4219400472 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HoldSpotClickedUndoStep_get_eventTypeEnum_m1172206390_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * HoldSpotClickedUndoStep_get_eventTypeEnum_m1172206390_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	HoldSpotClickedUndoStep_t4219400472 * _thisAdjusted = reinterpret_cast<HoldSpotClickedUndoStep_t4219400472 *>(__this + 1);
+	return HoldSpotClickedUndoStep_get_eventTypeEnum_m1172206390(_thisAdjusted, method);
+}
+// GSN.Skill.Games.Tripeaks.InputMessageType GSN.Skill.Games.Tripeaks.InputMessageExtensions::msgType(GSN.Skill.Games.Common.Events.IInputMessage)
+extern Il2CppClass* IInputMessage_t3660278550_il2cpp_TypeInfo_var;
+extern const uint32_t InputMessageExtensions_msgType_m963166261_MetadataUsageId;
+extern "C"  int32_t InputMessageExtensions_msgType_m963166261 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___msg0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InputMessageExtensions_msgType_m963166261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___msg0;
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 GSN.Skill.Games.Common.Events.IInputMessage::get_msgTypeInt() */, IInputMessage_t3660278550_il2cpp_TypeInfo_var, L_0);
+		return (int32_t)(L_1);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.LockModelTask::.ctor(GSN.Skill.Games.Tripeaks.GameModel)
+extern "C"  void LockModelTask__ctor_m2046071447 (LockModelTask_t2128931019 * __this, GameModel_t3841817345 * ___model0, const MethodInfo* method)
+{
+	{
+		GsnTaskBase__ctor_m833660190(__this, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_0 = ___model0;
+		__this->set__model_7(L_0);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.LockModelTask::Run()
+extern "C"  void LockModelTask_Run_m3766823822 (LockModelTask_t2128931019 * __this, const MethodInfo* method)
+{
+	{
+		GameModel_t3841817345 * L_0 = __this->get__model_7();
+		L_0->set_inputBlocked_155((bool)0);
+		GsnTaskBase_UnSchedule_m1949516266(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GSN.Skill.Games.Tripeaks.ModelEventType GSN.Skill.Games.Tripeaks.ModelEventExtensions::eventType(GSN.Skill.Games.Common.Events.IModelEvent)
+extern Il2CppClass* IModelEvent_t642686546_il2cpp_TypeInfo_var;
+extern const uint32_t ModelEventExtensions_eventType_m796872256_MetadataUsageId;
+extern "C"  int32_t ModelEventExtensions_eventType_m796872256 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___e0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ModelEventExtensions_eventType_m796872256_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___e0;
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 GSN.Skill.Games.Common.Events.IModelEvent::get_eventTypeInt() */, IModelEvent_t642686546_il2cpp_TypeInfo_var, L_0);
+		return (int32_t)(L_1);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.ModifyScoreUndoStep::.ctor(System.Int32,System.Int32)
+extern "C"  void ModifyScoreUndoStep__ctor_m1567828388 (ModifyScoreUndoStep_t483283180 * __this, int32_t ___streakPoints0, int32_t ___cardID1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___streakPoints0;
+		__this->set_streakPoints_0(L_0);
+		int32_t L_1 = ___cardID1;
+		__this->set_cardID_1(L_1);
+		return;
+	}
+}
+extern "C"  void ModifyScoreUndoStep__ctor_m1567828388_AdjustorThunk (Il2CppObject * __this, int32_t ___streakPoints0, int32_t ___cardID1, const MethodInfo* method)
+{
+	ModifyScoreUndoStep_t483283180 * _thisAdjusted = reinterpret_cast<ModifyScoreUndoStep_t483283180 *>(__this + 1);
+	ModifyScoreUndoStep__ctor_m1567828388(_thisAdjusted, ___streakPoints0, ___cardID1, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.ModifyScoreUndoStep::get_eventTypeInt()
+extern "C"  int32_t ModifyScoreUndoStep_get_eventTypeInt_m265038720 (ModifyScoreUndoStep_t483283180 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483621);
+	}
+}
+extern "C"  int32_t ModifyScoreUndoStep_get_eventTypeInt_m265038720_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ModifyScoreUndoStep_t483283180 * _thisAdjusted = reinterpret_cast<ModifyScoreUndoStep_t483283180 *>(__this + 1);
+	return ModifyScoreUndoStep_get_eventTypeInt_m265038720(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.ModifyScoreUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t ModifyScoreUndoStep_get_eventTypeEnum_m1362631476_MetadataUsageId;
+extern "C"  Type_t * ModifyScoreUndoStep_get_eventTypeEnum_m1362631476 (ModifyScoreUndoStep_t483283180 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ModifyScoreUndoStep_get_eventTypeEnum_m1362631476_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * ModifyScoreUndoStep_get_eventTypeEnum_m1362631476_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ModifyScoreUndoStep_t483283180 * _thisAdjusted = reinterpret_cast<ModifyScoreUndoStep_t483283180 *>(__this + 1);
+	return ModifyScoreUndoStep_get_eventTypeEnum_m1362631476(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.ModifyStreakUndoStep::.ctor(System.Int32)
+extern "C"  void ModifyStreakUndoStep__ctor_m2439522835 (ModifyStreakUndoStep_t1352980234 * __this, int32_t ___streakCount0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___streakCount0;
+		__this->set_streakCount_0(L_0);
+		return;
+	}
+}
+extern "C"  void ModifyStreakUndoStep__ctor_m2439522835_AdjustorThunk (Il2CppObject * __this, int32_t ___streakCount0, const MethodInfo* method)
+{
+	ModifyStreakUndoStep_t1352980234 * _thisAdjusted = reinterpret_cast<ModifyStreakUndoStep_t1352980234 *>(__this + 1);
+	ModifyStreakUndoStep__ctor_m2439522835(_thisAdjusted, ___streakCount0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.ModifyStreakUndoStep::get_eventTypeInt()
+extern "C"  int32_t ModifyStreakUndoStep_get_eventTypeInt_m2248575990 (ModifyStreakUndoStep_t1352980234 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483623);
+	}
+}
+extern "C"  int32_t ModifyStreakUndoStep_get_eventTypeInt_m2248575990_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ModifyStreakUndoStep_t1352980234 * _thisAdjusted = reinterpret_cast<ModifyStreakUndoStep_t1352980234 *>(__this + 1);
+	return ModifyStreakUndoStep_get_eventTypeInt_m2248575990(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.ModifyStreakUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t ModifyStreakUndoStep_get_eventTypeEnum_m410804402_MetadataUsageId;
+extern "C"  Type_t * ModifyStreakUndoStep_get_eventTypeEnum_m410804402 (ModifyStreakUndoStep_t1352980234 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ModifyStreakUndoStep_get_eventTypeEnum_m410804402_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * ModifyStreakUndoStep_get_eventTypeEnum_m410804402_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ModifyStreakUndoStep_t1352980234 * _thisAdjusted = reinterpret_cast<ModifyStreakUndoStep_t1352980234 *>(__this + 1);
+	return ModifyStreakUndoStep_get_eventTypeEnum_m410804402(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.MoveCardToHoldEvent::.ctor(System.Int32)
+extern "C"  void MoveCardToHoldEvent__ctor_m4115684286 (MoveCardToHoldEvent_t830903267 * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardID0;
+		__this->set_cardID_0(L_0);
+		return;
+	}
+}
+extern "C"  void MoveCardToHoldEvent__ctor_m4115684286_AdjustorThunk (Il2CppObject * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	MoveCardToHoldEvent_t830903267 * _thisAdjusted = reinterpret_cast<MoveCardToHoldEvent_t830903267 *>(__this + 1);
+	MoveCardToHoldEvent__ctor_m4115684286(_thisAdjusted, ___cardID0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.MoveCardToHoldEvent::get_eventTypeInt()
+extern "C"  int32_t MoveCardToHoldEvent_get_eventTypeInt_m3406244427 (MoveCardToHoldEvent_t830903267 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483643);
+	}
+}
+extern "C"  int32_t MoveCardToHoldEvent_get_eventTypeInt_m3406244427_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	MoveCardToHoldEvent_t830903267 * _thisAdjusted = reinterpret_cast<MoveCardToHoldEvent_t830903267 *>(__this + 1);
+	return MoveCardToHoldEvent_get_eventTypeInt_m3406244427(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.MoveCardToHoldEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t MoveCardToHoldEvent_get_eventTypeEnum_m415379745_MetadataUsageId;
+extern "C"  Type_t * MoveCardToHoldEvent_get_eventTypeEnum_m415379745 (MoveCardToHoldEvent_t830903267 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MoveCardToHoldEvent_get_eventTypeEnum_m415379745_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * MoveCardToHoldEvent_get_eventTypeEnum_m415379745_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	MoveCardToHoldEvent_t830903267 * _thisAdjusted = reinterpret_cast<MoveCardToHoldEvent_t830903267 *>(__this + 1);
+	return MoveCardToHoldEvent_get_eventTypeEnum_m415379745(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.OneShotWildClickedUndoStep::.ctor(System.Int32)
+extern "C"  void OneShotWildClickedUndoStep__ctor_m526331600 (OneShotWildClickedUndoStep_t2427321765 * __this, int32_t ___numOneTimeWildsLeft0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___numOneTimeWildsLeft0;
+		__this->set_numOneTimeWildsLeft_0(L_0);
+		return;
+	}
+}
+extern "C"  void OneShotWildClickedUndoStep__ctor_m526331600_AdjustorThunk (Il2CppObject * __this, int32_t ___numOneTimeWildsLeft0, const MethodInfo* method)
+{
+	OneShotWildClickedUndoStep_t2427321765 * _thisAdjusted = reinterpret_cast<OneShotWildClickedUndoStep_t2427321765 *>(__this + 1);
+	OneShotWildClickedUndoStep__ctor_m526331600(_thisAdjusted, ___numOneTimeWildsLeft0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.OneShotWildClickedUndoStep::get_eventTypeInt()
+extern "C"  int32_t OneShotWildClickedUndoStep_get_eventTypeInt_m2620677813 (OneShotWildClickedUndoStep_t2427321765 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483617);
+	}
+}
+extern "C"  int32_t OneShotWildClickedUndoStep_get_eventTypeInt_m2620677813_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	OneShotWildClickedUndoStep_t2427321765 * _thisAdjusted = reinterpret_cast<OneShotWildClickedUndoStep_t2427321765 *>(__this + 1);
+	return OneShotWildClickedUndoStep_get_eventTypeInt_m2620677813(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.OneShotWildClickedUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t OneShotWildClickedUndoStep_get_eventTypeEnum_m3853359159_MetadataUsageId;
+extern "C"  Type_t * OneShotWildClickedUndoStep_get_eventTypeEnum_m3853359159 (OneShotWildClickedUndoStep_t2427321765 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OneShotWildClickedUndoStep_get_eventTypeEnum_m3853359159_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * OneShotWildClickedUndoStep_get_eventTypeEnum_m3853359159_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	OneShotWildClickedUndoStep_t2427321765 * _thisAdjusted = reinterpret_cast<OneShotWildClickedUndoStep_t2427321765 *>(__this + 1);
+	return OneShotWildClickedUndoStep_get_eventTypeEnum_m3853359159(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.OverlayBase::.ctor()
+extern "C"  void OverlayBase__ctor_m2467327805 (OverlayBase_t541437815 * __this, const MethodInfo* method)
+{
+	{
+		PooledMonoBehaviour__ctor_m4082200974(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.OverlayBase::ShowOverlay()
+extern "C"  void OverlayBase_ShowOverlay_m2360476084 (OverlayBase_t541437815 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.OverlayBase::HideOverlay()
+extern "C"  void OverlayBase_HideOverlay_m569172655 (OverlayBase_t541437815 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.OverlayBase::ClearOverlay()
+extern "C"  void OverlayBase_ClearOverlay_m385502912 (OverlayBase_t541437815 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldData::.ctor()
+extern "C"  void PlayfieldData__ctor_m1577350714 (PlayfieldData_t2127658700 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_entryCost_4(((int32_t)3000));
+		__this->set_timeStarRequirement_5(((int32_t)75));
+		__this->set_stockCardCount_6(((int32_t)12));
+		__this->set_moreStocksBaseMultiOfLevelCost_9((2.0f));
+		__this->set_moreStocksAddMultiOfLevelCost_10((1.0f));
+		__this->set_smartMoneyPercentage_11((0.05f));
+		__this->set_smartMoneyPowerCurve_12((0.9875f));
+		__this->set_undoBaseMultiOfLevelCost_13((0.5f));
+		__this->set_undoAddMultiOfLevelCost_14((0.5f));
+		__this->set_wildBaseMultiOfLevelCost_15((1.0f));
+		__this->set_wildAddMultiOfLevelCost_16((0.5f));
+		__this->set_tikiRedMax_18(1);
+		__this->set_tikiRedChance_19(5);
+		__this->set_tikiBlackMax_21(1);
+		__this->set_tikiBlackChance_22(5);
+		__this->set_tikiGoldenMax_24(1);
+		__this->set_tikiGoldenChance_25(5);
+		__this->set_tikiBlossomMax_27(1);
+		__this->set_tikiBlossomChance_28(5);
+		__this->set_tikiVolcanoMax_30(1);
+		__this->set_tikiVolcanoChance_31(5);
+		__this->set_tikiFireSpawnPosTop_32(1);
+		__this->set_tikiFireSpawnPosBot_33(3);
+		__this->set_bonusCardChance_35((10.0f));
+		__this->set_targetWinRate_38((0.2f));
+		__this->set_targetMargin_41((20.0f));
+		ScriptableObject__ctor_m2671490429(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.PlayfieldData::GetID()
+extern "C"  int32_t PlayfieldData_GetID_m3882004461 (PlayfieldData_t2127658700 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_ID_2();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldData::SetID(System.Int32)
+extern "C"  void PlayfieldData_SetID_m434245230 (PlayfieldData_t2127658700 * __this, int32_t ___newID0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newID0;
+		__this->set_ID_2(L_0);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldData/CardData::.ctor()
+extern "C"  void CardData__ctor_m3646604083 (CardData_t1059670474 * __this, const MethodInfo* method)
+{
+	{
+		BaseCardData__ctor_m652012003(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldDataDB::.ctor()
+extern Il2CppClass* SmartEntryCostConfig_t1863879830_il2cpp_TypeInfo_var;
+extern const uint32_t PlayfieldDataDB__ctor_m1320588072_MetadataUsageId;
+extern "C"  void PlayfieldDataDB__ctor_m1320588072 (PlayfieldDataDB_t137008370 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlayfieldDataDB__ctor_m1320588072_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SmartEntryCostConfig_t1863879830 * V_0 = NULL;
+	{
+		__this->set_globalMarginMod_3((1.0f));
+		__this->set_streakBonusCurveMod_5((30.0f));
+		__this->set_stockBonusCurveMod_6((30.0f));
+		__this->set_maxStreakBonus_7((20.0f));
+		__this->set_maxStockBonus_8((20.0f));
+		SmartEntryCostConfig_t1863879830 * L_0 = (SmartEntryCostConfig_t1863879830 *)il2cpp_codegen_object_new(SmartEntryCostConfig_t1863879830_il2cpp_TypeInfo_var);
+		SmartEntryCostConfig__ctor_m3705732041(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		SmartEntryCostConfig_t1863879830 * L_1 = V_0;
+		L_1->set_useSmartEntryCost_0((bool)0);
+		SmartEntryCostConfig_t1863879830 * L_2 = V_0;
+		L_2->set_smartEntryCostStartPoint_1((5000000.0f));
+		SmartEntryCostConfig_t1863879830 * L_3 = V_0;
+		L_3->set_smartEntryCostTaxRate_2((0.1f));
+		SmartEntryCostConfig_t1863879830 * L_4 = V_0;
+		__this->set_payerSmartEntryConfig_18(L_4);
+		SmartEntryCostConfig_t1863879830 * L_5 = (SmartEntryCostConfig_t1863879830 *)il2cpp_codegen_object_new(SmartEntryCostConfig_t1863879830_il2cpp_TypeInfo_var);
+		SmartEntryCostConfig__ctor_m3705732041(L_5, /*hidden argument*/NULL);
+		V_0 = L_5;
+		SmartEntryCostConfig_t1863879830 * L_6 = V_0;
+		L_6->set_useSmartEntryCost_0((bool)1);
+		SmartEntryCostConfig_t1863879830 * L_7 = V_0;
+		L_7->set_smartEntryCostStartPoint_1((5000000.0f));
+		SmartEntryCostConfig_t1863879830 * L_8 = V_0;
+		L_8->set_smartEntryCostTaxRate_2((0.1f));
+		SmartEntryCostConfig_t1863879830 * L_9 = V_0;
+		__this->set_nonPayerSmartEntryConfig_19(L_9);
+		ScriptableObject__ctor_m2671490429(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.PlayfieldDataDB::TikiDataString(System.Int32,System.Int32,System.Int32)
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* JsonConvert_t3949895659_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const uint32_t PlayfieldDataDB_TikiDataString_m4047870006_MetadataUsageId;
+extern "C"  String_t* PlayfieldDataDB_TikiDataString_m4047870006 (PlayfieldDataDB_t137008370 * __this, int32_t ___min0, int32_t ___max1, int32_t ___chance2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlayfieldDataDB_TikiDataString_m4047870006_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1440998580 * V_0 = NULL;
+	{
+		List_1_t1440998580 * L_0 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_0, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t1440998580 * L_1 = V_0;
+		int32_t L_2 = ___min0;
+		List_1_Add_m688682013(L_1, L_2, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_t1440998580 * L_3 = V_0;
+		int32_t L_4 = ___max1;
+		List_1_Add_m688682013(L_3, L_4, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_t1440998580 * L_5 = V_0;
+		int32_t L_6 = ___chance2;
+		List_1_Add_m688682013(L_5, L_6, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_t1440998580 * L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(JsonConvert_t3949895659_il2cpp_TypeInfo_var);
+		String_t* L_8 = JsonConvert_SerializeObject_m3842390300(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldDataDB::generateLevelData()
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnDebug_t1785824881_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern Il2CppClass* JsonConvert_t3949895659_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2885512052;
+extern Il2CppCodeGenString* _stringLiteral2728459999;
+extern Il2CppCodeGenString* _stringLiteral3132912109;
+extern Il2CppCodeGenString* _stringLiteral995790010;
+extern const uint32_t PlayfieldDataDB_generateLevelData_m685828271_MetadataUsageId;
+extern "C"  void PlayfieldDataDB_generateLevelData_m685828271 (PlayfieldDataDB_t137008370 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlayfieldDataDB_generateLevelData_m685828271_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1398341365 * V_0 = NULL;
+	int32_t V_1 = 0;
+	List_1_t1398341365 * V_2 = NULL;
+	List_1_t1398341365 * V_3 = NULL;
+	PlayfieldData_t2127658700 * V_4 = NULL;
+	int32_t V_5 = 0;
+	String_t* V_6 = NULL;
+	String_t* V_7 = NULL;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ArrayElementTypeCheck (L_0, _stringLiteral2885512052);
+		(L_0)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral2885512052);
+		IL2CPP_RUNTIME_CLASS_INIT(GsnDebug_t1785824881_il2cpp_TypeInfo_var);
+		GsnDebug_Log_m3044938852(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		List_1_t1398341365 * L_1 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_1, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_012a;
+	}
+
+IL_0020:
+	{
+		List_1_t1398341365 * L_2 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_2, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		V_2 = L_2;
+		List_1_t1398341365 * L_3 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_3, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		V_3 = L_3;
+		PlayfieldDataU5BU5D_t850169989* L_4 = __this->get_playfieldDataDB_2();
+		int32_t L_5 = V_1;
+		int32_t L_6 = L_5;
+		PlayfieldData_t2127658700 * L_7 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_6));
+		V_4 = L_7;
+		V_5 = 0;
+		goto IL_0059;
+	}
+
+IL_003e:
+	{
+		List_1_t1398341365 * L_8 = V_3;
+		PlayfieldData_t2127658700 * L_9 = V_4;
+		CardDataU5BU5D_t1346892751* L_10 = L_9->get_cardData_36();
+		int32_t L_11 = V_5;
+		int32_t L_12 = L_11;
+		CardData_t1059670474 * L_13 = (L_10)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_12));
+		String_t* L_14 = BaseCardData_Serialize_m425984988(L_13, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_8, L_14, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		int32_t L_15 = V_5;
+		V_5 = ((int32_t)((int32_t)L_15+(int32_t)1));
+	}
+
+IL_0059:
+	{
+		int32_t L_16 = V_5;
+		PlayfieldData_t2127658700 * L_17 = V_4;
+		CardDataU5BU5D_t1346892751* L_18 = L_17->get_cardData_36();
+		if ((((int32_t)L_16) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_18)->max_length)))))))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		List_1_t1398341365 * L_19 = V_2;
+		List_1_t1398341365 * L_20 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(JsonConvert_t3949895659_il2cpp_TypeInfo_var);
+		String_t* L_21 = JsonConvert_SerializeObject_m3842390300(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_19, L_21, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		List_1_t1398341365 * L_22 = V_2;
+		PlayfieldData_t2127658700 * L_23 = V_4;
+		int32_t L_24 = L_23->get_tikiRedMin_17();
+		PlayfieldData_t2127658700 * L_25 = V_4;
+		int32_t L_26 = L_25->get_tikiRedMax_18();
+		PlayfieldData_t2127658700 * L_27 = V_4;
+		int32_t L_28 = L_27->get_tikiRedChance_19();
+		String_t* L_29 = PlayfieldDataDB_TikiDataString_m4047870006(__this, L_24, L_26, L_28, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_22, L_29, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		List_1_t1398341365 * L_30 = V_2;
+		PlayfieldData_t2127658700 * L_31 = V_4;
+		int32_t L_32 = L_31->get_tikiBlackMin_20();
+		PlayfieldData_t2127658700 * L_33 = V_4;
+		int32_t L_34 = L_33->get_tikiBlackMax_21();
+		PlayfieldData_t2127658700 * L_35 = V_4;
+		int32_t L_36 = L_35->get_tikiBlackChance_22();
+		String_t* L_37 = PlayfieldDataDB_TikiDataString_m4047870006(__this, L_32, L_34, L_36, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_30, L_37, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		List_1_t1398341365 * L_38 = V_2;
+		PlayfieldData_t2127658700 * L_39 = V_4;
+		int32_t L_40 = L_39->get_tikiBlossomMin_26();
+		PlayfieldData_t2127658700 * L_41 = V_4;
+		int32_t L_42 = L_41->get_tikiBlossomMax_27();
+		PlayfieldData_t2127658700 * L_43 = V_4;
+		int32_t L_44 = L_43->get_tikiBlossomChance_28();
+		String_t* L_45 = PlayfieldDataDB_TikiDataString_m4047870006(__this, L_40, L_42, L_44, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_38, L_45, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		List_1_t1398341365 * L_46 = V_2;
+		PlayfieldData_t2127658700 * L_47 = V_4;
+		int32_t L_48 = L_47->get_tikiGoldenMin_23();
+		PlayfieldData_t2127658700 * L_49 = V_4;
+		int32_t L_50 = L_49->get_tikiGoldenMax_24();
+		PlayfieldData_t2127658700 * L_51 = V_4;
+		int32_t L_52 = L_51->get_tikiGoldenChance_25();
+		String_t* L_53 = PlayfieldDataDB_TikiDataString_m4047870006(__this, L_48, L_50, L_52, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_46, L_53, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		List_1_t1398341365 * L_54 = V_2;
+		PlayfieldData_t2127658700 * L_55 = V_4;
+		int32_t L_56 = L_55->get_tikiVolcanoMin_29();
+		PlayfieldData_t2127658700 * L_57 = V_4;
+		int32_t L_58 = L_57->get_tikiVolcanoMax_30();
+		PlayfieldData_t2127658700 * L_59 = V_4;
+		int32_t L_60 = L_59->get_tikiVolcanoChance_31();
+		String_t* L_61 = PlayfieldDataDB_TikiDataString_m4047870006(__this, L_56, L_58, L_60, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_54, L_61, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		List_1_t1398341365 * L_62 = V_0;
+		List_1_t1398341365 * L_63 = V_2;
+		String_t* L_64 = JsonConvert_SerializeObject_m3842390300(NULL /*static, unused*/, L_63, /*hidden argument*/NULL);
+		List_1_Add_m4061286785(L_62, L_64, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		int32_t L_65 = V_1;
+		V_1 = ((int32_t)((int32_t)L_65+(int32_t)1));
+	}
+
+IL_012a:
+	{
+		int32_t L_66 = V_1;
+		PlayfieldDataU5BU5D_t850169989* L_67 = __this->get_playfieldDataDB_2();
+		if ((((int32_t)L_66) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_67)->max_length)))))))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		List_1_t1398341365 * L_68 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(JsonConvert_t3949895659_il2cpp_TypeInfo_var);
+		String_t* L_69 = JsonConvert_SerializeObject_m3842390300(NULL /*static, unused*/, L_68, /*hidden argument*/NULL);
+		V_6 = L_69;
+		String_t* L_70 = V_6;
+		String_t* L_71 = JsonConvert_SerializeObject_m3842390300(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
+		V_6 = L_71;
+		String_t* L_72 = V_6;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_73 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral2728459999, L_72, /*hidden argument*/NULL);
+		V_7 = L_73;
+		String_t* L_74 = V_7;
+		File_WriteAllText_m4016919242(NULL /*static, unused*/, _stringLiteral3132912109, L_74, /*hidden argument*/NULL);
+		ObjectU5BU5D_t3614634134* L_75 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ArrayElementTypeCheck (L_75, _stringLiteral995790010);
+		(L_75)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral995790010);
+		IL2CPP_RUNTIME_CLASS_INIT(GsnDebug_t1785824881_il2cpp_TypeInfo_var);
+		GsnDebug_Log_m3044938852(NULL /*static, unused*/, L_75, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldDataDB::.cctor()
+extern Il2CppClass* PlayfieldDataDB_t137008370_il2cpp_TypeInfo_var;
+extern const uint32_t PlayfieldDataDB__cctor_m1408220665_MetadataUsageId;
+extern "C"  void PlayfieldDataDB__cctor_m1408220665 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlayfieldDataDB__cctor_m1408220665_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((PlayfieldDataDB_t137008370_StaticFields*)PlayfieldDataDB_t137008370_il2cpp_TypeInfo_var->static_fields)->set_NUM_TRACKS_12(5);
+		((PlayfieldDataDB_t137008370_StaticFields*)PlayfieldDataDB_t137008370_il2cpp_TypeInfo_var->static_fields)->set_EXPERT_TRACK_ID_14(1);
+		((PlayfieldDataDB_t137008370_StaticFields*)PlayfieldDataDB_t137008370_il2cpp_TypeInfo_var->static_fields)->set_GSN_TRACK_ID_15(2);
+		((PlayfieldDataDB_t137008370_StaticFields*)PlayfieldDataDB_t137008370_il2cpp_TypeInfo_var->static_fields)->set_BASH_TRACK_ID_16(3);
+		((PlayfieldDataDB_t137008370_StaticFields*)PlayfieldDataDB_t137008370_il2cpp_TypeInfo_var->static_fields)->set_TIKISKIES_TRACK_ID_17(4);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldDataDB/SmartEntryCostConfig::.ctor()
+extern "C"  void SmartEntryCostConfig__ctor_m3705732041 (SmartEntryCostConfig_t1863879830 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PlayfieldModelData::.ctor(System.String)
+extern Il2CppClass* List_1_t4087109391_il2cpp_TypeInfo_var;
+extern Il2CppClass* JsonConvert_t3949895659_il2cpp_TypeInfo_var;
+extern Il2CppClass* BaseCardData_t423020963_il2cpp_TypeInfo_var;
+extern Il2CppClass* TikiCardData_t3556096769_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3277172829_MethodInfo_var;
+extern const MethodInfo* JsonConvert_DeserializeObject_TisList_1_t1398341365_m2111862778_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m4077476129_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m1004637041_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern const uint32_t PlayfieldModelData__ctor_m4273348257_MetadataUsageId;
+extern "C"  void PlayfieldModelData__ctor_m4273348257 (PlayfieldModelData_t1827511723 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlayfieldModelData__ctor_m4273348257_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1398341365 * V_0 = NULL;
+	List_1_t1398341365 * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		List_1_t4087109391 * L_0 = (List_1_t4087109391 *)il2cpp_codegen_object_new(List_1_t4087109391_il2cpp_TypeInfo_var);
+		List_1__ctor_m3277172829(L_0, /*hidden argument*/List_1__ctor_m3277172829_MethodInfo_var);
+		__this->set_cards_0(L_0);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_1 = ___data0;
+		IL2CPP_RUNTIME_CLASS_INIT(JsonConvert_t3949895659_il2cpp_TypeInfo_var);
+		List_1_t1398341365 * L_2 = JsonConvert_DeserializeObject_TisList_1_t1398341365_m2111862778(NULL /*static, unused*/, L_1, /*hidden argument*/JsonConvert_DeserializeObject_TisList_1_t1398341365_m2111862778_MethodInfo_var);
+		V_0 = L_2;
+		List_1_t1398341365 * L_3 = V_0;
+		String_t* L_4 = List_1_get_Item_m4077476129(L_3, 0, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		List_1_t1398341365 * L_5 = JsonConvert_DeserializeObject_TisList_1_t1398341365_m2111862778(NULL /*static, unused*/, L_4, /*hidden argument*/JsonConvert_DeserializeObject_TisList_1_t1398341365_m2111862778_MethodInfo_var);
+		V_1 = L_5;
+		V_2 = 0;
+		goto IL_0047;
+	}
+
+IL_002c:
+	{
+		List_1_t4087109391 * L_6 = __this->get_cards_0();
+		List_1_t1398341365 * L_7 = V_1;
+		int32_t L_8 = V_2;
+		String_t* L_9 = List_1_get_Item_m4077476129(L_7, L_8, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		BaseCardData_t423020963 * L_10 = (BaseCardData_t423020963 *)il2cpp_codegen_object_new(BaseCardData_t423020963_il2cpp_TypeInfo_var);
+		BaseCardData__ctor_m3251876313(L_10, L_9, /*hidden argument*/NULL);
+		List_1_Add_m1004637041(L_6, L_10, /*hidden argument*/List_1_Add_m1004637041_MethodInfo_var);
+		int32_t L_11 = V_2;
+		V_2 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0047:
+	{
+		int32_t L_12 = V_2;
+		List_1_t1398341365 * L_13 = V_1;
+		int32_t L_14 = List_1_get_Count_m780127360(L_13, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		if ((((int32_t)L_12) < ((int32_t)L_14)))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		List_1_t1398341365 * L_15 = V_0;
+		String_t* L_16 = List_1_get_Item_m4077476129(L_15, 1, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		TikiCardData_t3556096769 * L_17 = (TikiCardData_t3556096769 *)il2cpp_codegen_object_new(TikiCardData_t3556096769_il2cpp_TypeInfo_var);
+		TikiCardData__ctor_m1398949079(L_17, L_16, /*hidden argument*/NULL);
+		__this->set_redData_1(L_17);
+		List_1_t1398341365 * L_18 = V_0;
+		String_t* L_19 = List_1_get_Item_m4077476129(L_18, 2, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		TikiCardData_t3556096769 * L_20 = (TikiCardData_t3556096769 *)il2cpp_codegen_object_new(TikiCardData_t3556096769_il2cpp_TypeInfo_var);
+		TikiCardData__ctor_m1398949079(L_20, L_19, /*hidden argument*/NULL);
+		__this->set_blackData_2(L_20);
+		List_1_t1398341365 * L_21 = V_0;
+		String_t* L_22 = List_1_get_Item_m4077476129(L_21, 3, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		TikiCardData_t3556096769 * L_23 = (TikiCardData_t3556096769 *)il2cpp_codegen_object_new(TikiCardData_t3556096769_il2cpp_TypeInfo_var);
+		TikiCardData__ctor_m1398949079(L_23, L_22, /*hidden argument*/NULL);
+		__this->set_flowerData_5(L_23);
+		List_1_t1398341365 * L_24 = V_0;
+		String_t* L_25 = List_1_get_Item_m4077476129(L_24, 4, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		TikiCardData_t3556096769 * L_26 = (TikiCardData_t3556096769 *)il2cpp_codegen_object_new(TikiCardData_t3556096769_il2cpp_TypeInfo_var);
+		TikiCardData__ctor_m1398949079(L_26, L_25, /*hidden argument*/NULL);
+		__this->set_goldenData_3(L_26);
+		List_1_t1398341365 * L_27 = V_0;
+		String_t* L_28 = List_1_get_Item_m4077476129(L_27, 5, /*hidden argument*/List_1_get_Item_m4077476129_MethodInfo_var);
+		TikiCardData_t3556096769 * L_29 = (TikiCardData_t3556096769 *)il2cpp_codegen_object_new(TikiCardData_t3556096769_il2cpp_TypeInfo_var);
+		TikiCardData__ctor_m1398949079(L_29, L_28, /*hidden argument*/NULL);
+		__this->set_volcanoData_4(L_29);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.PlayfieldModelData> GSN.Skill.Games.Tripeaks.PlayfieldModelData::Deserialize()
+extern Il2CppClass* List_1_t1196632855_il2cpp_TypeInfo_var;
+extern Il2CppClass* JsonConvert_t3949895659_il2cpp_TypeInfo_var;
+extern Il2CppClass* PlayfieldModelData_t1827511723_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m975631317_MethodInfo_var;
+extern const MethodInfo* JsonConvert_DeserializeObject_TisStringU5BU5D_t1642385972_m1242734624_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m512859441_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1609814124;
+extern const uint32_t PlayfieldModelData_Deserialize_m642203905_MetadataUsageId;
+extern "C"  List_1_t1196632855 * PlayfieldModelData_Deserialize_m642203905 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlayfieldModelData_Deserialize_m642203905_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1196632855 * V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		List_1_t1196632855 * L_0 = (List_1_t1196632855 *)il2cpp_codegen_object_new(List_1_t1196632855_il2cpp_TypeInfo_var);
+		List_1__ctor_m975631317(L_0, /*hidden argument*/List_1__ctor_m975631317_MethodInfo_var);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(JsonConvert_t3949895659_il2cpp_TypeInfo_var);
+		StringU5BU5D_t1642385972* L_1 = JsonConvert_DeserializeObject_TisStringU5BU5D_t1642385972_m1242734624(NULL /*static, unused*/, _stringLiteral1609814124, /*hidden argument*/JsonConvert_DeserializeObject_TisStringU5BU5D_t1642385972_m1242734624_MethodInfo_var);
+		V_1 = L_1;
+		V_2 = 0;
+		goto IL_002a;
+	}
+
+IL_0018:
+	{
+		List_1_t1196632855 * L_2 = V_0;
+		StringU5BU5D_t1642385972* L_3 = V_1;
+		int32_t L_4 = V_2;
+		int32_t L_5 = L_4;
+		String_t* L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		PlayfieldModelData_t1827511723 * L_7 = (PlayfieldModelData_t1827511723 *)il2cpp_codegen_object_new(PlayfieldModelData_t1827511723_il2cpp_TypeInfo_var);
+		PlayfieldModelData__ctor_m4273348257(L_7, L_6, /*hidden argument*/NULL);
+		List_1_Add_m512859441(L_2, L_7, /*hidden argument*/List_1_Add_m512859441_MethodInfo_var);
+		int32_t L_8 = V_2;
+		V_2 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_002a:
+	{
+		int32_t L_9 = V_2;
+		StringU5BU5D_t1642385972* L_10 = V_1;
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		List_1_t1196632855 * L_11 = V_0;
+		return L_11;
+	}
+}
+// GSN.Skill.Games.Tripeaks.PlayfieldModelData GSN.Skill.Games.Tripeaks.PlayfieldModelData::Deserialize(System.Int32)
+extern Il2CppClass* JsonConvert_t3949895659_il2cpp_TypeInfo_var;
+extern Il2CppClass* PlayfieldModelData_t1827511723_il2cpp_TypeInfo_var;
+extern const MethodInfo* JsonConvert_DeserializeObject_TisStringU5BU5D_t1642385972_m1242734624_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1609814124;
+extern const uint32_t PlayfieldModelData_Deserialize_m4271524568_MetadataUsageId;
+extern "C"  PlayfieldModelData_t1827511723 * PlayfieldModelData_Deserialize_m4271524568 (Il2CppObject * __this /* static, unused */, int32_t ___boardID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlayfieldModelData_Deserialize_m4271524568_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JsonConvert_t3949895659_il2cpp_TypeInfo_var);
+		StringU5BU5D_t1642385972* L_0 = JsonConvert_DeserializeObject_TisStringU5BU5D_t1642385972_m1242734624(NULL /*static, unused*/, _stringLiteral1609814124, /*hidden argument*/JsonConvert_DeserializeObject_TisStringU5BU5D_t1642385972_m1242734624_MethodInfo_var);
+		V_0 = L_0;
+		int32_t L_1 = ___boardID0;
+		StringU5BU5D_t1642385972* L_2 = V_0;
+		if ((((int32_t)L_1) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_2)->max_length)))))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		___boardID0 = 0;
+	}
+
+IL_0017:
+	{
+		StringU5BU5D_t1642385972* L_3 = V_0;
+		int32_t L_4 = ___boardID0;
+		int32_t L_5 = L_4;
+		String_t* L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		PlayfieldModelData_t1827511723 * L_7 = (PlayfieldModelData_t1827511723 *)il2cpp_codegen_object_new(PlayfieldModelData_t1827511723_il2cpp_TypeInfo_var);
+		PlayfieldModelData__ctor_m4273348257(L_7, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PoiCharacter::.ctor()
+extern "C"  void PoiCharacter__ctor_m942508941 (PoiCharacter_t134467383 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PoiCharacter::playAnimation(System.String,System.Int32)
+extern "C"  void PoiCharacter_playAnimation_m1543074546 (PoiCharacter_t134467383 * __this, String_t* ___animName0, int32_t ___animLayer1, const MethodInfo* method)
+{
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_2();
+		int32_t L_1 = ___animLayer1;
+		Animator_SetLayerWeight_m2914961795(L_0, L_1, (1.0f), /*hidden argument*/NULL);
+		Animator_t69676727 * L_2 = __this->get_animator_2();
+		String_t* L_3 = ___animName0;
+		Animator_Play_m1123842248(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PoiCharacter::setTimeOfDayTint(System.Int32)
+extern "C"  void PoiCharacter_setTimeOfDayTint_m1581756437 (PoiCharacter_t134467383 * __this, int32_t ___timeIndex0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___timeIndex0;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_1 = ___timeIndex0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_2 = ___timeIndex0;
+		if ((((int32_t)L_2) == ((int32_t)2)))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		goto IL_00a2;
+	}
+
+IL_0019:
+	{
+		goto IL_00a2;
+	}
+
+IL_001e:
+	{
+		V_0 = 0;
+		goto IL_003c;
+	}
+
+IL_0025:
+	{
+		RendererU5BU5D_t2810717544* L_3 = __this->get_maskObjects_3();
+		int32_t L_4 = V_0;
+		int32_t L_5 = L_4;
+		Renderer_t257310565 * L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		Material_t193706927 * L_7 = __this->get_sunsetMask_5();
+		Renderer_set_material_m1053097112(L_6, L_7, /*hidden argument*/NULL);
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_003c:
+	{
+		int32_t L_9 = V_0;
+		RendererU5BU5D_t2810717544* L_10 = __this->get_maskObjects_3();
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Renderer_t257310565 * L_11 = __this->get_bodyObject_4();
+		Material_t193706927 * L_12 = __this->get_sunsetBody_7();
+		Renderer_set_material_m1053097112(L_11, L_12, /*hidden argument*/NULL);
+		goto IL_00a2;
+	}
+
+IL_0060:
+	{
+		V_1 = 0;
+		goto IL_007e;
+	}
+
+IL_0067:
+	{
+		RendererU5BU5D_t2810717544* L_13 = __this->get_maskObjects_3();
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		Renderer_t257310565 * L_16 = (L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Material_t193706927 * L_17 = __this->get_nightMask_6();
+		Renderer_set_material_m1053097112(L_16, L_17, /*hidden argument*/NULL);
+		int32_t L_18 = V_1;
+		V_1 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_007e:
+	{
+		int32_t L_19 = V_1;
+		RendererU5BU5D_t2810717544* L_20 = __this->get_maskObjects_3();
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		Renderer_t257310565 * L_21 = __this->get_bodyObject_4();
+		Material_t193706927 * L_22 = __this->get_nightBody_8();
+		Renderer_set_material_m1053097112(L_21, L_22, /*hidden argument*/NULL);
+		goto IL_00a2;
+	}
+
+IL_00a2:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PoiCharacter::playDustFX()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t PoiCharacter_playDustFX_m3186308497_MetadataUsageId;
+extern "C"  void PoiCharacter_playDustFX_m3186308497 (PoiCharacter_t134467383 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PoiCharacter_playDustFX_m3186308497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DustFX_t531013926 * L_0 = __this->get_dustFX_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		DustFX_t531013926 * L_2 = __this->get_dustFX_9();
+		DustFX_PlayDustEffect_m3494871963(L_2, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.PoiCharacter::stopDustFX()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t PoiCharacter_stopDustFX_m1058401265_MetadataUsageId;
+extern "C"  void PoiCharacter_stopDustFX_m1058401265 (PoiCharacter_t134467383 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PoiCharacter_stopDustFX_m1058401265_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DustFX_t531013926 * L_0 = __this->get_dustFX_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		DustFX_t531013926 * L_2 = __this->get_dustFX_9();
+		DustFX_StopDustEffect_m2862721755(L_2, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveCardEvent::.ctor(System.Int32,System.Int32)
+extern "C"  void RemoveCardEvent__ctor_m4099864314 (RemoveCardEvent_t1579643884 * __this, int32_t ___cardID0, int32_t ___targetCardID1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardID0;
+		__this->set_cardID_0(L_0);
+		int32_t L_1 = ___targetCardID1;
+		__this->set_targetCardID_1(L_1);
+		return;
+	}
+}
+extern "C"  void RemoveCardEvent__ctor_m4099864314_AdjustorThunk (Il2CppObject * __this, int32_t ___cardID0, int32_t ___targetCardID1, const MethodInfo* method)
+{
+	RemoveCardEvent_t1579643884 * _thisAdjusted = reinterpret_cast<RemoveCardEvent_t1579643884 *>(__this + 1);
+	RemoveCardEvent__ctor_m4099864314(_thisAdjusted, ___cardID0, ___targetCardID1, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.RemoveCardEvent::get_eventTypeInt()
+extern "C"  int32_t RemoveCardEvent_get_eventTypeInt_m531041774 (RemoveCardEvent_t1579643884 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483642);
+	}
+}
+extern "C"  int32_t RemoveCardEvent_get_eventTypeInt_m531041774_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardEvent_t1579643884 * _thisAdjusted = reinterpret_cast<RemoveCardEvent_t1579643884 *>(__this + 1);
+	return RemoveCardEvent_get_eventTypeInt_m531041774(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.RemoveCardEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveCardEvent_get_eventTypeEnum_m1913787402_MetadataUsageId;
+extern "C"  Type_t * RemoveCardEvent_get_eventTypeEnum_m1913787402 (RemoveCardEvent_t1579643884 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveCardEvent_get_eventTypeEnum_m1913787402_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * RemoveCardEvent_get_eventTypeEnum_m1913787402_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardEvent_t1579643884 * _thisAdjusted = reinterpret_cast<RemoveCardEvent_t1579643884 *>(__this + 1);
+	return RemoveCardEvent_get_eventTypeEnum_m1913787402(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveCardFromFaceupUndoStep::.ctor(System.Int32)
+extern "C"  void RemoveCardFromFaceupUndoStep__ctor_m1369848909 (RemoveCardFromFaceupUndoStep_t964717432 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardIndex0;
+		__this->set_cardIndex_0(L_0);
+		return;
+	}
+}
+extern "C"  void RemoveCardFromFaceupUndoStep__ctor_m1369848909_AdjustorThunk (Il2CppObject * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	RemoveCardFromFaceupUndoStep_t964717432 * _thisAdjusted = reinterpret_cast<RemoveCardFromFaceupUndoStep_t964717432 *>(__this + 1);
+	RemoveCardFromFaceupUndoStep__ctor_m1369848909(_thisAdjusted, ___cardIndex0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.RemoveCardFromFaceupUndoStep::get_eventTypeInt()
+extern "C"  int32_t RemoveCardFromFaceupUndoStep_get_eventTypeInt_m1360227276 (RemoveCardFromFaceupUndoStep_t964717432 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483625);
+	}
+}
+extern "C"  int32_t RemoveCardFromFaceupUndoStep_get_eventTypeInt_m1360227276_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardFromFaceupUndoStep_t964717432 * _thisAdjusted = reinterpret_cast<RemoveCardFromFaceupUndoStep_t964717432 *>(__this + 1);
+	return RemoveCardFromFaceupUndoStep_get_eventTypeInt_m1360227276(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.RemoveCardFromFaceupUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveCardFromFaceupUndoStep_get_eventTypeEnum_m2644103380_MetadataUsageId;
+extern "C"  Type_t * RemoveCardFromFaceupUndoStep_get_eventTypeEnum_m2644103380 (RemoveCardFromFaceupUndoStep_t964717432 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveCardFromFaceupUndoStep_get_eventTypeEnum_m2644103380_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * RemoveCardFromFaceupUndoStep_get_eventTypeEnum_m2644103380_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardFromFaceupUndoStep_t964717432 * _thisAdjusted = reinterpret_cast<RemoveCardFromFaceupUndoStep_t964717432 *>(__this + 1);
+	return RemoveCardFromFaceupUndoStep_get_eventTypeEnum_m2644103380(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveCardFromTableauUndoStep::.ctor(System.Int32)
+extern "C"  void RemoveCardFromTableauUndoStep__ctor_m3325805967 (RemoveCardFromTableauUndoStep_t2713688858 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardIndex0;
+		__this->set_cardIndex_0(L_0);
+		return;
+	}
+}
+extern "C"  void RemoveCardFromTableauUndoStep__ctor_m3325805967_AdjustorThunk (Il2CppObject * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	RemoveCardFromTableauUndoStep_t2713688858 * _thisAdjusted = reinterpret_cast<RemoveCardFromTableauUndoStep_t2713688858 *>(__this + 1);
+	RemoveCardFromTableauUndoStep__ctor_m3325805967(_thisAdjusted, ___cardIndex0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.RemoveCardFromTableauUndoStep::get_eventTypeInt()
+extern "C"  int32_t RemoveCardFromTableauUndoStep_get_eventTypeInt_m3427241432 (RemoveCardFromTableauUndoStep_t2713688858 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483618);
+	}
+}
+extern "C"  int32_t RemoveCardFromTableauUndoStep_get_eventTypeInt_m3427241432_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardFromTableauUndoStep_t2713688858 * _thisAdjusted = reinterpret_cast<RemoveCardFromTableauUndoStep_t2713688858 *>(__this + 1);
+	return RemoveCardFromTableauUndoStep_get_eventTypeInt_m3427241432(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.RemoveCardFromTableauUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveCardFromTableauUndoStep_get_eventTypeEnum_m138716856_MetadataUsageId;
+extern "C"  Type_t * RemoveCardFromTableauUndoStep_get_eventTypeEnum_m138716856 (RemoveCardFromTableauUndoStep_t2713688858 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveCardFromTableauUndoStep_get_eventTypeEnum_m138716856_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * RemoveCardFromTableauUndoStep_get_eventTypeEnum_m138716856_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardFromTableauUndoStep_t2713688858 * _thisAdjusted = reinterpret_cast<RemoveCardFromTableauUndoStep_t2713688858 *>(__this + 1);
+	return RemoveCardFromTableauUndoStep_get_eventTypeEnum_m138716856(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveCardFromWasteUndoStep::.ctor(System.Int32)
+extern "C"  void RemoveCardFromWasteUndoStep__ctor_m3927182109 (RemoveCardFromWasteUndoStep_t52364908 * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardID0;
+		__this->set_cardID_0(L_0);
+		return;
+	}
+}
+extern "C"  void RemoveCardFromWasteUndoStep__ctor_m3927182109_AdjustorThunk (Il2CppObject * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	RemoveCardFromWasteUndoStep_t52364908 * _thisAdjusted = reinterpret_cast<RemoveCardFromWasteUndoStep_t52364908 *>(__this + 1);
+	RemoveCardFromWasteUndoStep__ctor_m3927182109(_thisAdjusted, ___cardID0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.RemoveCardFromWasteUndoStep::get_eventTypeInt()
+extern "C"  int32_t RemoveCardFromWasteUndoStep_get_eventTypeInt_m1460995564 (RemoveCardFromWasteUndoStep_t52364908 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483619);
+	}
+}
+extern "C"  int32_t RemoveCardFromWasteUndoStep_get_eventTypeInt_m1460995564_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardFromWasteUndoStep_t52364908 * _thisAdjusted = reinterpret_cast<RemoveCardFromWasteUndoStep_t52364908 *>(__this + 1);
+	return RemoveCardFromWasteUndoStep_get_eventTypeInt_m1460995564(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.RemoveCardFromWasteUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveCardFromWasteUndoStep_get_eventTypeEnum_m221306724_MetadataUsageId;
+extern "C"  Type_t * RemoveCardFromWasteUndoStep_get_eventTypeEnum_m221306724 (RemoveCardFromWasteUndoStep_t52364908 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveCardFromWasteUndoStep_get_eventTypeEnum_m221306724_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * RemoveCardFromWasteUndoStep_get_eventTypeEnum_m221306724_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveCardFromWasteUndoStep_t52364908 * _thisAdjusted = reinterpret_cast<RemoveCardFromWasteUndoStep_t52364908 *>(__this + 1);
+	return RemoveCardFromWasteUndoStep_get_eventTypeEnum_m221306724(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveCardTask::.ctor(GSN.Skill.Games.Tripeaks.GameModel,System.Int32,System.Int32)
+extern "C"  void RemoveCardTask__ctor_m2999929181 (RemoveCardTask_t1841883743 * __this, GameModel_t3841817345 * ___model0, int32_t ___inCardId1, int32_t ___inDelay2, const MethodInfo* method)
+{
+	{
+		GsnTaskBase__ctor_m833660190(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___inCardId1;
+		__this->set__cardId_8(L_0);
+		GameModel_t3841817345 * L_1 = ___model0;
+		__this->set__model_7(L_1);
+		GameModel_t3841817345 * L_2 = ___model0;
+		int32_t L_3 = GameModelBase_GetStateTime_m1319221827(L_2, /*hidden argument*/NULL);
+		int32_t L_4 = ___inDelay2;
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void GSN.Skill.Games.Common.Tasks.GsnTaskBase::set_wakeUpTime(System.Int32) */, __this, ((int32_t)((int32_t)L_3+(int32_t)L_4)));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveCardTask::Run()
+extern Il2CppClass* RemoveCardEvent_t1579643884_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveCardTask_Run_m167577358_MetadataUsageId;
+extern "C"  void RemoveCardTask_Run_m167577358 (RemoveCardTask_t1841883743 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveCardTask_Run_m167577358_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameModel_t3841817345 * L_0 = __this->get__model_7();
+		int32_t L_1 = __this->get__cardId_8();
+		RemoveCardEvent_t1579643884  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		RemoveCardEvent__ctor_m4099864314(&L_2, L_1, (-1), /*hidden argument*/NULL);
+		RemoveCardEvent_t1579643884  L_3 = L_2;
+		Il2CppObject * L_4 = Box(RemoveCardEvent_t1579643884_il2cpp_TypeInfo_var, &L_3);
+		EventDispatcher_DispatchEvent_m4139058996(L_0, (Il2CppObject *)L_4, /*hidden argument*/NULL);
+		GsnTaskBase_UnSchedule_m1949516266(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemovedToDealUndoStep::.ctor(System.Int32)
+extern "C"  void RemovedToDealUndoStep__ctor_m1596948872 (RemovedToDealUndoStep_t47322973 * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardID0;
+		__this->set_cardID_0(L_0);
+		return;
+	}
+}
+extern "C"  void RemovedToDealUndoStep__ctor_m1596948872_AdjustorThunk (Il2CppObject * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	RemovedToDealUndoStep_t47322973 * _thisAdjusted = reinterpret_cast<RemovedToDealUndoStep_t47322973 *>(__this + 1);
+	RemovedToDealUndoStep__ctor_m1596948872(_thisAdjusted, ___cardID0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.RemovedToDealUndoStep::get_eventTypeInt()
+extern "C"  int32_t RemovedToDealUndoStep_get_eventTypeInt_m2190873133 (RemovedToDealUndoStep_t47322973 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483627);
+	}
+}
+extern "C"  int32_t RemovedToDealUndoStep_get_eventTypeInt_m2190873133_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemovedToDealUndoStep_t47322973 * _thisAdjusted = reinterpret_cast<RemovedToDealUndoStep_t47322973 *>(__this + 1);
+	return RemovedToDealUndoStep_get_eventTypeInt_m2190873133(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.RemovedToDealUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t RemovedToDealUndoStep_get_eventTypeEnum_m1268225771_MetadataUsageId;
+extern "C"  Type_t * RemovedToDealUndoStep_get_eventTypeEnum_m1268225771 (RemovedToDealUndoStep_t47322973 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemovedToDealUndoStep_get_eventTypeEnum_m1268225771_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * RemovedToDealUndoStep_get_eventTypeEnum_m1268225771_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemovedToDealUndoStep_t47322973 * _thisAdjusted = reinterpret_cast<RemovedToDealUndoStep_t47322973 *>(__this + 1);
+	return RemovedToDealUndoStep_get_eventTypeEnum_m1268225771(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveTrapEvent::.ctor(System.Int32)
+extern "C"  void RemoveTrapEvent__ctor_m3985468230 (RemoveTrapEvent_t1752705367 * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardID0;
+		__this->set_cardID_0(L_0);
+		return;
+	}
+}
+extern "C"  void RemoveTrapEvent__ctor_m3985468230_AdjustorThunk (Il2CppObject * __this, int32_t ___cardID0, const MethodInfo* method)
+{
+	RemoveTrapEvent_t1752705367 * _thisAdjusted = reinterpret_cast<RemoveTrapEvent_t1752705367 *>(__this + 1);
+	RemoveTrapEvent__ctor_m3985468230(_thisAdjusted, ___cardID0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.RemoveTrapEvent::get_eventTypeInt()
+extern "C"  int32_t RemoveTrapEvent_get_eventTypeInt_m1316720123 (RemoveTrapEvent_t1752705367 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483641);
+	}
+}
+extern "C"  int32_t RemoveTrapEvent_get_eventTypeInt_m1316720123_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveTrapEvent_t1752705367 * _thisAdjusted = reinterpret_cast<RemoveTrapEvent_t1752705367 *>(__this + 1);
+	return RemoveTrapEvent_get_eventTypeInt_m1316720123(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.RemoveTrapEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveTrapEvent_get_eventTypeEnum_m1461421269_MetadataUsageId;
+extern "C"  Type_t * RemoveTrapEvent_get_eventTypeEnum_m1461421269 (RemoveTrapEvent_t1752705367 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveTrapEvent_get_eventTypeEnum_m1461421269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * RemoveTrapEvent_get_eventTypeEnum_m1461421269_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	RemoveTrapEvent_t1752705367 * _thisAdjusted = reinterpret_cast<RemoveTrapEvent_t1752705367 *>(__this + 1);
+	return RemoveTrapEvent_get_eventTypeEnum_m1461421269(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveTrapTask::.ctor(GSN.Skill.Games.Tripeaks.GameModel,System.Int32,System.Int32)
+extern "C"  void RemoveTrapTask__ctor_m2934938808 (RemoveTrapTask_t2105561414 * __this, GameModel_t3841817345 * ___model0, int32_t ___inCardId1, int32_t ___inDelay2, const MethodInfo* method)
+{
+	{
+		GsnTaskBase__ctor_m833660190(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___inCardId1;
+		__this->set__cardId_8(L_0);
+		GameModel_t3841817345 * L_1 = ___model0;
+		__this->set__model_7(L_1);
+		GameModel_t3841817345 * L_2 = ___model0;
+		int32_t L_3 = GameModelBase_GetStateTime_m1319221827(L_2, /*hidden argument*/NULL);
+		int32_t L_4 = ___inDelay2;
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void GSN.Skill.Games.Common.Tasks.GsnTaskBase::set_wakeUpTime(System.Int32) */, __this, ((int32_t)((int32_t)L_3+(int32_t)L_4)));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.RemoveTrapTask::Run()
+extern Il2CppClass* RemoveTrapEvent_t1752705367_il2cpp_TypeInfo_var;
+extern const uint32_t RemoveTrapTask_Run_m1263390679_MetadataUsageId;
+extern "C"  void RemoveTrapTask_Run_m1263390679 (RemoveTrapTask_t2105561414 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (RemoveTrapTask_Run_m1263390679_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameModel_t3841817345 * L_0 = __this->get__model_7();
+		int32_t L_1 = __this->get__cardId_8();
+		RemoveTrapEvent_t1752705367  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		RemoveTrapEvent__ctor_m3985468230(&L_2, L_1, /*hidden argument*/NULL);
+		RemoveTrapEvent_t1752705367  L_3 = L_2;
+		Il2CppObject * L_4 = Box(RemoveTrapEvent_t1752705367_il2cpp_TypeInfo_var, &L_3);
+		EventDispatcher_DispatchEvent_m4139058996(L_0, (Il2CppObject *)L_4, /*hidden argument*/NULL);
+		GsnTaskBase_UnSchedule_m1949516266(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.ReshuffleCompleteEvent::get_eventTypeInt()
+extern "C"  int32_t ReshuffleCompleteEvent_get_eventTypeInt_m2837468519 (ReshuffleCompleteEvent_t992434719 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483632);
+	}
+}
+extern "C"  int32_t ReshuffleCompleteEvent_get_eventTypeInt_m2837468519_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ReshuffleCompleteEvent_t992434719 * _thisAdjusted = reinterpret_cast<ReshuffleCompleteEvent_t992434719 *>(__this + 1);
+	return ReshuffleCompleteEvent_get_eventTypeInt_m2837468519(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.ReshuffleCompleteEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t ReshuffleCompleteEvent_get_eventTypeEnum_m3570353421_MetadataUsageId;
+extern "C"  Type_t * ReshuffleCompleteEvent_get_eventTypeEnum_m3570353421 (ReshuffleCompleteEvent_t992434719 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReshuffleCompleteEvent_get_eventTypeEnum_m3570353421_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * ReshuffleCompleteEvent_get_eventTypeEnum_m3570353421_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ReshuffleCompleteEvent_t992434719 * _thisAdjusted = reinterpret_cast<ReshuffleCompleteEvent_t992434719 *>(__this + 1);
+	return ReshuffleCompleteEvent_get_eventTypeEnum_m3570353421(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.ReshuffleEvent::.ctor(System.String,System.Int32)
+extern "C"  void ReshuffleEvent__ctor_m348665201 (ReshuffleEvent_t614706430 * __this, String_t* ___reshuffledCards0, int32_t ___reshuffleTimePenalty1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___reshuffledCards0;
+		__this->set_reshuffledCards_0(L_0);
+		int32_t L_1 = ___reshuffleTimePenalty1;
+		__this->set_reshuffleTimePenalty_1(L_1);
+		return;
+	}
+}
+extern "C"  void ReshuffleEvent__ctor_m348665201_AdjustorThunk (Il2CppObject * __this, String_t* ___reshuffledCards0, int32_t ___reshuffleTimePenalty1, const MethodInfo* method)
+{
+	ReshuffleEvent_t614706430 * _thisAdjusted = reinterpret_cast<ReshuffleEvent_t614706430 *>(__this + 1);
+	ReshuffleEvent__ctor_m348665201(_thisAdjusted, ___reshuffledCards0, ___reshuffleTimePenalty1, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.ReshuffleEvent::get_eventTypeInt()
+extern "C"  int32_t ReshuffleEvent_get_eventTypeInt_m3304638960 (ReshuffleEvent_t614706430 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483640);
+	}
+}
+extern "C"  int32_t ReshuffleEvent_get_eventTypeInt_m3304638960_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ReshuffleEvent_t614706430 * _thisAdjusted = reinterpret_cast<ReshuffleEvent_t614706430 *>(__this + 1);
+	return ReshuffleEvent_get_eventTypeInt_m3304638960(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.ReshuffleEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t ReshuffleEvent_get_eventTypeEnum_m3675002932_MetadataUsageId;
+extern "C"  Type_t * ReshuffleEvent_get_eventTypeEnum_m3675002932 (ReshuffleEvent_t614706430 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReshuffleEvent_get_eventTypeEnum_m3675002932_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * ReshuffleEvent_get_eventTypeEnum_m3675002932_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ReshuffleEvent_t614706430 * _thisAdjusted = reinterpret_cast<ReshuffleEvent_t614706430 *>(__this + 1);
+	return ReshuffleEvent_get_eventTypeEnum_m3675002932(_thisAdjusted, method);
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.ReshuffleEvent
+extern "C" void ReshuffleEvent_t614706430_marshal_pinvoke(const ReshuffleEvent_t614706430& unmarshaled, ReshuffleEvent_t614706430_marshaled_pinvoke& marshaled)
+{
+	marshaled.___reshuffledCards_0 = il2cpp_codegen_marshal_string(unmarshaled.get_reshuffledCards_0());
+	marshaled.___reshuffleTimePenalty_1 = unmarshaled.get_reshuffleTimePenalty_1();
+}
+extern "C" void ReshuffleEvent_t614706430_marshal_pinvoke_back(const ReshuffleEvent_t614706430_marshaled_pinvoke& marshaled, ReshuffleEvent_t614706430& unmarshaled)
+{
+	unmarshaled.set_reshuffledCards_0(il2cpp_codegen_marshal_string_result(marshaled.___reshuffledCards_0));
+	int32_t unmarshaled_reshuffleTimePenalty_temp_1 = 0;
+	unmarshaled_reshuffleTimePenalty_temp_1 = marshaled.___reshuffleTimePenalty_1;
+	unmarshaled.set_reshuffleTimePenalty_1(unmarshaled_reshuffleTimePenalty_temp_1);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.ReshuffleEvent
+extern "C" void ReshuffleEvent_t614706430_marshal_pinvoke_cleanup(ReshuffleEvent_t614706430_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___reshuffledCards_0);
+	marshaled.___reshuffledCards_0 = NULL;
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.ReshuffleEvent
+extern "C" void ReshuffleEvent_t614706430_marshal_com(const ReshuffleEvent_t614706430& unmarshaled, ReshuffleEvent_t614706430_marshaled_com& marshaled)
+{
+	marshaled.___reshuffledCards_0 = il2cpp_codegen_marshal_bstring(unmarshaled.get_reshuffledCards_0());
+	marshaled.___reshuffleTimePenalty_1 = unmarshaled.get_reshuffleTimePenalty_1();
+}
+extern "C" void ReshuffleEvent_t614706430_marshal_com_back(const ReshuffleEvent_t614706430_marshaled_com& marshaled, ReshuffleEvent_t614706430& unmarshaled)
+{
+	unmarshaled.set_reshuffledCards_0(il2cpp_codegen_marshal_bstring_result(marshaled.___reshuffledCards_0));
+	int32_t unmarshaled_reshuffleTimePenalty_temp_1 = 0;
+	unmarshaled_reshuffleTimePenalty_temp_1 = marshaled.___reshuffleTimePenalty_1;
+	unmarshaled.set_reshuffleTimePenalty_1(unmarshaled_reshuffleTimePenalty_temp_1);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.ReshuffleEvent
+extern "C" void ReshuffleEvent_t614706430_marshal_com_cleanup(ReshuffleEvent_t614706430_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___reshuffledCards_0);
+	marshaled.___reshuffledCards_0 = NULL;
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.ReshuffleMessage::get_msgTypeInt()
+extern "C"  int32_t ReshuffleMessage_get_msgTypeInt_m2357539924 (ReshuffleMessage_t2220023905 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483645);
+	}
+}
+extern "C"  int32_t ReshuffleMessage_get_msgTypeInt_m2357539924_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ReshuffleMessage_t2220023905 * _thisAdjusted = reinterpret_cast<ReshuffleMessage_t2220023905 *>(__this + 1);
+	return ReshuffleMessage_get_msgTypeInt_m2357539924(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.ReshuffleMessage::get_msgTypeEnum()
+extern const Il2CppType* InputMessageType_t2745275775_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t ReshuffleMessage_get_msgTypeEnum_m4054404280_MetadataUsageId;
+extern "C"  Type_t * ReshuffleMessage_get_msgTypeEnum_m4054404280 (ReshuffleMessage_t2220023905 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReshuffleMessage_get_msgTypeEnum_m4054404280_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(InputMessageType_t2745275775_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * ReshuffleMessage_get_msgTypeEnum_m4054404280_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ReshuffleMessage_t2220023905 * _thisAdjusted = reinterpret_cast<ReshuffleMessage_t2220023905 *>(__this + 1);
+	return ReshuffleMessage_get_msgTypeEnum_m4054404280(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.ScoreFloat::.ctor()
+extern "C"  void ScoreFloat__ctor_m3957730514 (ScoreFloat_t1059481002 * __this, const MethodInfo* method)
+{
+	{
+		PooledMonoBehaviour__ctor_m4082200974(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.ScoreFloat::setScore(System.Int32,System.Int32,UnityEngine.Vector3,UnityEngine.GameObject)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029319;
+extern Il2CppCodeGenString* _stringLiteral3764579765;
+extern Il2CppCodeGenString* _stringLiteral372029310;
+extern Il2CppCodeGenString* _stringLiteral3105348320;
+extern const uint32_t ScoreFloat_setScore_m3540014937_MetadataUsageId;
+extern "C"  void ScoreFloat_setScore_m3540014937 (ScoreFloat_t1059481002 * __this, int32_t ___pointsEarned0, int32_t ___streak1, Vector3_t2243707580  ___fireballEndPos2, GameObject_t1756533147 * ___fireballObject3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScoreFloat_setScore_m3540014937_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		int32_t L_0 = ___streak1;
+		V_0 = ((float)((float)(1.0f)+(float)((float)((float)(((float)((float)L_0)))/(float)(10.0f)))));
+		float L_1 = V_0;
+		float L_2 = V_0;
+		float L_3 = V_0;
+		Vector3__ctor_m2638739322((&V_1), L_1, L_2, L_3, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_5 = V_1;
+		Transform_set_localScale_m2325460848(L_4, L_5, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_6 = __this->get_scoreValue_4();
+		Color32U5BU5D_t30278651* L_7 = __this->get_streakColors_6();
+		int32_t L_8 = ___streak1;
+		TMP_Text_set_faceColor_m2030197450(L_6, (*(Color32_t874517518 *)((L_7)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_8)))), /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_9 = __this->get_streakValue_5();
+		Color32U5BU5D_t30278651* L_10 = __this->get_streakColors_6();
+		int32_t L_11 = ___streak1;
+		TMP_Text_set_faceColor_m2030197450(L_9, (*(Color32_t874517518 *)((L_10)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_11)))), /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_12 = __this->get_scoreValue_4();
+		String_t* L_13 = Int32_ToString_m2960866144((&___pointsEarned0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral372029319, L_13, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_12, L_14, /*hidden argument*/NULL);
+		int32_t L_15 = ___streak1;
+		if ((!(((uint32_t)L_15) == ((uint32_t)5))))
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		TextMeshProUGUI_t934157183 * L_16 = __this->get_streakValue_5();
+		StringTable_t1872322127 * L_17 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_18 = StringTable_GetEntry_m2035826593(L_17, _stringLiteral3764579765, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_16, L_18, /*hidden argument*/NULL);
+		goto IL_00cf;
+	}
+
+IL_00a5:
+	{
+		TextMeshProUGUI_t934157183 * L_19 = __this->get_streakValue_5();
+		int32_t L_20 = ___streak1;
+		int32_t L_21 = L_20;
+		Il2CppObject * L_22 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_21);
+		StringTable_t1872322127 * L_23 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_24 = StringTable_GetEntry_m2035826593(L_23, _stringLiteral3105348320, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_25 = String_Concat_m2000667605(NULL /*static, unused*/, L_22, _stringLiteral372029310, L_24, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_19, L_25, /*hidden argument*/NULL);
+	}
+
+IL_00cf:
+	{
+		Vector3_t2243707580  L_26 = ___fireballEndPos2;
+		GameObject_t1756533147 * L_27 = ___fireballObject3;
+		Il2CppObject * L_28 = ScoreFloat_playFireballEffect_m3204677581(__this, L_26, L_27, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_28, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.ScoreFloat::playFireballEffect(UnityEngine.Vector3,UnityEngine.GameObject)
+extern Il2CppClass* U3CplayFireballEffectU3Ec__Iterator0_t3428726659_il2cpp_TypeInfo_var;
+extern const uint32_t ScoreFloat_playFireballEffect_m3204677581_MetadataUsageId;
+extern "C"  Il2CppObject * ScoreFloat_playFireballEffect_m3204677581 (ScoreFloat_t1059481002 * __this, Vector3_t2243707580  ___fireballEndPos0, GameObject_t1756533147 * ___fireballObject1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ScoreFloat_playFireballEffect_m3204677581_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * V_0 = NULL;
+	{
+		U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * L_0 = (U3CplayFireballEffectU3Ec__Iterator0_t3428726659 *)il2cpp_codegen_object_new(U3CplayFireballEffectU3Ec__Iterator0_t3428726659_il2cpp_TypeInfo_var);
+		U3CplayFireballEffectU3Ec__Iterator0__ctor_m2288415614(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * L_1 = V_0;
+		Vector3_t2243707580  L_2 = ___fireballEndPos0;
+		L_1->set_fireballEndPos_0(L_2);
+		U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * L_3 = V_0;
+		GameObject_t1756533147 * L_4 = ___fireballObject1;
+		L_3->set_fireballObject_1(L_4);
+		U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * L_5 = V_0;
+		L_5->set_U24this_4(__this);
+		U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.ScoreFloat/<playFireballEffect>c__Iterator0::.ctor()
+extern "C"  void U3CplayFireballEffectU3Ec__Iterator0__ctor_m2288415614 (U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.ScoreFloat/<playFireballEffect>c__Iterator0::MoveNext()
+extern Il2CppClass* LeanTween_t4120592429_il2cpp_TypeInfo_var;
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504_MethodInfo_var;
+extern const uint32_t U3CplayFireballEffectU3Ec__Iterator0_MoveNext_m3228360866_MetadataUsageId;
+extern "C"  bool U3CplayFireballEffectU3Ec__Iterator0_MoveNext_m3228360866 (U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CplayFireballEffectU3Ec__Iterator0_MoveNext_m3228360866_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_7();
+		V_0 = L_0;
+		__this->set_U24PC_7((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		goto IL_0104;
+	}
+
+IL_0021:
+	{
+		Vector3_t2243707580 * L_2 = __this->get_address_of_fireballEndPos_0();
+		Vector3_t2243707580 * L_3 = L_2;
+		float L_4 = L_3->get_z_3();
+		L_3->set_z_3(((float)((float)L_4-(float)(50.0f))));
+		GameObject_t1756533147 * L_5 = __this->get_fireballObject_1();
+		__this->set_U3CfireBallU3E__0_2(L_5);
+		GameObject_t1756533147 * L_6 = __this->get_U3CfireBallU3E__0_2();
+		ParticleSystem_t3394631041 * L_7 = GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504(L_6, /*hidden argument*/GameObject_GetComponent_TisParticleSystem_t3394631041_m2067134504_MethodInfo_var);
+		__this->set_U3CfireFXU3E__1_3(L_7);
+		GameObject_t1756533147 * L_8 = __this->get_U3CfireBallU3E__0_2();
+		Transform_t3275118058 * L_9 = GameObject_get_transform_m909382139(L_8, /*hidden argument*/NULL);
+		ScoreFloat_t1059481002 * L_10 = __this->get_U24this_4();
+		Transform_t3275118058 * L_11 = Component_get_transform_m2697483695(L_10, /*hidden argument*/NULL);
+		Transform_SetParent_m4124909910(L_9, L_11, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_12 = __this->get_U3CfireBallU3E__0_2();
+		Transform_t3275118058 * L_13 = GameObject_get_transform_m909382139(L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_set_localScale_m2325460848(L_13, L_14, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_15 = __this->get_U3CfireBallU3E__0_2();
+		Transform_t3275118058 * L_16 = GameObject_get_transform_m909382139(L_15, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_17 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_set_localPosition_m1026930133(L_16, L_17, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_18 = __this->get_U3CfireBallU3E__0_2();
+		GameObject_SetActive_m2887581199(L_18, (bool)1, /*hidden argument*/NULL);
+		ParticleSystem_t3394631041 * L_19 = __this->get_U3CfireFXU3E__1_3();
+		ParticleSystem_Play_m4171585816(L_19, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_20 = __this->get_U3CfireBallU3E__0_2();
+		Vector3_t2243707580  L_21 = __this->get_fireballEndPos_0();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTween_t4120592429_il2cpp_TypeInfo_var);
+		LTDescr_t1981209097 * L_22 = LeanTween_move_m3863927325(NULL /*static, unused*/, L_20, L_21, (0.3f), /*hidden argument*/NULL);
+		LTDescr_setEase_m25599883(L_22, 2, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_23 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_23, (0.3f), /*hidden argument*/NULL);
+		__this->set_U24current_5(L_23);
+		bool L_24 = __this->get_U24disposing_6();
+		if (L_24)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		__this->set_U24PC_7(1);
+	}
+
+IL_00ed:
+	{
+		goto IL_0106;
+	}
+
+IL_00f2:
+	{
+		ParticleSystem_t3394631041 * L_25 = __this->get_U3CfireFXU3E__1_3();
+		ParticleSystem_Stop_m941760450(L_25, /*hidden argument*/NULL);
+		__this->set_U24PC_7((-1));
+	}
+
+IL_0104:
+	{
+		return (bool)0;
+	}
+
+IL_0106:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.ScoreFloat/<playFireballEffect>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CplayFireballEffectU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m753057482 (U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.ScoreFloat/<playFireballEffect>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CplayFireballEffectU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1227873682 (U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.ScoreFloat/<playFireballEffect>c__Iterator0::Dispose()
+extern "C"  void U3CplayFireballEffectU3Ec__Iterator0_Dispose_m1250662249 (U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_6((bool)1);
+		__this->set_U24PC_7((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.ScoreFloat/<playFireballEffect>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CplayFireballEffectU3Ec__Iterator0_Reset_m3082746943_MetadataUsageId;
+extern "C"  void U3CplayFireballEffectU3Ec__Iterator0_Reset_m3082746943 (U3CplayFireballEffectU3Ec__Iterator0_t3428726659 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CplayFireballEffectU3Ec__Iterator0_Reset_m3082746943_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.SharkTutorial::.ctor()
+extern "C"  void SharkTutorial__ctor_m4041578865 (SharkTutorial_t1460643925 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.SharkTutorial::Start()
+extern "C"  void SharkTutorial_Start_m326337 (SharkTutorial_t1460643925 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = SharkTutorial_playCutscene_m2930337063(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.SharkTutorial::playCutscene()
+extern Il2CppClass* U3CplayCutsceneU3Ec__Iterator0_t2937921504_il2cpp_TypeInfo_var;
+extern const uint32_t SharkTutorial_playCutscene_m2930337063_MetadataUsageId;
+extern "C"  Il2CppObject * SharkTutorial_playCutscene_m2930337063 (SharkTutorial_t1460643925 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SharkTutorial_playCutscene_m2930337063_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CplayCutsceneU3Ec__Iterator0_t2937921504 * V_0 = NULL;
+	{
+		U3CplayCutsceneU3Ec__Iterator0_t2937921504 * L_0 = (U3CplayCutsceneU3Ec__Iterator0_t2937921504 *)il2cpp_codegen_object_new(U3CplayCutsceneU3Ec__Iterator0_t2937921504_il2cpp_TypeInfo_var);
+		U3CplayCutsceneU3Ec__Iterator0__ctor_m2661563785(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CplayCutsceneU3Ec__Iterator0_t2937921504 * L_1 = V_0;
+		L_1->set_U24this_0(__this);
+		U3CplayCutsceneU3Ec__Iterator0_t2937921504 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.SharkTutorial/<playCutscene>c__Iterator0::.ctor()
+extern "C"  void U3CplayCutsceneU3Ec__Iterator0__ctor_m2661563785 (U3CplayCutsceneU3Ec__Iterator0_t2937921504 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.SharkTutorial/<playCutscene>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3555832826;
+extern Il2CppCodeGenString* _stringLiteral849758669;
+extern const uint32_t U3CplayCutsceneU3Ec__Iterator0_MoveNext_m2383528479_MetadataUsageId;
+extern "C"  bool U3CplayCutsceneU3Ec__Iterator0_MoveNext_m2383528479 (U3CplayCutsceneU3Ec__Iterator0_t2937921504 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CplayCutsceneU3Ec__Iterator0_MoveNext_m2383528479_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0041;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0065;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_00b5;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_00f8;
+		}
+		if (L_1 == 4)
+		{
+			goto IL_012a;
+		}
+		if (L_1 == 5)
+		{
+			goto IL_015f;
+		}
+		if (L_1 == 6)
+		{
+			goto IL_0191;
+		}
+		if (L_1 == 7)
+		{
+			goto IL_01c3;
+		}
+		if (L_1 == 8)
+		{
+			goto IL_020a;
+		}
+		if (L_1 == 9)
+		{
+			goto IL_025f;
+		}
+	}
+	{
+		goto IL_02af;
+	}
+
+IL_0041:
+	{
+		WaitForSeconds_t3839502067 * L_2 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_2, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_2);
+		bool L_3 = __this->get_U24disposing_2();
+		if (L_3)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_0060:
+	{
+		goto IL_02b1;
+	}
+
+IL_0065:
+	{
+		SharkTutorial_t1460643925 * L_4 = __this->get_U24this_0();
+		TikiCharacter_t3385186228 * L_5 = L_4->get_tiki_2();
+		GameObject_t1756533147 * L_6 = Component_get_gameObject_m3105766835(L_5, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_6, (bool)1, /*hidden argument*/NULL);
+		SharkTutorial_t1460643925 * L_7 = __this->get_U24this_0();
+		PoiCharacter_t134467383 * L_8 = L_7->get_poi_3();
+		GameObject_t1756533147 * L_9 = Component_get_gameObject_m3105766835(L_8, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_9, (bool)1, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_10 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_10, (1.8f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_10);
+		bool L_11 = __this->get_U24disposing_2();
+		if (L_11)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		__this->set_U24PC_3(2);
+	}
+
+IL_00b0:
+	{
+		goto IL_02b1;
+	}
+
+IL_00b5:
+	{
+		SharkTutorial_t1460643925 * L_12 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_13 = L_12->get_sharkCard_4();
+		GameObject_SetActive_m2887581199(L_13, (bool)1, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_14 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_14, ((int32_t)51), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_15 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_15, (0.7f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_15);
+		bool L_16 = __this->get_U24disposing_2();
+		if (L_16)
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		__this->set_U24PC_3(3);
+	}
+
+IL_00f3:
+	{
+		goto IL_02b1;
+	}
+
+IL_00f8:
+	{
+		AudioFactory_t2285776918 * L_17 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_17, ((int32_t)20), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_18 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_18, (3.8f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_18);
+		bool L_19 = __this->get_U24disposing_2();
+		if (L_19)
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		__this->set_U24PC_3(4);
+	}
+
+IL_0125:
+	{
+		goto IL_02b1;
+	}
+
+IL_012a:
+	{
+		SharkTutorial_t1460643925 * L_20 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_21 = L_20->get_baitCard_5();
+		GameObject_SetActive_m2887581199(L_21, (bool)1, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_22 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_22, (0.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_22);
+		bool L_23 = __this->get_U24disposing_2();
+		if (L_23)
+		{
+			goto IL_015a;
+		}
+	}
+	{
+		__this->set_U24PC_3(5);
+	}
+
+IL_015a:
+	{
+		goto IL_02b1;
+	}
+
+IL_015f:
+	{
+		AudioFactory_t2285776918 * L_24 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_24, ((int32_t)51), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_25 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_25, (0.7f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_25);
+		bool L_26 = __this->get_U24disposing_2();
+		if (L_26)
+		{
+			goto IL_018c;
+		}
+	}
+	{
+		__this->set_U24PC_3(6);
+	}
+
+IL_018c:
+	{
+		goto IL_02b1;
+	}
+
+IL_0191:
+	{
+		AudioFactory_t2285776918 * L_27 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_27, ((int32_t)49), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_28 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_28, (0.8f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_28);
+		bool L_29 = __this->get_U24disposing_2();
+		if (L_29)
+		{
+			goto IL_01be;
+		}
+	}
+	{
+		__this->set_U24PC_3(7);
+	}
+
+IL_01be:
+	{
+		goto IL_02b1;
+	}
+
+IL_01c3:
+	{
+		SharkTutorial_t1460643925 * L_30 = __this->get_U24this_0();
+		Animator_t69676727 * L_31 = L_30->get_sharkAnimator_7();
+		Animator_Play_m1123842248(L_31, _stringLiteral3555832826, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_32 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_32, ((int32_t)21), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_33 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_33, (0.98f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_33);
+		bool L_34 = __this->get_U24disposing_2();
+		if (L_34)
+		{
+			goto IL_0205;
+		}
+	}
+	{
+		__this->set_U24PC_3(8);
+	}
+
+IL_0205:
+	{
+		goto IL_02b1;
+	}
+
+IL_020a:
+	{
+		SharkTutorial_t1460643925 * L_35 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_36 = L_35->get_waterParticles_6();
+		GameObject_SetActive_m2887581199(L_36, (bool)1, /*hidden argument*/NULL);
+		SharkTutorial_t1460643925 * L_37 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_38 = L_37->get_baitCard_5();
+		GameObject_SetActive_m2887581199(L_38, (bool)0, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_39 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_39, ((int32_t)52), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_40 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_40, (3.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_40);
+		bool L_41 = __this->get_U24disposing_2();
+		if (L_41)
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		__this->set_U24PC_3(((int32_t)9));
+	}
+
+IL_025a:
+	{
+		goto IL_02b1;
+	}
+
+IL_025f:
+	{
+		SharkTutorial_t1460643925 * L_42 = __this->get_U24this_0();
+		UIHugeWin_t3990307283 * L_43 = L_42->get_banner_8();
+		UIHugeWin_setWinText_m3231683108(L_43, _stringLiteral849758669, /*hidden argument*/NULL);
+		SharkTutorial_t1460643925 * L_44 = __this->get_U24this_0();
+		UIHugeWin_t3990307283 * L_45 = L_44->get_banner_8();
+		GameObject_t1756533147 * L_46 = Component_get_gameObject_m3105766835(L_45, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_46, (bool)1, /*hidden argument*/NULL);
+		SharkTutorial_t1460643925 * L_47 = __this->get_U24this_0();
+		UIHugeWin_t3990307283 * L_48 = L_47->get_banner_8();
+		UIHugeWin_ShowHugeWin_m3059137333(L_48, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_49 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_49, ((int32_t)50), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_02af:
+	{
+		return (bool)0;
+	}
+
+IL_02b1:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.SharkTutorial/<playCutscene>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CplayCutsceneU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2758474683 (U3CplayCutsceneU3Ec__Iterator0_t2937921504 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.SharkTutorial/<playCutscene>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CplayCutsceneU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3990327507 (U3CplayCutsceneU3Ec__Iterator0_t2937921504 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.SharkTutorial/<playCutscene>c__Iterator0::Dispose()
+extern "C"  void U3CplayCutsceneU3Ec__Iterator0_Dispose_m1865557738 (U3CplayCutsceneU3Ec__Iterator0_t2937921504 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.SharkTutorial/<playCutscene>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CplayCutsceneU3Ec__Iterator0_Reset_m1439669996_MetadataUsageId;
+extern "C"  void U3CplayCutsceneU3Ec__Iterator0_Reset_m1439669996 (U3CplayCutsceneU3Ec__Iterator0_t2937921504 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CplayCutsceneU3Ec__Iterator0_Reset_m1439669996_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.ShowBannerEvent::.ctor(System.Int32)
+extern "C"  void ShowBannerEvent__ctor_m3168281758 (ShowBannerEvent_t1981401907 * __this, int32_t ___bannerFlag0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___bannerFlag0;
+		__this->set_bannerFlag_0(L_0);
+		return;
+	}
+}
+extern "C"  void ShowBannerEvent__ctor_m3168281758_AdjustorThunk (Il2CppObject * __this, int32_t ___bannerFlag0, const MethodInfo* method)
+{
+	ShowBannerEvent_t1981401907 * _thisAdjusted = reinterpret_cast<ShowBannerEvent_t1981401907 *>(__this + 1);
+	ShowBannerEvent__ctor_m3168281758(_thisAdjusted, ___bannerFlag0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.ShowBannerEvent::get_eventTypeInt()
+extern "C"  int32_t ShowBannerEvent_get_eventTypeInt_m3920683353 (ShowBannerEvent_t1981401907 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483639);
+	}
+}
+extern "C"  int32_t ShowBannerEvent_get_eventTypeInt_m3920683353_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ShowBannerEvent_t1981401907 * _thisAdjusted = reinterpret_cast<ShowBannerEvent_t1981401907 *>(__this + 1);
+	return ShowBannerEvent_get_eventTypeInt_m3920683353(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.ShowBannerEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t ShowBannerEvent_get_eventTypeEnum_m1547444571_MetadataUsageId;
+extern "C"  Type_t * ShowBannerEvent_get_eventTypeEnum_m1547444571 (ShowBannerEvent_t1981401907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ShowBannerEvent_get_eventTypeEnum_m1547444571_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * ShowBannerEvent_get_eventTypeEnum_m1547444571_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ShowBannerEvent_t1981401907 * _thisAdjusted = reinterpret_cast<ShowBannerEvent_t1981401907 *>(__this + 1);
+	return ShowBannerEvent_get_eventTypeEnum_m1547444571(_thisAdjusted, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.ShowReshuffleButtonEvent::get_eventTypeInt()
+extern "C"  int32_t ShowReshuffleButtonEvent_get_eventTypeInt_m2799717995 (ShowReshuffleButtonEvent_t2008462107 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483638);
+	}
+}
+extern "C"  int32_t ShowReshuffleButtonEvent_get_eventTypeInt_m2799717995_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ShowReshuffleButtonEvent_t2008462107 * _thisAdjusted = reinterpret_cast<ShowReshuffleButtonEvent_t2008462107 *>(__this + 1);
+	return ShowReshuffleButtonEvent_get_eventTypeInt_m2799717995(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.ShowReshuffleButtonEvent::get_eventTypeEnum()
+extern const Il2CppType* ModelEventType_t104980243_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t ShowReshuffleButtonEvent_get_eventTypeEnum_m2101015905_MetadataUsageId;
+extern "C"  Type_t * ShowReshuffleButtonEvent_get_eventTypeEnum_m2101015905 (ShowReshuffleButtonEvent_t2008462107 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ShowReshuffleButtonEvent_get_eventTypeEnum_m2101015905_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ModelEventType_t104980243_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * ShowReshuffleButtonEvent_get_eventTypeEnum_m2101015905_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ShowReshuffleButtonEvent_t2008462107 * _thisAdjusted = reinterpret_cast<ShowReshuffleButtonEvent_t2008462107 *>(__this + 1);
+	return ShowReshuffleButtonEvent_get_eventTypeEnum_m2101015905(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.TableauToWasteUndoStep::.ctor(System.Int32)
+extern "C"  void TableauToWasteUndoStep__ctor_m2567621598 (TableauToWasteUndoStep_t2195983855 * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardIndex0;
+		__this->set_cardIndex_0(L_0);
+		return;
+	}
+}
+extern "C"  void TableauToWasteUndoStep__ctor_m2567621598_AdjustorThunk (Il2CppObject * __this, int32_t ___cardIndex0, const MethodInfo* method)
+{
+	TableauToWasteUndoStep_t2195983855 * _thisAdjusted = reinterpret_cast<TableauToWasteUndoStep_t2195983855 *>(__this + 1);
+	TableauToWasteUndoStep__ctor_m2567621598(_thisAdjusted, ___cardIndex0, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.TableauToWasteUndoStep::get_eventTypeInt()
+extern "C"  int32_t TableauToWasteUndoStep_get_eventTypeInt_m2258508753 (TableauToWasteUndoStep_t2195983855 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483630);
+	}
+}
+extern "C"  int32_t TableauToWasteUndoStep_get_eventTypeInt_m2258508753_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	TableauToWasteUndoStep_t2195983855 * _thisAdjusted = reinterpret_cast<TableauToWasteUndoStep_t2195983855 *>(__this + 1);
+	return TableauToWasteUndoStep_get_eventTypeInt_m2258508753(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.TableauToWasteUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t TableauToWasteUndoStep_get_eventTypeEnum_m2217097235_MetadataUsageId;
+extern "C"  Type_t * TableauToWasteUndoStep_get_eventTypeEnum_m2217097235 (TableauToWasteUndoStep_t2195983855 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TableauToWasteUndoStep_get_eventTypeEnum_m2217097235_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * TableauToWasteUndoStep_get_eventTypeEnum_m2217097235_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	TableauToWasteUndoStep_t2195983855 * _thisAdjusted = reinterpret_cast<TableauToWasteUndoStep_t2195983855 *>(__this + 1);
+	return TableauToWasteUndoStep_get_eventTypeEnum_m2217097235(_thisAdjusted, method);
+}
+// System.Void GSN.Skill.Games.Tripeaks.TextMeshProStringBind::.ctor()
+extern "C"  void TextMeshProStringBind__ctor_m2627376025 (TextMeshProStringBind_t1194233701 * __this, const MethodInfo* method)
+{
+	{
+		StringBind__ctor_m1750920967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TextMeshProStringBind::Start()
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern const uint32_t TextMeshProStringBind_Start_m1604448721_MetadataUsageId;
+extern "C"  void TextMeshProStringBind_Start_m1604448721 (TextMeshProStringBind_t1194233701 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TextMeshProStringBind_Start_m1604448721_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringTable_t1872322127 * L_0 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_1 = StringBind_get_id_m3165996612(__this, /*hidden argument*/NULL);
+		String_t* L_2 = StringTable_GetEntry_m2035826593(L_0, L_1, /*hidden argument*/NULL);
+		VirtActionInvoker1< String_t* >::Invoke(4 /* System.Void GSN.Skill.Games.Common.Client.StringBind::SetComponentText(System.String) */, __this, L_2);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TextMeshProStringBind::SetComponentText(System.String)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisTextMeshPro_t2521834357_m3938001502_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisTextMeshProUGUI_t934157183_m2082539744_MethodInfo_var;
+extern const uint32_t TextMeshProStringBind_SetComponentText_m2788298479_MetadataUsageId;
+extern "C"  void TextMeshProStringBind_SetComponentText_m2788298479 (TextMeshProStringBind_t1194233701 * __this, String_t* ___s0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TextMeshProStringBind_SetComponentText_m2788298479_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TextMeshPro_t2521834357 * V_0 = NULL;
+	TextMeshProUGUI_t934157183 * V_1 = NULL;
+	{
+		TextMeshPro_t2521834357 * L_0 = Component_GetComponent_TisTextMeshPro_t2521834357_m3938001502(__this, /*hidden argument*/Component_GetComponent_TisTextMeshPro_t2521834357_m3938001502_MethodInfo_var);
+		V_0 = L_0;
+		TextMeshPro_t2521834357 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		TextMeshPro_t2521834357 * L_3 = V_0;
+		String_t* L_4 = ___s0;
+		TMP_Text_set_text_m2562079954(L_3, L_4, /*hidden argument*/NULL);
+		goto IL_0045;
+	}
+
+IL_001f:
+	{
+		TextMeshProUGUI_t934157183 * L_5 = Component_GetComponent_TisTextMeshProUGUI_t934157183_m2082539744(__this, /*hidden argument*/Component_GetComponent_TisTextMeshProUGUI_t934157183_m2082539744_MethodInfo_var);
+		V_1 = L_5;
+		TextMeshProUGUI_t934157183 * L_6 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		TextMeshProUGUI_t934157183 * L_8 = V_1;
+		String_t* L_9 = ___s0;
+		TMP_Text_set_text_m2562079954(L_8, L_9, /*hidden argument*/NULL);
+		goto IL_0045;
+	}
+
+IL_003e:
+	{
+		String_t* L_10 = ___s0;
+		StringBind_SetComponentText_m287979653(__this, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCard::.ctor()
+extern "C"  void TikiCard__ctor_m890022937 (TikiCard_t4028868529 * __this, const MethodInfo* method)
+{
+	{
+		Card__ctor_m3748902628(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCard::setCard(System.Int32,System.Int32,GSN.Skill.Games.Tripeaks.PileID,GSN.Skill.Games.Tripeaks.CardType,GSN.Skill.Games.Tripeaks.DeckData)
+extern Il2CppCodeGenString* _stringLiteral4026354833;
+extern const uint32_t TikiCard_setCard_m838880974_MetadataUsageId;
+extern "C"  void TikiCard_setCard_m838880974 (TikiCard_t4028868529 * __this, int32_t ___cardId0, int32_t ___index1, int32_t ___pileID2, int32_t ___cardType3, DeckData_t2475950745 * ___deckData4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TikiCard_setCard_m838880974_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___cardId0;
+		int32_t L_1 = ___index1;
+		int32_t L_2 = ___pileID2;
+		int32_t L_3 = ___cardType3;
+		DeckData_t2475950745 * L_4 = ___deckData4;
+		Card_setCard_m3240097925(__this, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		MeshRenderer_t1268241104 * L_5 = ((Card_t2087545274 *)__this)->get__cardBackRenderer_12();
+		Material_t193706927 * L_6 = Renderer_get_material_m2553789785(L_5, /*hidden argument*/NULL);
+		DeckData_t2475950745 * L_7 = ___deckData4;
+		Texture_t2243626319 * L_8 = L_7->get__cardBackTexture_5();
+		Material_SetTexture_m141095205(L_6, _stringLiteral4026354833, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCardData::.ctor(System.String)
+extern Il2CppClass* JsonConvert_t3949895659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern const MethodInfo* JsonConvert_DeserializeObject_TisList_1_t1440998580_m1883485969_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1921196075_MethodInfo_var;
+extern const uint32_t TikiCardData__ctor_m1398949079_MetadataUsageId;
+extern "C"  void TikiCardData__ctor_m1398949079 (TikiCardData_t3556096769 * __this, String_t* ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TikiCardData__ctor_m1398949079_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1440998580 * V_0 = NULL;
+	{
+		__this->set_maxCount_1(1);
+		__this->set_chance_2(5);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___data0;
+		IL2CPP_RUNTIME_CLASS_INIT(JsonConvert_t3949895659_il2cpp_TypeInfo_var);
+		List_1_t1440998580 * L_1 = JsonConvert_DeserializeObject_TisList_1_t1440998580_m1883485969(NULL /*static, unused*/, L_0, /*hidden argument*/JsonConvert_DeserializeObject_TisList_1_t1440998580_m1883485969_MethodInfo_var);
+		V_0 = L_1;
+		List_1_t1440998580 * L_2 = V_0;
+		int32_t L_3 = List_1_get_Item_m1921196075(L_2, 0, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		int32_t L_4 = Convert_ToInt32_m328425406(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		__this->set_minCount_0(L_4);
+		List_1_t1440998580 * L_5 = V_0;
+		int32_t L_6 = List_1_get_Item_m1921196075(L_5, 1, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		int32_t L_7 = Convert_ToInt32_m328425406(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		__this->set_maxCount_1(L_7);
+		List_1_t1440998580 * L_8 = V_0;
+		int32_t L_9 = List_1_get_Item_m1921196075(L_8, 2, /*hidden argument*/List_1_get_Item_m1921196075_MethodInfo_var);
+		int32_t L_10 = Convert_ToInt32_m328425406(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		__this->set_chance_2(L_10);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCharacter::.ctor()
+extern "C"  void TikiCharacter__ctor_m3216917386 (TikiCharacter_t3385186228 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCharacter::playAnimation(System.String,System.Int32)
+extern "C"  void TikiCharacter_playAnimation_m3479830753 (TikiCharacter_t3385186228 * __this, String_t* ___animName0, int32_t ___animLayer1, const MethodInfo* method)
+{
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_2();
+		int32_t L_1 = ___animLayer1;
+		Animator_SetLayerWeight_m2914961795(L_0, L_1, (1.0f), /*hidden argument*/NULL);
+		Animator_t69676727 * L_2 = __this->get_animator_2();
+		String_t* L_3 = ___animName0;
+		Animator_Play_m1123842248(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCharacter::setTimeOfDayTint(System.Int32)
+extern "C"  void TikiCharacter_setTimeOfDayTint_m3995558258 (TikiCharacter_t3385186228 * __this, int32_t ___timeIndex0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___timeIndex0;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_1 = ___timeIndex0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_2 = ___timeIndex0;
+		if ((((int32_t)L_2) == ((int32_t)2)))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		goto IL_00a2;
+	}
+
+IL_0019:
+	{
+		goto IL_00a2;
+	}
+
+IL_001e:
+	{
+		V_0 = 0;
+		goto IL_003c;
+	}
+
+IL_0025:
+	{
+		RendererU5BU5D_t2810717544* L_3 = __this->get_maskObjects_3();
+		int32_t L_4 = V_0;
+		int32_t L_5 = L_4;
+		Renderer_t257310565 * L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		Material_t193706927 * L_7 = __this->get_sunsetMask_5();
+		Renderer_set_material_m1053097112(L_6, L_7, /*hidden argument*/NULL);
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_003c:
+	{
+		int32_t L_9 = V_0;
+		RendererU5BU5D_t2810717544* L_10 = __this->get_maskObjects_3();
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Renderer_t257310565 * L_11 = __this->get_bodyObject_4();
+		Material_t193706927 * L_12 = __this->get_sunsetBody_7();
+		Renderer_set_material_m1053097112(L_11, L_12, /*hidden argument*/NULL);
+		goto IL_00a2;
+	}
+
+IL_0060:
+	{
+		V_1 = 0;
+		goto IL_007e;
+	}
+
+IL_0067:
+	{
+		RendererU5BU5D_t2810717544* L_13 = __this->get_maskObjects_3();
+		int32_t L_14 = V_1;
+		int32_t L_15 = L_14;
+		Renderer_t257310565 * L_16 = (L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
+		Material_t193706927 * L_17 = __this->get_nightMask_6();
+		Renderer_set_material_m1053097112(L_16, L_17, /*hidden argument*/NULL);
+		int32_t L_18 = V_1;
+		V_1 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_007e:
+	{
+		int32_t L_19 = V_1;
+		RendererU5BU5D_t2810717544* L_20 = __this->get_maskObjects_3();
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		Renderer_t257310565 * L_21 = __this->get_bodyObject_4();
+		Material_t193706927 * L_22 = __this->get_nightBody_8();
+		Renderer_set_material_m1053097112(L_21, L_22, /*hidden argument*/NULL);
+		goto IL_00a2;
+	}
+
+IL_00a2:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCharacter::playDustFX()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t TikiCharacter_playDustFX_m3505821052_MetadataUsageId;
+extern "C"  void TikiCharacter_playDustFX_m3505821052 (TikiCharacter_t3385186228 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TikiCharacter_playDustFX_m3505821052_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DustFX_t531013926 * L_0 = __this->get_dustFX_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		DustFX_t531013926 * L_2 = __this->get_dustFX_9();
+		DustFX_PlayDustEffect_m3494871963(L_2, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TikiCharacter::stopDustFX()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t TikiCharacter_stopDustFX_m3549144886_MetadataUsageId;
+extern "C"  void TikiCharacter_stopDustFX_m3549144886 (TikiCharacter_t3385186228 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TikiCharacter_stopDustFX_m3549144886_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DustFX_t531013926 * L_0 = __this->get_dustFX_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		DustFX_t531013926 * L_2 = __this->get_dustFX_9();
+		DustFX_StopDustEffect_m2862721755(L_2, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapHazard::.ctor()
+extern "C"  void TrapHazard__ctor_m1419536209 (TrapHazard_t2246406283 * __this, const MethodInfo* method)
+{
+	{
+		Hazard__ctor_m3987620494(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapHazard::ShowOverlay()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const uint32_t TrapHazard_ShowOverlay_m3430064284_MetadataUsageId;
+extern "C"  void TrapHazard_ShowOverlay_m3430064284 (TrapHazard_t2246406283 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrapHazard_ShowOverlay_m3430064284_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Hazard_ShowOverlay_m752205255(__this, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)15), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapHazard::HideOverlay()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const uint32_t TrapHazard_HideOverlay_m4219515615_MetadataUsageId;
+extern "C"  void TrapHazard_HideOverlay_m4219515615 (TrapHazard_t2246406283 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrapHazard_HideOverlay_m4219515615_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Hazard_HideOverlay_m490681446(__this, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)16), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapTutorial::.ctor()
+extern "C"  void TrapTutorial__ctor_m1158981385 (TrapTutorial_t2712053025 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapTutorial::Start()
+extern "C"  void TrapTutorial_Start_m405824617 (TrapTutorial_t2712053025 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = TrapTutorial_playCutscene_m2236787719(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.TrapTutorial::playCutscene()
+extern Il2CppClass* U3CplayCutsceneU3Ec__Iterator0_t1931837820_il2cpp_TypeInfo_var;
+extern const uint32_t TrapTutorial_playCutscene_m2236787719_MetadataUsageId;
+extern "C"  Il2CppObject * TrapTutorial_playCutscene_m2236787719 (TrapTutorial_t2712053025 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrapTutorial_playCutscene_m2236787719_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CplayCutsceneU3Ec__Iterator0_t1931837820 * V_0 = NULL;
+	{
+		U3CplayCutsceneU3Ec__Iterator0_t1931837820 * L_0 = (U3CplayCutsceneU3Ec__Iterator0_t1931837820 *)il2cpp_codegen_object_new(U3CplayCutsceneU3Ec__Iterator0_t1931837820_il2cpp_TypeInfo_var);
+		U3CplayCutsceneU3Ec__Iterator0__ctor_m3636474265(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CplayCutsceneU3Ec__Iterator0_t1931837820 * L_1 = V_0;
+		L_1->set_U24this_0(__this);
+		U3CplayCutsceneU3Ec__Iterator0_t1931837820 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapTutorial/<playCutscene>c__Iterator0::.ctor()
+extern "C"  void U3CplayCutsceneU3Ec__Iterator0__ctor_m3636474265 (U3CplayCutsceneU3Ec__Iterator0_t1931837820 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.TrapTutorial/<playCutscene>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral360845661;
+extern Il2CppCodeGenString* _stringLiteral2591868365;
+extern Il2CppCodeGenString* _stringLiteral3745880908;
+extern Il2CppCodeGenString* _stringLiteral613695225;
+extern Il2CppCodeGenString* _stringLiteral3322374359;
+extern Il2CppCodeGenString* _stringLiteral849758669;
+extern const uint32_t U3CplayCutsceneU3Ec__Iterator0_MoveNext_m1564854031_MetadataUsageId;
+extern "C"  bool U3CplayCutsceneU3Ec__Iterator0_MoveNext_m1564854031 (U3CplayCutsceneU3Ec__Iterator0_t1931837820 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CplayCutsceneU3Ec__Iterator0_MoveNext_m1564854031_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0049;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_006d;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_00bd;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_0115;
+		}
+		if (L_1 == 4)
+		{
+			goto IL_0158;
+		}
+		if (L_1 == 5)
+		{
+			goto IL_01b0;
+		}
+		if (L_1 == 6)
+		{
+			goto IL_01f7;
+		}
+		if (L_1 == 7)
+		{
+			goto IL_023e;
+		}
+		if (L_1 == 8)
+		{
+			goto IL_028a;
+		}
+		if (L_1 == 9)
+		{
+			goto IL_02e3;
+		}
+		if (L_1 == 10)
+		{
+			goto IL_032b;
+		}
+		if (L_1 == 11)
+		{
+			goto IL_037f;
+		}
+	}
+	{
+		goto IL_03cf;
+	}
+
+IL_0049:
+	{
+		WaitForSeconds_t3839502067 * L_2 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_2, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_2);
+		bool L_3 = __this->get_U24disposing_2();
+		if (L_3)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_0068:
+	{
+		goto IL_03d1;
+	}
+
+IL_006d:
+	{
+		TrapTutorial_t2712053025 * L_4 = __this->get_U24this_0();
+		TikiCharacter_t3385186228 * L_5 = L_4->get_tiki_2();
+		GameObject_t1756533147 * L_6 = Component_get_gameObject_m3105766835(L_5, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_6, (bool)1, /*hidden argument*/NULL);
+		TrapTutorial_t2712053025 * L_7 = __this->get_U24this_0();
+		PoiCharacter_t134467383 * L_8 = L_7->get_poi_3();
+		GameObject_t1756533147 * L_9 = Component_get_gameObject_m3105766835(L_8, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_9, (bool)1, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_10 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_10, (1.8f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_10);
+		bool L_11 = __this->get_U24disposing_2();
+		if (L_11)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		__this->set_U24PC_3(2);
+	}
+
+IL_00b8:
+	{
+		goto IL_03d1;
+	}
+
+IL_00bd:
+	{
+		TrapTutorial_t2712053025 * L_12 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_13 = L_12->get_faceCard_4();
+		GameObject_SetActive_m2887581199(L_13, (bool)1, /*hidden argument*/NULL);
+		TrapTutorial_t2712053025 * L_14 = __this->get_U24this_0();
+		Animator_t69676727 * L_15 = L_14->get_faceCardAnimator_8();
+		Animator_Play_m1123842248(L_15, _stringLiteral360845661, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_16 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_16, ((int32_t)51), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_17 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_17, (0.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_17);
+		bool L_18 = __this->get_U24disposing_2();
+		if (L_18)
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		__this->set_U24PC_3(3);
+	}
+
+IL_0110:
+	{
+		goto IL_03d1;
+	}
+
+IL_0115:
+	{
+		TrapTutorial_t2712053025 * L_19 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_20 = L_19->get_trapHazard_7();
+		GameObject_SetActive_m2887581199(L_20, (bool)1, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_21 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_21, ((int32_t)15), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_22 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_22, (3.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_22);
+		bool L_23 = __this->get_U24disposing_2();
+		if (L_23)
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		__this->set_U24PC_3(4);
+	}
+
+IL_0153:
+	{
+		goto IL_03d1;
+	}
+
+IL_0158:
+	{
+		TrapTutorial_t2712053025 * L_24 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_25 = L_24->get_faceCard2_5();
+		GameObject_SetActive_m2887581199(L_25, (bool)1, /*hidden argument*/NULL);
+		TrapTutorial_t2712053025 * L_26 = __this->get_U24this_0();
+		Animator_t69676727 * L_27 = L_26->get_faceCardAnimator2_9();
+		Animator_Play_m1123842248(L_27, _stringLiteral2591868365, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_28 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_28, ((int32_t)49), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_29 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_29, (0.8f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_29);
+		bool L_30 = __this->get_U24disposing_2();
+		if (L_30)
+		{
+			goto IL_01ab;
+		}
+	}
+	{
+		__this->set_U24PC_3(5);
+	}
+
+IL_01ab:
+	{
+		goto IL_03d1;
+	}
+
+IL_01b0:
+	{
+		TrapTutorial_t2712053025 * L_31 = __this->get_U24this_0();
+		Animator_t69676727 * L_32 = L_31->get_faceCardAnimator2_9();
+		Animator_Play_m1123842248(L_32, _stringLiteral3745880908, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_33 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_33, ((int32_t)23), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_34 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_34, (0.6f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_34);
+		bool L_35 = __this->get_U24disposing_2();
+		if (L_35)
+		{
+			goto IL_01f2;
+		}
+	}
+	{
+		__this->set_U24PC_3(6);
+	}
+
+IL_01f2:
+	{
+		goto IL_03d1;
+	}
+
+IL_01f7:
+	{
+		TrapTutorial_t2712053025 * L_36 = __this->get_U24this_0();
+		Animator_t69676727 * L_37 = L_36->get_trapAnimator_11();
+		Animator_Play_m1123842248(L_37, _stringLiteral613695225, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_38 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_38, ((int32_t)16), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_39 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_39, (0.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_39);
+		bool L_40 = __this->get_U24disposing_2();
+		if (L_40)
+		{
+			goto IL_0239;
+		}
+	}
+	{
+		__this->set_U24PC_3(7);
+	}
+
+IL_0239:
+	{
+		goto IL_03d1;
+	}
+
+IL_023e:
+	{
+		TrapTutorial_t2712053025 * L_41 = __this->get_U24this_0();
+		PoiCharacter_t134467383 * L_42 = L_41->get_poi_3();
+		Animator_t69676727 * L_43 = L_42->get_animator_2();
+		Animator_Play_m1123842248(L_43, _stringLiteral2591868365, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_44 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_44, ((int32_t)46), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_45 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_45, (0.3f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_45);
+		bool L_46 = __this->get_U24disposing_2();
+		if (L_46)
+		{
+			goto IL_0285;
+		}
+	}
+	{
+		__this->set_U24PC_3(8);
+	}
+
+IL_0285:
+	{
+		goto IL_03d1;
+	}
+
+IL_028a:
+	{
+		TrapTutorial_t2712053025 * L_47 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_48 = L_47->get_faceCard3_6();
+		GameObject_SetActive_m2887581199(L_48, (bool)1, /*hidden argument*/NULL);
+		TrapTutorial_t2712053025 * L_49 = __this->get_U24this_0();
+		Animator_t69676727 * L_50 = L_49->get_faceCardAnimator3_10();
+		Animator_Play_m1123842248(L_50, _stringLiteral2591868365, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_51 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_51, ((int32_t)49), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_52 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_52, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_52);
+		bool L_53 = __this->get_U24disposing_2();
+		if (L_53)
+		{
+			goto IL_02de;
+		}
+	}
+	{
+		__this->set_U24PC_3(((int32_t)9));
+	}
+
+IL_02de:
+	{
+		goto IL_03d1;
+	}
+
+IL_02e3:
+	{
+		TrapTutorial_t2712053025 * L_54 = __this->get_U24this_0();
+		Animator_t69676727 * L_55 = L_54->get_faceCardAnimator_8();
+		Animator_Play_m1123842248(L_55, _stringLiteral3322374359, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_56 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_56, ((int32_t)51), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_57 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_57, (0.75f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_57);
+		bool L_58 = __this->get_U24disposing_2();
+		if (L_58)
+		{
+			goto IL_0326;
+		}
+	}
+	{
+		__this->set_U24PC_3(((int32_t)10));
+	}
+
+IL_0326:
+	{
+		goto IL_03d1;
+	}
+
+IL_032b:
+	{
+		TrapTutorial_t2712053025 * L_59 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_60 = L_59->get_faceCard3_6();
+		GameObject_SetActive_m2887581199(L_60, (bool)0, /*hidden argument*/NULL);
+		TrapTutorial_t2712053025 * L_61 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_62 = L_61->get_cardDust_12();
+		GameObject_SetActive_m2887581199(L_62, (bool)1, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_63 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_63, 1, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_64 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_64, (4.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_64);
+		bool L_65 = __this->get_U24disposing_2();
+		if (L_65)
+		{
+			goto IL_037a;
+		}
+	}
+	{
+		__this->set_U24PC_3(((int32_t)11));
+	}
+
+IL_037a:
+	{
+		goto IL_03d1;
+	}
+
+IL_037f:
+	{
+		TrapTutorial_t2712053025 * L_66 = __this->get_U24this_0();
+		UIHugeWin_t3990307283 * L_67 = L_66->get_banner_13();
+		UIHugeWin_setWinText_m3231683108(L_67, _stringLiteral849758669, /*hidden argument*/NULL);
+		TrapTutorial_t2712053025 * L_68 = __this->get_U24this_0();
+		UIHugeWin_t3990307283 * L_69 = L_68->get_banner_13();
+		GameObject_t1756533147 * L_70 = Component_get_gameObject_m3105766835(L_69, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_70, (bool)1, /*hidden argument*/NULL);
+		TrapTutorial_t2712053025 * L_71 = __this->get_U24this_0();
+		UIHugeWin_t3990307283 * L_72 = L_71->get_banner_13();
+		UIHugeWin_ShowHugeWin_m3059137333(L_72, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_73 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_73, ((int32_t)50), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_03cf:
+	{
+		return (bool)0;
+	}
+
+IL_03d1:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TrapTutorial/<playCutscene>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CplayCutsceneU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1645698799 (U3CplayCutsceneU3Ec__Iterator0_t1931837820 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TrapTutorial/<playCutscene>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CplayCutsceneU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m10191863 (U3CplayCutsceneU3Ec__Iterator0_t1931837820 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapTutorial/<playCutscene>c__Iterator0::Dispose()
+extern "C"  void U3CplayCutsceneU3Ec__Iterator0_Dispose_m2557325518 (U3CplayCutsceneU3Ec__Iterator0_t1931837820 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TrapTutorial/<playCutscene>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CplayCutsceneU3Ec__Iterator0_Reset_m1029096664_MetadataUsageId;
+extern "C"  void U3CplayCutsceneU3Ec__Iterator0_Reset_m1029096664 (U3CplayCutsceneU3Ec__Iterator0_t1931837820 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CplayCutsceneU3Ec__Iterator0_Reset_m1029096664_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::.ctor()
+extern Il2CppClass* TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1831019615_il2cpp_TypeInfo_var;
+extern const MethodInfo* Debug_Log_m920475918_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m4012585251_MethodInfo_var;
+extern const uint32_t TriPeaksAnalytics__ctor_m3381616019_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics__ctor_m3381616019 (TriPeaksAnalytics_t1644016319 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics__ctor_m3381616019_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TriPeaksAnalytics_t1644016319 * G_B2_0 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B1_0 = NULL;
+	{
+		Action_1_t1831019615 * L_0 = ((TriPeaksAnalytics_t1644016319_StaticFields*)TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_14();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0019;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)Debug_Log_m920475918_MethodInfo_var);
+		Action_1_t1831019615 * L_2 = (Action_1_t1831019615 *)il2cpp_codegen_object_new(Action_1_t1831019615_il2cpp_TypeInfo_var);
+		Action_1__ctor_m4012585251(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m4012585251_MethodInfo_var);
+		((TriPeaksAnalytics_t1644016319_StaticFields*)TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache0_14(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0019:
+	{
+		Action_1_t1831019615 * L_3 = ((TriPeaksAnalytics_t1644016319_StaticFields*)TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_14();
+		GameAnalyticSender__ctor_m1936976435(G_B2_0, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GSN.Skill.Games.Tripeaks.TriPeaksAnalytics GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::get_instance()
+extern Il2CppClass* TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksAnalytics_get_instance_m2231945586_MetadataUsageId;
+extern "C"  TriPeaksAnalytics_t1644016319 * TriPeaksAnalytics_get_instance_m2231945586 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_get_instance_m2231945586_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameAnalyticSender_t2237101310 * L_0 = GameAnalyticSender_get_instance_m2342713666(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((TriPeaksAnalytics_t1644016319 *)CastclassClass(L_0, TriPeaksAnalytics_t1644016319_il2cpp_TypeInfo_var));
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ConstructEndStats(System.Int32,System.Int32,System.Int32,System.Int32)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m3103846974_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4132139590_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral975860229;
+extern Il2CppCodeGenString* _stringLiteral2169224689;
+extern Il2CppCodeGenString* _stringLiteral1577533578;
+extern Il2CppCodeGenString* _stringLiteral1691776209;
+extern const uint32_t TriPeaksAnalytics_ConstructEndStats_m1500165040_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ConstructEndStats_m1500165040 (TriPeaksAnalytics_t1644016319 * __this, int32_t ___timeRemaining0, int32_t ___scoreBase1, int32_t ___scoreStreak2, int32_t ___scoreTime3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ConstructEndStats_m1500165040_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t309261261 * L_0 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		Dictionary_2_Clear_m3103846974(L_0, /*hidden argument*/Dictionary_2_Clear_m3103846974_MethodInfo_var);
+		Dictionary_2_t309261261 * L_1 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		int32_t L_2 = ___timeRemaining0;
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		Dictionary_2_set_Item_m4132139590(L_1, _stringLiteral975860229, L_4, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		Dictionary_2_t309261261 * L_5 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		int32_t L_6 = ___scoreBase1;
+		int32_t L_7 = L_6;
+		Il2CppObject * L_8 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_7);
+		Dictionary_2_set_Item_m4132139590(L_5, _stringLiteral2169224689, L_8, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		Dictionary_2_t309261261 * L_9 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		int32_t L_10 = ___scoreStreak2;
+		int32_t L_11 = L_10;
+		Il2CppObject * L_12 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_11);
+		Dictionary_2_set_Item_m4132139590(L_9, _stringLiteral1577533578, L_12, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		Dictionary_2_t309261261 * L_13 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		int32_t L_14 = ___scoreTime3;
+		int32_t L_15 = L_14;
+		Il2CppObject * L_16 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_15);
+		Dictionary_2_set_Item_m4132139590(L_13, _stringLiteral1691776209, L_16, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		return;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::getEndGameReason(System.Int32)
+extern Il2CppCodeGenString* _stringLiteral2009811777;
+extern Il2CppCodeGenString* _stringLiteral931391790;
+extern Il2CppCodeGenString* _stringLiteral2085920978;
+extern const uint32_t TriPeaksAnalytics_getEndGameReason_m3793340680_MetadataUsageId;
+extern "C"  String_t* TriPeaksAnalytics_getEndGameReason_m3793340680 (TriPeaksAnalytics_t1644016319 * __this, int32_t ___reason0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_getEndGameReason_m3793340680_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___reason0;
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 0)
+		{
+			goto IL_002d;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 1)
+		{
+			goto IL_0033;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 2)
+		{
+			goto IL_0033;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 3)
+		{
+			goto IL_0021;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 4)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		goto IL_0033;
+	}
+
+IL_0021:
+	{
+		return _stringLiteral2009811777;
+	}
+
+IL_0027:
+	{
+		return _stringLiteral931391790;
+	}
+
+IL_002d:
+	{
+		return _stringLiteral2085920978;
+	}
+
+IL_0033:
+	{
+		int32_t L_1 = ___reason0;
+		String_t* L_2 = GameAnalyticSender_getEndGameReason_m1835750516(__this, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportLevelEnd(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4132139590_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2020686995;
+extern const uint32_t TriPeaksAnalytics_ReportLevelEnd_m4284055512_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ReportLevelEnd_m4284055512 (TriPeaksAnalytics_t1644016319 * __this, int32_t ___levelID0, int32_t ___endReason1, int32_t ___totalScore2, int32_t ___timeRemaining3, int32_t ___scoreBase4, int32_t ___scoreStreak5, int32_t ___scoreTime6, int32_t ___scoreTotal7, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ReportLevelEnd_m4284055512_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___timeRemaining3;
+		int32_t L_1 = ___scoreBase4;
+		int32_t L_2 = ___scoreStreak5;
+		int32_t L_3 = ___scoreTime6;
+		TriPeaksAnalytics_ConstructEndStats_m1500165040(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		Dictionary_2_t309261261 * L_4 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		int32_t L_5 = ___levelID0;
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		Dictionary_2_set_Item_m4132139590(L_4, _stringLiteral2020686995, L_7, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		int32_t L_8 = ___endReason1;
+		Dictionary_2_t309261261 * L_9 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		GameAnalyticSender_SendLevelEnd_m3039981905(__this, L_8, 0, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportGameEnd(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+extern "C"  void TriPeaksAnalytics_ReportGameEnd_m3967171257 (TriPeaksAnalytics_t1644016319 * __this, int32_t ___endReason0, int32_t ___totalScore1, int32_t ___timeRemaining2, int32_t ___scoreBase3, int32_t ___scoreStreak4, int32_t ___scoreTime5, int32_t ___scoreTotal6, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___timeRemaining2;
+		int32_t L_1 = ___scoreBase3;
+		int32_t L_2 = ___scoreStreak4;
+		int32_t L_3 = ___scoreTime5;
+		TriPeaksAnalytics_ConstructEndStats_m1500165040(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = ___endReason0;
+		int32_t L_5 = ___totalScore1;
+		Dictionary_2_t309261261 * L_6 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		GameAnalyticSender_SendGameEnd_m1160727637(__this, L_4, L_5, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportTutorialView(System.String,System.Int32)
+extern Il2CppCodeGenString* _stringLiteral1462263128;
+extern const uint32_t TriPeaksAnalytics_ReportTutorialView_m2032399391_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ReportTutorialView_m2032399391 (TriPeaksAnalytics_t1644016319 * __this, String_t* ___tutorialID0, int32_t ___step1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ReportTutorialView_m2032399391_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___tutorialID0;
+		int32_t L_1 = ___step1;
+		GameAnalyticSender_SendCheckpoint_m2850837435(__this, _stringLiteral1462263128, L_0, L_1, (Dictionary_2_t309261261 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportCardCollected(System.Int32)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m3103846974_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4132139590_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3182917998;
+extern Il2CppCodeGenString* _stringLiteral1604771623;
+extern const uint32_t TriPeaksAnalytics_ReportCardCollected_m3277959223_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ReportCardCollected_m3277959223 (TriPeaksAnalytics_t1644016319 * __this, int32_t ___streakLevel0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ReportCardCollected_m3277959223_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t309261261 * L_0 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		Dictionary_2_Clear_m3103846974(L_0, /*hidden argument*/Dictionary_2_Clear_m3103846974_MethodInfo_var);
+		Dictionary_2_t309261261 * L_1 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		int32_t L_2 = ___streakLevel0;
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		Dictionary_2_set_Item_m4132139590(L_1, _stringLiteral3182917998, L_4, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		Dictionary_2_t309261261 * L_5 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		GameAnalyticSender_SendGameplayEvent_m866337726(__this, _stringLiteral1604771623, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportCardDrawn(System.Boolean)
+extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m3103846974_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4132139590_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3255250322;
+extern Il2CppCodeGenString* _stringLiteral3060398936;
+extern const uint32_t TriPeaksAnalytics_ReportCardDrawn_m4019516066_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ReportCardDrawn_m4019516066 (TriPeaksAnalytics_t1644016319 * __this, bool ___missedCards0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ReportCardDrawn_m4019516066_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t309261261 * L_0 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		Dictionary_2_Clear_m3103846974(L_0, /*hidden argument*/Dictionary_2_Clear_m3103846974_MethodInfo_var);
+		Dictionary_2_t309261261 * L_1 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		bool L_2 = ___missedCards0;
+		bool L_3 = L_2;
+		Il2CppObject * L_4 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_3);
+		Dictionary_2_set_Item_m4132139590(L_1, _stringLiteral3255250322, L_4, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		Dictionary_2_t309261261 * L_5 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		GameAnalyticSender_SendGameplayEvent_m866337726(__this, _stringLiteral3060398936, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportWildUsed()
+extern Il2CppCodeGenString* _stringLiteral1638625737;
+extern const uint32_t TriPeaksAnalytics_ReportWildUsed_m499778760_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ReportWildUsed_m499778760 (TriPeaksAnalytics_t1644016319 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ReportWildUsed_m499778760_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameAnalyticSender_SendGameplayEvent_m866337726(__this, _stringLiteral1638625737, (Dictionary_2_t309261261 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportHoldCellUsed(System.Boolean)
+extern const MethodInfo* Dictionary_2_Clear_m3103846974_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4132139590_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3834849485;
+extern Il2CppCodeGenString* _stringLiteral1453724504;
+extern Il2CppCodeGenString* _stringLiteral3283768026;
+extern Il2CppCodeGenString* _stringLiteral2053184302;
+extern const uint32_t TriPeaksAnalytics_ReportHoldCellUsed_m1515840412_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ReportHoldCellUsed_m1515840412 (TriPeaksAnalytics_t1644016319 * __this, bool ___added0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ReportHoldCellUsed_m1515840412_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	Dictionary_2_t309261261 * G_B2_1 = NULL;
+	String_t* G_B1_0 = NULL;
+	Dictionary_2_t309261261 * G_B1_1 = NULL;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	Dictionary_2_t309261261 * G_B3_2 = NULL;
+	{
+		Dictionary_2_t309261261 * L_0 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		Dictionary_2_Clear_m3103846974(L_0, /*hidden argument*/Dictionary_2_Clear_m3103846974_MethodInfo_var);
+		Dictionary_2_t309261261 * L_1 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		bool L_2 = ___added0;
+		G_B1_0 = _stringLiteral3834849485;
+		G_B1_1 = L_1;
+		if (!L_2)
+		{
+			G_B2_0 = _stringLiteral3834849485;
+			G_B2_1 = L_1;
+			goto IL_0026;
+		}
+	}
+	{
+		G_B3_0 = _stringLiteral1453724504;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		goto IL_002b;
+	}
+
+IL_0026:
+	{
+		G_B3_0 = _stringLiteral3283768026;
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+	}
+
+IL_002b:
+	{
+		Dictionary_2_set_Item_m4132139590(G_B3_2, G_B3_1, G_B3_0, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		Dictionary_2_t309261261 * L_3 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		GameAnalyticSender_SendGameplayEvent_m866337726(__this, _stringLiteral2053184302, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAnalytics::ReportReshuffleActivatedUsed(System.Int32)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m3103846974_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4132139590_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral975860229;
+extern Il2CppCodeGenString* _stringLiteral782958385;
+extern const uint32_t TriPeaksAnalytics_ReportReshuffleActivatedUsed_m1419812340_MetadataUsageId;
+extern "C"  void TriPeaksAnalytics_ReportReshuffleActivatedUsed_m1419812340 (TriPeaksAnalytics_t1644016319 * __this, int32_t ___timeRemaining0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAnalytics_ReportReshuffleActivatedUsed_m1419812340_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t309261261 * L_0 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		Dictionary_2_Clear_m3103846974(L_0, /*hidden argument*/Dictionary_2_Clear_m3103846974_MethodInfo_var);
+		Dictionary_2_t309261261 * L_1 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		int32_t L_2 = ___timeRemaining0;
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		Dictionary_2_set_Item_m4132139590(L_1, _stringLiteral975860229, L_4, /*hidden argument*/Dictionary_2_set_Item_m4132139590_MethodInfo_var);
+		Dictionary_2_t309261261 * L_5 = ((GameAnalyticSender_t2237101310 *)__this)->get__additionalData_3();
+		GameAnalyticSender_SendGameplayEvent_m866337726(__this, _stringLiteral782958385, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::.ctor()
+extern Il2CppClass* List_1_t3345875600_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1346706045_MethodInfo_var;
+extern const uint32_t TripeaksArenaDebugMenu__ctor_m1034784600_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu__ctor_m1034784600 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu__ctor_m1034784600_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3345875600 * L_0 = (List_1_t3345875600 *)il2cpp_codegen_object_new(List_1_t3345875600_il2cpp_TypeInfo_var);
+		List_1__ctor_m1346706045(L_0, /*hidden argument*/List_1__ctor_m1346706045_MethodInfo_var);
+		__this->set__gameOptions_35(L_0);
+		List_1_t3345875600 * L_1 = (List_1_t3345875600 *)il2cpp_codegen_object_new(List_1_t3345875600_il2cpp_TypeInfo_var);
+		List_1__ctor_m1346706045(L_1, /*hidden argument*/List_1__ctor_m1346706045_MethodInfo_var);
+		__this->set__tikiOptions_36(L_1);
+		List_1_t3345875600 * L_2 = (List_1_t3345875600 *)il2cpp_codegen_object_new(List_1_t3345875600_il2cpp_TypeInfo_var);
+		List_1__ctor_m1346706045(L_2, /*hidden argument*/List_1__ctor_m1346706045_MethodInfo_var);
+		__this->set__trapOptions_37(L_2);
+		ArenaDebugMenu__ctor_m1818891154(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::Awake()
+extern Il2CppClass* VersionInfo_t3187840890_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksStringTable_t551140522_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3346587679;
+extern Il2CppCodeGenString* _stringLiteral921690498;
+extern Il2CppCodeGenString* _stringLiteral1047780110;
+extern Il2CppCodeGenString* _stringLiteral3321857316;
+extern Il2CppCodeGenString* _stringLiteral4024519330;
+extern Il2CppCodeGenString* _stringLiteral791393439;
+extern Il2CppCodeGenString* _stringLiteral1207108617;
+extern const uint32_t TripeaksArenaDebugMenu_Awake_m2716219231_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu_Awake_m2716219231 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_Awake_m2716219231_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VersionInfo_t3187840890_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((VersionInfo_t3187840890_StaticFields*)VersionInfo_t3187840890_il2cpp_TypeInfo_var->static_fields)->get_sdkVersion_1();
+		String_t* L_1 = ((VersionInfo_t3187840890_StaticFields*)VersionInfo_t3187840890_il2cpp_TypeInfo_var->static_fields)->get_BUILD_NUMBER_0();
+		VersionInfo_AddGameVersion_m61449093(NULL /*static, unused*/, _stringLiteral3346587679, _stringLiteral921690498, L_0, L_1, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_2 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1047780110, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		GameObject_t1756533147 * L_4 = ArenaDebugMenu_CreateCustomFromPrefab_m1166992438(__this, _stringLiteral3321857316, L_3, _stringLiteral4024519330, /*hidden argument*/NULL);
+		__this->set__easyPanel_33(L_4);
+		Screen_set_orientation_m413080199(NULL /*static, unused*/, 3, /*hidden argument*/NULL);
+		ArenaDebugMenu_Awake_m4230896061(__this, /*hidden argument*/NULL);
+		((ArenaDebugMenu_t2246245529 *)__this)->set__gameSceneToLoad_18(_stringLiteral791393439);
+		ArenaDebugMenu_SetTopLabel_m1436389717(__this, _stringLiteral1207108617, /*hidden argument*/NULL);
+		TriPeaksStringTable_t551140522 * L_5 = (TriPeaksStringTable_t551140522 *)il2cpp_codegen_object_new(TriPeaksStringTable_t551140522_il2cpp_TypeInfo_var);
+		TriPeaksStringTable__ctor_m527710546(L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::AddCustomControls()
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_1_t897193173_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Add_m419687769_MethodInfo_var;
+extern const MethodInfo* TripeaksArenaDebugMenu_OnAllOptions_m913908261_MethodInfo_var;
+extern const MethodInfo* UnityAction_1__ctor_m1968084291_MethodInfo_var;
+extern const MethodInfo* UnityEvent_1_AddListener_m1708363187_MethodInfo_var;
+extern const MethodInfo* TripeaksArenaDebugMenu_OnAllTiki_m1325998782_MethodInfo_var;
+extern const MethodInfo* TripeaksArenaDebugMenu_OnAllTraps_m1314025445_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisToggleGroup_t1030026315_m2684304554_MethodInfo_var;
+extern const MethodInfo* TripeaksArenaDebugMenu_U3CAddCustomControlsU3Em__0_m1889462847_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3910091350;
+extern Il2CppCodeGenString* _stringLiteral2291568828;
+extern Il2CppCodeGenString* _stringLiteral4143129671;
+extern Il2CppCodeGenString* _stringLiteral3131291514;
+extern Il2CppCodeGenString* _stringLiteral4231482709;
+extern Il2CppCodeGenString* _stringLiteral999070773;
+extern Il2CppCodeGenString* _stringLiteral332801758;
+extern Il2CppCodeGenString* _stringLiteral3165966521;
+extern Il2CppCodeGenString* _stringLiteral2095006103;
+extern Il2CppCodeGenString* _stringLiteral3021629811;
+extern Il2CppCodeGenString* _stringLiteral3745862015;
+extern Il2CppCodeGenString* _stringLiteral1805488819;
+extern Il2CppCodeGenString* _stringLiteral1657315444;
+extern Il2CppCodeGenString* _stringLiteral3836685698;
+extern Il2CppCodeGenString* _stringLiteral3502438079;
+extern Il2CppCodeGenString* _stringLiteral760210631;
+extern Il2CppCodeGenString* _stringLiteral1704019627;
+extern Il2CppCodeGenString* _stringLiteral2948167962;
+extern Il2CppCodeGenString* _stringLiteral3472412562;
+extern Il2CppCodeGenString* _stringLiteral303540144;
+extern Il2CppCodeGenString* _stringLiteral3276210163;
+extern Il2CppCodeGenString* _stringLiteral869186583;
+extern Il2CppCodeGenString* _stringLiteral3874482699;
+extern Il2CppCodeGenString* _stringLiteral4211658129;
+extern Il2CppCodeGenString* _stringLiteral172164657;
+extern Il2CppCodeGenString* _stringLiteral2430099374;
+extern Il2CppCodeGenString* _stringLiteral4168268178;
+extern Il2CppCodeGenString* _stringLiteral3199090;
+extern Il2CppCodeGenString* _stringLiteral432274143;
+extern Il2CppCodeGenString* _stringLiteral1966626267;
+extern Il2CppCodeGenString* _stringLiteral2820297423;
+extern Il2CppCodeGenString* _stringLiteral2384751612;
+extern Il2CppCodeGenString* _stringLiteral1178113300;
+extern Il2CppCodeGenString* _stringLiteral1143403700;
+extern Il2CppCodeGenString* _stringLiteral3282904820;
+extern const uint32_t TripeaksArenaDebugMenu_AddCustomControls_m1410954598_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu_AddCustomControls_m1410954598 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_AddCustomControls_m1410954598_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Toggle_t3976754468 * V_1 = NULL;
+	GameObject_t1756533147 * V_2 = NULL;
+	Toggle_t3976754468 * V_3 = NULL;
+	GameObject_t1756533147 * V_4 = NULL;
+	Toggle_t3976754468 * V_5 = NULL;
+	GameObject_t1756533147 * V_6 = NULL;
+	Toggle_t3976754468 * V_7 = NULL;
+	Toggle_t3976754468 * V_8 = NULL;
+	Toggle_t3976754468 * V_9 = NULL;
+	Toggle_t3976754468 * V_10 = NULL;
+	ToggleGroup_t1030026315 * V_11 = NULL;
+	ToggleGroup_t1030026315 * V_12 = NULL;
+	GameObject_t1756533147 * V_13 = NULL;
+	Button_t2872111280 * V_14 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = ((ArenaDebugMenu_t2246245529 *)__this)->get_optionsGO_17();
+		GameObject_t1756533147 * L_1 = ArenaDebugMenu_CreatePanel_m368785091(__this, L_0, _stringLiteral3910091350, /*hidden argument*/NULL);
+		V_0 = L_1;
+		List_1_t3345875600 * L_2 = __this->get__gameOptions_35();
+		GameObject_t1756533147 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RESHUFFLE_ID_46();
+		Toggle_t3976754468 * L_5 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_3, _stringLiteral2291568828, (bool)1, L_4, (bool)0, (bool)1, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_2, L_5, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		List_1_t3345875600 * L_6 = __this->get__gameOptions_35();
+		GameObject_t1756533147 * L_7 = V_0;
+		String_t* L_8 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_HOLD_ID_47();
+		Toggle_t3976754468 * L_9 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_7, _stringLiteral4143129671, (bool)0, L_8, (bool)0, (bool)1, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_6, L_9, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		List_1_t3345875600 * L_10 = __this->get__gameOptions_35();
+		GameObject_t1756533147 * L_11 = V_0;
+		String_t* L_12 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_ONE_SHOT_WILD_ID_48();
+		Toggle_t3976754468 * L_13 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_11, _stringLiteral3131291514, (bool)1, L_12, (bool)0, (bool)1, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_10, L_13, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		GameObject_t1756533147 * L_14 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_15 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		Toggle_t3976754468 * L_16 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_14, _stringLiteral4231482709, (bool)0, L_15, (bool)1, (bool)0, /*hidden argument*/NULL);
+		V_1 = L_16;
+		Toggle_t3976754468 * L_17 = V_1;
+		ToggleEvent_t1896830814 * L_18 = L_17->get_onValueChanged_19();
+		IntPtr_t L_19;
+		L_19.set_m_value_0((void*)(void*)TripeaksArenaDebugMenu_OnAllOptions_m913908261_MethodInfo_var);
+		UnityAction_1_t897193173 * L_20 = (UnityAction_1_t897193173 *)il2cpp_codegen_object_new(UnityAction_1_t897193173_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m1968084291(L_20, __this, L_19, /*hidden argument*/UnityAction_1__ctor_m1968084291_MethodInfo_var);
+		UnityEvent_1_AddListener_m1708363187(L_18, L_20, /*hidden argument*/UnityEvent_1_AddListener_m1708363187_MethodInfo_var);
+		GameObject_t1756533147 * L_21 = V_0;
+		String_t* L_22 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_23 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BOARD_ID_31();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_21, _stringLiteral999070773, L_22, L_23, (bool)0, (bool)1);
+		GameObject_t1756533147 * L_24 = V_0;
+		String_t* L_25 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_26 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BACKGROUND_ID_49();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_24, _stringLiteral332801758, L_25, L_26, (bool)0, (bool)1);
+		GameObject_t1756533147 * L_27 = V_0;
+		String_t* L_28 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_29 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BACKGROUND_DIFFICULTY_ID_50();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_27, _stringLiteral3165966521, L_28, L_29, (bool)0, (bool)1);
+		GameObject_t1756533147 * L_30 = ((ArenaDebugMenu_t2246245529 *)__this)->get_optionsGO_17();
+		GameObject_t1756533147 * L_31 = ArenaDebugMenu_CreatePanel_m368785091(__this, L_30, _stringLiteral2095006103, /*hidden argument*/NULL);
+		V_2 = L_31;
+		List_1_t3345875600 * L_32 = __this->get__tikiOptions_36();
+		GameObject_t1756533147 * L_33 = V_2;
+		String_t* L_34 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RED_TIKI_ID_32();
+		Toggle_t3976754468 * L_35 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_33, _stringLiteral3021629811, (bool)0, L_34, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_32, L_35, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		List_1_t3345875600 * L_36 = __this->get__tikiOptions_36();
+		GameObject_t1756533147 * L_37 = V_2;
+		String_t* L_38 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLACK_TIKI_ID_33();
+		Toggle_t3976754468 * L_39 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_37, _stringLiteral3745862015, (bool)0, L_38, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_36, L_39, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		GameObject_t1756533147 * L_40 = V_2;
+		String_t* L_41 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_42 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_REDBLACK_MAX_CARD_ID_37();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_40, _stringLiteral1805488819, L_41, L_42, (bool)1, (bool)0);
+		List_1_t3345875600 * L_43 = __this->get__tikiOptions_36();
+		GameObject_t1756533147 * L_44 = V_2;
+		String_t* L_45 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_VOLCANO_TIKI_ID_34();
+		Toggle_t3976754468 * L_46 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_44, _stringLiteral1657315444, (bool)0, L_45, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_43, L_46, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		GameObject_t1756533147 * L_47 = V_2;
+		String_t* L_48 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_49 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_VOLCANO_MAX_CARD_ID_38();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_47, _stringLiteral3836685698, L_48, L_49, (bool)1, (bool)0);
+		List_1_t3345875600 * L_50 = __this->get__tikiOptions_36();
+		GameObject_t1756533147 * L_51 = V_2;
+		String_t* L_52 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLOSSOM_TIKI_ID_35();
+		Toggle_t3976754468 * L_53 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_51, _stringLiteral3502438079, (bool)0, L_52, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_50, L_53, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		GameObject_t1756533147 * L_54 = V_2;
+		String_t* L_55 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_56 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLOSSOM_MAX_CARD_ID_39();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_54, _stringLiteral760210631, L_55, L_56, (bool)1, (bool)0);
+		List_1_t3345875600 * L_57 = __this->get__tikiOptions_36();
+		GameObject_t1756533147 * L_58 = V_2;
+		String_t* L_59 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_GOLDEN_TIKI_ID_36();
+		Toggle_t3976754468 * L_60 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_58, _stringLiteral1704019627, (bool)0, L_59, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_57, L_60, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		GameObject_t1756533147 * L_61 = V_2;
+		String_t* L_62 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_SPAWN_ALL_TIKIS_DEBUG_ID_51();
+		ArenaDebugMenu_CreateToggle_m3802581849(__this, L_61, _stringLiteral2948167962, (bool)0, L_62, (bool)1, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_63 = V_2;
+		String_t* L_64 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TIKI_SPAWN_CHANCE_100_DEBUG_ID_52();
+		ArenaDebugMenu_CreateToggle_m3802581849(__this, L_63, _stringLiteral3472412562, (bool)0, L_64, (bool)1, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_65 = V_2;
+		String_t* L_66 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		Toggle_t3976754468 * L_67 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_65, _stringLiteral4231482709, (bool)0, L_66, (bool)1, (bool)0, /*hidden argument*/NULL);
+		V_3 = L_67;
+		Toggle_t3976754468 * L_68 = V_3;
+		ToggleEvent_t1896830814 * L_69 = L_68->get_onValueChanged_19();
+		IntPtr_t L_70;
+		L_70.set_m_value_0((void*)(void*)TripeaksArenaDebugMenu_OnAllTiki_m1325998782_MethodInfo_var);
+		UnityAction_1_t897193173 * L_71 = (UnityAction_1_t897193173 *)il2cpp_codegen_object_new(UnityAction_1_t897193173_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m1968084291(L_71, __this, L_70, /*hidden argument*/UnityAction_1__ctor_m1968084291_MethodInfo_var);
+		UnityEvent_1_AddListener_m1708363187(L_69, L_71, /*hidden argument*/UnityEvent_1_AddListener_m1708363187_MethodInfo_var);
+		GameObject_t1756533147 * L_72 = ((ArenaDebugMenu_t2246245529 *)__this)->get_optionsGO_17();
+		GameObject_t1756533147 * L_73 = ArenaDebugMenu_CreatePanel_m368785091(__this, L_72, _stringLiteral303540144, /*hidden argument*/NULL);
+		V_4 = L_73;
+		List_1_t3345875600 * L_74 = __this->get__trapOptions_37();
+		GameObject_t1756533147 * L_75 = V_4;
+		String_t* L_76 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TRAP_HAZARD_ID_40();
+		Toggle_t3976754468 * L_77 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_75, _stringLiteral3276210163, (bool)0, L_76, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_74, L_77, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		List_1_t3345875600 * L_78 = __this->get__trapOptions_37();
+		GameObject_t1756533147 * L_79 = V_4;
+		String_t* L_80 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_SHARK_HAZARD_ID_41();
+		Toggle_t3976754468 * L_81 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_79, _stringLiteral869186583, (bool)0, L_80, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_78, L_81, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		List_1_t3345875600 * L_82 = __this->get__trapOptions_37();
+		GameObject_t1756533147 * L_83 = V_4;
+		String_t* L_84 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_HAZARD_ID_42();
+		Toggle_t3976754468 * L_85 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_83, _stringLiteral3874482699, (bool)0, L_84, (bool)1, (bool)0, /*hidden argument*/NULL);
+		List_1_Add_m419687769(L_82, L_85, /*hidden argument*/List_1_Add_m419687769_MethodInfo_var);
+		GameObject_t1756533147 * L_86 = V_4;
+		String_t* L_87 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_88 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_TIME_MAX_ID_44();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_86, _stringLiteral4211658129, L_87, L_88, (bool)1, (bool)0);
+		GameObject_t1756533147 * L_89 = V_4;
+		String_t* L_90 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_91 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_TURN_MAX_ID_45();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_89, _stringLiteral172164657, L_90, L_91, (bool)1, (bool)0);
+		GameObject_t1756533147 * L_92 = V_4;
+		String_t* L_93 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_USE_TIME_ID_43();
+		ArenaDebugMenu_CreateToggle_m3802581849(__this, L_92, _stringLiteral2430099374, (bool)0, L_93, (bool)1, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_94 = V_4;
+		String_t* L_95 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		Toggle_t3976754468 * L_96 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_94, _stringLiteral4231482709, (bool)0, L_95, (bool)1, (bool)0, /*hidden argument*/NULL);
+		V_5 = L_96;
+		Toggle_t3976754468 * L_97 = V_5;
+		ToggleEvent_t1896830814 * L_98 = L_97->get_onValueChanged_19();
+		IntPtr_t L_99;
+		L_99.set_m_value_0((void*)(void*)TripeaksArenaDebugMenu_OnAllTraps_m1314025445_MethodInfo_var);
+		UnityAction_1_t897193173 * L_100 = (UnityAction_1_t897193173 *)il2cpp_codegen_object_new(UnityAction_1_t897193173_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m1968084291(L_100, __this, L_99, /*hidden argument*/UnityAction_1__ctor_m1968084291_MethodInfo_var);
+		UnityEvent_1_AddListener_m1708363187(L_98, L_100, /*hidden argument*/UnityEvent_1_AddListener_m1708363187_MethodInfo_var);
+		GameObject_t1756533147 * L_101 = ((ArenaDebugMenu_t2246245529 *)__this)->get_optionsGO_17();
+		GameObject_t1756533147 * L_102 = ArenaDebugMenu_CreatePanel_m368785091(__this, L_101, _stringLiteral4168268178, /*hidden argument*/NULL);
+		V_6 = L_102;
+		GameObject_t1756533147 * L_103 = V_6;
+		String_t* L_104 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_ID_134();
+		Toggle_t3976754468 * L_105 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_103, _stringLiteral3199090, (bool)0, L_104, (bool)0, (bool)1, /*hidden argument*/NULL);
+		V_7 = L_105;
+		GameObject_t1756533147 * L_106 = V_6;
+		String_t* L_107 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_TRAP_ID_136();
+		Toggle_t3976754468 * L_108 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_106, _stringLiteral432274143, (bool)0, L_107, (bool)0, (bool)1, /*hidden argument*/NULL);
+		V_8 = L_108;
+		GameObject_t1756533147 * L_109 = V_6;
+		String_t* L_110 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_SHARK_ID_137();
+		Toggle_t3976754468 * L_111 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_109, _stringLiteral1966626267, (bool)0, L_110, (bool)0, (bool)1, /*hidden argument*/NULL);
+		V_9 = L_111;
+		GameObject_t1756533147 * L_112 = V_6;
+		String_t* L_113 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_DYNAMITE_ID_138();
+		Toggle_t3976754468 * L_114 = ArenaDebugMenu_CreateToggle_m3802581849(__this, L_112, _stringLiteral2820297423, (bool)0, L_113, (bool)0, (bool)1, /*hidden argument*/NULL);
+		V_10 = L_114;
+		GameObject_t1756533147 * L_115 = V_6;
+		ToggleGroup_t1030026315 * L_116 = GameObject_AddComponent_TisToggleGroup_t1030026315_m2684304554(L_115, /*hidden argument*/GameObject_AddComponent_TisToggleGroup_t1030026315_m2684304554_MethodInfo_var);
+		V_11 = L_116;
+		ToggleGroup_t1030026315 * L_117 = V_11;
+		ToggleGroup_set_allowSwitchOff_m2945603446(L_117, (bool)1, /*hidden argument*/NULL);
+		Toggle_t3976754468 * L_118 = V_7;
+		ToggleGroup_t1030026315 * L_119 = V_11;
+		V_12 = L_119;
+		Toggle_t3976754468 * L_120 = V_10;
+		ToggleGroup_t1030026315 * L_121 = V_12;
+		Toggle_set_group_m3833595685(L_120, L_121, /*hidden argument*/NULL);
+		ToggleGroup_t1030026315 * L_122 = V_12;
+		V_12 = L_122;
+		Toggle_t3976754468 * L_123 = V_9;
+		ToggleGroup_t1030026315 * L_124 = V_12;
+		Toggle_set_group_m3833595685(L_123, L_124, /*hidden argument*/NULL);
+		ToggleGroup_t1030026315 * L_125 = V_12;
+		V_12 = L_125;
+		Toggle_t3976754468 * L_126 = V_8;
+		ToggleGroup_t1030026315 * L_127 = V_12;
+		Toggle_set_group_m3833595685(L_126, L_127, /*hidden argument*/NULL);
+		ToggleGroup_t1030026315 * L_128 = V_12;
+		Toggle_set_group_m3833595685(L_118, L_128, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_129 = V_6;
+		String_t* L_130 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TUTORIAL_INTRO_CARD_ORDER_ID_135();
+		VirtFuncInvoker6< InputField_t1631627530 *, GameObject_t1756533147 *, String_t*, String_t*, String_t*, bool, bool >::Invoke(12 /* UnityEngine.UI.InputField GSN.Skill.Games.Common.Client.DebugMenu.ArenaDebugMenu::CreateInputField(UnityEngine.GameObject,System.String,System.String,System.String,System.Boolean,System.Boolean) */, __this, L_129, _stringLiteral2384751612, _stringLiteral1178113300, L_130, (bool)0, (bool)1);
+		GameObject_t1756533147 * L_131 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1143403700, /*hidden argument*/NULL);
+		V_13 = L_131;
+		GameObject_t1756533147 * L_132 = V_13;
+		Button_t2872111280 * L_133 = ArenaDebugMenu_CreateButton_m2892881448(__this, L_132, _stringLiteral3282904820, _stringLiteral3282904820, /*hidden argument*/NULL);
+		V_14 = L_133;
+		Button_t2872111280 * L_134 = V_14;
+		ButtonClickedEvent_t2455055323 * L_135 = Button_get_onClick_m1595880935(L_134, /*hidden argument*/NULL);
+		IntPtr_t L_136;
+		L_136.set_m_value_0((void*)(void*)TripeaksArenaDebugMenu_U3CAddCustomControlsU3Em__0_m1889462847_MethodInfo_var);
+		UnityAction_t4025899511 * L_137 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_137, __this, L_136, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m1596810379(L_135, L_137, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GSN.Skill.Games.Common.Model.GameModelBase GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::CreateModel()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t TripeaksArenaDebugMenu_CreateModel_m3231201316_MetadataUsageId;
+extern "C"  GameModelBase_t2215752692 * TripeaksArenaDebugMenu_CreateModel_m3231201316 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_CreateModel_m3231201316_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		GameModel_t3841817345 * L_1 = (GameModel_t3841817345 *)il2cpp_codegen_object_new(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		GameModel__ctor_m3609687545(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::OnAllOptions(System.Boolean)
+extern const MethodInfo* List_1_get_Item_m4004664826_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m908496529_MethodInfo_var;
+extern const uint32_t TripeaksArenaDebugMenu_OnAllOptions_m913908261_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu_OnAllOptions_m913908261 (TripeaksArenaDebugMenu_t3419621638 * __this, bool ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_OnAllOptions_m913908261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0007:
+	{
+		List_1_t3345875600 * L_0 = __this->get__gameOptions_35();
+		int32_t L_1 = V_0;
+		Toggle_t3976754468 * L_2 = List_1_get_Item_m4004664826(L_0, L_1, /*hidden argument*/List_1_get_Item_m4004664826_MethodInfo_var);
+		bool L_3 = ___state0;
+		Toggle_set_isOn_m4022556286(L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		V_0 = ((int32_t)((int32_t)L_4+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_5 = V_0;
+		List_1_t3345875600 * L_6 = __this->get__gameOptions_35();
+		int32_t L_7 = List_1_get_Count_m908496529(L_6, /*hidden argument*/List_1_get_Count_m908496529_MethodInfo_var);
+		if ((((int32_t)L_5) < ((int32_t)L_7)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::OnAllTiki(System.Boolean)
+extern const MethodInfo* List_1_get_Item_m4004664826_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m908496529_MethodInfo_var;
+extern const uint32_t TripeaksArenaDebugMenu_OnAllTiki_m1325998782_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu_OnAllTiki_m1325998782 (TripeaksArenaDebugMenu_t3419621638 * __this, bool ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_OnAllTiki_m1325998782_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0007:
+	{
+		List_1_t3345875600 * L_0 = __this->get__tikiOptions_36();
+		int32_t L_1 = V_0;
+		Toggle_t3976754468 * L_2 = List_1_get_Item_m4004664826(L_0, L_1, /*hidden argument*/List_1_get_Item_m4004664826_MethodInfo_var);
+		bool L_3 = ___state0;
+		Toggle_set_isOn_m4022556286(L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		V_0 = ((int32_t)((int32_t)L_4+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_5 = V_0;
+		List_1_t3345875600 * L_6 = __this->get__tikiOptions_36();
+		int32_t L_7 = List_1_get_Count_m908496529(L_6, /*hidden argument*/List_1_get_Count_m908496529_MethodInfo_var);
+		if ((((int32_t)L_5) < ((int32_t)L_7)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::OnAllTraps(System.Boolean)
+extern const MethodInfo* List_1_get_Item_m4004664826_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m908496529_MethodInfo_var;
+extern const uint32_t TripeaksArenaDebugMenu_OnAllTraps_m1314025445_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu_OnAllTraps_m1314025445 (TripeaksArenaDebugMenu_t3419621638 * __this, bool ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_OnAllTraps_m1314025445_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0007:
+	{
+		List_1_t3345875600 * L_0 = __this->get__trapOptions_37();
+		int32_t L_1 = V_0;
+		Toggle_t3976754468 * L_2 = List_1_get_Item_m4004664826(L_0, L_1, /*hidden argument*/List_1_get_Item_m4004664826_MethodInfo_var);
+		bool L_3 = ___state0;
+		Toggle_set_isOn_m4022556286(L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		V_0 = ((int32_t)((int32_t)L_4+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_5 = V_0;
+		List_1_t3345875600 * L_6 = __this->get__trapOptions_37();
+		int32_t L_7 = List_1_get_Count_m908496529(L_6, /*hidden argument*/List_1_get_Count_m908496529_MethodInfo_var);
+		if ((((int32_t)L_5) < ((int32_t)L_7)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::LoadPlayerPrefs()
+extern Il2CppCodeGenString* _stringLiteral3894259976;
+extern const uint32_t TripeaksArenaDebugMenu_LoadPlayerPrefs_m799027969_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu_LoadPlayerPrefs_m799027969 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_LoadPlayerPrefs_m799027969_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		ArenaDebugMenu_LoadPlayerPrefs_m3508225123(__this, /*hidden argument*/NULL);
+		int32_t L_0 = PlayerPrefs_GetInt_m2889062785(NULL /*static, unused*/, _stringLiteral3894259976, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GameObject_t1756533147 * L_1 = __this->get__easyPanel_33();
+		int32_t L_2 = V_0;
+		GameObject_SetActive_m2887581199(L_1, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.String> GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::OptionNames()
+extern const Il2CppType* OptionName_t3712375542_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enum_t2459695545_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_AddRange_m1157143463_MethodInfo_var;
+extern const uint32_t TripeaksArenaDebugMenu_OptionNames_m210656900_MetadataUsageId;
+extern "C"  List_1_t1398341365 * TripeaksArenaDebugMenu_OptionNames_m210656900 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_OptionNames_m210656900_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1398341365 * V_0 = NULL;
+	{
+		List_1_t1398341365 * L_0 = ArenaDebugMenu_OptionNames_m35084768(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		List_1_t1398341365 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(OptionName_t3712375542_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Enum_t2459695545_il2cpp_TypeInfo_var);
+		StringU5BU5D_t1642385972* L_3 = Enum_GetNames_m4233730000(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		List_1_AddRange_m1157143463(L_1, (Il2CppObject*)(Il2CppObject*)L_3, /*hidden argument*/List_1_AddRange_m1157143463_MethodInfo_var);
+		List_1_t1398341365 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::StartGame()
+extern Il2CppCodeGenString* _stringLiteral3894259976;
+extern const uint32_t TripeaksArenaDebugMenu_StartGame_m1848372726_MetadataUsageId;
+extern "C"  void TripeaksArenaDebugMenu_StartGame_m1848372726 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_StartGame_m1848372726_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	String_t* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	String_t* G_B3_1 = NULL;
+	{
+		Screen_set_orientation_m413080199(NULL /*static, unused*/, 3, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_0 = __this->get__easyPanel_33();
+		bool L_1 = GameObject_get_activeSelf_m313590879(L_0, /*hidden argument*/NULL);
+		G_B1_0 = _stringLiteral3894259976;
+		if (!L_1)
+		{
+			G_B2_0 = _stringLiteral3894259976;
+			goto IL_0021;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		goto IL_0022;
+	}
+
+IL_0021:
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0022:
+	{
+		PlayerPrefs_SetInt_m3351928596(NULL /*static, unused*/, G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		ArenaDebugMenu_StartGame_m4259779596(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::getTitleName()
+extern Il2CppCodeGenString* _stringLiteral791393439;
+extern const uint32_t TripeaksArenaDebugMenu_getTitleName_m2207400188_MetadataUsageId;
+extern "C"  String_t* TripeaksArenaDebugMenu_getTitleName_m2207400188 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TripeaksArenaDebugMenu_getTitleName_m2207400188_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		return _stringLiteral791393439;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::getModelHash()
+extern "C"  String_t* TripeaksArenaDebugMenu_getModelHash_m1088766868 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	{
+		return (String_t*)NULL;
+	}
+}
+// GSN.Skill.Games.Common.Model.IDataSafePlugin GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::CreateDataSafePlugin(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  Il2CppObject * TripeaksArenaDebugMenu_CreateDataSafePlugin_m1278969040 (TripeaksArenaDebugMenu_t3419621638 * __this, Dictionary_2_t3943999495 * ___joinBody0, Dictionary_2_t3943999495 * ___joinRecord1, const MethodInfo* method)
+{
+	{
+		return (Il2CppObject *)NULL;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TripeaksArenaDebugMenu::<AddCustomControls>m__0()
+extern "C"  void TripeaksArenaDebugMenu_U3CAddCustomControlsU3Em__0_m1889462847 (TripeaksArenaDebugMenu_t3419621638 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t1756533147 * L_0 = __this->get__easyPanel_33();
+		GameObject_SetActive_m2887581199(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksAudioMapper::.ctor()
+extern const MethodInfo* AudioMapper_1__ctor_m1998404833_MethodInfo_var;
+extern const uint32_t TriPeaksAudioMapper__ctor_m3998770498_MetadataUsageId;
+extern "C"  void TriPeaksAudioMapper__ctor_m3998770498 (TriPeaksAudioMapper_t3294266492 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksAudioMapper__ctor_m3998770498_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioMapper_1__ctor_m1998404833(__this, /*hidden argument*/AudioMapper_1__ctor_m1998404833_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::.ctor(GSN.Skill.Games.Common.Primitive.Card.GsnStandardCard/Suits,GSN.Skill.Games.Common.Primitive.Card.GsnStandardCard/Ranks,System.Int32,System.Int32,System.Int32)
+extern Il2CppCodeGenString* _stringLiteral1838340599;
+extern const uint32_t TriPeaksCard__ctor_m3452449461_MetadataUsageId;
+extern "C"  void TriPeaksCard__ctor_m3452449461 (TriPeaksCard_t214310709 * __this, int32_t ___suit0, int32_t ___rank1, int32_t ___value2, int32_t ___flags3, int32_t ___sortValue4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCard__ctor_m3452449461_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___suit0;
+		int32_t L_1 = ___rank1;
+		int32_t L_2 = ___value2;
+		int32_t L_3 = ___flags3;
+		int32_t L_4 = ___sortValue4;
+		GsnStandardCard__ctor_m1265394432(__this, L_0, L_1, L_2, L_3, L_4, _stringLiteral1838340599, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.TriPeaksCard::get_activationCounter()
+extern "C"  int32_t TriPeaksCard_get_activationCounter_m3327518404 (TriPeaksCard_t214310709 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_U3CactivationCounterU3Ek__BackingField_14();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::set_activationCounter(System.Int32)
+extern "C"  void TriPeaksCard_set_activationCounter_m2803238457 (TriPeaksCard_t214310709 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_U3CactivationCounterU3Ek__BackingField_14(L_0);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::ApplyFlagsFromData(GSN.Skill.Games.Tripeaks.GameModel,GSN.Skill.Games.Tripeaks.BaseCardData)
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksCard_ApplyFlagsFromData_m1125726104_MetadataUsageId;
+extern "C"  void TriPeaksCard_ApplyFlagsFromData_m1125726104 (TriPeaksCard_t214310709 * __this, GameModel_t3841817345 * ___gameModel0, BaseCardData_t423020963 * ___data1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCard_ApplyFlagsFromData_m1125726104_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		BaseCardData_t423020963 * L_0 = ___data1;
+		int32_t L_1 = L_0->get_cardType_3();
+		if ((!(((uint32_t)L_1) == ((uint32_t)5))))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_2 = ___gameModel0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_DYNAMITE_HAZARD_ID_42();
+		bool L_4 = GameModel_HasOption_m2153457552(L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		GsnCard_SetFlag_m1203110991(__this, ((int32_t)256), (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		BaseCardData_t423020963 * L_5 = ___data1;
+		int32_t L_6 = L_5->get_cardType_3();
+		if ((!(((uint32_t)L_6) == ((uint32_t)3))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_7 = ___gameModel0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_8 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_TRAP_HAZARD_ID_40();
+		bool L_9 = GameModel_HasOption_m2153457552(L_7, L_8, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		GsnCard_SetFlag_m1203110991(__this, ((int32_t)512), (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0050:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::ActivateFaceUpEffects(GSN.Skill.Games.Tripeaks.GameModel,System.Int32,System.Int32)
+extern Il2CppClass* DynamiteCountdownTask_t3600144113_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1130187425;
+extern Il2CppCodeGenString* _stringLiteral1345946323;
+extern Il2CppCodeGenString* _stringLiteral4285155620;
+extern const uint32_t TriPeaksCard_ActivateFaceUpEffects_m8331724_MetadataUsageId;
+extern "C"  void TriPeaksCard_ActivateFaceUpEffects_m8331724 (TriPeaksCard_t214310709 * __this, GameModel_t3841817345 * ___gameModel0, int32_t ___cardId1, int32_t ___timeDelay2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCard_ActivateFaceUpEffects_m8331724_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = GsnCard_HasFlag_m545784328(__this, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_1 = ___gameModel0;
+		int32_t L_2 = GameModel_GetTweakable_m2311541351(L_1, _stringLiteral1130187425, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if (L_3)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_4 = ___gameModel0;
+		int32_t L_5 = GameModel_GetTweakable_m2311541351(L_4, _stringLiteral1345946323, /*hidden argument*/NULL);
+		TriPeaksCard_set_activationCounter_m2803238457(__this, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = TriPeaksCard_get_activationCounter_m3327518404(__this, /*hidden argument*/NULL);
+		TriPeaksCard_set_activationCounter_m2803238457(__this, ((int32_t)((int32_t)L_6+(int32_t)1)), /*hidden argument*/NULL);
+		goto IL_008f;
+	}
+
+IL_0046:
+	{
+		GameModel_t3841817345 * L_7 = ___gameModel0;
+		int32_t L_8 = GameModel_GetTweakable_m2311541351(L_7, _stringLiteral4285155620, /*hidden argument*/NULL);
+		TriPeaksCard_set_activationCounter_m2803238457(__this, L_8, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_9 = ___gameModel0;
+		int32_t L_10 = TriPeaksCard_get_activationCounter_m3327518404(__this, /*hidden argument*/NULL);
+		int32_t L_11 = ___cardId1;
+		DynamiteCountdownTask_t3600144113 * L_12 = (DynamiteCountdownTask_t3600144113 *)il2cpp_codegen_object_new(DynamiteCountdownTask_t3600144113_il2cpp_TypeInfo_var);
+		DynamiteCountdownTask__ctor_m986083231(L_12, L_9, L_10, L_11, __this, /*hidden argument*/NULL);
+		__this->set__countdownTask_15(L_12);
+		GameModel_t3841817345 * L_13 = ___gameModel0;
+		GsnScheduler_t1299811741 * L_14 = ((GameModelBase_t2215752692 *)L_13)->get__scheduler_14();
+		DynamiteCountdownTask_t3600144113 * L_15 = __this->get__countdownTask_15();
+		GsnScheduler_Add_m2031362013(L_14, L_15, /*hidden argument*/NULL);
+		DynamiteCountdownTask_t3600144113 * L_16 = __this->get__countdownTask_15();
+		DynamiteCountdownTask_t3600144113 * L_17 = L_16;
+		int32_t L_18 = VirtFuncInvoker0< int32_t >::Invoke(9 /* System.Int32 GSN.Skill.Games.Common.Tasks.GsnTaskBase::get_wakeUpTime() */, L_17);
+		int32_t L_19 = ___timeDelay2;
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void GSN.Skill.Games.Common.Tasks.GsnTaskBase::set_wakeUpTime(System.Int32) */, L_17, ((int32_t)((int32_t)L_18+(int32_t)L_19)));
+	}
+
+IL_008f:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::KillFaceUpEffectTimers()
+extern "C"  void TriPeaksCard_KillFaceUpEffectTimers_m3936163082 (TriPeaksCard_t214310709 * __this, const MethodInfo* method)
+{
+	{
+		DynamiteCountdownTask_t3600144113 * L_0 = __this->get__countdownTask_15();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		DynamiteCountdownTask_t3600144113 * L_1 = __this->get__countdownTask_15();
+		GsnTaskBase_UnSchedule_m1949516266(L_1, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::AdvanceTurn(GSN.Skill.Games.Tripeaks.GameModel)
+extern Il2CppCodeGenString* _stringLiteral1130187425;
+extern const uint32_t TriPeaksCard_AdvanceTurn_m3794696610_MetadataUsageId;
+extern "C"  void TriPeaksCard_AdvanceTurn_m3794696610 (TriPeaksCard_t214310709 * __this, GameModel_t3841817345 * ___gameModel0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCard_AdvanceTurn_m3794696610_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = GsnCard_HasFlag_m545784328(__this, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_1 = ___gameModel0;
+		int32_t L_2 = GameModel_GetTweakable_m2311541351(L_1, _stringLiteral1130187425, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if (L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		int32_t L_4 = TriPeaksCard_get_activationCounter_m3327518404(__this, /*hidden argument*/NULL);
+		TriPeaksCard_set_activationCounter_m2803238457(__this, ((int32_t)((int32_t)L_4-(int32_t)1)), /*hidden argument*/NULL);
+	}
+
+IL_0030:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::SetActivationCounter(GSN.Skill.Games.Tripeaks.GameModel,System.Int32)
+extern "C"  void TriPeaksCard_SetActivationCounter_m70938698 (TriPeaksCard_t214310709 * __this, GameModel_t3841817345 * ___gameModel0, int32_t ___activationCounter1, const MethodInfo* method)
+{
+	{
+		bool L_0 = GsnCard_HasFlag_m545784328(__this, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = ___activationCounter1;
+		TriPeaksCard_set_activationCounter_m2803238457(__this, L_1, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::UpdateUI(GSN.Skill.Games.Tripeaks.GameModel,System.Int32)
+extern Il2CppClass* UpdateDynamiteCounterEvent_t2826823220_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksCard_UpdateUI_m2856352989_MetadataUsageId;
+extern "C"  void TriPeaksCard_UpdateUI_m2856352989 (TriPeaksCard_t214310709 * __this, GameModel_t3841817345 * ___gameModel0, int32_t ___cardID1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCard_UpdateUI_m2856352989_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = GsnCard_HasFlag_m545784328(__this, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_1 = ___gameModel0;
+		int32_t L_2 = ___cardID1;
+		int32_t L_3 = TriPeaksCard_get_activationCounter_m3327518404(__this, /*hidden argument*/NULL);
+		UpdateDynamiteCounterEvent_t2826823220  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		UpdateDynamiteCounterEvent__ctor_m3743102728(&L_4, L_2, L_3, /*hidden argument*/NULL);
+		UpdateDynamiteCounterEvent_t2826823220  L_5 = L_4;
+		Il2CppObject * L_6 = Box(UpdateDynamiteCounterEvent_t2826823220_il2cpp_TypeInfo_var, &L_5);
+		EventDispatcher_DispatchEvent_m4139058996(L_1, (Il2CppObject *)L_6, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.TriPeaksCard::EndsGame(GSN.Skill.Games.Tripeaks.GameModel)
+extern "C"  bool TriPeaksCard_EndsGame_m493810195 (TriPeaksCard_t214310709 * __this, GameModel_t3841817345 * ___gameModel0, const MethodInfo* method)
+{
+	{
+		bool L_0 = GsnCard_HasFlag_m545784328(__this, ((int32_t)256), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_1 = TriPeaksCard_get_activationCounter_m3327518404(__this, /*hidden argument*/NULL);
+		return (bool)((((int32_t)((((int32_t)L_1) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::clearCountdownTask()
+extern "C"  void TriPeaksCard_clearCountdownTask_m2712327716 (TriPeaksCard_t214310709 * __this, const MethodInfo* method)
+{
+	{
+		TriPeaksCard_KillFaceUpEffectTimers_m3936163082(__this, /*hidden argument*/NULL);
+		__this->set__countdownTask_15((DynamiteCountdownTask_t3600144113 *)NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCard::Rewind(System.Int32)
+extern "C"  void TriPeaksCard_Rewind_m2477172255 (TriPeaksCard_t214310709 * __this, int32_t ___stateTimeMS0, const MethodInfo* method)
+{
+	{
+		DynamiteCountdownTask_t3600144113 * L_0 = __this->get__countdownTask_15();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		DynamiteCountdownTask_t3600144113 * L_1 = __this->get__countdownTask_15();
+		int32_t L_2 = ___stateTimeMS0;
+		DynamiteCountdownTask_Rewind_m834338447(L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardCountDebugMenu::.ctor()
+extern "C"  void TriPeaksCardCountDebugMenu__ctor_m2757964218 (TriPeaksCardCountDebugMenu_t3644553040 * __this, const MethodInfo* method)
+{
+	{
+		CloseableDebugMenu__ctor_m3594869609(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::.ctor(GSN.Skill.Games.Tripeaks.PlayfieldModelData)
+extern "C"  void TriPeaksCardDeck__ctor_m2583704504 (TriPeaksCardDeck_t1840429032 * __this, PlayfieldModelData_t1827511723 * ___inPlayfield0, const MethodInfo* method)
+{
+	{
+		GsnStandardCardDeck__ctor_m1155824645(__this, /*hidden argument*/NULL);
+		PlayfieldModelData_t1827511723 * L_0 = ___inPlayfield0;
+		__this->set__playfield_1(L_0);
+		return;
+	}
+}
+// GSN.Skill.Games.Common.Primitive.Card.GsnCard GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::CreateCard(GSN.Skill.Games.Common.Primitive.Card.GsnStandardCard/Suits,GSN.Skill.Games.Common.Primitive.Card.GsnStandardCard/Ranks,System.Int32,System.Int32,System.Int32)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksCardDeck_CreateCard_m3661944299_MetadataUsageId;
+extern "C"  GsnCard_t782444760 * TriPeaksCardDeck_CreateCard_m3661944299 (TriPeaksCardDeck_t1840429032 * __this, int32_t ___suit0, int32_t ___rank1, int32_t ___value2, int32_t ___flags3, int32_t ___sortV4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCardDeck_CreateCard_m3661944299_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___suit0;
+		int32_t L_1 = ___rank1;
+		int32_t L_2 = ___value2;
+		int32_t L_3 = ___flags3;
+		int32_t L_4 = ___sortV4;
+		TriPeaksCard_t214310709 * L_5 = (TriPeaksCard_t214310709 *)il2cpp_codegen_object_new(TriPeaksCard_t214310709_il2cpp_TypeInfo_var);
+		TriPeaksCard__ctor_m3452449461(L_5, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::BuildDeck(GSN.Skill.Games.Tripeaks.GameModel,System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile,System.Int32[])
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2961219472_MethodInfo_var;
+extern const MethodInfo* List_1_Contains_m793041670_MethodInfo_var;
+extern const uint32_t TriPeaksCardDeck_BuildDeck_m1735462004_MetadataUsageId;
+extern "C"  void TriPeaksCardDeck_BuildDeck_m1735462004 (TriPeaksCardDeck_t1840429032 * __this, GameModel_t3841817345 * ___gameModel0, List_1_t4087109391 * ___baseCardData1, GsnCardPile_t3625903776 * ___dealPile2, GsnCardPile_t3625903776 * ___removedPile3, Int32U5BU5D_t3030399641* ___cardOrder4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCardDeck_BuildDeck_m1735462004_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1440998580 * V_0 = NULL;
+	int32_t V_1 = 0;
+	TriPeaksCard_t214310709 * V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		GsnStandardCardDeck_Initialize_m58278054(__this, (bool)0, 0, 1, 2, 3, /*hidden argument*/NULL);
+		Int32U5BU5D_t3030399641* L_0 = ___cardOrder4;
+		List_1_t1440998580 * L_1 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m2961219472(L_1, (Il2CppObject*)(Il2CppObject*)L_0, /*hidden argument*/List_1__ctor_m2961219472_MethodInfo_var);
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0053;
+	}
+
+IL_001a:
+	{
+		List_1_t1440998580 * L_2 = V_0;
+		int32_t L_3 = V_1;
+		bool L_4 = List_1_Contains_m793041670(L_2, L_3, /*hidden argument*/List_1_Contains_m793041670_MethodInfo_var);
+		if (L_4)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_5 = ___removedPile3;
+		int32_t L_6 = V_1;
+		GsnCardPile_AddCard_m1029854019(L_5, L_6, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_7 = ___removedPile3;
+		GsnCardPile_t3625903776 * L_8 = ___removedPile3;
+		int32_t L_9 = V_1;
+		int32_t L_10 = GsnCardPile_GetCardSlot_m1067634896(L_8, L_9, /*hidden argument*/NULL);
+		GsnCard_t782444760 * L_11 = GsnCardPile_GetCardAt_m1031382152(L_7, L_10, /*hidden argument*/NULL);
+		V_2 = ((TriPeaksCard_t214310709 *)CastclassClass(L_11, TriPeaksCard_t214310709_il2cpp_TypeInfo_var));
+		TriPeaksCard_t214310709 * L_12 = V_2;
+		GsnCard_SetFlag_m1203110991(L_12, ((int32_t)254), (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_004f:
+	{
+		int32_t L_13 = V_1;
+		V_1 = ((int32_t)((int32_t)L_13+(int32_t)1));
+	}
+
+IL_0053:
+	{
+		int32_t L_14 = V_1;
+		int32_t L_15 = GsnCardDeck_get_count_m3383929316(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_14) < ((int32_t)L_15)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		V_3 = 0;
+		goto IL_007b;
+	}
+
+IL_0066:
+	{
+		GsnCardPile_t3625903776 * L_16 = ___dealPile2;
+		Int32U5BU5D_t3030399641* L_17 = ___cardOrder4;
+		Int32U5BU5D_t3030399641* L_18 = ___cardOrder4;
+		int32_t L_19 = V_3;
+		int32_t L_20 = ((int32_t)((int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_18)->max_length))))-(int32_t)L_19))-(int32_t)1));
+		int32_t L_21 = (L_17)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20));
+		GsnCardPile_AddCard_m1029854019(L_16, L_21, /*hidden argument*/NULL);
+		int32_t L_22 = V_3;
+		V_3 = ((int32_t)((int32_t)L_22+(int32_t)1));
+	}
+
+IL_007b:
+	{
+		int32_t L_23 = V_3;
+		Int32U5BU5D_t3030399641* L_24 = ___cardOrder4;
+		if ((((int32_t)L_23) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_24)->max_length)))))))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_25 = ___gameModel0;
+		List_1_t4087109391 * L_26 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_27 = ___dealPile2;
+		TriPeaksCardDeck_BuildDeckInternal_m1146746164(__this, L_25, L_26, L_27, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::BuildDeck(GSN.Skill.Games.Tripeaks.GameModel,System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile,GSN.Skill.Games.Common.Utils.GsnRandom)
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksCardDeck_BuildDeck_m2395129550_MetadataUsageId;
+extern "C"  void TriPeaksCardDeck_BuildDeck_m2395129550 (TriPeaksCardDeck_t1840429032 * __this, GameModel_t3841817345 * ___gameModel0, List_1_t4087109391 * ___baseCardData1, GsnCardPile_t3625903776 * ___dealPile2, GsnRandom_t3573954395 * ___rand3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCardDeck_BuildDeck_m2395129550_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		GsnStandardCardDeck_Initialize_m58278054(__this, (bool)0, 0, 1, 2, 3, /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0012:
+	{
+		GsnCardPile_t3625903776 * L_0 = ___dealPile2;
+		int32_t L_1 = V_0;
+		GsnCardPile_AddCard_m1029854019(L_0, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = V_0;
+		V_0 = ((int32_t)((int32_t)L_2+(int32_t)1));
+	}
+
+IL_001d:
+	{
+		int32_t L_3 = V_0;
+		int32_t L_4 = GsnCardDeck_get_count_m3383929316(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_3) < ((int32_t)L_4)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		GsnCardPile_t3625903776 * L_5 = ___dealPile2;
+		GsnRandom_t3573954395 * L_6 = ___rand3;
+		GsnCardPile_Shuffle_m2099784971(L_5, L_6, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_7 = ___gameModel0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_8 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_SHARK_HAZARD_ID_41();
+		bool L_9 = GameModel_HasOption_m2153457552(L_7, L_8, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		List_1_t4087109391 * L_10 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_11 = ___dealPile2;
+		TriPeaksCardDeck_AddSharkCards_m3748598331(__this, L_10, L_11, /*hidden argument*/NULL);
+	}
+
+IL_0049:
+	{
+		GameModel_t3841817345 * L_12 = ___gameModel0;
+		List_1_t4087109391 * L_13 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_14 = ___dealPile2;
+		GsnRandom_t3573954395 * L_15 = ___rand3;
+		TriPeaksCardDeck_GenerateTikiCards_m1969775552(__this, L_12, L_13, L_14, L_15, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_16 = ___gameModel0;
+		List_1_t4087109391 * L_17 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_18 = ___dealPile2;
+		TriPeaksCardDeck_BuildDeckInternal_m1146746164(__this, L_16, L_17, L_18, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::BuildDeckInternal(GSN.Skill.Games.Tripeaks.GameModel,System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile)
+extern Il2CppClass* TriPeaksCard_t214310709_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1558845905_MethodInfo_var;
+extern const uint32_t TriPeaksCardDeck_BuildDeckInternal_m1146746164_MetadataUsageId;
+extern "C"  void TriPeaksCardDeck_BuildDeckInternal_m1146746164 (TriPeaksCardDeck_t1840429032 * __this, GameModel_t3841817345 * ___gameModel0, List_1_t4087109391 * ___baseCardData1, GsnCardPile_t3625903776 * ___dealPile2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCardDeck_BuildDeckInternal_m1146746164_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GsnCard_t782444760 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		V_1 = 0;
+		goto IL_003a;
+	}
+
+IL_0007:
+	{
+		GsnCardPile_t3625903776 * L_0 = ___dealPile2;
+		GsnCardPile_t3625903776 * L_1 = ___dealPile2;
+		int32_t L_2 = GsnCardPile_get_count_m669804915(L_1, /*hidden argument*/NULL);
+		int32_t L_3 = V_1;
+		GsnCard_t782444760 * L_4 = GsnCardPile_GetCardAt_m1031382152(L_0, ((int32_t)((int32_t)((int32_t)((int32_t)L_2-(int32_t)1))-(int32_t)L_3)), /*hidden argument*/NULL);
+		V_0 = L_4;
+		GsnCard_t782444760 * L_5 = V_0;
+		if (!((TriPeaksCard_t214310709 *)IsInstClass(L_5, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		GsnCard_t782444760 * L_6 = V_0;
+		GameModel_t3841817345 * L_7 = ___gameModel0;
+		List_1_t4087109391 * L_8 = ___baseCardData1;
+		int32_t L_9 = V_1;
+		BaseCardData_t423020963 * L_10 = List_1_get_Item_m1588982064(L_8, L_9, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		TriPeaksCard_ApplyFlagsFromData_m1125726104(((TriPeaksCard_t214310709 *)CastclassClass(L_6, TriPeaksCard_t214310709_il2cpp_TypeInfo_var)), L_7, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		int32_t L_11 = V_1;
+		V_1 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_003a:
+	{
+		int32_t L_12 = V_1;
+		List_1_t4087109391 * L_13 = ___baseCardData1;
+		int32_t L_14 = List_1_get_Count_m1558845905(L_13, /*hidden argument*/List_1_get_Count_m1558845905_MethodInfo_var);
+		if ((((int32_t)L_12) < ((int32_t)L_14)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::AddSharkCards(System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile)
+extern Il2CppClass* GsnCard_t782444760_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1588982064_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1558845905_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2116786729;
+extern const uint32_t TriPeaksCardDeck_AddSharkCards_m3748598331_MetadataUsageId;
+extern "C"  void TriPeaksCardDeck_AddSharkCards_m3748598331 (TriPeaksCardDeck_t1840429032 * __this, List_1_t4087109391 * ___baseCardData0, GsnCardPile_t3625903776 * ___dealPile1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCardDeck_AddSharkCards_m3748598331_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	{
+		V_1 = 0;
+		goto IL_00a7;
+	}
+
+IL_0007:
+	{
+		List_1_t4087109391 * L_0 = ___baseCardData0;
+		int32_t L_1 = V_1;
+		BaseCardData_t423020963 * L_2 = List_1_get_Item_m1588982064(L_0, L_1, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_3 = L_2->get_cardType_3();
+		if ((((int32_t)L_3) == ((int32_t)6)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		List_1_t4087109391 * L_4 = ___baseCardData0;
+		int32_t L_5 = V_1;
+		BaseCardData_t423020963 * L_6 = List_1_get_Item_m1588982064(L_4, L_5, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_7 = L_6->get_cardType_3();
+		if ((!(((uint32_t)L_7) == ((uint32_t)7))))
+		{
+			goto IL_00a3;
+		}
+	}
+
+IL_002b:
+	{
+		GsnCardPile_t3625903776 * L_8 = ___dealPile1;
+		int32_t L_9 = GsnCardPile_get_count_m669804915(L_8, /*hidden argument*/NULL);
+		int32_t L_10 = V_1;
+		V_2 = ((int32_t)((int32_t)((int32_t)((int32_t)L_9-(int32_t)1))-(int32_t)L_10));
+		GsnCardPile_t3625903776 * L_11 = ___dealPile1;
+		int32_t L_12 = V_2;
+		int32_t L_13 = GsnCardPile_GetCardIDAt_m599953468(L_11, L_12, /*hidden argument*/NULL);
+		V_0 = L_13;
+		GsnCardPile_t3625903776 * L_14 = ___dealPile1;
+		int32_t L_15 = V_2;
+		GsnCardPile_RemoveCardAt_m1061423375(L_14, L_15, /*hidden argument*/NULL);
+		V_3 = 0;
+		List_1_t4087109391 * L_16 = ___baseCardData0;
+		int32_t L_17 = V_1;
+		BaseCardData_t423020963 * L_18 = List_1_get_Item_m1588982064(L_16, L_17, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_19 = L_18->get_cardType_3();
+		if ((!(((uint32_t)L_19) == ((uint32_t)6))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		V_3 = ((int32_t)64);
+		goto IL_0068;
+	}
+
+IL_0062:
+	{
+		V_3 = ((int32_t)128);
+	}
+
+IL_0068:
+	{
+		int32_t L_20 = V_3;
+		GsnCard_t782444760 * L_21 = (GsnCard_t782444760 *)il2cpp_codegen_object_new(GsnCard_t782444760_il2cpp_TypeInfo_var);
+		GsnCard__ctor_m2593301661(L_21, _stringLiteral2116786729, L_20, 0, /*hidden argument*/NULL);
+		GsnCardDeck_AddCard_m4135131479(__this, L_21, /*hidden argument*/NULL);
+		int32_t L_22 = GsnCardDeck_get_count_m3383929316(__this, /*hidden argument*/NULL);
+		V_4 = ((int32_t)((int32_t)L_22-(int32_t)1));
+		GsnCardPile_t3625903776 * L_23 = ___dealPile1;
+		int32_t L_24 = V_2;
+		int32_t L_25 = V_4;
+		GsnCardPile_AddCardAt_m1017993115(L_23, L_24, L_25, /*hidden argument*/NULL);
+		List_1_t4087109391 * L_26 = ___baseCardData0;
+		int32_t L_27 = V_1;
+		BaseCardData_t423020963 * L_28 = List_1_get_Item_m1588982064(L_26, L_27, /*hidden argument*/List_1_get_Item_m1588982064_MethodInfo_var);
+		int32_t L_29 = V_4;
+		L_28->set_cardID_0(L_29);
+		GsnCardPile_t3625903776 * L_30 = ___dealPile1;
+		int32_t L_31 = V_0;
+		GsnCardPile_AddCardAt_m1017993115(L_30, 0, L_31, /*hidden argument*/NULL);
+	}
+
+IL_00a3:
+	{
+		int32_t L_32 = V_1;
+		V_1 = ((int32_t)((int32_t)L_32+(int32_t)1));
+	}
+
+IL_00a7:
+	{
+		int32_t L_33 = V_1;
+		List_1_t4087109391 * L_34 = ___baseCardData0;
+		int32_t L_35 = List_1_get_Count_m1558845905(L_34, /*hidden argument*/List_1_get_Count_m1558845905_MethodInfo_var);
+		if ((((int32_t)L_33) < ((int32_t)L_35)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::GenerateTikiCards(GSN.Skill.Games.Tripeaks.GameModel,System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile,GSN.Skill.Games.Common.Utils.GsnRandom)
+extern Il2CppClass* GameModel_t3841817345_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksCardDeck_GenerateTikiCards_m1969775552_MetadataUsageId;
+extern "C"  void TriPeaksCardDeck_GenerateTikiCards_m1969775552 (TriPeaksCardDeck_t1840429032 * __this, GameModel_t3841817345 * ___gameModel0, List_1_t4087109391 * ___baseCardData1, GsnCardPile_t3625903776 * ___dealPile2, GsnRandom_t3573954395 * ___rand3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCardDeck_GenerateTikiCards_m1969775552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameModel_t3841817345 * L_0 = ___gameModel0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameModel_t3841817345_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_GOLDEN_TIKI_ID_36();
+		List_1_t4087109391 * L_2 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_3 = ___dealPile2;
+		GsnRandom_t3573954395 * L_4 = ___rand3;
+		PlayfieldModelData_t1827511723 * L_5 = __this->get__playfield_1();
+		TikiCardData_t3556096769 * L_6 = L_5->get_goldenData_3();
+		TriPeaksCardDeck_GenerateTikiCardsFromCardData_m4023183497(__this, L_0, L_1, L_2, L_3, L_4, L_6, 2, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_7 = ___gameModel0;
+		String_t* L_8 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_RED_TIKI_ID_32();
+		List_1_t4087109391 * L_9 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_10 = ___dealPile2;
+		GsnRandom_t3573954395 * L_11 = ___rand3;
+		PlayfieldModelData_t1827511723 * L_12 = __this->get__playfield_1();
+		TikiCardData_t3556096769 * L_13 = L_12->get_redData_1();
+		TriPeaksCardDeck_GenerateTikiCardsFromCardData_m4023183497(__this, L_7, L_8, L_9, L_10, L_11, L_13, 4, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_14 = ___gameModel0;
+		String_t* L_15 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLACK_TIKI_ID_33();
+		List_1_t4087109391 * L_16 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_17 = ___dealPile2;
+		GsnRandom_t3573954395 * L_18 = ___rand3;
+		PlayfieldModelData_t1827511723 * L_19 = __this->get__playfield_1();
+		TikiCardData_t3556096769 * L_20 = L_19->get_blackData_2();
+		TriPeaksCardDeck_GenerateTikiCardsFromCardData_m4023183497(__this, L_14, L_15, L_16, L_17, L_18, L_20, 8, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_21 = ___gameModel0;
+		String_t* L_22 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_BLOSSOM_TIKI_ID_35();
+		List_1_t4087109391 * L_23 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_24 = ___dealPile2;
+		GsnRandom_t3573954395 * L_25 = ___rand3;
+		PlayfieldModelData_t1827511723 * L_26 = __this->get__playfield_1();
+		TikiCardData_t3556096769 * L_27 = L_26->get_flowerData_5();
+		TriPeaksCardDeck_GenerateTikiCardsFromCardData_m4023183497(__this, L_21, L_22, L_23, L_24, L_25, L_27, ((int32_t)16), /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_28 = ___gameModel0;
+		String_t* L_29 = ((GameModel_t3841817345_StaticFields*)GameModel_t3841817345_il2cpp_TypeInfo_var->static_fields)->get_OPTIONS_VOLCANO_TIKI_ID_34();
+		List_1_t4087109391 * L_30 = ___baseCardData1;
+		GsnCardPile_t3625903776 * L_31 = ___dealPile2;
+		GsnRandom_t3573954395 * L_32 = ___rand3;
+		PlayfieldModelData_t1827511723 * L_33 = __this->get__playfield_1();
+		TikiCardData_t3556096769 * L_34 = L_33->get_volcanoData_4();
+		TriPeaksCardDeck_GenerateTikiCardsFromCardData_m4023183497(__this, L_28, L_29, L_30, L_31, L_32, L_34, ((int32_t)32), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::GenerateTikiCardsFromCardData(GSN.Skill.Games.Tripeaks.GameModel,System.String,System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile,GSN.Skill.Games.Common.Utils.GsnRandom,GSN.Skill.Games.Tripeaks.TikiCardData,System.Int32)
+extern "C"  void TriPeaksCardDeck_GenerateTikiCardsFromCardData_m4023183497 (TriPeaksCardDeck_t1840429032 * __this, GameModel_t3841817345 * ___gameModel0, String_t* ___optionKey1, List_1_t4087109391 * ___baseCardData2, GsnCardPile_t3625903776 * ___dealPile3, GsnRandom_t3573954395 * ___rand4, TikiCardData_t3556096769 * ___tikiCardData5, int32_t ___tikiFlag6, const MethodInfo* method)
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		V_0 = (bool)0;
+		GameModel_t3841817345 * L_0 = ___gameModel0;
+		String_t* L_1 = ___optionKey1;
+		bool L_2 = GameModel_HasOption_m2153457552(L_0, L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_3 = V_0;
+		if (L_3)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0015:
+	{
+		TikiCardData_t3556096769 * L_4 = ___tikiCardData5;
+		if (L_4)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001d:
+	{
+		V_1 = (bool)0;
+		TikiCardData_t3556096769 * L_5 = ___tikiCardData5;
+		int32_t L_6 = L_5->get_minCount_0();
+		if ((((int32_t)L_6) <= ((int32_t)0)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		V_2 = 0;
+		goto IL_0044;
+	}
+
+IL_0033:
+	{
+		List_1_t4087109391 * L_7 = ___baseCardData2;
+		GsnCardPile_t3625903776 * L_8 = ___dealPile3;
+		GsnRandom_t3573954395 * L_9 = ___rand4;
+		int32_t L_10 = ___tikiFlag6;
+		TriPeaksCardDeck_InsertTikiCard_m1695837884(__this, L_7, L_8, L_9, L_10, /*hidden argument*/NULL);
+		int32_t L_11 = V_2;
+		V_2 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0044:
+	{
+		int32_t L_12 = V_2;
+		TikiCardData_t3556096769 * L_13 = ___tikiCardData5;
+		int32_t L_14 = L_13->get_minCount_0();
+		if ((((int32_t)L_12) < ((int32_t)L_14)))
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_0051:
+	{
+		TikiCardData_t3556096769 * L_15 = ___tikiCardData5;
+		int32_t L_16 = L_15->get_maxCount_1();
+		TikiCardData_t3556096769 * L_17 = ___tikiCardData5;
+		int32_t L_18 = L_17->get_minCount_0();
+		if ((((int32_t)L_16) <= ((int32_t)L_18)))
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		TikiCardData_t3556096769 * L_19 = ___tikiCardData5;
+		int32_t L_20 = L_19->get_minCount_0();
+		V_3 = L_20;
+		goto IL_00a0;
+	}
+
+IL_0071:
+	{
+		bool L_21 = V_1;
+		if (L_21)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		GsnRandom_t3573954395 * L_22 = ___rand4;
+		uint32_t L_23 = GsnRandom_GetNextRange_m1830476161(L_22, 0, ((int32_t)100), /*hidden argument*/NULL);
+		TikiCardData_t3556096769 * L_24 = ___tikiCardData5;
+		int32_t L_25 = L_24->get_chance_2();
+		if ((((int64_t)(((int64_t)((uint64_t)L_23)))) >= ((int64_t)(((int64_t)((int64_t)L_25))))))
+		{
+			goto IL_009c;
+		}
+	}
+
+IL_008f:
+	{
+		List_1_t4087109391 * L_26 = ___baseCardData2;
+		GsnCardPile_t3625903776 * L_27 = ___dealPile3;
+		GsnRandom_t3573954395 * L_28 = ___rand4;
+		int32_t L_29 = ___tikiFlag6;
+		TriPeaksCardDeck_InsertTikiCard_m1695837884(__this, L_26, L_27, L_28, L_29, /*hidden argument*/NULL);
+	}
+
+IL_009c:
+	{
+		int32_t L_30 = V_3;
+		V_3 = ((int32_t)((int32_t)L_30+(int32_t)1));
+	}
+
+IL_00a0:
+	{
+		int32_t L_31 = V_3;
+		TikiCardData_t3556096769 * L_32 = ___tikiCardData5;
+		int32_t L_33 = L_32->get_maxCount_1();
+		if ((((int32_t)L_31) < ((int32_t)L_33)))
+		{
+			goto IL_0071;
+		}
+	}
+
+IL_00ad:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksCardDeck::InsertTikiCard(System.Collections.Generic.List`1<GSN.Skill.Games.Tripeaks.BaseCardData>,GSN.Skill.Games.Common.Primitive.Card.GsnCardPile,GSN.Skill.Games.Common.Utils.GsnRandom,System.Int32)
+extern Il2CppClass* GsnCard_t782444760_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m1558845905_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2116786729;
+extern const uint32_t TriPeaksCardDeck_InsertTikiCard_m1695837884_MetadataUsageId;
+extern "C"  void TriPeaksCardDeck_InsertTikiCard_m1695837884 (TriPeaksCardDeck_t1840429032 * __this, List_1_t4087109391 * ___baseCardData0, GsnCardPile_t3625903776 * ___dealPile1, GsnRandom_t3573954395 * ___rand2, int32_t ___tikiFlag3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksCardDeck_InsertTikiCard_m1695837884_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = GsnCardDeck_get_count_m3383929316(__this, /*hidden argument*/NULL);
+		List_1_t4087109391 * L_1 = ___baseCardData0;
+		int32_t L_2 = List_1_get_Count_m1558845905(L_1, /*hidden argument*/List_1_get_Count_m1558845905_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)L_0-(int32_t)L_2))-(int32_t)5));
+		GsnRandom_t3573954395 * L_3 = ___rand2;
+		uint32_t L_4 = V_0;
+		uint32_t L_5 = GsnRandom_GetNextRange_m1830476161(L_3, 0, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		int32_t L_6 = ___tikiFlag3;
+		GsnCard_t782444760 * L_7 = (GsnCard_t782444760 *)il2cpp_codegen_object_new(GsnCard_t782444760_il2cpp_TypeInfo_var);
+		GsnCard__ctor_m2593301661(L_7, _stringLiteral2116786729, L_6, 0, /*hidden argument*/NULL);
+		GsnCardDeck_AddCard_m4135131479(__this, L_7, /*hidden argument*/NULL);
+		GsnCardPile_t3625903776 * L_8 = ___dealPile1;
+		int32_t L_9 = V_1;
+		int32_t L_10 = GsnCardDeck_get_count_m3383929316(__this, /*hidden argument*/NULL);
+		GsnCardPile_AddCardAt_m1017993115(L_8, L_9, ((int32_t)((int32_t)L_10-(int32_t)1)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksScheduler::.ctor(GSN.Skill.Games.Tripeaks.GameModel)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnDebug_t1785824881_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3120972806;
+extern const uint32_t TriPeaksScheduler__ctor_m3870177650_MetadataUsageId;
+extern "C"  void TriPeaksScheduler__ctor_m3870177650 (TriPeaksScheduler_t2866304882 * __this, GameModel_t3841817345 * ___gameModel0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksScheduler__ctor_m3870177650_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GsnScheduler__ctor_m750971749(__this, /*hidden argument*/NULL);
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ArrayElementTypeCheck (L_0, _stringLiteral3120972806);
+		(L_0)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral3120972806);
+		IL2CPP_RUNTIME_CLASS_INIT(GsnDebug_t1785824881_il2cpp_TypeInfo_var);
+		GsnDebug_Log_m3044938852(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GameModel_t3841817345 * L_1 = ___gameModel0;
+		__this->set__gameModel_15(L_1);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksScheduler::OnIdle(System.Int32)
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnDebug_t1785824881_il2cpp_TypeInfo_var;
+extern Il2CppClass* ClearBoardTask_t2626500532_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2832777217;
+extern const uint32_t TriPeaksScheduler_OnIdle_m903038036_MetadataUsageId;
+extern "C"  void TriPeaksScheduler_OnIdle_m903038036 (TriPeaksScheduler_t2866304882 * __this, int32_t ___t0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksScheduler_OnIdle_m903038036_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ArrayElementTypeCheck (L_0, _stringLiteral2832777217);
+		(L_0)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral2832777217);
+		IL2CPP_RUNTIME_CLASS_INIT(GsnDebug_t1785824881_il2cpp_TypeInfo_var);
+		GsnDebug_Log_m3044938852(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = __this->get__sentClearEvent_16();
+		if (L_1)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		GameModel_t3841817345 * L_2 = __this->get__gameModel_15();
+		bool L_3 = L_2->get_triggerClearBoardEvent_156();
+		if (!L_3)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		__this->set__sentClearEvent_16((bool)1);
+		GameModel_t3841817345 * L_4 = __this->get__gameModel_15();
+		ClearBoardTask_t2626500532 * L_5 = (ClearBoardTask_t2626500532 *)il2cpp_codegen_object_new(ClearBoardTask_t2626500532_il2cpp_TypeInfo_var);
+		ClearBoardTask__ctor_m3929002685(L_5, L_4, ((int32_t)100), /*hidden argument*/NULL);
+		GsnScheduler_Add_m2031362013(__this, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0048:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksStringTable::.ctor()
+extern Il2CppClass* Dictionary_2_t3943999495_il2cpp_TypeInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m760167321_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m3686231158_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2185760601;
+extern Il2CppCodeGenString* _stringLiteral2681658614;
+extern Il2CppCodeGenString* _stringLiteral888502639;
+extern Il2CppCodeGenString* _stringLiteral888502890;
+extern Il2CppCodeGenString* _stringLiteral974583169;
+extern Il2CppCodeGenString* _stringLiteral419800570;
+extern Il2CppCodeGenString* _stringLiteral974583172;
+extern Il2CppCodeGenString* _stringLiteral1568486036;
+extern Il2CppCodeGenString* _stringLiteral974583171;
+extern Il2CppCodeGenString* _stringLiteral1267225199;
+extern Il2CppCodeGenString* _stringLiteral974583174;
+extern Il2CppCodeGenString* _stringLiteral2950007902;
+extern Il2CppCodeGenString* _stringLiteral974583173;
+extern Il2CppCodeGenString* _stringLiteral1923764114;
+extern Il2CppCodeGenString* _stringLiteral1272971351;
+extern Il2CppCodeGenString* _stringLiteral3855146322;
+extern Il2CppCodeGenString* _stringLiteral1272971352;
+extern Il2CppCodeGenString* _stringLiteral843987817;
+extern Il2CppCodeGenString* _stringLiteral3418418046;
+extern Il2CppCodeGenString* _stringLiteral1210532155;
+extern Il2CppCodeGenString* _stringLiteral1264779860;
+extern Il2CppCodeGenString* _stringLiteral2995581611;
+extern Il2CppCodeGenString* _stringLiteral871539695;
+extern Il2CppCodeGenString* _stringLiteral2881749213;
+extern Il2CppCodeGenString* _stringLiteral972268808;
+extern Il2CppCodeGenString* _stringLiteral2083645024;
+extern Il2CppCodeGenString* _stringLiteral2538352749;
+extern Il2CppCodeGenString* _stringLiteral556510460;
+extern Il2CppCodeGenString* _stringLiteral3105348320;
+extern Il2CppCodeGenString* _stringLiteral3764579765;
+extern Il2CppCodeGenString* _stringLiteral1826499814;
+extern Il2CppCodeGenString* _stringLiteral3423335556;
+extern Il2CppCodeGenString* _stringLiteral381356498;
+extern Il2CppCodeGenString* _stringLiteral3394643180;
+extern Il2CppCodeGenString* _stringLiteral2569826654;
+extern Il2CppCodeGenString* _stringLiteral4081011044;
+extern Il2CppCodeGenString* _stringLiteral3479315343;
+extern Il2CppCodeGenString* _stringLiteral3501100593;
+extern Il2CppCodeGenString* _stringLiteral2928256680;
+extern Il2CppCodeGenString* _stringLiteral2653686638;
+extern Il2CppCodeGenString* _stringLiteral2940551941;
+extern Il2CppCodeGenString* _stringLiteral2392177020;
+extern Il2CppCodeGenString* _stringLiteral2395477315;
+extern Il2CppCodeGenString* _stringLiteral2988080381;
+extern Il2CppCodeGenString* _stringLiteral2432897032;
+extern Il2CppCodeGenString* _stringLiteral1960765976;
+extern Il2CppCodeGenString* _stringLiteral1672372374;
+extern Il2CppCodeGenString* _stringLiteral3478838471;
+extern Il2CppCodeGenString* _stringLiteral3520093760;
+extern Il2CppCodeGenString* _stringLiteral3366064628;
+extern Il2CppCodeGenString* _stringLiteral3409114828;
+extern Il2CppCodeGenString* _stringLiteral1268411465;
+extern Il2CppCodeGenString* _stringLiteral1106194436;
+extern Il2CppCodeGenString* _stringLiteral3255028740;
+extern Il2CppCodeGenString* _stringLiteral3258342823;
+extern Il2CppCodeGenString* _stringLiteral439690404;
+extern Il2CppCodeGenString* _stringLiteral3414037919;
+extern Il2CppCodeGenString* _stringLiteral1398498215;
+extern Il2CppCodeGenString* _stringLiteral657331540;
+extern Il2CppCodeGenString* _stringLiteral3489708000;
+extern Il2CppCodeGenString* _stringLiteral2582964381;
+extern Il2CppCodeGenString* _stringLiteral3051891365;
+extern Il2CppCodeGenString* _stringLiteral4003858243;
+extern Il2CppCodeGenString* _stringLiteral3825713586;
+extern Il2CppCodeGenString* _stringLiteral2630427428;
+extern Il2CppCodeGenString* _stringLiteral146740421;
+extern Il2CppCodeGenString* _stringLiteral3021629903;
+extern Il2CppCodeGenString* _stringLiteral2740327691;
+extern Il2CppCodeGenString* _stringLiteral1496915101;
+extern Il2CppCodeGenString* _stringLiteral692263606;
+extern Il2CppCodeGenString* _stringLiteral2983946463;
+extern Il2CppCodeGenString* _stringLiteral783437945;
+extern Il2CppCodeGenString* _stringLiteral681682073;
+extern Il2CppCodeGenString* _stringLiteral3512677392;
+extern Il2CppCodeGenString* _stringLiteral3566282960;
+extern Il2CppCodeGenString* _stringLiteral903815452;
+extern Il2CppCodeGenString* _stringLiteral3551628604;
+extern Il2CppCodeGenString* _stringLiteral2289532944;
+extern Il2CppCodeGenString* _stringLiteral2514052551;
+extern Il2CppCodeGenString* _stringLiteral3175081301;
+extern Il2CppCodeGenString* _stringLiteral4057505319;
+extern Il2CppCodeGenString* _stringLiteral2563311259;
+extern Il2CppCodeGenString* _stringLiteral2545751233;
+extern Il2CppCodeGenString* _stringLiteral858291929;
+extern Il2CppCodeGenString* _stringLiteral1662803138;
+extern Il2CppCodeGenString* _stringLiteral1237257028;
+extern Il2CppCodeGenString* _stringLiteral3250643381;
+extern Il2CppCodeGenString* _stringLiteral4026721333;
+extern Il2CppCodeGenString* _stringLiteral2213908441;
+extern Il2CppCodeGenString* _stringLiteral974583176;
+extern Il2CppCodeGenString* _stringLiteral2161856149;
+extern Il2CppCodeGenString* _stringLiteral974583175;
+extern Il2CppCodeGenString* _stringLiteral749355951;
+extern Il2CppCodeGenString* _stringLiteral974583162;
+extern Il2CppCodeGenString* _stringLiteral2312820119;
+extern Il2CppCodeGenString* _stringLiteral974583161;
+extern Il2CppCodeGenString* _stringLiteral1138518093;
+extern Il2CppCodeGenString* _stringLiteral3418418043;
+extern Il2CppCodeGenString* _stringLiteral2979677488;
+extern Il2CppCodeGenString* _stringLiteral4104436690;
+extern Il2CppCodeGenString* _stringLiteral3005566788;
+extern Il2CppCodeGenString* _stringLiteral1731783695;
+extern Il2CppCodeGenString* _stringLiteral1693750372;
+extern Il2CppCodeGenString* _stringLiteral3297867636;
+extern Il2CppCodeGenString* _stringLiteral3006287837;
+extern Il2CppCodeGenString* _stringLiteral1272971353;
+extern Il2CppCodeGenString* _stringLiteral3581479217;
+extern Il2CppCodeGenString* _stringLiteral2830863801;
+extern Il2CppCodeGenString* _stringLiteral4247367327;
+extern Il2CppCodeGenString* _stringLiteral101980446;
+extern Il2CppCodeGenString* _stringLiteral2895337741;
+extern Il2CppCodeGenString* _stringLiteral2024294747;
+extern Il2CppCodeGenString* _stringLiteral208123506;
+extern Il2CppCodeGenString* _stringLiteral1786897297;
+extern Il2CppCodeGenString* _stringLiteral3965776488;
+extern Il2CppCodeGenString* _stringLiteral984200531;
+extern Il2CppCodeGenString* _stringLiteral931103827;
+extern Il2CppCodeGenString* _stringLiteral3713083886;
+extern Il2CppCodeGenString* _stringLiteral2137334539;
+extern Il2CppCodeGenString* _stringLiteral426392015;
+extern Il2CppCodeGenString* _stringLiteral1117539637;
+extern Il2CppCodeGenString* _stringLiteral1065946575;
+extern Il2CppCodeGenString* _stringLiteral572683306;
+extern Il2CppCodeGenString* _stringLiteral2919573064;
+extern Il2CppCodeGenString* _stringLiteral1918701372;
+extern Il2CppCodeGenString* _stringLiteral4173885015;
+extern Il2CppCodeGenString* _stringLiteral410712556;
+extern Il2CppCodeGenString* _stringLiteral1150721115;
+extern Il2CppCodeGenString* _stringLiteral1734129452;
+extern Il2CppCodeGenString* _stringLiteral4227046745;
+extern Il2CppCodeGenString* _stringLiteral725790931;
+extern Il2CppCodeGenString* _stringLiteral1009707992;
+extern Il2CppCodeGenString* _stringLiteral775690979;
+extern Il2CppCodeGenString* _stringLiteral953289154;
+extern Il2CppCodeGenString* _stringLiteral3230801502;
+extern Il2CppCodeGenString* _stringLiteral436339840;
+extern Il2CppCodeGenString* _stringLiteral1574909739;
+extern Il2CppCodeGenString* _stringLiteral2008108497;
+extern Il2CppCodeGenString* _stringLiteral796531544;
+extern Il2CppCodeGenString* _stringLiteral2492418420;
+extern Il2CppCodeGenString* _stringLiteral3806869301;
+extern Il2CppCodeGenString* _stringLiteral4288147541;
+extern Il2CppCodeGenString* _stringLiteral1644986323;
+extern Il2CppCodeGenString* _stringLiteral2649422763;
+extern Il2CppCodeGenString* _stringLiteral2401064051;
+extern Il2CppCodeGenString* _stringLiteral2649422764;
+extern Il2CppCodeGenString* _stringLiteral1403051111;
+extern Il2CppCodeGenString* _stringLiteral2649422765;
+extern Il2CppCodeGenString* _stringLiteral2046201420;
+extern Il2CppCodeGenString* _stringLiteral2587520861;
+extern Il2CppCodeGenString* _stringLiteral1039486299;
+extern Il2CppCodeGenString* _stringLiteral2990805388;
+extern Il2CppCodeGenString* _stringLiteral4111137212;
+extern Il2CppCodeGenString* _stringLiteral668824608;
+extern Il2CppCodeGenString* _stringLiteral3533687469;
+extern Il2CppCodeGenString* _stringLiteral854982159;
+extern Il2CppCodeGenString* _stringLiteral3645121008;
+extern Il2CppCodeGenString* _stringLiteral668824611;
+extern Il2CppCodeGenString* _stringLiteral1589054111;
+extern Il2CppCodeGenString* _stringLiteral2660409761;
+extern Il2CppCodeGenString* _stringLiteral2688384548;
+extern Il2CppCodeGenString* _stringLiteral1094325820;
+extern Il2CppCodeGenString* _stringLiteral704066945;
+extern Il2CppCodeGenString* _stringLiteral967360311;
+extern Il2CppCodeGenString* _stringLiteral1244622357;
+extern Il2CppCodeGenString* _stringLiteral1876956430;
+extern Il2CppCodeGenString* _stringLiteral1370787063;
+extern Il2CppCodeGenString* _stringLiteral4010868477;
+extern Il2CppCodeGenString* _stringLiteral1868279772;
+extern const uint32_t TriPeaksStringTable__ctor_m527710546_MetadataUsageId;
+extern "C"  void TriPeaksStringTable__ctor_m527710546 (TriPeaksStringTable_t551140522 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksStringTable__ctor_m527710546_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t3943999495 * V_0 = NULL;
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		StringTable_t1872322127 * L_0 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_1 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m760167321(L_1, /*hidden argument*/Dictionary_2__ctor_m760167321_MethodInfo_var);
+		V_0 = L_1;
+		Dictionary_2_t3943999495 * L_2 = V_0;
+		Dictionary_2_Add_m3686231158(L_2, _stringLiteral2185760601, _stringLiteral2681658614, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_3 = V_0;
+		Dictionary_2_Add_m3686231158(L_3, _stringLiteral888502639, _stringLiteral888502890, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_4 = V_0;
+		Dictionary_2_Add_m3686231158(L_4, _stringLiteral974583169, _stringLiteral419800570, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_5 = V_0;
+		Dictionary_2_Add_m3686231158(L_5, _stringLiteral974583172, _stringLiteral1568486036, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_6 = V_0;
+		Dictionary_2_Add_m3686231158(L_6, _stringLiteral974583171, _stringLiteral1267225199, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_7 = V_0;
+		Dictionary_2_Add_m3686231158(L_7, _stringLiteral974583174, _stringLiteral2950007902, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_8 = V_0;
+		Dictionary_2_Add_m3686231158(L_8, _stringLiteral974583173, _stringLiteral1923764114, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_9 = V_0;
+		Dictionary_2_Add_m3686231158(L_9, _stringLiteral1272971351, _stringLiteral3855146322, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_10 = V_0;
+		Dictionary_2_Add_m3686231158(L_10, _stringLiteral1272971352, _stringLiteral843987817, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_11 = V_0;
+		Dictionary_2_Add_m3686231158(L_11, _stringLiteral3418418046, _stringLiteral1210532155, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_12 = V_0;
+		Dictionary_2_Add_m3686231158(L_12, _stringLiteral1264779860, _stringLiteral2995581611, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_13 = V_0;
+		Dictionary_2_Add_m3686231158(L_13, _stringLiteral871539695, _stringLiteral2881749213, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_14 = V_0;
+		Dictionary_2_Add_m3686231158(L_14, _stringLiteral972268808, _stringLiteral2083645024, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_15 = V_0;
+		Dictionary_2_Add_m3686231158(L_15, _stringLiteral2538352749, _stringLiteral556510460, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_16 = V_0;
+		Dictionary_2_Add_m3686231158(L_16, _stringLiteral3105348320, _stringLiteral3105348320, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_17 = V_0;
+		Dictionary_2_Add_m3686231158(L_17, _stringLiteral3764579765, _stringLiteral1826499814, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_18 = V_0;
+		Dictionary_2_Add_m3686231158(L_18, _stringLiteral3423335556, _stringLiteral381356498, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_19 = V_0;
+		Dictionary_2_Add_m3686231158(L_19, _stringLiteral3394643180, _stringLiteral2569826654, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_20 = V_0;
+		Dictionary_2_Add_m3686231158(L_20, _stringLiteral4081011044, _stringLiteral3479315343, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_21 = V_0;
+		Dictionary_2_Add_m3686231158(L_21, _stringLiteral3501100593, _stringLiteral2928256680, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_22 = V_0;
+		Dictionary_2_Add_m3686231158(L_22, _stringLiteral2653686638, _stringLiteral2940551941, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_23 = V_0;
+		Dictionary_2_Add_m3686231158(L_23, _stringLiteral2392177020, _stringLiteral2395477315, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_24 = V_0;
+		Dictionary_2_Add_m3686231158(L_24, _stringLiteral2988080381, _stringLiteral2432897032, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_25 = V_0;
+		Dictionary_2_Add_m3686231158(L_25, _stringLiteral1960765976, _stringLiteral1672372374, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_26 = V_0;
+		Dictionary_2_Add_m3686231158(L_26, _stringLiteral3478838471, _stringLiteral3520093760, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_27 = V_0;
+		Dictionary_2_Add_m3686231158(L_27, _stringLiteral3366064628, _stringLiteral3409114828, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_28 = V_0;
+		Dictionary_2_Add_m3686231158(L_28, _stringLiteral1268411465, _stringLiteral1106194436, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_29 = V_0;
+		Dictionary_2_Add_m3686231158(L_29, _stringLiteral3255028740, _stringLiteral3258342823, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_30 = V_0;
+		Dictionary_2_Add_m3686231158(L_30, _stringLiteral439690404, _stringLiteral3414037919, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_31 = V_0;
+		Dictionary_2_Add_m3686231158(L_31, _stringLiteral1398498215, _stringLiteral657331540, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_32 = V_0;
+		Dictionary_2_Add_m3686231158(L_32, _stringLiteral3489708000, _stringLiteral2582964381, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_33 = V_0;
+		Dictionary_2_Add_m3686231158(L_33, _stringLiteral3051891365, _stringLiteral4003858243, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_34 = V_0;
+		Dictionary_2_Add_m3686231158(L_34, _stringLiteral3825713586, _stringLiteral2630427428, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_35 = V_0;
+		Dictionary_2_Add_m3686231158(L_35, _stringLiteral146740421, _stringLiteral3021629903, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_36 = V_0;
+		Dictionary_2_Add_m3686231158(L_36, _stringLiteral2740327691, _stringLiteral1496915101, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_37 = V_0;
+		Dictionary_2_Add_m3686231158(L_37, _stringLiteral692263606, _stringLiteral2983946463, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_38 = V_0;
+		Dictionary_2_Add_m3686231158(L_38, _stringLiteral783437945, _stringLiteral681682073, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_39 = V_0;
+		Dictionary_2_Add_m3686231158(L_39, _stringLiteral3512677392, _stringLiteral3566282960, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_40 = V_0;
+		Dictionary_2_Add_m3686231158(L_40, _stringLiteral903815452, _stringLiteral3551628604, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_41 = V_0;
+		Dictionary_2_Add_m3686231158(L_41, _stringLiteral2289532944, _stringLiteral2514052551, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_42 = V_0;
+		Dictionary_2_Add_m3686231158(L_42, _stringLiteral3175081301, _stringLiteral4057505319, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_43 = V_0;
+		Dictionary_2_Add_m3686231158(L_43, _stringLiteral2563311259, _stringLiteral2545751233, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_44 = V_0;
+		Dictionary_2_Add_m3686231158(L_44, _stringLiteral858291929, _stringLiteral1662803138, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_45 = V_0;
+		Dictionary_2_Add_m3686231158(L_45, _stringLiteral1237257028, _stringLiteral3250643381, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_46 = V_0;
+		Dictionary_2_Add_m3686231158(L_46, _stringLiteral4026721333, _stringLiteral2213908441, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_47 = V_0;
+		Dictionary_2_Add_m3686231158(L_47, _stringLiteral974583176, _stringLiteral2161856149, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_48 = V_0;
+		Dictionary_2_Add_m3686231158(L_48, _stringLiteral974583175, _stringLiteral749355951, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_49 = V_0;
+		Dictionary_2_Add_m3686231158(L_49, _stringLiteral974583162, _stringLiteral2312820119, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_50 = V_0;
+		Dictionary_2_Add_m3686231158(L_50, _stringLiteral974583161, _stringLiteral1138518093, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_51 = V_0;
+		Dictionary_2_Add_m3686231158(L_51, _stringLiteral3418418043, _stringLiteral2979677488, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_52 = V_0;
+		Dictionary_2_Add_m3686231158(L_52, _stringLiteral4104436690, _stringLiteral3005566788, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_53 = V_0;
+		Dictionary_2_Add_m3686231158(L_53, _stringLiteral1731783695, _stringLiteral1693750372, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_54 = V_0;
+		Dictionary_2_Add_m3686231158(L_54, _stringLiteral3297867636, _stringLiteral3006287837, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_55 = V_0;
+		Dictionary_2_Add_m3686231158(L_55, _stringLiteral1272971353, _stringLiteral3581479217, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_56 = V_0;
+		Dictionary_2_Add_m3686231158(L_56, _stringLiteral2830863801, _stringLiteral4247367327, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_57 = V_0;
+		Dictionary_2_Add_m3686231158(L_57, _stringLiteral101980446, _stringLiteral2895337741, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_58 = V_0;
+		Dictionary_2_Add_m3686231158(L_58, _stringLiteral2024294747, _stringLiteral208123506, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_59 = V_0;
+		Dictionary_2_Add_m3686231158(L_59, _stringLiteral1786897297, _stringLiteral3965776488, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_60 = V_0;
+		Dictionary_2_Add_m3686231158(L_60, _stringLiteral984200531, _stringLiteral931103827, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_61 = V_0;
+		Dictionary_2_Add_m3686231158(L_61, _stringLiteral3713083886, _stringLiteral2137334539, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_62 = V_0;
+		Dictionary_2_Add_m3686231158(L_62, _stringLiteral426392015, _stringLiteral1117539637, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_63 = V_0;
+		Dictionary_2_Add_m3686231158(L_63, _stringLiteral1065946575, _stringLiteral572683306, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_64 = V_0;
+		Dictionary_2_Add_m3686231158(L_64, _stringLiteral2919573064, _stringLiteral1918701372, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_65 = V_0;
+		Dictionary_2_Add_m3686231158(L_65, _stringLiteral4173885015, _stringLiteral410712556, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_66 = V_0;
+		Dictionary_2_Add_m3686231158(L_66, _stringLiteral1150721115, _stringLiteral1734129452, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_67 = V_0;
+		Dictionary_2_Add_m3686231158(L_67, _stringLiteral4227046745, _stringLiteral725790931, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_68 = V_0;
+		Dictionary_2_Add_m3686231158(L_68, _stringLiteral1009707992, _stringLiteral775690979, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_69 = V_0;
+		Dictionary_2_Add_m3686231158(L_69, _stringLiteral953289154, _stringLiteral3230801502, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_70 = V_0;
+		Dictionary_2_Add_m3686231158(L_70, _stringLiteral436339840, _stringLiteral1574909739, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_71 = V_0;
+		Dictionary_2_Add_m3686231158(L_71, _stringLiteral2008108497, _stringLiteral796531544, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_72 = V_0;
+		Dictionary_2_Add_m3686231158(L_72, _stringLiteral2492418420, _stringLiteral3806869301, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_73 = V_0;
+		Dictionary_2_Add_m3686231158(L_73, _stringLiteral4288147541, _stringLiteral1644986323, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_74 = V_0;
+		Dictionary_2_Add_m3686231158(L_74, _stringLiteral2649422763, _stringLiteral2401064051, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_75 = V_0;
+		Dictionary_2_Add_m3686231158(L_75, _stringLiteral2649422764, _stringLiteral1403051111, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_76 = V_0;
+		Dictionary_2_Add_m3686231158(L_76, _stringLiteral2649422765, _stringLiteral2046201420, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_77 = V_0;
+		Dictionary_2_Add_m3686231158(L_77, _stringLiteral2587520861, _stringLiteral1039486299, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_78 = V_0;
+		Dictionary_2_Add_m3686231158(L_78, _stringLiteral2990805388, _stringLiteral4111137212, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_79 = V_0;
+		Dictionary_2_Add_m3686231158(L_79, _stringLiteral668824608, _stringLiteral3533687469, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_80 = V_0;
+		Dictionary_2_Add_m3686231158(L_80, _stringLiteral854982159, _stringLiteral3645121008, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_81 = V_0;
+		Dictionary_2_Add_m3686231158(L_81, _stringLiteral668824611, _stringLiteral1589054111, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_82 = V_0;
+		Dictionary_2_Add_m3686231158(L_82, _stringLiteral2660409761, _stringLiteral2688384548, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_83 = V_0;
+		Dictionary_2_Add_m3686231158(L_83, _stringLiteral1094325820, _stringLiteral704066945, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_84 = V_0;
+		Dictionary_2_Add_m3686231158(L_84, _stringLiteral967360311, _stringLiteral1244622357, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_85 = V_0;
+		Dictionary_2_Add_m3686231158(L_85, _stringLiteral1876956430, _stringLiteral1370787063, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_86 = V_0;
+		Dictionary_2_Add_m3686231158(L_86, _stringLiteral4010868477, _stringLiteral1868279772, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		Dictionary_2_t3943999495 * L_87 = V_0;
+		StringTable_set_table_m2794824568(L_0, L_87, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::.ctor()
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const uint32_t TriPeaksTutorialStepController__ctor_m2972357427_MetadataUsageId;
+extern "C"  void TriPeaksTutorialStepController__ctor_m2972357427 (TriPeaksTutorialStepController_t1707295283 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController__ctor_m2972357427_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1440998580 * L_0 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_0, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		__this->set_cardIdsToAdvance_6(L_0);
+		List_1_t1440998580 * L_1 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_1, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		__this->set_cardIdsToHighlightSelect_7(L_1);
+		List_1_t1440998580 * L_2 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_2, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		__this->set_cardIdsToHighlightDestination_8(L_2);
+		__this->set_animateIn_10((bool)1);
+		__this->set_animateOut_11((bool)1);
+		TutorialStepController__ctor_m893596461(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::OnShow()
+extern "C"  void TriPeaksTutorialStepController_OnShow_m1877328789 (TriPeaksTutorialStepController_t1707295283 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = TriPeaksTutorialStepController_AnimateTutorialIn_m2303914609(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::AnimateTutorialIn()
+extern Il2CppClass* U3CAnimateTutorialInU3Ec__Iterator0_t2484811648_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksTutorialStepController_AnimateTutorialIn_m2303914609_MetadataUsageId;
+extern "C"  Il2CppObject * TriPeaksTutorialStepController_AnimateTutorialIn_m2303914609 (TriPeaksTutorialStepController_t1707295283 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_AnimateTutorialIn_m2303914609_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * V_0 = NULL;
+	{
+		U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * L_0 = (U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 *)il2cpp_codegen_object_new(U3CAnimateTutorialInU3Ec__Iterator0_t2484811648_il2cpp_TypeInfo_var);
+		U3CAnimateTutorialInU3Ec__Iterator0__ctor_m243360767(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * L_1 = V_0;
+		L_1->set_U24this_0(__this);
+		U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::AddOverlayHelper(System.Collections.Generic.List`1<System.Int32>,GSN.Skill.Games.Tripeaks.CardType)
+extern Il2CppClass* U3CAddOverlayHelperU3Ec__Iterator1_t1701822080_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksTutorialStepController_AddOverlayHelper_m859398248_MetadataUsageId;
+extern "C"  Il2CppObject * TriPeaksTutorialStepController_AddOverlayHelper_m859398248 (TriPeaksTutorialStepController_t1707295283 * __this, List_1_t1440998580 * ___cardList0, int32_t ___cardType1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_AddOverlayHelper_m859398248_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * V_0 = NULL;
+	{
+		U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * L_0 = (U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 *)il2cpp_codegen_object_new(U3CAddOverlayHelperU3Ec__Iterator1_t1701822080_il2cpp_TypeInfo_var);
+		U3CAddOverlayHelperU3Ec__Iterator1__ctor_m2339178695(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * L_1 = V_0;
+		List_1_t1440998580 * L_2 = ___cardList0;
+		L_1->set_cardList_1(L_2);
+		U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * L_3 = V_0;
+		int32_t L_4 = ___cardType1;
+		L_3->set_cardType_5(L_4);
+		U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::OnHide(GSN.Skill.Games.Common.Tutorial.Unity.TutorialStepPrefabBase)
+extern "C"  void TriPeaksTutorialStepController_OnHide_m1346638143 (TriPeaksTutorialStepController_t1707295283 * __this, TutorialStepPrefabBase_t3134565035 * ___prefabBase0, const MethodInfo* method)
+{
+	{
+		TutorialStepPrefabBase_t3134565035 * L_0 = ___prefabBase0;
+		Il2CppObject * L_1 = TriPeaksTutorialStepController_AnimateTutorialOut_m3564240585(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::AnimateTutorialOut(GSN.Skill.Games.Common.Tutorial.Unity.TutorialStepPrefabBase)
+extern Il2CppClass* U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksTutorialStepController_AnimateTutorialOut_m3564240585_MetadataUsageId;
+extern "C"  Il2CppObject * TriPeaksTutorialStepController_AnimateTutorialOut_m3564240585 (TriPeaksTutorialStepController_t1707295283 * __this, TutorialStepPrefabBase_t3134565035 * ___prefabBase0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_AnimateTutorialOut_m3564240585_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * V_0 = NULL;
+	{
+		U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * L_0 = (U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 *)il2cpp_codegen_object_new(U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953_il2cpp_TypeInfo_var);
+		U3CAnimateTutorialOutU3Ec__Iterator2__ctor_m2106082486(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * L_1 = V_0;
+		TutorialStepPrefabBase_t3134565035 * L_2 = ___prefabBase0;
+		L_1->set_prefabBase_0(L_2);
+		U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * L_3 = V_0;
+		L_3->set_U24this_1(__this);
+		U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::HideOverlayHelper(System.Collections.Generic.List`1<System.Int32>)
+extern Il2CppClass* View_t1946640821_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnDebug_t1785824881_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral613616446;
+extern const uint32_t TriPeaksTutorialStepController_HideOverlayHelper_m855101608_MetadataUsageId;
+extern "C"  void TriPeaksTutorialStepController_HideOverlayHelper_m855101608 (TriPeaksTutorialStepController_t1707295283 * __this, List_1_t1440998580 * ___cardList0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_HideOverlayHelper_m855101608_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	View_t1946640821 * V_0 = NULL;
+	int32_t V_1 = 0;
+	Enumerator_t975728254  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Card_t2087545274 * V_3 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		ViewBase_t3608972958 * L_0 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = ((View_t1946640821 *)CastclassClass(L_0, View_t1946640821_il2cpp_TypeInfo_var));
+		List_1_t1440998580 * L_1 = ___cardList0;
+		Enumerator_t975728254  L_2 = List_1_GetEnumerator_m2527786909(L_1, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0061;
+		}
+
+IL_0017:
+		{
+			int32_t L_3 = Enumerator_get_Current_m1062633493((&V_2), /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			V_1 = L_3;
+			View_t1946640821 * L_4 = V_0;
+			Board_t4208424732 * L_5 = L_4->get__board_20();
+			int32_t L_6 = V_1;
+			Card_t2087545274 * L_7 = Board_FindCardWithCardID_m4081082441(L_5, L_6, /*hidden argument*/NULL);
+			V_3 = L_7;
+			Card_t2087545274 * L_8 = V_3;
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+			bool L_9 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_8, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+			if (!L_9)
+			{
+				goto IL_005b;
+			}
+		}
+
+IL_0038:
+		{
+			ObjectU5BU5D_t3614634134* L_10 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+			int32_t L_11 = V_1;
+			int32_t L_12 = L_11;
+			Il2CppObject * L_13 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_12);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_14 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral613616446, L_13, /*hidden argument*/NULL);
+			ArrayElementTypeCheck (L_10, L_14);
+			(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_14);
+			IL2CPP_RUNTIME_CLASS_INIT(GsnDebug_t1785824881_il2cpp_TypeInfo_var);
+			GsnDebug_LogError_m48688396(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+			goto IL_0061;
+		}
+
+IL_005b:
+		{
+			Card_t2087545274 * L_15 = V_3;
+			Card_ClearOverlay_m4133462105(L_15, /*hidden argument*/NULL);
+		}
+
+IL_0061:
+		{
+			bool L_16 = Enumerator_MoveNext_m4282865897((&V_2), /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_0017;
+			}
+		}
+
+IL_006d:
+		{
+			IL2CPP_LEAVE(0x80, FINALLY_0072);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0072;
+	}
+
+FINALLY_0072:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m1274756239((&V_2), /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(114)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(114)
+	{
+		IL2CPP_JUMP_TBL(0x80, IL_0080)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0080:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::Advance()
+extern const MethodInfo* Singleton_1_get_instance_m3667694204_MethodInfo_var;
+extern const uint32_t TriPeaksTutorialStepController_Advance_m1406293689_MetadataUsageId;
+extern "C"  void TriPeaksTutorialStepController_Advance_m1406293689 (TriPeaksTutorialStepController_t1707295283 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_Advance_m1406293689_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TutorialManager_t2237337539 * L_0 = Singleton_1_get_instance_m3667694204(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m3667694204_MethodInfo_var);
+		TutorialManager_HideShownStep_m3539610609(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::EndTutorial()
+extern Il2CppClass* View_t1946640821_il2cpp_TypeInfo_var;
+extern const uint32_t TriPeaksTutorialStepController_EndTutorial_m2745255668_MetadataUsageId;
+extern "C"  void TriPeaksTutorialStepController_EndTutorial_m2745255668 (TriPeaksTutorialStepController_t1707295283 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_EndTutorial_m2745255668_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	View_t1946640821 * V_0 = NULL;
+	{
+		ViewBase_t3608972958 * L_0 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = ((View_t1946640821 *)CastclassClass(L_0, View_t1946640821_il2cpp_TypeInfo_var));
+		View_t1946640821 * L_1 = V_0;
+		View_TutorialComplete_m2570602180(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::CardWillAdvance(System.Int32)
+extern const MethodInfo* List_1_Contains_m793041670_MethodInfo_var;
+extern const uint32_t TriPeaksTutorialStepController_CardWillAdvance_m1632301084_MetadataUsageId;
+extern "C"  bool TriPeaksTutorialStepController_CardWillAdvance_m1632301084 (TriPeaksTutorialStepController_t1707295283 * __this, int32_t ___cardId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_CardWillAdvance_m1632301084_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1440998580 * L_0 = __this->get_cardIdsToAdvance_6();
+		int32_t L_1 = ___cardId0;
+		bool L_2 = List_1_Contains_m793041670(L_0, L_1, /*hidden argument*/List_1_Contains_m793041670_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0013:
+	{
+		return (bool)0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::ProcessCardClicked(System.Int32)
+extern const MethodInfo* List_1_Contains_m793041670_MethodInfo_var;
+extern const uint32_t TriPeaksTutorialStepController_ProcessCardClicked_m461214678_MetadataUsageId;
+extern "C"  void TriPeaksTutorialStepController_ProcessCardClicked_m461214678 (TriPeaksTutorialStepController_t1707295283 * __this, int32_t ___cardId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TriPeaksTutorialStepController_ProcessCardClicked_m461214678_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1440998580 * L_0 = __this->get_cardIdsToAdvance_6();
+		int32_t L_1 = ___cardId0;
+		bool L_2 = List_1_Contains_m793041670(L_0, L_1, /*hidden argument*/List_1_Contains_m793041670_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		TriPeaksTutorialStepController_Advance_m1406293689(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::<OnShow>__BaseCallProxy0()
+extern "C"  void TriPeaksTutorialStepController_U3COnShowU3E__BaseCallProxy0_m1954499282 (TriPeaksTutorialStepController_t1707295283 * __this, const MethodInfo* method)
+{
+	{
+		TutorialStepController_OnShow_m617976983(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController::<OnHide>__BaseCallProxy1(GSN.Skill.Games.Common.Tutorial.Unity.TutorialStepPrefabBase)
+extern "C"  void TriPeaksTutorialStepController_U3COnHideU3E__BaseCallProxy1_m288474223 (TriPeaksTutorialStepController_t1707295283 * __this, TutorialStepPrefabBase_t3134565035 * ___prefabBase0, const MethodInfo* method)
+{
+	{
+		TutorialStepPrefabBase_t3134565035 * L_0 = ___prefabBase0;
+		TutorialStepController_OnHide_m2189123961(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AddOverlayHelper>c__Iterator1::.ctor()
+extern "C"  void U3CAddOverlayHelperU3Ec__Iterator1__ctor_m2339178695 (U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AddOverlayHelper>c__Iterator1::MoveNext()
+extern Il2CppClass* View_t1946640821_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GsnDebug_t1785824881_il2cpp_TypeInfo_var;
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2527786909_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1062633493_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4282865897_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral613616446;
+extern const uint32_t U3CAddOverlayHelperU3Ec__Iterator1_MoveNext_m1303242369_MetadataUsageId;
+extern "C"  bool U3CAddOverlayHelperU3Ec__Iterator1_MoveNext_m1303242369 (U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAddOverlayHelperU3Ec__Iterator1_MoveNext_m1303242369_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_8();
+		V_0 = L_0;
+		__this->set_U24PC_8((-1));
+		V_1 = (bool)0;
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0023;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		goto IL_013d;
+	}
+
+IL_0023:
+	{
+		ViewBase_t3608972958 * L_2 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CviewU3E__0_0(((View_t1946640821 *)CastclassClass(L_2, View_t1946640821_il2cpp_TypeInfo_var)));
+		List_1_t1440998580 * L_3 = __this->get_cardList_1();
+		Enumerator_t975728254  L_4 = List_1_GetEnumerator_m2527786909(L_3, /*hidden argument*/List_1_GetEnumerator_m2527786909_MethodInfo_var);
+		__this->set_U24locvar0_2(L_4);
+		V_0 = ((int32_t)-3);
+	}
+
+IL_0047:
+	try
+	{ // begin try (depth: 1)
+		{
+			uint32_t L_5 = V_0;
+			if (((int32_t)((int32_t)L_5-(int32_t)1)) == 0)
+			{
+				goto IL_0100;
+			}
+		}
+
+IL_0053:
+		{
+			goto IL_010b;
+		}
+
+IL_0058:
+		{
+			Enumerator_t975728254 * L_6 = __this->get_address_of_U24locvar0_2();
+			int32_t L_7 = Enumerator_get_Current_m1062633493(L_6, /*hidden argument*/Enumerator_get_Current_m1062633493_MethodInfo_var);
+			__this->set_U3CcardIdU3E__1_3(L_7);
+			View_t1946640821 * L_8 = __this->get_U3CviewU3E__0_0();
+			Board_t4208424732 * L_9 = L_8->get__board_20();
+			int32_t L_10 = __this->get_U3CcardIdU3E__1_3();
+			Card_t2087545274 * L_11 = Board_FindCardWithCardID_m4081082441(L_9, L_10, /*hidden argument*/NULL);
+			__this->set_U3CcardU3E__2_4(L_11);
+			Card_t2087545274 * L_12 = __this->get_U3CcardU3E__2_4();
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+			bool L_13 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_12, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+			if (!L_13)
+			{
+				goto IL_00be;
+			}
+		}
+
+IL_0096:
+		{
+			ObjectU5BU5D_t3614634134* L_14 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+			int32_t L_15 = __this->get_U3CcardIdU3E__1_3();
+			int32_t L_16 = L_15;
+			Il2CppObject * L_17 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_16);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_18 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral613616446, L_17, /*hidden argument*/NULL);
+			ArrayElementTypeCheck (L_14, L_18);
+			(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_18);
+			IL2CPP_RUNTIME_CLASS_INIT(GsnDebug_t1785824881_il2cpp_TypeInfo_var);
+			GsnDebug_LogError_m48688396(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+			goto IL_010b;
+		}
+
+IL_00be:
+		{
+			View_t1946640821 * L_19 = __this->get_U3CviewU3E__0_0();
+			Board_t4208424732 * L_20 = L_19->get__board_20();
+			Card_t2087545274 * L_21 = __this->get_U3CcardU3E__2_4();
+			int32_t L_22 = __this->get_cardType_5();
+			Board_AddOverlay_m647371143(L_20, L_21, L_22, /*hidden argument*/NULL);
+			WaitForSeconds_t3839502067 * L_23 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+			WaitForSeconds__ctor_m1990515539(L_23, (0.1f), /*hidden argument*/NULL);
+			__this->set_U24current_6(L_23);
+			bool L_24 = __this->get_U24disposing_7();
+			if (L_24)
+			{
+				goto IL_00f9;
+			}
+		}
+
+IL_00f2:
+		{
+			__this->set_U24PC_8(1);
+		}
+
+IL_00f9:
+		{
+			V_1 = (bool)1;
+			IL2CPP_LEAVE(0x13F, FINALLY_0120);
+		}
+
+IL_0100:
+		{
+			Card_t2087545274 * L_25 = __this->get_U3CcardU3E__2_4();
+			Card_OverlayAppear_m192120523(L_25, /*hidden argument*/NULL);
+		}
+
+IL_010b:
+		{
+			Enumerator_t975728254 * L_26 = __this->get_address_of_U24locvar0_2();
+			bool L_27 = Enumerator_MoveNext_m4282865897(L_26, /*hidden argument*/Enumerator_MoveNext_m4282865897_MethodInfo_var);
+			if (L_27)
+			{
+				goto IL_0058;
+			}
+		}
+
+IL_011b:
+		{
+			IL2CPP_LEAVE(0x136, FINALLY_0120);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0120;
+	}
+
+FINALLY_0120:
+	{ // begin finally (depth: 1)
+		{
+			bool L_28 = V_1;
+			if (!L_28)
+			{
+				goto IL_0124;
+			}
+		}
+
+IL_0123:
+		{
+			IL2CPP_END_FINALLY(288)
+		}
+
+IL_0124:
+		{
+			Enumerator_t975728254 * L_29 = __this->get_address_of_U24locvar0_2();
+			Enumerator_Dispose_m1274756239(L_29, /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+			IL2CPP_END_FINALLY(288)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(288)
+	{
+		IL2CPP_JUMP_TBL(0x13F, IL_013f)
+		IL2CPP_JUMP_TBL(0x136, IL_0136)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0136:
+	{
+		__this->set_U24PC_8((-1));
+	}
+
+IL_013d:
+	{
+		return (bool)0;
+	}
+
+IL_013f:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AddOverlayHelper>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CAddOverlayHelperU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3762488933 (U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AddOverlayHelper>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CAddOverlayHelperU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1141389293 (U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AddOverlayHelper>c__Iterator1::Dispose()
+extern const MethodInfo* Enumerator_Dispose_m1274756239_MethodInfo_var;
+extern const uint32_t U3CAddOverlayHelperU3Ec__Iterator1_Dispose_m1154559030_MetadataUsageId;
+extern "C"  void U3CAddOverlayHelperU3Ec__Iterator1_Dispose_m1154559030 (U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAddOverlayHelperU3Ec__Iterator1_Dispose_m1154559030_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_8();
+		V_0 = L_0;
+		__this->set_U24disposing_7((bool)1);
+		__this->set_U24PC_8((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_003f;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		goto IL_003f;
+	}
+
+IL_0028:
+	try
+	{ // begin try (depth: 1)
+		IL2CPP_LEAVE(0x3F, FINALLY_002d);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_002d;
+	}
+
+FINALLY_002d:
+	{ // begin finally (depth: 1)
+		Enumerator_t975728254 * L_2 = __this->get_address_of_U24locvar0_2();
+		Enumerator_Dispose_m1274756239(L_2, /*hidden argument*/Enumerator_Dispose_m1274756239_MethodInfo_var);
+		IL2CPP_END_FINALLY(45)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(45)
+	{
+		IL2CPP_JUMP_TBL(0x3F, IL_003f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AddOverlayHelper>c__Iterator1::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CAddOverlayHelperU3Ec__Iterator1_Reset_m1545694448_MetadataUsageId;
+extern "C"  void U3CAddOverlayHelperU3Ec__Iterator1_Reset_m1545694448 (U3CAddOverlayHelperU3Ec__Iterator1_t1701822080 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAddOverlayHelperU3Ec__Iterator1_Reset_m1545694448_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialIn>c__Iterator0::.ctor()
+extern "C"  void U3CAnimateTutorialInU3Ec__Iterator0__ctor_m243360767 (U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialIn>c__Iterator0::MoveNext()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3110029158;
+extern Il2CppCodeGenString* _stringLiteral2625448931;
+extern const uint32_t U3CAnimateTutorialInU3Ec__Iterator0_MoveNext_m1472024041_MetadataUsageId;
+extern "C"  bool U3CAnimateTutorialInU3Ec__Iterator0_MoveNext_m1472024041 (U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateTutorialInU3Ec__Iterator0_MoveNext_m1472024041_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_002d;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0077;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_00b0;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_0112;
+		}
+		if (L_1 == 4)
+		{
+			goto IL_0180;
+		}
+	}
+	{
+		goto IL_0192;
+	}
+
+IL_002d:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_2 = __this->get_U24this_0();
+		bool L_3 = L_2->get_animateIn_10();
+		if (!L_3)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_4 = __this->get_U24this_0();
+		Animator_t69676727 * L_5 = L_4->get_animator_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		WaitForSeconds_t3839502067 * L_7 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_7, (0.3f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_7);
+		bool L_8 = __this->get_U24disposing_2();
+		if (L_8)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_0072:
+	{
+		goto IL_0194;
+	}
+
+IL_0077:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_9 = __this->get_U24this_0();
+		Animator_t69676727 * L_10 = L_9->get_animator_12();
+		Animator_Play_m1123842248(L_10, _stringLiteral3110029158, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_11 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_11, (0.3f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_11);
+		bool L_12 = __this->get_U24disposing_2();
+		if (L_12)
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		__this->set_U24PC_3(2);
+	}
+
+IL_00ab:
+	{
+		goto IL_0194;
+	}
+
+IL_00b0:
+	{
+		goto IL_00ca;
+	}
+
+IL_00b5:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_13 = __this->get_U24this_0();
+		Animator_t69676727 * L_14 = L_13->get_animator_12();
+		Animator_Play_m1123842248(L_14, _stringLiteral2625448931, /*hidden argument*/NULL);
+	}
+
+IL_00ca:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_15 = __this->get_U24this_0();
+		TriPeaksTutorialStepController_t1707295283 * L_16 = __this->get_U24this_0();
+		TriPeaksTutorialStepController_t1707295283 * L_17 = __this->get_U24this_0();
+		List_1_t1440998580 * L_18 = L_17->get_cardIdsToHighlightSelect_7();
+		Il2CppObject * L_19 = TriPeaksTutorialStepController_AddOverlayHelper_m859398248(L_16, L_18, ((int32_t)17), /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(L_15, L_19, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_20 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_20, (0.1f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_20);
+		bool L_21 = __this->get_U24disposing_2();
+		if (L_21)
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		__this->set_U24PC_3(3);
+	}
+
+IL_010d:
+	{
+		goto IL_0194;
+	}
+
+IL_0112:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_22 = __this->get_U24this_0();
+		TriPeaksTutorialStepController_t1707295283 * L_23 = __this->get_U24this_0();
+		TriPeaksTutorialStepController_t1707295283 * L_24 = __this->get_U24this_0();
+		List_1_t1440998580 * L_25 = L_24->get_cardIdsToHighlightDestination_8();
+		Il2CppObject * L_26 = TriPeaksTutorialStepController_AddOverlayHelper_m859398248(L_23, L_25, ((int32_t)18), /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(L_22, L_26, /*hidden argument*/NULL);
+		TriPeaksTutorialStepController_t1707295283 * L_27 = __this->get_U24this_0();
+		TriPeaksTutorialStepController_U3COnShowU3E__BaseCallProxy0_m1954499282(L_27, /*hidden argument*/NULL);
+		TriPeaksTutorialStepController_t1707295283 * L_28 = __this->get_U24this_0();
+		float L_29 = L_28->get_autoHideDuration_9();
+		if ((!(((float)L_29) > ((float)(0.0f)))))
+		{
+			goto IL_018b;
+		}
+	}
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_30 = __this->get_U24this_0();
+		float L_31 = L_30->get_autoHideDuration_9();
+		WaitForSeconds_t3839502067 * L_32 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_32, L_31, /*hidden argument*/NULL);
+		__this->set_U24current_1(L_32);
+		bool L_33 = __this->get_U24disposing_2();
+		if (L_33)
+		{
+			goto IL_017b;
+		}
+	}
+	{
+		__this->set_U24PC_3(4);
+	}
+
+IL_017b:
+	{
+		goto IL_0194;
+	}
+
+IL_0180:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_34 = __this->get_U24this_0();
+		TriPeaksTutorialStepController_Advance_m1406293689(L_34, /*hidden argument*/NULL);
+	}
+
+IL_018b:
+	{
+		__this->set_U24PC_3((-1));
+	}
+
+IL_0192:
+	{
+		return (bool)0;
+	}
+
+IL_0194:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialIn>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CAnimateTutorialInU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3749778737 (U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialIn>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CAnimateTutorialInU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3852611481 (U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialIn>c__Iterator0::Dispose()
+extern "C"  void U3CAnimateTutorialInU3Ec__Iterator0_Dispose_m618094274 (U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialIn>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CAnimateTutorialInU3Ec__Iterator0_Reset_m1810999620_MetadataUsageId;
+extern "C"  void U3CAnimateTutorialInU3Ec__Iterator0_Reset_m1810999620 (U3CAnimateTutorialInU3Ec__Iterator0_t2484811648 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateTutorialInU3Ec__Iterator0_Reset_m1810999620_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialOut>c__Iterator2::.ctor()
+extern "C"  void U3CAnimateTutorialOutU3Ec__Iterator2__ctor_m2106082486 (U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialOut>c__Iterator2::MoveNext()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3210446241;
+extern const uint32_t U3CAnimateTutorialOutU3Ec__Iterator2_MoveNext_m3298408502_MetadataUsageId;
+extern "C"  bool U3CAnimateTutorialOutU3Ec__Iterator2_MoveNext_m3298408502 (U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateTutorialOutU3Ec__Iterator2_MoveNext_m3298408502_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_4();
+		V_0 = L_0;
+		__this->set_U24PC_4((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		goto IL_00c4;
+	}
+
+IL_0021:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_2 = __this->get_U24this_1();
+		bool L_3 = L_2->get_animateOut_11();
+		if (!L_3)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_4 = __this->get_U24this_1();
+		Animator_t69676727 * L_5 = L_4->get_animator_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_7 = __this->get_U24this_1();
+		Animator_t69676727 * L_8 = L_7->get_animator_12();
+		Animator_Play_m1123842248(L_8, _stringLiteral3210446241, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_9 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_9, (0.3f), /*hidden argument*/NULL);
+		__this->set_U24current_2(L_9);
+		bool L_10 = __this->get_U24disposing_3();
+		if (L_10)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		__this->set_U24PC_4(1);
+	}
+
+IL_007b:
+	{
+		goto IL_00c6;
+	}
+
+IL_0080:
+	{
+		TriPeaksTutorialStepController_t1707295283 * L_11 = __this->get_U24this_1();
+		TriPeaksTutorialStepController_t1707295283 * L_12 = __this->get_U24this_1();
+		List_1_t1440998580 * L_13 = L_12->get_cardIdsToHighlightSelect_7();
+		TriPeaksTutorialStepController_HideOverlayHelper_m855101608(L_11, L_13, /*hidden argument*/NULL);
+		TriPeaksTutorialStepController_t1707295283 * L_14 = __this->get_U24this_1();
+		TriPeaksTutorialStepController_t1707295283 * L_15 = __this->get_U24this_1();
+		List_1_t1440998580 * L_16 = L_15->get_cardIdsToHighlightDestination_8();
+		TriPeaksTutorialStepController_HideOverlayHelper_m855101608(L_14, L_16, /*hidden argument*/NULL);
+		TriPeaksTutorialStepController_t1707295283 * L_17 = __this->get_U24this_1();
+		TutorialStepPrefabBase_t3134565035 * L_18 = __this->get_prefabBase_0();
+		TriPeaksTutorialStepController_U3COnHideU3E__BaseCallProxy1_m288474223(L_17, L_18, /*hidden argument*/NULL);
+		__this->set_U24PC_4((-1));
+	}
+
+IL_00c4:
+	{
+		return (bool)0;
+	}
+
+IL_00c6:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialOut>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CAnimateTutorialOutU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1256306162 (U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialOut>c__Iterator2::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CAnimateTutorialOutU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m3229608890 (U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialOut>c__Iterator2::Dispose()
+extern "C"  void U3CAnimateTutorialOutU3Ec__Iterator2_Dispose_m749681899 (U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_3((bool)1);
+		__this->set_U24PC_4((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TriPeaksTutorialStepController/<AnimateTutorialOut>c__Iterator2::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CAnimateTutorialOutU3Ec__Iterator2_Reset_m666203333_MetadataUsageId;
+extern "C"  void U3CAnimateTutorialOutU3Ec__Iterator2_Reset_m666203333 (U3CAnimateTutorialOutU3Ec__Iterator2_t1292674953 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateTutorialOutU3Ec__Iterator2_Reset_m666203333_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.Tutorial::.ctor()
+extern "C"  void Tutorial__ctor_m2193703892 (Tutorial_t3830978326 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.Tutorial/TutorialGroupOptions
+extern "C" void TutorialGroupOptions_t4063233487_marshal_pinvoke(const TutorialGroupOptions_t4063233487& unmarshaled, TutorialGroupOptions_t4063233487_marshaled_pinvoke& marshaled)
+{
+	marshaled.___tutorialGroup_0 = il2cpp_codegen_marshal_string(unmarshaled.get_tutorialGroup_0());
+	marshaled.___triggerTutorialOnStep_1 = unmarshaled.get_triggerTutorialOnStep_1();
+}
+extern "C" void TutorialGroupOptions_t4063233487_marshal_pinvoke_back(const TutorialGroupOptions_t4063233487_marshaled_pinvoke& marshaled, TutorialGroupOptions_t4063233487& unmarshaled)
+{
+	unmarshaled.set_tutorialGroup_0(il2cpp_codegen_marshal_string_result(marshaled.___tutorialGroup_0));
+	int32_t unmarshaled_triggerTutorialOnStep_temp_1 = 0;
+	unmarshaled_triggerTutorialOnStep_temp_1 = marshaled.___triggerTutorialOnStep_1;
+	unmarshaled.set_triggerTutorialOnStep_1(unmarshaled_triggerTutorialOnStep_temp_1);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.Tutorial/TutorialGroupOptions
+extern "C" void TutorialGroupOptions_t4063233487_marshal_pinvoke_cleanup(TutorialGroupOptions_t4063233487_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___tutorialGroup_0);
+	marshaled.___tutorialGroup_0 = NULL;
+}
+// Conversion methods for marshalling of: GSN.Skill.Games.Tripeaks.Tutorial/TutorialGroupOptions
+extern "C" void TutorialGroupOptions_t4063233487_marshal_com(const TutorialGroupOptions_t4063233487& unmarshaled, TutorialGroupOptions_t4063233487_marshaled_com& marshaled)
+{
+	marshaled.___tutorialGroup_0 = il2cpp_codegen_marshal_bstring(unmarshaled.get_tutorialGroup_0());
+	marshaled.___triggerTutorialOnStep_1 = unmarshaled.get_triggerTutorialOnStep_1();
+}
+extern "C" void TutorialGroupOptions_t4063233487_marshal_com_back(const TutorialGroupOptions_t4063233487_marshaled_com& marshaled, TutorialGroupOptions_t4063233487& unmarshaled)
+{
+	unmarshaled.set_tutorialGroup_0(il2cpp_codegen_marshal_bstring_result(marshaled.___tutorialGroup_0));
+	int32_t unmarshaled_triggerTutorialOnStep_temp_1 = 0;
+	unmarshaled_triggerTutorialOnStep_temp_1 = marshaled.___triggerTutorialOnStep_1;
+	unmarshaled.set_triggerTutorialOnStep_1(unmarshaled_triggerTutorialOnStep_temp_1);
+}
+// Conversion method for clean up from marshalling of: GSN.Skill.Games.Tripeaks.Tutorial/TutorialGroupOptions
+extern "C" void TutorialGroupOptions_t4063233487_marshal_com_cleanup(TutorialGroupOptions_t4063233487_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___tutorialGroup_0);
+	marshaled.___tutorialGroup_0 = NULL;
+}
+// System.Void GSN.Skill.Games.Tripeaks.TutorialOverlay::.ctor()
+extern "C"  void TutorialOverlay__ctor_m4271848822 (TutorialOverlay_t614509732 * __this, const MethodInfo* method)
+{
+	{
+		OverlayBase__ctor_m2467327805(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TutorialOverlay::ShowOverlay()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3332710182;
+extern const uint32_t TutorialOverlay_ShowOverlay_m1131198621_MetadataUsageId;
+extern "C"  void TutorialOverlay_ShowOverlay_m1131198621 (TutorialOverlay_t614509732 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TutorialOverlay_ShowOverlay_m1131198621_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		Animator_Play_m1123842248(L_2, _stringLiteral3332710182, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TutorialOverlay::HideOverlay()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2881187739;
+extern const uint32_t TutorialOverlay_HideOverlay_m1321430274_MetadataUsageId;
+extern "C"  void TutorialOverlay_HideOverlay_m1321430274 (TutorialOverlay_t614509732 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TutorialOverlay_HideOverlay_m1321430274_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		Animator_Play_m1123842248(L_2, _stringLiteral2881187739, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.TutorialOverlay::ClearOverlay()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2881187739;
+extern const uint32_t TutorialOverlay_ClearOverlay_m3865776579_MetadataUsageId;
+extern "C"  void TutorialOverlay_ClearOverlay_m3865776579 (TutorialOverlay_t614509732 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TutorialOverlay_ClearOverlay_m3865776579_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Animator_t69676727 * L_2 = ((OverlayBase_t541437815 *)__this)->get_animator_4();
+		Animator_Play_m1123842248(L_2, _stringLiteral2881187739, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_3, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIAbortDialog::.ctor()
+extern "C"  void UIAbortDialog__ctor_m3686650280 (UIAbortDialog_t1044851848 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIAbortDialog::Awake()
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral858291929;
+extern Il2CppCodeGenString* _stringLiteral1237257028;
+extern Il2CppCodeGenString* _stringLiteral3051891365;
+extern Il2CppCodeGenString* _stringLiteral3825713586;
+extern const uint32_t UIAbortDialog_Awake_m1803017957_MetadataUsageId;
+extern "C"  void UIAbortDialog_Awake_m1803017957 (UIAbortDialog_t1044851848 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIAbortDialog_Awake_m1803017957_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ViewBase_t3608972958 * L_0 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_1 = ViewBase_get_InReplay_m3135813152(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		TextMeshProUGUI_t934157183 * L_2 = __this->get_headerText_2();
+		StringTable_t1872322127 * L_3 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_4 = StringTable_GetEntry_m2035826593(L_3, _stringLiteral858291929, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_2, L_4, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_5 = __this->get_messageText_3();
+		StringTable_t1872322127 * L_6 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_7 = StringTable_GetEntry_m2035826593(L_6, _stringLiteral1237257028, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_5, L_7, /*hidden argument*/NULL);
+		goto IL_007c;
+	}
+
+IL_0048:
+	{
+		TextMeshProUGUI_t934157183 * L_8 = __this->get_headerText_2();
+		StringTable_t1872322127 * L_9 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_10 = StringTable_GetEntry_m2035826593(L_9, _stringLiteral3051891365, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_8, L_10, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_11 = __this->get_messageText_3();
+		StringTable_t1872322127 * L_12 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_13 = StringTable_GetEntry_m2035826593(L_12, _stringLiteral3825713586, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_11, L_13, /*hidden argument*/NULL);
+	}
+
+IL_007c:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIAbortDialog::onCancelClick()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const uint32_t UIAbortDialog_onCancelClick_m2494731021_MetadataUsageId;
+extern "C"  void UIAbortDialog_onCancelClick_m2494731021 (UIAbortDialog_t1044851848 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIAbortDialog_onCancelClick_m2494731021_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		Il2CppObject * L_1 = UIAbortDialog_animateDialogClose_m742201715(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIAbortDialog::onConfirmClick()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const uint32_t UIAbortDialog_onConfirmClick_m994492501_MetadataUsageId;
+extern "C"  void UIAbortDialog_onConfirmClick_m994492501 (UIAbortDialog_t1044851848 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIAbortDialog_onConfirmClick_m994492501_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		Il2CppObject * L_1 = UIAbortDialog_animateDialogClose_m742201715(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_1, /*hidden argument*/NULL);
+		ViewBase_t3608972958 * L_2 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(13 /* System.Void GSN.Skill.Games.Common.Client.Game.ViewBase::OnAbort() */, L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.UIAbortDialog::animateDialogClose()
+extern Il2CppClass* U3CanimateDialogCloseU3Ec__Iterator0_t4072312324_il2cpp_TypeInfo_var;
+extern const uint32_t UIAbortDialog_animateDialogClose_m742201715_MetadataUsageId;
+extern "C"  Il2CppObject * UIAbortDialog_animateDialogClose_m742201715 (UIAbortDialog_t1044851848 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIAbortDialog_animateDialogClose_m742201715_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * V_0 = NULL;
+	{
+		U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * L_0 = (U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 *)il2cpp_codegen_object_new(U3CanimateDialogCloseU3Ec__Iterator0_t4072312324_il2cpp_TypeInfo_var);
+		U3CanimateDialogCloseU3Ec__Iterator0__ctor_m333418085(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * L_1 = V_0;
+		L_1->set_U24this_0(__this);
+		U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIAbortDialog/<animateDialogClose>c__Iterator0::.ctor()
+extern "C"  void U3CanimateDialogCloseU3Ec__Iterator0__ctor_m333418085 (U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.UIAbortDialog/<animateDialogClose>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1957195251;
+extern const uint32_t U3CanimateDialogCloseU3Ec__Iterator0_MoveNext_m2898435059_MetadataUsageId;
+extern "C"  bool U3CanimateDialogCloseU3Ec__Iterator0_MoveNext_m2898435059 (U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CanimateDialogCloseU3Ec__Iterator0_MoveNext_m2898435059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		goto IL_007f;
+	}
+
+IL_0021:
+	{
+		UIAbortDialog_t1044851848 * L_2 = __this->get_U24this_0();
+		Animator_t69676727 * L_3 = L_2->get_animator_4();
+		Animator_Play_m1123842248(L_3, _stringLiteral1957195251, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_4 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_4, ((int32_t)42), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		WaitForSeconds_t3839502067 * L_5 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_5, (0.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_5);
+		bool L_6 = __this->get_U24disposing_2();
+		if (L_6)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_0063:
+	{
+		goto IL_0081;
+	}
+
+IL_0068:
+	{
+		UIAbortDialog_t1044851848 * L_7 = __this->get_U24this_0();
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_007f:
+	{
+		return (bool)0;
+	}
+
+IL_0081:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIAbortDialog/<animateDialogClose>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CanimateDialogCloseU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m151555583 (U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIAbortDialog/<animateDialogClose>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CanimateDialogCloseU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1537035303 (U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIAbortDialog/<animateDialogClose>c__Iterator0::Dispose()
+extern "C"  void U3CanimateDialogCloseU3Ec__Iterator0_Dispose_m3498326110 (U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIAbortDialog/<animateDialogClose>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CanimateDialogCloseU3Ec__Iterator0_Reset_m841170000_MetadataUsageId;
+extern "C"  void U3CanimateDialogCloseU3Ec__Iterator0_Reset_m841170000 (U3CanimateDialogCloseU3Ec__Iterator0_t4072312324 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CanimateDialogCloseU3Ec__Iterator0_Reset_m841170000_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIGameTip::.ctor()
+extern "C"  void UIGameTip__ctor_m2510153357 (UIGameTip_t843937479 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIGameTip::setTip(GSN.Skill.Games.Common.Tip)
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern const uint32_t UIGameTip_setTip_m1053978728_MetadataUsageId;
+extern "C"  void UIGameTip_setTip_m1053978728 (UIGameTip_t843937479 * __this, Tip_t677278875 * ___tip0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIGameTip_setTip_m1053978728_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Image_t2042527209 * L_0 = __this->get_tipImage_2();
+		Tip_t677278875 * L_1 = ___tip0;
+		Sprite_t309593783 * L_2 = L_1->get_sprite_2();
+		Image_set_overrideSprite_m3362535904(L_0, L_2, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_3 = __this->get_tipText_3();
+		StringTable_t1872322127 * L_4 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		Tip_t677278875 * L_5 = ___tip0;
+		String_t* L_6 = L_5->get_id_3();
+		String_t* L_7 = StringTable_GetEntry_m2035826593(L_4, L_6, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_3, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::.ctor()
+extern "C"  void UIHelp__ctor_m3889342555 (UIHelp_t1216671393 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_pageChangeSpeed_7((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::OnEnter()
+extern const MethodInfo* Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var;
+extern const uint32_t UIHelp_OnEnter_m584812704_MetadataUsageId;
+extern "C"  void UIHelp_OnEnter_m584812704 (UIHelp_t1216671393 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHelp_OnEnter_m584812704_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RectTransform_t3349966182 * V_0 = NULL;
+	Rect_t3681755626  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_0, (bool)1, /*hidden argument*/NULL);
+		ScrollRect_t1199013257 * L_1 = __this->get_scrollRect_4();
+		RectTransform_t3349966182 * L_2 = Component_GetComponent_TisRectTransform_t3349966182_m1310250299(L_1, /*hidden argument*/Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var);
+		V_0 = L_2;
+		RectTransform_t3349966182 * L_3 = V_0;
+		Rect_t3681755626  L_4 = RectTransform_get_rect_m73954734(L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		float L_5 = Rect_get_width_m1138015702((&V_1), /*hidden argument*/NULL);
+		__this->set__srollRectSizeX_5(L_5);
+		V_2 = 0;
+		goto IL_004b;
+	}
+
+IL_0033:
+	{
+		int32_t L_6 = __this->get__currentPage_6();
+		int32_t L_7 = V_2;
+		if ((((int32_t)L_6) == ((int32_t)L_7)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		int32_t L_8 = V_2;
+		UIHelp_MovePageOffScreen_m3672374302(__this, L_8, 1, /*hidden argument*/NULL);
+	}
+
+IL_0047:
+	{
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_004b:
+	{
+		int32_t L_10 = V_2;
+		GameObjectU5BU5D_t3057952154* L_11 = __this->get_helpPages_2();
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		UIHelp_UpdateTitleText_m2578460511(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::OnExit()
+extern "C"  void UIHelp_OnExit_m415844792 (UIHelp_t1216671393 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_0, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::OnLeft()
+extern "C"  void UIHelp_OnLeft_m3873494881 (UIHelp_t1216671393 * __this, const MethodInfo* method)
+{
+	{
+		UIHelp_SwitchToPage_m1696423946(__this, (-1), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::OnRight()
+extern "C"  void UIHelp_OnRight_m3856023776 (UIHelp_t1216671393 * __this, const MethodInfo* method)
+{
+	{
+		UIHelp_SwitchToPage_m1696423946(__this, 1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::SwitchToPage(System.Int32)
+extern Il2CppClass* LeanTween_t4120592429_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t3349966182_m132995507_MethodInfo_var;
+extern const uint32_t UIHelp_SwitchToPage_m1696423946_MetadataUsageId;
+extern "C"  void UIHelp_SwitchToPage_m1696423946 (UIHelp_t1216671393 * __this, int32_t ___direction0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHelp_SwitchToPage_m1696423946_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get__currentPage_6();
+		V_0 = L_0;
+		int32_t L_1 = __this->get__currentPage_6();
+		int32_t L_2 = ___direction0;
+		__this->set__currentPage_6(((int32_t)((int32_t)L_1+(int32_t)L_2)));
+		int32_t L_3 = __this->get__currentPage_6();
+		if ((((int32_t)L_3) >= ((int32_t)0)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		int32_t L_4 = __this->get__currentPage_6();
+		GameObjectU5BU5D_t3057952154* L_5 = __this->get_helpPages_2();
+		__this->set__currentPage_6(((int32_t)((int32_t)L_4+(int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length)))))));
+		goto IL_0050;
+	}
+
+IL_003b:
+	{
+		int32_t L_6 = __this->get__currentPage_6();
+		GameObjectU5BU5D_t3057952154* L_7 = __this->get_helpPages_2();
+		__this->set__currentPage_6(((int32_t)((int32_t)L_6%(int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length)))))));
+	}
+
+IL_0050:
+	{
+		GameObjectU5BU5D_t3057952154* L_8 = __this->get_helpPages_2();
+		int32_t L_9 = V_0;
+		int32_t L_10 = L_9;
+		GameObject_t1756533147 * L_11 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		RectTransform_t3349966182 * L_12 = GameObject_GetComponent_TisRectTransform_t3349966182_m132995507(L_11, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3349966182_m132995507_MethodInfo_var);
+		float L_13 = __this->get__srollRectSizeX_5();
+		int32_t L_14 = ___direction0;
+		Vector2_t2243707579  L_15;
+		memset(&L_15, 0, sizeof(L_15));
+		Vector2__ctor_m3067419446(&L_15, ((float)((float)L_13*(float)(((float)((float)L_14))))), (0.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_16 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		float L_17 = __this->get_pageChangeSpeed_7();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTween_t4120592429_il2cpp_TypeInfo_var);
+		LeanTween_move_m2433563970(NULL /*static, unused*/, L_12, L_16, L_17, /*hidden argument*/NULL);
+		int32_t L_18 = __this->get__currentPage_6();
+		int32_t L_19 = ___direction0;
+		UIHelp_MovePageOffScreen_m3672374302(__this, L_18, ((int32_t)((int32_t)L_19*(int32_t)(-1))), /*hidden argument*/NULL);
+		GameObjectU5BU5D_t3057952154* L_20 = __this->get_helpPages_2();
+		int32_t L_21 = __this->get__currentPage_6();
+		int32_t L_22 = L_21;
+		GameObject_t1756533147 * L_23 = (L_20)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_22));
+		RectTransform_t3349966182 * L_24 = GameObject_GetComponent_TisRectTransform_t3349966182_m132995507(L_23, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3349966182_m132995507_MethodInfo_var);
+		Vector2_t2243707579  L_25;
+		memset(&L_25, 0, sizeof(L_25));
+		Vector2__ctor_m3067419446(&L_25, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_26 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		float L_27 = __this->get_pageChangeSpeed_7();
+		LeanTween_move_m2433563970(NULL /*static, unused*/, L_24, L_26, L_27, /*hidden argument*/NULL);
+		UIHelp_UpdateTitleText_m2578460511(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::MovePageOffScreen(System.Int32,System.Int32)
+extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t3349966182_m132995507_MethodInfo_var;
+extern const uint32_t UIHelp_MovePageOffScreen_m3672374302_MetadataUsageId;
+extern "C"  void UIHelp_MovePageOffScreen_m3672374302 (UIHelp_t1216671393 * __this, int32_t ___page0, int32_t ___direction1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHelp_MovePageOffScreen_m3672374302_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RectTransform_t3349966182 * V_0 = NULL;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		GameObjectU5BU5D_t3057952154* L_0 = __this->get_helpPages_2();
+		int32_t L_1 = ___page0;
+		int32_t L_2 = L_1;
+		GameObject_t1756533147 * L_3 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_2));
+		RectTransform_t3349966182 * L_4 = GameObject_GetComponent_TisRectTransform_t3349966182_m132995507(L_3, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3349966182_m132995507_MethodInfo_var);
+		V_0 = L_4;
+		RectTransform_t3349966182 * L_5 = V_0;
+		Vector3_t2243707580  L_6 = Transform_get_localPosition_m2533925116(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		float L_7 = __this->get__srollRectSizeX_5();
+		int32_t L_8 = ___direction1;
+		(&V_1)->set_x_1(((float)((float)L_7*(float)(((float)((float)L_8))))));
+		RectTransform_t3349966182 * L_9 = V_0;
+		Vector3_t2243707580  L_10 = V_1;
+		Transform_set_localPosition_m1026930133(L_9, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelp::UpdateTitleText()
+extern const MethodInfo* GameObject_GetComponent_TisUIHelpPage_t3687371716_m3278525244_MethodInfo_var;
+extern const uint32_t UIHelp_UpdateTitleText_m2578460511_MetadataUsageId;
+extern "C"  void UIHelp_UpdateTitleText_m2578460511 (UIHelp_t1216671393 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHelp_UpdateTitleText_m2578460511_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Text_t356221433 * L_0 = __this->get_headerText_3();
+		GameObjectU5BU5D_t3057952154* L_1 = __this->get_helpPages_2();
+		int32_t L_2 = __this->get__currentPage_6();
+		int32_t L_3 = L_2;
+		GameObject_t1756533147 * L_4 = (L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		UIHelpPage_t3687371716 * L_5 = GameObject_GetComponent_TisUIHelpPage_t3687371716_m3278525244(L_4, /*hidden argument*/GameObject_GetComponent_TisUIHelpPage_t3687371716_m3278525244_MethodInfo_var);
+		String_t* L_6 = L_5->get_headerText_2();
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_6);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHelpPage::.ctor()
+extern Il2CppCodeGenString* _stringLiteral3985579653;
+extern const uint32_t UIHelpPage__ctor_m855096812_MetadataUsageId;
+extern "C"  void UIHelpPage__ctor_m855096812 (UIHelpPage_t3687371716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHelpPage__ctor_m855096812_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_headerText_2(_stringLiteral3985579653);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::.ctor()
+extern Il2CppClass* UIStreakCardU5BU5D_t2479047409_il2cpp_TypeInfo_var;
+extern const uint32_t UIHud__ctor_m2744917487_MetadataUsageId;
+extern "C"  void UIHud__ctor_m2744917487 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud__ctor_m2744917487_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_streakCards_3(((UIStreakCardU5BU5D_t2479047409*)SZArrayNew(UIStreakCardU5BU5D_t2479047409_il2cpp_TypeInfo_var, (uint32_t)5)));
+		__this->set_firstTimeWarning_23(((int32_t)30));
+		__this->set_finalTimeWarning_24(((int32_t)10));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::configure(System.Boolean,System.Boolean,System.Boolean)
+extern "C"  void UIHud_configure_m3604098310 (UIHud_t3729045721 * __this, bool ___holdEnabled0, bool ___oneShotWildEnabled1, bool ___reshuffleEnabled2, const MethodInfo* method)
+{
+	{
+		GameObject_t1756533147 * L_0 = __this->get_holdObject_11();
+		bool L_1 = ___holdEnabled0;
+		GameObject_SetActive_m2887581199(L_0, L_1, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_2 = __this->get_wildOneShotObject_12();
+		bool L_3 = ___oneShotWildEnabled1;
+		GameObject_SetActive_m2887581199(L_2, L_3, /*hidden argument*/NULL);
+		bool L_4 = ___reshuffleEnabled2;
+		__this->set__reshuffleEnabled_22(L_4);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::setScoreValue(System.Int32)
+extern "C"  void UIHud_setScoreValue_m2020336911 (UIHud_t3729045721 * __this, int32_t ___score0, const MethodInfo* method)
+{
+	{
+		TextMeshProUGUI_t934157183 * L_0 = __this->get_scoreText_2();
+		String_t* L_1 = Int32_ToString_m2960866144((&___score0), /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::setTutorialAnimController()
+extern "C"  void UIHud_setTutorialAnimController_m964027722 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_14();
+		RuntimeAnimatorController_t670468573 * L_1 = __this->get_tutorialController_17();
+		Animator_set_runtimeAnimatorController_m4277899194(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::setTimeValue(System.Int32)
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlayMusic_TisTriPeaksAudio_t1522499721_m4147641095_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2195534239;
+extern Il2CppCodeGenString* _stringLiteral2873582719;
+extern const uint32_t UIHud_setTimeValue_m3739584670_MetadataUsageId;
+extern "C"  void UIHud_setTimeValue_m3739584670 (UIHud_t3729045721 * __this, int32_t ___time0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_setTimeValue_m3739584670_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TextMeshProUGUI_t934157183 * L_0 = __this->get_timerText_6();
+		int32_t L_1 = ___time0;
+		String_t* L_2 = StringExtensions_TimeFormatMSFromSeconds_m15553503(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_0, L_2, /*hidden argument*/NULL);
+		int32_t L_3 = ___time0;
+		int32_t L_4 = __this->get_firstTimeWarning_23();
+		if ((((int32_t)L_3) > ((int32_t)L_4)))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		bool L_5 = __this->get__playedFirstWarning_25();
+		if (L_5)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		Animator_t69676727 * L_6 = __this->get_timerWarningAnimator_7();
+		Animator_Play_m1123842248(L_6, _stringLiteral2195534239, /*hidden argument*/NULL);
+		__this->set__playedFirstWarning_25((bool)1);
+		AudioFactory_t2285776918 * L_7 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_7, 7, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+	}
+
+IL_004c:
+	{
+		int32_t L_8 = ___time0;
+		int32_t L_9 = __this->get_finalTimeWarning_24();
+		if ((((int32_t)L_8) > ((int32_t)L_9)))
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		bool L_10 = __this->get__playedFinalWarning_26();
+		if (L_10)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		Animator_t69676727 * L_11 = __this->get_timerWarningAnimator_7();
+		Animator_Play_m1123842248(L_11, _stringLiteral2873582719, /*hidden argument*/NULL);
+		__this->set__playedFinalWarning_26((bool)1);
+		AudioFactory_t2285776918 * L_12 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_StopAudiosOnChan_m1412748067(L_12, 1, (0.1f), /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_13 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlayMusic_TisTriPeaksAudio_t1522499721_m4147641095(L_13, 6, (bool)0, /*hidden argument*/AudioFactory_PlayMusic_TisTriPeaksAudio_t1522499721_m4147641095_MethodInfo_var);
+		AudioFactory_t2285776918 * L_14 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_14, ((int32_t)22), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+	}
+
+IL_00a5:
+	{
+		int32_t L_15 = ___time0;
+		if (L_15)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		bool L_16 = __this->get__playedTimeUp_27();
+		if (L_16)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		__this->set__playedTimeUp_27((bool)1);
+		AudioFactory_t2285776918 * L_17 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_StopAudiosOnChan_m1412748067(L_17, 1, (0.1f), /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_18 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_18, ((int32_t)45), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+	}
+
+IL_00db:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::showReshuffle()
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2563311259;
+extern const uint32_t UIHud_showReshuffle_m2144242100_MetadataUsageId;
+extern "C"  void UIHud_showReshuffle_m2144242100 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_showReshuffle_m2144242100_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UIHugeWin_t3990307283 * L_0 = __this->get_hugeWin_19();
+		StringTable_t1872322127 * L_1 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_2 = StringTable_GetEntry_m2035826593(L_1, _stringLiteral2563311259, /*hidden argument*/NULL);
+		UIHugeWin_setWinText_m3231683108(L_0, L_2, /*hidden argument*/NULL);
+		UIHugeWin_t3990307283 * L_3 = __this->get_hugeWin_19();
+		GameObject_t1756533147 * L_4 = Component_get_gameObject_m3105766835(L_3, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_4, (bool)1, /*hidden argument*/NULL);
+		UIHugeWin_t3990307283 * L_5 = __this->get_hugeWin_19();
+		UIHugeWin_ShowHugeWin_m3059137333(L_5, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_6 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_6, ((int32_t)24), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::setStreak(System.Int32)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2387839374;
+extern Il2CppCodeGenString* _stringLiteral3764579765;
+extern Il2CppCodeGenString* _stringLiteral372029309;
+extern Il2CppCodeGenString* _stringLiteral3884801315;
+extern Il2CppCodeGenString* _stringLiteral372029310;
+extern Il2CppCodeGenString* _stringLiteral3105348320;
+extern Il2CppCodeGenString* _stringLiteral2601042360;
+extern const uint32_t UIHud_setStreak_m913486202_MetadataUsageId;
+extern "C"  void UIHud_setStreak_m913486202 (UIHud_t3729045721 * __this, int32_t ___streakValue0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_setStreak_m913486202_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AudioOptions_t515001514  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	AudioOptions_t515001514  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		TextMeshProUGUI_t934157183 * L_0 = __this->get_streakText_4();
+		Color32U5BU5D_t30278651* L_1 = __this->get_streakColors_5();
+		int32_t L_2 = ___streakValue0;
+		TMP_Text_set_faceColor_m2030197450(L_0, (*(Color32_t874517518 *)((L_1)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_2)))), /*hidden argument*/NULL);
+		int32_t L_3 = ___streakValue0;
+		if (L_3)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		Animator_t69676727 * L_4 = __this->get_streakTextAnimator_15();
+		Animator_Play_m1123842248(L_4, _stringLiteral2387839374, /*hidden argument*/NULL);
+		Animator_t69676727 * L_5 = __this->get_streakCardsAnimator_16();
+		Animator_Play_m1123842248(L_5, _stringLiteral2387839374, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_6 = __this->get_streakText_4();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		TMP_Text_set_text_m2562079954(L_6, L_7, /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_006a;
+	}
+
+IL_0059:
+	{
+		UIStreakCardU5BU5D_t2479047409* L_8 = __this->get_streakCards_3();
+		int32_t L_9 = V_0;
+		int32_t L_10 = L_9;
+		UIStreakCard_t3003196368 * L_11 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		UIStreakCard_hideStreakCard_m407008490(L_11, /*hidden argument*/NULL);
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_006a:
+	{
+		int32_t L_13 = V_0;
+		UIStreakCardU5BU5D_t2479047409* L_14 = __this->get_streakCards_3();
+		if ((((int32_t)L_13) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_14)->max_length)))))))
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		goto IL_0179;
+	}
+
+IL_007d:
+	{
+		UIStreakCardU5BU5D_t2479047409* L_15 = __this->get_streakCards_3();
+		int32_t L_16 = ___streakValue0;
+		int32_t L_17 = ((int32_t)((int32_t)L_16-(int32_t)1));
+		UIStreakCard_t3003196368 * L_18 = (L_15)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_17));
+		UIStreakCard_showStreakCard_m2699696589(L_18, /*hidden argument*/NULL);
+		AudioOptions_t515001514  L_19 = AudioFactory_DefaultOptions_m2021272403(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_19;
+		int32_t L_20 = ___streakValue0;
+		(&V_1)->set_pitch_3(((float)((float)(1.0f)+(float)((float)((float)(((float)((float)L_20)))*(float)(0.1f))))));
+		int32_t L_21 = ___streakValue0;
+		if ((!(((uint32_t)L_21) == ((uint32_t)5))))
+		{
+			goto IL_0105;
+		}
+	}
+	{
+		TextMeshProUGUI_t934157183 * L_22 = __this->get_streakText_4();
+		StringTable_t1872322127 * L_23 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_24 = StringTable_GetEntry_m2035826593(L_23, _stringLiteral3764579765, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_25 = String_Concat_m2596409543(NULL /*static, unused*/, L_24, _stringLiteral372029309, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_22, L_25, /*hidden argument*/NULL);
+		Animator_t69676727 * L_26 = __this->get_streakTextAnimator_15();
+		Animator_Play_m1123842248(L_26, _stringLiteral3884801315, /*hidden argument*/NULL);
+		Animator_t69676727 * L_27 = __this->get_streakCardsAnimator_16();
+		Animator_Play_m1123842248(L_27, _stringLiteral3884801315, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_28 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_28, ((int32_t)27), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		goto IL_0159;
+	}
+
+IL_0105:
+	{
+		TextMeshProUGUI_t934157183 * L_29 = __this->get_streakText_4();
+		String_t* L_30 = Int32_ToString_m2960866144((&___streakValue0), /*hidden argument*/NULL);
+		StringTable_t1872322127 * L_31 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_32 = StringTable_GetEntry_m2035826593(L_31, _stringLiteral3105348320, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_33 = String_Concat_m1561703559(NULL /*static, unused*/, L_30, _stringLiteral372029310, L_32, _stringLiteral372029309, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_29, L_33, /*hidden argument*/NULL);
+		Animator_t69676727 * L_34 = __this->get_streakTextAnimator_15();
+		Animator_Play_m1123842248(L_34, _stringLiteral2601042360, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_35 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioOptions_t515001514  L_36 = V_1;
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372(L_35, 1, L_36, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_MethodInfo_var);
+	}
+
+IL_0159:
+	{
+		AudioOptions_t515001514  L_37 = AudioFactory_DefaultOptions_m2021272403(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = L_37;
+		(&V_2)->set_volume_0((0.8f));
+		AudioFactory_t2285776918 * L_38 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioOptions_t515001514  L_39 = V_2;
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372(L_38, 2, L_39, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_MethodInfo_var);
+	}
+
+IL_0179:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::showReshuffleButton()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAnimator_t69676727_m475627522_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1377558791;
+extern const uint32_t UIHud_showReshuffleButton_m99225396_MetadataUsageId;
+extern "C"  void UIHud_showReshuffleButton_m99225396 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_showReshuffleButton_m99225396_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__reshuffleEnabled_22();
+		if (!L_0)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		AudioFactory_t2285776918 * L_1 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_1, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		Button_t2872111280 * L_2 = __this->get_reshuffle_8();
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(L_2, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_3, (bool)1, /*hidden argument*/NULL);
+		Button_t2872111280 * L_4 = __this->get_reshuffle_8();
+		Animator_t69676727 * L_5 = Component_GetComponent_TisAnimator_t69676727_m475627522(L_4, /*hidden argument*/Component_GetComponent_TisAnimator_t69676727_m475627522_MethodInfo_var);
+		Animator_Play_m1123842248(L_5, _stringLiteral1377558791, /*hidden argument*/NULL);
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::hideReshuffleButton()
+extern const MethodInfo* Component_GetComponent_TisAnimator_t69676727_m475627522_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1175683448;
+extern const uint32_t UIHud_hideReshuffleButton_m777534725_MetadataUsageId;
+extern "C"  void UIHud_hideReshuffleButton_m777534725 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_hideReshuffleButton_m777534725_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Button_t2872111280 * L_0 = __this->get_reshuffle_8();
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(L_0, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_1, (bool)0, /*hidden argument*/NULL);
+		Button_t2872111280 * L_2 = __this->get_reshuffle_8();
+		Animator_t69676727 * L_3 = Component_GetComponent_TisAnimator_t69676727_m475627522(L_2, /*hidden argument*/Component_GetComponent_TisAnimator_t69676727_m475627522_MethodInfo_var);
+		Animator_Play_m1123842248(L_3, _stringLiteral1175683448, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::showHoldSlot()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1377558791;
+extern const uint32_t UIHud_showHoldSlot_m548016295_MetadataUsageId;
+extern "C"  void UIHud_showHoldSlot_m548016295 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_showHoldSlot_m548016295_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = __this->get_holdObject_11();
+		bool L_1 = GameObject_get_activeSelf_m313590879(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		AudioFactory_t2285776918 * L_2 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_2, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		GameObject_t1756533147 * L_3 = __this->get_holdObject_11();
+		Animator_t69676727 * L_4 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_3, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		Animator_Play_m1123842248(L_4, _stringLiteral1377558791, /*hidden argument*/NULL);
+	}
+
+IL_0033:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::hideHoldSlot()
+extern const MethodInfo* GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1175683448;
+extern const uint32_t UIHud_hideHoldSlot_m423686360_MetadataUsageId;
+extern "C"  void UIHud_hideHoldSlot_m423686360 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_hideHoldSlot_m423686360_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = __this->get_holdObject_11();
+		bool L_1 = GameObject_get_activeSelf_m313590879(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = __this->get_holdObject_11();
+		Animator_t69676727 * L_3 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_2, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		Animator_Play_m1123842248(L_3, _stringLiteral1175683448, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::showReplayHud()
+extern "C"  void UIHud_showReplayHud_m1741514130 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t1756533147 * L_0 = __this->get_fastForwardButton_13();
+		GameObject_SetActive_m2887581199(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::onCloseClicked()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const uint32_t UIHud_onCloseClicked_m4240852151_MetadataUsageId;
+extern "C"  void UIHud_onCloseClicked_m4240852151 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_onCloseClicked_m4240852151_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		UIHud_showAbortDialog_m3528885408(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::showAbortDialog()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* Object_Instantiate_TisUIAbortDialog_t1044851848_m3388440905_MethodInfo_var;
+extern const uint32_t UIHud_showAbortDialog_m3528885408_MetadataUsageId;
+extern "C"  void UIHud_showAbortDialog_m3528885408 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_showAbortDialog_m3528885408_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UIAbortDialog_t1044851848 * V_0 = NULL;
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)42), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		UIAbortDialog_t1044851848 * L_1 = __this->get_abortDialog_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		UIAbortDialog_t1044851848 * L_2 = Object_Instantiate_TisUIAbortDialog_t1044851848_m3388440905(NULL /*static, unused*/, L_1, /*hidden argument*/Object_Instantiate_TisUIAbortDialog_t1044851848_m3388440905_MethodInfo_var);
+		V_0 = L_2;
+		UIAbortDialog_t1044851848 * L_3 = V_0;
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(L_3, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_6 = Transform_get_parent_m147407266(L_5, /*hidden argument*/NULL);
+		Transform_SetParent_m4124909910(L_4, L_6, /*hidden argument*/NULL);
+		UIAbortDialog_t1044851848 * L_7 = V_0;
+		Transform_t3275118058 * L_8 = Component_get_transform_m2697483695(L_7, /*hidden argument*/NULL);
+		UIAbortDialog_t1044851848 * L_9 = __this->get_abortDialog_18();
+		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(L_9, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_11 = Transform_get_localPosition_m2533925116(L_10, /*hidden argument*/NULL);
+		Transform_set_localPosition_m1026930133(L_8, L_11, /*hidden argument*/NULL);
+		UIAbortDialog_t1044851848 * L_12 = V_0;
+		Transform_t3275118058 * L_13 = Component_get_transform_m2697483695(L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_set_localScale_m2325460848(L_13, L_14, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::SpeedUpTimeDown()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m2048036061_MethodInfo_var;
+extern const uint32_t UIHud_SpeedUpTimeDown_m3586741430_MetadataUsageId;
+extern "C"  void UIHud_SpeedUpTimeDown_m3586741430 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_SpeedUpTimeDown_m3586741430_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		Il2CppObject * L_1 = __this->get__coSpeedUpTimeTap_40();
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		Il2CppObject * L_2 = __this->get__coSpeedUpTimeTap_40();
+		MonoBehaviour_StopCoroutine_m1170478282(__this, L_2, /*hidden argument*/NULL);
+		__this->set__coSpeedUpTimeTap_40((Il2CppObject *)NULL);
+	}
+
+IL_002c:
+	{
+		TimeScale_t1095512549 * L_3 = Singleton_1_get_instance_m2048036061(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m2048036061_MethodInfo_var);
+		TimeScale_Modify_m3754324943(L_3, (2.0f), /*hidden argument*/NULL);
+		float L_4 = Time_get_time_m2216684562(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set__speedButtonDownTime_41(L_4);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::SpeedUpTimeUp()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m2048036061_MethodInfo_var;
+extern const uint32_t UIHud_SpeedUpTimeUp_m1114039197_MetadataUsageId;
+extern "C"  void UIHud_SpeedUpTimeUp_m1114039197 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_SpeedUpTimeUp_m1114039197_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)40), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		float L_1 = Time_get_time_m2216684562(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = __this->get__speedButtonDownTime_41();
+		if ((!(((float)((float)((float)L_1-(float)L_2))) <= ((float)(0.35f)))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Il2CppObject * L_3 = UIHud_SpeedUpTimeTap_m1204119779(__this, /*hidden argument*/NULL);
+		__this->set__coSpeedUpTimeTap_40(L_3);
+		Il2CppObject * L_4 = __this->get__coSpeedUpTimeTap_40();
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_4, /*hidden argument*/NULL);
+		goto IL_004c;
+	}
+
+IL_0042:
+	{
+		TimeScale_t1095512549 * L_5 = Singleton_1_get_instance_m2048036061(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m2048036061_MethodInfo_var);
+		TimeScale_Reset_m4060550623(L_5, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.UIHud::SpeedUpTimeTap()
+extern Il2CppClass* U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070_il2cpp_TypeInfo_var;
+extern const uint32_t UIHud_SpeedUpTimeTap_m1204119779_MetadataUsageId;
+extern "C"  Il2CppObject * UIHud_SpeedUpTimeTap_m1204119779 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_SpeedUpTimeTap_m1204119779_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * V_0 = NULL;
+	{
+		U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * L_0 = (U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 *)il2cpp_codegen_object_new(U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070_il2cpp_TypeInfo_var);
+		U3CSpeedUpTimeTapU3Ec__Iterator0__ctor_m4256829221(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::animateHUDIn()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2256297317;
+extern const uint32_t UIHud_animateHUDIn_m246563966_MetadataUsageId;
+extern "C"  void UIHud_animateHUDIn_m246563966 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_animateHUDIn_m246563966_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_14();
+		Animator_Play_m1123842248(L_0, _stringLiteral2256297317, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_1 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_1, ((int32_t)42), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::animateStreakMeterIn()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3713408717;
+extern const uint32_t UIHud_animateStreakMeterIn_m1703797844_MetadataUsageId;
+extern "C"  void UIHud_animateStreakMeterIn_m1703797844 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_animateStreakMeterIn_m1703797844_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_14();
+		Animator_Play_m1123842248(L_0, _stringLiteral3713408717, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_1 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_1, ((int32_t)42), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::animateTimerIn()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1669897325;
+extern const uint32_t UIHud_animateTimerIn_m2614467654_MetadataUsageId;
+extern "C"  void UIHud_animateTimerIn_m2614467654 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_animateTimerIn_m2614467654_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_14();
+		Animator_Play_m1123842248(L_0, _stringLiteral1669897325, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_1 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_1, ((int32_t)42), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::animateHUDOut()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral354389684;
+extern const uint32_t UIHud_animateHUDOut_m694185119_MetadataUsageId;
+extern "C"  void UIHud_animateHUDOut_m694185119 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_animateHUDOut_m694185119_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_14();
+		Animator_Play_m1123842248(L_0, _stringLiteral354389684, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_1 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_1, ((int32_t)42), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::onShowBannerEvent(GSN.Skill.Games.Common.Events.IModelEvent)
+extern Il2CppClass* ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3423335556;
+extern Il2CppCodeGenString* _stringLiteral3394643180;
+extern Il2CppCodeGenString* _stringLiteral4081011044;
+extern Il2CppCodeGenString* _stringLiteral3501100593;
+extern Il2CppCodeGenString* _stringLiteral2653686638;
+extern const uint32_t UIHud_onShowBannerEvent_m1413628557_MetadataUsageId;
+extern "C"  void UIHud_onShowBannerEvent_m1413628557 (UIHud_t3729045721 * __this, Il2CppObject * ___e0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_onShowBannerEvent_m1413628557_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ShowBannerEvent_t1981401907  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	String_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	{
+		Il2CppObject * L_0 = ___e0;
+		V_0 = ((*(ShowBannerEvent_t1981401907 *)((ShowBannerEvent_t1981401907 *)UnBox (L_0, ShowBannerEvent_t1981401907_il2cpp_TypeInfo_var))));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_1 = L_1;
+		int32_t L_2 = (&V_0)->get_bannerFlag_0();
+		V_2 = L_2;
+		int32_t L_3 = V_2;
+		if (((int32_t)((int32_t)L_3-(int32_t)2)) == 0)
+		{
+			goto IL_007e;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)2)) == 1)
+		{
+			goto IL_0029;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)2)) == 2)
+		{
+			goto IL_0045;
+		}
+	}
+
+IL_0029:
+	{
+		int32_t L_4 = V_2;
+		if ((((int32_t)L_4) == ((int32_t)8)))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		int32_t L_5 = V_2;
+		if ((((int32_t)L_5) == ((int32_t)((int32_t)16))))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_6 = V_2;
+		if ((((int32_t)L_6) == ((int32_t)((int32_t)32))))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		goto IL_0089;
+	}
+
+IL_0045:
+	{
+		V_1 = _stringLiteral3423335556;
+		goto IL_0089;
+	}
+
+IL_0050:
+	{
+		V_1 = _stringLiteral3394643180;
+		goto IL_0089;
+	}
+
+IL_005b:
+	{
+		V_1 = _stringLiteral4081011044;
+		goto IL_0089;
+	}
+
+IL_0066:
+	{
+		V_1 = _stringLiteral3501100593;
+		Il2CppObject * L_7 = UIHud_startVolcanoEffect_m3619009678(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_7, /*hidden argument*/NULL);
+		goto IL_0089;
+	}
+
+IL_007e:
+	{
+		V_1 = _stringLiteral2653686638;
+		goto IL_0089;
+	}
+
+IL_0089:
+	{
+		StringTable_t1872322127 * L_8 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_9 = V_1;
+		String_t* L_10 = StringTable_GetEntry_m2035826593(L_8, L_9, /*hidden argument*/NULL);
+		V_3 = L_10;
+		UIHugeWin_t3990307283 * L_11 = __this->get_hugeWin_19();
+		String_t* L_12 = V_3;
+		UIHugeWin_setWinText_m3231683108(L_11, L_12, /*hidden argument*/NULL);
+		UIHugeWin_t3990307283 * L_13 = __this->get_hugeWin_19();
+		GameObject_t1756533147 * L_14 = Component_get_gameObject_m3105766835(L_13, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_14, (bool)1, /*hidden argument*/NULL);
+		UIHugeWin_t3990307283 * L_15 = __this->get_hugeWin_19();
+		UIHugeWin_ShowHugeWin_m3059137333(L_15, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_16 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_16, ((int32_t)12), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud::showEndGameBanner(System.String)
+extern "C"  void UIHud_showEndGameBanner_m1934789603 (UIHud_t3729045721 * __this, String_t* ___endGameReason0, const MethodInfo* method)
+{
+	{
+		UIHugeWin_t3990307283 * L_0 = __this->get_hugeWin_19();
+		String_t* L_1 = ___endGameReason0;
+		UIHugeWin_setWinText_m3231683108(L_0, L_1, /*hidden argument*/NULL);
+		UIHugeWin_t3990307283 * L_2 = __this->get_hugeWin_19();
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(L_2, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_3, (bool)1, /*hidden argument*/NULL);
+		UIHugeWin_t3990307283 * L_4 = __this->get_hugeWin_19();
+		UIHugeWin_ShowHugeWin_m3059137333(L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.UIHud::startVolcanoEffect()
+extern Il2CppClass* U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552_il2cpp_TypeInfo_var;
+extern const uint32_t UIHud_startVolcanoEffect_m3619009678_MetadataUsageId;
+extern "C"  Il2CppObject * UIHud_startVolcanoEffect_m3619009678 (UIHud_t3729045721 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHud_startVolcanoEffect_m3619009678_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * V_0 = NULL;
+	{
+		U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * L_0 = (U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 *)il2cpp_codegen_object_new(U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552_il2cpp_TypeInfo_var);
+		U3CstartVolcanoEffectU3Ec__Iterator1__ctor_m3979469779(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * L_1 = V_0;
+		L_1->set_U24this_0(__this);
+		U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud/<SpeedUpTimeTap>c__Iterator0::.ctor()
+extern "C"  void U3CSpeedUpTimeTapU3Ec__Iterator0__ctor_m4256829221 (U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.UIHud/<SpeedUpTimeTap>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m2048036061_MethodInfo_var;
+extern const uint32_t U3CSpeedUpTimeTapU3Ec__Iterator0_MoveNext_m814209435_MetadataUsageId;
+extern "C"  bool U3CSpeedUpTimeTapU3Ec__Iterator0_MoveNext_m814209435 (U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSpeedUpTimeTapU3Ec__Iterator0_MoveNext_m814209435_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_2();
+		V_0 = L_0;
+		__this->set_U24PC_2((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		goto IL_0056;
+	}
+
+IL_0021:
+	{
+		WaitForSeconds_t3839502067 * L_2 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_2, (5.0f), /*hidden argument*/NULL);
+		__this->set_U24current_0(L_2);
+		bool L_3 = __this->get_U24disposing_1();
+		if (L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		__this->set_U24PC_2(1);
+	}
+
+IL_0040:
+	{
+		goto IL_0058;
+	}
+
+IL_0045:
+	{
+		TimeScale_t1095512549 * L_4 = Singleton_1_get_instance_m2048036061(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m2048036061_MethodInfo_var);
+		TimeScale_Reset_m4060550623(L_4, /*hidden argument*/NULL);
+		__this->set_U24PC_2((-1));
+	}
+
+IL_0056:
+	{
+		return (bool)0;
+	}
+
+IL_0058:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIHud/<SpeedUpTimeTap>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CSpeedUpTimeTapU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2332849239 (U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_0();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIHud/<SpeedUpTimeTap>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CSpeedUpTimeTapU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m839261359 (U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_0();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud/<SpeedUpTimeTap>c__Iterator0::Dispose()
+extern "C"  void U3CSpeedUpTimeTapU3Ec__Iterator0_Dispose_m3793178480 (U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_1((bool)1);
+		__this->set_U24PC_2((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud/<SpeedUpTimeTap>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSpeedUpTimeTapU3Ec__Iterator0_Reset_m653621362_MetadataUsageId;
+extern "C"  void U3CSpeedUpTimeTapU3Ec__Iterator0_Reset_m653621362 (U3CSpeedUpTimeTapU3Ec__Iterator0_t351556070 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSpeedUpTimeTapU3Ec__Iterator0_Reset_m653621362_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud/<startVolcanoEffect>c__Iterator1::.ctor()
+extern "C"  void U3CstartVolcanoEffectU3Ec__Iterator1__ctor_m3979469779 (U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.UIHud/<startVolcanoEffect>c__Iterator1::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const uint32_t U3CstartVolcanoEffectU3Ec__Iterator1_MoveNext_m272829697_MetadataUsageId;
+extern "C"  bool U3CstartVolcanoEffectU3Ec__Iterator1_MoveNext_m272829697 (U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CstartVolcanoEffectU3Ec__Iterator1_MoveNext_m272829697_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		goto IL_006f;
+	}
+
+IL_0021:
+	{
+		WaitForSeconds_t3839502067 * L_2 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_2, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_2);
+		bool L_3 = __this->get_U24disposing_2();
+		if (L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_0040:
+	{
+		goto IL_0071;
+	}
+
+IL_0045:
+	{
+		AudioFactory_t2285776918 * L_4 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_4, ((int32_t)14), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		UIHud_t3729045721 * L_5 = __this->get_U24this_0();
+		CameraShakeFX_t68180435 * L_6 = L_5->get_shakeFX_20();
+		CameraShakeFX_Shake_m2748498602(L_6, (3.0f), /*hidden argument*/NULL);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_006f:
+	{
+		return (bool)0;
+	}
+
+IL_0071:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIHud/<startVolcanoEffect>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CstartVolcanoEffectU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1643640745 (U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIHud/<startVolcanoEffect>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CstartVolcanoEffectU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1209909521 (U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud/<startVolcanoEffect>c__Iterator1::Dispose()
+extern "C"  void U3CstartVolcanoEffectU3Ec__Iterator1_Dispose_m4117226882 (U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHud/<startVolcanoEffect>c__Iterator1::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CstartVolcanoEffectU3Ec__Iterator1_Reset_m1985763712_MetadataUsageId;
+extern "C"  void U3CstartVolcanoEffectU3Ec__Iterator1_Reset_m1985763712 (U3CstartVolcanoEffectU3Ec__Iterator1_t1945830552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CstartVolcanoEffectU3Ec__Iterator1_Reset_m1985763712_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHugeWin::.ctor()
+extern "C"  void UIHugeWin__ctor_m3287192001 (UIHugeWin_t3990307283 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHugeWin::setWinText(System.String)
+extern "C"  void UIHugeWin_setWinText_m3231683108 (UIHugeWin_t3990307283 * __this, String_t* ___winText0, const MethodInfo* method)
+{
+	{
+		TextMeshProUGUI_t934157183 * L_0 = __this->get_textValue_4();
+		String_t* L_1 = ___winText0;
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
+		TMP_Text_set_text_m2562079954(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIHugeWin::ShowHugeWin()
+extern Il2CppCodeGenString* _stringLiteral70220477;
+extern const uint32_t UIHugeWin_ShowHugeWin_m3059137333_MetadataUsageId;
+extern "C"  void UIHugeWin_ShowHugeWin_m3059137333 (UIHugeWin_t3990307283 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIHugeWin_ShowHugeWin_m3059137333_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_2();
+		Animator_Play_m1123842248(L_0, _stringLiteral70220477, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIPrizePoolItem::.ctor()
+extern "C"  void UIPrizePoolItem__ctor_m3959419507 (UIPrizePoolItem_t2852130689 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIPrizePoolItem::SetPrizePoolText(System.String,System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3047109831;
+extern const uint32_t UIPrizePoolItem_SetPrizePoolText_m2184874614_MetadataUsageId;
+extern "C"  void UIPrizePoolItem_SetPrizePoolText_m2184874614 (UIPrizePoolItem_t2852130689 * __this, String_t* ___rank0, String_t* ___fame1, String_t* ___prize2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIPrizePoolItem_SetPrizePoolText_m2184874614_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TextMeshProUGUI_t934157183 * L_0 = __this->get__rankText_2();
+		String_t* L_1 = ___rank0;
+		TMP_Text_set_text_m2562079954(L_0, L_1, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_2 = __this->get__fameText_3();
+		String_t* L_3 = ___fame1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, L_3, _stringLiteral3047109831, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_2, L_4, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_5 = __this->get__prizeText_4();
+		String_t* L_6 = ___prize2;
+		TMP_Text_set_text_m2562079954(L_5, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = ___fame1;
+		bool L_8 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_9 = __this->get__fameObject_5();
+		GameObject_SetActive_m2887581199(L_9, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::.ctor()
+extern "C"  void UIResults__ctor_m2536095396 (UIResults_t3853378288 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::setupPanel(GSN.Skill.Games.Tripeaks.EndGameEvent,System.Int32,System.Int32)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029326;
+extern const uint32_t UIResults_setupPanel_m253304857_MetadataUsageId;
+extern "C"  void UIResults_setupPanel_m253304857 (UIResults_t3853378288 * __this, EndGameEvent_t3448324057  ___ee0, int32_t ___timeOfDay1, int32_t ___timeRemaining2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIResults_setupPanel_m253304857_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = (&___ee0)->get_matches_0();
+		__this->set__cardScore_18((((float)((float)L_0))));
+		int32_t L_1 = (&___ee0)->get_streaks_1();
+		__this->set__streakScore_19((((float)((float)L_1))));
+		int32_t L_2 = (&___ee0)->get_time_2();
+		__this->set__timeScore_20((((float)((float)L_2))));
+		int32_t L_3 = ___timeRemaining2;
+		__this->set__timeRemainingValue_21((((float)((float)L_3))));
+		int32_t L_4 = EndGameEvent_get_totalScore_m4115257494((&___ee0), /*hidden argument*/NULL);
+		__this->set__totalScore_22((((float)((float)L_4))));
+		TextMeshProUGUI_t934157183 * L_5 = __this->get__cardPoints_2();
+		TMP_Text_set_text_m2562079954(L_5, _stringLiteral372029326, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_6 = __this->get__streakPoints_3();
+		TMP_Text_set_text_m2562079954(L_6, _stringLiteral372029326, /*hidden argument*/NULL);
+		TextMeshProUGUI_t934157183 * L_7 = __this->get__timePoints_4();
+		TMP_Text_set_text_m2562079954(L_7, _stringLiteral372029326, /*hidden argument*/NULL);
+		float L_8 = __this->get__timeScore_20();
+		if ((!(((float)L_8) > ((float)(0.0f)))))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		TextMeshProUGUI_t934157183 * L_9 = __this->get__timeRemaining_5();
+		float L_10 = __this->get__timeRemainingValue_21();
+		String_t* L_11 = StringExtensions_TimeFormatMSFromSeconds_m15553503(NULL /*static, unused*/, (((int32_t)((int32_t)L_10))), /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_9, L_11, /*hidden argument*/NULL);
+	}
+
+IL_0097:
+	{
+		TextMeshProUGUI_t934157183 * L_12 = __this->get__totalPoints_6();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		TMP_Text_set_text_m2562079954(L_12, L_13, /*hidden argument*/NULL);
+		TikiCharacter_t3385186228 * L_14 = __this->get_tikiCharacter_12();
+		int32_t L_15 = ___timeOfDay1;
+		TikiCharacter_setTimeOfDayTint_m3995558258(L_14, L_15, /*hidden argument*/NULL);
+		PoiCharacter_t134467383 * L_16 = __this->get_poiCharacter_13();
+		int32_t L_17 = ___timeOfDay1;
+		PoiCharacter_setTimeOfDayTint_m1581756437(L_16, L_17, /*hidden argument*/NULL);
+		int32_t L_18 = (&___ee0)->get_endReason_3();
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_19 = __this->get_fireworksparticles_14();
+		GameObject_SetActive_m2887581199(L_19, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_00d8:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::ContinueButtonEnabled(System.Boolean)
+extern "C"  void UIResults_ContinueButtonEnabled_m2378503197 (UIResults_t3853378288 * __this, bool ___isEnabled0, const MethodInfo* method)
+{
+	{
+		Button_t2872111280 * L_0 = __this->get_continueButton_8();
+		bool L_1 = ___isEnabled0;
+		Behaviour_set_enabled_m1796096907(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GSN.Skill.Games.Tripeaks.UIResults::getEndGameReason(System.Int32)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m1352264627_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2988080381;
+extern Il2CppCodeGenString* _stringLiteral1960765976;
+extern Il2CppCodeGenString* _stringLiteral3366064628;
+extern Il2CppCodeGenString* _stringLiteral3381837070;
+extern Il2CppCodeGenString* _stringLiteral692263606;
+extern const uint32_t UIResults_getEndGameReason_m3310835271_MetadataUsageId;
+extern "C"  String_t* UIResults_getEndGameReason_m3310835271 (UIResults_t3853378288 * __this, int32_t ___endReason0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIResults_getEndGameReason_m3310835271_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_0;
+		int32_t L_1 = ___endReason0;
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 0)
+		{
+			goto IL_0027;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 1)
+		{
+			goto IL_0040;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 2)
+		{
+			goto IL_0064;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 3)
+		{
+			goto IL_0052;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 4)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		goto IL_0088;
+	}
+
+IL_0027:
+	{
+		V_0 = _stringLiteral2988080381;
+		__this->set__animLayer_15(0);
+		__this->set__boardCleared_16((bool)1);
+		goto IL_0088;
+	}
+
+IL_0040:
+	{
+		V_0 = _stringLiteral1960765976;
+		__this->set__animLayer_15(1);
+		goto IL_0088;
+	}
+
+IL_0052:
+	{
+		V_0 = _stringLiteral3366064628;
+		__this->set__animLayer_15(2);
+		goto IL_0088;
+	}
+
+IL_0064:
+	{
+		V_0 = _stringLiteral3381837070;
+		__this->set__animLayer_15(3);
+		goto IL_0088;
+	}
+
+IL_0076:
+	{
+		V_0 = _stringLiteral692263606;
+		__this->set__animLayer_15(4);
+		goto IL_0088;
+	}
+
+IL_0088:
+	{
+		StringTable_t1872322127 * L_2 = Singleton_1_get_instance_m1352264627(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m1352264627_MethodInfo_var);
+		String_t* L_3 = V_0;
+		String_t* L_4 = StringTable_GetEntry_m2035826593(L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::onContinueClick()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const MethodInfo* Singleton_1_get_instance_m3667694204_MethodInfo_var;
+extern const uint32_t UIResults_onContinueClick_m3386748404_MetadataUsageId;
+extern "C"  void UIResults_onContinueClick_m3386748404 (UIResults_t3853378288 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIResults_onContinueClick_m3386748404_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_StopAudiosOnChan_m1412748067(L_0, 0, (0.0f), /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_1 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_1, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		Il2CppObject * L_2 = UIResults_animateResultsOff_m368912244(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_2, /*hidden argument*/NULL);
+		TutorialManager_t2237337539 * L_3 = Singleton_1_get_instance_m3667694204(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_instance_m3667694204_MethodInfo_var);
+		TutorialManager_HideShownStep_m3539610609(L_3, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.UIResults::animateResultsOff()
+extern Il2CppClass* U3CanimateResultsOffU3Ec__Iterator0_t2278246251_il2cpp_TypeInfo_var;
+extern const uint32_t UIResults_animateResultsOff_m368912244_MetadataUsageId;
+extern "C"  Il2CppObject * UIResults_animateResultsOff_m368912244 (UIResults_t3853378288 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIResults_animateResultsOff_m368912244_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * V_0 = NULL;
+	{
+		U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * L_0 = (U3CanimateResultsOffU3Ec__Iterator0_t2278246251 *)il2cpp_codegen_object_new(U3CanimateResultsOffU3Ec__Iterator0_t2278246251_il2cpp_TypeInfo_var);
+		U3CanimateResultsOffU3Ec__Iterator0__ctor_m4094697142(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * L_1 = V_0;
+		L_1->set_U24this_0(__this);
+		U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.UIResults::AnimateResultsIn()
+extern Il2CppClass* U3CAnimateResultsInU3Ec__Iterator1_t1519595420_il2cpp_TypeInfo_var;
+extern const uint32_t UIResults_AnimateResultsIn_m3088989826_MetadataUsageId;
+extern "C"  Il2CppObject * UIResults_AnimateResultsIn_m3088989826 (UIResults_t3853378288 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIResults_AnimateResultsIn_m3088989826_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * V_0 = NULL;
+	{
+		U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * L_0 = (U3CAnimateResultsInU3Ec__Iterator1_t1519595420 *)il2cpp_codegen_object_new(U3CAnimateResultsInU3Ec__Iterator1_t1519595420_il2cpp_TypeInfo_var);
+		U3CAnimateResultsInU3Ec__Iterator1__ctor_m1481472855(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * L_1 = V_0;
+		L_1->set_U24this_2(__this);
+		U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::AnimateRollingScore(TMPro.TextMeshProUGUI,System.Single,System.Single)
+extern Il2CppClass* U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTween_t4120592429_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1878309314_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CAnimateRollingScoreU3Ec__AnonStorey2_U3CU3Em__0_m1406334870_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m928763336_MethodInfo_var;
+extern const uint32_t UIResults_AnimateRollingScore_m1071656545_MetadataUsageId;
+extern "C"  void UIResults_AnimateRollingScore_m1071656545 (UIResults_t3853378288 * __this, TextMeshProUGUI_t934157183 * ___textObject0, float ___fromValue1, float ___toValue2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIResults_AnimateRollingScore_m1071656545_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151 * V_0 = NULL;
+	{
+		U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151 * L_0 = (U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151 *)il2cpp_codegen_object_new(U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151_il2cpp_TypeInfo_var);
+		U3CAnimateRollingScoreU3Ec__AnonStorey2__ctor_m1126139558(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151 * L_1 = V_0;
+		TextMeshProUGUI_t934157183 * L_2 = ___textObject0;
+		L_1->set_textObject_0(L_2);
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		float L_4 = ___fromValue1;
+		float L_5 = ___toValue2;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTween_t4120592429_il2cpp_TypeInfo_var);
+		LTDescr_t1981209097 * L_6 = LeanTween_value_m3364698516(NULL /*static, unused*/, L_3, L_4, L_5, (1.0f), /*hidden argument*/NULL);
+		U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151 * L_7 = V_0;
+		IntPtr_t L_8;
+		L_8.set_m_value_0((void*)(void*)U3CAnimateRollingScoreU3Ec__AnonStorey2_U3CU3Em__0_m1406334870_MethodInfo_var);
+		Action_1_t1878309314 * L_9 = (Action_1_t1878309314 *)il2cpp_codegen_object_new(Action_1_t1878309314_il2cpp_TypeInfo_var);
+		Action_1__ctor_m928763336(L_9, L_7, L_8, /*hidden argument*/Action_1__ctor_m928763336_MethodInfo_var);
+		LTDescr_setOnUpdate_m107925489(L_6, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::UpdateTotalScore(System.Single)
+extern "C"  void UIResults_UpdateTotalScore_m1659053824 (UIResults_t3853378288 * __this, float ___newPoints0, const MethodInfo* method)
+{
+	{
+		TextMeshProUGUI_t934157183 * L_0 = __this->get__totalPoints_6();
+		float L_1 = __this->get__currentTotalScore_23();
+		float L_2 = __this->get__currentTotalScore_23();
+		float L_3 = ___newPoints0;
+		UIResults_AnimateRollingScore_m1071656545(__this, L_0, L_1, ((float)((float)L_2+(float)L_3)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::AnimateRollingTime(System.Single,System.Single)
+extern Il2CppClass* LeanTween_t4120592429_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1878309314_il2cpp_TypeInfo_var;
+extern const MethodInfo* UIResults_U3CAnimateRollingTimeU3Em__0_m1950084737_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m928763336_MethodInfo_var;
+extern const uint32_t UIResults_AnimateRollingTime_m624118379_MetadataUsageId;
+extern "C"  void UIResults_AnimateRollingTime_m624118379 (UIResults_t3853378288 * __this, float ___fromValue0, float ___toValue1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIResults_AnimateRollingTime_m624118379_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		float L_1 = ___fromValue0;
+		float L_2 = ___toValue1;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTween_t4120592429_il2cpp_TypeInfo_var);
+		LTDescr_t1981209097 * L_3 = LeanTween_value_m3364698516(NULL /*static, unused*/, L_0, L_1, L_2, (1.0f), /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)UIResults_U3CAnimateRollingTimeU3Em__0_m1950084737_MethodInfo_var);
+		Action_1_t1878309314 * L_5 = (Action_1_t1878309314 *)il2cpp_codegen_object_new(Action_1_t1878309314_il2cpp_TypeInfo_var);
+		Action_1__ctor_m928763336(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m928763336_MethodInfo_var);
+		LTDescr_setOnUpdate_m107925489(L_3, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults::<AnimateRollingTime>m__0(System.Single)
+extern "C"  void UIResults_U3CAnimateRollingTimeU3Em__0_m1950084737 (UIResults_t3853378288 * __this, float ___val0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___val0;
+		V_0 = (((int32_t)((int32_t)L_0)));
+		TextMeshProUGUI_t934157183 * L_1 = __this->get__timeRemaining_5();
+		int32_t L_2 = V_0;
+		String_t* L_3 = StringExtensions_TimeFormatMSFromSeconds_m15553503(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<AnimateResultsIn>c__Iterator1::.ctor()
+extern "C"  void U3CAnimateResultsInU3Ec__Iterator1__ctor_m1481472855 (U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.UIResults/<AnimateResultsIn>c__Iterator1::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3842754114;
+extern Il2CppCodeGenString* _stringLiteral1489481129;
+extern Il2CppCodeGenString* _stringLiteral1666292603;
+extern const uint32_t U3CAnimateResultsInU3Ec__Iterator1_MoveNext_m2903946349_MetadataUsageId;
+extern "C"  bool U3CAnimateResultsInU3Ec__Iterator1_MoveNext_m2903946349 (U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateResultsInU3Ec__Iterator1_MoveNext_m2903946349_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0035;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00d5;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_019d;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_0224;
+		}
+		if (L_1 == 4)
+		{
+			goto IL_029d;
+		}
+		if (L_1 == 5)
+		{
+			goto IL_0324;
+		}
+		if (L_1 == 6)
+		{
+			goto IL_03ce;
+		}
+	}
+	{
+		goto IL_0414;
+	}
+
+IL_0035:
+	{
+		UIResults_t3853378288 * L_2 = __this->get_U24this_2();
+		Animator_t69676727 * L_3 = L_2->get_animator_9();
+		Animator_Play_m1123842248(L_3, _stringLiteral3842754114, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_4 = __this->get_U24this_2();
+		TikiCharacter_t3385186228 * L_5 = L_4->get_tikiCharacter_12();
+		UIResults_t3853378288 * L_6 = __this->get_U24this_2();
+		int32_t L_7 = L_6->get__animLayer_15();
+		TikiCharacter_playAnimation_m3479830753(L_5, _stringLiteral1489481129, L_7, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_8 = __this->get_U24this_2();
+		PoiCharacter_t134467383 * L_9 = L_8->get_poiCharacter_13();
+		UIResults_t3853378288 * L_10 = __this->get_U24this_2();
+		int32_t L_11 = L_10->get__animLayer_15();
+		PoiCharacter_playAnimation_m1543074546(L_9, _stringLiteral1489481129, L_11, /*hidden argument*/NULL);
+		AudioOptions_t515001514  L_12 = AudioFactory_DefaultOptions_m2021272403(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CsOptionsU3E__0_0(L_12);
+		AudioOptions_t515001514 * L_13 = __this->get_address_of_U3CsOptionsU3E__0_0();
+		L_13->set_loop_2((bool)1);
+		AudioOptions_t515001514 * L_14 = __this->get_address_of_U3CsOptionsU3E__0_0();
+		L_14->set_delayTime_4((0.0f));
+		WaitForSeconds_t3839502067 * L_15 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_15, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_15);
+		bool L_16 = __this->get_U24disposing_4();
+		if (L_16)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		__this->set_U24PC_5(1);
+	}
+
+IL_00d0:
+	{
+		goto IL_0416;
+	}
+
+IL_00d5:
+	{
+		UIResults_t3853378288 * L_17 = __this->get_U24this_2();
+		Animator_t69676727 * L_18 = L_17->get_palmAnimator1_10();
+		Animator_Play_m1123842248(L_18, _stringLiteral1666292603, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_19 = __this->get_U24this_2();
+		Animator_t69676727 * L_20 = L_19->get_palmAnimator2_11();
+		Animator_Play_m1123842248(L_20, _stringLiteral1666292603, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_21 = __this->get_U24this_2();
+		float L_22 = L_21->get__cardScore_18();
+		if ((!(((float)L_22) > ((float)(0.0f)))))
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		UIResults_t3853378288 * L_23 = __this->get_U24this_2();
+		bool L_24 = L_23->get__animatingOff_17();
+		if (L_24)
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		AudioFactory_t2285776918 * L_25 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioOptions_t515001514  L_26 = __this->get_U3CsOptionsU3E__0_0();
+		AudioSource_t1135106623 * L_27 = AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372(L_25, ((int32_t)37), L_26, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_MethodInfo_var);
+		__this->set_U3CrollingscoreU3E__1_1(L_27);
+		UIResults_t3853378288 * L_28 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_29 = __this->get_U24this_2();
+		TextMeshProUGUI_t934157183 * L_30 = L_29->get__cardPoints_2();
+		UIResults_t3853378288 * L_31 = __this->get_U24this_2();
+		float L_32 = L_31->get__cardScore_18();
+		UIResults_AnimateRollingScore_m1071656545(L_28, L_30, (0.0f), L_32, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_33 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_34 = __this->get_U24this_2();
+		float L_35 = L_34->get__cardScore_18();
+		UIResults_UpdateTotalScore_m1659053824(L_33, L_35, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_36 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_36, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_36);
+		bool L_37 = __this->get_U24disposing_4();
+		if (L_37)
+		{
+			goto IL_0198;
+		}
+	}
+	{
+		__this->set_U24PC_5(2);
+	}
+
+IL_0198:
+	{
+		goto IL_0416;
+	}
+
+IL_019d:
+	{
+		UIResults_t3853378288 * L_38 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_39 = L_38;
+		float L_40 = L_39->get__currentTotalScore_23();
+		UIResults_t3853378288 * L_41 = __this->get_U24this_2();
+		float L_42 = L_41->get__cardScore_18();
+		L_39->set__currentTotalScore_23(((float)((float)L_40+(float)L_42)));
+		AudioSource_t1135106623 * L_43 = __this->get_U3CrollingscoreU3E__1_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_44 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_43, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_44)
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_45 = __this->get_U3CrollingscoreU3E__1_1();
+		AudioSourceExtensions_FadeOutDestroy_m2418060965(NULL /*static, unused*/, L_45, (0.0f), /*hidden argument*/NULL);
+	}
+
+IL_01db:
+	{
+		UIResults_t3853378288 * L_46 = __this->get_U24this_2();
+		float L_47 = L_46->get__streakScore_19();
+		if ((!(((float)L_47) > ((float)(0.0f)))))
+		{
+			goto IL_02db;
+		}
+	}
+	{
+		UIResults_t3853378288 * L_48 = __this->get_U24this_2();
+		bool L_49 = L_48->get__animatingOff_17();
+		if (L_49)
+		{
+			goto IL_02db;
+		}
+	}
+	{
+		WaitForSeconds_t3839502067 * L_50 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_50, (0.25f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_50);
+		bool L_51 = __this->get_U24disposing_4();
+		if (L_51)
+		{
+			goto IL_021f;
+		}
+	}
+	{
+		__this->set_U24PC_5(3);
+	}
+
+IL_021f:
+	{
+		goto IL_0416;
+	}
+
+IL_0224:
+	{
+		AudioFactory_t2285776918 * L_52 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioOptions_t515001514  L_53 = __this->get_U3CsOptionsU3E__0_0();
+		AudioSource_t1135106623 * L_54 = AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372(L_52, ((int32_t)37), L_53, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_MethodInfo_var);
+		__this->set_U3CrollingscoreU3E__1_1(L_54);
+		UIResults_t3853378288 * L_55 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_56 = __this->get_U24this_2();
+		TextMeshProUGUI_t934157183 * L_57 = L_56->get__streakPoints_3();
+		UIResults_t3853378288 * L_58 = __this->get_U24this_2();
+		float L_59 = L_58->get__streakScore_19();
+		UIResults_AnimateRollingScore_m1071656545(L_55, L_57, (0.0f), L_59, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_60 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_61 = __this->get_U24this_2();
+		float L_62 = L_61->get__streakScore_19();
+		UIResults_UpdateTotalScore_m1659053824(L_60, L_62, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_63 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_63, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_63);
+		bool L_64 = __this->get_U24disposing_4();
+		if (L_64)
+		{
+			goto IL_0298;
+		}
+	}
+	{
+		__this->set_U24PC_5(4);
+	}
+
+IL_0298:
+	{
+		goto IL_0416;
+	}
+
+IL_029d:
+	{
+		UIResults_t3853378288 * L_65 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_66 = L_65;
+		float L_67 = L_66->get__currentTotalScore_23();
+		UIResults_t3853378288 * L_68 = __this->get_U24this_2();
+		float L_69 = L_68->get__streakScore_19();
+		L_66->set__currentTotalScore_23(((float)((float)L_67+(float)L_69)));
+		AudioSource_t1135106623 * L_70 = __this->get_U3CrollingscoreU3E__1_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_71 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_70, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_71)
+		{
+			goto IL_02db;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_72 = __this->get_U3CrollingscoreU3E__1_1();
+		AudioSourceExtensions_FadeOutDestroy_m2418060965(NULL /*static, unused*/, L_72, (0.0f), /*hidden argument*/NULL);
+	}
+
+IL_02db:
+	{
+		UIResults_t3853378288 * L_73 = __this->get_U24this_2();
+		float L_74 = L_73->get__timeScore_20();
+		if ((!(((float)L_74) > ((float)(0.0f)))))
+		{
+			goto IL_03ef;
+		}
+	}
+	{
+		UIResults_t3853378288 * L_75 = __this->get_U24this_2();
+		bool L_76 = L_75->get__animatingOff_17();
+		if (L_76)
+		{
+			goto IL_03ef;
+		}
+	}
+	{
+		WaitForSeconds_t3839502067 * L_77 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_77, (0.25f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_77);
+		bool L_78 = __this->get_U24disposing_4();
+		if (L_78)
+		{
+			goto IL_031f;
+		}
+	}
+	{
+		__this->set_U24PC_5(5);
+	}
+
+IL_031f:
+	{
+		goto IL_0416;
+	}
+
+IL_0324:
+	{
+		AudioFactory_t2285776918 * L_79 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioOptions_t515001514  L_80 = __this->get_U3CsOptionsU3E__0_0();
+		AudioSource_t1135106623 * L_81 = AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372(L_79, ((int32_t)37), L_80, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m136182372_MethodInfo_var);
+		__this->set_U3CrollingscoreU3E__1_1(L_81);
+		UIResults_t3853378288 * L_82 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_83 = __this->get_U24this_2();
+		float L_84 = L_83->get__timeRemainingValue_21();
+		UIResults_AnimateRollingTime_m624118379(L_82, L_84, (0.0f), /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_85 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_86 = __this->get_U24this_2();
+		TextMeshProUGUI_t934157183 * L_87 = L_86->get__timePoints_4();
+		UIResults_t3853378288 * L_88 = __this->get_U24this_2();
+		float L_89 = L_88->get__timeScore_20();
+		UIResults_AnimateRollingScore_m1071656545(L_85, L_87, (0.0f), L_89, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_90 = __this->get_U24this_2();
+		UIResults_t3853378288 * L_91 = __this->get_U24this_2();
+		TextMeshProUGUI_t934157183 * L_92 = L_91->get__totalPoints_6();
+		UIResults_t3853378288 * L_93 = __this->get_U24this_2();
+		float L_94 = L_93->get__currentTotalScore_23();
+		UIResults_t3853378288 * L_95 = __this->get_U24this_2();
+		float L_96 = L_95->get__totalScore_22();
+		UIResults_AnimateRollingScore_m1071656545(L_90, L_92, L_94, L_96, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_97 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_97, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_97);
+		bool L_98 = __this->get_U24disposing_4();
+		if (L_98)
+		{
+			goto IL_03c9;
+		}
+	}
+	{
+		__this->set_U24PC_5(6);
+	}
+
+IL_03c9:
+	{
+		goto IL_0416;
+	}
+
+IL_03ce:
+	{
+		AudioSource_t1135106623 * L_99 = __this->get_U3CrollingscoreU3E__1_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_100 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_99, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_100)
+		{
+			goto IL_03ef;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_101 = __this->get_U3CrollingscoreU3E__1_1();
+		AudioSourceExtensions_FadeOutDestroy_m2418060965(NULL /*static, unused*/, L_101, (0.0f), /*hidden argument*/NULL);
+	}
+
+IL_03ef:
+	{
+		UIResults_t3853378288 * L_102 = __this->get_U24this_2();
+		bool L_103 = L_102->get__boardCleared_16();
+		if (!L_103)
+		{
+			goto IL_040d;
+		}
+	}
+	{
+		AudioFactory_t2285776918 * L_104 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_104, ((int32_t)41), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+	}
+
+IL_040d:
+	{
+		__this->set_U24PC_5((-1));
+	}
+
+IL_0414:
+	{
+		return (bool)0;
+	}
+
+IL_0416:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIResults/<AnimateResultsIn>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CAnimateResultsInU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1785126733 (U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIResults/<AnimateResultsIn>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CAnimateResultsInU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m439075381 (U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<AnimateResultsIn>c__Iterator1::Dispose()
+extern "C"  void U3CAnimateResultsInU3Ec__Iterator1_Dispose_m3727677470 (U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_4((bool)1);
+		__this->set_U24PC_5((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<AnimateResultsIn>c__Iterator1::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CAnimateResultsInU3Ec__Iterator1_Reset_m519157596_MetadataUsageId;
+extern "C"  void U3CAnimateResultsInU3Ec__Iterator1_Reset_m519157596 (U3CAnimateResultsInU3Ec__Iterator1_t1519595420 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateResultsInU3Ec__Iterator1_Reset_m519157596_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<animateResultsOff>c__Iterator0::.ctor()
+extern "C"  void U3CanimateResultsOffU3Ec__Iterator0__ctor_m4094697142 (U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.UIResults/<animateResultsOff>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3707675686;
+extern Il2CppCodeGenString* _stringLiteral2243910602;
+extern const uint32_t U3CanimateResultsOffU3Ec__Iterator0_MoveNext_m12370698_MetadataUsageId;
+extern "C"  bool U3CanimateResultsOffU3Ec__Iterator0_MoveNext_m12370698 (U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CanimateResultsOffU3Ec__Iterator0_MoveNext_m12370698_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0025;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00b3;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		goto IL_00fd;
+	}
+
+IL_0025:
+	{
+		AudioFactory_t2285776918 * L_2 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_2, ((int32_t)42), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		UIResults_t3853378288 * L_3 = __this->get_U24this_0();
+		L_3->set__animatingOff_17((bool)1);
+		UIResults_t3853378288 * L_4 = __this->get_U24this_0();
+		TikiCharacter_t3385186228 * L_5 = L_4->get_tikiCharacter_12();
+		UIResults_t3853378288 * L_6 = __this->get_U24this_0();
+		int32_t L_7 = L_6->get__animLayer_15();
+		TikiCharacter_playAnimation_m3479830753(L_5, _stringLiteral3707675686, L_7, /*hidden argument*/NULL);
+		UIResults_t3853378288 * L_8 = __this->get_U24this_0();
+		PoiCharacter_t134467383 * L_9 = L_8->get_poiCharacter_13();
+		UIResults_t3853378288 * L_10 = __this->get_U24this_0();
+		int32_t L_11 = L_10->get__animLayer_15();
+		PoiCharacter_playAnimation_m1543074546(L_9, _stringLiteral3707675686, L_11, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_12 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_StopAudiosOnChan_m1412748067(L_12, 1, (1.2f), /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_13 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_13, (0.2f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_13);
+		bool L_14 = __this->get_U24disposing_2();
+		if (L_14)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_00ae:
+	{
+		goto IL_00ff;
+	}
+
+IL_00b3:
+	{
+		UIResults_t3853378288 * L_15 = __this->get_U24this_0();
+		Animator_t69676727 * L_16 = L_15->get_animator_9();
+		Animator_Play_m1123842248(L_16, _stringLiteral2243910602, /*hidden argument*/NULL);
+		WaitForSeconds_t3839502067 * L_17 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_17, (1.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_17);
+		bool L_18 = __this->get_U24disposing_2();
+		if (L_18)
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		__this->set_U24PC_3(2);
+	}
+
+IL_00e7:
+	{
+		goto IL_00ff;
+	}
+
+IL_00ec:
+	{
+		ViewBase_t3608972958 * L_19 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(14 /* System.Void GSN.Skill.Games.Common.Client.Game.ViewBase::GameClientComplete() */, L_19);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_00fd:
+	{
+		return (bool)0;
+	}
+
+IL_00ff:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIResults/<animateResultsOff>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CanimateResultsOffU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m543053682 (U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIResults/<animateResultsOff>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CanimateResultsOffU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1307637114 (U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<animateResultsOff>c__Iterator0::Dispose()
+extern "C"  void U3CanimateResultsOffU3Ec__Iterator0_Dispose_m2533961409 (U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<animateResultsOff>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CanimateResultsOffU3Ec__Iterator0_Reset_m1759124359_MetadataUsageId;
+extern "C"  void U3CanimateResultsOffU3Ec__Iterator0_Reset_m1759124359 (U3CanimateResultsOffU3Ec__Iterator0_t2278246251 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CanimateResultsOffU3Ec__Iterator0_Reset_m1759124359_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<AnimateRollingScore>c__AnonStorey2::.ctor()
+extern "C"  void U3CAnimateRollingScoreU3Ec__AnonStorey2__ctor_m1126139558 (U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIResults/<AnimateRollingScore>c__AnonStorey2::<>m__0(System.Single)
+extern "C"  void U3CAnimateRollingScoreU3Ec__AnonStorey2_U3CU3Em__0_m1406334870 (U3CAnimateRollingScoreU3Ec__AnonStorey2_t3876820151 * __this, float ___val0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___val0;
+		V_0 = (((int32_t)((int32_t)L_0)));
+		TextMeshProUGUI_t934157183 * L_1 = __this->get_textObject_0();
+		String_t* L_2 = Int32_ToString_m2960866144((&V_0), /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::.ctor()
+extern "C"  void UISettings__ctor_m3280240307 (UISettings_t1983107723 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::Start()
+extern "C"  void UISettings_Start_m1853761727 (UISettings_t1983107723 * __this, const MethodInfo* method)
+{
+	{
+		UISettings_RefreshSettings_m1695510035(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::OnEnable()
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* UISettings_OnCloseClick_m2728386702_MethodInfo_var;
+extern const uint32_t UISettings_OnEnable_m1423168511_MetadataUsageId;
+extern "C"  void UISettings_OnEnable_m1423168511 (UISettings_t1983107723 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UISettings_OnEnable_m1423168511_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Button_t2872111280 * L_0 = __this->get_closeButton_4();
+		ButtonClickedEvent_t2455055323 * L_1 = Button_get_onClick_m1595880935(L_0, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)UISettings_OnCloseClick_m2728386702_MethodInfo_var);
+		UnityAction_t4025899511 * L_3 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_3, __this, L_2, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m1596810379(L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::OnDisable()
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* UISettings_OnCloseClick_m2728386702_MethodInfo_var;
+extern const uint32_t UISettings_OnDisable_m2427072760_MetadataUsageId;
+extern "C"  void UISettings_OnDisable_m2427072760 (UISettings_t1983107723 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UISettings_OnDisable_m2427072760_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Button_t2872111280 * L_0 = __this->get_closeButton_4();
+		ButtonClickedEvent_t2455055323 * L_1 = Button_get_onClick_m1595880935(L_0, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)UISettings_OnCloseClick_m2728386702_MethodInfo_var);
+		UnityAction_t4025899511 * L_3 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_3, __this, L_2, /*hidden argument*/NULL);
+		UnityEvent_RemoveListener_m2073859718(L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::RefreshSettings()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313_MethodInfo_var;
+extern const uint32_t UISettings_RefreshSettings_m1695510035_MetadataUsageId;
+extern "C"  void UISettings_RefreshSettings_m1695510035 (UISettings_t1983107723 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UISettings_RefreshSettings_m1695510035_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		bool L_1 = AudioFactory_ChannelIsEnabled_m3598111628(L_0, 1, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Toggle_t3976754468 * L_2 = __this->get_musicToggle_2();
+		bool L_3 = V_0;
+		Toggle_set_isOn_m4022556286(L_2, L_3, /*hidden argument*/NULL);
+		Toggle_t3976754468 * L_4 = __this->get_musicToggle_2();
+		UIToggleSlider_t3362915155 * L_5 = Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313(L_4, /*hidden argument*/Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313_MethodInfo_var);
+		bool L_6 = V_0;
+		UIToggleSlider_isOn_m2275877877(L_5, L_6, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_7 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		bool L_8 = AudioFactory_ChannelIsEnabled_m3598111628(L_7, 0, /*hidden argument*/NULL);
+		V_1 = L_8;
+		Toggle_t3976754468 * L_9 = __this->get_soundFXToggle_3();
+		bool L_10 = V_1;
+		Toggle_set_isOn_m4022556286(L_9, L_10, /*hidden argument*/NULL);
+		Toggle_t3976754468 * L_11 = __this->get_soundFXToggle_3();
+		UIToggleSlider_t3362915155 * L_12 = Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313(L_11, /*hidden argument*/Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313_MethodInfo_var);
+		bool L_13 = V_1;
+		UIToggleSlider_isOn_m2275877877(L_12, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::reportSettingToggle(System.String,System.Boolean,System.Boolean)
+extern Il2CppCodeGenString* _stringLiteral3062999009;
+extern Il2CppCodeGenString* _stringLiteral3424912987;
+extern const uint32_t UISettings_reportSettingToggle_m42976023_MetadataUsageId;
+extern "C"  void UISettings_reportSettingToggle_m42976023 (UISettings_t1983107723 * __this, String_t* ___type0, bool ___current1, bool ___to2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UISettings_reportSettingToggle_m42976023_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B2_1 = NULL;
+	String_t* G_B1_0 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B1_1 = NULL;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B3_2 = NULL;
+	String_t* G_B5_0 = NULL;
+	String_t* G_B5_1 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B5_2 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B4_2 = NULL;
+	String_t* G_B6_0 = NULL;
+	String_t* G_B6_1 = NULL;
+	String_t* G_B6_2 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B6_3 = NULL;
+	{
+		TriPeaksAnalytics_t1644016319 * L_0 = TriPeaksAnalytics_get_instance_m2231945586(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___type0;
+		bool L_2 = ___current1;
+		G_B1_0 = L_1;
+		G_B1_1 = L_0;
+		if (!L_2)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = L_0;
+			goto IL_0016;
+		}
+	}
+	{
+		G_B3_0 = _stringLiteral3062999009;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		goto IL_001b;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = _stringLiteral3424912987;
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+	}
+
+IL_001b:
+	{
+		bool L_3 = ___to2;
+		G_B4_0 = G_B3_0;
+		G_B4_1 = G_B3_1;
+		G_B4_2 = G_B3_2;
+		if (!L_3)
+		{
+			G_B5_0 = G_B3_0;
+			G_B5_1 = G_B3_1;
+			G_B5_2 = G_B3_2;
+			goto IL_002b;
+		}
+	}
+	{
+		G_B6_0 = _stringLiteral3062999009;
+		G_B6_1 = G_B4_0;
+		G_B6_2 = G_B4_1;
+		G_B6_3 = G_B4_2;
+		goto IL_0030;
+	}
+
+IL_002b:
+	{
+		G_B6_0 = _stringLiteral3424912987;
+		G_B6_1 = G_B5_0;
+		G_B6_2 = G_B5_1;
+		G_B6_3 = G_B5_2;
+	}
+
+IL_0030:
+	{
+		GameAnalyticSender_SendUserGameSettings_m3972108682(G_B6_3, G_B6_2, G_B6_1, G_B6_0, (Dictionary_2_t309261261 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::toggleMusic(System.Boolean)
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1527893365;
+extern const uint32_t UISettings_toggleMusic_m1780650887_MetadataUsageId;
+extern "C"  void UISettings_toggleMusic_m1780650887 (UISettings_t1983107723 * __this, bool ___isOn0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UISettings_toggleMusic_m1780650887_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		bool L_1 = AudioFactory_ChannelIsEnabled_m3598111628(L_0, 1, /*hidden argument*/NULL);
+		bool L_2 = ___isOn0;
+		UISettings_reportSettingToggle_m42976023(__this, _stringLiteral1527893365, L_1, L_2, /*hidden argument*/NULL);
+		Toggle_t3976754468 * L_3 = __this->get_musicToggle_2();
+		bool L_4 = ___isOn0;
+		Toggle_set_isOn_m4022556286(L_3, L_4, /*hidden argument*/NULL);
+		Toggle_t3976754468 * L_5 = __this->get_musicToggle_2();
+		UIToggleSlider_t3362915155 * L_6 = Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313(L_5, /*hidden argument*/Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313_MethodInfo_var);
+		bool L_7 = ___isOn0;
+		UIToggleSlider_isOn_m2275877877(L_6, L_7, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_8 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		bool L_9 = ___isOn0;
+		AudioFactory_SetChannelEnabled_m1917615657(L_8, 1, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::toggleSoundFX(System.Boolean)
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913373;
+extern const uint32_t UISettings_toggleSoundFX_m1902427367_MetadataUsageId;
+extern "C"  void UISettings_toggleSoundFX_m1902427367 (UISettings_t1983107723 * __this, bool ___isOn0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UISettings_toggleSoundFX_m1902427367_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		bool L_1 = AudioFactory_ChannelIsEnabled_m3598111628(L_0, 0, /*hidden argument*/NULL);
+		bool L_2 = ___isOn0;
+		UISettings_reportSettingToggle_m42976023(__this, _stringLiteral3424913373, L_1, L_2, /*hidden argument*/NULL);
+		Toggle_t3976754468 * L_3 = __this->get_soundFXToggle_3();
+		bool L_4 = ___isOn0;
+		Toggle_set_isOn_m4022556286(L_3, L_4, /*hidden argument*/NULL);
+		Toggle_t3976754468 * L_5 = __this->get_soundFXToggle_3();
+		UIToggleSlider_t3362915155 * L_6 = Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313(L_5, /*hidden argument*/Component_GetComponent_TisUIToggleSlider_t3362915155_m2690171313_MethodInfo_var);
+		bool L_7 = ___isOn0;
+		UIToggleSlider_isOn_m2275877877(L_6, L_7, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_8 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		bool L_9 = ___isOn0;
+		AudioFactory_SetChannelEnabled_m1917615657(L_8, 0, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UISettings::OnCloseClick()
+extern "C"  void UISettings_OnCloseClick_m2728386702 (UISettings_t1983107723 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		GameObject_SetActive_m2887581199(L_0, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::.ctor()
+extern "C"  void UIStartScreen__ctor_m4124459378 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_REVEAL_TIMER_SEC_8((60.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::Start()
+extern "C"  void UIStartScreen_Start_m2138556846 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	{
+		TriPeaksAnalytics_t1644016319 * L_0 = TriPeaksAnalytics_get_instance_m2231945586(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameAnalyticSender_SendStartScreenLoad_m3790621978(L_0, (Dictionary_2_t309261261 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::OnEnable()
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* UIStartScreen_ShowSettings_m588560356_MethodInfo_var;
+extern const uint32_t UIStartScreen_OnEnable_m3605973934_MetadataUsageId;
+extern "C"  void UIStartScreen_OnEnable_m3605973934 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_OnEnable_m3605973934_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Button_t2872111280 * L_0 = __this->get_settingsButton_5();
+		ButtonClickedEvent_t2455055323 * L_1 = Button_get_onClick_m1595880935(L_0, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)UIStartScreen_ShowSettings_m588560356_MethodInfo_var);
+		UnityAction_t4025899511 * L_3 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_3, __this, L_2, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m1596810379(L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::OnDisable()
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* UIStartScreen_ShowSettings_m588560356_MethodInfo_var;
+extern const uint32_t UIStartScreen_OnDisable_m182776995_MetadataUsageId;
+extern "C"  void UIStartScreen_OnDisable_m182776995 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_OnDisable_m182776995_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Button_t2872111280 * L_0 = __this->get_settingsButton_5();
+		ButtonClickedEvent_t2455055323 * L_1 = Button_get_onClick_m1595880935(L_0, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)UIStartScreen_ShowSettings_m588560356_MethodInfo_var);
+		UnityAction_t4025899511 * L_3 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_3, __this, L_2, /*hidden argument*/NULL);
+		UnityEvent_RemoveListener_m2073859718(L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::OnLoadingComplete()
+extern "C"  void UIStartScreen_OnLoadingComplete_m2336231086 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get__coBringUpStartTime_10();
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		bool L_2 = GameObject_get_activeSelf_m313590879(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_001c;
+		}
+	}
+
+IL_001b:
+	{
+		return;
+	}
+
+IL_001c:
+	{
+		Il2CppObject * L_3 = __this->get__coBringUpStartTime_10();
+		MonoBehaviour_StopCoroutine_m1170478282(__this, L_3, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = __this->get__coBringUpStartTime_10();
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::onStartButton()
+extern Il2CppClass* View_t1946640821_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1105289355;
+extern Il2CppCodeGenString* _stringLiteral11419553;
+extern const uint32_t UIStartScreen_onStartButton_m2473121869_MetadataUsageId;
+extern "C"  void UIStartScreen_onStartButton_m2473121869 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_onStartButton_m2473121869_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TriPeaksAnalytics_t1644016319 * G_B2_0 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B1_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	TriPeaksAnalytics_t1644016319 * G_B3_1 = NULL;
+	{
+		TriPeaksAnalytics_t1644016319 * L_0 = TriPeaksAnalytics_get_instance_m2231945586(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_1 = __this->get__autostarting_17();
+		G_B1_0 = L_0;
+		if (!L_1)
+		{
+			G_B2_0 = L_0;
+			goto IL_001a;
+		}
+	}
+	{
+		G_B3_0 = _stringLiteral1105289355;
+		G_B3_1 = G_B1_0;
+		goto IL_001f;
+	}
+
+IL_001a:
+	{
+		G_B3_0 = _stringLiteral11419553;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_001f:
+	{
+		GameAnalyticSender_SendGameStart_m2846336132(G_B3_1, G_B3_0, (Dictionary_2_t309261261 *)NULL, /*hidden argument*/NULL);
+		__this->set__autostarting_17((bool)0);
+		Il2CppObject * L_2 = __this->get__coBringUpStartTime_10();
+		if (!L_2)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		Il2CppObject * L_3 = __this->get__coBringUpStartTime_10();
+		MonoBehaviour_StopCoroutine_m1170478282(__this, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0043:
+	{
+		ViewBase_t3608972958 * L_4 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_5 = View_hideStartScreen_m878308177(((View_t1946640821 *)CastclassClass(L_4, View_t1946640821_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::onCloseClick()
+extern "C"  void UIStartScreen_onCloseClick_m294096179 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	{
+		UIStartScreen_onCloseClick_m2413457078(__this, 2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::onCloseClick(GSN.Skill.Games.Common.Utils.GameSessionExitMode)
+extern Il2CppClass* IArenaProxy_t470567118_il2cpp_TypeInfo_var;
+extern Il2CppClass* IGameSession_t348500823_il2cpp_TypeInfo_var;
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const uint32_t UIStartScreen_onCloseClick_m2413457078_MetadataUsageId;
+extern "C"  void UIStartScreen_onCloseClick_m2413457078 (UIStartScreen_t2387721474 * __this, int32_t ___exitMode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_onCloseClick_m2413457078_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TriPeaksAnalytics_t1644016319 * L_0 = TriPeaksAnalytics_get_instance_m2231945586(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameAnalyticSender_SendStartScreenExit_m2102062342(L_0, (Dictionary_2_t309261261 *)NULL, /*hidden argument*/NULL);
+		Il2CppObject * L_1 = __this->get__coBringUpStartTime_10();
+		MonoBehaviour_StopCoroutine_m1170478282(__this, L_1, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_2 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_StopAudiosOnChan_m1412748067(L_2, 1, (0.0f), /*hidden argument*/NULL);
+		Il2CppObject * L_3 = ArenaProxy_get_instance_m3588091569(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(3 /* GSN.Skill.Games.Common.Utils.IGameSession GSN.Skill.Games.Common.IArenaProxy::get_gameSession() */, IArenaProxy_t470567118_il2cpp_TypeInfo_var, L_3);
+		int32_t L_5 = ___exitMode0;
+		InterfaceActionInvoker1< int32_t >::Invoke(15 /* System.Void GSN.Skill.Games.Common.Utils.IGameSession::set_ExitMode(GSN.Skill.Games.Common.Utils.GameSessionExitMode) */, IGameSession_t348500823_il2cpp_TypeInfo_var, L_4, L_5);
+		ViewBase_t3608972958 * L_6 = ViewBase_get_Instance_m796410162(NULL /*static, unused*/, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(14 /* System.Void GSN.Skill.Games.Common.Client.Game.ViewBase::GameClientComplete() */, L_6);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::playButtonClickSound()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern const uint32_t UIStartScreen_playButtonClickSound_m623770085_MetadataUsageId;
+extern "C"  void UIStartScreen_playButtonClickSound_m623770085 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_playButtonClickSound_m623770085_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioFactory_t2285776918 * L_0 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_0, ((int32_t)25), (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		return;
+	}
+}
+// System.Collections.IEnumerator GSN.Skill.Games.Tripeaks.UIStartScreen::bringUpTimerAfterTime()
+extern Il2CppClass* U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810_il2cpp_TypeInfo_var;
+extern const uint32_t UIStartScreen_bringUpTimerAfterTime_m3071868031_MetadataUsageId;
+extern "C"  Il2CppObject * UIStartScreen_bringUpTimerAfterTime_m3071868031 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_bringUpTimerAfterTime_m3071868031_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * V_0 = NULL;
+	{
+		U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * L_0 = (U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 *)il2cpp_codegen_object_new(U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810_il2cpp_TypeInfo_var);
+		U3CbringUpTimerAfterTimeU3Ec__Iterator0__ctor_m2660045821(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * L_1 = V_0;
+		L_1->set_U24this_0(__this);
+		U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::animateStartScreenOff()
+extern Il2CppCodeGenString* _stringLiteral4064478296;
+extern const uint32_t UIStartScreen_animateStartScreenOff_m1969603820_MetadataUsageId;
+extern "C"  void UIStartScreen_animateStartScreenOff_m1969603820 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_animateStartScreenOff_m1969603820_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_3();
+		Animator_Play_m1123842248(L_0, _stringLiteral4064478296, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::ShowSettings()
+extern "C"  void UIStartScreen_ShowSettings_m588560356 (UIStartScreen_t2387721474 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t1756533147 * L_0 = __this->get_settingsPopup_6();
+		GameObject_SetActive_m2887581199(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen::OnApplicationPause(System.Boolean)
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern const uint32_t UIStartScreen_OnApplicationPause_m591001636_MetadataUsageId;
+extern "C"  void UIStartScreen_OnApplicationPause_m591001636 (UIStartScreen_t2387721474 * __this, bool ___paused0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStartScreen_OnApplicationPause_m591001636_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DateTime_t693205669  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	TimeSpan_t3430258949  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	DateTime_t693205669  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	TimeSpan_t3430258949  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		bool L_0 = ___paused0;
+		if (!L_0)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		int32_t L_1 = __this->get__pauseTimeStart_15();
+		if (L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_2 = __this->get__paused_16();
+		if (L_2)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_3 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_3;
+		TimeSpan_t3430258949  L_4 = DateTime_get_TimeOfDay_m2171154786((&V_0), /*hidden argument*/NULL);
+		V_1 = L_4;
+		double L_5 = TimeSpan_get_TotalMilliseconds_m51604504((&V_1), /*hidden argument*/NULL);
+		__this->set__pauseTimeStart_15((((int32_t)((int32_t)L_5))));
+	}
+
+IL_0038:
+	{
+		__this->set__paused_16((bool)1);
+		goto IL_0087;
+	}
+
+IL_0044:
+	{
+		bool L_6 = __this->get__paused_16();
+		if (!L_6)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_7 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = L_7;
+		TimeSpan_t3430258949  L_8 = DateTime_get_TimeOfDay_m2171154786((&V_3), /*hidden argument*/NULL);
+		V_4 = L_8;
+		double L_9 = TimeSpan_get_TotalMilliseconds_m51604504((&V_4), /*hidden argument*/NULL);
+		int32_t L_10 = __this->get__pauseTimeStart_15();
+		V_2 = ((int32_t)((int32_t)(((int32_t)((int32_t)L_9)))-(int32_t)L_10));
+		int32_t L_11 = V_2;
+		if ((((int32_t)L_11) <= ((int32_t)((int32_t)30000))))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		UIStartScreen_onCloseClick_m2413457078(__this, 3, /*hidden argument*/NULL);
+	}
+
+IL_0080:
+	{
+		__this->set__paused_16((bool)0);
+	}
+
+IL_0087:
+	{
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen/<bringUpTimerAfterTime>c__Iterator0::.ctor()
+extern "C"  void U3CbringUpTimerAfterTimeU3Ec__Iterator0__ctor_m2660045821 (U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GSN.Skill.Games.Tripeaks.UIStartScreen/<bringUpTimerAfterTime>c__Iterator0::MoveNext()
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const uint32_t U3CbringUpTimerAfterTimeU3Ec__Iterator0_MoveNext_m1569318579_MetadataUsageId;
+extern "C"  bool U3CbringUpTimerAfterTimeU3Ec__Iterator0_MoveNext_m1569318579 (U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CbringUpTimerAfterTimeU3Ec__Iterator0_MoveNext_m1569318579_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	float V_1 = 0.0f;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0025;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_004f;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		goto IL_00fd;
+	}
+
+IL_0025:
+	{
+		UIStartScreen_t2387721474 * L_2 = __this->get_U24this_0();
+		float L_3 = L_2->get_INITIAL_TIMER_SEC_7();
+		WaitForSeconds_t3839502067 * L_4 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_4, L_3, /*hidden argument*/NULL);
+		__this->set_U24current_1(L_4);
+		bool L_5 = __this->get_U24disposing_2();
+		if (L_5)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_004a:
+	{
+		goto IL_00ff;
+	}
+
+IL_004f:
+	{
+		goto IL_00c4;
+	}
+
+IL_0054:
+	{
+		UIStartScreen_t2387721474 * L_6 = __this->get_U24this_0();
+		TextMeshProUGUI_t934157183 * L_7 = L_6->get_countdownTxtValue_4();
+		UIStartScreen_t2387721474 * L_8 = __this->get_U24this_0();
+		float L_9 = L_8->get_REVEAL_TIMER_SEC_8();
+		UIStartScreen_t2387721474 * L_10 = __this->get_U24this_0();
+		float L_11 = L_10->get_count_9();
+		V_1 = ((float)((float)L_9-(float)L_11));
+		String_t* L_12 = Single_ToString_m1813392066((&V_1), /*hidden argument*/NULL);
+		TMP_Text_set_text_m2562079954(L_7, L_12, /*hidden argument*/NULL);
+		UIStartScreen_t2387721474 * L_13 = __this->get_U24this_0();
+		UIStartScreen_t2387721474 * L_14 = L_13;
+		float L_15 = L_14->get_count_9();
+		L_14->set_count_9(((float)((float)L_15+(float)(1.0f))));
+		WaitForSeconds_t3839502067 * L_16 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_16, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_16);
+		bool L_17 = __this->get_U24disposing_2();
+		if (L_17)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		__this->set_U24PC_3(2);
+	}
+
+IL_00bf:
+	{
+		goto IL_00ff;
+	}
+
+IL_00c4:
+	{
+		UIStartScreen_t2387721474 * L_18 = __this->get_U24this_0();
+		float L_19 = L_18->get_count_9();
+		UIStartScreen_t2387721474 * L_20 = __this->get_U24this_0();
+		float L_21 = L_20->get_REVEAL_TIMER_SEC_8();
+		if ((((float)L_19) < ((float)L_21)))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		UIStartScreen_t2387721474 * L_22 = __this->get_U24this_0();
+		L_22->set__autostarting_17((bool)1);
+		UIStartScreen_t2387721474 * L_23 = __this->get_U24this_0();
+		UIStartScreen_onStartButton_m2473121869(L_23, /*hidden argument*/NULL);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_00fd:
+	{
+		return (bool)0;
+	}
+
+IL_00ff:
+	{
+		return (bool)1;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIStartScreen/<bringUpTimerAfterTime>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CbringUpTimerAfterTimeU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m27773299 (U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object GSN.Skill.Games.Tripeaks.UIStartScreen/<bringUpTimerAfterTime>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CbringUpTimerAfterTimeU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1245671979 (U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen/<bringUpTimerAfterTime>c__Iterator0::Dispose()
+extern "C"  void U3CbringUpTimerAfterTimeU3Ec__Iterator0_Dispose_m208658388 (U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStartScreen/<bringUpTimerAfterTime>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CbringUpTimerAfterTimeU3Ec__Iterator0_Reset_m84603358_MetadataUsageId;
+extern "C"  void U3CbringUpTimerAfterTimeU3Ec__Iterator0_Reset_m84603358 (U3CbringUpTimerAfterTimeU3Ec__Iterator0_t2157108810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CbringUpTimerAfterTimeU3Ec__Iterator0_Reset_m84603358_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStreakCard::.ctor()
+extern "C"  void UIStreakCard__ctor_m4275157740 (UIStreakCard_t3003196368 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStreakCard::showStreakCard()
+extern Il2CppCodeGenString* _stringLiteral2856037668;
+extern const uint32_t UIStreakCard_showStreakCard_m2699696589_MetadataUsageId;
+extern "C"  void UIStreakCard_showStreakCard_m2699696589 (UIStreakCard_t3003196368 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStreakCard_showStreakCard_m2699696589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get_animator_2();
+		Animator_Play_m1123842248(L_0, _stringLiteral2856037668, /*hidden argument*/NULL);
+		ParticleSystem_t3394631041 * L_1 = __this->get_fireFX_3();
+		ParticleSystem_Play_m4171585816(L_1, /*hidden argument*/NULL);
+		__this->set_visible_5((bool)1);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIStreakCard::hideStreakCard()
+extern const MethodInfo* SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var;
+extern const MethodInfo* AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1253888748;
+extern const uint32_t UIStreakCard_hideStreakCard_m407008490_MetadataUsageId;
+extern "C"  void UIStreakCard_hideStreakCard_m407008490 (UIStreakCard_t3003196368 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIStreakCard_hideStreakCard_m407008490_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_visible_5();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		Animator_t69676727 * L_1 = __this->get_animator_2();
+		Animator_Play_m1123842248(L_1, _stringLiteral1253888748, /*hidden argument*/NULL);
+		ParticleSystem_t3394631041 * L_2 = __this->get_fireFX_3();
+		ParticleSystem_Stop_m941760450(L_2, /*hidden argument*/NULL);
+		AudioFactory_t2285776918 * L_3 = SingletonMonoBehaviour_1_get_instance_m3583281136(NULL /*static, unused*/, /*hidden argument*/SingletonMonoBehaviour_1_get_instance_m3583281136_MethodInfo_var);
+		AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064(L_3, 3, (bool)0, /*hidden argument*/AudioFactory_PlaySoundEffect_TisTriPeaksAudio_t1522499721_m3846574064_MethodInfo_var);
+		__this->set_visible_5((bool)0);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIToggleSlider::.ctor()
+extern "C"  void UIToggleSlider__ctor_m1173611369 (UIToggleSlider_t3362915155 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIToggleSlider::Awake()
+extern const MethodInfo* GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var;
+extern const uint32_t UIToggleSlider_Awake_m2215507952_MetadataUsageId;
+extern "C"  void UIToggleSlider_Awake_m2215507952 (UIToggleSlider_t3362915155 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIToggleSlider_Awake_m2215507952_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		Animator_t69676727 * L_1 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_0, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_MethodInfo_var);
+		__this->set__animator_2(L_1);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UIToggleSlider::isOn(System.Boolean)
+extern Il2CppCodeGenString* _stringLiteral2704910555;
+extern const uint32_t UIToggleSlider_isOn_m2275877877_MetadataUsageId;
+extern "C"  void UIToggleSlider_isOn_m2275877877 (UIToggleSlider_t3362915155 * __this, bool ___isOn0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIToggleSlider_isOn_m2275877877_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_2();
+		bool L_1 = ___isOn0;
+		Animator_SetBool_m2305662531(L_0, _stringLiteral2704910555, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UITutorialBanner::.ctor()
+extern "C"  void UITutorialBanner__ctor_m2540882572 (UITutorialBanner_t4019770918 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UITutorialBanner::setWinText(System.String)
+extern "C"  void UITutorialBanner_setWinText_m3423985723 (UITutorialBanner_t4019770918 * __this, String_t* ___winText0, const MethodInfo* method)
+{
+	{
+		TextMeshProUGUI_t934157183 * L_0 = __this->get_textValue_4();
+		String_t* L_1 = ___winText0;
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
+		TMP_Text_set_text_m2562079954(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UITutorialBanner::ShowHugeWin()
+extern Il2CppCodeGenString* _stringLiteral70220477;
+extern const uint32_t UITutorialBanner_ShowHugeWin_m3255081388_MetadataUsageId;
+extern "C"  void UITutorialBanner_ShowHugeWin_m3255081388 (UITutorialBanner_t4019770918 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UITutorialBanner_ShowHugeWin_m3255081388_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Animator_t69676727 * L_0 = __this->get__animator_2();
+		Animator_Play_m1123842248(L_0, _stringLiteral70220477, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GSN.Skill.Games.Tripeaks.UncoveredCardUndoStep::.ctor(System.Int32,System.Int32)
+extern "C"  void UncoveredCardUndoStep__ctor_m1208817075 (UncoveredCardUndoStep_t769399927 * __this, int32_t ___cardIndex0, int32_t ___cardCovered1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___cardIndex0;
+		__this->set_cardIndex_0(L_0);
+		int32_t L_1 = ___cardCovered1;
+		__this->set_cardCovered_1(L_1);
+		return;
+	}
+}
+extern "C"  void UncoveredCardUndoStep__ctor_m1208817075_AdjustorThunk (Il2CppObject * __this, int32_t ___cardIndex0, int32_t ___cardCovered1, const MethodInfo* method)
+{
+	UncoveredCardUndoStep_t769399927 * _thisAdjusted = reinterpret_cast<UncoveredCardUndoStep_t769399927 *>(__this + 1);
+	UncoveredCardUndoStep__ctor_m1208817075(_thisAdjusted, ___cardIndex0, ___cardCovered1, method);
+}
+// System.Int32 GSN.Skill.Games.Tripeaks.UncoveredCardUndoStep::get_eventTypeInt()
+extern "C"  int32_t UncoveredCardUndoStep_get_eventTypeInt_m2052339807 (UncoveredCardUndoStep_t769399927 * __this, const MethodInfo* method)
+{
+	{
+		return ((int32_t)-2147483624);
+	}
+}
+extern "C"  int32_t UncoveredCardUndoStep_get_eventTypeInt_m2052339807_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	UncoveredCardUndoStep_t769399927 * _thisAdjusted = reinterpret_cast<UncoveredCardUndoStep_t769399927 *>(__this + 1);
+	return UncoveredCardUndoStep_get_eventTypeInt_m2052339807(_thisAdjusted, method);
+}
+// System.Type GSN.Skill.Games.Tripeaks.UncoveredCardUndoStep::get_eventTypeEnum()
+extern const Il2CppType* UndoEventType_t2965253050_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t UncoveredCardUndoStep_get_eventTypeEnum_m724491749_MetadataUsageId;
+extern "C"  Type_t * UncoveredCardUndoStep_get_eventTypeEnum_m724491749 (UncoveredCardUndoStep_t769399927 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UncoveredCardUndoStep_get_eventTypeEnum_m724491749_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(UndoEventType_t2965253050_0_0_0_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  Type_t * UncoveredCardUndoStep_get_eventTypeEnum_m724491749_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	UncoveredCardUndoStep_t769399927 * _thisAdjusted = reinterpret_cast<UncoveredCardUndoStep_t769399927 *>(__this + 1);
+	return UncoveredCardUndoStep_get_eventTypeEnum_m724491749(_thisAdjusted, method);
+}
+// GSN.Skill.Games.Tripeaks.UndoEventType GSN.Skill.Games.Tripeaks.UndoEventExtensions::undoEventType(GSN.Skill.Games.Common.Events.IModelEvent)
+extern Il2CppClass* IModelEvent_t642686546_il2cpp_TypeInfo_var;
+extern const uint32_t UndoEventExtensions_undoEventType_m3520247504_MetadataUsageId;
+extern "C"  int32_t UndoEventExtensions_undoEventType_m3520247504 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___e0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UndoEventExtensions_undoEventType_m3520247504_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___e0;
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 GSN.Skill.Games.Common.Events.IModelEvent::get_eventTypeInt() */, IModelEvent_t642686546_il2cpp_TypeInfo_var, L_0);
+		return (int32_t)(L_1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

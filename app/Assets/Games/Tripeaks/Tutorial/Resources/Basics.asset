@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff72bfd5645477ca2dac66db59fb73, type: 3}
+  m_Name: Basics
+  m_EditorClassIdentifier: 
+  Name: Basics
+  Steps:
+  - Id: Welcome
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Welcome
+      _fullPath: Gameplay/Welcome
+      prefab: {fileID: 162134, guid: d1d8de629094b49c08dffda760b4f578, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: CardMatch
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: MatchCards
+      _fullPath: Gameplay/MatchCards
+      prefab: {fileID: 129458, guid: d15dd75b689c440f4a42aeb4adb4c3b6, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: RevealCards
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: RevealCards
+      _fullPath: Gameplay/RevealCards
+      prefab: {fileID: 110832, guid: 8a6b5cd12355e4070abb1c2457578886, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: RevealCards2
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Reveal2
+      _fullPath: Gameplay/Reveal2
+      prefab: {fileID: 110832, guid: 6769c7c3d7a0b4ef7b8e02e3831c9c73, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: StreakMeter
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: StreakMeter
+      _fullPath: Gameplay/StreakMeter
+      prefab: {fileID: 110832, guid: 4f3b4ea1fa62e455288aa5b37d07f961, type: 2}
+    AdditionalPrefabs:
+    - Name: StreakArrow
+      _fullPath: Gameplay/StreakArrow
+      prefab: {fileID: 132412, guid: b5ab6c7d069fd45ef8e7077d8dc6ee77, type: 2}
+      HideWithStep: 1
+    _countCompletedPrefabs: 0
+  - Id: Streak1
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Streak1
+      _fullPath: Gameplay/Streak1
+      prefab: {fileID: 110832, guid: 92afbe1f40864c34bbd4af466fd835cc, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Streak2
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Streak2
+      _fullPath: Gameplay/Streak2
+      prefab: {fileID: 110832, guid: f9e5fd5d27ca6c345be4d0a92a8d8ec7, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Streak3
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Streak3
+      _fullPath: Gameplay/Streak3
+      prefab: {fileID: 110832, guid: e296817865a25f542bfa962dd9f44d3e, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Wild1
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Wild1
+      _fullPath: Gameplay/Wild1
+      prefab: {fileID: 110832, guid: 039fba93e6ce95f4485963be65858193, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Wild2
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Wild2
+      _fullPath: Gameplay/Wild2
+      prefab: {fileID: 110832, guid: 1d1797775fc083640a315cb270ad513b, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Wild3
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Wild3
+      _fullPath: Gameplay/Wild3
+      prefab: {fileID: 110832, guid: d4c06fe0a59375044876a2e51b65cd1a, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Wild4
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Wild4
+      _fullPath: Gameplay/Wild4
+      prefab: {fileID: 110832, guid: 5227505a0ed578b44bd25fdde2fe73b2, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Reshuffle1
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Reshuffle1
+      _fullPath: Gameplay/Reshuffle1
+      prefab: {fileID: 110832, guid: 412f49d95bccd52488b5f94c2f99fbd7, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Reshuffle2
+    BlocksInput: 1
+    AutoLaunchNextStep: 0
+    CompleteOnHide: 0
+    Prefab:
+      Name: Reshuffle2
+      _fullPath: Gameplay/Reshuffle2
+      prefab: {fileID: 110832, guid: 649ad9dd5c378344699974607ed1589b, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0

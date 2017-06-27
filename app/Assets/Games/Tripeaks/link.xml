@@ -1,0 +1,9 @@
+<linker>
+	<assembly fullname="System">
+		<type fullname="System.ComponentModel.TypeConverter" preserve="all"/>
+    </assembly>
+    <assembly fullname="MsgPack">
+        <type fullname="MsgPack.Serialization.MessagePackSerializer" preserve="all"/>
+		<type fullname="MsgPack.Serialization.SerializationContext" preserve="all"/>
+	</assembly>
+</linker>

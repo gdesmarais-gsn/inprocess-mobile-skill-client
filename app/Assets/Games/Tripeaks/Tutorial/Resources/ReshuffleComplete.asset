@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff72bfd5645477ca2dac66db59fb73, type: 3}
+  m_Name: ReshuffleComplete
+  m_EditorClassIdentifier: 
+  Name: ReshuffleComplete
+  Steps:
+  - Id: Time1
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Time1
+      _fullPath: Gameplay/Time1
+      prefab: {fileID: 162134, guid: 325addb14515eaf4292bbff6ba41b087, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0
+  - Id: Time2
+    BlocksInput: 1
+    AutoLaunchNextStep: 1
+    CompleteOnHide: 0
+    Prefab:
+      Name: Time2
+      _fullPath: Gameplay/Time2
+      prefab: {fileID: 162134, guid: 66a9c4eff10f8804b9af7fd4337e8d71, type: 2}
+    AdditionalPrefabs:
+    - Name: Time2Arrow
+      _fullPath: Gameplay/Time2Arrow
+      prefab: {fileID: 142918, guid: 0cb3cd4b2c48cc349b1b93cc7ddefb3a, type: 2}
+      HideWithStep: 1
+    _countCompletedPrefabs: 1
+  - Id: Score1
+    BlocksInput: 0
+    AutoLaunchNextStep: 0
+    CompleteOnHide: 0
+    Prefab:
+      Name: Score1
+      _fullPath: Gameplay/Score1
+      prefab: {fileID: 110832, guid: 82e146199a49f574cbc7b7d8a5bb882f, type: 2}
+    AdditionalPrefabs: []
+    _countCompletedPrefabs: 0

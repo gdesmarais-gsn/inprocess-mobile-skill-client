@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: underwater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: bridge_wavewater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 2.42130742e-08, y: 4.37113883e-08, z: 1.04626388e-15, w: -1}
+  m_LocalPosition: {x: 0, y: 4.40639353, z: -4.70366669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400002}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.14262659e-14, y: -6, z: .499999791}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebe5be03e0e4d64095135c8c8fe4673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultEvents: []
+  oneShot: 0
+  doEnter: 1
+  doExit: 1
+  tagFilter: 
+  ignoreTagFilter: Debris
+  Root: {fileID: 400000}
+  meshScale: {x: 2, y: .25, z: 1.45000005}
+  mesh: {fileID: 4300000, guid: bdded6f8129fdd543a3507d33624636b, type: 3}
+  material: {fileID: 2100000, guid: f8ca73ccc4b3f15499336c937b947ffe, type: 2}
+  initialSeparation: 2
+  forwardAxis: {x: 0, y: 0, z: -1}
+  rotationAngle: 90
+  rotationAxis: {x: 1, y: 0, z: 0}
+  faceNormal: 1
+  cullOnscreenLeftOffset: 0
+  cullOnscreenRightOffset: 0
+  downSpeed: 4
+  upSpeed: 4
+  width: 64
+  height: 16
+  equation: 1
+  selfSag: 1.5
+  displacementFactor: -1.5
+  massCap: 1
+  flatDist: .800000012
+  rollSpeed: -.5
+  rollMagnitude: .449999988
+  rollFrequency: 3
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebe5be03e0e4d64095135c8c8fe4673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultEvents: []
+  oneShot: 0
+  doEnter: 1
+  doExit: 1
+  tagFilter: 
+  ignoreTagFilter: Debris
+  Root: {fileID: 400002}
+  meshScale: {x: 2, y: 1, z: 6}
+  mesh: {fileID: 4300000, guid: e9cb1cb2101b7b84b9bcfc259d9d6159, type: 2}
+  material: {fileID: 2100000, guid: 491a32e7331fe974dbb50fa82770f077, type: 2}
+  initialSeparation: 3.79999995
+  forwardAxis: {x: 1, y: 0, z: 0}
+  rotationAngle: 90
+  rotationAxis: {x: 0, y: 0, z: 1}
+  faceNormal: 1
+  cullOnscreenLeftOffset: 0
+  cullOnscreenRightOffset: 0
+  downSpeed: 4
+  upSpeed: 4
+  width: 64
+  height: 8
+  equation: 1
+  selfSag: 1.5
+  displacementFactor: -1.5
+  massCap: 1
+  flatDist: .800000012
+  rollSpeed: -.5
+  rollMagnitude: .449999988
+  rollFrequency: 3
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

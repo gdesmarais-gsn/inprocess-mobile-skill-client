@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91daf6bd835cb4f6296a70111b654bef, type: 3}
+  m_Name: WildTip3
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 6371a22edc85ad845b60bdef70676714, type: 3}
+  id: WILD_TIP_3
+  text: Only one card left? Use the Wild Card to clear the board!

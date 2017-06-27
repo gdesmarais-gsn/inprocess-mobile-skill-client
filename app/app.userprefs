@@ -1,0 +1,44 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Games/GameSDK/ArenaDev/Scripts/ArenaDebugMenu.cs">
+    <Files>
+      <File FileName="Assets/Games/GameSDK/ArenaDev/Scripts/TriPeaksWebEntry.cs" Line="57" Column="4" />
+      <File FileName="Assets/Common/WebRequester/WebRequester.cs" Line="1" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/Common/utils/GameLog.cs" Line="896" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/Common/utils/Notarizer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/CommonClient/session/GameSession.cs" Line="1" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/CommonClient/game/ViewBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/Foundation/IGameSession.cs" Line="1" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/Common/utils/MovePlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/CommonClient/game/ControllerBase.cs" Line="39" Column="3" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/CommonClient/game/GameBase.cs" Line="129" Column="42" />
+      <File FileName="Assets/Games/GameSDK/ArenaDev/Scripts/ArenaDebugMenu.cs" Line="259" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/CommonClient/debugmenu/DebugMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Games/GameSDK/ArenaDev/Scripts/DebugMenuLoader.cs" Line="18" Column="5" />
+      <File FileName="Assets/Games/Tripeaks/Editor/AddLevelsToDB.cs" Line="92" Column="105" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/CommonClient/session/ReplayGameSession.cs" Line="118" Column="1" />
+      <File FileName="Assets/Games/Tripeaks/DebugArena/TripeaksArenaDebugMenu.cs" Line="140" Column="1" />
+      <File FileName="Assets/Games/GameSDK/Common/Client/Foundation/ActionQueue.cs" Line="519" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/Common/utils/GameLog.cs" line="896" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/Common/utils/GameLog.cs" line="866" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/Tripeaks/Scripts/Client/UI/UIResults.cs" line="77" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/Common/utils/Notarizer.cs" line="162" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Common/WebRequester/WebRequester.cs" line="78" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/CommonClient/session/GameSession.cs" line="528" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/CommonClient/game/ViewBase.cs" line="107" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/CommonClient/game/ViewBase.cs" line="112" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/Common/utils/Notarizer.cs" line="106" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/Common/Client/Common/utils/Notarizer.cs" line="117" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/ArenaDev/Scripts/ArenaDebugMenu.cs" line="379" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/ArenaDev/Scripts/ArenaDebugMenu.cs" line="406" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/ArenaDev/Scripts/ArenaDebugMenu.cs" line="422" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/ArenaDev/Scripts/ArenaDebugMenu.cs" line="495" column="1" />
+      <Breakpoint file="/Users/gdesmarais/src/repos/git/mobile-skill-client/app/Assets/Games/GameSDK/ArenaDev/Scripts/ArenaDebugMenu.cs" line="511" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
